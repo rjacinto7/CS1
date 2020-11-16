@@ -1,0 +1,380 @@
+Nov  8 18:43:34 aluk10-pri sudo[12698]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 18:43:34 aluk10-pri sudo[12698]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:43:34 aluk10-pri sudo[12698]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 18:43:34 aluk10-pri su[12702]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:43:34 aluk10-pri su[12702]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 19:03:32 aluk10-pri groupadd[12986]: group added to /etc/group: name=postdrop, GID=90
+Nov  8 19:03:32 aluk10-pri groupadd[12986]: group added to /etc/gshadow: name=postdrop
+Nov  8 19:03:32 aluk10-pri groupadd[12986]: new group: name=postdrop, GID=90
+Nov  8 19:03:32 aluk10-pri groupadd[12993]: group added to /etc/group: name=postfix, GID=89
+Nov  8 19:03:32 aluk10-pri groupadd[12993]: group added to /etc/gshadow: name=postfix
+Nov  8 19:03:32 aluk10-pri groupadd[12993]: new group: name=postfix, GID=89
+Nov  8 19:03:32 aluk10-pri useradd[13000]: new user: name=postfix, UID=89, GID=89, home=/var/spool/postfix, shell=/sbin/nologin
+Nov  8 19:03:32 aluk10-pri useradd[13000]: add 'postfix' to group 'mail'
+Nov  8 19:03:32 aluk10-pri useradd[13000]: add 'postfix' to shadow group 'mail'
+Nov  8 19:57:04 aluk10-pri su[12702]: pam_unix(su:session): session closed for user root
+Nov  8 19:57:04 aluk10-pri sudo[12698]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:57:54 aluk10-pri sudo[22486]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl start postfix
+Nov  8 19:57:54 aluk10-pri sudo[22486]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:57:54 aluk10-pri sudo[22486]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 19:57:54 aluk10-pri sudo[22486]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:58:01 aluk10-pri sudo[22493]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl enable postfix
+Nov  8 19:58:01 aluk10-pri sudo[22493]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:58:01 aluk10-pri sudo[22493]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 19:58:01 aluk10-pri sudo[22493]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:58:38 aluk10-pri sudo[22519]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 19:58:38 aluk10-pri sudo[22519]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:58:38 aluk10-pri sudo[22519]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 19:58:38 aluk10-pri su[22521]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:58:38 aluk10-pri su[22521]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:01:47 aluk10-pri su[22521]: pam_unix(su:session): session closed for user root
+Nov  8 20:01:47 aluk10-pri sudo[22519]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:02:11 aluk10-pri sudo[22931]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Nov  8 20:02:11 aluk10-pri sudo[22931]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:02:11 aluk10-pri sudo[22931]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:02:11 aluk10-pri sudo[22931]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:02:21 aluk10-pri sudo[22978]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables --Flush
+Nov  8 20:02:21 aluk10-pri sudo[22978]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:02:21 aluk10-pri sudo[22978]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:02:21 aluk10-pri sudo[22978]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:02:26 aluk10-pri sudo[22981]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables --flush
+Nov  8 20:02:26 aluk10-pri sudo[22981]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:02:26 aluk10-pri sudo[22981]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:02:26 aluk10-pri sudo[22981]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:04:27 aluk10-pri sudo[23010]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 20:04:27 aluk10-pri sudo[23010]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:04:27 aluk10-pri sudo[23010]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:04:27 aluk10-pri su[23012]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:04:27 aluk10-pri su[23012]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:13:54 aluk10-pri su[23012]: pam_unix(su:session): session closed for user root
+Nov  8 20:13:54 aluk10-pri sudo[23010]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:14:20 aluk10-pri sudo[23171]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Nov  8 20:14:20 aluk10-pri sudo[23171]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:14:20 aluk10-pri sudo[23171]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:14:28 aluk10-pri sudo[23171]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:14:32 aluk10-pri sudo[23176]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 20:14:32 aluk10-pri sudo[23176]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:14:32 aluk10-pri sudo[23176]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:14:32 aluk10-pri su[23178]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:14:32 aluk10-pri su[23178]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:16:13 aluk10-pri su[23178]: pam_unix(su:session): session closed for user root
+Nov  8 20:16:13 aluk10-pri sudo[23176]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:16:31 aluk10-pri sudo[23237]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 20:16:31 aluk10-pri sudo[23237]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:16:31 aluk10-pri sudo[23237]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:16:31 aluk10-pri su[23239]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:16:31 aluk10-pri su[23239]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:16:44 aluk10-pri su[23239]: pam_unix(su:session): session closed for user root
+Nov  8 20:16:44 aluk10-pri sudo[23237]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:17:08 aluk10-pri sudo[23261]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov  8 20:17:08 aluk10-pri sudo[23261]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:17:08 aluk10-pri sudo[23261]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:17:18 aluk10-pri sudo[23261]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:19:24 aluk10-pri login[2044]: pam_unix(login:session): session closed for user aluk10
+Nov  8 20:19:28 aluk10-pri systemd[23298]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Nov  8 20:19:28 aluk10-pri login[23279]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Nov  8 20:19:28 aluk10-pri login[23279]: LOGIN ON tty1 BY aluk10
+Nov  8 20:23:42 aluk10-pri sudo[23367]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl status mailx
+Nov  8 20:23:42 aluk10-pri sudo[23367]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:23:42 aluk10-pri sudo[23367]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:23:42 aluk10-pri sudo[23367]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:23:46 aluk10-pri sudo[23373]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl status postfix
+Nov  8 20:23:46 aluk10-pri sudo[23373]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:23:46 aluk10-pri sudo[23373]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:25:18 aluk10-pri sudo[23373]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:29:47 aluk10-pri sudo[23408]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 20:29:47 aluk10-pri sudo[23408]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:29:47 aluk10-pri sudo[23408]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:29:47 aluk10-pri su[23412]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:29:47 aluk10-pri su[23412]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:34:39 aluk10-pri su[23412]: pam_unix(su:session): session closed for user root
+Nov  8 20:34:39 aluk10-pri sudo[23408]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:35:38 aluk10-pri sudo[23466]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /etc/resolv.conf
+Nov  8 20:35:38 aluk10-pri sudo[23466]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:35:38 aluk10-pri sudo[23466]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:35:38 aluk10-pri sudo[23466]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:36:07 aluk10-pri sudo[23472]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov  8 20:36:07 aluk10-pri sudo[23472]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:36:07 aluk10-pri sudo[23472]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:36:12 aluk10-pri sudo[23472]: pam_unix(sudo:session): session closed for user root
+Nov  8 20:54:43 aluk10-pri sudo[23539]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 20:54:43 aluk10-pri sudo[23539]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:54:43 aluk10-pri sudo[23539]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 20:54:43 aluk10-pri su[23543]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 20:54:43 aluk10-pri su[23543]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 21:15:19 aluk10-pri su[23543]: pam_unix(su:session): session closed for user root
+Nov  8 21:15:19 aluk10-pri sudo[23539]: pam_unix(sudo:session): session closed for user root
+Nov  8 21:16:21 aluk10-pri sudo[23653]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 21:16:21 aluk10-pri sudo[23653]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 21:16:21 aluk10-pri sudo[23653]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 21:16:21 aluk10-pri su[23657]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 21:16:21 aluk10-pri su[23657]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 21:18:57 aluk10-pri su[23657]: pam_unix(su:session): session closed for user root
+Nov  8 21:18:57 aluk10-pri sudo[23653]: pam_unix(sudo:session): session closed for user root
+Nov  8 21:23:59 aluk10-pri polkitd[973]: Registered Authentication Agent for unix-process:23763:139361855 (system bus name :1.1053 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Nov  8 21:24:03 aluk10-pri polkitd[973]: Operator of unix-process:23763:139361855 successfully authenticated as unix-user:aluk10 to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.1054 [systemctl restart named] (owned by unix-user:aluk10)
+Nov  8 21:24:03 aluk10-pri polkitd[973]: Unregistered Authentication Agent for unix-process:23763:139361855 (system bus name :1.1053, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Nov  8 21:28:39 aluk10-pri sudo[23808]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 21:28:39 aluk10-pri sudo[23808]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 21:28:39 aluk10-pri sudo[23808]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 21:28:39 aluk10-pri sudo[23808]: pam_unix(sudo:session): session closed for user root
+Nov  8 21:33:41 aluk10-pri sudo[23825]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /var/named/named.ca
+Nov  8 21:33:41 aluk10-pri sudo[23825]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 21:33:41 aluk10-pri sudo[23825]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 21:33:48 aluk10-pri sudo[23825]: pam_unix(sudo:session): session closed for user root
+Nov  8 21:40:22 aluk10-pri sudo[23844]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Nov  8 21:40:22 aluk10-pri sudo[23844]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 21:40:22 aluk10-pri sudo[23844]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 21:41:07 aluk10-pri sudo[23844]: pam_unix(sudo:session): session closed for user root
+Nov  8 21:41:12 aluk10-pri sudo[23850]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Nov  8 21:41:12 aluk10-pri sudo[23850]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 21:41:12 aluk10-pri sudo[23850]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 21:41:48 aluk10-pri sudo[23850]: pam_unix(sudo:session): session closed for user root
+Nov  8 21:41:55 aluk10-pri polkitd[973]: Registered Authentication Agent for unix-process:23854:139469460 (system bus name :1.1077 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Nov  8 21:41:58 aluk10-pri polkitd[973]: Operator of unix-process:23854:139469460 successfully authenticated as unix-user:aluk10 to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.1078 [systemctl restart named] (owned by unix-user:aluk10)
+Nov  8 21:41:59 aluk10-pri polkitd[973]: Unregistered Authentication Agent for unix-process:23854:139469460 (system bus name :1.1077, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Nov  8 21:42:03 aluk10-pri sudo[23895]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 21:42:03 aluk10-pri sudo[23895]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 21:42:03 aluk10-pri sudo[23895]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 21:42:03 aluk10-pri su[23897]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 21:42:03 aluk10-pri su[23897]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:11:27 aluk10-pri su[23897]: pam_unix(su:session): session closed for user root
+Nov  8 22:11:27 aluk10-pri sudo[23895]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:13:40 aluk10-pri sudo[24142]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 22:13:40 aluk10-pri sudo[24142]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:13:40 aluk10-pri sudo[24142]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:13:40 aluk10-pri sudo[24142]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:16:10 aluk10-pri sudo[24170]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 22:16:10 aluk10-pri sudo[24170]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:16:10 aluk10-pri sudo[24170]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:16:10 aluk10-pri sudo[24170]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:17:11 aluk10-pri sudo[24173]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 22:17:11 aluk10-pri sudo[24173]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:17:11 aluk10-pri sudo[24173]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:17:11 aluk10-pri su[24175]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:17:11 aluk10-pri su[24175]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:21:09 aluk10-pri su[24175]: pam_unix(su:session): session closed for user root
+Nov  8 22:21:09 aluk10-pri sudo[24173]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:23:31 aluk10-pri sudo[24209]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p ALL --dport 25 -j ACCEPT
+Nov  8 22:23:31 aluk10-pri sudo[24209]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:23:31 aluk10-pri sudo[24209]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:23:31 aluk10-pri sudo[24209]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:23:40 aluk10-pri sudo[24214]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p ALL -dport 25 -j ACCEPT
+Nov  8 22:23:40 aluk10-pri sudo[24214]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:23:40 aluk10-pri sudo[24214]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:23:40 aluk10-pri sudo[24214]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:23:47 aluk10-pri sudo[24217]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p ALL --dport 25 -j ACCEPT
+Nov  8 22:23:47 aluk10-pri sudo[24217]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:23:47 aluk10-pri sudo[24217]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:23:47 aluk10-pri sudo[24217]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:28:44 aluk10-pri sudo[24243]:  aluk10 : TTY=tty1 ; PWD=/var/spool/mail ; USER=root ; COMMAND=/bin/cat student
+Nov  8 22:28:44 aluk10-pri sudo[24243]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:28:44 aluk10-pri sudo[24243]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:28:44 aluk10-pri sudo[24243]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:30:24 aluk10-pri polkitd[973]: Registered Authentication Agent for unix-process:24246:139760328 (system bus name :1.1129 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Nov  8 22:30:26 aluk10-pri polkitd[973]: Operator of unix-process:24246:139760328 successfully authenticated as unix-user:aluk10 to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.1130 [systemctl restart postfix] (owned by unix-user:aluk10)
+Nov  8 22:30:27 aluk10-pri polkitd[973]: Unregistered Authentication Agent for unix-process:24246:139760328 (system bus name :1.1129, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Nov  8 22:33:38 aluk10-pri sudo[24415]:  aluk10 : TTY=tty1 ; PWD=/var/spool/mail ; USER=root ; COMMAND=/bin/nano /var/named/db-aluk10.com
+Nov  8 22:33:38 aluk10-pri sudo[24415]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:33:38 aluk10-pri sudo[24415]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:34:27 aluk10-pri sudo[24415]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:34:32 aluk10-pri polkitd[973]: Registered Authentication Agent for unix-process:24419:139785179 (system bus name :1.1194 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Nov  8 22:34:35 aluk10-pri polkitd[973]: Operator of unix-process:24419:139785179 successfully authenticated as unix-user:aluk10 to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.1195 [systemctl restart named] (owned by unix-user:aluk10)
+Nov  8 22:34:35 aluk10-pri polkitd[973]: Unregistered Authentication Agent for unix-process:24419:139785179 (system bus name :1.1194, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Nov  8 22:42:15 aluk10-pri sudo[24595]:  aluk10 : TTY=tty1 ; PWD=/var/spool/mail ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 22:42:15 aluk10-pri sudo[24595]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:42:15 aluk10-pri sudo[24595]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:42:15 aluk10-pri sudo[24595]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:51:23 aluk10-pri sudo[24619]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Nov  8 22:51:23 aluk10-pri sudo[24619]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:51:23 aluk10-pri sudo[24619]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 22:51:23 aluk10-pri sudo[24619]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:00:39 aluk10-pri sudo[24701]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov  8 23:00:39 aluk10-pri sudo[24701]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:00:39 aluk10-pri sudo[24701]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 23:00:39 aluk10-pri su[24705]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:00:39 aluk10-pri su[24705]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov  8 23:10:25 aluk10-pri sudo[24827]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/grep /var/log/maillog
+Nov  8 23:10:25 aluk10-pri sudo[24827]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:10:25 aluk10-pri sudo[24827]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov  8 23:10:31 aluk10-pri sudo[24827]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:28:26 aluk10-pri unix_chkpwd[24887]: password check failed for user (aluk10)
+Nov  8 23:28:26 aluk10-pri sshd[24879]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.4.4  user=aluk10
+Nov  8 23:28:27 aluk10-pri sshd[24879]: Failed password for aluk10 from 192.168.4.4 port 59836 ssh2
+Nov  8 23:28:29 aluk10-pri sshd[24879]: Connection closed by authenticating user aluk10 192.168.4.4 port 59836 [preauth]
+Nov  8 23:28:44 aluk10-pri unix_chkpwd[24946]: password check failed for user (aluk10)
+Nov  8 23:28:44 aluk10-pri sshd[24938]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.4.4  user=aluk10
+Nov  8 23:28:46 aluk10-pri sshd[24938]: Failed password for aluk10 from 192.168.4.4 port 59838 ssh2
+Nov  8 23:28:48 aluk10-pri sshd[24938]: Connection closed by authenticating user aluk10 192.168.4.4 port 59838 [preauth]
+Nov  8 23:28:51 aluk10-pri sshd[24948]: Connection closed by authenticating user aluk10 192.168.4.4 port 59840 [preauth]
+Nov  8 23:28:57 aluk10-pri sshd[24950]: Connection closed by authenticating user student 192.168.4.4 port 59842 [preauth]
+Nov  8 23:29:57 aluk10-pri sshd[25005]: Connection closed by authenticating user student 192.168.4.4 port 59844 [preauth]
+Nov  8 23:30:42 aluk10-pri sshd[25010]: Connection closed by authenticating user student 192.168.4.4 port 59848 [preauth]
+Nov 10 15:06:21 aluk10-pri sshd[26329]: Accepted publickey for instructor from 172.16.0.1 port 32866 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 10 15:06:21 aluk10-pri systemd[26333]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:21 aluk10-pri sshd[26329]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:21 aluk10-pri sshd[26344]: Received disconnect from 172.16.0.1 port 32866:11: disconnected by user
+Nov 10 15:06:21 aluk10-pri sshd[26344]: Disconnected from user instructor 172.16.0.1 port 32866
+Nov 10 15:06:21 aluk10-pri sshd[26329]: pam_unix(sshd:session): session closed for user instructor
+Nov 10 15:06:22 aluk10-pri systemd[26338]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 11 20:06:23 aluk10-pri sshd[27174]: Accepted publickey for instructor from 172.16.0.1 port 33388 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 11 20:06:23 aluk10-pri systemd[27178]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:23 aluk10-pri sshd[27174]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:23 aluk10-pri sshd[27189]: Received disconnect from 172.16.0.1 port 33388:11: disconnected by user
+Nov 11 20:06:23 aluk10-pri sshd[27189]: Disconnected from user instructor 172.16.0.1 port 33388
+Nov 11 20:06:23 aluk10-pri sshd[27174]: pam_unix(sshd:session): session closed for user instructor
+Nov 11 20:06:23 aluk10-pri systemd[27183]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:05:33 aluk10-pri sshd[28008]: Accepted publickey for instructor from 172.16.0.1 port 33836 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:05:33 aluk10-pri systemd[28012]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:33 aluk10-pri sshd[28008]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:34 aluk10-pri sshd[28024]: Received disconnect from 172.16.0.1 port 33836:11: disconnected by user
+Nov 13 01:05:34 aluk10-pri sshd[28024]: Disconnected from user instructor 172.16.0.1 port 33836
+Nov 13 01:05:34 aluk10-pri sshd[28008]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:05:34 aluk10-pri systemd[28018]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:10:22 aluk10-pri sshd[28049]: Accepted publickey for instructor from 172.16.0.1 port 34086 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:10:22 aluk10-pri systemd[28053]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:10:22 aluk10-pri sshd[28049]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:10:22 aluk10-pri sshd[28063]: Received disconnect from 172.16.0.1 port 34086:11: disconnected by user
+Nov 13 01:10:22 aluk10-pri sshd[28063]: Disconnected from user instructor 172.16.0.1 port 34086
+Nov 13 01:10:22 aluk10-pri sshd[28049]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:10:22 aluk10-pri systemd[28057]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 21:14:40 aluk10-pri su[24705]: pam_unix(su:session): session closed for user root
+Nov 13 21:14:40 aluk10-pri sudo[24701]: pam_unix(sudo:session): session closed for user root
+Nov 13 21:16:03 aluk10-pri sudo[28654]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -F
+Nov 13 21:16:03 aluk10-pri sudo[28654]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 13 21:16:03 aluk10-pri sudo[28654]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov 13 21:16:03 aluk10-pri sudo[28654]: pam_unix(sudo:session): session closed for user root
+Nov 13 21:17:31 aluk10-pri sudo[28674]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/tail /var/log/messages
+Nov 13 21:17:31 aluk10-pri sudo[28674]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 13 21:17:31 aluk10-pri sudo[28674]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov 13 21:17:31 aluk10-pri sudo[28674]: pam_unix(sudo:session): session closed for user root
+Nov 13 21:18:24 aluk10-pri sudo[28677]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/tail /var/log/maillog
+Nov 13 21:18:24 aluk10-pri sudo[28677]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 13 21:18:24 aluk10-pri sudo[28677]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov 13 21:18:24 aluk10-pri sudo[28677]: pam_unix(sudo:session): session closed for user root
+Nov 13 21:18:28 aluk10-pri sudo[28681]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/tail /var/log/maillog
+Nov 13 21:18:28 aluk10-pri sudo[28681]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 13 21:18:28 aluk10-pri sudo[28681]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov 13 21:18:28 aluk10-pri sudo[28681]: pam_unix(sudo:session): session closed for user root
+Nov 13 21:29:32 aluk10-pri sudo[28722]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/tail /var/log/maillog
+Nov 13 21:29:32 aluk10-pri sudo[28722]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 13 21:29:32 aluk10-pri sudo[28722]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov 13 21:29:32 aluk10-pri sudo[28722]: pam_unix(sudo:session): session closed for user root
+Nov 15 00:17:17 aluk10-pri sudo[29483]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Nov 15 00:17:17 aluk10-pri sudo[29483]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 00:17:17 aluk10-pri sudo[29483]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Nov 15 00:17:17 aluk10-pri su[29487]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 15 00:17:17 aluk10-pri su[29487]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Nov 15 01:22:01 aluk10-pri systemd[29887]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:23:01 aluk10-pri systemd[29913]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:24:01 aluk10-pri systemd[29936]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:25:01 aluk10-pri systemd[29960]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:26:01 aluk10-pri systemd[29988]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:27:01 aluk10-pri systemd[30025]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:28:02 aluk10-pri systemd[30058]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:29:01 aluk10-pri systemd[30091]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:30:01 aluk10-pri systemd[30124]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:31:01 aluk10-pri systemd[30157]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:32:01 aluk10-pri systemd[30190]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:33:02 aluk10-pri systemd[30223]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:34:01 aluk10-pri systemd[30256]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:35:01 aluk10-pri systemd[30289]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:36:02 aluk10-pri systemd[30322]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:37:01 aluk10-pri systemd[30356]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:38:01 aluk10-pri systemd[30389]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:39:01 aluk10-pri systemd[30422]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:40:01 aluk10-pri systemd[30455]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:41:01 aluk10-pri systemd[30488]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:42:01 aluk10-pri systemd[30521]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:43:01 aluk10-pri systemd[30555]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:44:01 aluk10-pri systemd[30588]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:45:01 aluk10-pri systemd[30621]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:46:01 aluk10-pri systemd[30654]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:47:01 aluk10-pri systemd[30687]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:48:01 aluk10-pri systemd[30721]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:49:01 aluk10-pri systemd[30754]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:50:01 aluk10-pri systemd[30787]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:51:01 aluk10-pri systemd[30820]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:52:01 aluk10-pri systemd[30853]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:53:01 aluk10-pri systemd[30886]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:54:02 aluk10-pri systemd[30919]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:55:01 aluk10-pri systemd[30952]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:56:01 aluk10-pri systemd[30985]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:57:01 aluk10-pri systemd[31018]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:58:01 aluk10-pri systemd[31052]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:59:01 aluk10-pri systemd[31085]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:00:01 aluk10-pri systemd[31118]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:01:01 aluk10-pri systemd[31154]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:02:01 aluk10-pri systemd[31198]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:03:01 aluk10-pri systemd[31240]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:04:02 aluk10-pri systemd[31273]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:05:01 aluk10-pri systemd[31306]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:06:01 aluk10-pri systemd[31339]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:07:01 aluk10-pri systemd[31372]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:08:01 aluk10-pri systemd[31405]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:09:01 aluk10-pri systemd[31439]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:10:01 aluk10-pri systemd[31472]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:11:01 aluk10-pri systemd[31505]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:12:02 aluk10-pri systemd[31538]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:13:01 aluk10-pri systemd[31571]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:14:01 aluk10-pri systemd[31604]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:15:01 aluk10-pri systemd[31639]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:16:01 aluk10-pri systemd[31673]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:17:02 aluk10-pri systemd[31706]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:18:01 aluk10-pri systemd[31739]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:19:01 aluk10-pri systemd[31772]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:20:01 aluk10-pri systemd[31805]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:21:01 aluk10-pri systemd[31838]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:22:01 aluk10-pri systemd[31872]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:23:01 aluk10-pri systemd[31905]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:24:01 aluk10-pri systemd[31938]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:25:01 aluk10-pri systemd[31971]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:26:01 aluk10-pri systemd[32004]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:27:02 aluk10-pri systemd[32037]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:28:01 aluk10-pri systemd[32070]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:29:01 aluk10-pri systemd[32103]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:30:01 aluk10-pri systemd[32136]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:31:01 aluk10-pri systemd[32169]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:32:01 aluk10-pri systemd[32203]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:33:01 aluk10-pri systemd[32236]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:34:01 aluk10-pri systemd[32269]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:35:01 aluk10-pri systemd[32302]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:36:01 aluk10-pri systemd[32335]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:37:01 aluk10-pri systemd[32368]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:38:01 aluk10-pri systemd[32402]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:39:01 aluk10-pri systemd[32435]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:40:01 aluk10-pri systemd[32468]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:41:01 aluk10-pri systemd[32501]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:42:01 aluk10-pri systemd[32534]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:43:01 aluk10-pri systemd[32567]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:44:01 aluk10-pri systemd[32600]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:45:01 aluk10-pri systemd[32633]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:46:01 aluk10-pri systemd[32667]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:47:01 aluk10-pri systemd[32700]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:48:01 aluk10-pri systemd[32733]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:49:01 aluk10-pri systemd[32766]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:50:01 aluk10-pri systemd[32799]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:51:01 aluk10-pri systemd[32832]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:52:01 aluk10-pri systemd[32865]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:53:01 aluk10-pri systemd[32898]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:54:01 aluk10-pri systemd[32932]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:55:01 aluk10-pri systemd[32966]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:56:01 aluk10-pri systemd[32999]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:57:01 aluk10-pri systemd[33032]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:58:01 aluk10-pri systemd[33065]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 02:59:01 aluk10-pri systemd[33098]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:00:01 aluk10-pri systemd[33131]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:01:01 aluk10-pri systemd[33167]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:02:01 aluk10-pri systemd[33210]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:03:01 aluk10-pri systemd[33246]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:04:01 aluk10-pri systemd[33280]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:05:01 aluk10-pri systemd[33314]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:06:01 aluk10-pri systemd[33347]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:07:01 aluk10-pri systemd[33380]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:08:02 aluk10-pri systemd[33413]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:09:01 aluk10-pri systemd[33446]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:10:01 aluk10-pri systemd[33479]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:11:01 aluk10-pri systemd[33512]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:12:01 aluk10-pri systemd[33545]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:13:01 aluk10-pri systemd[33578]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 03:14:01 aluk10-pri systemd[33612]: pam_unix(systemd-user:session): session opened for user root by (uid=0)

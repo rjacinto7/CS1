@@ -1,0 +1,5 @@
+[Sun Oct 18 03:11:33.665737 2020] [lbmethod_heartbeat:notice] [pid 34197:tid 140720089155904] AH02282: No slotmem from mod_heartmonitor
+[Sun Oct 18 03:11:33.666389 2020] [http2:warn] [pid 34197:tid 140720089155904] AH02951: mod_ssl does not seem to be enabled
+[Sun Oct 18 03:11:33.666802 2020] [mpm_event:notice] [pid 34197:tid 140720089155904] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Sun Oct 18 03:11:33.666819 2020] [core:notice] [pid 34197:tid 140720089155904] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Oct 21 19:06:49.060747 2020] [mpm_event:notice] [pid 34197:tid 140720089155904] AH00492: caught SIGWINCH, shutting down gracefully

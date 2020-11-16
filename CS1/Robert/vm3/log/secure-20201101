@@ -1,0 +1,7 @@
+Oct 27 17:32:15 rjacinto1-pri sshd[7085]: Accepted publickey for instructor from 172.16.0.1 port 55156 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 27 17:32:16 rjacinto1-pri systemd[7089]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:16 rjacinto1-pri sshd[7085]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:16 rjacinto1-pri sshd[7100]: Received disconnect from 172.16.0.1 port 55156:11: disconnected by user
+Oct 27 17:32:16 rjacinto1-pri sshd[7100]: Disconnected from user instructor 172.16.0.1 port 55156
+Oct 27 17:32:16 rjacinto1-pri sshd[7085]: pam_unix(sshd:session): session closed for user instructor
+Oct 27 17:32:16 rjacinto1-pri systemd[7094]: pam_unix(systemd-user:session): session closed for user instructor

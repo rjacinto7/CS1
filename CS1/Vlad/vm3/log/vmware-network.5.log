@@ -1,0 +1,17 @@
++ chmod 0600 /var/log/vmware-network.log
+++ date
++ echo Tue Jun 23 11:27:42 EDT 2020 ': Executing '\''/etc/vmware-tools/scripts/vmware/network poweron-vm'\'''
+Tue Jun 23 11:27:42 EDT 2020 : Executing '/etc/vmware-tools/scripts/vmware/network poweron-vm'
++ echo
+
+++ dirname /etc/vmware-tools/scripts/vmware/network
++ . /etc/vmware-tools/scripts/vmware/../../statechange.subr
++ main poweron-vm
++ exitCode=0
++ activeList=/var/run/vmware-active-nics
++ case "$1" in
++ rm -f /var/run/vmware-active-nics
++ return 0
+++ date
++ echo Tue Jun 23 11:27:42 EDT 2020 ': Finished '\''/etc/vmware-tools/scripts/vmware/network poweron-vm'\'''
+Tue Jun 23 11:27:42 EDT 2020 : Finished '/etc/vmware-tools/scripts/vmware/network poweron-vm'

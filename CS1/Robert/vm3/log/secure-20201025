@@ -1,0 +1,287 @@
+Oct 21 16:17:15 rjacinto1-pri polkitd[965]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 16:17:15 rjacinto1-pri polkitd[965]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 16:17:15 rjacinto1-pri polkitd[965]: Finished loading, compiling and executing 2 rules
+Oct 21 16:17:15 rjacinto1-pri polkitd[965]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 16:17:18 rjacinto1-pri sshd[994]: Server listening on 0.0.0.0 port 22.
+Oct 21 16:17:18 rjacinto1-pri sshd[994]: Server listening on :: port 22.
+Oct 21 16:17:35 rjacinto1-pri systemd[1485]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 21 16:17:35 rjacinto1-pri login[1062]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 21 16:17:35 rjacinto1-pri login[1062]: LOGIN ON tty1 BY student
+Oct 21 16:17:42 rjacinto1-pri sudo[1523]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Oct 21 16:17:42 rjacinto1-pri sudo[1523]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 16:17:42 rjacinto1-pri sudo[1523]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 16:17:42 rjacinto1-pri su[1527]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 16:17:42 rjacinto1-pri su[1527]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 21 16:47:55 rjacinto1-pri polkitd[967]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 16:47:55 rjacinto1-pri polkitd[967]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 16:47:55 rjacinto1-pri polkitd[967]: Finished loading, compiling and executing 2 rules
+Oct 21 16:47:55 rjacinto1-pri polkitd[967]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 16:48:00 rjacinto1-pri sshd[1007]: Server listening on 0.0.0.0 port 22.
+Oct 21 16:48:00 rjacinto1-pri sshd[1007]: Server listening on :: port 22.
+Oct 21 16:48:12 rjacinto1-pri systemd[1493]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 21 16:48:13 rjacinto1-pri login[1071]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 21 16:48:13 rjacinto1-pri login[1071]: LOGIN ON tty1 BY student
+Oct 21 16:48:15 rjacinto1-pri sudo[1530]: pam_unix(sudo:auth): conversation failed
+Oct 21 16:48:15 rjacinto1-pri sudo[1530]: pam_unix(sudo:auth): auth could not identify password for [student]
+Oct 21 16:48:18 rjacinto1-pri sudo[1532]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Oct 21 16:48:18 rjacinto1-pri sudo[1532]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 16:48:18 rjacinto1-pri sudo[1532]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 16:48:18 rjacinto1-pri su[1536]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 16:48:18 rjacinto1-pri su[1536]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 21 17:15:25 rjacinto1-pri sudo[1602]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:15:25 rjacinto1-pri sudo[1602]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:15:25 rjacinto1-pri sudo[1602]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:15:25 rjacinto1-pri sudo[1602]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:15:45 rjacinto1-pri sudo[1606]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:15:45 rjacinto1-pri sudo[1606]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:15:45 rjacinto1-pri sudo[1606]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:15:45 rjacinto1-pri sudo[1606]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:16:08 rjacinto1-pri sudo[1611]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:16:08 rjacinto1-pri sudo[1611]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:16:08 rjacinto1-pri sudo[1611]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:16:08 rjacinto1-pri sudo[1611]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:16:25 rjacinto1-pri sudo[1615]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:16:25 rjacinto1-pri sudo[1615]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:16:25 rjacinto1-pri sudo[1615]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:16:25 rjacinto1-pri sudo[1615]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:17:02 rjacinto1-pri sudo[1619]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:17:02 rjacinto1-pri sudo[1619]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:17:02 rjacinto1-pri sudo[1619]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:17:02 rjacinto1-pri sudo[1619]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:17:15 rjacinto1-pri sudo[1623]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:17:15 rjacinto1-pri sudo[1623]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:17:15 rjacinto1-pri sudo[1623]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:17:15 rjacinto1-pri sudo[1623]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:17:22 rjacinto1-pri sudo[1627]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:17:22 rjacinto1-pri sudo[1627]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:17:22 rjacinto1-pri sudo[1627]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:17:22 rjacinto1-pri sudo[1627]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:19:07 rjacinto1-pri sudo[1631]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:19:07 rjacinto1-pri sudo[1631]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:19:07 rjacinto1-pri sudo[1631]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:19:07 rjacinto1-pri sudo[1631]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:19:25 rjacinto1-pri sudo[1635]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:19:25 rjacinto1-pri sudo[1635]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:19:25 rjacinto1-pri sudo[1635]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:19:25 rjacinto1-pri sudo[1635]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:20:11 rjacinto1-pri sudo[1639]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:20:11 rjacinto1-pri sudo[1639]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:20:11 rjacinto1-pri sudo[1639]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:20:11 rjacinto1-pri sudo[1639]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:20:24 rjacinto1-pri sudo[1643]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:20:24 rjacinto1-pri sudo[1643]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:20:24 rjacinto1-pri sudo[1643]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:20:24 rjacinto1-pri sudo[1643]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:22:04 rjacinto1-pri sudo[1647]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:22:04 rjacinto1-pri sudo[1647]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:22:04 rjacinto1-pri sudo[1647]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:22:04 rjacinto1-pri sudo[1647]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:22:30 rjacinto1-pri sudo[1651]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:22:30 rjacinto1-pri sudo[1651]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:22:30 rjacinto1-pri sudo[1651]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:22:30 rjacinto1-pri sudo[1651]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:22:37 rjacinto1-pri sudo[1655]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:22:37 rjacinto1-pri sudo[1655]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:22:37 rjacinto1-pri sudo[1655]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:22:37 rjacinto1-pri sudo[1655]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:22:56 rjacinto1-pri sudo[1659]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:22:56 rjacinto1-pri sudo[1659]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:22:56 rjacinto1-pri sudo[1659]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:22:56 rjacinto1-pri sudo[1659]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:23:34 rjacinto1-pri sudo[1663]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 17:23:34 rjacinto1-pri sudo[1663]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:23:34 rjacinto1-pri sudo[1663]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:23:34 rjacinto1-pri sudo[1663]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:24:06 rjacinto1-pri sudo[1666]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone rjacinto1.ravz.com /etc/named/zones/db.rjacinto1-pri.ravz.com
+Oct 21 17:24:06 rjacinto1-pri sudo[1666]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:24:06 rjacinto1-pri sudo[1666]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:24:06 rjacinto1-pri sudo[1666]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:24:56 rjacinto1-pri sudo[1669]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone 13.168.192.in.addr.arpa /etc/named/zones/13.168.192.in.addr.arpa
+Oct 21 17:24:56 rjacinto1-pri sudo[1669]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:24:56 rjacinto1-pri sudo[1669]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:24:56 rjacinto1-pri sudo[1669]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:25:40 rjacinto1-pri sudo[1673]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/named-checkzone 13.168.192.in.addr.arpa /etc/named/zones/db.13.168.192
+Oct 21 17:25:40 rjacinto1-pri sudo[1673]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:25:40 rjacinto1-pri sudo[1673]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:25:40 rjacinto1-pri sudo[1673]: pam_unix(sudo:session): session closed for user root
+Oct 21 17:28:00 rjacinto1-pri polkitd[957]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 17:28:00 rjacinto1-pri polkitd[957]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 17:28:00 rjacinto1-pri polkitd[957]: Finished loading, compiling and executing 2 rules
+Oct 21 17:28:00 rjacinto1-pri polkitd[957]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 17:28:06 rjacinto1-pri sshd[992]: Server listening on 0.0.0.0 port 22.
+Oct 21 17:28:06 rjacinto1-pri sshd[992]: Server listening on :: port 22.
+Oct 21 17:29:03 rjacinto1-pri systemd[1485]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 21 17:29:04 rjacinto1-pri login[1058]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 21 17:29:04 rjacinto1-pri login[1058]: LOGIN ON tty1 BY student
+Oct 21 17:29:32 rjacinto1-pri sudo[1524]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Oct 21 17:29:32 rjacinto1-pri sudo[1524]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:29:32 rjacinto1-pri sudo[1524]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:29:32 rjacinto1-pri su[1528]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:29:32 rjacinto1-pri su[1528]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 21 17:31:03 rjacinto1-pri sshd[1010]: Server listening on 0.0.0.0 port 22.
+Oct 21 17:31:03 rjacinto1-pri sshd[1010]: Server listening on :: port 22.
+Oct 21 17:31:03 rjacinto1-pri polkitd[973]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 17:31:03 rjacinto1-pri polkitd[973]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 17:31:03 rjacinto1-pri polkitd[973]: Finished loading, compiling and executing 2 rules
+Oct 21 17:31:04 rjacinto1-pri polkitd[973]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 17:31:44 rjacinto1-pri systemd[1513]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 21 17:31:44 rjacinto1-pri login[1063]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 21 17:31:44 rjacinto1-pri login[1063]: LOGIN ON tty1 BY student
+Oct 21 17:32:01 rjacinto1-pri sudo[1552]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Oct 21 17:32:01 rjacinto1-pri sudo[1552]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:32:01 rjacinto1-pri sudo[1552]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 17:32:01 rjacinto1-pri su[1556]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 17:32:01 rjacinto1-pri su[1556]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 21 18:16:49 rjacinto1-pri sshd[1641]: Accepted publickey for student from 192.168.13.1 port 46352 ssh2: RSA SHA256:SMmAbngCQ755+zTqPwvQabP25yu5hBsjBtskVJ1UfwQ
+Oct 21 18:16:49 rjacinto1-pri sshd[1641]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Oct 21 18:16:49 rjacinto1-pri sshd[1644]: Received disconnect from 192.168.13.1 port 46352:11: disconnected by user
+Oct 21 18:16:49 rjacinto1-pri sshd[1644]: Disconnected from user student 192.168.13.1 port 46352
+Oct 21 18:16:49 rjacinto1-pri sshd[1641]: pam_unix(sshd:session): session closed for user student
+Oct 21 18:53:35 rjacinto1-pri sudo[1726]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkconf
+Oct 21 18:53:35 rjacinto1-pri sudo[1726]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:53:35 rjacinto1-pri sudo[1726]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 18:53:35 rjacinto1-pri sudo[1726]: pam_unix(sudo:session): session closed for user root
+Oct 21 20:10:44 rjacinto1-pri polkitd[967]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 20:10:44 rjacinto1-pri polkitd[967]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 20:10:44 rjacinto1-pri polkitd[967]: Finished loading, compiling and executing 2 rules
+Oct 21 20:10:44 rjacinto1-pri polkitd[967]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 20:10:49 rjacinto1-pri sshd[1002]: Server listening on 0.0.0.0 port 22.
+Oct 21 20:10:49 rjacinto1-pri sshd[1002]: Server listening on :: port 22.
+Oct 21 20:12:23 rjacinto1-pri systemd[1535]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 21 20:12:23 rjacinto1-pri login[1114]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 21 20:12:23 rjacinto1-pri login[1114]: LOGIN ON tty1 BY student
+Oct 21 20:12:26 rjacinto1-pri sudo[1572]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Oct 21 20:12:26 rjacinto1-pri sudo[1572]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:12:26 rjacinto1-pri sudo[1572]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 20:12:26 rjacinto1-pri su[1576]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:12:26 rjacinto1-pri su[1576]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 21 20:24:01 rjacinto1-pri polkitd[969]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 20:24:01 rjacinto1-pri polkitd[969]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 20:24:01 rjacinto1-pri polkitd[969]: Finished loading, compiling and executing 2 rules
+Oct 21 20:24:01 rjacinto1-pri polkitd[969]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 20:24:04 rjacinto1-pri sshd[1013]: Server listening on 0.0.0.0 port 22.
+Oct 21 20:24:04 rjacinto1-pri sshd[1013]: Server listening on :: port 22.
+Oct 21 20:24:51 rjacinto1-pri systemd[1510]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 21 20:24:51 rjacinto1-pri login[1087]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 21 20:24:51 rjacinto1-pri login[1087]: LOGIN ON tty1 BY student
+Oct 21 20:24:55 rjacinto1-pri sudo[1547]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Oct 21 20:24:55 rjacinto1-pri sudo[1547]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:24:55 rjacinto1-pri sudo[1547]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 20:24:55 rjacinto1-pri su[1551]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:24:55 rjacinto1-pri su[1551]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 21 20:27:38 rjacinto1-pri polkitd[954]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 20:27:38 rjacinto1-pri polkitd[954]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 20:27:38 rjacinto1-pri polkitd[954]: Finished loading, compiling and executing 2 rules
+Oct 21 20:27:38 rjacinto1-pri polkitd[954]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 20:27:43 rjacinto1-pri sshd[986]: Server listening on 0.0.0.0 port 22.
+Oct 21 20:27:43 rjacinto1-pri sshd[986]: Server listening on :: port 22.
+Oct 21 20:28:02 rjacinto1-pri systemd[1491]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 21 20:28:02 rjacinto1-pri login[1071]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 21 20:28:02 rjacinto1-pri login[1071]: LOGIN ON tty1 BY student
+Oct 21 20:49:50 rjacinto1-pri sudo[1570]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/bin/su
+Oct 21 20:49:50 rjacinto1-pri sudo[1570]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:49:50 rjacinto1-pri sudo[1570]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 20:49:50 rjacinto1-pri su[1574]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:49:50 rjacinto1-pri su[1574]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 21 20:54:27 rjacinto1-pri sudo[1678]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone
+Oct 21 20:54:27 rjacinto1-pri sudo[1678]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:54:27 rjacinto1-pri sudo[1678]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 20:54:27 rjacinto1-pri sudo[1678]: pam_unix(sudo:session): session closed for user root
+Oct 21 20:54:36 rjacinto1-pri sudo[1681]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone named.conf.local
+Oct 21 20:54:36 rjacinto1-pri sudo[1681]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:54:36 rjacinto1-pri sudo[1681]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 20:54:36 rjacinto1-pri sudo[1681]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:19:11 rjacinto1-pri sudo[1789]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone rjacinto1-pri.ravz.com /etc/named/zones/db.rjacinto1-pri.ravz.com
+Oct 21 21:19:11 rjacinto1-pri sudo[1789]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:19:11 rjacinto1-pri sudo[1789]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:19:11 rjacinto1-pri sudo[1789]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:19:24 rjacinto1-pri sudo[1792]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone rjacinto1-pri.ravz.com /etc/named/zones/db.13.168.192
+Oct 21 21:19:24 rjacinto1-pri sudo[1792]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:19:24 rjacinto1-pri sudo[1792]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:19:24 rjacinto1-pri sudo[1792]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:20:00 rjacinto1-pri sudo[1796]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone rjacinto1-pri.ravz.com /etc/named/zones/db.rjacinto1-pri.ravz.com
+Oct 21 21:20:00 rjacinto1-pri sudo[1796]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:20:00 rjacinto1-pri sudo[1796]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:20:00 rjacinto1-pri sudo[1796]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:21:16 rjacinto1-pri sudo[1800]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone rjacinto1-pri.ravz.com /etc/named/zones/db.rjacinto1-pri.ravz.com
+Oct 21 21:21:16 rjacinto1-pri sudo[1800]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:21:16 rjacinto1-pri sudo[1800]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:21:16 rjacinto1-pri sudo[1800]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:21:39 rjacinto1-pri sudo[1804]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone rjacinto1-pri.ravz.com /etc/named/zones/db.rjacinto1-pri.ravz.com
+Oct 21 21:21:39 rjacinto1-pri sudo[1804]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:21:39 rjacinto1-pri sudo[1804]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:21:39 rjacinto1-pri sudo[1804]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:22:54 rjacinto1-pri sudo[1808]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone rjacinto1-pri.ravz.com /etc/named/zones/db.rjacinto1-pri.ravz.com
+Oct 21 21:22:54 rjacinto1-pri sudo[1808]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:22:54 rjacinto1-pri sudo[1808]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:22:54 rjacinto1-pri sudo[1808]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:23:10 rjacinto1-pri sudo[1812]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone rjacinto1-pri.ravz.com /etc/named/zones/db.rjacinto1-pri.ravz.com
+Oct 21 21:23:10 rjacinto1-pri sudo[1812]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:23:10 rjacinto1-pri sudo[1812]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:23:10 rjacinto1-pri sudo[1812]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:27:48 rjacinto1-pri sudo[1817]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone rjacinto1-pri.ravz.com /etc/named/zones/db.rjacinto1-pri.ravz.com
+Oct 21 21:27:48 rjacinto1-pri sudo[1817]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:27:48 rjacinto1-pri sudo[1817]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:27:48 rjacinto1-pri sudo[1817]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:29:12 rjacinto1-pri sudo[1822]: student : TTY=tty1 ; PWD=/etc/named ; USER=root ; COMMAND=/sbin/named-checkzone rjacinto1-pri.ravz.com /etc/named/zones/db.rjacinto1-pri.ravz.com
+Oct 21 21:29:12 rjacinto1-pri sudo[1822]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:29:12 rjacinto1-pri sudo[1822]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:29:12 rjacinto1-pri sudo[1822]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:32:40 rjacinto1-pri sudo[1879]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/named-checkzone ravz.com /etc/named/zones/db.rjacinto1-pri.ravz.com
+Oct 21 21:32:40 rjacinto1-pri sudo[1879]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:32:40 rjacinto1-pri sudo[1879]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:32:40 rjacinto1-pri sudo[1879]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:32:51 rjacinto1-pri sudo[1882]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/named-checkzone ravz.com /etc/named/zones/db.ravz.com
+Oct 21 21:32:51 rjacinto1-pri sudo[1882]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:32:51 rjacinto1-pri sudo[1882]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:32:51 rjacinto1-pri sudo[1882]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:51:24 rjacinto1-pri sudo[1952]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/named-checkzone ravz.com /etc/named/zones/db.ravz.com
+Oct 21 21:51:24 rjacinto1-pri sudo[1952]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:51:24 rjacinto1-pri sudo[1952]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:51:24 rjacinto1-pri sudo[1952]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:52:46 rjacinto1-pri sudo[1957]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/named-checkzone ravz.com /etc/named/zones/db.ravz.com
+Oct 21 21:52:46 rjacinto1-pri sudo[1957]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:52:46 rjacinto1-pri sudo[1957]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 21:52:46 rjacinto1-pri sudo[1957]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:19:48 rjacinto1-pri sudo[2107]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/named-checkzone ravz.com /etc/named/zones/db.ravz.com
+Oct 21 22:19:48 rjacinto1-pri sudo[2107]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:19:48 rjacinto1-pri sudo[2107]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 22:19:48 rjacinto1-pri sudo[2107]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:19:52 rjacinto1-pri sudo[2110]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/named-checkzone ravz.com /etc/named/zones/db.13.168.192
+Oct 21 22:19:52 rjacinto1-pri sudo[2110]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:19:52 rjacinto1-pri sudo[2110]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 22:19:52 rjacinto1-pri sudo[2110]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:20:52 rjacinto1-pri sudo[2114]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/named-checkzone ravz.com /etc/named/zones/db.13.168.192
+Oct 21 22:20:52 rjacinto1-pri sudo[2114]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:20:52 rjacinto1-pri sudo[2114]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 22:20:52 rjacinto1-pri sudo[2114]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:21:52 rjacinto1-pri sudo[2141]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/named-checkzone ravz.com /etc/named/zones/db.13.168.192
+Oct 21 22:21:52 rjacinto1-pri sudo[2141]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:21:52 rjacinto1-pri sudo[2141]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 22:21:52 rjacinto1-pri sudo[2141]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:22:36 rjacinto1-pri sudo[2144]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/named-checkzone ravz.com /etc/named/zones/db.13.168.192
+Oct 21 22:22:36 rjacinto1-pri sudo[2144]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:22:36 rjacinto1-pri sudo[2144]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 22:22:36 rjacinto1-pri sudo[2144]: pam_unix(sudo:session): session closed for user root
+Oct 22 17:38:01 rjacinto1-pri sudo[3240]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/bin/systemctl restart named
+Oct 22 17:38:01 rjacinto1-pri sudo[3240]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 17:38:01 rjacinto1-pri sudo[3240]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 22 17:38:01 rjacinto1-pri sudo[3240]: pam_unix(sudo:session): session closed for user root
+Oct 22 19:02:57 rjacinto1-pri sudo[3309]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp --dport 52 -j ACCEPT
+Oct 22 19:02:57 rjacinto1-pri sudo[3309]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 19:02:57 rjacinto1-pri sudo[3309]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 22 19:02:57 rjacinto1-pri sudo[3309]: pam_unix(sudo:session): session closed for user root
+Oct 22 19:03:01 rjacinto1-pri sudo[3312]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp --dport 53 -j ACCEPT
+Oct 22 19:03:01 rjacinto1-pri sudo[3312]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 19:03:01 rjacinto1-pri sudo[3312]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 22 19:03:01 rjacinto1-pri sudo[3312]: pam_unix(sudo:session): session closed for user root
+Oct 22 19:03:06 rjacinto1-pri sudo[3315]: student : TTY=tty1 ; PWD=/etc/named/zones ; USER=root ; COMMAND=/sbin/iptables -D INPUT -p udp --dport 52 -j ACCEPT
+Oct 22 19:03:06 rjacinto1-pri sudo[3315]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 19:03:06 rjacinto1-pri sudo[3315]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 22 19:03:06 rjacinto1-pri sudo[3315]: pam_unix(sudo:session): session closed for user root
+Oct 23 20:37:04 rjacinto1-pri su[4487]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 23 20:37:04 rjacinto1-pri su[4487]: pam_unix(su:session): session opened for user student by student(uid=0)
+Oct 23 20:37:15 rjacinto1-pri sudo[4511]: student : TTY=tty1 ; PWD=/home/student/rjacinto1/lab4 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 23 20:37:15 rjacinto1-pri sudo[4511]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 20:37:15 rjacinto1-pri sudo[4511]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 23 20:37:15 rjacinto1-pri sudo[4511]: pam_unix(sudo:session): session closed for user root

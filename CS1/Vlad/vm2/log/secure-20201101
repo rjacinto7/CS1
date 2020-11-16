@@ -1,0 +1,7 @@
+Oct 27 17:32:17 vkim11-web sshd[7112]: Accepted publickey for instructor from 172.16.0.1 port 36232 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 27 17:32:17 vkim11-web systemd[7116]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:17 vkim11-web sshd[7112]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:17 vkim11-web sshd[7126]: Received disconnect from 172.16.0.1 port 36232:11: disconnected by user
+Oct 27 17:32:17 vkim11-web sshd[7126]: Disconnected from user instructor 172.16.0.1 port 36232
+Oct 27 17:32:17 vkim11-web sshd[7112]: pam_unix(sshd:session): session closed for user instructor
+Oct 27 17:32:17 vkim11-web systemd[7120]: pam_unix(systemd-user:session): session closed for user instructor

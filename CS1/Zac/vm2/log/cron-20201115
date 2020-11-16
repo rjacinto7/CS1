@@ -1,0 +1,612 @@
+Nov  8 03:42:01 zachary-vm2 anacron[17475]: Job `cron.daily' started
+Nov  8 03:42:01 zachary-vm2 run-parts[17495]: (/etc/cron.daily) starting logrotate
+Nov  8 03:42:02 zachary-vm2 run-parts[17495]: (/etc/cron.daily) finished logrotate
+Nov  8 03:42:02 zachary-vm2 anacron[17475]: Job `cron.daily' terminated
+Nov  8 03:42:02 zachary-vm2 anacron[17475]: Normal exit (1 job run)
+Nov  8 04:01:01 zachary-vm2 CROND[17515]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 04:01:01 zachary-vm2 run-parts[17515]: (/etc/cron.hourly) starting 0anacron
+Nov  8 04:01:02 zachary-vm2 run-parts[17515]: (/etc/cron.hourly) finished 0anacron
+Nov  8 05:01:01 zachary-vm2 CROND[17541]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 05:01:01 zachary-vm2 run-parts[17541]: (/etc/cron.hourly) starting 0anacron
+Nov  8 05:01:01 zachary-vm2 run-parts[17541]: (/etc/cron.hourly) finished 0anacron
+Nov  8 06:01:01 zachary-vm2 CROND[17566]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 06:01:01 zachary-vm2 run-parts[17566]: (/etc/cron.hourly) starting 0anacron
+Nov  8 06:01:01 zachary-vm2 run-parts[17566]: (/etc/cron.hourly) finished 0anacron
+Nov  8 07:01:01 zachary-vm2 CROND[17602]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 07:01:01 zachary-vm2 run-parts[17602]: (/etc/cron.hourly) starting 0anacron
+Nov  8 07:01:01 zachary-vm2 run-parts[17602]: (/etc/cron.hourly) finished 0anacron
+Nov  8 08:01:01 zachary-vm2 CROND[17628]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 08:01:01 zachary-vm2 run-parts[17628]: (/etc/cron.hourly) starting 0anacron
+Nov  8 08:01:01 zachary-vm2 run-parts[17628]: (/etc/cron.hourly) finished 0anacron
+Nov  8 09:01:01 zachary-vm2 CROND[17653]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 09:01:01 zachary-vm2 run-parts[17653]: (/etc/cron.hourly) starting 0anacron
+Nov  8 09:01:01 zachary-vm2 run-parts[17653]: (/etc/cron.hourly) finished 0anacron
+Nov  8 10:01:01 zachary-vm2 CROND[17684]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 10:01:01 zachary-vm2 run-parts[17684]: (/etc/cron.hourly) starting 0anacron
+Nov  8 10:01:01 zachary-vm2 run-parts[17684]: (/etc/cron.hourly) finished 0anacron
+Nov  8 11:01:01 zachary-vm2 CROND[17709]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 11:01:01 zachary-vm2 run-parts[17709]: (/etc/cron.hourly) starting 0anacron
+Nov  8 11:01:01 zachary-vm2 run-parts[17709]: (/etc/cron.hourly) finished 0anacron
+Nov  8 12:01:01 zachary-vm2 CROND[17734]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 12:01:01 zachary-vm2 run-parts[17734]: (/etc/cron.hourly) starting 0anacron
+Nov  8 12:01:01 zachary-vm2 run-parts[17734]: (/etc/cron.hourly) finished 0anacron
+Nov  8 13:01:01 zachary-vm2 CROND[17765]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 13:01:01 zachary-vm2 run-parts[17765]: (/etc/cron.hourly) starting 0anacron
+Nov  8 13:01:01 zachary-vm2 run-parts[17765]: (/etc/cron.hourly) finished 0anacron
+Nov  8 14:01:01 zachary-vm2 CROND[17790]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 14:01:01 zachary-vm2 run-parts[17790]: (/etc/cron.hourly) starting 0anacron
+Nov  8 14:01:01 zachary-vm2 run-parts[17790]: (/etc/cron.hourly) finished 0anacron
+Nov  8 15:01:01 zachary-vm2 CROND[17815]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 15:01:01 zachary-vm2 run-parts[17815]: (/etc/cron.hourly) starting 0anacron
+Nov  8 15:01:01 zachary-vm2 run-parts[17815]: (/etc/cron.hourly) finished 0anacron
+Nov  8 16:01:01 zachary-vm2 CROND[17846]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 16:01:01 zachary-vm2 run-parts[17846]: (/etc/cron.hourly) starting 0anacron
+Nov  8 16:01:01 zachary-vm2 run-parts[17846]: (/etc/cron.hourly) finished 0anacron
+Nov  8 17:01:01 zachary-vm2 CROND[17871]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 17:01:01 zachary-vm2 run-parts[17871]: (/etc/cron.hourly) starting 0anacron
+Nov  8 17:01:01 zachary-vm2 run-parts[17871]: (/etc/cron.hourly) finished 0anacron
+Nov  8 18:01:01 zachary-vm2 CROND[17897]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 18:01:01 zachary-vm2 run-parts[17897]: (/etc/cron.hourly) starting 0anacron
+Nov  8 18:01:01 zachary-vm2 run-parts[17897]: (/etc/cron.hourly) finished 0anacron
+Nov  8 19:01:01 zachary-vm2 CROND[17935]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 19:01:01 zachary-vm2 run-parts[17935]: (/etc/cron.hourly) starting 0anacron
+Nov  8 19:01:01 zachary-vm2 run-parts[17935]: (/etc/cron.hourly) finished 0anacron
+Nov  8 20:01:01 zachary-vm2 CROND[17960]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 20:01:01 zachary-vm2 run-parts[17960]: (/etc/cron.hourly) starting 0anacron
+Nov  8 20:01:01 zachary-vm2 run-parts[17960]: (/etc/cron.hourly) finished 0anacron
+Nov  8 21:01:01 zachary-vm2 CROND[17985]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 21:01:01 zachary-vm2 run-parts[17985]: (/etc/cron.hourly) starting 0anacron
+Nov  8 21:01:01 zachary-vm2 run-parts[17985]: (/etc/cron.hourly) finished 0anacron
+Nov  8 22:01:01 zachary-vm2 CROND[18017]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 22:01:01 zachary-vm2 run-parts[18017]: (/etc/cron.hourly) starting 0anacron
+Nov  8 22:01:01 zachary-vm2 run-parts[18017]: (/etc/cron.hourly) finished 0anacron
+Nov  8 23:01:01 zachary-vm2 CROND[18042]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 23:01:01 zachary-vm2 run-parts[18042]: (/etc/cron.hourly) starting 0anacron
+Nov  8 23:01:01 zachary-vm2 run-parts[18042]: (/etc/cron.hourly) finished 0anacron
+Nov  9 00:01:01 zachary-vm2 CROND[18070]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 00:01:01 zachary-vm2 run-parts[18070]: (/etc/cron.hourly) starting 0anacron
+Nov  9 00:01:01 zachary-vm2 anacron[18079]: Anacron started on 2020-11-09
+Nov  9 00:01:01 zachary-vm2 anacron[18079]: Normal exit (0 jobs run)
+Nov  9 00:01:01 zachary-vm2 run-parts[18070]: (/etc/cron.hourly) finished 0anacron
+Nov  9 01:01:01 zachary-vm2 CROND[18103]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 01:01:01 zachary-vm2 run-parts[18103]: (/etc/cron.hourly) starting 0anacron
+Nov  9 01:01:01 zachary-vm2 anacron[18112]: Anacron started on 2020-11-09
+Nov  9 01:01:01 zachary-vm2 anacron[18112]: Normal exit (0 jobs run)
+Nov  9 01:01:01 zachary-vm2 run-parts[18103]: (/etc/cron.hourly) finished 0anacron
+Nov  9 02:01:01 zachary-vm2 CROND[18130]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 02:01:01 zachary-vm2 run-parts[18130]: (/etc/cron.hourly) starting 0anacron
+Nov  9 02:01:01 zachary-vm2 anacron[18139]: Anacron started on 2020-11-09
+Nov  9 02:01:01 zachary-vm2 anacron[18139]: Normal exit (0 jobs run)
+Nov  9 02:01:01 zachary-vm2 run-parts[18130]: (/etc/cron.hourly) finished 0anacron
+Nov  9 03:01:01 zachary-vm2 CROND[18157]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 03:01:01 zachary-vm2 run-parts[18157]: (/etc/cron.hourly) starting 0anacron
+Nov  9 03:01:01 zachary-vm2 anacron[18166]: Anacron started on 2020-11-09
+Nov  9 03:01:01 zachary-vm2 anacron[18166]: Will run job `cron.daily' in 39 min.
+Nov  9 03:01:01 zachary-vm2 anacron[18166]: Jobs will be executed sequentially
+Nov  9 03:01:01 zachary-vm2 run-parts[18157]: (/etc/cron.hourly) finished 0anacron
+Nov  9 03:40:01 zachary-vm2 anacron[18166]: Job `cron.daily' started
+Nov  9 03:40:01 zachary-vm2 run-parts[18187]: (/etc/cron.daily) starting logrotate
+Nov  9 03:40:01 zachary-vm2 run-parts[18187]: (/etc/cron.daily) finished logrotate
+Nov  9 03:40:01 zachary-vm2 anacron[18166]: Job `cron.daily' terminated
+Nov  9 03:40:01 zachary-vm2 anacron[18166]: Normal exit (1 job run)
+Nov  9 04:01:01 zachary-vm2 CROND[18200]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 04:01:01 zachary-vm2 run-parts[18200]: (/etc/cron.hourly) starting 0anacron
+Nov  9 04:01:01 zachary-vm2 run-parts[18200]: (/etc/cron.hourly) finished 0anacron
+Nov  9 05:01:01 zachary-vm2 CROND[18225]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 05:01:01 zachary-vm2 run-parts[18225]: (/etc/cron.hourly) starting 0anacron
+Nov  9 05:01:01 zachary-vm2 run-parts[18225]: (/etc/cron.hourly) finished 0anacron
+Nov  9 06:01:01 zachary-vm2 CROND[18250]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 06:01:01 zachary-vm2 run-parts[18250]: (/etc/cron.hourly) starting 0anacron
+Nov  9 06:01:01 zachary-vm2 run-parts[18250]: (/etc/cron.hourly) finished 0anacron
+Nov  9 07:01:02 zachary-vm2 CROND[18287]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 07:01:02 zachary-vm2 run-parts[18287]: (/etc/cron.hourly) starting 0anacron
+Nov  9 07:01:02 zachary-vm2 run-parts[18287]: (/etc/cron.hourly) finished 0anacron
+Nov  9 08:01:01 zachary-vm2 CROND[18312]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 08:01:01 zachary-vm2 run-parts[18312]: (/etc/cron.hourly) starting 0anacron
+Nov  9 08:01:01 zachary-vm2 run-parts[18312]: (/etc/cron.hourly) finished 0anacron
+Nov  9 09:01:01 zachary-vm2 CROND[18337]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 09:01:01 zachary-vm2 run-parts[18337]: (/etc/cron.hourly) starting 0anacron
+Nov  9 09:01:01 zachary-vm2 run-parts[18337]: (/etc/cron.hourly) finished 0anacron
+Nov  9 10:01:01 zachary-vm2 CROND[18368]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 10:01:01 zachary-vm2 run-parts[18368]: (/etc/cron.hourly) starting 0anacron
+Nov  9 10:01:01 zachary-vm2 run-parts[18368]: (/etc/cron.hourly) finished 0anacron
+Nov  9 11:01:01 zachary-vm2 CROND[18393]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 11:01:01 zachary-vm2 run-parts[18393]: (/etc/cron.hourly) starting 0anacron
+Nov  9 11:01:01 zachary-vm2 run-parts[18393]: (/etc/cron.hourly) finished 0anacron
+Nov  9 12:01:01 zachary-vm2 CROND[18418]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 12:01:01 zachary-vm2 run-parts[18418]: (/etc/cron.hourly) starting 0anacron
+Nov  9 12:01:01 zachary-vm2 run-parts[18418]: (/etc/cron.hourly) finished 0anacron
+Nov  9 13:01:01 zachary-vm2 CROND[18450]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 13:01:01 zachary-vm2 run-parts[18450]: (/etc/cron.hourly) starting 0anacron
+Nov  9 13:01:01 zachary-vm2 run-parts[18450]: (/etc/cron.hourly) finished 0anacron
+Nov  9 14:01:01 zachary-vm2 CROND[18475]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 14:01:01 zachary-vm2 run-parts[18475]: (/etc/cron.hourly) starting 0anacron
+Nov  9 14:01:01 zachary-vm2 run-parts[18475]: (/etc/cron.hourly) finished 0anacron
+Nov  9 15:01:01 zachary-vm2 CROND[18500]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 15:01:01 zachary-vm2 run-parts[18500]: (/etc/cron.hourly) starting 0anacron
+Nov  9 15:01:01 zachary-vm2 run-parts[18500]: (/etc/cron.hourly) finished 0anacron
+Nov  9 16:01:01 zachary-vm2 CROND[18531]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 16:01:01 zachary-vm2 run-parts[18531]: (/etc/cron.hourly) starting 0anacron
+Nov  9 16:01:01 zachary-vm2 run-parts[18531]: (/etc/cron.hourly) finished 0anacron
+Nov  9 17:01:01 zachary-vm2 CROND[18557]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 17:01:01 zachary-vm2 run-parts[18557]: (/etc/cron.hourly) starting 0anacron
+Nov  9 17:01:01 zachary-vm2 run-parts[18557]: (/etc/cron.hourly) finished 0anacron
+Nov  9 18:01:01 zachary-vm2 CROND[18582]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 18:01:01 zachary-vm2 run-parts[18582]: (/etc/cron.hourly) starting 0anacron
+Nov  9 18:01:01 zachary-vm2 run-parts[18582]: (/etc/cron.hourly) finished 0anacron
+Nov  9 19:01:01 zachary-vm2 CROND[18621]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 19:01:01 zachary-vm2 run-parts[18621]: (/etc/cron.hourly) starting 0anacron
+Nov  9 19:01:01 zachary-vm2 run-parts[18621]: (/etc/cron.hourly) finished 0anacron
+Nov  9 20:01:01 zachary-vm2 CROND[18646]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 20:01:01 zachary-vm2 run-parts[18646]: (/etc/cron.hourly) starting 0anacron
+Nov  9 20:01:01 zachary-vm2 run-parts[18646]: (/etc/cron.hourly) finished 0anacron
+Nov  9 21:01:01 zachary-vm2 CROND[18671]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 21:01:01 zachary-vm2 run-parts[18671]: (/etc/cron.hourly) starting 0anacron
+Nov  9 21:01:01 zachary-vm2 run-parts[18671]: (/etc/cron.hourly) finished 0anacron
+Nov  9 22:01:01 zachary-vm2 CROND[18703]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 22:01:01 zachary-vm2 run-parts[18703]: (/etc/cron.hourly) starting 0anacron
+Nov  9 22:01:01 zachary-vm2 run-parts[18703]: (/etc/cron.hourly) finished 0anacron
+Nov  9 23:01:01 zachary-vm2 CROND[18728]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 23:01:01 zachary-vm2 run-parts[18728]: (/etc/cron.hourly) starting 0anacron
+Nov  9 23:01:01 zachary-vm2 run-parts[18728]: (/etc/cron.hourly) finished 0anacron
+Nov 10 00:01:01 zachary-vm2 CROND[18755]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 00:01:01 zachary-vm2 run-parts[18755]: (/etc/cron.hourly) starting 0anacron
+Nov 10 00:01:01 zachary-vm2 anacron[18766]: Anacron started on 2020-11-10
+Nov 10 00:01:01 zachary-vm2 anacron[18766]: Normal exit (0 jobs run)
+Nov 10 00:01:01 zachary-vm2 run-parts[18755]: (/etc/cron.hourly) finished 0anacron
+Nov 10 01:01:01 zachary-vm2 CROND[18791]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 01:01:01 zachary-vm2 run-parts[18791]: (/etc/cron.hourly) starting 0anacron
+Nov 10 01:01:01 zachary-vm2 anacron[18800]: Anacron started on 2020-11-10
+Nov 10 01:01:01 zachary-vm2 anacron[18800]: Normal exit (0 jobs run)
+Nov 10 01:01:01 zachary-vm2 run-parts[18791]: (/etc/cron.hourly) finished 0anacron
+Nov 10 02:01:01 zachary-vm2 CROND[18818]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 02:01:01 zachary-vm2 run-parts[18818]: (/etc/cron.hourly) starting 0anacron
+Nov 10 02:01:01 zachary-vm2 anacron[18827]: Anacron started on 2020-11-10
+Nov 10 02:01:01 zachary-vm2 anacron[18827]: Normal exit (0 jobs run)
+Nov 10 02:01:01 zachary-vm2 run-parts[18818]: (/etc/cron.hourly) finished 0anacron
+Nov 10 03:01:01 zachary-vm2 CROND[18845]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 03:01:01 zachary-vm2 run-parts[18845]: (/etc/cron.hourly) starting 0anacron
+Nov 10 03:01:01 zachary-vm2 anacron[18854]: Anacron started on 2020-11-10
+Nov 10 03:01:01 zachary-vm2 anacron[18854]: Will run job `cron.daily' in 13 min.
+Nov 10 03:01:01 zachary-vm2 anacron[18854]: Jobs will be executed sequentially
+Nov 10 03:01:01 zachary-vm2 run-parts[18845]: (/etc/cron.hourly) finished 0anacron
+Nov 10 03:14:01 zachary-vm2 anacron[18854]: Job `cron.daily' started
+Nov 10 03:14:01 zachary-vm2 run-parts[18860]: (/etc/cron.daily) starting logrotate
+Nov 10 03:14:01 zachary-vm2 run-parts[18860]: (/etc/cron.daily) finished logrotate
+Nov 10 03:14:01 zachary-vm2 anacron[18854]: Job `cron.daily' terminated
+Nov 10 03:14:01 zachary-vm2 anacron[18854]: Normal exit (1 job run)
+Nov 10 04:01:01 zachary-vm2 CROND[18887]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 04:01:01 zachary-vm2 run-parts[18887]: (/etc/cron.hourly) starting 0anacron
+Nov 10 04:01:01 zachary-vm2 run-parts[18887]: (/etc/cron.hourly) finished 0anacron
+Nov 10 05:01:01 zachary-vm2 CROND[18912]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 05:01:01 zachary-vm2 run-parts[18912]: (/etc/cron.hourly) starting 0anacron
+Nov 10 05:01:01 zachary-vm2 run-parts[18912]: (/etc/cron.hourly) finished 0anacron
+Nov 10 06:01:01 zachary-vm2 CROND[18937]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 06:01:01 zachary-vm2 run-parts[18937]: (/etc/cron.hourly) starting 0anacron
+Nov 10 06:01:01 zachary-vm2 run-parts[18937]: (/etc/cron.hourly) finished 0anacron
+Nov 10 07:01:01 zachary-vm2 CROND[18973]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 07:01:01 zachary-vm2 run-parts[18973]: (/etc/cron.hourly) starting 0anacron
+Nov 10 07:01:01 zachary-vm2 run-parts[18973]: (/etc/cron.hourly) finished 0anacron
+Nov 10 08:01:01 zachary-vm2 CROND[18998]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 08:01:01 zachary-vm2 run-parts[18998]: (/etc/cron.hourly) starting 0anacron
+Nov 10 08:01:01 zachary-vm2 run-parts[18998]: (/etc/cron.hourly) finished 0anacron
+Nov 10 09:01:01 zachary-vm2 CROND[19021]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 09:01:01 zachary-vm2 run-parts[19021]: (/etc/cron.hourly) starting 0anacron
+Nov 10 09:01:01 zachary-vm2 run-parts[19021]: (/etc/cron.hourly) finished 0anacron
+Nov 10 10:01:01 zachary-vm2 CROND[19045]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 10:01:01 zachary-vm2 run-parts[19045]: (/etc/cron.hourly) starting 0anacron
+Nov 10 10:01:01 zachary-vm2 run-parts[19045]: (/etc/cron.hourly) finished 0anacron
+Nov 10 11:01:01 zachary-vm2 CROND[19076]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 11:01:01 zachary-vm2 run-parts[19076]: (/etc/cron.hourly) starting 0anacron
+Nov 10 11:01:01 zachary-vm2 run-parts[19076]: (/etc/cron.hourly) finished 0anacron
+Nov 10 12:01:01 zachary-vm2 CROND[19102]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 12:01:01 zachary-vm2 run-parts[19102]: (/etc/cron.hourly) starting 0anacron
+Nov 10 12:01:01 zachary-vm2 run-parts[19102]: (/etc/cron.hourly) finished 0anacron
+Nov 10 13:01:01 zachary-vm2 CROND[19127]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 13:01:01 zachary-vm2 run-parts[19127]: (/etc/cron.hourly) starting 0anacron
+Nov 10 13:01:01 zachary-vm2 run-parts[19127]: (/etc/cron.hourly) finished 0anacron
+Nov 10 14:01:01 zachary-vm2 CROND[19158]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 14:01:01 zachary-vm2 run-parts[19158]: (/etc/cron.hourly) starting 0anacron
+Nov 10 14:01:01 zachary-vm2 run-parts[19158]: (/etc/cron.hourly) finished 0anacron
+Nov 10 15:01:01 zachary-vm2 CROND[19184]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 15:01:01 zachary-vm2 run-parts[19184]: (/etc/cron.hourly) starting 0anacron
+Nov 10 15:01:01 zachary-vm2 run-parts[19184]: (/etc/cron.hourly) finished 0anacron
+Nov 10 16:01:01 zachary-vm2 CROND[19247]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 16:01:01 zachary-vm2 run-parts[19247]: (/etc/cron.hourly) starting 0anacron
+Nov 10 16:01:01 zachary-vm2 run-parts[19247]: (/etc/cron.hourly) finished 0anacron
+Nov 10 17:01:01 zachary-vm2 CROND[19278]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 17:01:01 zachary-vm2 run-parts[19278]: (/etc/cron.hourly) starting 0anacron
+Nov 10 17:01:01 zachary-vm2 run-parts[19278]: (/etc/cron.hourly) finished 0anacron
+Nov 10 18:01:01 zachary-vm2 CROND[19484]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 18:01:01 zachary-vm2 run-parts[19484]: (/etc/cron.hourly) starting 0anacron
+Nov 10 18:01:01 zachary-vm2 run-parts[19484]: (/etc/cron.hourly) finished 0anacron
+Nov 10 19:01:01 zachary-vm2 CROND[19520]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 19:01:01 zachary-vm2 run-parts[19520]: (/etc/cron.hourly) starting 0anacron
+Nov 10 19:01:01 zachary-vm2 run-parts[19520]: (/etc/cron.hourly) finished 0anacron
+Nov 10 20:01:01 zachary-vm2 CROND[19551]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 20:01:01 zachary-vm2 run-parts[19551]: (/etc/cron.hourly) starting 0anacron
+Nov 10 20:01:01 zachary-vm2 run-parts[19551]: (/etc/cron.hourly) finished 0anacron
+Nov 10 21:01:01 zachary-vm2 CROND[19576]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 21:01:01 zachary-vm2 run-parts[19576]: (/etc/cron.hourly) starting 0anacron
+Nov 10 21:01:01 zachary-vm2 run-parts[19576]: (/etc/cron.hourly) finished 0anacron
+Nov 10 22:01:01 zachary-vm2 CROND[19602]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 22:01:01 zachary-vm2 run-parts[19602]: (/etc/cron.hourly) starting 0anacron
+Nov 10 22:01:01 zachary-vm2 run-parts[19602]: (/etc/cron.hourly) finished 0anacron
+Nov 10 23:01:01 zachary-vm2 CROND[19633]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 23:01:01 zachary-vm2 run-parts[19633]: (/etc/cron.hourly) starting 0anacron
+Nov 10 23:01:01 zachary-vm2 run-parts[19633]: (/etc/cron.hourly) finished 0anacron
+Nov 11 00:01:01 zachary-vm2 CROND[19660]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 00:01:01 zachary-vm2 run-parts[19660]: (/etc/cron.hourly) starting 0anacron
+Nov 11 00:01:01 zachary-vm2 anacron[19669]: Anacron started on 2020-11-11
+Nov 11 00:01:01 zachary-vm2 anacron[19669]: Normal exit (0 jobs run)
+Nov 11 00:01:01 zachary-vm2 run-parts[19660]: (/etc/cron.hourly) finished 0anacron
+Nov 11 01:01:01 zachary-vm2 CROND[19687]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 01:01:01 zachary-vm2 run-parts[19687]: (/etc/cron.hourly) starting 0anacron
+Nov 11 01:01:01 zachary-vm2 anacron[19696]: Anacron started on 2020-11-11
+Nov 11 01:01:01 zachary-vm2 anacron[19696]: Normal exit (0 jobs run)
+Nov 11 01:01:01 zachary-vm2 run-parts[19687]: (/etc/cron.hourly) finished 0anacron
+Nov 11 02:01:01 zachary-vm2 CROND[19720]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 02:01:01 zachary-vm2 run-parts[19720]: (/etc/cron.hourly) starting 0anacron
+Nov 11 02:01:01 zachary-vm2 anacron[19729]: Anacron started on 2020-11-11
+Nov 11 02:01:01 zachary-vm2 anacron[19729]: Normal exit (0 jobs run)
+Nov 11 02:01:01 zachary-vm2 run-parts[19720]: (/etc/cron.hourly) finished 0anacron
+Nov 11 03:01:01 zachary-vm2 CROND[19747]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 03:01:01 zachary-vm2 run-parts[19747]: (/etc/cron.hourly) starting 0anacron
+Nov 11 03:01:01 zachary-vm2 anacron[19756]: Anacron started on 2020-11-11
+Nov 11 03:01:01 zachary-vm2 anacron[19756]: Will run job `cron.daily' in 33 min.
+Nov 11 03:01:01 zachary-vm2 anacron[19756]: Will run job `cron.weekly' in 53 min.
+Nov 11 03:01:01 zachary-vm2 anacron[19756]: Jobs will be executed sequentially
+Nov 11 03:01:01 zachary-vm2 run-parts[19747]: (/etc/cron.hourly) finished 0anacron
+Nov 11 03:34:01 zachary-vm2 anacron[19756]: Job `cron.daily' started
+Nov 11 03:34:01 zachary-vm2 run-parts[19769]: (/etc/cron.daily) starting logrotate
+Nov 11 03:34:01 zachary-vm2 run-parts[19769]: (/etc/cron.daily) finished logrotate
+Nov 11 03:34:01 zachary-vm2 anacron[19756]: Job `cron.daily' terminated
+Nov 11 03:54:01 zachary-vm2 anacron[19756]: Job `cron.weekly' started
+Nov 11 03:54:01 zachary-vm2 anacron[19756]: Job `cron.weekly' terminated
+Nov 11 03:54:01 zachary-vm2 anacron[19756]: Normal exit (2 jobs run)
+Nov 11 04:01:01 zachary-vm2 CROND[19786]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 04:01:01 zachary-vm2 run-parts[19786]: (/etc/cron.hourly) starting 0anacron
+Nov 11 04:01:01 zachary-vm2 run-parts[19786]: (/etc/cron.hourly) finished 0anacron
+Nov 11 05:01:01 zachary-vm2 CROND[19817]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 05:01:01 zachary-vm2 run-parts[19817]: (/etc/cron.hourly) starting 0anacron
+Nov 11 05:01:01 zachary-vm2 run-parts[19817]: (/etc/cron.hourly) finished 0anacron
+Nov 11 06:01:01 zachary-vm2 CROND[19842]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 06:01:01 zachary-vm2 run-parts[19842]: (/etc/cron.hourly) starting 0anacron
+Nov 11 06:01:01 zachary-vm2 run-parts[19842]: (/etc/cron.hourly) finished 0anacron
+Nov 11 07:01:01 zachary-vm2 CROND[19873]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 07:01:01 zachary-vm2 run-parts[19873]: (/etc/cron.hourly) starting 0anacron
+Nov 11 07:01:01 zachary-vm2 run-parts[19873]: (/etc/cron.hourly) finished 0anacron
+Nov 11 08:01:01 zachary-vm2 CROND[19904]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 08:01:01 zachary-vm2 run-parts[19904]: (/etc/cron.hourly) starting 0anacron
+Nov 11 08:01:01 zachary-vm2 run-parts[19904]: (/etc/cron.hourly) finished 0anacron
+Nov 11 09:01:01 zachary-vm2 CROND[19929]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 09:01:02 zachary-vm2 run-parts[19929]: (/etc/cron.hourly) starting 0anacron
+Nov 11 09:01:02 zachary-vm2 run-parts[19929]: (/etc/cron.hourly) finished 0anacron
+Nov 11 10:01:01 zachary-vm2 CROND[19954]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 10:01:01 zachary-vm2 run-parts[19954]: (/etc/cron.hourly) starting 0anacron
+Nov 11 10:01:01 zachary-vm2 run-parts[19954]: (/etc/cron.hourly) finished 0anacron
+Nov 11 11:01:01 zachary-vm2 CROND[19986]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 11:01:01 zachary-vm2 run-parts[19986]: (/etc/cron.hourly) starting 0anacron
+Nov 11 11:01:01 zachary-vm2 run-parts[19986]: (/etc/cron.hourly) finished 0anacron
+Nov 11 12:01:01 zachary-vm2 CROND[20011]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 12:01:01 zachary-vm2 run-parts[20011]: (/etc/cron.hourly) starting 0anacron
+Nov 11 12:01:01 zachary-vm2 run-parts[20011]: (/etc/cron.hourly) finished 0anacron
+Nov 11 13:01:01 zachary-vm2 CROND[20036]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 13:01:01 zachary-vm2 run-parts[20036]: (/etc/cron.hourly) starting 0anacron
+Nov 11 13:01:01 zachary-vm2 run-parts[20036]: (/etc/cron.hourly) finished 0anacron
+Nov 11 14:01:01 zachary-vm2 CROND[20067]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 14:01:01 zachary-vm2 run-parts[20067]: (/etc/cron.hourly) starting 0anacron
+Nov 11 14:01:01 zachary-vm2 run-parts[20067]: (/etc/cron.hourly) finished 0anacron
+Nov 11 15:01:01 zachary-vm2 CROND[20092]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 15:01:01 zachary-vm2 run-parts[20092]: (/etc/cron.hourly) starting 0anacron
+Nov 11 15:01:01 zachary-vm2 run-parts[20092]: (/etc/cron.hourly) finished 0anacron
+Nov 11 16:01:01 zachary-vm2 CROND[20117]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 16:01:01 zachary-vm2 run-parts[20117]: (/etc/cron.hourly) starting 0anacron
+Nov 11 16:01:01 zachary-vm2 run-parts[20117]: (/etc/cron.hourly) finished 0anacron
+Nov 11 17:01:01 zachary-vm2 CROND[20149]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 17:01:01 zachary-vm2 run-parts[20149]: (/etc/cron.hourly) starting 0anacron
+Nov 11 17:01:01 zachary-vm2 run-parts[20149]: (/etc/cron.hourly) finished 0anacron
+Nov 11 18:01:01 zachary-vm2 CROND[20174]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 18:01:01 zachary-vm2 run-parts[20174]: (/etc/cron.hourly) starting 0anacron
+Nov 11 18:01:01 zachary-vm2 run-parts[20174]: (/etc/cron.hourly) finished 0anacron
+Nov 11 19:01:01 zachary-vm2 CROND[20206]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 19:01:01 zachary-vm2 run-parts[20206]: (/etc/cron.hourly) starting 0anacron
+Nov 11 19:01:01 zachary-vm2 run-parts[20206]: (/etc/cron.hourly) finished 0anacron
+Nov 11 20:01:01 zachary-vm2 CROND[20238]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 20:01:01 zachary-vm2 run-parts[20238]: (/etc/cron.hourly) starting 0anacron
+Nov 11 20:01:01 zachary-vm2 run-parts[20238]: (/etc/cron.hourly) finished 0anacron
+Nov 11 21:01:01 zachary-vm2 CROND[20300]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 21:01:01 zachary-vm2 run-parts[20300]: (/etc/cron.hourly) starting 0anacron
+Nov 11 21:01:01 zachary-vm2 run-parts[20300]: (/etc/cron.hourly) finished 0anacron
+Nov 11 22:01:01 zachary-vm2 CROND[20326]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 22:01:01 zachary-vm2 run-parts[20326]: (/etc/cron.hourly) starting 0anacron
+Nov 11 22:01:01 zachary-vm2 run-parts[20326]: (/etc/cron.hourly) finished 0anacron
+Nov 11 23:01:01 zachary-vm2 CROND[20357]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 23:01:01 zachary-vm2 run-parts[20357]: (/etc/cron.hourly) starting 0anacron
+Nov 11 23:01:01 zachary-vm2 run-parts[20357]: (/etc/cron.hourly) finished 0anacron
+Nov 12 00:01:01 zachary-vm2 CROND[20384]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 00:01:01 zachary-vm2 run-parts[20384]: (/etc/cron.hourly) starting 0anacron
+Nov 12 00:01:01 zachary-vm2 anacron[20393]: Anacron started on 2020-11-12
+Nov 12 00:01:01 zachary-vm2 anacron[20393]: Normal exit (0 jobs run)
+Nov 12 00:01:01 zachary-vm2 run-parts[20384]: (/etc/cron.hourly) finished 0anacron
+Nov 12 01:01:01 zachary-vm2 CROND[20411]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 01:01:01 zachary-vm2 run-parts[20411]: (/etc/cron.hourly) starting 0anacron
+Nov 12 01:01:01 zachary-vm2 anacron[20420]: Anacron started on 2020-11-12
+Nov 12 01:01:01 zachary-vm2 anacron[20420]: Normal exit (0 jobs run)
+Nov 12 01:01:01 zachary-vm2 run-parts[20411]: (/etc/cron.hourly) finished 0anacron
+Nov 12 02:01:01 zachary-vm2 CROND[20445]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 02:01:01 zachary-vm2 run-parts[20445]: (/etc/cron.hourly) starting 0anacron
+Nov 12 02:01:01 zachary-vm2 anacron[20454]: Anacron started on 2020-11-12
+Nov 12 02:01:01 zachary-vm2 anacron[20454]: Normal exit (0 jobs run)
+Nov 12 02:01:01 zachary-vm2 run-parts[20445]: (/etc/cron.hourly) finished 0anacron
+Nov 12 03:01:01 zachary-vm2 CROND[20472]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 03:01:01 zachary-vm2 run-parts[20472]: (/etc/cron.hourly) starting 0anacron
+Nov 12 03:01:01 zachary-vm2 anacron[20481]: Anacron started on 2020-11-12
+Nov 12 03:01:01 zachary-vm2 anacron[20481]: Will run job `cron.daily' in 25 min.
+Nov 12 03:01:01 zachary-vm2 anacron[20481]: Jobs will be executed sequentially
+Nov 12 03:01:01 zachary-vm2 run-parts[20472]: (/etc/cron.hourly) finished 0anacron
+Nov 12 03:26:01 zachary-vm2 anacron[20481]: Job `cron.daily' started
+Nov 12 03:26:01 zachary-vm2 run-parts[20488]: (/etc/cron.daily) starting logrotate
+Nov 12 03:26:01 zachary-vm2 run-parts[20488]: (/etc/cron.daily) finished logrotate
+Nov 12 03:26:01 zachary-vm2 anacron[20481]: Job `cron.daily' terminated
+Nov 12 03:26:01 zachary-vm2 anacron[20481]: Normal exit (1 job run)
+Nov 12 04:01:01 zachary-vm2 CROND[20508]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 04:01:01 zachary-vm2 run-parts[20508]: (/etc/cron.hourly) starting 0anacron
+Nov 12 04:01:01 zachary-vm2 run-parts[20508]: (/etc/cron.hourly) finished 0anacron
+Nov 12 05:01:01 zachary-vm2 CROND[20539]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 05:01:01 zachary-vm2 run-parts[20539]: (/etc/cron.hourly) starting 0anacron
+Nov 12 05:01:01 zachary-vm2 run-parts[20539]: (/etc/cron.hourly) finished 0anacron
+Nov 12 06:01:01 zachary-vm2 CROND[20565]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 06:01:01 zachary-vm2 run-parts[20565]: (/etc/cron.hourly) starting 0anacron
+Nov 12 06:01:01 zachary-vm2 run-parts[20565]: (/etc/cron.hourly) finished 0anacron
+Nov 12 07:01:01 zachary-vm2 CROND[20595]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 07:01:01 zachary-vm2 run-parts[20595]: (/etc/cron.hourly) starting 0anacron
+Nov 12 07:01:01 zachary-vm2 run-parts[20595]: (/etc/cron.hourly) finished 0anacron
+Nov 12 08:01:01 zachary-vm2 CROND[20627]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 08:01:01 zachary-vm2 run-parts[20627]: (/etc/cron.hourly) starting 0anacron
+Nov 12 08:01:01 zachary-vm2 run-parts[20627]: (/etc/cron.hourly) finished 0anacron
+Nov 12 09:01:01 zachary-vm2 CROND[20652]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 09:01:01 zachary-vm2 run-parts[20652]: (/etc/cron.hourly) starting 0anacron
+Nov 12 09:01:01 zachary-vm2 run-parts[20652]: (/etc/cron.hourly) finished 0anacron
+Nov 12 10:01:01 zachary-vm2 CROND[20677]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 10:01:01 zachary-vm2 run-parts[20677]: (/etc/cron.hourly) starting 0anacron
+Nov 12 10:01:01 zachary-vm2 run-parts[20677]: (/etc/cron.hourly) finished 0anacron
+Nov 12 11:01:01 zachary-vm2 CROND[20708]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 11:01:01 zachary-vm2 run-parts[20708]: (/etc/cron.hourly) starting 0anacron
+Nov 12 11:01:02 zachary-vm2 run-parts[20708]: (/etc/cron.hourly) finished 0anacron
+Nov 12 12:01:01 zachary-vm2 CROND[20734]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 12:01:01 zachary-vm2 run-parts[20734]: (/etc/cron.hourly) starting 0anacron
+Nov 12 12:01:01 zachary-vm2 run-parts[20734]: (/etc/cron.hourly) finished 0anacron
+Nov 12 13:01:01 zachary-vm2 CROND[20759]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 13:01:01 zachary-vm2 run-parts[20759]: (/etc/cron.hourly) starting 0anacron
+Nov 12 13:01:01 zachary-vm2 run-parts[20759]: (/etc/cron.hourly) finished 0anacron
+Nov 12 14:01:01 zachary-vm2 CROND[20795]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 14:01:01 zachary-vm2 run-parts[20795]: (/etc/cron.hourly) starting 0anacron
+Nov 12 14:01:01 zachary-vm2 run-parts[20795]: (/etc/cron.hourly) finished 0anacron
+Nov 12 15:01:01 zachary-vm2 CROND[20819]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 15:01:01 zachary-vm2 run-parts[20819]: (/etc/cron.hourly) starting 0anacron
+Nov 12 15:01:01 zachary-vm2 run-parts[20819]: (/etc/cron.hourly) finished 0anacron
+Nov 12 16:01:01 zachary-vm2 CROND[20845]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 16:01:01 zachary-vm2 run-parts[20845]: (/etc/cron.hourly) starting 0anacron
+Nov 12 16:01:01 zachary-vm2 run-parts[20845]: (/etc/cron.hourly) finished 0anacron
+Nov 12 17:01:01 zachary-vm2 CROND[20876]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 17:01:01 zachary-vm2 run-parts[20876]: (/etc/cron.hourly) starting 0anacron
+Nov 12 17:01:01 zachary-vm2 run-parts[20876]: (/etc/cron.hourly) finished 0anacron
+Nov 12 18:01:01 zachary-vm2 CROND[20901]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 18:01:01 zachary-vm2 run-parts[20901]: (/etc/cron.hourly) starting 0anacron
+Nov 12 18:01:01 zachary-vm2 run-parts[20901]: (/etc/cron.hourly) finished 0anacron
+Nov 12 19:01:01 zachary-vm2 CROND[20934]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 19:01:01 zachary-vm2 run-parts[20934]: (/etc/cron.hourly) starting 0anacron
+Nov 12 19:01:01 zachary-vm2 run-parts[20934]: (/etc/cron.hourly) finished 0anacron
+Nov 12 20:01:01 zachary-vm2 CROND[20965]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 20:01:01 zachary-vm2 run-parts[20965]: (/etc/cron.hourly) starting 0anacron
+Nov 12 20:01:01 zachary-vm2 run-parts[20965]: (/etc/cron.hourly) finished 0anacron
+Nov 12 21:01:01 zachary-vm2 CROND[20990]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 21:01:01 zachary-vm2 run-parts[20990]: (/etc/cron.hourly) starting 0anacron
+Nov 12 21:01:01 zachary-vm2 run-parts[20990]: (/etc/cron.hourly) finished 0anacron
+Nov 12 22:01:01 zachary-vm2 CROND[21016]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 22:01:01 zachary-vm2 run-parts[21016]: (/etc/cron.hourly) starting 0anacron
+Nov 12 22:01:01 zachary-vm2 run-parts[21016]: (/etc/cron.hourly) finished 0anacron
+Nov 12 23:01:01 zachary-vm2 CROND[21047]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 23:01:01 zachary-vm2 run-parts[21047]: (/etc/cron.hourly) starting 0anacron
+Nov 12 23:01:01 zachary-vm2 run-parts[21047]: (/etc/cron.hourly) finished 0anacron
+Nov 13 00:01:01 zachary-vm2 CROND[21074]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 00:01:01 zachary-vm2 run-parts[21074]: (/etc/cron.hourly) starting 0anacron
+Nov 13 00:01:01 zachary-vm2 anacron[21083]: Anacron started on 2020-11-13
+Nov 13 00:01:01 zachary-vm2 anacron[21083]: Normal exit (0 jobs run)
+Nov 13 00:01:01 zachary-vm2 run-parts[21074]: (/etc/cron.hourly) finished 0anacron
+Nov 13 01:01:01 zachary-vm2 CROND[21102]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 01:01:01 zachary-vm2 run-parts[21102]: (/etc/cron.hourly) starting 0anacron
+Nov 13 01:01:01 zachary-vm2 anacron[21111]: Anacron started on 2020-11-13
+Nov 13 01:01:01 zachary-vm2 anacron[21111]: Normal exit (0 jobs run)
+Nov 13 01:01:01 zachary-vm2 run-parts[21102]: (/etc/cron.hourly) finished 0anacron
+Nov 13 02:01:01 zachary-vm2 CROND[21200]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 02:01:01 zachary-vm2 run-parts[21200]: (/etc/cron.hourly) starting 0anacron
+Nov 13 02:01:01 zachary-vm2 anacron[21209]: Anacron started on 2020-11-13
+Nov 13 02:01:01 zachary-vm2 anacron[21209]: Normal exit (0 jobs run)
+Nov 13 02:01:01 zachary-vm2 run-parts[21200]: (/etc/cron.hourly) finished 0anacron
+Nov 13 03:01:01 zachary-vm2 CROND[21232]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 03:01:01 zachary-vm2 run-parts[21232]: (/etc/cron.hourly) starting 0anacron
+Nov 13 03:01:01 zachary-vm2 anacron[21241]: Anacron started on 2020-11-13
+Nov 13 03:01:01 zachary-vm2 anacron[21241]: Will run job `cron.daily' in 9 min.
+Nov 13 03:01:01 zachary-vm2 anacron[21241]: Jobs will be executed sequentially
+Nov 13 03:01:01 zachary-vm2 run-parts[21232]: (/etc/cron.hourly) finished 0anacron
+Nov 13 03:10:01 zachary-vm2 anacron[21241]: Job `cron.daily' started
+Nov 13 03:10:01 zachary-vm2 run-parts[21249]: (/etc/cron.daily) starting logrotate
+Nov 13 03:10:01 zachary-vm2 run-parts[21249]: (/etc/cron.daily) finished logrotate
+Nov 13 03:10:01 zachary-vm2 anacron[21241]: Job `cron.daily' terminated
+Nov 13 03:10:01 zachary-vm2 anacron[21241]: Normal exit (1 job run)
+Nov 13 04:01:01 zachary-vm2 CROND[21268]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 04:01:01 zachary-vm2 run-parts[21268]: (/etc/cron.hourly) starting 0anacron
+Nov 13 04:01:01 zachary-vm2 run-parts[21268]: (/etc/cron.hourly) finished 0anacron
+Nov 13 05:01:01 zachary-vm2 CROND[21294]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 05:01:01 zachary-vm2 run-parts[21294]: (/etc/cron.hourly) starting 0anacron
+Nov 13 05:01:01 zachary-vm2 run-parts[21294]: (/etc/cron.hourly) finished 0anacron
+Nov 13 06:01:01 zachary-vm2 CROND[21325]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 06:01:01 zachary-vm2 run-parts[21325]: (/etc/cron.hourly) starting 0anacron
+Nov 13 06:01:01 zachary-vm2 run-parts[21325]: (/etc/cron.hourly) finished 0anacron
+Nov 13 07:01:01 zachary-vm2 CROND[21355]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 07:01:01 zachary-vm2 run-parts[21355]: (/etc/cron.hourly) starting 0anacron
+Nov 13 07:01:01 zachary-vm2 run-parts[21355]: (/etc/cron.hourly) finished 0anacron
+Nov 13 08:01:01 zachary-vm2 CROND[21381]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 08:01:01 zachary-vm2 run-parts[21381]: (/etc/cron.hourly) starting 0anacron
+Nov 13 08:01:01 zachary-vm2 run-parts[21381]: (/etc/cron.hourly) finished 0anacron
+Nov 13 09:01:01 zachary-vm2 CROND[21412]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 09:01:01 zachary-vm2 run-parts[21412]: (/etc/cron.hourly) starting 0anacron
+Nov 13 09:01:01 zachary-vm2 run-parts[21412]: (/etc/cron.hourly) finished 0anacron
+Nov 13 10:01:01 zachary-vm2 CROND[21437]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 10:01:01 zachary-vm2 run-parts[21437]: (/etc/cron.hourly) starting 0anacron
+Nov 13 10:01:01 zachary-vm2 run-parts[21437]: (/etc/cron.hourly) finished 0anacron
+Nov 13 11:01:01 zachary-vm2 CROND[21463]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 11:01:01 zachary-vm2 run-parts[21463]: (/etc/cron.hourly) starting 0anacron
+Nov 13 11:01:01 zachary-vm2 run-parts[21463]: (/etc/cron.hourly) finished 0anacron
+Nov 13 12:01:01 zachary-vm2 CROND[21494]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 12:01:01 zachary-vm2 run-parts[21494]: (/etc/cron.hourly) starting 0anacron
+Nov 13 12:01:01 zachary-vm2 run-parts[21494]: (/etc/cron.hourly) finished 0anacron
+Nov 13 13:01:01 zachary-vm2 CROND[21519]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 13:01:01 zachary-vm2 run-parts[21519]: (/etc/cron.hourly) starting 0anacron
+Nov 13 13:01:01 zachary-vm2 run-parts[21519]: (/etc/cron.hourly) finished 0anacron
+Nov 13 14:01:02 zachary-vm2 CROND[21545]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 14:01:02 zachary-vm2 run-parts[21545]: (/etc/cron.hourly) starting 0anacron
+Nov 13 14:01:02 zachary-vm2 run-parts[21545]: (/etc/cron.hourly) finished 0anacron
+Nov 13 15:01:01 zachary-vm2 CROND[21576]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 15:01:01 zachary-vm2 run-parts[21576]: (/etc/cron.hourly) starting 0anacron
+Nov 13 15:01:01 zachary-vm2 run-parts[21576]: (/etc/cron.hourly) finished 0anacron
+Nov 13 16:01:01 zachary-vm2 CROND[21601]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 16:01:01 zachary-vm2 run-parts[21601]: (/etc/cron.hourly) starting 0anacron
+Nov 13 16:01:01 zachary-vm2 run-parts[21601]: (/etc/cron.hourly) finished 0anacron
+Nov 13 17:01:01 zachary-vm2 CROND[21626]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 17:01:01 zachary-vm2 run-parts[21626]: (/etc/cron.hourly) starting 0anacron
+Nov 13 17:01:01 zachary-vm2 run-parts[21626]: (/etc/cron.hourly) finished 0anacron
+Nov 13 18:01:01 zachary-vm2 CROND[21658]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 18:01:01 zachary-vm2 run-parts[21658]: (/etc/cron.hourly) starting 0anacron
+Nov 13 18:01:01 zachary-vm2 run-parts[21658]: (/etc/cron.hourly) finished 0anacron
+Nov 13 19:01:01 zachary-vm2 CROND[21690]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 19:01:01 zachary-vm2 run-parts[21690]: (/etc/cron.hourly) starting 0anacron
+Nov 13 19:01:01 zachary-vm2 run-parts[21690]: (/etc/cron.hourly) finished 0anacron
+Nov 13 20:01:01 zachary-vm2 CROND[21715]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 20:01:01 zachary-vm2 run-parts[21715]: (/etc/cron.hourly) starting 0anacron
+Nov 13 20:01:01 zachary-vm2 run-parts[21715]: (/etc/cron.hourly) finished 0anacron
+Nov 13 21:01:01 zachary-vm2 CROND[21746]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 21:01:01 zachary-vm2 run-parts[21746]: (/etc/cron.hourly) starting 0anacron
+Nov 13 21:01:01 zachary-vm2 run-parts[21746]: (/etc/cron.hourly) finished 0anacron
+Nov 13 22:01:01 zachary-vm2 CROND[21772]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 22:01:01 zachary-vm2 run-parts[21772]: (/etc/cron.hourly) starting 0anacron
+Nov 13 22:01:01 zachary-vm2 run-parts[21772]: (/etc/cron.hourly) finished 0anacron
+Nov 13 23:01:01 zachary-vm2 CROND[21797]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 23:01:01 zachary-vm2 run-parts[21797]: (/etc/cron.hourly) starting 0anacron
+Nov 13 23:01:01 zachary-vm2 run-parts[21797]: (/etc/cron.hourly) finished 0anacron
+Nov 14 00:01:01 zachary-vm2 CROND[21831]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 00:01:01 zachary-vm2 run-parts[21831]: (/etc/cron.hourly) starting 0anacron
+Nov 14 00:01:01 zachary-vm2 anacron[21840]: Anacron started on 2020-11-14
+Nov 14 00:01:01 zachary-vm2 anacron[21840]: Normal exit (0 jobs run)
+Nov 14 00:01:01 zachary-vm2 run-parts[21831]: (/etc/cron.hourly) finished 0anacron
+Nov 14 01:01:01 zachary-vm2 CROND[21858]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 01:01:01 zachary-vm2 run-parts[21858]: (/etc/cron.hourly) starting 0anacron
+Nov 14 01:01:01 zachary-vm2 anacron[21867]: Anacron started on 2020-11-14
+Nov 14 01:01:01 zachary-vm2 anacron[21867]: Normal exit (0 jobs run)
+Nov 14 01:01:01 zachary-vm2 run-parts[21858]: (/etc/cron.hourly) finished 0anacron
+Nov 14 02:01:01 zachary-vm2 CROND[21885]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 02:01:01 zachary-vm2 run-parts[21885]: (/etc/cron.hourly) starting 0anacron
+Nov 14 02:01:01 zachary-vm2 anacron[21894]: Anacron started on 2020-11-14
+Nov 14 02:01:01 zachary-vm2 anacron[21894]: Normal exit (0 jobs run)
+Nov 14 02:01:01 zachary-vm2 run-parts[21885]: (/etc/cron.hourly) finished 0anacron
+Nov 14 03:01:01 zachary-vm2 CROND[21919]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 03:01:01 zachary-vm2 run-parts[21919]: (/etc/cron.hourly) starting 0anacron
+Nov 14 03:01:01 zachary-vm2 anacron[21928]: Anacron started on 2020-11-14
+Nov 14 03:01:01 zachary-vm2 anacron[21928]: Will run job `cron.daily' in 49 min.
+Nov 14 03:01:01 zachary-vm2 anacron[21928]: Jobs will be executed sequentially
+Nov 14 03:01:01 zachary-vm2 run-parts[21919]: (/etc/cron.hourly) finished 0anacron
+Nov 14 03:50:01 zachary-vm2 anacron[21928]: Job `cron.daily' started
+Nov 14 03:50:01 zachary-vm2 run-parts[21943]: (/etc/cron.daily) starting logrotate
+Nov 14 03:50:01 zachary-vm2 run-parts[21943]: (/etc/cron.daily) finished logrotate
+Nov 14 03:50:01 zachary-vm2 anacron[21928]: Job `cron.daily' terminated
+Nov 14 03:50:01 zachary-vm2 anacron[21928]: Normal exit (1 job run)
+Nov 14 04:01:01 zachary-vm2 CROND[21955]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 04:01:01 zachary-vm2 run-parts[21955]: (/etc/cron.hourly) starting 0anacron
+Nov 14 04:01:01 zachary-vm2 run-parts[21955]: (/etc/cron.hourly) finished 0anacron
+Nov 14 05:01:01 zachary-vm2 CROND[21980]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 05:01:01 zachary-vm2 run-parts[21980]: (/etc/cron.hourly) starting 0anacron
+Nov 14 05:01:01 zachary-vm2 run-parts[21980]: (/etc/cron.hourly) finished 0anacron
+Nov 14 06:01:01 zachary-vm2 CROND[22012]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 06:01:01 zachary-vm2 run-parts[22012]: (/etc/cron.hourly) starting 0anacron
+Nov 14 06:01:01 zachary-vm2 run-parts[22012]: (/etc/cron.hourly) finished 0anacron
+Nov 14 07:01:01 zachary-vm2 CROND[22042]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 07:01:01 zachary-vm2 run-parts[22042]: (/etc/cron.hourly) starting 0anacron
+Nov 14 07:01:01 zachary-vm2 run-parts[22042]: (/etc/cron.hourly) finished 0anacron
+Nov 14 08:01:01 zachary-vm2 CROND[22067]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 08:01:01 zachary-vm2 run-parts[22067]: (/etc/cron.hourly) starting 0anacron
+Nov 14 08:01:01 zachary-vm2 run-parts[22067]: (/etc/cron.hourly) finished 0anacron
+Nov 14 09:01:01 zachary-vm2 CROND[22098]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 09:01:01 zachary-vm2 run-parts[22098]: (/etc/cron.hourly) starting 0anacron
+Nov 14 09:01:01 zachary-vm2 run-parts[22098]: (/etc/cron.hourly) finished 0anacron
+Nov 14 10:01:01 zachary-vm2 CROND[22124]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 10:01:01 zachary-vm2 run-parts[22124]: (/etc/cron.hourly) starting 0anacron
+Nov 14 10:01:01 zachary-vm2 run-parts[22124]: (/etc/cron.hourly) finished 0anacron
+Nov 14 11:01:01 zachary-vm2 CROND[22149]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 11:01:01 zachary-vm2 run-parts[22149]: (/etc/cron.hourly) starting 0anacron
+Nov 14 11:01:01 zachary-vm2 run-parts[22149]: (/etc/cron.hourly) finished 0anacron
+Nov 14 12:01:01 zachary-vm2 CROND[22181]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 12:01:01 zachary-vm2 run-parts[22181]: (/etc/cron.hourly) starting 0anacron
+Nov 14 12:01:01 zachary-vm2 run-parts[22181]: (/etc/cron.hourly) finished 0anacron
+Nov 14 13:01:01 zachary-vm2 CROND[22206]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 13:01:01 zachary-vm2 run-parts[22206]: (/etc/cron.hourly) starting 0anacron
+Nov 14 13:01:01 zachary-vm2 run-parts[22206]: (/etc/cron.hourly) finished 0anacron
+Nov 14 14:01:01 zachary-vm2 CROND[22231]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 14:01:01 zachary-vm2 run-parts[22231]: (/etc/cron.hourly) starting 0anacron
+Nov 14 14:01:01 zachary-vm2 run-parts[22231]: (/etc/cron.hourly) finished 0anacron
+Nov 14 15:01:01 zachary-vm2 CROND[22262]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 15:01:01 zachary-vm2 run-parts[22262]: (/etc/cron.hourly) starting 0anacron
+Nov 14 15:01:01 zachary-vm2 run-parts[22262]: (/etc/cron.hourly) finished 0anacron
+Nov 14 15:27:10 zachary-vm2 crond[1047]: (CRON) STARTUP (1.5.2)
+Nov 14 15:27:10 zachary-vm2 crond[1047]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Nov 14 15:27:10 zachary-vm2 crond[1047]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 92% if used.)
+Nov 14 15:27:11 zachary-vm2 crond[1047]: (CRON) INFO (running with inotify support)
+Nov 14 16:01:01 zachary-vm2 CROND[1534]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 16:01:01 zachary-vm2 run-parts[1534]: (/etc/cron.hourly) starting 0anacron
+Nov 14 16:01:01 zachary-vm2 run-parts[1534]: (/etc/cron.hourly) finished 0anacron
+Nov 14 17:01:01 zachary-vm2 CROND[1559]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 17:01:01 zachary-vm2 run-parts[1559]: (/etc/cron.hourly) starting 0anacron
+Nov 14 17:01:01 zachary-vm2 run-parts[1559]: (/etc/cron.hourly) finished 0anacron
+Nov 14 18:01:01 zachary-vm2 CROND[1766]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 18:01:01 zachary-vm2 run-parts[1766]: (/etc/cron.hourly) starting 0anacron
+Nov 14 18:01:01 zachary-vm2 run-parts[1766]: (/etc/cron.hourly) finished 0anacron
+Nov 14 19:01:01 zachary-vm2 CROND[10496]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 19:01:01 zachary-vm2 run-parts[10496]: (/etc/cron.hourly) starting 0anacron
+Nov 14 19:01:01 zachary-vm2 run-parts[10496]: (/etc/cron.hourly) finished 0anacron
+Nov 14 20:01:01 zachary-vm2 CROND[10521]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 20:01:01 zachary-vm2 run-parts[10521]: (/etc/cron.hourly) starting 0anacron
+Nov 14 20:01:01 zachary-vm2 run-parts[10521]: (/etc/cron.hourly) finished 0anacron
+Nov 14 21:01:01 zachary-vm2 CROND[10552]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 21:01:01 zachary-vm2 run-parts[10552]: (/etc/cron.hourly) starting 0anacron
+Nov 14 21:01:01 zachary-vm2 run-parts[10552]: (/etc/cron.hourly) finished 0anacron
+Nov 14 22:01:01 zachary-vm2 CROND[10577]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 22:01:01 zachary-vm2 run-parts[10577]: (/etc/cron.hourly) starting 0anacron
+Nov 14 22:01:01 zachary-vm2 run-parts[10577]: (/etc/cron.hourly) finished 0anacron
+Nov 14 23:01:01 zachary-vm2 CROND[10603]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 23:01:01 zachary-vm2 run-parts[10603]: (/etc/cron.hourly) starting 0anacron
+Nov 14 23:01:01 zachary-vm2 run-parts[10603]: (/etc/cron.hourly) finished 0anacron
+Nov 15 00:01:01 zachary-vm2 CROND[10637]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 15 00:01:01 zachary-vm2 run-parts[10637]: (/etc/cron.hourly) starting 0anacron
+Nov 15 00:01:01 zachary-vm2 anacron[10646]: Anacron started on 2020-11-15
+Nov 15 00:01:01 zachary-vm2 run-parts[10637]: (/etc/cron.hourly) finished 0anacron
+Nov 15 00:01:01 zachary-vm2 anacron[10646]: Normal exit (0 jobs run)
+Nov 15 01:01:01 zachary-vm2 CROND[10664]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 15 01:01:01 zachary-vm2 run-parts[10664]: (/etc/cron.hourly) starting 0anacron
+Nov 15 01:01:01 zachary-vm2 anacron[10673]: Anacron started on 2020-11-15
+Nov 15 01:01:01 zachary-vm2 anacron[10673]: Normal exit (0 jobs run)
+Nov 15 01:01:01 zachary-vm2 run-parts[10664]: (/etc/cron.hourly) finished 0anacron
+Nov 15 02:01:01 zachary-vm2 CROND[10691]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 15 02:01:01 zachary-vm2 run-parts[10691]: (/etc/cron.hourly) starting 0anacron
+Nov 15 02:01:01 zachary-vm2 anacron[10700]: Anacron started on 2020-11-15
+Nov 15 02:01:01 zachary-vm2 anacron[10700]: Normal exit (0 jobs run)
+Nov 15 02:01:01 zachary-vm2 run-parts[10691]: (/etc/cron.hourly) finished 0anacron
+Nov 15 03:01:01 zachary-vm2 CROND[10724]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 15 03:01:01 zachary-vm2 run-parts[10724]: (/etc/cron.hourly) starting 0anacron
+Nov 15 03:01:01 zachary-vm2 anacron[10733]: Anacron started on 2020-11-15
+Nov 15 03:01:01 zachary-vm2 anacron[10733]: Will run job `cron.daily' in 29 min.
+Nov 15 03:01:01 zachary-vm2 anacron[10733]: Will run job `cron.monthly' in 69 min.
+Nov 15 03:01:01 zachary-vm2 anacron[10733]: Jobs will be executed sequentially
+Nov 15 03:01:02 zachary-vm2 run-parts[10724]: (/etc/cron.hourly) finished 0anacron
+Nov 15 03:30:02 zachary-vm2 anacron[10733]: Job `cron.daily' started
+Nov 15 03:30:02 zachary-vm2 run-parts[10747]: (/etc/cron.daily) starting logrotate

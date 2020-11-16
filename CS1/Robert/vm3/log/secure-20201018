@@ -1,0 +1,44 @@
+Oct 13 08:53:19 localhost sshd[6349]: Accepted publickey for instructor from 172.16.0.1 port 52720 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 13 08:53:20 localhost systemd[6353]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 13 08:53:20 localhost sshd[6349]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 13 08:53:20 localhost sshd[6364]: Received disconnect from 172.16.0.1 port 52720:11: disconnected by user
+Oct 13 08:53:20 localhost sshd[6364]: Disconnected from user instructor 172.16.0.1 port 52720
+Oct 13 08:53:20 localhost sshd[6349]: pam_unix(sshd:session): session closed for user instructor
+Oct 13 08:53:20 localhost systemd[6358]: pam_unix(systemd-user:session): session closed for user instructor
+Oct 14 16:04:20 localhost sudo[7236]: student : TTY=tty1 ; PWD=/home/student/test ; USER=root ; COMMAND=/bin/su
+Oct 14 16:04:20 localhost sudo[7236]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 16:04:20 localhost sudo[7236]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 14 16:04:20 localhost su[7240]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 14 16:04:20 localhost su[7240]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 14 16:04:55 rjacinto1_pri sshd[1003]: Server listening on 0.0.0.0 port 22.
+Oct 14 16:04:55 rjacinto1_pri sshd[1003]: Server listening on :: port 22.
+Oct 14 16:04:55 rjacinto1_pri polkitd[971]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 14 16:04:55 rjacinto1_pri polkitd[971]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 14 16:04:55 rjacinto1_pri polkitd[971]: Finished loading, compiling and executing 2 rules
+Oct 14 16:04:55 rjacinto1_pri polkitd[971]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 14 16:05:26 rjacinto1_pri systemd[1489]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 14 16:05:26 rjacinto1_pri login[1042]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 14 16:05:26 rjacinto1_pri login[1042]: LOGIN ON tty1 BY student
+Oct 14 16:05:30 rjacinto1_pri sudo[1529]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Oct 14 16:05:30 rjacinto1_pri sudo[1529]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 16:05:30 rjacinto1_pri sudo[1529]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 14 16:05:30 rjacinto1_pri su[1533]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 14 16:05:30 rjacinto1_pri su[1533]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 14 16:05:40 rjacinto1_pri groupadd[1559]: group added to /etc/group: name=named, GID=25
+Oct 14 16:05:40 rjacinto1_pri groupadd[1559]: group added to /etc/gshadow: name=named
+Oct 14 16:05:40 rjacinto1_pri groupadd[1559]: new group: name=named, GID=25
+Oct 14 16:05:40 rjacinto1_pri useradd[1565]: new user: name=named, UID=25, GID=25, home=/var/named, shell=/bin/false
+Oct 14 16:09:23 rjacinto1_pri sshd[994]: Server listening on 0.0.0.0 port 22.
+Oct 14 16:09:23 rjacinto1_pri sshd[994]: Server listening on :: port 22.
+Oct 14 16:09:23 rjacinto1_pri polkitd[957]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 14 16:09:23 rjacinto1_pri polkitd[957]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 14 16:09:23 rjacinto1_pri polkitd[957]: Finished loading, compiling and executing 2 rules
+Oct 14 16:09:23 rjacinto1_pri polkitd[957]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 14 16:09:34 rjacinto1_pri systemd[1483]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 14 16:09:34 rjacinto1_pri login[1037]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 14 16:09:34 rjacinto1_pri login[1037]: LOGIN ON tty1 BY student
+Oct 14 16:09:40 rjacinto1_pri sudo[1521]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Oct 14 16:09:40 rjacinto1_pri sudo[1521]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 16:09:40 rjacinto1_pri sudo[1521]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 14 16:09:40 rjacinto1_pri su[1525]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 14 16:09:40 rjacinto1_pri su[1525]: pam_unix(su:session): session opened for user root by student(uid=0)

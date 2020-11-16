@@ -1,0 +1,688 @@
+Nov  8 19:48:28 aluk10-pri postfix/postfix-script[22467]: starting the Postfix mail system
+Nov  8 19:48:28 aluk10-pri postfix/master[22469]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  8 20:03:22 aluk10-pri postfix/pickup[22470]: 57BD32073B43: uid=1002 from=<aluk10>
+Nov  8 20:03:22 aluk10-pri postfix/cleanup[22998]: 57BD32073B43: message-id=<20201109010322.57BD32073B43@mail.aluk10.com>
+Nov  8 20:03:22 aluk10-pri postfix/qmgr[22471]: 57BD32073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:03:22 aluk10-pri postfix/smtp[23000]: 57BD32073B43: to=<rjacinto1@rjacinto1.net>, relay=none, delay=0.07, delays=0.03/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.net type=MX: Host not found, try again)
+Nov  8 20:03:56 aluk10-pri postfix/pickup[22470]: 6D7732073B44: uid=1002 from=<aluk10>
+Nov  8 20:03:56 aluk10-pri postfix/cleanup[22998]: 6D7732073B44: message-id=<20201109010356.6D7732073B44@mail.aluk10.com>
+Nov  8 20:03:56 aluk10-pri postfix/qmgr[22471]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:03:56 aluk10-pri postfix/smtp[23000]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=0.01, delays=0.01/0/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:08:28 aluk10-pri postfix/qmgr[22471]: 57BD32073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:08:28 aluk10-pri postfix/smtp[23096]: 57BD32073B43: to=<rjacinto1@rjacinto1.net>, relay=none, delay=306, delays=306/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.net type=MX: Host not found, try again)
+Nov  8 20:13:28 aluk10-pri postfix/qmgr[22471]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:13:28 aluk10-pri postfix/smtp[23151]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=572, delays=572/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:18:28 aluk10-pri postfix/qmgr[22471]: 57BD32073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:18:28 aluk10-pri postfix/smtp[23266]: 57BD32073B43: to=<rjacinto1@rjacinto1.net>, relay=none, delay=907, delays=906/0.04/0/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto1.net type=AAAA: Host not found)
+Nov  8 20:18:28 aluk10-pri postfix/cleanup[23268]: D917E2073AB3: message-id=<20201109011828.D917E2073AB3@mail.aluk10.com>
+Nov  8 20:18:28 aluk10-pri postfix/qmgr[22471]: D917E2073AB3: from=<>, size=2489, nrcpt=1 (queue active)
+Nov  8 20:18:28 aluk10-pri postfix/bounce[23267]: 57BD32073B43: sender non-delivery notification: D917E2073AB3
+Nov  8 20:18:28 aluk10-pri postfix/qmgr[22471]: 57BD32073B43: removed
+Nov  8 20:18:28 aluk10-pri postfix/local[23269]: D917E2073AB3: to=<aluk10@aluk10.com>, relay=local, delay=0.02, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:18:28 aluk10-pri postfix/qmgr[22471]: D917E2073AB3: removed
+Nov  8 20:18:42 aluk10-pri postfix/pickup[22470]: 5FB3F2073AB3: uid=1002 from=<aluk10>
+Nov  8 20:18:42 aluk10-pri postfix/cleanup[23268]: 5FB3F2073AB3: message-id=<20201109011842.5FB3F2073AB3@mail.aluk10.com>
+Nov  8 20:18:42 aluk10-pri postfix/qmgr[22471]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:18:52 aluk10-pri postfix/smtp[23266]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=10, delays=0.01/0/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:20:54 aluk10-pri postfix/pickup[22470]: 847832073B43: uid=1002 from=<aluk10>
+Nov  8 20:20:54 aluk10-pri postfix/cleanup[23341]: 847832073B43: message-id=<20201109012054.847832073B43@mail.aluk10.com>
+Nov  8 20:20:54 aluk10-pri postfix/qmgr[22471]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:21:04 aluk10-pri postfix/smtp[23343]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=10, delays=0.03/0.02/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:22:07 aluk10-pri postfix/pickup[22470]: 2F6312073B46: uid=1002 from=<aluk10>
+Nov  8 20:22:07 aluk10-pri postfix/cleanup[23341]: 2F6312073B46: message-id=<20201109012207.2F6312073B46@mail.aluk10.com>
+Nov  8 20:22:07 aluk10-pri postfix/qmgr[22471]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:22:17 aluk10-pri postfix/smtp[23343]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=10, delays=0.01/0/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:23:16 aluk10-pri postfix/pickup[22470]: 0C5262073B48: uid=1002 from=<aluk10>
+Nov  8 20:23:16 aluk10-pri postfix/cleanup[23341]: 0C5262073B48: message-id=<20201109012316.0C5262073B48@mail.aluk10.com>
+Nov  8 20:23:16 aluk10-pri postfix/qmgr[22471]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:23:26 aluk10-pri postfix/smtp[23343]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=10, delays=0.01/0/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:23:28 aluk10-pri postfix/qmgr[22471]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:23:28 aluk10-pri postfix/smtp[23343]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=1172, delays=1172/0/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:28:28 aluk10-pri postfix/qmgr[22471]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:28:28 aluk10-pri postfix/qmgr[22471]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:28:28 aluk10-pri postfix/qmgr[22471]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:28:28 aluk10-pri postfix/qmgr[22471]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:28:38 aluk10-pri postfix/smtp[23397]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=596, delays=586/0.04/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:28:38 aluk10-pri postfix/smtp[23398]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=464, delays=454/0.05/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:28:38 aluk10-pri postfix/smtp[23399]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=391, delays=381/0.07/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:28:38 aluk10-pri postfix/smtp[23400]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=322, delays=312/0.09/9.9/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:38:28 aluk10-pri postfix/qmgr[22471]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:38:28 aluk10-pri postfix/qmgr[22471]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:38:28 aluk10-pri postfix/qmgr[22471]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:38:38 aluk10-pri postfix/smtp[23482]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=1064, delays=1054/0.04/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:38:38 aluk10-pri postfix/smtp[23483]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=991, delays=981/0.05/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:38:38 aluk10-pri postfix/smtp[23484]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=922, delays=912/0.07/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:43:28 aluk10-pri postfix/qmgr[22471]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:43:28 aluk10-pri postfix/qmgr[22471]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:43:28 aluk10-pri postfix/error[23493]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=1486, delays=1486/0.03/0/0.03, dsn=4.4.3, status=deferred (delivery temporarily suspended: Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:43:28 aluk10-pri postfix/error[23494]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=2372, delays=2372/0.03/0/0.01, dsn=4.4.3, status=deferred (delivery temporarily suspended: Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:58:28 aluk10-pri postfix/qmgr[22471]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:58:28 aluk10-pri postfix/qmgr[22471]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:58:28 aluk10-pri postfix/qmgr[22471]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 20:58:38 aluk10-pri postfix/smtp[23570]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=2264, delays=2254/0.04/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:58:38 aluk10-pri postfix/smtp[23571]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=2191, delays=2181/0.05/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 20:58:38 aluk10-pri postfix/smtp[23572]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=2122, delays=2112/0.07/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 21:08:28 aluk10-pri postfix/qmgr[22471]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 21:08:32 aluk10-pri postfix/smtp[23608]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=2990, delays=2986/0.04/4/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 21:14:52 aluk10-pri postfix/pickup[22470]: C7FBF2073B4A: uid=0 from=<root>
+Nov  8 21:14:52 aluk10-pri postfix/cleanup[23645]: C7FBF2073B4A: message-id=<20201109021452.C7FBF2073B4A@mail.aluk10.com>
+Nov  8 21:14:52 aluk10-pri postfix/qmgr[22471]: C7FBF2073B4A: from=<root@aluk10.com>, size=430, nrcpt=1 (queue active)
+Nov  8 21:14:52 aluk10-pri postfix/smtp[23647]: C7FBF2073B4A: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.18, delays=0.03/0.02/0.1/0.02, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 69C6B1197F2)
+Nov  8 21:14:52 aluk10-pri postfix/qmgr[22471]: C7FBF2073B4A: removed
+Nov  8 21:15:32 aluk10-pri postfix/pickup[22470]: 9E5612073B4A: uid=1002 from=<aluk10>
+Nov  8 21:15:32 aluk10-pri postfix/cleanup[23645]: 9E5612073B4A: message-id=<20201109021532.9E5612073B4A@mail.aluk10.com>
+Nov  8 21:15:32 aluk10-pri postfix/qmgr[22471]: 9E5612073B4A: from=<aluk10@aluk10.com>, size=428, nrcpt=1 (queue active)
+Nov  8 21:15:32 aluk10-pri postfix/smtp[23647]: 9E5612073B4A: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0.01/0/0.06/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 297B21197F2)
+Nov  8 21:15:32 aluk10-pri postfix/qmgr[22471]: 9E5612073B4A: removed
+Nov  8 21:21:56 aluk10-pri postfix/pickup[23747]: C8A8C2073B4A: uid=1002 from=<aluk10>
+Nov  8 21:21:56 aluk10-pri postfix/cleanup[23757]: C8A8C2073B4A: message-id=<20201109022156.C8A8C2073B4A@mail.aluk10.com>
+Nov  8 21:21:56 aluk10-pri postfix/qmgr[22471]: C8A8C2073B4A: from=<aluk10@aluk10.com>, size=421, nrcpt=1 (queue active)
+Nov  8 21:21:56 aluk10-pri postfix/smtp[23759]: C8A8C2073B4A: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.18, delays=0.03/0.03/0.1/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 6C9E81197F2)
+Nov  8 21:21:56 aluk10-pri postfix/qmgr[22471]: C8A8C2073B4A: removed
+Nov  8 21:23:28 aluk10-pri postfix/qmgr[22471]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 21:23:28 aluk10-pri postfix/smtp[23759]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=4772, delays=4772/0/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 21:38:28 aluk10-pri postfix/qmgr[22471]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 21:38:28 aluk10-pri postfix/qmgr[22471]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 21:38:28 aluk10-pri postfix/qmgr[22471]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 21:38:28 aluk10-pri postfix/smtp[23837]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=4654, delays=4654/0.04/0.02/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 21:38:28 aluk10-pri postfix/smtp[23838]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=4581, delays=4581/0.06/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 21:38:28 aluk10-pri postfix/smtp[23837]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=4513, delays=4512/0.08/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 21:58:28 aluk10-pri postfix/qmgr[22471]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 21:58:28 aluk10-pri postfix/smtp[24071]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=5986, delays=5986/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 22:12:09 aluk10-pri postfix/pickup[23747]: 1994F2073B49: uid=1002 from=<aluk10>
+Nov  8 22:12:09 aluk10-pri postfix/cleanup[24093]: 1994F2073B49: message-id=<20201109031209.1994F2073B49@mail.aluk10.com>
+Nov  8 22:12:09 aluk10-pri postfix/qmgr[22471]: 1994F2073B49: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:12:19 aluk10-pri postfix/smtp[24095]: 1994F2073B49: to=<sknasser1@sknasser1.com>, relay=none, delay=10, delays=0.03/0.02/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=sknasser1.com type=MX: Host not found, try again)
+Nov  8 22:12:21 aluk10-pri postfix/pickup[23747]: CEFB42073B4C: uid=1002 from=<aluk10>
+Nov  8 22:12:21 aluk10-pri postfix/cleanup[24093]: CEFB42073B4C: message-id=<20201109031221.CEFB42073B4C@mail.aluk10.com>
+Nov  8 22:12:21 aluk10-pri postfix/qmgr[22471]: CEFB42073B4C: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:12:31 aluk10-pri postfix/smtp[24095]: CEFB42073B4C: to=<sknasser1@sknasser1.com>, relay=none, delay=10, delays=0.01/0/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=sknasser1.com type=MX: Host not found, try again)
+Nov  8 22:15:44 aluk10-pri postfix/pickup[23747]: 5BA552073B4D: uid=1002 from=<aluk10>
+Nov  8 22:15:44 aluk10-pri postfix/cleanup[24153]: 5BA552073B4D: message-id=<20201109031544.5BA552073B4D@mail.aluk10.com>
+Nov  8 22:15:44 aluk10-pri postfix/qmgr[22471]: 5BA552073B4D: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:15:44 aluk10-pri postfix/smtp[24155]: 5BA552073B4D: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.21, delays=0.03/0.02/0.13/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 55420107043)
+Nov  8 22:15:44 aluk10-pri postfix/qmgr[22471]: 5BA552073B4D: removed
+Nov  8 22:18:28 aluk10-pri postfix/qmgr[22471]: 1994F2073B49: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:18:28 aluk10-pri postfix/qmgr[22471]: CEFB42073B4C: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:18:28 aluk10-pri postfix/smtp[24195]: 1994F2073B49: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=380, delays=380/0.04/0.14/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 9C99B107044)
+Nov  8 22:18:28 aluk10-pri postfix/qmgr[22471]: 1994F2073B49: removed
+Nov  8 22:18:28 aluk10-pri postfix/smtp[24196]: CEFB42073B4C: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=367, delays=367/0.04/0.13/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 9F56F107045)
+Nov  8 22:18:28 aluk10-pri postfix/qmgr[22471]: CEFB42073B4C: removed
+Nov  8 22:28:23 aluk10-pri postfix/pickup[23747]: 75D112073B4B: uid=1002 from=<aluk10>
+Nov  8 22:28:23 aluk10-pri postfix/cleanup[24235]: 75D112073B4B: message-id=<20201109032823.75D112073B4B@mail.aluk10.com>
+Nov  8 22:28:23 aluk10-pri postfix/qmgr[22471]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:28:23 aluk10-pri postfix/smtp[24237]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=0.06, delays=0.03/0.02/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 22:30:27 aluk10-pri postfix/postfix-script[24271]: stopping the Postfix mail system
+Nov  8 22:30:27 aluk10-pri postfix/master[22469]: terminating on signal 15
+Nov  8 22:30:27 aluk10-pri postfix/postfix-script[24350]: starting the Postfix mail system
+Nov  8 22:30:27 aluk10-pri postfix/master[24352]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  8 22:30:27 aluk10-pri postfix/qmgr[24354]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 22:30:27 aluk10-pri postfix/smtp[24356]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=8791, delays=8791/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24397]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24399]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24401]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24402]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24403]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24401]: 966012073AB9: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24405]: 966012073AB9: message-id=<20201109032303.34E9110704D@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: 966012073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24399]: 99AA92073B4F: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24401]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24405]: 99AA92073B4F: message-id=<20201109031231.32C9010B5D5@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: 99AA92073B4F: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24397]: 9A7912073B50: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24402]: 9AB0E2073B51: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24399]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24406]: 9A7912073B50: message-id=<20201109032305.4A6A8107052@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24405]: 9AB0E2073B51: message-id=<20201109031302.B08D110B5FC@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: 9A7912073B50: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24399]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24401]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: 9AB0E2073B51: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24403]: A3D452073B52: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/local[24407]: 966012073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.07, delays=0.03/0.03/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: 966012073AB9: removed
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24397]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24402]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24408]: A3D452073B52: message-id=<20201109031531.79A47107043@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24397]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/local[24407]: 9A7912073B50: to=<aluk10@aluk10.com>, relay=local, delay=0.09, delays=0.07/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: 9A7912073B50: removed
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: A3D452073B52: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/local[24410]: 9AB0E2073B51: to=<aluk10@aluk10.com>, relay=local, delay=0.07, delays=0.05/0.02/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: 9AB0E2073B51: removed
+Nov  8 22:32:20 aluk10-pri postfix/local[24407]: A3D452073B52: to=<aluk10@aluk10.com>, relay=local, delay=0.02, delays=0.02/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: A3D452073B52: removed
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24403]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24402]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24403]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24411]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24401]: BFB6F2073AB9: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24406]: BFB6F2073AB9: message-id=<20201109032301.7734410704A@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24399]: C019A2073B50: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24397]: C026A2073B51: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24405]: C019A2073B50: message-id=<20201109032302.7A88810704C@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24408]: C026A2073B51: message-id=<20201109032304.7CDF4107050@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: BFB6F2073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: C019A2073B50: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: C026A2073B51: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24397]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24399]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24401]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24399]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24401]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24397]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/local[24410]: BFB6F2073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.03, delays=0.02/0/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: BFB6F2073AB9: removed
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24412]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/local[24407]: C019A2073B50: to=<aluk10@aluk10.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: C019A2073B50: removed
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24402]: CCBCF2073AB9: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24403]: CCCEC2073B50: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24405]: CCCEC2073B50: message-id=<20201109032258.5E50E107045@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24408]: CCBCF2073AB9: message-id=<20201109032259.5F513107046@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24411]: CD9052073B52: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24406]: CD9052073B52: message-id=<20201109032300.0C1C5107047@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/local[24410]: C026A2073B51: to=<aluk10@aluk10.com>, relay=local, delay=0.07, delays=0.01/0.05/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: C026A2073B51: removed
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: CCBCF2073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: CCCEC2073B50: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: CD9052073B52: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24411]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24402]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24403]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24402]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24411]: connect from unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/local[24407]: CCBCF2073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.02, delays=0.02/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: CCBCF2073AB9: removed
+Nov  8 22:32:20 aluk10-pri postfix/local[24410]: CCCEC2073B50: to=<aluk10@aluk10.com>, relay=local, delay=0.04, delays=0.02/0/0/0.02, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: CCCEC2073B50: removed
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24399]: D9F8A2073AB9: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24401]: DA07B2073B50: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24406]: D9F8A2073AB9: message-id=<20201109032302.031D310704B@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24405]: DA07B2073B50: message-id=<20201109032300.8811F107048@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/local[24407]: CD9052073B52: to=<aluk10@aluk10.com>, relay=local, delay=0.06, delays=0.02/0.03/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: CD9052073B52: removed
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24397]: DB6C22073B51: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: D9F8A2073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24399]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24408]: DB6C22073B51: message-id=<20201109032301.05B86107049@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: DA07B2073B50: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24401]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24397]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/local[24410]: D9F8A2073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.02, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: DB6C22073B51: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: D9F8A2073AB9: removed
+Nov  8 22:32:20 aluk10-pri postfix/local[24407]: DA07B2073B50: to=<aluk10@aluk10.com>, relay=local, delay=0.02, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: DA07B2073B50: removed
+Nov  8 22:32:20 aluk10-pri postfix/local[24410]: DB6C22073B51: to=<aluk10@aluk10.com>, relay=local, delay=0.01, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: DB6C22073B51: removed
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24402]: E4E702073AB9: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24411]: E4F472073B50: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24405]: E4F472073B50: message-id=<20201109032304.E3E23107051@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24406]: E4E702073AB9: message-id=<20201109032304.1A7AA10704F@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24411]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24402]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: E4E702073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: E4F472073B50: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24412]: E68B92073B51: client=unknown[192.168.21.3]
+Nov  8 22:32:20 aluk10-pri postfix/cleanup[24408]: E68B92073B51: message-id=<20201109032303.A532710704E@mail.sknasser1.com>
+Nov  8 22:32:20 aluk10-pri postfix/local[24407]: E4E702073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.01, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: E4E702073AB9: removed
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: E68B92073B51: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:32:20 aluk10-pri postfix/smtpd[24412]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:32:20 aluk10-pri postfix/local[24410]: E4F472073B50: to=<aluk10@aluk10.com>, relay=local, delay=0.01, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: E4F472073B50: removed
+Nov  8 22:32:20 aluk10-pri postfix/local[24407]: E68B92073B51: to=<aluk10@aluk10.com>, relay=local, delay=0.01, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:20 aluk10-pri postfix/qmgr[24354]: E68B92073B51: removed
+Nov  8 22:32:21 aluk10-pri postfix/local[24409]: 99AA92073B4F: to=<aluk10@aluk10.com>, relay=local, delay=1.2, delays=0.03/0.04/0/1.1, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:32:21 aluk10-pri postfix/qmgr[24354]: 99AA92073B4F: removed
+Nov  8 22:34:46 aluk10-pri postfix/smtpd[24459]: connect from unknown[192.168.21.3]
+Nov  8 22:34:46 aluk10-pri postfix/smtpd[24459]: 6CD712073AB9: client=unknown[192.168.21.3]
+Nov  8 22:34:46 aluk10-pri postfix/cleanup[24460]: 6CD712073AB9: message-id=<20201109033432.1779B10B5D5@mail.sknasser1.com>
+Nov  8 22:34:46 aluk10-pri postfix/qmgr[24354]: 6CD712073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:34:46 aluk10-pri postfix/smtpd[24459]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:34:46 aluk10-pri postfix/local[24461]: 6CD712073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:34:46 aluk10-pri postfix/qmgr[24354]: 6CD712073AB9: removed
+Nov  8 22:34:46 aluk10-pri postfix/smtpd[24459]: connect from unknown[192.168.21.3]
+Nov  8 22:34:46 aluk10-pri postfix/smtpd[24459]: ED2BE2073AB9: client=unknown[192.168.21.3]
+Nov  8 22:34:46 aluk10-pri postfix/cleanup[24460]: ED2BE2073AB9: message-id=<20201109033432.A81D110B5D5@mail.sknasser1.com>
+Nov  8 22:34:46 aluk10-pri postfix/qmgr[24354]: ED2BE2073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:34:46 aluk10-pri postfix/local[24461]: ED2BE2073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:34:46 aluk10-pri postfix/qmgr[24354]: ED2BE2073AB9: removed
+Nov  8 22:34:46 aluk10-pri postfix/smtpd[24459]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:34:47 aluk10-pri postfix/smtpd[24459]: connect from unknown[192.168.21.3]
+Nov  8 22:34:47 aluk10-pri postfix/smtpd[24459]: B7BD92073AB9: client=unknown[192.168.21.3]
+Nov  8 22:34:47 aluk10-pri postfix/cleanup[24460]: B7BD92073AB9: message-id=<20201109033433.744B210B5D5@mail.sknasser1.com>
+Nov  8 22:34:47 aluk10-pri postfix/qmgr[24354]: B7BD92073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:34:47 aluk10-pri postfix/smtpd[24459]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:34:47 aluk10-pri postfix/local[24461]: B7BD92073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:34:47 aluk10-pri postfix/qmgr[24354]: B7BD92073AB9: removed
+Nov  8 22:34:48 aluk10-pri postfix/smtpd[24459]: connect from unknown[192.168.21.3]
+Nov  8 22:34:48 aluk10-pri postfix/smtpd[24459]: 21DD32073AB9: client=unknown[192.168.21.3]
+Nov  8 22:34:48 aluk10-pri postfix/cleanup[24460]: 21DD32073AB9: message-id=<20201109033433.D308210B5D5@mail.sknasser1.com>
+Nov  8 22:34:48 aluk10-pri postfix/qmgr[24354]: 21DD32073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:34:48 aluk10-pri postfix/smtpd[24459]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:34:48 aluk10-pri postfix/local[24461]: 21DD32073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:34:48 aluk10-pri postfix/qmgr[24354]: 21DD32073AB9: removed
+Nov  8 22:34:48 aluk10-pri postfix/smtpd[24459]: connect from unknown[192.168.21.3]
+Nov  8 22:34:48 aluk10-pri postfix/smtpd[24459]: 78F892073AB9: client=unknown[192.168.21.3]
+Nov  8 22:34:48 aluk10-pri postfix/cleanup[24460]: 78F892073AB9: message-id=<20201109033434.35A7310B5D5@mail.sknasser1.com>
+Nov  8 22:34:48 aluk10-pri postfix/qmgr[24354]: 78F892073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:34:48 aluk10-pri postfix/smtpd[24459]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:34:48 aluk10-pri postfix/local[24461]: 78F892073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:34:48 aluk10-pri postfix/qmgr[24354]: 78F892073AB9: removed
+Nov  8 22:34:48 aluk10-pri postfix/smtpd[24459]: connect from unknown[192.168.21.3]
+Nov  8 22:34:48 aluk10-pri postfix/smtpd[24459]: D48E02073AB9: client=unknown[192.168.21.3]
+Nov  8 22:34:48 aluk10-pri postfix/cleanup[24460]: D48E02073AB9: message-id=<20201109033434.9173D10B5D5@mail.sknasser1.com>
+Nov  8 22:34:48 aluk10-pri postfix/qmgr[24354]: D48E02073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:34:48 aluk10-pri postfix/smtpd[24459]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:34:48 aluk10-pri postfix/local[24461]: D48E02073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.01, delays=0/0/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:34:48 aluk10-pri postfix/qmgr[24354]: D48E02073AB9: removed
+Nov  8 22:35:27 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:35:27 aluk10-pri postfix/smtp[24463]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=424, delays=424/0.02/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 22:37:20 aluk10-pri postfix/smtpd[24470]: connect from unknown[192.168.21.3]
+Nov  8 22:37:20 aluk10-pri postfix/smtpd[24470]: 97E0F2073AB9: client=unknown[192.168.21.3]
+Nov  8 22:37:20 aluk10-pri postfix/cleanup[24473]: 97E0F2073AB9: message-id=<20201109032148.350AE107044@mail.sknasser1.com>
+Nov  8 22:37:20 aluk10-pri postfix/qmgr[24354]: 97E0F2073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:37:20 aluk10-pri postfix/smtpd[24470]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:37:20 aluk10-pri postfix/local[24474]: 97E0F2073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:37:20 aluk10-pri postfix/qmgr[24354]: 97E0F2073AB9: removed
+Nov  8 22:39:36 aluk10-pri postfix/pickup[24353]: 906A62073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:36 aluk10-pri postfix/cleanup[24484]: 906A62073AB9: message-id=<20201109033936.906A62073AB9@mail.aluk10.com>
+Nov  8 22:39:36 aluk10-pri postfix/qmgr[24354]: 906A62073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:36 aluk10-pri postfix/smtp[24486]: 906A62073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.15, delays=0.03/0.02/0.1/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 7CE5110B5FE)
+Nov  8 22:39:36 aluk10-pri postfix/qmgr[24354]: 906A62073AB9: removed
+Nov  8 22:39:37 aluk10-pri postfix/pickup[24353]: 6C4C42073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:37 aluk10-pri postfix/cleanup[24484]: 6C4C42073AB9: message-id=<20201109033937.6C4C42073AB9@mail.aluk10.com>
+Nov  8 22:39:37 aluk10-pri postfix/qmgr[24354]: 6C4C42073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:37 aluk10-pri postfix/smtp[24486]: 6C4C42073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 465B810B5FE)
+Nov  8 22:39:37 aluk10-pri postfix/qmgr[24354]: 6C4C42073AB9: removed
+Nov  8 22:39:37 aluk10-pri postfix/pickup[24353]: EAA492073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:37 aluk10-pri postfix/cleanup[24484]: EAA492073AB9: message-id=<20201109033937.EAA492073AB9@mail.aluk10.com>
+Nov  8 22:39:37 aluk10-pri postfix/qmgr[24354]: EAA492073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:38 aluk10-pri postfix/smtp[24486]: EAA492073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as C4D7510B5FE)
+Nov  8 22:39:38 aluk10-pri postfix/qmgr[24354]: EAA492073AB9: removed
+Nov  8 22:39:38 aluk10-pri postfix/pickup[24353]: 67CA02073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:38 aluk10-pri postfix/cleanup[24484]: 67CA02073AB9: message-id=<20201109033938.67CA02073AB9@mail.aluk10.com>
+Nov  8 22:39:38 aluk10-pri postfix/qmgr[24354]: 67CA02073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:38 aluk10-pri postfix/smtp[24486]: 67CA02073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.06, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 41B6710B5FE)
+Nov  8 22:39:38 aluk10-pri postfix/qmgr[24354]: 67CA02073AB9: removed
+Nov  8 22:39:38 aluk10-pri postfix/pickup[24353]: C97762073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:38 aluk10-pri postfix/cleanup[24484]: C97762073AB9: message-id=<20201109033938.C97762073AB9@mail.aluk10.com>
+Nov  8 22:39:38 aluk10-pri postfix/qmgr[24354]: C97762073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:38 aluk10-pri postfix/smtp[24486]: C97762073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as A3A2510B5FE)
+Nov  8 22:39:38 aluk10-pri postfix/qmgr[24354]: C97762073AB9: removed
+Nov  8 22:39:39 aluk10-pri postfix/pickup[24353]: 3322C2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:39 aluk10-pri postfix/cleanup[24484]: 3322C2073AB9: message-id=<20201109033939.3322C2073AB9@mail.aluk10.com>
+Nov  8 22:39:39 aluk10-pri postfix/qmgr[24354]: 3322C2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:39 aluk10-pri postfix/smtp[24486]: 3322C2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 0DAE710B5FE)
+Nov  8 22:39:39 aluk10-pri postfix/qmgr[24354]: 3322C2073AB9: removed
+Nov  8 22:39:39 aluk10-pri postfix/pickup[24353]: 7B65E2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:39 aluk10-pri postfix/cleanup[24484]: 7B65E2073AB9: message-id=<20201109033939.7B65E2073AB9@mail.aluk10.com>
+Nov  8 22:39:39 aluk10-pri postfix/qmgr[24354]: 7B65E2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:39 aluk10-pri postfix/smtp[24486]: 7B65E2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 55B6E10B5FE)
+Nov  8 22:39:39 aluk10-pri postfix/qmgr[24354]: 7B65E2073AB9: removed
+Nov  8 22:39:39 aluk10-pri postfix/pickup[24353]: D544E2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:39 aluk10-pri postfix/cleanup[24484]: D544E2073AB9: message-id=<20201109033939.D544E2073AB9@mail.aluk10.com>
+Nov  8 22:39:39 aluk10-pri postfix/qmgr[24354]: D544E2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:39 aluk10-pri postfix/smtp[24486]: D544E2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as AF57810B5FE)
+Nov  8 22:39:39 aluk10-pri postfix/qmgr[24354]: D544E2073AB9: removed
+Nov  8 22:39:40 aluk10-pri postfix/pickup[24353]: 3B0E02073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:40 aluk10-pri postfix/cleanup[24484]: 3B0E02073AB9: message-id=<20201109033940.3B0E02073AB9@mail.aluk10.com>
+Nov  8 22:39:40 aluk10-pri postfix/qmgr[24354]: 3B0E02073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:40 aluk10-pri postfix/smtp[24486]: 3B0E02073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 158A310B5FE)
+Nov  8 22:39:40 aluk10-pri postfix/qmgr[24354]: 3B0E02073AB9: removed
+Nov  8 22:39:40 aluk10-pri postfix/pickup[24353]: 8B3922073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:40 aluk10-pri postfix/cleanup[24484]: 8B3922073AB9: message-id=<20201109033940.8B3922073AB9@mail.aluk10.com>
+Nov  8 22:39:40 aluk10-pri postfix/qmgr[24354]: 8B3922073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:40 aluk10-pri postfix/smtp[24486]: 8B3922073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 6598210B5FE)
+Nov  8 22:39:40 aluk10-pri postfix/qmgr[24354]: 8B3922073AB9: removed
+Nov  8 22:39:40 aluk10-pri postfix/pickup[24353]: D74212073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:40 aluk10-pri postfix/cleanup[24484]: D74212073AB9: message-id=<20201109033940.D74212073AB9@mail.aluk10.com>
+Nov  8 22:39:40 aluk10-pri postfix/qmgr[24354]: D74212073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:40 aluk10-pri postfix/smtp[24486]: D74212073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as B18BA10B5FE)
+Nov  8 22:39:40 aluk10-pri postfix/qmgr[24354]: D74212073AB9: removed
+Nov  8 22:39:41 aluk10-pri postfix/pickup[24353]: 358402073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:41 aluk10-pri postfix/cleanup[24484]: 358402073AB9: message-id=<20201109033941.358402073AB9@mail.aluk10.com>
+Nov  8 22:39:41 aluk10-pri postfix/qmgr[24354]: 358402073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:41 aluk10-pri postfix/smtp[24486]: 358402073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 1029B10B5FE)
+Nov  8 22:39:41 aluk10-pri postfix/qmgr[24354]: 358402073AB9: removed
+Nov  8 22:39:41 aluk10-pri postfix/pickup[24353]: 8911D2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:41 aluk10-pri postfix/cleanup[24484]: 8911D2073AB9: message-id=<20201109033941.8911D2073AB9@mail.aluk10.com>
+Nov  8 22:39:41 aluk10-pri postfix/qmgr[24354]: 8911D2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:41 aluk10-pri postfix/smtp[24486]: 8911D2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 63AF510B5FE)
+Nov  8 22:39:41 aluk10-pri postfix/qmgr[24354]: 8911D2073AB9: removed
+Nov  8 22:39:41 aluk10-pri postfix/pickup[24353]: D18962073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:41 aluk10-pri postfix/cleanup[24484]: D18962073AB9: message-id=<20201109033941.D18962073AB9@mail.aluk10.com>
+Nov  8 22:39:41 aluk10-pri postfix/qmgr[24354]: D18962073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:41 aluk10-pri postfix/smtp[24486]: D18962073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as ABA8C10B5FE)
+Nov  8 22:39:41 aluk10-pri postfix/qmgr[24354]: D18962073AB9: removed
+Nov  8 22:39:42 aluk10-pri postfix/pickup[24353]: 2D23E2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:42 aluk10-pri postfix/cleanup[24484]: 2D23E2073AB9: message-id=<20201109033942.2D23E2073AB9@mail.aluk10.com>
+Nov  8 22:39:42 aluk10-pri postfix/qmgr[24354]: 2D23E2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:42 aluk10-pri postfix/smtp[24486]: 2D23E2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 0792610B5FE)
+Nov  8 22:39:42 aluk10-pri postfix/qmgr[24354]: 2D23E2073AB9: removed
+Nov  8 22:39:42 aluk10-pri postfix/pickup[24353]: 94C2C2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:42 aluk10-pri postfix/cleanup[24484]: 94C2C2073AB9: message-id=<20201109033942.94C2C2073AB9@mail.aluk10.com>
+Nov  8 22:39:42 aluk10-pri postfix/qmgr[24354]: 94C2C2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:42 aluk10-pri postfix/smtp[24486]: 94C2C2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 6EE2110B5FE)
+Nov  8 22:39:42 aluk10-pri postfix/qmgr[24354]: 94C2C2073AB9: removed
+Nov  8 22:39:42 aluk10-pri postfix/pickup[24353]: EE7632073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:42 aluk10-pri postfix/cleanup[24484]: EE7632073AB9: message-id=<20201109033942.EE7632073AB9@mail.aluk10.com>
+Nov  8 22:39:42 aluk10-pri postfix/qmgr[24354]: EE7632073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:43 aluk10-pri postfix/smtp[24486]: EE7632073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as C8B7B10B5FE)
+Nov  8 22:39:43 aluk10-pri postfix/qmgr[24354]: EE7632073AB9: removed
+Nov  8 22:39:43 aluk10-pri postfix/pickup[24353]: 42C542073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:43 aluk10-pri postfix/cleanup[24484]: 42C542073AB9: message-id=<20201109033943.42C542073AB9@mail.aluk10.com>
+Nov  8 22:39:43 aluk10-pri postfix/qmgr[24354]: 42C542073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:43 aluk10-pri postfix/smtp[24486]: 42C542073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 1D64910B5FE)
+Nov  8 22:39:43 aluk10-pri postfix/qmgr[24354]: 42C542073AB9: removed
+Nov  8 22:39:43 aluk10-pri postfix/pickup[24353]: 960352073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:43 aluk10-pri postfix/cleanup[24484]: 960352073AB9: message-id=<20201109033943.960352073AB9@mail.aluk10.com>
+Nov  8 22:39:43 aluk10-pri postfix/qmgr[24354]: 960352073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:43 aluk10-pri postfix/smtp[24486]: 960352073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 705E510B5FE)
+Nov  8 22:39:43 aluk10-pri postfix/qmgr[24354]: 960352073AB9: removed
+Nov  8 22:39:43 aluk10-pri postfix/pickup[24353]: E60C62073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:43 aluk10-pri postfix/cleanup[24484]: E60C62073AB9: message-id=<20201109033943.E60C62073AB9@mail.aluk10.com>
+Nov  8 22:39:43 aluk10-pri postfix/qmgr[24354]: E60C62073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:44 aluk10-pri postfix/smtp[24486]: E60C62073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0.01/0/0.06/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as C0AEB10B5FE)
+Nov  8 22:39:44 aluk10-pri postfix/qmgr[24354]: E60C62073AB9: removed
+Nov  8 22:39:44 aluk10-pri postfix/pickup[24353]: 48DE52073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:44 aluk10-pri postfix/cleanup[24484]: 48DE52073AB9: message-id=<20201109033944.48DE52073AB9@mail.aluk10.com>
+Nov  8 22:39:44 aluk10-pri postfix/qmgr[24354]: 48DE52073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:44 aluk10-pri postfix/smtp[24486]: 48DE52073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 238B410B5FE)
+Nov  8 22:39:44 aluk10-pri postfix/qmgr[24354]: 48DE52073AB9: removed
+Nov  8 22:39:44 aluk10-pri postfix/pickup[24353]: 9CE5D2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:44 aluk10-pri postfix/cleanup[24484]: 9CE5D2073AB9: message-id=<20201109033944.9CE5D2073AB9@mail.aluk10.com>
+Nov  8 22:39:44 aluk10-pri postfix/qmgr[24354]: 9CE5D2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:44 aluk10-pri postfix/smtp[24486]: 9CE5D2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 776D310B5FE)
+Nov  8 22:39:44 aluk10-pri postfix/qmgr[24354]: 9CE5D2073AB9: removed
+Nov  8 22:39:44 aluk10-pri postfix/pickup[24353]: ECF0E2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:44 aluk10-pri postfix/cleanup[24484]: ECF0E2073AB9: message-id=<20201109033944.ECF0E2073AB9@mail.aluk10.com>
+Nov  8 22:39:44 aluk10-pri postfix/qmgr[24354]: ECF0E2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:45 aluk10-pri postfix/smtp[24486]: ECF0E2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as C77D710B5FE)
+Nov  8 22:39:45 aluk10-pri postfix/qmgr[24354]: ECF0E2073AB9: removed
+Nov  8 22:39:45 aluk10-pri postfix/pickup[24353]: 4AA992073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:45 aluk10-pri postfix/cleanup[24484]: 4AA992073AB9: message-id=<20201109033945.4AA992073AB9@mail.aluk10.com>
+Nov  8 22:39:45 aluk10-pri postfix/qmgr[24354]: 4AA992073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:45 aluk10-pri postfix/smtp[24486]: 4AA992073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 2520810B5FE)
+Nov  8 22:39:45 aluk10-pri postfix/qmgr[24354]: 4AA992073AB9: removed
+Nov  8 22:39:45 aluk10-pri postfix/pickup[24353]: 9711C2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:45 aluk10-pri postfix/cleanup[24484]: 9711C2073AB9: message-id=<20201109033945.9711C2073AB9@mail.aluk10.com>
+Nov  8 22:39:45 aluk10-pri postfix/qmgr[24354]: 9711C2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:45 aluk10-pri postfix/smtp[24486]: 9711C2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 7153D10B5FE)
+Nov  8 22:39:45 aluk10-pri postfix/qmgr[24354]: 9711C2073AB9: removed
+Nov  8 22:39:45 aluk10-pri postfix/pickup[24353]: E51F42073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:45 aluk10-pri postfix/cleanup[24484]: E51F42073AB9: message-id=<20201109033945.E51F42073AB9@mail.aluk10.com>
+Nov  8 22:39:45 aluk10-pri postfix/qmgr[24354]: E51F42073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:46 aluk10-pri postfix/smtp[24486]: E51F42073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as BFB2110B5FE)
+Nov  8 22:39:46 aluk10-pri postfix/qmgr[24354]: E51F42073AB9: removed
+Nov  8 22:39:46 aluk10-pri postfix/pickup[24353]: 3F3282073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:46 aluk10-pri postfix/cleanup[24484]: 3F3282073AB9: message-id=<20201109033946.3F3282073AB9@mail.aluk10.com>
+Nov  8 22:39:46 aluk10-pri postfix/qmgr[24354]: 3F3282073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:46 aluk10-pri postfix/smtp[24486]: 3F3282073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 19B1E10B5FE)
+Nov  8 22:39:46 aluk10-pri postfix/qmgr[24354]: 3F3282073AB9: removed
+Nov  8 22:39:46 aluk10-pri postfix/pickup[24353]: 94F942073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:46 aluk10-pri postfix/cleanup[24484]: 94F942073AB9: message-id=<20201109033946.94F942073AB9@mail.aluk10.com>
+Nov  8 22:39:46 aluk10-pri postfix/qmgr[24354]: 94F942073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:46 aluk10-pri postfix/smtp[24486]: 94F942073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 6F21F10B5FE)
+Nov  8 22:39:46 aluk10-pri postfix/qmgr[24354]: 94F942073AB9: removed
+Nov  8 22:39:46 aluk10-pri postfix/pickup[24353]: E52682073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:46 aluk10-pri postfix/cleanup[24484]: E52682073AB9: message-id=<20201109033946.E52682073AB9@mail.aluk10.com>
+Nov  8 22:39:46 aluk10-pri postfix/qmgr[24354]: E52682073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:47 aluk10-pri postfix/smtp[24486]: E52682073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as BFACB10B5FE)
+Nov  8 22:39:47 aluk10-pri postfix/qmgr[24354]: E52682073AB9: removed
+Nov  8 22:39:47 aluk10-pri postfix/pickup[24353]: 41D452073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:47 aluk10-pri postfix/cleanup[24484]: 41D452073AB9: message-id=<20201109033947.41D452073AB9@mail.aluk10.com>
+Nov  8 22:39:47 aluk10-pri postfix/qmgr[24354]: 41D452073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:47 aluk10-pri postfix/smtp[24486]: 41D452073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 1C1C110B5FE)
+Nov  8 22:39:47 aluk10-pri postfix/qmgr[24354]: 41D452073AB9: removed
+Nov  8 22:39:47 aluk10-pri postfix/pickup[24353]: 931942073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:47 aluk10-pri postfix/cleanup[24484]: 931942073AB9: message-id=<20201109033947.931942073AB9@mail.aluk10.com>
+Nov  8 22:39:47 aluk10-pri postfix/qmgr[24354]: 931942073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:47 aluk10-pri postfix/smtp[24486]: 931942073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 6DA9310B5FE)
+Nov  8 22:39:47 aluk10-pri postfix/qmgr[24354]: 931942073AB9: removed
+Nov  8 22:39:47 aluk10-pri postfix/pickup[24353]: DB7512073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:47 aluk10-pri postfix/cleanup[24484]: DB7512073AB9: message-id=<20201109033947.DB7512073AB9@mail.aluk10.com>
+Nov  8 22:39:47 aluk10-pri postfix/qmgr[24354]: DB7512073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:47 aluk10-pri postfix/smtp[24486]: DB7512073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as B5B2F10B5FE)
+Nov  8 22:39:47 aluk10-pri postfix/qmgr[24354]: DB7512073AB9: removed
+Nov  8 22:39:48 aluk10-pri postfix/pickup[24353]: 352D12073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:48 aluk10-pri postfix/cleanup[24484]: 352D12073AB9: message-id=<20201109033948.352D12073AB9@mail.aluk10.com>
+Nov  8 22:39:48 aluk10-pri postfix/qmgr[24354]: 352D12073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:48 aluk10-pri postfix/smtp[24486]: 352D12073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 1064010B5FE)
+Nov  8 22:39:48 aluk10-pri postfix/qmgr[24354]: 352D12073AB9: removed
+Nov  8 22:39:48 aluk10-pri postfix/pickup[24353]: 8945D2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:48 aluk10-pri postfix/cleanup[24484]: 8945D2073AB9: message-id=<20201109033948.8945D2073AB9@mail.aluk10.com>
+Nov  8 22:39:48 aluk10-pri postfix/qmgr[24354]: 8945D2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:48 aluk10-pri postfix/smtp[24486]: 8945D2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 639FD10B5FE)
+Nov  8 22:39:48 aluk10-pri postfix/qmgr[24354]: 8945D2073AB9: removed
+Nov  8 22:39:48 aluk10-pri postfix/pickup[24353]: D93C02073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:48 aluk10-pri postfix/cleanup[24484]: D93C02073AB9: message-id=<20201109033948.D93C02073AB9@mail.aluk10.com>
+Nov  8 22:39:48 aluk10-pri postfix/qmgr[24354]: D93C02073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:48 aluk10-pri postfix/smtp[24486]: D93C02073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as B37CD10B5FE)
+Nov  8 22:39:48 aluk10-pri postfix/qmgr[24354]: D93C02073AB9: removed
+Nov  8 22:39:49 aluk10-pri postfix/pickup[24353]: 319CB2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:39:49 aluk10-pri postfix/cleanup[24484]: 319CB2073AB9: message-id=<20201109033949.319CB2073AB9@mail.aluk10.com>
+Nov  8 22:39:49 aluk10-pri postfix/qmgr[24354]: 319CB2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:39:49 aluk10-pri postfix/smtp[24486]: 319CB2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 0C7F010B5FE)
+Nov  8 22:39:49 aluk10-pri postfix/qmgr[24354]: 319CB2073AB9: removed
+Nov  8 22:40:40 aluk10-pri postfix/anvil[24400]: statistics: max connection rate 17/60s for (smtp:192.168.21.3) at Nov  8 22:32:20
+Nov  8 22:40:40 aluk10-pri postfix/anvil[24400]: statistics: max connection count 7 for (smtp:192.168.21.3) at Nov  8 22:32:20
+Nov  8 22:40:40 aluk10-pri postfix/anvil[24400]: statistics: max cache size 1 at Nov  8 22:32:20
+Nov  8 22:45:27 aluk10-pri postfix/qmgr[24354]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 22:45:27 aluk10-pri postfix/qmgr[24354]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 22:45:27 aluk10-pri postfix/qmgr[24354]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 22:45:27 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:45:27 aluk10-pri postfix/smtp[24605]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=8673, delays=8673/0.05/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 22:45:27 aluk10-pri postfix/smtp[24606]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=8600, delays=8600/0.06/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 22:45:27 aluk10-pri postfix/smtp[24605]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=8531, delays=8531/0.08/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 22:45:27 aluk10-pri postfix/smtp[24606]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=1024, delays=1024/0.09/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 22:47:20 aluk10-pri postfix/smtpd[24612]: connect from unknown[192.168.21.3]
+Nov  8 22:47:20 aluk10-pri postfix/smtpd[24612]: 6EB242073AB9: client=unknown[192.168.21.3]
+Nov  8 22:47:20 aluk10-pri postfix/cleanup[24616]: 6EB242073AB9: message-id=<20201109023358.4C82310B5FB@mail.sknasser1.com>
+Nov  8 22:47:20 aluk10-pri postfix/qmgr[24354]: 6EB242073AB9: from=<sknasser1@sknasser1.com>, size=639, nrcpt=1 (queue active)
+Nov  8 22:47:20 aluk10-pri postfix/smtpd[24612]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:47:20 aluk10-pri postfix/local[24617]: 6EB242073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:47:20 aluk10-pri postfix/qmgr[24354]: 6EB242073AB9: removed
+Nov  8 22:50:40 aluk10-pri postfix/anvil[24614]: statistics: max connection rate 1/60s for (smtp:192.168.21.3) at Nov  8 22:47:20
+Nov  8 22:50:40 aluk10-pri postfix/anvil[24614]: statistics: max connection count 1 for (smtp:192.168.21.3) at Nov  8 22:47:20
+Nov  8 22:50:40 aluk10-pri postfix/anvil[24614]: statistics: max cache size 1 at Nov  8 22:47:20
+Nov  8 22:52:06 aluk10-pri postfix/smtpd[24670]: connect from unknown[192.168.21.3]
+Nov  8 22:52:06 aluk10-pri postfix/smtpd[24670]: 21EB62073AB9: client=unknown[192.168.21.3]
+Nov  8 22:52:06 aluk10-pri postfix/cleanup[24674]: 21EB62073AB9: message-id=<20201109035141.BF87210B5D5@mail.sknasser1.com>
+Nov  8 22:52:06 aluk10-pri postfix/qmgr[24354]: 21EB62073AB9: from=<sknasser1@sknasser1.com>, size=656, nrcpt=1 (queue active)
+Nov  8 22:52:06 aluk10-pri postfix/smtpd[24670]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:52:06 aluk10-pri postfix/local[24675]: 21EB62073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:52:06 aluk10-pri postfix/qmgr[24354]: 21EB62073AB9: removed
+Nov  8 22:55:26 aluk10-pri postfix/anvil[24672]: statistics: max connection rate 1/60s for (smtp:192.168.21.3) at Nov  8 22:52:06
+Nov  8 22:55:26 aluk10-pri postfix/anvil[24672]: statistics: max connection count 1 for (smtp:192.168.21.3) at Nov  8 22:52:06
+Nov  8 22:55:26 aluk10-pri postfix/anvil[24672]: statistics: max cache size 1 at Nov  8 22:52:06
+Nov  8 22:58:43 aluk10-pri postfix/pickup[24353]: 6DD8B2073AB9: uid=1002 from=<aluk10>
+Nov  8 22:58:43 aluk10-pri postfix/cleanup[24687]: 6DD8B2073AB9: message-id=<20201109035843.6DD8B2073AB9@mail.aluk10.com>
+Nov  8 22:58:43 aluk10-pri postfix/qmgr[24354]: 6DD8B2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 22:58:53 aluk10-pri postfix/smtp[24689]: 6DD8B2073AB9: to=<sknasser1@sknasser1.com>, relay=none, delay=10, delays=0.03/0.02/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=sknasser1.com type=MX: Host not found, try again)
+Nov  8 23:05:27 aluk10-pri postfix/qmgr[24354]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 23:05:27 aluk10-pri postfix/qmgr[24354]: 6DD8B2073AB9: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 23:05:27 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 23:05:27 aluk10-pri postfix/smtp[24790]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=10005, delays=10005/0.05/0.02/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 23:05:27 aluk10-pri postfix/smtp[24790]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=2224, delays=2224/0.08/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 23:05:27 aluk10-pri postfix/smtp[24791]: 6DD8B2073AB9: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=404, delays=404/0.06/0.11/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 90362107043)
+Nov  8 23:05:27 aluk10-pri postfix/qmgr[24354]: 6DD8B2073AB9: removed
+Nov  8 23:19:16 aluk10-pri postfix/smtpd[24847]: connect from unknown[unknown]
+Nov  8 23:19:16 aluk10-pri postfix/smtpd[24847]: lost connection after CONNECT from unknown[unknown]
+Nov  8 23:19:16 aluk10-pri postfix/smtpd[24847]: disconnect from unknown[unknown] commands=0/0
+Nov  8 23:22:36 aluk10-pri postfix/anvil[24849]: statistics: max connection rate 1/60s for (smtp:unknown) at Nov  8 23:19:16
+Nov  8 23:22:36 aluk10-pri postfix/anvil[24849]: statistics: max connection count 1 for (smtp:unknown) at Nov  8 23:19:16
+Nov  8 23:22:36 aluk10-pri postfix/anvil[24849]: statistics: max cache size 1 at Nov  8 23:19:16
+Nov  8 23:40:27 aluk10-pri postfix/qmgr[24354]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 23:40:27 aluk10-pri postfix/smtp[25084]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=12991, delays=12991/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 23:45:27 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  8 23:45:27 aluk10-pri postfix/smtp[25088]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=4624, delays=4624/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 23:55:27 aluk10-pri postfix/qmgr[24354]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 23:55:27 aluk10-pri postfix/qmgr[24354]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 23:55:27 aluk10-pri postfix/qmgr[24354]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  8 23:55:27 aluk10-pri postfix/smtp[25108]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=12873, delays=12873/0.05/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 23:55:27 aluk10-pri postfix/smtp[25109]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=12801, delays=12801/0.06/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  8 23:55:27 aluk10-pri postfix/smtp[25108]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=12732, delays=12732/0.07/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 00:15:28 aluk10-pri postfix/qmgr[24354]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 00:15:28 aluk10-pri postfix/smtp[25133]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=14206, delays=14206/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 00:50:28 aluk10-pri postfix/qmgr[24354]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 00:50:28 aluk10-pri postfix/smtp[25144]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=17192, delays=17192/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 00:55:28 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  9 00:55:28 aluk10-pri postfix/smtp[25148]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=8825, delays=8825/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 01:05:28 aluk10-pri postfix/qmgr[24354]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 01:05:28 aluk10-pri postfix/qmgr[24354]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 01:05:28 aluk10-pri postfix/qmgr[24354]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 01:05:28 aluk10-pri postfix/smtp[25166]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=17074, delays=17074/0.04/0.02/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 01:05:28 aluk10-pri postfix/smtp[25167]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=17001, delays=17001/0.06/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 01:05:28 aluk10-pri postfix/smtp[25166]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=16933, delays=16932/0.07/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 01:25:28 aluk10-pri postfix/qmgr[24354]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 01:25:28 aluk10-pri postfix/smtp[25176]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=18406, delays=18406/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 02:00:28 aluk10-pri postfix/qmgr[24354]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 02:00:28 aluk10-pri postfix/smtp[25187]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=21392, delays=21392/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 02:05:28 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  9 02:05:28 aluk10-pri postfix/smtp[25204]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=13025, delays=13025/0.09/0.02/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 02:15:28 aluk10-pri postfix/qmgr[24354]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 02:15:28 aluk10-pri postfix/qmgr[24354]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 02:15:28 aluk10-pri postfix/qmgr[24354]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 02:15:28 aluk10-pri postfix/smtp[25208]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=21274, delays=21274/0.04/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 02:15:28 aluk10-pri postfix/smtp[25208]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=21132, delays=21132/0.06/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 02:15:28 aluk10-pri postfix/smtp[25209]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=21201, delays=21201/0.06/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 02:35:28 aluk10-pri postfix/qmgr[24354]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 02:35:28 aluk10-pri postfix/smtp[25218]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=22607, delays=22607/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 03:10:29 aluk10-pri postfix/qmgr[24354]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 03:10:29 aluk10-pri postfix/smtp[25269]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=25593, delays=25593/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 03:15:29 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  9 03:15:29 aluk10-pri postfix/smtp[25273]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=17226, delays=17226/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 03:25:29 aluk10-pri postfix/qmgr[24354]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 03:25:29 aluk10-pri postfix/qmgr[24354]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 03:25:29 aluk10-pri postfix/qmgr[24354]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 03:25:29 aluk10-pri postfix/smtp[25277]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=25475, delays=25475/0.05/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 03:25:29 aluk10-pri postfix/smtp[25277]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=25334, delays=25334/0.06/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 03:25:29 aluk10-pri postfix/smtp[25278]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=25403, delays=25403/0.06/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 03:45:30 aluk10-pri postfix/qmgr[24354]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 03:45:30 aluk10-pri postfix/smtp[25287]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=26808, delays=26808/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 04:20:30 aluk10-pri postfix/qmgr[24354]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 04:20:30 aluk10-pri postfix/smtp[25309]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=29794, delays=29794/0.04/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 04:25:30 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  9 04:25:30 aluk10-pri postfix/smtp[25313]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=21427, delays=21427/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 04:35:30 aluk10-pri postfix/qmgr[24354]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 04:35:30 aluk10-pri postfix/qmgr[24354]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 04:35:30 aluk10-pri postfix/qmgr[24354]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 04:35:30 aluk10-pri postfix/smtp[25319]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=29676, delays=29676/0.04/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 04:35:30 aluk10-pri postfix/smtp[25320]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=29603, delays=29603/0.05/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 04:35:30 aluk10-pri postfix/smtp[25319]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=29535, delays=29535/0.07/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 04:55:30 aluk10-pri postfix/qmgr[24354]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 04:55:30 aluk10-pri postfix/smtp[25332]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=31008, delays=31008/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 05:30:30 aluk10-pri postfix/qmgr[24354]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 05:30:30 aluk10-pri postfix/smtp[25351]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=33994, delays=33994/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 05:35:30 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  9 05:35:30 aluk10-pri postfix/smtp[25355]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=25627, delays=25627/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 05:45:30 aluk10-pri postfix/qmgr[24354]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 05:45:30 aluk10-pri postfix/qmgr[24354]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 05:45:30 aluk10-pri postfix/qmgr[24354]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 05:45:31 aluk10-pri postfix/smtp[25360]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=33876, delays=33876/0.04/0.02/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 05:45:31 aluk10-pri postfix/smtp[25361]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=33804, delays=33804/0.06/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 05:45:31 aluk10-pri postfix/smtp[25360]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=33735, delays=33735/0.08/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 06:05:30 aluk10-pri postfix/qmgr[24354]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 06:05:30 aluk10-pri postfix/smtp[25395]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=35208, delays=35208/0.05/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 06:40:31 aluk10-pri postfix/qmgr[24354]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 06:40:31 aluk10-pri postfix/smtp[25405]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=38195, delays=38195/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 06:45:31 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  9 06:45:31 aluk10-pri postfix/smtp[25408]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=29828, delays=29828/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 06:55:31 aluk10-pri postfix/qmgr[24354]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 06:55:31 aluk10-pri postfix/qmgr[24354]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 06:55:31 aluk10-pri postfix/qmgr[24354]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 06:55:31 aluk10-pri postfix/smtp[25416]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=38077, delays=38077/0.04/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 06:55:31 aluk10-pri postfix/smtp[25417]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=38004, delays=38004/0.06/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 06:55:31 aluk10-pri postfix/smtp[25416]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=37936, delays=37936/0.08/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=rjacinto1.com type=MX: Host not found, try again)
+Nov  9 07:15:31 aluk10-pri postfix/qmgr[24354]: 5FB3F2073AB3: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 07:15:31 aluk10-pri postfix/smtp[25444]: 5FB3F2073AB3: to=<rjacinto1@rjacinto1.com>, relay=none, delay=39409, delays=39409/0.05/0.02/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto1.com type=AAAA: Host not found)
+Nov  9 07:15:31 aluk10-pri postfix/cleanup[25446]: 798852073AB9: message-id=<20201109121531.798852073AB9@mail.aluk10.com>
+Nov  9 07:15:31 aluk10-pri postfix/qmgr[24354]: 798852073AB9: from=<>, size=2489, nrcpt=1 (queue active)
+Nov  9 07:15:31 aluk10-pri postfix/bounce[25445]: 5FB3F2073AB3: sender non-delivery notification: 798852073AB9
+Nov  9 07:15:31 aluk10-pri postfix/qmgr[24354]: 5FB3F2073AB3: removed
+Nov  9 07:15:31 aluk10-pri postfix/local[25447]: 798852073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  9 07:15:31 aluk10-pri postfix/qmgr[24354]: 798852073AB9: removed
+Nov  9 07:50:31 aluk10-pri postfix/qmgr[24354]: 6D7732073B44: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 07:50:31 aluk10-pri postfix/smtp[25455]: 6D7732073B44: to=<rjacinto1@rjacinto1.com>, relay=none, delay=42395, delays=42395/0.04/0.03/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto1.com type=AAAA: Host not found)
+Nov  9 07:50:31 aluk10-pri postfix/cleanup[25457]: E397A2073AB3: message-id=<20201109125031.E397A2073AB3@mail.aluk10.com>
+Nov  9 07:50:31 aluk10-pri postfix/qmgr[24354]: E397A2073AB3: from=<>, size=2489, nrcpt=1 (queue active)
+Nov  9 07:50:31 aluk10-pri postfix/bounce[25456]: 6D7732073B44: sender non-delivery notification: E397A2073AB3
+Nov  9 07:50:31 aluk10-pri postfix/qmgr[24354]: 6D7732073B44: removed
+Nov  9 07:50:31 aluk10-pri postfix/local[25458]: E397A2073AB3: to=<aluk10@aluk10.com>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  9 07:50:31 aluk10-pri postfix/qmgr[24354]: E397A2073AB3: removed
+Nov  9 07:55:32 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov  9 07:55:32 aluk10-pri postfix/smtp[25465]: 75D112073B4B: to=<rjacinto1@rjacinto1.com>, relay=none, delay=34029, delays=34029/0.04/0.01/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto1.com type=AAAA: Host not found)
+Nov  9 07:55:32 aluk10-pri postfix/cleanup[25467]: 18EFF2073AB3: message-id=<20201109125532.18EFF2073AB3@mail.aluk10.com>
+Nov  9 07:55:32 aluk10-pri postfix/qmgr[24354]: 18EFF2073AB3: from=<>, size=2485, nrcpt=1 (queue active)
+Nov  9 07:55:32 aluk10-pri postfix/bounce[25466]: 75D112073B4B: sender non-delivery notification: 18EFF2073AB3
+Nov  9 07:55:32 aluk10-pri postfix/qmgr[24354]: 75D112073B4B: removed
+Nov  9 07:55:32 aluk10-pri postfix/local[25468]: 18EFF2073AB3: to=<aluk10@aluk10.com>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  9 07:55:32 aluk10-pri postfix/qmgr[24354]: 18EFF2073AB3: removed
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 847832073B43: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 2F6312073B46: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 0C5262073B48: from=<aluk10@aluk10.com>, size=452, nrcpt=1 (queue active)
+Nov  9 08:05:32 aluk10-pri postfix/smtp[25482]: 847832073B43: to=<rjacinto1@rjacinto1.com>, relay=none, delay=42278, delays=42278/0.04/0.02/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto1.com type=AAAA: Host not found)
+Nov  9 08:05:32 aluk10-pri postfix/smtp[25483]: 2F6312073B46: to=<rjacinto1@rjacinto1.com>, relay=none, delay=42205, delays=42205/0.05/0.03/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto1.com type=AAAA: Host not found)
+Nov  9 08:05:32 aluk10-pri postfix/cleanup[25487]: 7D87F2073AB3: message-id=<20201109130532.7D87F2073AB3@mail.aluk10.com>
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 7D87F2073AB3: from=<>, size=2489, nrcpt=1 (queue active)
+Nov  9 08:05:32 aluk10-pri postfix/bounce[25484]: 847832073B43: sender non-delivery notification: 7D87F2073AB3
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 847832073B43: removed
+Nov  9 08:05:32 aluk10-pri postfix/cleanup[25487]: 8024D2073AB9: message-id=<20201109130532.8024D2073AB9@mail.aluk10.com>
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 8024D2073AB9: from=<>, size=2489, nrcpt=1 (queue active)
+Nov  9 08:05:32 aluk10-pri postfix/bounce[25486]: 2F6312073B46: sender non-delivery notification: 8024D2073AB9
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 2F6312073B46: removed
+Nov  9 08:05:32 aluk10-pri postfix/local[25489]: 7D87F2073AB3: to=<aluk10@aluk10.com>, relay=local, delay=0.04, delays=0.02/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 7D87F2073AB3: removed
+Nov  9 08:05:32 aluk10-pri postfix/smtp[25485]: 0C5262073B48: to=<rjacinto1@rjacinto1.com>, relay=none, delay=42137, delays=42136/0.08/0.06/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=rjacinto1.com type=AAAA: Host not found)
+Nov  9 08:05:32 aluk10-pri postfix/cleanup[25488]: 86A3C2073AB3: message-id=<20201109130532.86A3C2073AB3@mail.aluk10.com>
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 86A3C2073AB3: from=<>, size=2489, nrcpt=1 (queue active)
+Nov  9 08:05:32 aluk10-pri postfix/bounce[25486]: 0C5262073B48: sender non-delivery notification: 86A3C2073AB3
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 0C5262073B48: removed
+Nov  9 08:05:32 aluk10-pri postfix/local[25489]: 86A3C2073AB3: to=<aluk10@aluk10.com>, relay=local, delay=0, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  9 08:05:32 aluk10-pri postfix/qmgr[24354]: 86A3C2073AB3: removed
+Nov  9 08:05:33 aluk10-pri postfix/local[25490]: 8024D2073AB9: to=<aluk10@aluk10.com>, relay=local, delay=1.2, delays=0.03/0.01/0/1.2, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  9 08:05:33 aluk10-pri postfix/qmgr[24354]: 8024D2073AB9: removed
+Nov 13 21:15:18 aluk10-pri postfix/pickup[28618]: 276AF2073AB3: uid=1002 from=<aluk10>
+Nov 13 21:15:18 aluk10-pri postfix/cleanup[28647]: 276AF2073AB3: message-id=<20201114021518.276AF2073AB3@mail.aluk10.com>
+Nov 13 21:15:18 aluk10-pri postfix/qmgr[24354]: 276AF2073AB3: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov 13 21:15:18 aluk10-pri postfix/smtp[28649]: 276AF2073AB3: to=<tbrecher@aurora-cdt.com>, relay=none, delay=0.17, delays=0.03/0.02/0.11/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=aurora-cdt.com type=AAAA: Host not found)
+Nov 13 21:15:18 aluk10-pri postfix/cleanup[28647]: 4FB952073AB9: message-id=<20201114021518.4FB952073AB9@mail.aluk10.com>
+Nov 13 21:15:18 aluk10-pri postfix/qmgr[24354]: 4FB952073AB9: from=<>, size=2487, nrcpt=1 (queue active)
+Nov 13 21:15:18 aluk10-pri postfix/bounce[28650]: 276AF2073AB3: sender non-delivery notification: 4FB952073AB9
+Nov 13 21:15:18 aluk10-pri postfix/qmgr[24354]: 276AF2073AB3: removed
+Nov 13 21:15:18 aluk10-pri postfix/local[28651]: 4FB952073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.02, delays=0/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov 13 21:15:18 aluk10-pri postfix/qmgr[24354]: 4FB952073AB9: removed
+Nov 13 21:16:08 aluk10-pri postfix/pickup[28618]: 4CCDF2073AB3: uid=1002 from=<aluk10>
+Nov 13 21:16:08 aluk10-pri postfix/cleanup[28647]: 4CCDF2073AB3: message-id=<20201114021608.4CCDF2073AB3@mail.aluk10.com>
+Nov 13 21:16:08 aluk10-pri postfix/qmgr[24354]: 4CCDF2073AB3: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov 13 21:16:08 aluk10-pri postfix/smtp[28649]: 4CCDF2073AB3: to=<tbrecher@aurora-cdt.com>, relay=none, delay=0.02, delays=0.01/0/0.01/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=aurora-cdt.com type=AAAA: Host not found)
+Nov 13 21:16:08 aluk10-pri postfix/cleanup[28647]: 50FD52073AB9: message-id=<20201114021608.50FD52073AB9@mail.aluk10.com>
+Nov 13 21:16:08 aluk10-pri postfix/qmgr[24354]: 50FD52073AB9: from=<>, size=2487, nrcpt=1 (queue active)
+Nov 13 21:16:08 aluk10-pri postfix/bounce[28650]: 4CCDF2073AB3: sender non-delivery notification: 50FD52073AB9
+Nov 13 21:16:08 aluk10-pri postfix/qmgr[24354]: 4CCDF2073AB3: removed
+Nov 13 21:16:08 aluk10-pri postfix/local[28651]: 50FD52073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov 13 21:16:08 aluk10-pri postfix/qmgr[24354]: 50FD52073AB9: removed
+Nov 13 21:16:47 aluk10-pri postfix/pickup[28618]: AD3D02073AB3: uid=1002 from=<aluk10>
+Nov 13 21:16:47 aluk10-pri postfix/cleanup[28647]: AD3D02073AB3: message-id=<20201114021647.AD3D02073AB3@mail.aluk10.com>
+Nov 13 21:16:47 aluk10-pri postfix/qmgr[24354]: AD3D02073AB3: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov 13 21:16:47 aluk10-pri postfix/smtp[28649]: AD3D02073AB3: to=<tbrecher@aurora-cdt.com>, relay=none, delay=0.01, delays=0.01/0/0.01/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=aurora-cdt.com type=AAAA: Host not found)
+Nov 13 21:16:47 aluk10-pri postfix/cleanup[28647]: B08D92073AB9: message-id=<20201114021647.B08D92073AB9@mail.aluk10.com>
+Nov 13 21:16:47 aluk10-pri postfix/qmgr[24354]: B08D92073AB9: from=<>, size=2487, nrcpt=1 (queue active)
+Nov 13 21:16:47 aluk10-pri postfix/bounce[28650]: AD3D02073AB3: sender non-delivery notification: B08D92073AB9
+Nov 13 21:16:47 aluk10-pri postfix/qmgr[24354]: AD3D02073AB3: removed
+Nov 13 21:16:47 aluk10-pri postfix/local[28651]: B08D92073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov 13 21:16:47 aluk10-pri postfix/qmgr[24354]: B08D92073AB9: removed
+Nov 13 21:29:23 aluk10-pri postfix/pickup[28618]: C61E72073AB3: uid=1002 from=<aluk10>
+Nov 13 21:29:23 aluk10-pri postfix/cleanup[28717]: C61E72073AB3: message-id=<20201114022923.C61E72073AB3@mail.aluk10.com>
+Nov 13 21:29:23 aluk10-pri postfix/qmgr[24354]: C61E72073AB3: from=<aluk10@aluk10.com>, size=448, nrcpt=1 (queue active)
+Nov 13 21:29:23 aluk10-pri postfix/smtp[28719]: C61E72073AB3: to=<tbrecher@aurora-cdt.com>, relay=none, delay=0.06, delays=0.03/0.02/0.01/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=aurora-cdt.com type=AAAA: Host not found)
+Nov 13 21:29:23 aluk10-pri postfix/cleanup[28717]: D51E62073AB9: message-id=<20201114022923.D51E62073AB9@mail.aluk10.com>
+Nov 13 21:29:23 aluk10-pri postfix/qmgr[24354]: D51E62073AB9: from=<>, size=2487, nrcpt=1 (queue active)
+Nov 13 21:29:23 aluk10-pri postfix/bounce[28720]: C61E72073AB3: sender non-delivery notification: D51E62073AB9
+Nov 13 21:29:23 aluk10-pri postfix/qmgr[24354]: C61E72073AB3: removed
+Nov 13 21:29:23 aluk10-pri postfix/local[28721]: D51E62073AB9: to=<aluk10@aluk10.com>, relay=local, delay=0.02, delays=0/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov 13 21:29:23 aluk10-pri postfix/qmgr[24354]: D51E62073AB9: removed

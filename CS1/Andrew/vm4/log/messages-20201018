@@ -1,0 +1,1842 @@
+Oct 11 03:37:01 localhost rsyslogd[1037]: [origin software="rsyslogd" swVersion="8.1911.0-3.el8" x-pid="1037" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct 11 03:59:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 03:59:00 localhost dnf[2528]: Metadata cache refreshed recently.
+Oct 11 03:59:00 localhost systemd[1]: Started dnf makecache.
+Oct 11 04:59:40 localhost systemd[1]: Starting dnf makecache...
+Oct 11 04:59:40 localhost dnf[2551]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 11 04:59:40 localhost dnf[2551]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 11 04:59:41 localhost dnf[2551]: CentOS-8 - Extras                                15 kB/s | 1.5 kB     00:00
+Oct 11 04:59:41 localhost dnf[2551]: Metadata cache created.
+Oct 11 04:59:41 localhost systemd[1]: Started dnf makecache.
+Oct 11 05:26:06 localhost NetworkManager[960]: <error> [1602408366.8192] dhcp4 (ens192): error -113 dispatching events
+Oct 11 05:26:06 localhost NetworkManager[960]: <info>  [1602408366.8201] dhcp4 (ens192): state changed bound -> fail
+Oct 11 05:26:06 localhost NetworkManager[960]: <info>  [1602408366.8202] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.7795] device (ens192): DHCPv4: grace period expired
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.7796] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 11 05:27:36 localhost NetworkManager[960]: <warn>  [1602408456.7814] device (ens192): Activation: failed for connection 'ens192'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.7822] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.7826] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.7839] dhcp4 (ens192): canceled DHCP transaction
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.7839] dhcp4 (ens192): state changed fail -> done
+Oct 11 05:27:36 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 11 05:27:36 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8084] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8094] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8095] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8098] manager: NetworkManager state is now CONNECTING
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8099] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8105] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8107] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 11 05:27:36 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 11 05:27:36 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8201] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8202] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8202] dhcp4 (ens192): option expiry               => '1602494856'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8202] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8202] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8202] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8202] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8202] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8202] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8202] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8202] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8203] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8203] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8203] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8203] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8203] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8203] dhcp4 (ens192): option requested_routers    => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8203] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8203] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8203] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8203] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8204] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8204] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8204] dhcp4 (ens192): state changed unknown -> bound
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8213] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8315] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8317] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8321] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8329] manager: NetworkManager state is now CONNECTED_SITE
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8330] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8365] device (ens192): Activation: successful, device activated.
+Oct 11 05:27:36 localhost NetworkManager[960]: <info>  [1602408456.8369] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 11 06:00:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 06:00:00 localhost dnf[2591]: Metadata cache refreshed recently.
+Oct 11 06:00:00 localhost systemd[1]: Started dnf makecache.
+Oct 11 07:01:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 07:01:00 localhost dnf[2614]: Metadata cache refreshed recently.
+Oct 11 07:01:00 localhost systemd[1]: Started dnf makecache.
+Oct 11 08:01:01 localhost systemd[1]: Starting dnf makecache...
+Oct 11 08:01:02 localhost dnf[2638]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 11 08:01:02 localhost dnf[2638]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 11 08:01:03 localhost dnf[2638]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Oct 11 08:01:03 localhost dnf[2638]: Metadata cache created.
+Oct 11 08:01:03 localhost systemd[1]: Started dnf makecache.
+Oct 11 09:02:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 09:02:00 localhost dnf[2677]: Metadata cache refreshed recently.
+Oct 11 09:02:00 localhost systemd[1]: Started dnf makecache.
+Oct 11 10:02:40 localhost systemd[1]: Starting dnf makecache...
+Oct 11 10:02:40 localhost dnf[2700]: Metadata cache refreshed recently.
+Oct 11 10:02:40 localhost systemd[1]: Started dnf makecache.
+Oct 11 11:03:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 11:03:00 localhost dnf[2723]: CentOS-8 - AppStream                            7.9 kB/s | 4.3 kB     00:00
+Oct 11 11:03:01 localhost dnf[2723]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 11 11:03:01 localhost dnf[2723]: CentOS-8 - Extras                               6.0 kB/s | 1.5 kB     00:00
+Oct 11 11:03:01 localhost dnf[2723]: Metadata cache created.
+Oct 11 11:03:01 localhost systemd[1]: Started dnf makecache.
+Oct 11 12:04:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 12:04:00 localhost dnf[2752]: Metadata cache refreshed recently.
+Oct 11 12:04:00 localhost systemd[1]: Started dnf makecache.
+Oct 11 13:05:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 13:05:00 localhost dnf[2776]: Metadata cache refreshed recently.
+Oct 11 13:05:00 localhost systemd[1]: Started dnf makecache.
+Oct 11 14:05:40 localhost systemd[1]: Starting dnf makecache...
+Oct 11 14:05:40 localhost dnf[2800]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 11 14:05:40 localhost dnf[2800]: CentOS-8 - Base                                  21 kB/s | 3.9 kB     00:00
+Oct 11 14:05:41 localhost dnf[2800]: CentOS-8 - Extras                               8.4 kB/s | 1.5 kB     00:00
+Oct 11 14:05:41 localhost dnf[2800]: Metadata cache created.
+Oct 11 14:05:41 localhost systemd[1]: Started dnf makecache.
+Oct 11 15:06:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 15:06:00 localhost dnf[2829]: Metadata cache refreshed recently.
+Oct 11 15:06:00 localhost systemd[1]: Started dnf makecache.
+Oct 11 16:07:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 16:07:00 localhost dnf[2853]: Metadata cache refreshed recently.
+Oct 11 16:07:00 localhost systemd[1]: Started dnf makecache.
+Oct 11 17:08:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 17:08:00 localhost dnf[2876]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 11 17:08:00 localhost dnf[2876]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 11 17:08:01 localhost dnf[2876]: CentOS-8 - Extras                               6.5 kB/s | 1.5 kB     00:00
+Oct 11 17:08:01 localhost dnf[2876]: Metadata cache created.
+Oct 11 17:08:01 localhost systemd[1]: Started dnf makecache.
+Oct 11 17:27:36 localhost NetworkManager[960]: <error> [1602451656.8144] dhcp4 (ens192): error -113 dispatching events
+Oct 11 17:27:36 localhost NetworkManager[960]: <info>  [1602451656.8145] dhcp4 (ens192): state changed bound -> fail
+Oct 11 17:27:36 localhost NetworkManager[960]: <info>  [1602451656.8146] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7384] device (ens192): DHCPv4: grace period expired
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7385] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 11 17:29:06 localhost NetworkManager[960]: <warn>  [1602451746.7399] device (ens192): Activation: failed for connection 'ens192'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7406] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7410] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7426] dhcp4 (ens192): canceled DHCP transaction
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7426] dhcp4 (ens192): state changed fail -> done
+Oct 11 17:29:06 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 11 17:29:06 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7667] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7677] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7678] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7681] manager: NetworkManager state is now CONNECTING
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7682] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7687] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7690] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 11 17:29:06 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 11 17:29:06 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7775] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7775] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7775] dhcp4 (ens192): option expiry               => '1602538146'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7775] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7775] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7775] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7775] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7775] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7775] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7775] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_routers    => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7776] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7777] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7777] dhcp4 (ens192): state changed unknown -> bound
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7786] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7872] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7874] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7878] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7886] manager: NetworkManager state is now CONNECTED_SITE
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7887] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7919] device (ens192): Activation: successful, device activated.
+Oct 11 17:29:06 localhost NetworkManager[960]: <info>  [1602451746.7924] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 11 17:39:00 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 11 17:39:00 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Oct 11 18:08:40 localhost systemd[1]: Starting dnf makecache...
+Oct 11 18:08:40 localhost dnf[2918]: Metadata cache refreshed recently.
+Oct 11 18:08:40 localhost systemd[1]: Started dnf makecache.
+Oct 11 19:09:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 19:09:00 localhost dnf[2941]: Metadata cache refreshed recently.
+Oct 11 19:09:00 localhost systemd[1]: Started dnf makecache.
+Oct 11 20:10:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 20:10:00 localhost dnf[2964]: CentOS-8 - AppStream                             26 kB/s | 4.3 kB     00:00
+Oct 11 20:10:00 localhost dnf[2964]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 11 20:10:01 localhost dnf[2964]: CentOS-8 - Extras                               1.7 kB/s | 1.5 kB     00:00
+Oct 11 20:10:01 localhost dnf[2964]: Metadata cache created.
+Oct 11 20:10:01 localhost systemd[1]: Started dnf makecache.
+Oct 11 21:11:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 21:11:00 localhost dnf[2994]: Metadata cache refreshed recently.
+Oct 11 21:11:00 localhost systemd[1]: Started dnf makecache.
+Oct 11 22:11:40 localhost systemd[1]: Starting dnf makecache...
+Oct 11 22:11:40 localhost dnf[3017]: Metadata cache refreshed recently.
+Oct 11 22:11:40 localhost systemd[1]: Started dnf makecache.
+Oct 11 23:12:00 localhost systemd[1]: Starting dnf makecache...
+Oct 11 23:12:00 localhost dnf[3040]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 11 23:12:01 localhost dnf[3040]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 11 23:12:01 localhost dnf[3040]: CentOS-8 - Extras                               3.8 kB/s | 1.5 kB     00:00
+Oct 11 23:12:01 localhost dnf[3040]: Metadata cache created.
+Oct 11 23:12:01 localhost systemd[1]: Started dnf makecache.
+Oct 12 00:00:00 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 12 00:00:00 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 12 00:13:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 00:13:00 localhost dnf[3074]: Metadata cache refreshed recently.
+Oct 12 00:13:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 01:14:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 01:14:00 localhost dnf[3100]: Metadata cache refreshed recently.
+Oct 12 01:14:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 02:14:40 localhost systemd[1]: Starting dnf makecache...
+Oct 12 02:14:40 localhost dnf[3125]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 12 02:14:40 localhost dnf[3125]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 12 02:14:41 localhost dnf[3125]: CentOS-8 - Extras                               4.7 kB/s | 1.5 kB     00:00
+Oct 12 02:14:41 localhost dnf[3125]: Metadata cache created.
+Oct 12 02:14:41 localhost systemd[1]: Started dnf makecache.
+Oct 12 03:15:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 03:15:00 localhost dnf[3156]: Metadata cache refreshed recently.
+Oct 12 03:15:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 04:16:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 04:16:00 localhost dnf[3189]: Metadata cache refreshed recently.
+Oct 12 04:16:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 05:17:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 05:17:00 localhost dnf[3212]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 12 05:17:00 localhost dnf[3212]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 12 05:17:01 localhost dnf[3212]: CentOS-8 - Extras                               5.1 kB/s | 1.5 kB     00:00
+Oct 12 05:17:01 localhost dnf[3212]: Metadata cache created.
+Oct 12 05:17:01 localhost systemd[1]: Started dnf makecache.
+Oct 12 05:29:06 localhost NetworkManager[960]: <error> [1602494946.7744] dhcp4 (ens192): error -113 dispatching events
+Oct 12 05:29:06 localhost NetworkManager[960]: <info>  [1602494946.7749] dhcp4 (ens192): state changed bound -> fail
+Oct 12 05:29:06 localhost NetworkManager[960]: <info>  [1602494946.7750] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.7956] device (ens192): DHCPv4: grace period expired
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.7957] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 12 05:30:36 localhost NetworkManager[960]: <warn>  [1602495036.7971] device (ens192): Activation: failed for connection 'ens192'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.7978] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.7982] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.7996] dhcp4 (ens192): canceled DHCP transaction
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.7996] dhcp4 (ens192): state changed fail -> done
+Oct 12 05:30:36 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 12 05:30:36 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8232] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8242] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8243] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8246] manager: NetworkManager state is now CONNECTING
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8247] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8251] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8254] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 12 05:30:36 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 12 05:30:36 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8325] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8325] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8325] dhcp4 (ens192): option expiry               => '1602581436'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8326] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8327] dhcp4 (ens192): option requested_routers    => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8327] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8327] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8327] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8327] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8327] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8327] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8327] dhcp4 (ens192): state changed unknown -> bound
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8336] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8435] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8437] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8441] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8449] manager: NetworkManager state is now CONNECTED_SITE
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8450] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8485] device (ens192): Activation: successful, device activated.
+Oct 12 05:30:36 localhost NetworkManager[960]: <info>  [1602495036.8489] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 12 06:17:40 localhost systemd[1]: Starting dnf makecache...
+Oct 12 06:17:40 localhost dnf[3251]: Metadata cache refreshed recently.
+Oct 12 06:17:40 localhost systemd[1]: Started dnf makecache.
+Oct 12 07:18:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 07:18:00 localhost dnf[3275]: Metadata cache refreshed recently.
+Oct 12 07:18:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 08:19:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 08:19:00 localhost dnf[3298]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 12 08:19:00 localhost dnf[3298]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 12 08:19:01 localhost dnf[3298]: CentOS-8 - Extras                               8.8 kB/s | 1.5 kB     00:00
+Oct 12 08:19:01 localhost dnf[3298]: Metadata cache created.
+Oct 12 08:19:01 localhost systemd[1]: Started dnf makecache.
+Oct 12 09:20:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 09:20:00 localhost dnf[3328]: Metadata cache refreshed recently.
+Oct 12 09:20:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 10:20:40 localhost systemd[1]: Starting dnf makecache...
+Oct 12 10:20:40 localhost dnf[3351]: Metadata cache refreshed recently.
+Oct 12 10:20:40 localhost systemd[1]: Started dnf makecache.
+Oct 12 11:21:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 11:21:00 localhost dnf[3375]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 12 11:21:00 localhost dnf[3375]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 12 11:21:01 localhost dnf[3375]: CentOS-8 - Extras                               4.8 kB/s | 1.5 kB     00:00
+Oct 12 11:21:01 localhost dnf[3375]: Metadata cache created.
+Oct 12 11:21:01 localhost systemd[1]: Started dnf makecache.
+Oct 12 12:22:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 12:22:00 localhost dnf[3404]: Metadata cache refreshed recently.
+Oct 12 12:22:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 13:23:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 13:23:00 localhost dnf[3427]: Metadata cache refreshed recently.
+Oct 12 13:23:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 14:23:40 localhost systemd[1]: Starting dnf makecache...
+Oct 12 14:23:40 localhost dnf[3450]: CentOS-8 - AppStream                             35 kB/s | 4.3 kB     00:00
+Oct 12 14:23:40 localhost dnf[3450]: CentOS-8 - Base                                  22 kB/s | 3.9 kB     00:00
+Oct 12 14:23:41 localhost dnf[3450]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Oct 12 14:23:41 localhost dnf[3450]: Metadata cache created.
+Oct 12 14:23:41 localhost systemd[1]: Started dnf makecache.
+Oct 12 15:24:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 15:24:00 localhost dnf[3479]: Metadata cache refreshed recently.
+Oct 12 15:24:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 16:25:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 16:25:00 localhost dnf[3503]: Metadata cache refreshed recently.
+Oct 12 16:25:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 17:26:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 17:26:00 localhost dnf[3527]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 12 17:26:00 localhost dnf[3527]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Oct 12 17:26:01 localhost dnf[3527]: CentOS-8 - Extras                               8.1 kB/s | 1.5 kB     00:00
+Oct 12 17:26:01 localhost dnf[3527]: Metadata cache created.
+Oct 12 17:26:01 localhost systemd[1]: Started dnf makecache.
+Oct 12 17:30:36 localhost NetworkManager[960]: <error> [1602538236.8295] dhcp4 (ens192): error -113 dispatching events
+Oct 12 17:30:36 localhost NetworkManager[960]: <info>  [1602538236.8302] dhcp4 (ens192): state changed bound -> fail
+Oct 12 17:30:36 localhost NetworkManager[960]: <info>  [1602538236.8303] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.7724] device (ens192): DHCPv4: grace period expired
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.7725] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 12 17:32:06 localhost NetworkManager[960]: <warn>  [1602538326.7740] device (ens192): Activation: failed for connection 'ens192'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.7747] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.7751] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.7761] dhcp4 (ens192): canceled DHCP transaction
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.7761] dhcp4 (ens192): state changed fail -> done
+Oct 12 17:32:06 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 12 17:32:06 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.7998] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8008] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8009] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8012] manager: NetworkManager state is now CONNECTING
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8013] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8017] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8020] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 12 17:32:06 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 12 17:32:06 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8106] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8106] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option expiry               => '1602624726'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8107] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8108] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8108] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8108] dhcp4 (ens192): option requested_routers    => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8108] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8108] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8108] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8108] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8108] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8108] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8108] dhcp4 (ens192): state changed unknown -> bound
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8117] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8202] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8204] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8208] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8216] manager: NetworkManager state is now CONNECTED_SITE
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8217] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8246] device (ens192): Activation: successful, device activated.
+Oct 12 17:32:06 localhost NetworkManager[960]: <info>  [1602538326.8251] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 12 17:40:00 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 12 17:40:00 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Oct 12 18:26:40 localhost systemd[1]: Starting dnf makecache...
+Oct 12 18:26:40 localhost dnf[3569]: Metadata cache refreshed recently.
+Oct 12 18:26:40 localhost systemd[1]: Started dnf makecache.
+Oct 12 19:27:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 19:27:00 localhost dnf[3592]: Metadata cache refreshed recently.
+Oct 12 19:27:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 20:28:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 20:28:00 localhost dnf[3615]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 12 20:28:00 localhost dnf[3615]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 12 20:28:01 localhost dnf[3615]: CentOS-8 - Extras                               3.7 kB/s | 1.5 kB     00:00
+Oct 12 20:28:01 localhost dnf[3615]: Metadata cache created.
+Oct 12 20:28:01 localhost systemd[1]: Started dnf makecache.
+Oct 12 21:29:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 21:29:00 localhost dnf[3645]: Metadata cache refreshed recently.
+Oct 12 21:29:00 localhost systemd[1]: Started dnf makecache.
+Oct 12 22:29:40 localhost systemd[1]: Starting dnf makecache...
+Oct 12 22:29:40 localhost dnf[3668]: Metadata cache refreshed recently.
+Oct 12 22:29:40 localhost systemd[1]: Started dnf makecache.
+Oct 12 23:30:00 localhost systemd[1]: Starting dnf makecache...
+Oct 12 23:30:00 localhost dnf[3692]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 12 23:30:01 localhost dnf[3692]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 12 23:30:01 localhost dnf[3692]: CentOS-8 - Extras                               5.0 kB/s | 1.5 kB     00:00
+Oct 12 23:30:01 localhost dnf[3692]: Metadata cache created.
+Oct 12 23:30:01 localhost systemd[1]: Started dnf makecache.
+Oct 13 00:00:00 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 13 00:00:00 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 13 00:31:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 00:31:00 localhost dnf[3725]: Metadata cache refreshed recently.
+Oct 13 00:31:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 01:32:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 01:32:00 localhost dnf[3751]: Metadata cache refreshed recently.
+Oct 13 01:32:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 02:32:40 localhost systemd[1]: Starting dnf makecache...
+Oct 13 02:32:40 localhost dnf[3776]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 13 02:32:41 localhost dnf[3776]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 13 02:32:41 localhost dnf[3776]: CentOS-8 - Extras                               5.9 kB/s | 1.5 kB     00:00
+Oct 13 02:32:41 localhost dnf[3776]: Metadata cache created.
+Oct 13 02:32:41 localhost systemd[1]: Started dnf makecache.
+Oct 13 03:33:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 03:33:00 localhost dnf[3807]: Metadata cache refreshed recently.
+Oct 13 03:33:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 04:34:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 04:34:00 localhost dnf[3840]: Metadata cache refreshed recently.
+Oct 13 04:34:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 05:32:06 localhost NetworkManager[960]: <error> [1602581526.8083] dhcp4 (ens192): error -113 dispatching events
+Oct 13 05:32:06 localhost NetworkManager[960]: <info>  [1602581526.8087] dhcp4 (ens192): state changed bound -> fail
+Oct 13 05:32:06 localhost NetworkManager[960]: <info>  [1602581526.8088] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7513] device (ens192): DHCPv4: grace period expired
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7515] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 13 05:33:36 localhost NetworkManager[960]: <warn>  [1602581616.7530] device (ens192): Activation: failed for connection 'ens192'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7537] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7541] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7561] dhcp4 (ens192): canceled DHCP transaction
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7561] dhcp4 (ens192): state changed fail -> done
+Oct 13 05:33:36 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 13 05:33:36 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7801] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7811] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7812] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7815] manager: NetworkManager state is now CONNECTING
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7816] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7821] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7824] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 05:33:36 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 13 05:33:36 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7912] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7912] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7913] dhcp4 (ens192): option expiry               => '1602668016'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7913] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7913] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7913] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7913] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7913] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7913] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7913] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_routers    => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7914] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7915] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7915] dhcp4 (ens192): state changed unknown -> bound
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.7924] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.8038] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.8041] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.8045] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.8054] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.8055] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.8092] device (ens192): Activation: successful, device activated.
+Oct 13 05:33:36 localhost NetworkManager[960]: <info>  [1602581616.8097] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 05:35:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 05:35:00 localhost dnf[3874]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 13 05:35:00 localhost dnf[3874]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 13 05:35:01 localhost dnf[3874]: CentOS-8 - Extras                                11 kB/s | 1.5 kB     00:00
+Oct 13 05:35:01 localhost dnf[3874]: Metadata cache created.
+Oct 13 05:35:01 localhost systemd[1]: Started dnf makecache.
+Oct 13 06:35:40 localhost systemd[1]: Starting dnf makecache...
+Oct 13 06:35:40 localhost dnf[3903]: Metadata cache refreshed recently.
+Oct 13 06:35:40 localhost systemd[1]: Started dnf makecache.
+Oct 13 07:36:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 07:36:00 localhost dnf[3926]: Metadata cache refreshed recently.
+Oct 13 07:36:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 08:37:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 08:37:00 localhost dnf[3950]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 13 08:37:01 localhost dnf[3950]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 13 08:37:01 localhost dnf[3950]: CentOS-8 - Extras                               6.8 kB/s | 1.5 kB     00:00
+Oct 13 08:37:01 localhost dnf[3950]: Metadata cache created.
+Oct 13 08:37:01 localhost systemd[1]: Started dnf makecache.
+Oct 13 08:53:24 localhost systemd[1]: Created slice User Slice of UID 1001.
+Oct 13 08:53:24 localhost systemd[1]: Started /run/user/1001 mount wrapper.
+Oct 13 08:53:24 localhost systemd[1]: Starting User Manager for UID 1001...
+Oct 13 08:53:24 localhost systemd[1]: Started Session 4 of user instructor.
+Oct 13 08:53:24 localhost systemd-logind[1042]: New session 4 of user instructor.
+Oct 13 08:53:24 localhost systemd[3965]: Starting D-Bus User Message Bus Socket.
+Oct 13 08:53:24 localhost systemd[3965]: Started Mark boot as successful after the user session has run 2 minutes.
+Oct 13 08:53:24 localhost systemd[3965]: Reached target Timers.
+Oct 13 08:53:24 localhost systemd[3965]: Reached target Paths.
+Oct 13 08:53:24 localhost systemd[3965]: Listening on D-Bus User Message Bus Socket.
+Oct 13 08:53:24 localhost systemd[3965]: Reached target Sockets.
+Oct 13 08:53:24 localhost systemd[3965]: Reached target Basic System.
+Oct 13 08:53:24 localhost systemd[3965]: Reached target Default.
+Oct 13 08:53:24 localhost systemd[3965]: Startup finished in 37ms.
+Oct 13 08:53:24 localhost systemd[1]: Started User Manager for UID 1001.
+Oct 13 08:53:24 localhost systemd-logind[1042]: Session 4 logged out. Waiting for processes to exit.
+Oct 13 08:53:24 localhost systemd-logind[1042]: Removed session 4.
+Oct 13 08:53:24 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 13 08:53:24 localhost systemd[1]: Stopping User Manager for UID 1001...
+Oct 13 08:53:24 localhost systemd[3965]: Stopped target Default.
+Oct 13 08:53:24 localhost systemd[3965]: Stopped target Basic System.
+Oct 13 08:53:24 localhost systemd[3965]: Stopped target Paths.
+Oct 13 08:53:24 localhost systemd[3965]: Stopped target Timers.
+Oct 13 08:53:24 localhost systemd[3965]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Oct 13 08:53:24 localhost systemd[3965]: Stopped target Sockets.
+Oct 13 08:53:24 localhost systemd[3965]: Closed D-Bus User Message Bus Socket.
+Oct 13 08:53:24 localhost systemd[3965]: Reached target Shutdown.
+Oct 13 08:53:24 localhost systemd[3965]: Starting Exit the Session...
+Oct 13 08:53:24 localhost systemd[1]: user@1001.service: Killing process 3992 (systemctl) with signal SIGKILL.
+Oct 13 08:53:24 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 13 08:53:24 localhost systemd[1]: Stopped User Manager for UID 1001.
+Oct 13 08:53:24 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 13 08:53:24 localhost systemd[1]: Removed slice User Slice of UID 1001.
+Oct 13 08:53:24 localhost systemd[1]: Stopping /run/user/1001 mount wrapper...
+Oct 13 08:53:24 localhost systemd[1]: Stopped /run/user/1001 mount wrapper.
+Oct 13 09:38:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 09:38:00 localhost dnf[4019]: Metadata cache refreshed recently.
+Oct 13 09:38:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 10:38:40 localhost systemd[1]: Starting dnf makecache...
+Oct 13 10:38:40 localhost dnf[4043]: Metadata cache refreshed recently.
+Oct 13 10:38:40 localhost systemd[1]: Started dnf makecache.
+Oct 13 11:39:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 11:39:00 localhost dnf[4066]: CentOS-8 - AppStream                             23 kB/s | 4.3 kB     00:00
+Oct 13 11:39:00 localhost dnf[4066]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 13 11:39:01 localhost dnf[4066]: CentOS-8 - Extras                               3.8 kB/s | 1.5 kB     00:00
+Oct 13 11:39:01 localhost dnf[4066]: Metadata cache created.
+Oct 13 11:39:01 localhost systemd[1]: Started dnf makecache.
+Oct 13 12:40:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 12:40:00 localhost dnf[4096]: Metadata cache refreshed recently.
+Oct 13 12:40:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 13:41:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 13:41:00 localhost dnf[4119]: Metadata cache refreshed recently.
+Oct 13 13:41:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 14:41:40 localhost systemd[1]: Starting dnf makecache...
+Oct 13 14:41:40 localhost dnf[4142]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 13 14:41:40 localhost dnf[4142]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 13 14:41:41 localhost dnf[4142]: CentOS-8 - Extras                               7.1 kB/s | 1.5 kB     00:00
+Oct 13 14:41:41 localhost dnf[4142]: Metadata cache created.
+Oct 13 14:41:41 localhost systemd[1]: Started dnf makecache.
+Oct 13 15:42:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 15:42:00 localhost dnf[4172]: Metadata cache refreshed recently.
+Oct 13 15:42:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 16:43:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 16:43:00 localhost dnf[4195]: Metadata cache refreshed recently.
+Oct 13 16:43:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 17:33:36 localhost NetworkManager[960]: <error> [1602624816.7902] dhcp4 (ens192): error -113 dispatching events
+Oct 13 17:33:36 localhost NetworkManager[960]: <info>  [1602624816.7907] dhcp4 (ens192): state changed bound -> fail
+Oct 13 17:33:36 localhost NetworkManager[960]: <info>  [1602624816.7908] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.7953] device (ens192): DHCPv4: grace period expired
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.7955] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 13 17:35:06 localhost NetworkManager[960]: <warn>  [1602624906.7972] device (ens192): Activation: failed for connection 'ens192'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.7980] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.7984] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.7997] dhcp4 (ens192): canceled DHCP transaction
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.7997] dhcp4 (ens192): state changed fail -> done
+Oct 13 17:35:06 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 13 17:35:06 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8251] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8261] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8262] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8265] manager: NetworkManager state is now CONNECTING
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8266] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8271] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8274] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8344] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8344] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8344] dhcp4 (ens192): option expiry               => '1602711306'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8344] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8344] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8344] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8344] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8344] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8344] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8344] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_routers    => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8345] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8346] dhcp4 (ens192): state changed unknown -> bound
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8355] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 13 17:35:06 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 13 17:35:06 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8467] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8469] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8473] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8480] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8481] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8514] device (ens192): Activation: successful, device activated.
+Oct 13 17:35:06 localhost NetworkManager[960]: <info>  [1602624906.8518] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 17:41:00 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 13 17:41:00 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Oct 13 17:44:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 17:44:00 localhost dnf[4231]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 13 17:44:00 localhost dnf[4231]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Oct 13 17:44:01 localhost dnf[4231]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Oct 13 17:44:01 localhost dnf[4231]: Metadata cache created.
+Oct 13 17:44:01 localhost systemd[1]: Started dnf makecache.
+Oct 13 18:44:40 localhost systemd[1]: Starting dnf makecache...
+Oct 13 18:44:40 localhost dnf[4260]: Metadata cache refreshed recently.
+Oct 13 18:44:40 localhost systemd[1]: Started dnf makecache.
+Oct 13 19:45:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 19:45:00 localhost dnf[4284]: Metadata cache refreshed recently.
+Oct 13 19:45:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 20:46:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 20:46:00 localhost dnf[4307]: CentOS-8 - AppStream                             24 kB/s | 4.3 kB     00:00
+Oct 13 20:46:00 localhost dnf[4307]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 13 20:46:01 localhost dnf[4307]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Oct 13 20:46:01 localhost dnf[4307]: Metadata cache created.
+Oct 13 20:46:01 localhost systemd[1]: Started dnf makecache.
+Oct 13 21:47:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 21:47:00 localhost dnf[4336]: Metadata cache refreshed recently.
+Oct 13 21:47:00 localhost systemd[1]: Started dnf makecache.
+Oct 13 22:47:40 localhost systemd[1]: Starting dnf makecache...
+Oct 13 22:47:40 localhost dnf[4359]: Metadata cache refreshed recently.
+Oct 13 22:47:40 localhost systemd[1]: Started dnf makecache.
+Oct 13 23:48:00 localhost systemd[1]: Starting dnf makecache...
+Oct 13 23:48:00 localhost dnf[4383]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 13 23:48:00 localhost dnf[4383]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 13 23:48:01 localhost dnf[4383]: CentOS-8 - Extras                               6.1 kB/s | 1.5 kB     00:00
+Oct 13 23:48:01 localhost dnf[4383]: Metadata cache created.
+Oct 13 23:48:01 localhost systemd[1]: Started dnf makecache.
+Oct 14 00:00:00 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 14 00:00:00 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 14 00:49:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 00:49:00 localhost dnf[4416]: Metadata cache refreshed recently.
+Oct 14 00:49:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 01:50:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 01:50:00 localhost dnf[4442]: Metadata cache refreshed recently.
+Oct 14 01:50:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 02:50:40 localhost systemd[1]: Starting dnf makecache...
+Oct 14 02:50:40 localhost dnf[4467]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 14 02:50:40 localhost dnf[4467]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 14 02:50:41 localhost dnf[4467]: CentOS-8 - Extras                               5.1 kB/s | 1.5 kB     00:00
+Oct 14 02:50:41 localhost dnf[4467]: Metadata cache created.
+Oct 14 02:50:41 localhost systemd[1]: Started dnf makecache.
+Oct 14 03:51:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 03:51:00 localhost dnf[4508]: Metadata cache refreshed recently.
+Oct 14 03:51:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 04:52:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 04:52:00 localhost dnf[4534]: Metadata cache refreshed recently.
+Oct 14 04:52:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 05:35:06 localhost NetworkManager[960]: <error> [1602668106.8322] dhcp4 (ens192): error -113 dispatching events
+Oct 14 05:35:06 localhost NetworkManager[960]: <info>  [1602668106.8329] dhcp4 (ens192): state changed bound -> fail
+Oct 14 05:35:06 localhost NetworkManager[960]: <info>  [1602668106.8330] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8018] device (ens192): DHCPv4: grace period expired
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8019] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 14 05:36:36 localhost NetworkManager[960]: <warn>  [1602668196.8035] device (ens192): Activation: failed for connection 'ens192'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8043] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8047] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8059] dhcp4 (ens192): canceled DHCP transaction
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8059] dhcp4 (ens192): state changed fail -> done
+Oct 14 05:36:36 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 14 05:36:36 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8313] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8323] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8324] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8327] manager: NetworkManager state is now CONNECTING
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8328] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8333] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8335] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8416] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8416] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8416] dhcp4 (ens192): option expiry               => '1602754596'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8416] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8416] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8416] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8416] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8416] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_routers    => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8417] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8418] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8418] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8418] dhcp4 (ens192): state changed unknown -> bound
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8428] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 14 05:36:36 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 14 05:36:36 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8548] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8550] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8555] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8562] manager: NetworkManager state is now CONNECTED_SITE
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8563] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8598] device (ens192): Activation: successful, device activated.
+Oct 14 05:36:36 localhost NetworkManager[960]: <info>  [1602668196.8602] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 14 05:53:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 05:53:00 localhost dnf[4567]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 14 05:53:00 localhost dnf[4567]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 14 05:53:01 localhost dnf[4567]: CentOS-8 - Extras                               5.0 kB/s | 1.5 kB     00:00
+Oct 14 05:53:01 localhost dnf[4567]: Metadata cache created.
+Oct 14 05:53:01 localhost systemd[1]: Started dnf makecache.
+Oct 14 06:53:40 localhost systemd[1]: Starting dnf makecache...
+Oct 14 06:53:40 localhost dnf[4597]: Metadata cache refreshed recently.
+Oct 14 06:53:40 localhost systemd[1]: Started dnf makecache.
+Oct 14 07:54:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 07:54:00 localhost dnf[4620]: Metadata cache refreshed recently.
+Oct 14 07:54:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 08:55:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 08:55:00 localhost dnf[4643]: CentOS-8 - AppStream                             10 kB/s | 4.3 kB     00:00
+Oct 14 08:55:01 localhost dnf[4643]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 14 08:55:01 localhost dnf[4643]: CentOS-8 - Extras                               4.6 kB/s | 1.5 kB     00:00
+Oct 14 08:55:01 localhost dnf[4643]: Metadata cache created.
+Oct 14 08:55:01 localhost systemd[1]: Started dnf makecache.
+Oct 14 09:56:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 09:56:00 localhost dnf[4672]: Metadata cache refreshed recently.
+Oct 14 09:56:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 10:56:40 localhost systemd[1]: Starting dnf makecache...
+Oct 14 10:56:40 localhost dnf[4696]: Metadata cache refreshed recently.
+Oct 14 10:56:40 localhost systemd[1]: Started dnf makecache.
+Oct 14 11:57:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 11:57:00 localhost dnf[4719]: CentOS-8 - AppStream                             20 kB/s | 4.3 kB     00:00
+Oct 14 11:57:00 localhost dnf[4719]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Oct 14 11:57:01 localhost dnf[4719]: CentOS-8 - Extras                               9.5 kB/s | 1.5 kB     00:00
+Oct 14 11:57:01 localhost dnf[4719]: Metadata cache created.
+Oct 14 11:57:01 localhost systemd[1]: Started dnf makecache.
+Oct 14 12:58:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 12:58:00 localhost dnf[4748]: Metadata cache refreshed recently.
+Oct 14 12:58:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 13:59:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 13:59:00 localhost dnf[4772]: Metadata cache refreshed recently.
+Oct 14 13:59:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 14:59:40 localhost systemd[1]: Starting dnf makecache...
+Oct 14 14:59:40 localhost dnf[4796]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 14 14:59:40 localhost dnf[4796]: CentOS-8 - Base                                  19 kB/s | 3.9 kB     00:00
+Oct 14 14:59:41 localhost dnf[4796]: CentOS-8 - Extras                               4.0 kB/s | 1.5 kB     00:00
+Oct 14 14:59:41 localhost dnf[4796]: Metadata cache created.
+Oct 14 14:59:41 localhost systemd[1]: Started dnf makecache.
+Oct 14 15:25:37 localhost systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Oct 14 15:25:37 localhost systemd[1]: cgroup compatibility translation between legacy and unified hierarchy settings activated. See cgroup-compat debug messages for details.
+Oct 14 15:25:37 localhost systemd[1]: Starting man-db-cache-update.service...
+Oct 14 15:25:37 localhost systemd[1]: Reloading.
+Oct 14 15:25:43 localhost systemd[1]: Started man-db-cache-update.service.
+Oct 14 15:26:02 localhost systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Oct 14 15:26:02 localhost systemd[1]: Starting man-db-cache-update.service...
+Oct 14 15:26:03 localhost systemd[1]: Started man-db-cache-update.service.
+Oct 14 15:38:22 localhost systemd[1]: Starting Generate rndc key for BIND (DNS)...
+Oct 14 15:38:22 localhost generate-rndc-key.sh[13683]: Generating /etc/rndc.key:[  OK  ]
+Oct 14 15:38:22 localhost systemd[1]: Started Generate rndc key for BIND (DNS).
+Oct 14 15:38:22 localhost systemd[1]: Starting Berkeley Internet Name Domain (DNS)...
+Oct 14 15:38:22 localhost bash[13692]: zone ./IN: loading from master file root.zone failed: file not found
+Oct 14 15:38:22 localhost bash[13692]: zone ./IN: not loaded due to errors.
+Oct 14 15:38:22 localhost bash[13692]: _default/./IN: file not found
+Oct 14 15:38:22 localhost systemd[1]: named.service: Control process exited, code=exited status=1
+Oct 14 15:38:22 localhost systemd[1]: named.service: Failed with result 'exit-code'.
+Oct 14 15:38:22 localhost systemd[1]: Failed to start Berkeley Internet Name Domain (DNS).
+Oct 14 15:38:22 localhost systemd[1]: Reached target Host and Network Name Lookups.
+Oct 14 15:40:12 localhost systemd[1]: Starting Generate rndc key for BIND (DNS)...
+Oct 14 15:40:12 localhost systemd[1]: Started Generate rndc key for BIND (DNS).
+Oct 14 15:40:12 localhost systemd[1]: Starting Berkeley Internet Name Domain (DNS)...
+Oct 14 15:40:12 localhost bash[13717]: zone ./IN: loading from master file root.zone failed: file not found
+Oct 14 15:40:12 localhost bash[13717]: zone ./IN: not loaded due to errors.
+Oct 14 15:40:12 localhost bash[13717]: _default/./IN: file not found
+Oct 14 15:40:12 localhost systemd[1]: named.service: Control process exited, code=exited status=1
+Oct 14 15:40:12 localhost systemd[1]: named.service: Failed with result 'exit-code'.
+Oct 14 15:40:12 localhost systemd[1]: Failed to start Berkeley Internet Name Domain (DNS).
+Oct 14 15:41:48 localhost systemd[1]: Starting Generate rndc key for BIND (DNS)...
+Oct 14 15:41:48 localhost systemd[1]: Started Generate rndc key for BIND (DNS).
+Oct 14 15:41:48 localhost systemd[1]: Starting Berkeley Internet Name Domain (DNS)...
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:1: unexpected end of line
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:1: unexpected end of input
+Oct 14 15:41:48 localhost bash[13741]: root.zone:3: unknown RR type 'for'
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:4: unexpected end of line
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:4: unexpected end of input
+Oct 14 15:41:48 localhost bash[13741]: root.zone:6: unknown RR type '{'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:7: unknown RR type 'listen-on'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:8: unknown RR type 'listen-on-v6'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:9: unknown RR type 'directory'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:10: unknown RR type 'dump-file'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:11: unknown RR type 'statistics-file'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:12: unknown RR type 'memstatistics-file'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:13: unknown RR type 'allow-query'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:14: unknown RR type 'recursion'
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:15: unexpected end of line
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:15: unexpected end of input
+Oct 14 15:41:48 localhost bash[13741]: root.zone:17: unknown RR type '{'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:18: unknown RR type 'channel'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:19: unknown RR type 'file'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:20: unknown RR type 'severity'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:21: unknown RR type '}'
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:22: unexpected end of line
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:22: unexpected end of input
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:24: syntax error
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:24: isc_lex_gettoken() failed: unbalanced quotes
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:24: unbalanced quotes
+Oct 14 15:41:48 localhost bash[13741]: root.zone:25: unknown RR type 'type'
+Oct 14 15:41:48 localhost bash[13741]: root.zone:26: unknown RR type 'file'
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:27: unexpected end of line
+Oct 14 15:41:48 localhost bash[13741]: dns_master_load: root.zone:27: unexpected end of input
+Oct 14 15:41:48 localhost bash[13741]: root.zone: file does not end with newline
+Oct 14 15:41:48 localhost bash[13741]: zone ./IN: loading from master file root.zone failed: unexpected end of input
+Oct 14 15:41:48 localhost bash[13741]: zone ./IN: not loaded due to errors.
+Oct 14 15:41:48 localhost bash[13741]: _default/./IN: unexpected end of input
+Oct 14 15:41:48 localhost systemd[1]: named.service: Control process exited, code=exited status=1
+Oct 14 15:41:48 localhost systemd[1]: named.service: Failed with result 'exit-code'.
+Oct 14 15:41:48 localhost systemd[1]: Failed to start Berkeley Internet Name Domain (DNS).
+Oct 14 15:46:24 localhost systemd[1]: Starting Generate rndc key for BIND (DNS)...
+Oct 14 15:46:24 localhost systemd[1]: Started Generate rndc key for BIND (DNS).
+Oct 14 15:46:24 localhost systemd[1]: Starting Berkeley Internet Name Domain (DNS)...
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:1: unexpected end of line
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:1: unexpected end of input
+Oct 14 15:46:24 localhost bash[13786]: root.zone:3: unknown RR type 'for'
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:4: unexpected end of line
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:4: unexpected end of input
+Oct 14 15:46:24 localhost bash[13786]: root.zone:6: unknown RR type '{'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:7: unknown RR type 'listen-on'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:8: unknown RR type 'listen-on-v6'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:9: unknown RR type 'directory'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:10: unknown RR type 'dump-file'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:11: unknown RR type 'statistics-file'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:12: unknown RR type 'memstatistics-file'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:13: unknown RR type 'allow-query'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:14: unknown RR type 'recursion'
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:15: unexpected end of line
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:15: unexpected end of input
+Oct 14 15:46:24 localhost bash[13786]: root.zone:17: unknown RR type '{'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:18: unknown RR type 'channel'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:19: unknown RR type 'file'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:20: unknown RR type 'severity'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:21: unknown RR type '}'
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:22: unexpected end of line
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:22: unexpected end of input
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:24: syntax error
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:24: isc_lex_gettoken() failed: unbalanced quotes
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:24: unbalanced quotes
+Oct 14 15:46:24 localhost bash[13786]: root.zone:25: unknown RR type 'type'
+Oct 14 15:46:24 localhost bash[13786]: root.zone:26: unknown RR type 'file'
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:27: unexpected end of line
+Oct 14 15:46:24 localhost bash[13786]: dns_master_load: root.zone:27: unexpected end of input
+Oct 14 15:46:24 localhost bash[13786]: root.zone: file does not end with newline
+Oct 14 15:46:24 localhost bash[13786]: zone ./IN: loading from master file root.zone failed: unexpected end of input
+Oct 14 15:46:24 localhost bash[13786]: zone ./IN: not loaded due to errors.
+Oct 14 15:46:24 localhost bash[13786]: _default/./IN: unexpected end of input
+Oct 14 15:46:24 localhost systemd[1]: named.service: Control process exited, code=exited status=1
+Oct 14 15:46:24 localhost systemd[1]: named.service: Failed with result 'exit-code'.
+Oct 14 15:46:24 localhost systemd[1]: Failed to start Berkeley Internet Name Domain (DNS).
+Oct 14 15:46:59 localhost systemd[1]: Reloading.
+Oct 14 15:46:59 localhost systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Oct 14 15:47:00 localhost systemd[1]: Starting man-db-cache-update.service...
+Oct 14 15:47:00 localhost systemd[1]: Started man-db-cache-update.service.
+Oct 14 15:47:14 localhost systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+Oct 14 15:47:14 localhost systemd[1]: Starting man-db-cache-update.service...
+Oct 14 15:47:14 localhost systemd[1]: Reloading.
+Oct 14 15:47:15 localhost systemd[1]: Started man-db-cache-update.service.
+Oct 14 15:47:24 localhost systemd[1]: Starting Generate rndc key for BIND (DNS)...
+Oct 14 15:47:24 localhost systemd[1]: Started Generate rndc key for BIND (DNS).
+Oct 14 15:47:24 localhost systemd[1]: Starting Berkeley Internet Name Domain (DNS)...
+Oct 14 15:47:24 localhost bash[14612]: zone localhost.localdomain/IN: loaded serial 0
+Oct 14 15:47:24 localhost bash[14612]: zone localhost/IN: loaded serial 0
+Oct 14 15:47:24 localhost bash[14612]: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+Oct 14 15:47:24 localhost bash[14612]: zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+Oct 14 15:47:24 localhost bash[14612]: zone 0.in-addr.arpa/IN: loaded serial 0
+Oct 14 15:47:24 localhost named[14617]: starting BIND 9.11.13-RedHat-9.11.13-6.el8_2.1 (Extended Support Version) <id:ad4df16>
+Oct 14 15:47:24 localhost named[14617]: running on Linux x86_64 4.18.0-193.el8.x86_64 #1 SMP Fri May 8 10:59:10 UTC 2020
+Oct 14 15:47:24 localhost named[14617]: built with '--build=x86_64-redhat-linux-gnu' '--host=x86_64-redhat-linux-gnu' '--program-prefix=' '--disable-dependency-tracking' '--prefix=/usr' '--exec-prefix=/usr' '--bindir=/usr/bin' '--sbindir=/usr/sbin' '--sysconfdir=/etc' '--datadir=/usr/share' '--includedir=/usr/include' '--libdir=/usr/lib64' '--libexecdir=/usr/libexec' '--sharedstatedir=/var/lib' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--with-python=/usr/libexec/platform-python' '--with-libtool' '--localstatedir=/var' '--enable-threads' '--enable-ipv6' '--enable-filter-aaaa' '--with-pic' '--disable-static' '--includedir=/usr/include/bind9' '--with-tuning=large' '--with-libidn2' '--enable-openssl-hash' '--with-geoip2' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib64/pkcs11/libsofthsm2.so' '--with-dlopen=yes' '--with-dlz-ldap=yes' '--with-dlz-postgres=yes' '--with-dlz-mysql=yes' '--with-dlz-filesystem=yes' '--with-dlz-bdb=yes' '--with-gssapi=yes' '--disable-isc-spnego' '--with-lmdb=no' '--with-cmocka' '--enable-fixed-rrset' '--with-docbook-xsl=/usr/share/sgml/docbook/xsl-stylesheets' '--enable-full-report' 'build_alias=x86_64-redhat-linux-gnu' 'host_alias=x86_64-redhat-linux-gnu' 'CFLAGS= -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' 'LDFLAGS=-Wl,-z,relro -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld' 'CPPFLAGS= -DDIG_SIGCHASE' 'PKG_CONFIG_PATH=:/usr/lib64/pkgconfig:/usr/share/pkgconfig'
+Oct 14 15:47:24 localhost named[14617]: running as: named -u named -c /etc/named.conf
+Oct 14 15:47:24 localhost named[14617]: compiled by GCC 8.3.1 20191121 (Red Hat 8.3.1-5)
+Oct 14 15:47:24 localhost named[14617]: compiled with OpenSSL version: OpenSSL 1.1.1c FIPS  28 May 2019
+Oct 14 15:47:24 localhost named[14617]: linked to OpenSSL version: OpenSSL 1.1.1c FIPS  28 May 2019
+Oct 14 15:47:24 localhost named[14617]: compiled with libxml2 version: 2.9.7
+Oct 14 15:47:24 localhost named[14617]: linked to libxml2 version: 20907
+Oct 14 15:47:24 localhost named[14617]: compiled with zlib version: 1.2.11
+Oct 14 15:47:24 localhost named[14617]: linked to zlib version: 1.2.11
+Oct 14 15:47:24 localhost named[14617]: threads support is enabled
+Oct 14 15:47:24 localhost named[14617]: ----------------------------------------------------
+Oct 14 15:47:24 localhost named[14617]: BIND 9 is maintained by Internet Systems Consortium,
+Oct 14 15:47:24 localhost named[14617]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+Oct 14 15:47:24 localhost named[14617]: corporation.  Support and training for BIND 9 are
+Oct 14 15:47:24 localhost named[14617]: available at https://www.isc.org/support
+Oct 14 15:47:24 localhost named[14617]: ----------------------------------------------------
+Oct 14 15:47:24 localhost named[14617]: adjusted limit on open files from 262144 to 1048576
+Oct 14 15:47:24 localhost named[14617]: found 1 CPU, using 1 worker thread
+Oct 14 15:47:24 localhost named[14617]: using 1 UDP listener per interface
+Oct 14 15:47:24 localhost named[14617]: using up to 21000 sockets
+Oct 14 15:47:24 localhost named[14617]: loading configuration from '/etc/named.conf'
+Oct 14 15:47:24 localhost named[14617]: unable to open '/etc/bind.keys'; using built-in keys instead
+Oct 14 15:47:24 localhost named[14617]: looking for GeoIP2 databases in '/usr/share/GeoIP'
+Oct 14 15:47:24 localhost named[14617]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-Country.mmdb'
+Oct 14 15:47:24 localhost named[14617]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-City.mmdb'
+Oct 14 15:47:24 localhost named[14617]: using default UDP/IPv4 port range: [32768, 60999]
+Oct 14 15:47:24 localhost named[14617]: using default UDP/IPv6 port range: [32768, 60999]
+Oct 14 15:47:24 localhost named[14617]: listening on IPv4 interface lo, 127.0.0.1#53
+Oct 14 15:47:24 localhost named[14617]: listening on IPv6 interface lo, ::1#53
+Oct 14 15:47:24 localhost named[14617]: generating session key for dynamic DNS
+Oct 14 15:47:24 localhost named[14617]: sizing zone task pool based on 6 zones
+Oct 14 15:47:24 localhost named[14617]: none:104: 'max-cache-size 90%' - setting to 1644MB (out of 1826MB)
+Oct 14 15:47:24 localhost named[14617]: set up managed keys zone for view _default, file '/var/named/dynamic/managed-keys.bind'
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 10.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 168.192.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 127.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: D.F.IP6.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 8.E.F.IP6.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 9.E.F.IP6.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: A.E.F.IP6.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: B.E.F.IP6.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: EMPTY.AS112.ARPA
+Oct 14 15:47:24 localhost named[14617]: automatic empty zone: HOME.ARPA
+Oct 14 15:47:24 localhost named[14617]: none:104: 'max-cache-size 90%' - setting to 1644MB (out of 1826MB)
+Oct 14 15:47:24 localhost named[14617]: configuring command channel from '/etc/rndc.key'
+Oct 14 15:47:24 localhost named[14617]: command channel listening on 127.0.0.1#953
+Oct 14 15:47:24 localhost named[14617]: configuring command channel from '/etc/rndc.key'
+Oct 14 15:47:24 localhost named[14617]: command channel listening on ::1#953
+Oct 14 15:47:24 localhost named[14617]: managed-keys-zone: loaded serial 0
+Oct 14 15:47:24 localhost named[14617]: zone 0.in-addr.arpa/IN: loaded serial 0
+Oct 14 15:47:24 localhost named[14617]: zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+Oct 14 15:47:24 localhost named[14617]: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+Oct 14 15:47:24 localhost named[14617]: zone localhost/IN: loaded serial 0
+Oct 14 15:47:24 localhost named[14617]: zone localhost.localdomain/IN: loaded serial 0
+Oct 14 15:47:24 localhost named[14617]: all zones loaded
+Oct 14 15:47:24 localhost named[14617]: running
+Oct 14 15:47:24 localhost systemd[1]: Started Berkeley Internet Name Domain (DNS).
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:503:ba3e::2:30#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:1::53#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:500:1::53#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:500:2d::d#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:7fd::1#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:7fd::1#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:12::d0d#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:2::c#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:500:2::c#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:9f::42#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:500:9f::42#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:500:2f::f#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:dc3::35#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:7fe::53#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:7fe::53#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:200::b#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:500:200::b#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:a8::e#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:500:a8::e#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:503:c27::2:30#53
+Oct 14 15:47:24 localhost named[14617]: network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+Oct 14 15:47:24 localhost named[14617]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+Oct 14 15:47:24 localhost named[14617]: resolver priming query complete
+Oct 14 15:47:48 localhost systemd[1]: Reloading.
+Oct 14 15:59:51 localhost systemd[1]: Starting dnf makecache...
+Oct 14 15:59:51 localhost NetworkManager[960]: <info>  [1602705591.8325] audit: op="connections-load" args="/etc/sysconfig/network-scripts/ifcfg-ens224" pid=14656 uid=0 result="success"
+Oct 14 15:59:51 localhost NetworkManager[960]: <info>  [1602705591.8538] device (ens224): state change: activated -> deactivating (reason 'user-requested', sys-iface-state: 'managed')
+Oct 14 15:59:51 localhost NetworkManager[960]: <info>  [1602705591.8549] audit: op="connection-deactivate" uuid="21e5770b-75bd-3dd1-9427-c020064c7c2e" name="ens224" pid=14655 uid=0 result="success"
+Oct 14 15:59:51 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 14 15:59:51 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 14 15:59:51 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 14 15:59:51 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 14 15:59:51 localhost NetworkManager[960]: <info>  [1602705591.8746] device (ens224): state change: deactivating -> disconnected (reason 'user-requested', sys-iface-state: 'managed')
+Oct 14 15:59:52 localhost dnf[14653]: Metadata cache refreshed recently.
+Oct 14 15:59:52 localhost systemd[1]: Started dnf makecache.
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4506] audit: op="connections-load" args="/etc/sysconfig/network-scripts/ifcfg-ens224" pid=14673 uid=0 result="success"
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4702] agent-manager: agent[853823cc3d7d473b,:1.363/nmcli-connect/0]: agent registered
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4717] device (ens224): Activation: starting connection 'ens224' (21e5770b-75bd-3dd1-9427-c020064c7c2e)
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4718] audit: op="connection-activate" uuid="21e5770b-75bd-3dd1-9427-c020064c7c2e" name="ens224" pid=14672 uid=0 result="success"
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4719] device (ens224): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4722] device (ens224): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4727] device (ens224): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4747] device (ens224): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4823] device (ens224): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4825] device (ens224): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 14 15:59:56 localhost NetworkManager[960]: <info>  [1602705596.4835] device (ens224): Activation: successful, device activated.
+Oct 14 16:00:57 localhost NetworkManager[960]: <info>  [1602705657.8330] audit: op="connection-update" uuid="21e5770b-75bd-3dd1-9427-c020064c7c2e" name="ens224" args="connection.timestamp" pid=14686 uid=0 result="success"
+Oct 14 17:00:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 17:00:00 localhost dnf[14764]: Metadata cache refreshed recently.
+Oct 14 17:00:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 17:36:36 localhost NetworkManager[960]: <error> [1602711396.8386] dhcp4 (ens192): error -113 dispatching events
+Oct 14 17:36:36 localhost NetworkManager[960]: <info>  [1602711396.8405] dhcp4 (ens192): state changed bound -> fail
+Oct 14 17:36:36 localhost NetworkManager[960]: <info>  [1602711396.8406] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7250] device (ens192): DHCPv4: grace period expired
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7251] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 14 17:38:06 localhost NetworkManager[960]: <warn>  [1602711486.7267] device (ens192): Activation: failed for connection 'ens192'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7274] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7278] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7288] dhcp4 (ens192): canceled DHCP transaction
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7288] dhcp4 (ens192): state changed fail -> done
+Oct 14 17:38:06 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 14 17:38:06 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7537] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7546] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7547] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7550] manager: NetworkManager state is now CONNECTING
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7551] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7556] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7558] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 14 17:38:06 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 14 17:38:06 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7646] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7646] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7646] dhcp4 (ens192): option expiry               => '1602797886'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7646] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7646] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_routers    => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7647] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7648] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7648] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7648] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7648] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7648] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7648] dhcp4 (ens192): state changed unknown -> bound
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7657] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7760] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7763] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7767] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7776] manager: NetworkManager state is now CONNECTED_SITE
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7777] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7810] device (ens192): Activation: successful, device activated.
+Oct 14 17:38:06 localhost NetworkManager[960]: <info>  [1602711486.7815] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 14 17:41:30 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 14 17:41:30 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Oct 14 18:01:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 18:01:00 localhost dnf[14799]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 14 18:01:01 localhost dnf[14799]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 14 18:01:01 localhost dnf[14799]: CentOS-8 - Extras                               4.1 kB/s | 1.5 kB     00:00
+Oct 14 18:01:01 localhost dnf[14799]: Metadata cache created.
+Oct 14 18:01:01 localhost systemd[1]: Started dnf makecache.
+Oct 14 19:01:01 localhost systemd[1]: Starting dnf makecache...
+Oct 14 19:01:02 localhost dnf[14829]: Metadata cache refreshed recently.
+Oct 14 19:01:02 localhost systemd[1]: Started dnf makecache.
+Oct 14 20:02:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 20:02:00 localhost dnf[14863]: Metadata cache refreshed recently.
+Oct 14 20:02:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 21:02:40 localhost systemd[1]: Starting dnf makecache...
+Oct 14 21:02:42 localhost dnf[14886]: CentOS-8 - AppStream                            2.2 kB/s | 4.3 kB     00:01
+Oct 14 21:02:42 localhost dnf[14886]: CentOS-8 - Base                                  19 kB/s | 3.9 kB     00:00
+Oct 14 21:02:42 localhost dnf[14886]: CentOS-8 - Extras                               5.5 kB/s | 1.5 kB     00:00
+Oct 14 21:02:43 localhost dnf[14886]: Metadata cache created.
+Oct 14 21:02:43 localhost systemd[1]: Started dnf makecache.
+Oct 14 22:03:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 22:03:00 localhost dnf[14915]: Metadata cache refreshed recently.
+Oct 14 22:03:00 localhost systemd[1]: Started dnf makecache.
+Oct 14 23:04:00 localhost systemd[1]: Starting dnf makecache...
+Oct 14 23:04:00 localhost dnf[14939]: Metadata cache refreshed recently.
+Oct 14 23:04:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 00:00:00 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 15 00:00:00 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 15 00:05:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 00:05:00 localhost dnf[14966]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 15 00:05:01 localhost dnf[14966]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 15 00:05:01 localhost dnf[14966]: CentOS-8 - Extras                               8.7 kB/s | 1.5 kB     00:00
+Oct 15 00:05:01 localhost dnf[14966]: Metadata cache created.
+Oct 15 00:05:01 localhost systemd[1]: Started dnf makecache.
+Oct 15 01:05:40 localhost systemd[1]: Starting dnf makecache...
+Oct 15 01:05:40 localhost dnf[14998]: Metadata cache refreshed recently.
+Oct 15 01:05:40 localhost systemd[1]: Started dnf makecache.
+Oct 15 02:06:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 02:06:00 localhost dnf[15023]: Metadata cache refreshed recently.
+Oct 15 02:06:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 03:07:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 03:07:00 localhost dnf[15048]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Oct 15 03:07:00 localhost dnf[15048]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 15 03:07:01 localhost dnf[15048]: CentOS-8 - Extras                               7.2 kB/s | 1.5 kB     00:00
+Oct 15 03:07:01 localhost dnf[15048]: Metadata cache created.
+Oct 15 03:07:01 localhost systemd[1]: Started dnf makecache.
+Oct 15 04:08:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 04:08:00 localhost dnf[15087]: Metadata cache refreshed recently.
+Oct 15 04:08:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 05:08:40 localhost systemd[1]: Starting dnf makecache...
+Oct 15 05:08:40 localhost dnf[15110]: Metadata cache refreshed recently.
+Oct 15 05:08:40 localhost systemd[1]: Started dnf makecache.
+Oct 15 05:38:06 localhost NetworkManager[960]: <error> [1602754686.7645] dhcp4 (ens192): error -113 dispatching events
+Oct 15 05:38:06 localhost NetworkManager[960]: <info>  [1602754686.7649] dhcp4 (ens192): state changed bound -> fail
+Oct 15 05:38:06 localhost NetworkManager[960]: <info>  [1602754686.7650] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.7957] device (ens192): DHCPv4: grace period expired
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.7958] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 15 05:39:36 localhost NetworkManager[960]: <warn>  [1602754776.7977] device (ens192): Activation: failed for connection 'ens192'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.7984] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.7988] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8006] dhcp4 (ens192): canceled DHCP transaction
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8006] dhcp4 (ens192): state changed fail -> done
+Oct 15 05:39:36 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 15 05:39:36 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8290] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8300] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8301] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8304] manager: NetworkManager state is now CONNECTING
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8305] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8309] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8312] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 15 05:39:36 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 15 05:39:36 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8423] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8424] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8424] dhcp4 (ens192): option expiry               => '1602841176'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8424] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8424] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8424] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8424] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8424] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8424] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8424] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8424] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option requested_routers    => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8425] dhcp4 (ens192): state changed unknown -> bound
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8435] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8533] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8535] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8540] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8548] manager: NetworkManager state is now CONNECTED_SITE
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8549] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8584] device (ens192): Activation: successful, device activated.
+Oct 15 05:39:36 localhost NetworkManager[960]: <info>  [1602754776.8589] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 15 06:09:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 06:09:00 localhost dnf[15144]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 15 06:09:01 localhost dnf[15144]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 15 06:09:01 localhost dnf[15144]: CentOS-8 - Extras                               6.6 kB/s | 1.5 kB     00:00
+Oct 15 06:09:01 localhost dnf[15144]: Metadata cache created.
+Oct 15 06:09:01 localhost systemd[1]: Started dnf makecache.
+Oct 15 07:10:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 07:10:00 localhost dnf[15173]: Metadata cache refreshed recently.
+Oct 15 07:10:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 08:11:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 08:11:00 localhost dnf[15197]: Metadata cache refreshed recently.
+Oct 15 08:11:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 09:11:40 localhost systemd[1]: Starting dnf makecache...
+Oct 15 09:11:40 localhost dnf[15220]: CentOS-8 - AppStream                             22 kB/s | 4.3 kB     00:00
+Oct 15 09:11:40 localhost dnf[15220]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 15 09:11:41 localhost dnf[15220]: CentOS-8 - Extras                                14 kB/s | 1.5 kB     00:00
+Oct 15 09:11:41 localhost dnf[15220]: Metadata cache created.
+Oct 15 09:11:41 localhost systemd[1]: Started dnf makecache.
+Oct 15 10:12:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 10:12:00 localhost dnf[15249]: Metadata cache refreshed recently.
+Oct 15 10:12:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 11:13:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 11:13:00 localhost dnf[15273]: Metadata cache refreshed recently.
+Oct 15 11:13:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 12:14:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 12:14:00 localhost dnf[15296]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 15 12:14:00 localhost dnf[15296]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 15 12:14:01 localhost dnf[15296]: CentOS-8 - Extras                               7.3 kB/s | 1.5 kB     00:00
+Oct 15 12:14:01 localhost dnf[15296]: Metadata cache created.
+Oct 15 12:14:01 localhost systemd[1]: Started dnf makecache.
+Oct 15 13:14:40 localhost systemd[1]: Starting dnf makecache...
+Oct 15 13:14:40 localhost dnf[15326]: Metadata cache refreshed recently.
+Oct 15 13:14:40 localhost systemd[1]: Started dnf makecache.
+Oct 15 14:15:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 14:15:00 localhost dnf[15349]: Metadata cache refreshed recently.
+Oct 15 14:15:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 15:16:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 15:16:00 localhost dnf[15373]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Oct 15 15:16:00 localhost dnf[15373]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Oct 15 15:16:01 localhost dnf[15373]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Oct 15 15:16:01 localhost dnf[15373]: Metadata cache created.
+Oct 15 15:16:01 localhost systemd[1]: Started dnf makecache.
+Oct 15 15:47:24 localhost named[14617]: _default: sending trust-anchor-telemetry query '_ta-4f66/NULL'
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:503:ba3e::2:30#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:7fe::53#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:200::b#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:12::d0d#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:7fd::1#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:a8::e#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:9f::42#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2::c#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2f::f#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:1::53#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:503:c27::2:30#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:dc3::35#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2d::d#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+Oct 15 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+Oct 15 15:47:24 localhost named[14617]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+Oct 15 16:17:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 16:17:00 localhost dnf[15402]: Metadata cache refreshed recently.
+Oct 15 16:17:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 17:17:40 localhost systemd[1]: Starting dnf makecache...
+Oct 15 17:17:40 localhost dnf[15425]: Metadata cache refreshed recently.
+Oct 15 17:17:40 localhost systemd[1]: Started dnf makecache.
+Oct 15 17:39:36 localhost NetworkManager[960]: <error> [1602797976.8374] dhcp4 (ens192): error -113 dispatching events
+Oct 15 17:39:36 localhost NetworkManager[960]: <info>  [1602797976.8376] dhcp4 (ens192): state changed bound -> fail
+Oct 15 17:39:36 localhost NetworkManager[960]: <info>  [1602797976.8377] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7483] device (ens192): DHCPv4: grace period expired
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7484] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 15 17:41:06 localhost NetworkManager[960]: <warn>  [1602798066.7501] device (ens192): Activation: failed for connection 'ens192'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7508] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7512] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7523] dhcp4 (ens192): canceled DHCP transaction
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7523] dhcp4 (ens192): state changed fail -> done
+Oct 15 17:41:06 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 15 17:41:06 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7792] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7802] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7803] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7806] manager: NetworkManager state is now CONNECTING
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7807] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7812] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7815] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 15 17:41:06 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 15 17:41:06 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7915] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7915] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7915] dhcp4 (ens192): option expiry               => '1602884466'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7915] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7915] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7915] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_routers    => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7916] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7917] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7917] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7917] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7917] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7917] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7917] dhcp4 (ens192): state changed unknown -> bound
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.7926] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.8021] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.8023] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.8027] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.8035] manager: NetworkManager state is now CONNECTED_SITE
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.8036] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.8074] device (ens192): Activation: successful, device activated.
+Oct 15 17:41:06 localhost NetworkManager[960]: <info>  [1602798066.8078] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 15 17:42:00 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 15 17:42:00 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Oct 15 18:18:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 18:18:00 localhost dnf[15460]: CentOS-8 - AppStream                             32 kB/s | 4.3 kB     00:00
+Oct 15 18:18:00 localhost dnf[15460]: CentOS-8 - Base                                  25 kB/s | 3.9 kB     00:00
+Oct 15 18:18:00 localhost dnf[15460]: CentOS-8 - Extras                               7.5 kB/s | 1.5 kB     00:00
+Oct 15 18:18:01 localhost dnf[15460]: Metadata cache created.
+Oct 15 18:18:01 localhost systemd[1]: Started dnf makecache.
+Oct 15 19:19:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 19:19:00 localhost dnf[15490]: Metadata cache refreshed recently.
+Oct 15 19:19:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 20:20:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 20:20:00 localhost dnf[15514]: Metadata cache refreshed recently.
+Oct 15 20:20:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 21:20:40 localhost systemd[1]: Starting dnf makecache...
+Oct 15 21:20:40 localhost dnf[15537]: CentOS-8 - AppStream                             25 kB/s | 4.3 kB     00:00
+Oct 15 21:20:40 localhost dnf[15537]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 15 21:20:41 localhost dnf[15537]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Oct 15 21:20:41 localhost dnf[15537]: Metadata cache created.
+Oct 15 21:20:41 localhost systemd[1]: Started dnf makecache.
+Oct 15 22:21:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 22:21:00 localhost dnf[15566]: Metadata cache refreshed recently.
+Oct 15 22:21:00 localhost systemd[1]: Started dnf makecache.
+Oct 15 23:22:00 localhost systemd[1]: Starting dnf makecache...
+Oct 15 23:22:00 localhost dnf[15589]: Metadata cache refreshed recently.
+Oct 15 23:22:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 00:00:00 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 16 00:00:00 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 16 00:23:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 00:23:00 localhost dnf[15616]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 16 00:23:00 localhost dnf[15616]: CentOS-8 - Base                                  23 kB/s | 3.9 kB     00:00
+Oct 16 00:23:01 localhost dnf[15616]: CentOS-8 - Extras                               4.3 kB/s | 1.5 kB     00:00
+Oct 16 00:23:01 localhost dnf[15616]: Metadata cache created.
+Oct 16 00:23:01 localhost systemd[1]: Started dnf makecache.
+Oct 16 01:23:40 localhost systemd[1]: Starting dnf makecache...
+Oct 16 01:23:40 localhost dnf[15648]: Metadata cache refreshed recently.
+Oct 16 01:23:40 localhost systemd[1]: Started dnf makecache.
+Oct 16 02:24:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 02:24:00 localhost dnf[15673]: Metadata cache refreshed recently.
+Oct 16 02:24:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 03:25:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 03:25:00 localhost dnf[15708]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 16 03:25:00 localhost dnf[15708]: CentOS-8 - Base                                  31 kB/s | 3.9 kB     00:00
+Oct 16 03:25:01 localhost dnf[15708]: CentOS-8 - Extras                               8.7 kB/s | 1.5 kB     00:00
+Oct 16 03:25:01 localhost dnf[15708]: Metadata cache created.
+Oct 16 03:25:01 localhost systemd[1]: Started dnf makecache.
+Oct 16 04:26:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 04:26:00 localhost dnf[15739]: Metadata cache refreshed recently.
+Oct 16 04:26:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 05:26:40 localhost systemd[1]: Starting dnf makecache...
+Oct 16 05:26:40 localhost dnf[15762]: Metadata cache refreshed recently.
+Oct 16 05:26:40 localhost systemd[1]: Started dnf makecache.
+Oct 16 05:41:06 localhost NetworkManager[960]: <error> [1602841266.7894] dhcp4 (ens192): error -113 dispatching events
+Oct 16 05:41:06 localhost NetworkManager[960]: <info>  [1602841266.7901] dhcp4 (ens192): state changed bound -> fail
+Oct 16 05:41:06 localhost NetworkManager[960]: <info>  [1602841266.7901] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8048] device (ens192): DHCPv4: grace period expired
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8049] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 16 05:42:36 localhost NetworkManager[960]: <warn>  [1602841356.8065] device (ens192): Activation: failed for connection 'ens192'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8072] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8076] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8088] dhcp4 (ens192): canceled DHCP transaction
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8089] dhcp4 (ens192): state changed fail -> done
+Oct 16 05:42:36 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 16 05:42:36 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8335] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8345] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8346] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8348] manager: NetworkManager state is now CONNECTING
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8350] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8354] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8357] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 16 05:42:36 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 16 05:42:36 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8454] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8454] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8454] dhcp4 (ens192): option expiry               => '1602927756'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8454] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8455] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8456] dhcp4 (ens192): option requested_routers    => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8456] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8456] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8456] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8456] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8456] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8456] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8456] dhcp4 (ens192): state changed unknown -> bound
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8465] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8564] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8566] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8570] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8578] manager: NetworkManager state is now CONNECTED_SITE
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8579] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8615] device (ens192): Activation: successful, device activated.
+Oct 16 05:42:36 localhost NetworkManager[960]: <info>  [1602841356.8620] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 16 06:27:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 06:27:00 localhost dnf[15796]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 16 06:27:00 localhost dnf[15796]: CentOS-8 - Base                                  28 kB/s | 3.9 kB     00:00
+Oct 16 06:27:01 localhost dnf[15796]: CentOS-8 - Extras                               3.8 kB/s | 1.5 kB     00:00
+Oct 16 06:27:01 localhost dnf[15796]: Metadata cache created.
+Oct 16 06:27:01 localhost systemd[1]: Started dnf makecache.
+Oct 16 07:28:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 07:28:00 localhost dnf[15825]: Metadata cache refreshed recently.
+Oct 16 07:28:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 08:29:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 08:29:00 localhost dnf[15849]: Metadata cache refreshed recently.
+Oct 16 08:29:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 09:29:40 localhost systemd[1]: Starting dnf makecache...
+Oct 16 09:29:41 localhost dnf[15872]: CentOS-8 - AppStream                            5.1 kB/s | 4.3 kB     00:00
+Oct 16 09:29:41 localhost dnf[15872]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 16 09:29:41 localhost dnf[15872]: CentOS-8 - Extras                               4.7 kB/s | 1.5 kB     00:00
+Oct 16 09:29:42 localhost dnf[15872]: Metadata cache created.
+Oct 16 09:29:42 localhost systemd[1]: Started dnf makecache.
+Oct 16 10:30:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 10:30:00 localhost dnf[15902]: Metadata cache refreshed recently.
+Oct 16 10:30:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 11:31:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 11:31:00 localhost dnf[15925]: Metadata cache refreshed recently.
+Oct 16 11:31:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 12:32:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 12:32:00 localhost dnf[15948]: CentOS-8 - AppStream                            9.9 kB/s | 4.3 kB     00:00
+Oct 16 12:32:01 localhost dnf[15948]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 16 12:32:01 localhost dnf[15948]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Oct 16 12:32:01 localhost dnf[15948]: Metadata cache created.
+Oct 16 12:32:01 localhost systemd[1]: Started dnf makecache.
+Oct 16 13:32:40 localhost systemd[1]: Starting dnf makecache...
+Oct 16 13:32:40 localhost dnf[15978]: Metadata cache refreshed recently.
+Oct 16 13:32:40 localhost systemd[1]: Started dnf makecache.
+Oct 16 14:33:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 14:33:00 localhost dnf[16001]: Metadata cache refreshed recently.
+Oct 16 14:33:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 15:34:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 15:34:00 localhost dnf[16025]: CentOS-8 - AppStream                            7.7 kB/s | 4.3 kB     00:00
+Oct 16 15:34:01 localhost dnf[16025]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 16 15:34:01 localhost dnf[16025]: CentOS-8 - Extras                               7.8 kB/s | 1.5 kB     00:00
+Oct 16 15:34:01 localhost dnf[16025]: Metadata cache created.
+Oct 16 15:34:01 localhost systemd[1]: Started dnf makecache.
+Oct 16 15:47:24 localhost named[14617]: _default: sending trust-anchor-telemetry query '_ta-4f66/NULL'
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:200::b#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:a8::e#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:12::d0d#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2::c#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:503:c27::2:30#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:503:ba3e::2:30#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:7fd::1#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:1::53#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:7fe::53#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2f::f#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:dc3::35#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:9f::42#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2d::d#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:7fe::53#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:12::d0d#53
+Oct 16 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+Oct 16 15:47:24 localhost named[14617]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+Oct 16 16:35:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 16:35:00 localhost dnf[16054]: Metadata cache refreshed recently.
+Oct 16 16:35:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 17:35:40 localhost systemd[1]: Starting dnf makecache...
+Oct 16 17:35:40 localhost dnf[16078]: Metadata cache refreshed recently.
+Oct 16 17:35:40 localhost systemd[1]: Started dnf makecache.
+Oct 16 17:42:36 localhost NetworkManager[960]: <error> [1602884556.8422] dhcp4 (ens192): error -113 dispatching events
+Oct 16 17:42:36 localhost NetworkManager[960]: <info>  [1602884556.8428] dhcp4 (ens192): state changed bound -> fail
+Oct 16 17:42:36 localhost NetworkManager[960]: <info>  [1602884556.8429] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 16 17:42:36 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 16 17:42:36 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7354] device (ens192): DHCPv4: grace period expired
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7355] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 16 17:44:06 localhost NetworkManager[960]: <warn>  [1602884646.7370] device (ens192): Activation: failed for connection 'ens192'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7377] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7381] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7397] dhcp4 (ens192): canceled DHCP transaction
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7397] dhcp4 (ens192): state changed fail -> done
+Oct 16 17:44:06 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 16 17:44:06 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7624] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7635] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7636] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7639] manager: NetworkManager state is now CONNECTING
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7640] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7645] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7647] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 16 17:44:06 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 16 17:44:06 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7804] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7804] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option expiry               => '1602971046'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7805] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): option requested_routers    => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7806] dhcp4 (ens192): state changed unknown -> bound
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7816] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7890] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7892] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7896] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7904] manager: NetworkManager state is now CONNECTED_SITE
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7905] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7939] device (ens192): Activation: successful, device activated.
+Oct 16 17:44:06 localhost NetworkManager[960]: <info>  [1602884646.7944] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 16 18:36:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 18:36:00 localhost dnf[16113]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 16 18:36:00 localhost dnf[16113]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 16 18:36:01 localhost dnf[16113]: CentOS-8 - Extras                               7.0 kB/s | 1.5 kB     00:00
+Oct 16 18:36:01 localhost dnf[16113]: Metadata cache created.
+Oct 16 18:36:01 localhost systemd[1]: Started dnf makecache.
+Oct 16 19:37:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 19:37:00 localhost dnf[16142]: Metadata cache refreshed recently.
+Oct 16 19:37:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 20:38:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 20:38:00 localhost dnf[16166]: Metadata cache refreshed recently.
+Oct 16 20:38:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 21:38:40 localhost systemd[1]: Starting dnf makecache...
+Oct 16 21:38:41 localhost dnf[16189]: CentOS-8 - AppStream                            3.9 kB/s | 4.3 kB     00:01
+Oct 16 21:38:41 localhost dnf[16189]: CentOS-8 - Base                                  40 kB/s | 3.9 kB     00:00
+Oct 16 21:38:42 localhost dnf[16189]: CentOS-8 - Extras                               4.0 kB/s | 1.5 kB     00:00
+Oct 16 21:38:42 localhost dnf[16189]: Metadata cache created.
+Oct 16 21:38:42 localhost systemd[1]: Started dnf makecache.
+Oct 16 22:39:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 22:39:00 localhost dnf[16219]: Metadata cache refreshed recently.
+Oct 16 22:39:00 localhost systemd[1]: Started dnf makecache.
+Oct 16 23:40:00 localhost systemd[1]: Starting dnf makecache...
+Oct 16 23:40:00 localhost dnf[16242]: Metadata cache refreshed recently.
+Oct 16 23:40:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 00:00:00 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 17 00:00:00 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 17 00:41:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 00:41:00 localhost dnf[16270]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 17 00:41:00 localhost dnf[16270]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 17 00:41:01 localhost dnf[16270]: CentOS-8 - Extras                               5.5 kB/s | 1.5 kB     00:00
+Oct 17 00:41:01 localhost dnf[16270]: Metadata cache created.
+Oct 17 00:41:01 localhost systemd[1]: Started dnf makecache.
+Oct 17 01:41:40 localhost systemd[1]: Starting dnf makecache...
+Oct 17 01:41:40 localhost dnf[16301]: Metadata cache refreshed recently.
+Oct 17 01:41:40 localhost systemd[1]: Started dnf makecache.
+Oct 17 02:42:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 02:42:00 localhost dnf[16326]: Metadata cache refreshed recently.
+Oct 17 02:42:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 03:43:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 03:43:00 localhost dnf[16361]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 17 03:43:01 localhost dnf[16361]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 17 03:43:01 localhost dnf[16361]: CentOS-8 - Extras                               6.2 kB/s | 1.5 kB     00:00
+Oct 17 03:43:01 localhost dnf[16361]: Metadata cache created.
+Oct 17 03:43:01 localhost systemd[1]: Started dnf makecache.
+Oct 17 04:44:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 04:44:00 localhost dnf[16390]: Metadata cache refreshed recently.
+Oct 17 04:44:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 05:44:06 localhost NetworkManager[960]: <error> [1602927846.7711] dhcp4 (ens192): error -113 dispatching events
+Oct 17 05:44:06 localhost NetworkManager[960]: <info>  [1602927846.7716] dhcp4 (ens192): state changed bound -> fail
+Oct 17 05:44:06 localhost NetworkManager[960]: <info>  [1602927846.7717] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 17 05:44:06 localhost systemd[1]: Starting dnf makecache...
+Oct 17 05:44:07 localhost dnf[16414]: Metadata cache refreshed recently.
+Oct 17 05:44:07 localhost systemd[1]: Started dnf makecache.
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.7800] device (ens192): DHCPv4: grace period expired
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.7802] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 17 05:45:36 localhost NetworkManager[960]: <warn>  [1602927936.7818] device (ens192): Activation: failed for connection 'ens192'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.7825] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.7829] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.7840] dhcp4 (ens192): canceled DHCP transaction
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.7840] dhcp4 (ens192): state changed fail -> done
+Oct 17 05:45:36 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 17 05:45:36 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8062] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8072] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8073] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8076] manager: NetworkManager state is now CONNECTING
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8078] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8082] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8085] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 17 05:45:36 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 17 05:45:36 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8184] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8185] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8185] dhcp4 (ens192): option expiry               => '1603014336'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8185] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8185] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8185] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8185] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8185] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8185] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8185] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8185] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option requested_routers    => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8186] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8187] dhcp4 (ens192): state changed unknown -> bound
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8196] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8279] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8281] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8285] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8293] manager: NetworkManager state is now CONNECTED_SITE
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8294] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8332] device (ens192): Activation: successful, device activated.
+Oct 17 05:45:36 localhost NetworkManager[960]: <info>  [1602927936.8337] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 17 06:44:40 localhost systemd[1]: Starting dnf makecache...
+Oct 17 06:44:40 localhost dnf[16447]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 17 06:44:40 localhost dnf[16447]: CentOS-8 - Base                                  51 kB/s | 3.9 kB     00:00
+Oct 17 06:44:40 localhost dnf[16447]: CentOS-8 - Extras                               8.6 kB/s | 1.5 kB     00:00
+Oct 17 06:44:41 localhost dnf[16447]: Metadata cache created.
+Oct 17 06:44:41 localhost systemd[1]: Started dnf makecache.
+Oct 17 07:45:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 07:45:00 localhost dnf[16477]: Metadata cache refreshed recently.
+Oct 17 07:45:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 08:46:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 08:46:00 localhost dnf[16500]: Metadata cache refreshed recently.
+Oct 17 08:46:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 09:47:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 09:47:00 localhost dnf[16523]: CentOS-8 - AppStream                             10 kB/s | 4.3 kB     00:00
+Oct 17 09:47:00 localhost dnf[16523]: CentOS-8 - Base                                  27 kB/s | 3.9 kB     00:00
+Oct 17 09:47:01 localhost dnf[16523]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Oct 17 09:47:01 localhost dnf[16523]: Metadata cache created.
+Oct 17 09:47:01 localhost systemd[1]: Started dnf makecache.
+Oct 17 10:47:40 localhost systemd[1]: Starting dnf makecache...
+Oct 17 10:47:40 localhost dnf[16552]: Metadata cache refreshed recently.
+Oct 17 10:47:40 localhost systemd[1]: Started dnf makecache.
+Oct 17 11:48:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 11:48:00 localhost dnf[16576]: Metadata cache refreshed recently.
+Oct 17 11:48:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 12:49:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 12:49:00 localhost dnf[16599]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Oct 17 12:49:00 localhost dnf[16599]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 17 12:49:01 localhost dnf[16599]: CentOS-8 - Extras                               4.5 kB/s | 1.5 kB     00:00
+Oct 17 12:49:01 localhost dnf[16599]: Metadata cache created.
+Oct 17 12:49:01 localhost systemd[1]: Started dnf makecache.
+Oct 17 13:50:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 13:50:00 localhost dnf[16629]: Metadata cache refreshed recently.
+Oct 17 13:50:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 14:50:40 localhost systemd[1]: Starting dnf makecache...
+Oct 17 14:50:40 localhost dnf[16653]: Metadata cache refreshed recently.
+Oct 17 14:50:40 localhost systemd[1]: Started dnf makecache.
+Oct 17 15:47:24 localhost named[14617]: _default: sending trust-anchor-telemetry query '_ta-4f66/NULL'
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:9f::42#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:12::d0d#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:7fd::1#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:dc3::35#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:a8::e#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:503:c27::2:30#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:503:ba3e::2:30#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:1::53#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:7fe::53#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:200::b#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2f::f#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2d::d#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2::c#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:503:ba3e::2:30#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:500:9f::42#53
+Oct 17 15:47:24 localhost named[14617]: network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+Oct 17 15:47:24 localhost named[14617]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+Oct 17 15:51:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 15:51:00 localhost dnf[16676]: CentOS-8 - AppStream                             30 kB/s | 4.3 kB     00:00
+Oct 17 15:51:00 localhost dnf[16676]: CentOS-8 - Base                                  21 kB/s | 3.9 kB     00:00
+Oct 17 15:51:01 localhost dnf[16676]: CentOS-8 - Extras                               4.8 kB/s | 1.5 kB     00:00
+Oct 17 15:51:01 localhost dnf[16676]: Metadata cache created.
+Oct 17 15:51:01 localhost systemd[1]: Started dnf makecache.
+Oct 17 16:52:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 16:52:00 localhost dnf[16705]: Metadata cache refreshed recently.
+Oct 17 16:52:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 17:43:00 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 17 17:43:00 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Oct 17 17:45:36 localhost NetworkManager[960]: <error> [1602971136.8148] dhcp4 (ens192): error -113 dispatching events
+Oct 17 17:45:36 localhost NetworkManager[960]: <info>  [1602971136.8151] dhcp4 (ens192): state changed bound -> fail
+Oct 17 17:45:36 localhost NetworkManager[960]: <info>  [1602971136.8151] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8115] device (ens192): DHCPv4: grace period expired
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8117] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 17 17:47:06 localhost NetworkManager[960]: <warn>  [1602971226.8133] device (ens192): Activation: failed for connection 'ens192'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8140] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8145] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8155] dhcp4 (ens192): canceled DHCP transaction
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8155] dhcp4 (ens192): state changed fail -> done
+Oct 17 17:47:06 localhost dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=960 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 17 17:47:06 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8429] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8439] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8440] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8443] manager: NetworkManager state is now CONNECTING
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8445] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8450] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8452] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 17 17:47:06 localhost dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 17 17:47:06 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8533] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8534] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8534] dhcp4 (ens192): option expiry               => '1603057626'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8534] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8534] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8534] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8534] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8534] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8534] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8534] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_routers    => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8535] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8536] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8536] dhcp4 (ens192): state changed unknown -> bound
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8545] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8645] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8647] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8652] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8660] manager: NetworkManager state is now CONNECTED_SITE
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8661] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8696] device (ens192): Activation: successful, device activated.
+Oct 17 17:47:06 localhost NetworkManager[960]: <info>  [1602971226.8701] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 17 17:53:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 17:53:00 localhost dnf[16740]: Metadata cache refreshed recently.
+Oct 17 17:53:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 18:53:40 localhost systemd[1]: Starting dnf makecache...
+Oct 17 18:53:40 localhost dnf[16764]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Oct 17 18:53:40 localhost dnf[16764]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 17 18:53:41 localhost dnf[16764]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Oct 17 18:53:41 localhost dnf[16764]: Metadata cache created.
+Oct 17 18:53:41 localhost systemd[1]: Started dnf makecache.
+Oct 17 19:54:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 19:54:00 localhost dnf[16793]: Metadata cache refreshed recently.
+Oct 17 19:54:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 20:55:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 20:55:00 localhost dnf[16817]: Metadata cache refreshed recently.
+Oct 17 20:55:00 localhost systemd[1]: Started dnf makecache.
+Oct 17 21:56:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 21:56:00 localhost dnf[16840]: CentOS-8 - AppStream                             27 kB/s | 4.3 kB     00:00
+Oct 17 21:56:00 localhost dnf[16840]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 17 21:56:01 localhost dnf[16840]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Oct 17 21:56:01 localhost dnf[16840]: Metadata cache created.
+Oct 17 21:56:01 localhost systemd[1]: Started dnf makecache.
+Oct 17 22:56:40 localhost systemd[1]: Starting dnf makecache...
+Oct 17 22:56:40 localhost dnf[16870]: Metadata cache refreshed recently.
+Oct 17 22:56:40 localhost systemd[1]: Started dnf makecache.
+Oct 17 23:57:00 localhost systemd[1]: Starting dnf makecache...
+Oct 17 23:57:00 localhost dnf[16893]: Metadata cache refreshed recently.
+Oct 17 23:57:00 localhost systemd[1]: Started dnf makecache.
+Oct 18 00:01:00 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 18 00:01:00 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 18 00:58:00 localhost systemd[1]: Starting dnf makecache...
+Oct 18 00:58:00 localhost dnf[16920]: CentOS-8 - AppStream                             10 kB/s | 4.3 kB     00:00
+Oct 18 00:58:01 localhost dnf[16920]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 18 00:58:27 localhost dnf[16920]: CentOS-8 - Extras                                60  B/s | 1.5 kB     00:26
+Oct 18 00:58:27 localhost dnf[16920]: Metadata cache created.
+Oct 18 00:58:27 localhost systemd[1]: Started dnf makecache.
+Oct 18 01:59:00 localhost systemd[1]: Starting dnf makecache...
+Oct 18 01:59:00 localhost dnf[16952]: Metadata cache refreshed recently.
+Oct 18 01:59:00 localhost systemd[1]: Started dnf makecache.
+Oct 18 02:59:40 localhost systemd[1]: Starting dnf makecache...
+Oct 18 02:59:40 localhost dnf[16978]: Metadata cache refreshed recently.
+Oct 18 02:59:40 localhost systemd[1]: Started dnf makecache.

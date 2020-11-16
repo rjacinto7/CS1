@@ -1,0 +1,17 @@
+;@ORIGIN 17.168.192.in-addr.arpa.
+$TTL    604800
+@       IN      SOA     aluk10-pri.aluk10.com. hostmaster.aluk10-pri.aluk10.com. (
+                              3         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+; name servers
+@	IN      NS      aluk10-pri.aluk10.com.
+@	IN	PTR	aluk10-pri.aluk10.com.
+
+; PTR Records
+53	IN      PTR     aluk10-pri.aluk10.com.	
+253	IN      PTR     aluk10-rns.aluk10.com.    
+80	IN      PTR     www.aluk10.com.	
+25	IN      PTR     mail.aluk10.com.	

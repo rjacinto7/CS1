@@ -1,0 +1,237 @@
+Oct 21 19:06:58 zachary-vm2 polkitd[985]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 19:06:58 zachary-vm2 polkitd[985]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 19:06:58 zachary-vm2 polkitd[985]: Finished loading, compiling and executing 2 rules
+Oct 21 19:06:58 zachary-vm2 polkitd[985]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 19:06:58 zachary-vm2 sshd[1016]: Server listening on 0.0.0.0 port 22.
+Oct 21 19:06:58 zachary-vm2 sshd[1016]: Server listening on :: port 22.
+Oct 21 19:07:19 zachary-vm2 systemd[5011]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 21 19:07:20 zachary-vm2 login[1036]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 21 19:07:20 zachary-vm2 login[1036]: LOGIN ON tty1 BY student
+Oct 21 19:09:09 zachary-vm2 sudo[5149]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /proc/sys/net/ipv4/ip_forward
+Oct 21 19:09:09 zachary-vm2 sudo[5149]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:09:09 zachary-vm2 sudo[5149]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:09:14 zachary-vm2 sudo[5149]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5160]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5160]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5160]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5160]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5163]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.1.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5163]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5163]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5163]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5166]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.2.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5166]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5166]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5166]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5169]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.2.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5169]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5169]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5169]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5172]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.3.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5172]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5172]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5172]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5175]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.3.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5175]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5175]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5175]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5178]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.4.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5178]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5178]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5178]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5181]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.4.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5181]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5181]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5181]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5184]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.5.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5184]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5184]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5184]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5187]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.5.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5187]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5187]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5187]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5190]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.6.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5190]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5190]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5190]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5193]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.6.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5193]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5193]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5193]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5196]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.7.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5196]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5196]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5196]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5199]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.7.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5199]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5199]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5199]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5202]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.8.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5202]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5202]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5202]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5205]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.8.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5205]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5205]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5205]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5208]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.9.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5208]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5208]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5208]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5211]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.9.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5211]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5211]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5211]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5214]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.10.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5214]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5214]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5214]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:42 zachary-vm2 sudo[5217]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.10.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:42 zachary-vm2 sudo[5217]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:42 zachary-vm2 sudo[5217]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:42 zachary-vm2 sudo[5217]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5220]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.11.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5220]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5220]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5220]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5223]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.11.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5223]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5223]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5223]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5226]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.13.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5226]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5226]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5226]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5229]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.13.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5229]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5229]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5229]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5232]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.14.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5232]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5232]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5232]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5235]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.14.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5235]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5235]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5235]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5238]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.15.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5238]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5238]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5238]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5241]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.15.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5241]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5241]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5241]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5244]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.16.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5244]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5244]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5244]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5247]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.16.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5247]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5247]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5247]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5250]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.17.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5250]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5250]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5250]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5253]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.17.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5253]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5253]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5253]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5256]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.18.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5256]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5256]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5256]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5259]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.18.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5259]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5259]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5259]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5262]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.19.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5262]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5262]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5262]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5265]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.19.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5265]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5265]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5265]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5268]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.20.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5268]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5268]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5268]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5271]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.20.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5271]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5271]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5271]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5274]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.21.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5274]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5274]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5274]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5277]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.21.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5277]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5277]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5277]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5280]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.22.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5280]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5280]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5280]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5283]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.22.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5283]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5283]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5283]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5286]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.23.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5286]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5286]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5286]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5289]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.23.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5289]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5289]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5289]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5292]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.24.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5292]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5292]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5292]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5295]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.24.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5295]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5295]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5295]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5298]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.25.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5298]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5298]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5298]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5301]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.25.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5301]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5301]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5301]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5304]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.26.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5304]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5304]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5304]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5307]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.26.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5307]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5307]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5307]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5310]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.27.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5310]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5310]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5310]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5313]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.27.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5313]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5313]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5313]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5316]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.28.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5316]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5316]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5316]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5319]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.28.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5319]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5319]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5319]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5322]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.29.0 netmask 255.255.255.0 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5322]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5322]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5322]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:11:43 zachary-vm2 sudo[5325]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.29.1 netmask 255.255.255.255 gw 192.168.12.1
+Oct 21 19:11:43 zachary-vm2 sudo[5325]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:11:43 zachary-vm2 sudo[5325]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 19:11:43 zachary-vm2 sudo[5325]: pam_unix(sudo:session): session closed for user root

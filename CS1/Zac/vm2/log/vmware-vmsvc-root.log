@@ -1,0 +1,276 @@
+[2020-06-23T15:27:42.451Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-06-23T15:27:42.451Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-06-23T15:27:42.451Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-06-23T15:27:42.579Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-06-23T15:27:42.579Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-06-23T15:27:42.579Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-06-23T15:27:42.579Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-06-23T15:27:42.579Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-06-23T15:27:42.579Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-06-23T15:27:42.579Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-06-23T15:27:42.579Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-06-23T15:27:42.624Z] [ message] [powerops] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2020-06-23T15:27:42.780Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-06-23T15:27:42.812Z] [ message] [powerops] Script exit code: 0, success = 1
+[2020-06-24T14:08:10.080Z] [ message] [powerops] Executing script: '/etc/vmware-tools/poweroff-vm-default'
+[2020-06-24T14:08:10.130Z] [ message] [powerops] Script exit code: 0, success = 1
+[2020-06-24T14:08:10.130Z] [ message] [powerops] Initiating halt.
+[2020-06-24T14:08:10.173Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-06-24T14:08:10.173Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-06-24T14:08:10.173Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-06-24T14:08:10.173Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-06-24T14:08:10.173Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-06-24T14:08:10.173Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-06-24T14:08:10.173Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-07-22T18:49:25.295Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-07-22T18:49:25.297Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-07-22T18:49:25.297Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-07-22T18:49:25.663Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-07-22T18:49:25.663Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-07-22T18:49:25.663Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-07-22T18:49:25.663Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-07-22T18:49:25.663Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-07-22T18:49:25.663Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-07-22T18:49:25.663Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-07-22T18:49:25.669Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-07-22T18:49:25.727Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-07-22T18:49:25.825Z] [ message] [powerops] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2020-07-22T18:49:26.189Z] [ message] [powerops] Script exit code: 0, success = 1
+[2020-07-22T18:55:39.658Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-07-22T18:55:39.658Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-07-22T18:55:39.658Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-07-22T18:55:39.658Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-07-22T18:55:39.658Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-07-22T18:55:39.658Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-07-22T18:55:39.658Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-07-22T18:55:56.780Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-07-22T18:55:56.784Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-07-22T18:55:56.784Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-07-22T18:55:56.904Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-07-22T18:55:56.904Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-07-22T18:55:56.904Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-07-22T18:55:56.904Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-07-22T18:55:56.904Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-07-22T18:55:56.904Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-07-22T18:55:56.904Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-07-22T18:55:56.904Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-07-22T18:55:56.920Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-07-22T18:59:03.296Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-07-22T18:59:03.296Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-07-22T18:59:03.296Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-07-22T18:59:03.296Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-07-22T18:59:03.296Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-07-22T18:59:03.296Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-07-22T18:59:03.296Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-09-16T16:57:24.869Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-09-16T16:57:24.871Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-09-16T16:57:24.871Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-09-16T16:57:24.995Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-09-16T16:57:24.995Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-09-16T16:57:24.995Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-09-16T16:57:24.995Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-09-16T16:57:24.995Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-09-16T16:57:24.995Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-09-16T16:57:24.995Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-09-16T16:57:24.995Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-09-16T16:57:25.001Z] [ message] [powerops] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2020-09-16T16:57:25.077Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-09-16T16:57:25.198Z] [ message] [powerops] Script exit code: 0, success = 1
+[2020-10-02T16:51:49.632Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-10-02T16:51:49.632Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-10-02T16:51:49.632Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-10-02T16:51:49.632Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-10-02T16:51:49.632Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-10-02T16:51:49.632Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-10-02T16:51:49.632Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-10-03T01:52:06.032Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-10-03T01:52:06.034Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-10-03T01:52:06.034Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-10-03T01:52:06.155Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-10-03T01:52:06.155Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-10-03T01:52:06.155Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-10-03T01:52:06.155Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-10-03T01:52:06.155Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-10-03T01:52:06.155Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-10-03T01:52:06.155Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-10-03T01:52:06.155Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-10-03T01:52:06.164Z] [ message] [powerops] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2020-10-03T01:52:06.209Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-10-03T01:52:06.369Z] [ message] [powerops] Script exit code: 0, success = 1
+[2020-10-04T19:40:36.755Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-10-04T19:40:36.755Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-10-04T19:40:36.755Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-10-04T19:40:36.755Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-10-04T19:40:36.755Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-10-04T19:40:36.755Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-10-04T19:40:36.755Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-10-04T19:40:53.191Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-10-04T19:40:53.192Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-10-04T19:40:53.192Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-10-04T19:40:53.313Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-10-04T19:40:53.314Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-10-04T19:40:53.314Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-10-04T19:40:53.314Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-10-04T19:40:53.314Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-10-04T19:40:53.315Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-10-04T19:40:53.315Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-10-04T19:40:53.315Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-10-04T19:40:53.325Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-10-04T19:43:53.379Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-10-04T19:43:53.379Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-10-04T19:43:53.379Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-10-04T19:43:53.379Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-10-04T19:43:53.379Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-10-04T19:43:53.379Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-10-04T19:43:53.379Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-10-04T19:44:09.644Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-10-04T19:44:09.646Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-10-04T19:44:09.646Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-10-04T19:44:09.752Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-10-04T19:44:09.752Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-10-04T19:44:09.752Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-10-04T19:44:09.752Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-10-04T19:44:09.752Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-10-04T19:44:09.752Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-10-04T19:44:09.752Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-10-04T19:44:09.752Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-10-04T19:44:09.771Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-10-09T18:01:13.382Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-10-09T18:01:13.382Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-10-09T18:01:13.382Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-10-09T18:01:13.382Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-10-09T18:01:13.382Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-10-09T18:01:13.382Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-10-09T18:01:13.382Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-10-09T18:01:24.390Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-10-09T18:01:24.392Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-10-09T18:01:24.392Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-10-09T18:01:24.492Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-10-09T18:01:24.492Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-10-09T18:01:24.492Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-10-09T18:01:24.492Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-10-09T18:01:24.492Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-10-09T18:01:24.492Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-10-09T18:01:24.492Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-10-09T18:01:24.492Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-10-09T18:01:24.500Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-10-09T18:46:04.295Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-10-09T18:46:04.295Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-10-09T18:46:04.295Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-10-09T18:46:04.295Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-10-09T18:46:04.295Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-10-09T18:46:04.295Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-10-09T18:46:04.295Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-10-09T18:46:20.861Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-10-09T18:46:20.863Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-10-09T18:46:20.863Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-10-09T18:46:21.004Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-10-09T18:46:21.004Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-10-09T18:46:21.004Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-10-09T18:46:21.004Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-10-09T18:46:21.005Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-10-09T18:46:21.005Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-10-09T18:46:21.005Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-10-09T18:46:21.005Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-10-09T18:46:21.038Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-10-09T20:05:30.230Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-10-09T20:05:30.230Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-10-09T20:05:30.230Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-10-09T20:05:30.230Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-10-09T20:05:30.230Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-10-09T20:05:30.230Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-10-09T20:05:30.230Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-10-09T20:05:47.818Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-10-09T20:05:47.819Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-10-09T20:05:47.819Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-10-09T20:05:47.987Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-10-09T20:05:47.987Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-10-09T20:05:47.987Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-10-09T20:05:47.987Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-10-09T20:05:47.987Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-10-09T20:05:47.987Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-10-09T20:05:47.987Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-10-09T20:05:47.987Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-10-09T20:05:48.020Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-10-09T20:05:48.059Z] [ message] [vix] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2020-10-11T17:29:43.605Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-10-11T17:29:43.605Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-10-11T17:29:43.605Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-10-11T17:29:43.605Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-10-11T17:29:43.605Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-10-11T17:29:43.605Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-10-11T17:29:43.605Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-10-11T17:29:56.048Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-10-11T17:29:56.049Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-10-11T17:29:56.049Z] [ message] [vmtoolsd] Tools Version: 11.0.0.15108 (build-14549434)
+[2020-10-11T17:29:56.210Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-10-11T17:29:56.210Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-10-11T17:29:56.210Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-10-11T17:29:56.210Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-10-11T17:29:56.210Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-10-11T17:29:56.210Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-10-11T17:29:56.210Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-10-11T17:29:56.210Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-10-11T17:29:56.235Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-10-11T18:00:42.844Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-10-11T18:00:42.844Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-10-11T18:00:42.844Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-10-11T18:00:42.844Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-10-11T18:00:42.844Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-10-11T18:00:42.845Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-10-11T18:00:42.845Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-10-11T18:00:42.943Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-10-11T18:00:42.943Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-10-11T18:00:42.943Z] [ message] [vmtoolsd] Tools Version: 11.0.5.17716 (build-15389592)
+[2020-10-11T18:00:42.949Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-10-11T18:00:42.949Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-10-11T18:00:42.949Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-10-11T18:00:42.949Z] [ message] [vmtoolsd] Plugin 'appInfo' initialized.
+[2020-10-11T18:00:42.949Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-10-11T18:00:42.949Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-10-11T18:00:42.949Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-10-11T18:00:42.949Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-10-11T18:00:42.949Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-10-11T18:00:43.165Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-10-21T23:06:49.091Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-10-21T23:06:49.092Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-10-21T23:06:49.092Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-10-21T23:06:49.092Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-10-21T23:06:49.092Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-10-21T23:06:49.092Z] [ message] [vmtoolsd] Unloading plugin 'appInfo'.
+[2020-10-21T23:06:49.092Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-10-21T23:06:49.092Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-10-21T23:06:58.455Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-10-21T23:06:58.457Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-10-21T23:06:58.457Z] [ message] [vmtoolsd] Tools Version: 11.0.5.17716 (build-15389592)
+[2020-10-21T23:06:58.596Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-10-21T23:06:58.596Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-10-21T23:06:58.596Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-10-21T23:06:58.596Z] [ message] [vmtoolsd] Plugin 'appInfo' initialized.
+[2020-10-21T23:06:58.596Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-10-21T23:06:58.596Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-10-21T23:06:58.596Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-10-21T23:06:58.598Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-10-21T23:06:58.598Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-10-21T23:06:58.645Z] [ message] [vix] VixTools_ProcessVixCommand: command 62
+[2020-11-14T20:27:10.217Z] [ message] [vmtoolsd] Unloading plugin 'vmbackup'.
+[2020-11-14T20:27:10.217Z] [ message] [vmtoolsd] Unloading plugin 'timeSync'.
+[2020-11-14T20:27:10.217Z] [ message] [vmtoolsd] Unloading plugin 'powerops'.
+[2020-11-14T20:27:10.217Z] [ message] [vmtoolsd] Unloading plugin 'guestInfo'.
+[2020-11-14T20:27:10.217Z] [ message] [vmtoolsd] Unloading plugin 'deployPkg'.
+[2020-11-14T20:27:10.217Z] [ message] [vmtoolsd] Unloading plugin 'appInfo'.
+[2020-11-14T20:27:10.217Z] [ message] [vmtoolsd] Unloading plugin 'vix'.
+[2020-11-14T20:27:10.217Z] [ message] [vmtoolsd] Unloading plugin 'hgfsServer'.
+[2020-11-14T20:27:05.320Z] [ message] [vmsvc] Log caching is enabled with maxCacheEntries=4096.
+[2020-11-14T20:27:05.322Z] [ message] [vmsvc] Core dump limit set to -1
+[2020-11-14T20:27:05.322Z] [ message] [vmtoolsd] Tools Version: 11.0.5.17716 (build-15389592)
+[2020-11-14T20:27:05.483Z] [ message] [vmtoolsd] Plugin 'hgfsServer' initialized.
+[2020-11-14T20:27:05.483Z] [ message] [vix] QueryVGAuthConfig: vgauth usage is: 1
+[2020-11-14T20:27:05.483Z] [ message] [vmtoolsd] Plugin 'vix' initialized.
+[2020-11-14T20:27:05.483Z] [ message] [vmtoolsd] Plugin 'appInfo' initialized.
+[2020-11-14T20:27:05.483Z] [ message] [vmtoolsd] Plugin 'deployPkg' initialized.
+[2020-11-14T20:27:05.483Z] [ message] [vmtoolsd] Plugin 'guestInfo' initialized.
+[2020-11-14T20:27:05.483Z] [ message] [vmtoolsd] Plugin 'powerops' initialized.
+[2020-11-14T20:27:05.484Z] [ message] [vmtoolsd] Plugin 'timeSync' initialized.
+[2020-11-14T20:27:05.484Z] [ message] [vmtoolsd] Plugin 'vmbackup' initialized.
+[2020-11-14T20:27:05.525Z] [ message] [vix] VixTools_ProcessVixCommand: command 62

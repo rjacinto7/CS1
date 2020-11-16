@@ -1,0 +1,22 @@
+14:28:21,686 DBG ifcfg: content of files (network initialization):
+14:28:21,689 DBG ifcfg: all settings: []
+14:28:21,835 DBG ifcfg: content of files (missing ifcfgs created for devices ['ens192']):
+14:28:21,835 DBG ifcfg: /etc/sysconfig/network-scripts/ifcfg-ens192:
+14:28:21,837 DBG ifcfg:   TYPE=Ethernet
+14:28:21,837 DBG ifcfg:   PROXY_METHOD=none
+14:28:21,837 DBG ifcfg:   BROWSER_ONLY=no
+14:28:21,838 DBG ifcfg:   BOOTPROTO=dhcp
+14:28:21,838 DBG ifcfg:   DEFROUTE=yes
+14:28:21,838 DBG ifcfg:   IPV4_FAILURE_FATAL=no
+14:28:21,838 DBG ifcfg:   IPV6INIT=yes
+14:28:21,839 DBG ifcfg:   IPV6_AUTOCONF=yes
+14:28:21,839 DBG ifcfg:   IPV6_DEFROUTE=yes
+14:28:21,839 DBG ifcfg:   IPV6_FAILURE_FATAL=no
+14:28:21,839 DBG ifcfg:   IPV6_ADDR_GEN_MODE=stable-privacy
+14:28:21,840 DBG ifcfg:   NAME=ens192
+14:28:21,840 DBG ifcfg:   UUID=29b6e258-0ffd-4ee3-8f2d-2126105eee4f
+14:28:21,840 DBG ifcfg:   DEVICE=ens192
+14:28:21,840 DBG ifcfg:   ONBOOT=no
+14:28:21,847 DBG ifcfg: all settings: [{'ipv6': {'address-data': [], 'addresses': [], 'dns': [], 'dns-search': [], 'method': 'auto', 'route-data': [], 'routes': []}, 'connection': {'autoconnect': False, 'id': 'ens192', 'interface-name': 'ens192', 'permissions': [], 'type': '802-3-ethernet', 'uuid': '29b6e258-0ffd-4ee3-8f2d-2126105eee4f'}, '802-3-ethernet': {'auto-negotiate': False, 'mac-address-blacklist': [], 's390-options': {}}, 'proxy': {}, 'ipv4': {'address-data': [], 'addresses': [], 'dns': [], 'dns-search': [], 'method': 'auto', 'route-data': [], 'routes': []}}]
+14:50:44,832 DBG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192
+14:50:44,833 DBG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192

@@ -1,0 +1,35 @@
+Nov  6 23:31:39 aluk10-web sshd[15100]: Accepted publickey for instructor from 172.16.0.1 port 49560 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  6 23:31:39 aluk10-web systemd[15104]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  6 23:31:39 aluk10-web sshd[15100]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  6 23:31:39 aluk10-web sshd[15114]: Received disconnect from 172.16.0.1 port 49560:11: disconnected by user
+Nov  6 23:31:39 aluk10-web sshd[15114]: Disconnected from user instructor 172.16.0.1 port 49560
+Nov  6 23:31:39 aluk10-web sshd[15100]: pam_unix(sshd:session): session closed for user instructor
+Nov  6 23:31:39 aluk10-web systemd[15108]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:01:20 aluk10-web sshd[15174]: Accepted publickey for instructor from 172.16.0.1 port 49830 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:01:20 aluk10-web systemd[15178]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:01:20 aluk10-web sshd[15174]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:01:20 aluk10-web sshd[15187]: Received disconnect from 172.16.0.1 port 49830:11: disconnected by user
+Nov  7 00:01:20 aluk10-web sshd[15187]: Disconnected from user instructor 172.16.0.1 port 49830
+Nov  7 00:01:20 aluk10-web sshd[15174]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:01:20 aluk10-web systemd[15181]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:47:41 aluk10-web sshd[15219]: Accepted publickey for instructor from 172.16.0.1 port 50012 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:47:41 aluk10-web systemd[15223]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:47:42 aluk10-web sshd[15219]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:47:42 aluk10-web sshd[15233]: Received disconnect from 172.16.0.1 port 50012:11: disconnected by user
+Nov  7 00:47:42 aluk10-web sshd[15233]: Disconnected from user instructor 172.16.0.1 port 50012
+Nov  7 00:47:42 aluk10-web sshd[15219]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:47:42 aluk10-web systemd[15227]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:59:14 aluk10-web sshd[15263]: Accepted publickey for instructor from 172.16.0.1 port 50252 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:59:14 aluk10-web systemd[15267]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:59:14 aluk10-web sshd[15263]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:59:14 aluk10-web sshd[15276]: Received disconnect from 172.16.0.1 port 50252:11: disconnected by user
+Nov  7 00:59:14 aluk10-web sshd[15276]: Disconnected from user instructor 172.16.0.1 port 50252
+Nov  7 00:59:14 aluk10-web sshd[15263]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:59:14 aluk10-web systemd[15270]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 22:32:57 aluk10-web sshd[15966]: Accepted publickey for instructor from 172.16.0.1 port 51062 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 22:32:57 aluk10-web systemd[15970]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 22:32:58 aluk10-web sshd[15966]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 22:32:58 aluk10-web sshd[15980]: Received disconnect from 172.16.0.1 port 51062:11: disconnected by user
+Nov  7 22:32:58 aluk10-web sshd[15980]: Disconnected from user instructor 172.16.0.1 port 51062
+Nov  7 22:32:58 aluk10-web sshd[15966]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 22:32:58 aluk10-web systemd[15974]: pam_unix(systemd-user:session): session closed for user instructor

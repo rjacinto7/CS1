@@ -1,0 +1,7 @@
+Oct 27 17:32:15 rjacinto1-web sshd[10301]: Accepted publickey for instructor from 172.16.0.1 port 35662 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 27 17:32:15 rjacinto1-web systemd[10305]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:15 rjacinto1-web sshd[10301]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:15 rjacinto1-web sshd[10315]: Received disconnect from 172.16.0.1 port 35662:11: disconnected by user
+Oct 27 17:32:15 rjacinto1-web sshd[10315]: Disconnected from user instructor 172.16.0.1 port 35662
+Oct 27 17:32:15 rjacinto1-web sshd[10301]: pam_unix(sshd:session): session closed for user instructor
+Oct 27 17:32:15 rjacinto1-web systemd[10309]: pam_unix(systemd-user:session): session closed for user instructor

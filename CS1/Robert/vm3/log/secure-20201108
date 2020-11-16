@@ -1,0 +1,35 @@
+Nov  6 23:31:36 rjacinto1-pri sshd[13954]: Accepted publickey for instructor from 172.16.0.1 port 56886 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  6 23:31:36 rjacinto1-pri systemd[13958]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  6 23:31:36 rjacinto1-pri sshd[13954]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  6 23:31:36 rjacinto1-pri sshd[13969]: Received disconnect from 172.16.0.1 port 56886:11: disconnected by user
+Nov  6 23:31:36 rjacinto1-pri sshd[13969]: Disconnected from user instructor 172.16.0.1 port 56886
+Nov  6 23:31:36 rjacinto1-pri sshd[13954]: pam_unix(sshd:session): session closed for user instructor
+Nov  6 23:31:36 rjacinto1-pri systemd[13963]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:01:17 rjacinto1-pri sshd[14017]: Accepted publickey for instructor from 172.16.0.1 port 57156 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:01:17 rjacinto1-pri systemd[14021]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:01:17 rjacinto1-pri sshd[14017]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:01:17 rjacinto1-pri sshd[14032]: Received disconnect from 172.16.0.1 port 57156:11: disconnected by user
+Nov  7 00:01:17 rjacinto1-pri sshd[14032]: Disconnected from user instructor 172.16.0.1 port 57156
+Nov  7 00:01:17 rjacinto1-pri sshd[14017]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:01:18 rjacinto1-pri systemd[14026]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:47:39 rjacinto1-pri sshd[14064]: Accepted publickey for instructor from 172.16.0.1 port 57338 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:47:39 rjacinto1-pri systemd[14068]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:47:39 rjacinto1-pri sshd[14064]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:47:39 rjacinto1-pri sshd[14079]: Received disconnect from 172.16.0.1 port 57338:11: disconnected by user
+Nov  7 00:47:39 rjacinto1-pri sshd[14079]: Disconnected from user instructor 172.16.0.1 port 57338
+Nov  7 00:47:39 rjacinto1-pri sshd[14064]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:47:39 rjacinto1-pri systemd[14073]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:59:11 rjacinto1-pri sshd[14106]: Accepted publickey for instructor from 172.16.0.1 port 57578 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:59:11 rjacinto1-pri systemd[14110]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:59:11 rjacinto1-pri sshd[14106]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:59:11 rjacinto1-pri sshd[14121]: Received disconnect from 172.16.0.1 port 57578:11: disconnected by user
+Nov  7 00:59:11 rjacinto1-pri sshd[14121]: Disconnected from user instructor 172.16.0.1 port 57578
+Nov  7 00:59:11 rjacinto1-pri sshd[14106]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:59:11 rjacinto1-pri systemd[14115]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 22:32:55 rjacinto1-pri sshd[14742]: Accepted publickey for instructor from 172.16.0.1 port 58388 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 22:32:55 rjacinto1-pri systemd[14746]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 22:32:55 rjacinto1-pri sshd[14742]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 22:32:55 rjacinto1-pri sshd[14757]: Received disconnect from 172.16.0.1 port 58388:11: disconnected by user
+Nov  7 22:32:55 rjacinto1-pri sshd[14757]: Disconnected from user instructor 172.16.0.1 port 58388
+Nov  7 22:32:55 rjacinto1-pri sshd[14742]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 22:32:55 rjacinto1-pri systemd[14751]: pam_unix(systemd-user:session): session closed for user instructor

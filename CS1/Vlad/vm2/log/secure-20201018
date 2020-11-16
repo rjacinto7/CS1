@@ -1,0 +1,7 @@
+Oct 13 08:53:21 vlad-vm2 sshd[8318]: Accepted publickey for instructor from 172.16.0.1 port 33796 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 13 08:53:21 vlad-vm2 sshd[8318]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 13 08:53:21 vlad-vm2 sshd[8333]: Received disconnect from 172.16.0.1 port 33796:11: disconnected by user
+Oct 13 08:53:21 vlad-vm2 sshd[8333]: Disconnected from user instructor 172.16.0.1 port 33796
+Oct 13 08:53:21 vlad-vm2 sshd[8318]: pam_unix(sshd:session): session closed for user instructor
+Oct 13 08:53:21 vlad-vm2 systemd[8327]: pam_unix(systemd-user:session): session closed for user instructor

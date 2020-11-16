@@ -1,0 +1,612 @@
+Oct 25 03:28:01 aluk10-pri anacron[2916]: Job `cron.daily' started
+Oct 25 03:28:01 aluk10-pri run-parts[2923]: (/etc/cron.daily) starting logrotate
+Oct 25 03:28:01 aluk10-pri run-parts[2923]: (/etc/cron.daily) finished logrotate
+Oct 25 03:28:01 aluk10-pri anacron[2916]: Job `cron.daily' terminated
+Oct 25 03:28:01 aluk10-pri anacron[2916]: Normal exit (1 job run)
+Oct 25 04:01:01 aluk10-pri CROND[2970]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 04:01:01 aluk10-pri run-parts[2970]: (/etc/cron.hourly) starting 0anacron
+Oct 25 04:01:01 aluk10-pri run-parts[2970]: (/etc/cron.hourly) finished 0anacron
+Oct 25 05:01:01 aluk10-pri CROND[2994]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 05:01:01 aluk10-pri run-parts[2994]: (/etc/cron.hourly) starting 0anacron
+Oct 25 05:01:01 aluk10-pri run-parts[2994]: (/etc/cron.hourly) finished 0anacron
+Oct 25 06:01:01 aluk10-pri CROND[3017]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 06:01:01 aluk10-pri run-parts[3017]: (/etc/cron.hourly) starting 0anacron
+Oct 25 06:01:01 aluk10-pri run-parts[3017]: (/etc/cron.hourly) finished 0anacron
+Oct 25 07:01:01 aluk10-pri CROND[3038]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 07:01:01 aluk10-pri run-parts[3038]: (/etc/cron.hourly) starting 0anacron
+Oct 25 07:01:01 aluk10-pri run-parts[3038]: (/etc/cron.hourly) finished 0anacron
+Oct 25 08:01:01 aluk10-pri CROND[3075]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 08:01:01 aluk10-pri run-parts[3075]: (/etc/cron.hourly) starting 0anacron
+Oct 25 08:01:01 aluk10-pri run-parts[3075]: (/etc/cron.hourly) finished 0anacron
+Oct 25 09:01:01 aluk10-pri CROND[3098]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 09:01:01 aluk10-pri run-parts[3098]: (/etc/cron.hourly) starting 0anacron
+Oct 25 09:01:01 aluk10-pri run-parts[3098]: (/etc/cron.hourly) finished 0anacron
+Oct 25 10:01:01 aluk10-pri CROND[3122]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 10:01:01 aluk10-pri run-parts[3122]: (/etc/cron.hourly) starting 0anacron
+Oct 25 10:01:01 aluk10-pri run-parts[3122]: (/etc/cron.hourly) finished 0anacron
+Oct 25 11:01:01 aluk10-pri CROND[3151]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 11:01:01 aluk10-pri run-parts[3151]: (/etc/cron.hourly) starting 0anacron
+Oct 25 11:01:01 aluk10-pri run-parts[3151]: (/etc/cron.hourly) finished 0anacron
+Oct 25 12:01:01 aluk10-pri CROND[3175]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 12:01:01 aluk10-pri run-parts[3175]: (/etc/cron.hourly) starting 0anacron
+Oct 25 12:01:02 aluk10-pri run-parts[3175]: (/etc/cron.hourly) finished 0anacron
+Oct 25 13:01:01 aluk10-pri CROND[3198]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 13:01:01 aluk10-pri run-parts[3198]: (/etc/cron.hourly) starting 0anacron
+Oct 25 13:01:01 aluk10-pri run-parts[3198]: (/etc/cron.hourly) finished 0anacron
+Oct 25 14:01:01 aluk10-pri CROND[3227]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 14:01:01 aluk10-pri run-parts[3227]: (/etc/cron.hourly) starting 0anacron
+Oct 25 14:01:01 aluk10-pri run-parts[3227]: (/etc/cron.hourly) finished 0anacron
+Oct 25 15:01:01 aluk10-pri CROND[3251]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 15:01:01 aluk10-pri run-parts[3251]: (/etc/cron.hourly) starting 0anacron
+Oct 25 15:01:01 aluk10-pri run-parts[3251]: (/etc/cron.hourly) finished 0anacron
+Oct 25 16:01:01 aluk10-pri CROND[3274]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 16:01:01 aluk10-pri run-parts[3274]: (/etc/cron.hourly) starting 0anacron
+Oct 25 16:01:01 aluk10-pri run-parts[3274]: (/etc/cron.hourly) finished 0anacron
+Oct 25 17:01:01 aluk10-pri CROND[3303]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 17:01:01 aluk10-pri run-parts[3303]: (/etc/cron.hourly) starting 0anacron
+Oct 25 17:01:01 aluk10-pri run-parts[3303]: (/etc/cron.hourly) finished 0anacron
+Oct 25 18:01:01 aluk10-pri CROND[3327]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 18:01:01 aluk10-pri run-parts[3327]: (/etc/cron.hourly) starting 0anacron
+Oct 25 18:01:01 aluk10-pri run-parts[3327]: (/etc/cron.hourly) finished 0anacron
+Oct 25 19:01:01 aluk10-pri CROND[3350]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 19:01:01 aluk10-pri run-parts[3350]: (/etc/cron.hourly) starting 0anacron
+Oct 25 19:01:01 aluk10-pri run-parts[3350]: (/etc/cron.hourly) finished 0anacron
+Oct 25 20:01:01 aluk10-pri CROND[3389]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 20:01:01 aluk10-pri run-parts[3389]: (/etc/cron.hourly) starting 0anacron
+Oct 25 20:01:01 aluk10-pri run-parts[3389]: (/etc/cron.hourly) finished 0anacron
+Oct 25 21:01:01 aluk10-pri CROND[3413]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 21:01:01 aluk10-pri run-parts[3413]: (/etc/cron.hourly) starting 0anacron
+Oct 25 21:01:01 aluk10-pri run-parts[3413]: (/etc/cron.hourly) finished 0anacron
+Oct 25 22:01:01 aluk10-pri CROND[3436]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 22:01:01 aluk10-pri run-parts[3436]: (/etc/cron.hourly) starting 0anacron
+Oct 25 22:01:01 aluk10-pri run-parts[3436]: (/etc/cron.hourly) finished 0anacron
+Oct 25 23:01:01 aluk10-pri CROND[3465]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 25 23:01:01 aluk10-pri run-parts[3465]: (/etc/cron.hourly) starting 0anacron
+Oct 25 23:01:01 aluk10-pri run-parts[3465]: (/etc/cron.hourly) finished 0anacron
+Oct 26 00:01:01 aluk10-pri CROND[3491]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 00:01:01 aluk10-pri run-parts[3491]: (/etc/cron.hourly) starting 0anacron
+Oct 26 00:01:01 aluk10-pri anacron[3500]: Anacron started on 2020-10-26
+Oct 26 00:01:01 aluk10-pri anacron[3500]: Normal exit (0 jobs run)
+Oct 26 00:01:01 aluk10-pri run-parts[3491]: (/etc/cron.hourly) finished 0anacron
+Oct 26 01:01:01 aluk10-pri CROND[3516]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 01:01:01 aluk10-pri run-parts[3516]: (/etc/cron.hourly) starting 0anacron
+Oct 26 01:01:01 aluk10-pri anacron[3525]: Anacron started on 2020-10-26
+Oct 26 01:01:01 aluk10-pri anacron[3525]: Normal exit (0 jobs run)
+Oct 26 01:01:01 aluk10-pri run-parts[3516]: (/etc/cron.hourly) finished 0anacron
+Oct 26 02:01:01 aluk10-pri CROND[3547]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 02:01:01 aluk10-pri run-parts[3547]: (/etc/cron.hourly) starting 0anacron
+Oct 26 02:01:01 aluk10-pri anacron[3556]: Anacron started on 2020-10-26
+Oct 26 02:01:01 aluk10-pri anacron[3556]: Normal exit (0 jobs run)
+Oct 26 02:01:01 aluk10-pri run-parts[3547]: (/etc/cron.hourly) finished 0anacron
+Oct 26 03:01:01 aluk10-pri CROND[3572]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 03:01:01 aluk10-pri run-parts[3572]: (/etc/cron.hourly) starting 0anacron
+Oct 26 03:01:01 aluk10-pri anacron[3581]: Anacron started on 2020-10-26
+Oct 26 03:01:01 aluk10-pri anacron[3581]: Will run job `cron.daily' in 7 min.
+Oct 26 03:01:01 aluk10-pri anacron[3581]: Jobs will be executed sequentially
+Oct 26 03:01:01 aluk10-pri run-parts[3572]: (/etc/cron.hourly) finished 0anacron
+Oct 26 03:08:01 aluk10-pri anacron[3581]: Job `cron.daily' started
+Oct 26 03:08:01 aluk10-pri run-parts[3586]: (/etc/cron.daily) starting logrotate
+Oct 26 03:08:01 aluk10-pri run-parts[3586]: (/etc/cron.daily) finished logrotate
+Oct 26 03:08:01 aluk10-pri anacron[3581]: Job `cron.daily' terminated
+Oct 26 03:08:01 aluk10-pri anacron[3581]: Normal exit (1 job run)
+Oct 26 04:01:01 aluk10-pri CROND[3607]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 04:01:01 aluk10-pri run-parts[3607]: (/etc/cron.hourly) starting 0anacron
+Oct 26 04:01:01 aluk10-pri run-parts[3607]: (/etc/cron.hourly) finished 0anacron
+Oct 26 05:01:01 aluk10-pri CROND[3636]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 05:01:01 aluk10-pri run-parts[3636]: (/etc/cron.hourly) starting 0anacron
+Oct 26 05:01:01 aluk10-pri run-parts[3636]: (/etc/cron.hourly) finished 0anacron
+Oct 26 06:01:01 aluk10-pri CROND[3659]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 06:01:01 aluk10-pri run-parts[3659]: (/etc/cron.hourly) starting 0anacron
+Oct 26 06:01:01 aluk10-pri run-parts[3659]: (/etc/cron.hourly) finished 0anacron
+Oct 26 07:01:01 aluk10-pri CROND[3683]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 07:01:01 aluk10-pri run-parts[3683]: (/etc/cron.hourly) starting 0anacron
+Oct 26 07:01:01 aluk10-pri run-parts[3683]: (/etc/cron.hourly) finished 0anacron
+Oct 26 08:01:01 aluk10-pri CROND[3720]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 08:01:01 aluk10-pri run-parts[3720]: (/etc/cron.hourly) starting 0anacron
+Oct 26 08:01:01 aluk10-pri run-parts[3720]: (/etc/cron.hourly) finished 0anacron
+Oct 26 09:01:01 aluk10-pri CROND[3743]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 09:01:01 aluk10-pri run-parts[3743]: (/etc/cron.hourly) starting 0anacron
+Oct 26 09:01:01 aluk10-pri run-parts[3743]: (/etc/cron.hourly) finished 0anacron
+Oct 26 10:01:01 aluk10-pri CROND[3767]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 10:01:01 aluk10-pri run-parts[3767]: (/etc/cron.hourly) starting 0anacron
+Oct 26 10:01:01 aluk10-pri run-parts[3767]: (/etc/cron.hourly) finished 0anacron
+Oct 26 11:01:01 aluk10-pri CROND[3796]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 11:01:01 aluk10-pri run-parts[3796]: (/etc/cron.hourly) starting 0anacron
+Oct 26 11:01:01 aluk10-pri run-parts[3796]: (/etc/cron.hourly) finished 0anacron
+Oct 26 12:01:01 aluk10-pri CROND[3819]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 12:01:01 aluk10-pri run-parts[3819]: (/etc/cron.hourly) starting 0anacron
+Oct 26 12:01:01 aluk10-pri run-parts[3819]: (/etc/cron.hourly) finished 0anacron
+Oct 26 13:01:01 aluk10-pri CROND[3843]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 13:01:01 aluk10-pri run-parts[3843]: (/etc/cron.hourly) starting 0anacron
+Oct 26 13:01:01 aluk10-pri run-parts[3843]: (/etc/cron.hourly) finished 0anacron
+Oct 26 14:01:01 aluk10-pri CROND[3872]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 14:01:01 aluk10-pri run-parts[3872]: (/etc/cron.hourly) starting 0anacron
+Oct 26 14:01:01 aluk10-pri run-parts[3872]: (/etc/cron.hourly) finished 0anacron
+Oct 26 15:01:01 aluk10-pri CROND[3895]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 15:01:01 aluk10-pri run-parts[3895]: (/etc/cron.hourly) starting 0anacron
+Oct 26 15:01:02 aluk10-pri run-parts[3895]: (/etc/cron.hourly) finished 0anacron
+Oct 26 16:01:01 aluk10-pri CROND[3919]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 16:01:01 aluk10-pri run-parts[3919]: (/etc/cron.hourly) starting 0anacron
+Oct 26 16:01:01 aluk10-pri run-parts[3919]: (/etc/cron.hourly) finished 0anacron
+Oct 26 17:01:01 aluk10-pri CROND[3948]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 17:01:01 aluk10-pri run-parts[3948]: (/etc/cron.hourly) starting 0anacron
+Oct 26 17:01:01 aluk10-pri run-parts[3948]: (/etc/cron.hourly) finished 0anacron
+Oct 26 18:01:01 aluk10-pri CROND[3971]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 18:01:01 aluk10-pri run-parts[3971]: (/etc/cron.hourly) starting 0anacron
+Oct 26 18:01:01 aluk10-pri run-parts[3971]: (/etc/cron.hourly) finished 0anacron
+Oct 26 19:01:01 aluk10-pri CROND[3995]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 19:01:01 aluk10-pri run-parts[3995]: (/etc/cron.hourly) starting 0anacron
+Oct 26 19:01:01 aluk10-pri run-parts[3995]: (/etc/cron.hourly) finished 0anacron
+Oct 26 20:01:01 aluk10-pri CROND[4035]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 20:01:01 aluk10-pri run-parts[4035]: (/etc/cron.hourly) starting 0anacron
+Oct 26 20:01:01 aluk10-pri run-parts[4035]: (/etc/cron.hourly) finished 0anacron
+Oct 26 21:01:01 aluk10-pri CROND[4058]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 21:01:01 aluk10-pri run-parts[4058]: (/etc/cron.hourly) starting 0anacron
+Oct 26 21:01:01 aluk10-pri run-parts[4058]: (/etc/cron.hourly) finished 0anacron
+Oct 26 22:01:01 aluk10-pri CROND[4081]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 22:01:01 aluk10-pri run-parts[4081]: (/etc/cron.hourly) starting 0anacron
+Oct 26 22:01:01 aluk10-pri run-parts[4081]: (/etc/cron.hourly) finished 0anacron
+Oct 26 23:01:01 aluk10-pri CROND[4111]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 26 23:01:01 aluk10-pri run-parts[4111]: (/etc/cron.hourly) starting 0anacron
+Oct 26 23:01:01 aluk10-pri run-parts[4111]: (/etc/cron.hourly) finished 0anacron
+Oct 27 00:01:01 aluk10-pri CROND[4136]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 00:01:01 aluk10-pri run-parts[4136]: (/etc/cron.hourly) starting 0anacron
+Oct 27 00:01:01 aluk10-pri anacron[4145]: Anacron started on 2020-10-27
+Oct 27 00:01:01 aluk10-pri anacron[4145]: Normal exit (0 jobs run)
+Oct 27 00:01:01 aluk10-pri run-parts[4136]: (/etc/cron.hourly) finished 0anacron
+Oct 27 01:01:01 aluk10-pri CROND[4161]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 01:01:01 aluk10-pri run-parts[4161]: (/etc/cron.hourly) starting 0anacron
+Oct 27 01:01:01 aluk10-pri anacron[4170]: Anacron started on 2020-10-27
+Oct 27 01:01:01 aluk10-pri anacron[4170]: Normal exit (0 jobs run)
+Oct 27 01:01:01 aluk10-pri run-parts[4161]: (/etc/cron.hourly) finished 0anacron
+Oct 27 02:01:01 aluk10-pri CROND[4193]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 02:01:01 aluk10-pri run-parts[4193]: (/etc/cron.hourly) starting 0anacron
+Oct 27 02:01:01 aluk10-pri anacron[4202]: Anacron started on 2020-10-27
+Oct 27 02:01:01 aluk10-pri anacron[4202]: Normal exit (0 jobs run)
+Oct 27 02:01:01 aluk10-pri run-parts[4193]: (/etc/cron.hourly) finished 0anacron
+Oct 27 03:01:01 aluk10-pri CROND[4218]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 03:01:01 aluk10-pri run-parts[4218]: (/etc/cron.hourly) starting 0anacron
+Oct 27 03:01:01 aluk10-pri anacron[4227]: Anacron started on 2020-10-27
+Oct 27 03:01:01 aluk10-pri anacron[4227]: Will run job `cron.daily' in 37 min.
+Oct 27 03:01:01 aluk10-pri anacron[4227]: Jobs will be executed sequentially
+Oct 27 03:01:01 aluk10-pri run-parts[4218]: (/etc/cron.hourly) finished 0anacron
+Oct 27 03:38:01 aluk10-pri anacron[4227]: Job `cron.daily' started
+Oct 27 03:38:01 aluk10-pri run-parts[4236]: (/etc/cron.daily) starting logrotate
+Oct 27 03:38:01 aluk10-pri run-parts[4236]: (/etc/cron.daily) finished logrotate
+Oct 27 03:38:01 aluk10-pri anacron[4227]: Job `cron.daily' terminated
+Oct 27 03:38:01 aluk10-pri anacron[4227]: Normal exit (1 job run)
+Oct 27 04:01:01 aluk10-pri CROND[4253]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 04:01:01 aluk10-pri run-parts[4253]: (/etc/cron.hourly) starting 0anacron
+Oct 27 04:01:01 aluk10-pri run-parts[4253]: (/etc/cron.hourly) finished 0anacron
+Oct 27 05:01:01 aluk10-pri CROND[4282]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 05:01:01 aluk10-pri run-parts[4282]: (/etc/cron.hourly) starting 0anacron
+Oct 27 05:01:01 aluk10-pri run-parts[4282]: (/etc/cron.hourly) finished 0anacron
+Oct 27 06:01:01 aluk10-pri CROND[4306]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 06:01:01 aluk10-pri run-parts[4306]: (/etc/cron.hourly) starting 0anacron
+Oct 27 06:01:01 aluk10-pri run-parts[4306]: (/etc/cron.hourly) finished 0anacron
+Oct 27 07:01:01 aluk10-pri CROND[4329]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 07:01:01 aluk10-pri run-parts[4329]: (/etc/cron.hourly) starting 0anacron
+Oct 27 07:01:01 aluk10-pri run-parts[4329]: (/etc/cron.hourly) finished 0anacron
+Oct 27 08:01:01 aluk10-pri CROND[4366]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 08:01:01 aluk10-pri run-parts[4366]: (/etc/cron.hourly) starting 0anacron
+Oct 27 08:01:01 aluk10-pri run-parts[4366]: (/etc/cron.hourly) finished 0anacron
+Oct 27 09:01:01 aluk10-pri CROND[4390]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 09:01:01 aluk10-pri run-parts[4390]: (/etc/cron.hourly) starting 0anacron
+Oct 27 09:01:01 aluk10-pri run-parts[4390]: (/etc/cron.hourly) finished 0anacron
+Oct 27 10:01:01 aluk10-pri CROND[4413]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 10:01:01 aluk10-pri run-parts[4413]: (/etc/cron.hourly) starting 0anacron
+Oct 27 10:01:01 aluk10-pri run-parts[4413]: (/etc/cron.hourly) finished 0anacron
+Oct 27 11:01:01 aluk10-pri CROND[4442]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 11:01:01 aluk10-pri run-parts[4442]: (/etc/cron.hourly) starting 0anacron
+Oct 27 11:01:01 aluk10-pri run-parts[4442]: (/etc/cron.hourly) finished 0anacron
+Oct 27 12:01:01 aluk10-pri CROND[4466]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 12:01:01 aluk10-pri run-parts[4466]: (/etc/cron.hourly) starting 0anacron
+Oct 27 12:01:01 aluk10-pri run-parts[4466]: (/etc/cron.hourly) finished 0anacron
+Oct 27 13:01:01 aluk10-pri CROND[4489]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 13:01:01 aluk10-pri run-parts[4489]: (/etc/cron.hourly) starting 0anacron
+Oct 27 13:01:01 aluk10-pri run-parts[4489]: (/etc/cron.hourly) finished 0anacron
+Oct 27 14:01:01 aluk10-pri CROND[4518]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 14:01:01 aluk10-pri run-parts[4518]: (/etc/cron.hourly) starting 0anacron
+Oct 27 14:01:01 aluk10-pri run-parts[4518]: (/etc/cron.hourly) finished 0anacron
+Oct 27 15:01:01 aluk10-pri CROND[4542]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 15:01:01 aluk10-pri run-parts[4542]: (/etc/cron.hourly) starting 0anacron
+Oct 27 15:01:01 aluk10-pri run-parts[4542]: (/etc/cron.hourly) finished 0anacron
+Oct 27 16:01:01 aluk10-pri CROND[4565]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 16:01:01 aluk10-pri run-parts[4565]: (/etc/cron.hourly) starting 0anacron
+Oct 27 16:01:01 aluk10-pri run-parts[4565]: (/etc/cron.hourly) finished 0anacron
+Oct 27 17:01:01 aluk10-pri CROND[4594]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 17:01:01 aluk10-pri run-parts[4594]: (/etc/cron.hourly) starting 0anacron
+Oct 27 17:01:01 aluk10-pri run-parts[4594]: (/etc/cron.hourly) finished 0anacron
+Oct 27 18:01:01 aluk10-pri CROND[4657]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 18:01:02 aluk10-pri run-parts[4657]: (/etc/cron.hourly) starting 0anacron
+Oct 27 18:01:02 aluk10-pri run-parts[4657]: (/etc/cron.hourly) finished 0anacron
+Oct 27 19:01:01 aluk10-pri CROND[4681]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 19:01:01 aluk10-pri run-parts[4681]: (/etc/cron.hourly) starting 0anacron
+Oct 27 19:01:01 aluk10-pri run-parts[4681]: (/etc/cron.hourly) finished 0anacron
+Oct 27 20:01:01 aluk10-pri CROND[4721]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 20:01:01 aluk10-pri run-parts[4721]: (/etc/cron.hourly) starting 0anacron
+Oct 27 20:01:01 aluk10-pri run-parts[4721]: (/etc/cron.hourly) finished 0anacron
+Oct 27 21:01:01 aluk10-pri CROND[4744]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 21:01:01 aluk10-pri run-parts[4744]: (/etc/cron.hourly) starting 0anacron
+Oct 27 21:01:01 aluk10-pri run-parts[4744]: (/etc/cron.hourly) finished 0anacron
+Oct 27 22:01:01 aluk10-pri CROND[4767]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 22:01:01 aluk10-pri run-parts[4767]: (/etc/cron.hourly) starting 0anacron
+Oct 27 22:01:01 aluk10-pri run-parts[4767]: (/etc/cron.hourly) finished 0anacron
+Oct 27 23:01:01 aluk10-pri CROND[4788]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 27 23:01:01 aluk10-pri run-parts[4788]: (/etc/cron.hourly) starting 0anacron
+Oct 27 23:01:01 aluk10-pri run-parts[4788]: (/etc/cron.hourly) finished 0anacron
+Oct 28 00:01:01 aluk10-pri CROND[4818]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 00:01:01 aluk10-pri run-parts[4818]: (/etc/cron.hourly) starting 0anacron
+Oct 28 00:01:01 aluk10-pri anacron[4827]: Anacron started on 2020-10-28
+Oct 28 00:01:01 aluk10-pri anacron[4827]: Normal exit (0 jobs run)
+Oct 28 00:01:01 aluk10-pri run-parts[4818]: (/etc/cron.hourly) finished 0anacron
+Oct 28 01:01:01 aluk10-pri CROND[4844]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 01:01:01 aluk10-pri run-parts[4844]: (/etc/cron.hourly) starting 0anacron
+Oct 28 01:01:01 aluk10-pri anacron[4853]: Anacron started on 2020-10-28
+Oct 28 01:01:01 aluk10-pri anacron[4853]: Normal exit (0 jobs run)
+Oct 28 01:01:01 aluk10-pri run-parts[4844]: (/etc/cron.hourly) finished 0anacron
+Oct 28 02:01:01 aluk10-pri CROND[4869]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 02:01:01 aluk10-pri run-parts[4869]: (/etc/cron.hourly) starting 0anacron
+Oct 28 02:01:01 aluk10-pri anacron[4878]: Anacron started on 2020-10-28
+Oct 28 02:01:01 aluk10-pri anacron[4878]: Normal exit (0 jobs run)
+Oct 28 02:01:01 aluk10-pri run-parts[4869]: (/etc/cron.hourly) finished 0anacron
+Oct 28 03:01:01 aluk10-pri CROND[4900]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 03:01:01 aluk10-pri run-parts[4900]: (/etc/cron.hourly) starting 0anacron
+Oct 28 03:01:01 aluk10-pri anacron[4909]: Anacron started on 2020-10-28
+Oct 28 03:01:01 aluk10-pri anacron[4909]: Will run job `cron.daily' in 21 min.
+Oct 28 03:01:01 aluk10-pri anacron[4909]: Will run job `cron.weekly' in 41 min.
+Oct 28 03:01:01 aluk10-pri anacron[4909]: Jobs will be executed sequentially
+Oct 28 03:01:01 aluk10-pri run-parts[4900]: (/etc/cron.hourly) finished 0anacron
+Oct 28 03:22:01 aluk10-pri anacron[4909]: Job `cron.daily' started
+Oct 28 03:22:01 aluk10-pri run-parts[4919]: (/etc/cron.daily) starting logrotate
+Oct 28 03:22:01 aluk10-pri run-parts[4919]: (/etc/cron.daily) finished logrotate
+Oct 28 03:22:01 aluk10-pri anacron[4909]: Job `cron.daily' terminated
+Oct 28 03:42:01 aluk10-pri anacron[4909]: Job `cron.weekly' started
+Oct 28 03:42:01 aluk10-pri anacron[4909]: Job `cron.weekly' terminated
+Oct 28 03:42:01 aluk10-pri anacron[4909]: Normal exit (2 jobs run)
+Oct 28 04:01:01 aluk10-pri CROND[4937]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 04:01:01 aluk10-pri run-parts[4937]: (/etc/cron.hourly) starting 0anacron
+Oct 28 04:01:01 aluk10-pri run-parts[4937]: (/etc/cron.hourly) finished 0anacron
+Oct 28 05:01:01 aluk10-pri CROND[4960]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 05:01:01 aluk10-pri run-parts[4960]: (/etc/cron.hourly) starting 0anacron
+Oct 28 05:01:01 aluk10-pri run-parts[4960]: (/etc/cron.hourly) finished 0anacron
+Oct 28 06:01:01 aluk10-pri CROND[4989]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 06:01:01 aluk10-pri run-parts[4989]: (/etc/cron.hourly) starting 0anacron
+Oct 28 06:01:01 aluk10-pri run-parts[4989]: (/etc/cron.hourly) finished 0anacron
+Oct 28 07:01:01 aluk10-pri CROND[5012]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 07:01:01 aluk10-pri run-parts[5012]: (/etc/cron.hourly) starting 0anacron
+Oct 28 07:01:01 aluk10-pri run-parts[5012]: (/etc/cron.hourly) finished 0anacron
+Oct 28 08:01:01 aluk10-pri CROND[5045]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 08:01:01 aluk10-pri run-parts[5045]: (/etc/cron.hourly) starting 0anacron
+Oct 28 08:01:01 aluk10-pri run-parts[5045]: (/etc/cron.hourly) finished 0anacron
+Oct 28 09:01:01 aluk10-pri CROND[5074]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 09:01:01 aluk10-pri run-parts[5074]: (/etc/cron.hourly) starting 0anacron
+Oct 28 09:01:01 aluk10-pri run-parts[5074]: (/etc/cron.hourly) finished 0anacron
+Oct 28 10:01:01 aluk10-pri CROND[5097]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 10:01:01 aluk10-pri run-parts[5097]: (/etc/cron.hourly) starting 0anacron
+Oct 28 10:01:01 aluk10-pri run-parts[5097]: (/etc/cron.hourly) finished 0anacron
+Oct 28 11:01:01 aluk10-pri CROND[5121]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 11:01:01 aluk10-pri run-parts[5121]: (/etc/cron.hourly) starting 0anacron
+Oct 28 11:01:01 aluk10-pri run-parts[5121]: (/etc/cron.hourly) finished 0anacron
+Oct 28 12:01:01 aluk10-pri CROND[5150]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 12:01:01 aluk10-pri run-parts[5150]: (/etc/cron.hourly) starting 0anacron
+Oct 28 12:01:01 aluk10-pri run-parts[5150]: (/etc/cron.hourly) finished 0anacron
+Oct 28 13:01:01 aluk10-pri CROND[5174]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 13:01:01 aluk10-pri run-parts[5174]: (/etc/cron.hourly) starting 0anacron
+Oct 28 13:01:01 aluk10-pri run-parts[5174]: (/etc/cron.hourly) finished 0anacron
+Oct 28 14:01:01 aluk10-pri CROND[5197]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 14:01:01 aluk10-pri run-parts[5197]: (/etc/cron.hourly) starting 0anacron
+Oct 28 14:01:01 aluk10-pri run-parts[5197]: (/etc/cron.hourly) finished 0anacron
+Oct 28 15:01:01 aluk10-pri CROND[5226]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 15:01:01 aluk10-pri run-parts[5226]: (/etc/cron.hourly) starting 0anacron
+Oct 28 15:01:01 aluk10-pri run-parts[5226]: (/etc/cron.hourly) finished 0anacron
+Oct 28 16:01:01 aluk10-pri CROND[5249]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 16:01:01 aluk10-pri run-parts[5249]: (/etc/cron.hourly) starting 0anacron
+Oct 28 16:01:01 aluk10-pri run-parts[5249]: (/etc/cron.hourly) finished 0anacron
+Oct 28 17:01:01 aluk10-pri CROND[5273]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 17:01:01 aluk10-pri run-parts[5273]: (/etc/cron.hourly) starting 0anacron
+Oct 28 17:01:01 aluk10-pri run-parts[5273]: (/etc/cron.hourly) finished 0anacron
+Oct 28 18:01:01 aluk10-pri CROND[5302]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 18:01:01 aluk10-pri run-parts[5302]: (/etc/cron.hourly) starting 0anacron
+Oct 28 18:01:01 aluk10-pri run-parts[5302]: (/etc/cron.hourly) finished 0anacron
+Oct 28 19:01:01 aluk10-pri CROND[5325]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 19:01:01 aluk10-pri run-parts[5325]: (/etc/cron.hourly) starting 0anacron
+Oct 28 19:01:01 aluk10-pri run-parts[5325]: (/etc/cron.hourly) finished 0anacron
+Oct 28 20:01:01 aluk10-pri CROND[5359]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 20:01:01 aluk10-pri run-parts[5359]: (/etc/cron.hourly) starting 0anacron
+Oct 28 20:01:01 aluk10-pri run-parts[5359]: (/etc/cron.hourly) finished 0anacron
+Oct 28 21:01:01 aluk10-pri CROND[5388]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 21:01:01 aluk10-pri run-parts[5388]: (/etc/cron.hourly) starting 0anacron
+Oct 28 21:01:01 aluk10-pri run-parts[5388]: (/etc/cron.hourly) finished 0anacron
+Oct 28 22:01:01 aluk10-pri CROND[5411]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 22:01:01 aluk10-pri run-parts[5411]: (/etc/cron.hourly) starting 0anacron
+Oct 28 22:01:01 aluk10-pri run-parts[5411]: (/etc/cron.hourly) finished 0anacron
+Oct 28 23:01:01 aluk10-pri CROND[5435]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 28 23:01:01 aluk10-pri run-parts[5435]: (/etc/cron.hourly) starting 0anacron
+Oct 28 23:01:01 aluk10-pri run-parts[5435]: (/etc/cron.hourly) finished 0anacron
+Oct 29 00:01:01 aluk10-pri CROND[5467]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 00:01:01 aluk10-pri run-parts[5467]: (/etc/cron.hourly) starting 0anacron
+Oct 29 00:01:01 aluk10-pri anacron[5476]: Anacron started on 2020-10-29
+Oct 29 00:01:01 aluk10-pri anacron[5476]: Normal exit (0 jobs run)
+Oct 29 00:01:01 aluk10-pri run-parts[5467]: (/etc/cron.hourly) finished 0anacron
+Oct 29 01:01:01 aluk10-pri CROND[5492]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 01:01:01 aluk10-pri run-parts[5492]: (/etc/cron.hourly) starting 0anacron
+Oct 29 01:01:01 aluk10-pri anacron[5501]: Anacron started on 2020-10-29
+Oct 29 01:01:01 aluk10-pri anacron[5501]: Normal exit (0 jobs run)
+Oct 29 01:01:01 aluk10-pri run-parts[5492]: (/etc/cron.hourly) finished 0anacron
+Oct 29 02:01:01 aluk10-pri CROND[5517]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 02:01:01 aluk10-pri run-parts[5517]: (/etc/cron.hourly) starting 0anacron
+Oct 29 02:01:01 aluk10-pri anacron[5526]: Anacron started on 2020-10-29
+Oct 29 02:01:01 aluk10-pri anacron[5526]: Normal exit (0 jobs run)
+Oct 29 02:01:01 aluk10-pri run-parts[5517]: (/etc/cron.hourly) finished 0anacron
+Oct 29 03:01:01 aluk10-pri CROND[5549]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 03:01:01 aluk10-pri run-parts[5549]: (/etc/cron.hourly) starting 0anacron
+Oct 29 03:01:01 aluk10-pri anacron[5558]: Anacron started on 2020-10-29
+Oct 29 03:01:01 aluk10-pri anacron[5558]: Will run job `cron.daily' in 15 min.
+Oct 29 03:01:01 aluk10-pri anacron[5558]: Jobs will be executed sequentially
+Oct 29 03:01:01 aluk10-pri run-parts[5549]: (/etc/cron.hourly) finished 0anacron
+Oct 29 03:16:01 aluk10-pri anacron[5558]: Job `cron.daily' started
+Oct 29 03:16:01 aluk10-pri run-parts[5563]: (/etc/cron.daily) starting logrotate
+Oct 29 03:16:01 aluk10-pri run-parts[5563]: (/etc/cron.daily) finished logrotate
+Oct 29 03:16:01 aluk10-pri anacron[5558]: Job `cron.daily' terminated
+Oct 29 03:16:01 aluk10-pri anacron[5558]: Normal exit (1 job run)
+Oct 29 04:01:01 aluk10-pri CROND[5583]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 04:01:01 aluk10-pri run-parts[5583]: (/etc/cron.hourly) starting 0anacron
+Oct 29 04:01:01 aluk10-pri run-parts[5583]: (/etc/cron.hourly) finished 0anacron
+Oct 29 05:01:01 aluk10-pri CROND[5606]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 05:01:01 aluk10-pri run-parts[5606]: (/etc/cron.hourly) starting 0anacron
+Oct 29 05:01:01 aluk10-pri run-parts[5606]: (/etc/cron.hourly) finished 0anacron
+Oct 29 06:01:01 aluk10-pri CROND[5636]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 06:01:01 aluk10-pri run-parts[5636]: (/etc/cron.hourly) starting 0anacron
+Oct 29 06:01:01 aluk10-pri run-parts[5636]: (/etc/cron.hourly) finished 0anacron
+Oct 29 07:01:01 aluk10-pri CROND[5659]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 07:01:01 aluk10-pri run-parts[5659]: (/etc/cron.hourly) starting 0anacron
+Oct 29 07:01:01 aluk10-pri run-parts[5659]: (/etc/cron.hourly) finished 0anacron
+Oct 29 08:01:01 aluk10-pri CROND[5691]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 08:01:01 aluk10-pri run-parts[5691]: (/etc/cron.hourly) starting 0anacron
+Oct 29 08:01:01 aluk10-pri run-parts[5691]: (/etc/cron.hourly) finished 0anacron
+Oct 29 09:01:01 aluk10-pri CROND[5720]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 09:01:01 aluk10-pri run-parts[5720]: (/etc/cron.hourly) starting 0anacron
+Oct 29 09:01:01 aluk10-pri run-parts[5720]: (/etc/cron.hourly) finished 0anacron
+Oct 29 10:01:01 aluk10-pri CROND[5743]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 10:01:01 aluk10-pri run-parts[5743]: (/etc/cron.hourly) starting 0anacron
+Oct 29 10:01:01 aluk10-pri run-parts[5743]: (/etc/cron.hourly) finished 0anacron
+Oct 29 11:01:01 aluk10-pri CROND[5766]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 11:01:01 aluk10-pri run-parts[5766]: (/etc/cron.hourly) starting 0anacron
+Oct 29 11:01:01 aluk10-pri run-parts[5766]: (/etc/cron.hourly) finished 0anacron
+Oct 29 12:01:01 aluk10-pri CROND[5796]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 12:01:01 aluk10-pri run-parts[5796]: (/etc/cron.hourly) starting 0anacron
+Oct 29 12:01:01 aluk10-pri run-parts[5796]: (/etc/cron.hourly) finished 0anacron
+Oct 29 13:01:01 aluk10-pri CROND[5819]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 13:01:01 aluk10-pri run-parts[5819]: (/etc/cron.hourly) starting 0anacron
+Oct 29 13:01:01 aluk10-pri run-parts[5819]: (/etc/cron.hourly) finished 0anacron
+Oct 29 14:01:01 aluk10-pri CROND[5842]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 14:01:01 aluk10-pri run-parts[5842]: (/etc/cron.hourly) starting 0anacron
+Oct 29 14:01:01 aluk10-pri run-parts[5842]: (/etc/cron.hourly) finished 0anacron
+Oct 29 15:01:01 aluk10-pri CROND[5872]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 15:01:01 aluk10-pri run-parts[5872]: (/etc/cron.hourly) starting 0anacron
+Oct 29 15:01:01 aluk10-pri run-parts[5872]: (/etc/cron.hourly) finished 0anacron
+Oct 29 16:01:01 aluk10-pri CROND[5895]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 16:01:01 aluk10-pri run-parts[5895]: (/etc/cron.hourly) starting 0anacron
+Oct 29 16:01:01 aluk10-pri run-parts[5895]: (/etc/cron.hourly) finished 0anacron
+Oct 29 17:01:01 aluk10-pri CROND[5918]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 17:01:01 aluk10-pri run-parts[5918]: (/etc/cron.hourly) starting 0anacron
+Oct 29 17:01:01 aluk10-pri run-parts[5918]: (/etc/cron.hourly) finished 0anacron
+Oct 29 18:01:01 aluk10-pri CROND[5947]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 18:01:01 aluk10-pri run-parts[5947]: (/etc/cron.hourly) starting 0anacron
+Oct 29 18:01:01 aluk10-pri run-parts[5947]: (/etc/cron.hourly) finished 0anacron
+Oct 29 19:01:01 aluk10-pri CROND[5971]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 19:01:01 aluk10-pri run-parts[5971]: (/etc/cron.hourly) starting 0anacron
+Oct 29 19:01:01 aluk10-pri run-parts[5971]: (/etc/cron.hourly) finished 0anacron
+Oct 29 20:01:01 aluk10-pri CROND[6005]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 20:01:01 aluk10-pri run-parts[6005]: (/etc/cron.hourly) starting 0anacron
+Oct 29 20:01:01 aluk10-pri run-parts[6005]: (/etc/cron.hourly) finished 0anacron
+Oct 29 21:01:01 aluk10-pri CROND[6034]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 21:01:01 aluk10-pri run-parts[6034]: (/etc/cron.hourly) starting 0anacron
+Oct 29 21:01:01 aluk10-pri run-parts[6034]: (/etc/cron.hourly) finished 0anacron
+Oct 29 22:01:01 aluk10-pri CROND[6058]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 22:01:01 aluk10-pri run-parts[6058]: (/etc/cron.hourly) starting 0anacron
+Oct 29 22:01:01 aluk10-pri run-parts[6058]: (/etc/cron.hourly) finished 0anacron
+Oct 29 23:01:01 aluk10-pri CROND[6081]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 29 23:01:01 aluk10-pri run-parts[6081]: (/etc/cron.hourly) starting 0anacron
+Oct 29 23:01:02 aluk10-pri run-parts[6081]: (/etc/cron.hourly) finished 0anacron
+Oct 30 00:01:01 aluk10-pri CROND[6113]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 00:01:01 aluk10-pri run-parts[6113]: (/etc/cron.hourly) starting 0anacron
+Oct 30 00:01:01 aluk10-pri anacron[6122]: Anacron started on 2020-10-30
+Oct 30 00:01:01 aluk10-pri anacron[6122]: Normal exit (0 jobs run)
+Oct 30 00:01:01 aluk10-pri run-parts[6113]: (/etc/cron.hourly) finished 0anacron
+Oct 30 01:01:01 aluk10-pri CROND[6138]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 01:01:01 aluk10-pri run-parts[6138]: (/etc/cron.hourly) starting 0anacron
+Oct 30 01:01:01 aluk10-pri anacron[6147]: Anacron started on 2020-10-30
+Oct 30 01:01:01 aluk10-pri anacron[6147]: Normal exit (0 jobs run)
+Oct 30 01:01:01 aluk10-pri run-parts[6138]: (/etc/cron.hourly) finished 0anacron
+Oct 30 02:01:01 aluk10-pri CROND[6163]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 02:01:01 aluk10-pri run-parts[6163]: (/etc/cron.hourly) starting 0anacron
+Oct 30 02:01:01 aluk10-pri anacron[6172]: Anacron started on 2020-10-30
+Oct 30 02:01:01 aluk10-pri anacron[6172]: Normal exit (0 jobs run)
+Oct 30 02:01:01 aluk10-pri run-parts[6163]: (/etc/cron.hourly) finished 0anacron
+Oct 30 03:01:01 aluk10-pri CROND[6194]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 03:01:01 aluk10-pri run-parts[6194]: (/etc/cron.hourly) starting 0anacron
+Oct 30 03:01:01 aluk10-pri anacron[6203]: Anacron started on 2020-10-30
+Oct 30 03:01:01 aluk10-pri anacron[6203]: Will run job `cron.daily' in 32 min.
+Oct 30 03:01:01 aluk10-pri anacron[6203]: Jobs will be executed sequentially
+Oct 30 03:01:01 aluk10-pri run-parts[6194]: (/etc/cron.hourly) finished 0anacron
+Oct 30 03:33:01 aluk10-pri anacron[6203]: Job `cron.daily' started
+Oct 30 03:33:01 aluk10-pri run-parts[6211]: (/etc/cron.daily) starting logrotate
+Oct 30 03:33:01 aluk10-pri run-parts[6211]: (/etc/cron.daily) finished logrotate
+Oct 30 03:33:01 aluk10-pri anacron[6203]: Job `cron.daily' terminated
+Oct 30 03:33:01 aluk10-pri anacron[6203]: Normal exit (1 job run)
+Oct 30 04:01:01 aluk10-pri CROND[6229]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 04:01:01 aluk10-pri run-parts[6229]: (/etc/cron.hourly) starting 0anacron
+Oct 30 04:01:01 aluk10-pri run-parts[6229]: (/etc/cron.hourly) finished 0anacron
+Oct 30 05:01:01 aluk10-pri CROND[6253]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 05:01:01 aluk10-pri run-parts[6253]: (/etc/cron.hourly) starting 0anacron
+Oct 30 05:01:01 aluk10-pri run-parts[6253]: (/etc/cron.hourly) finished 0anacron
+Oct 30 06:01:01 aluk10-pri CROND[6283]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 06:01:01 aluk10-pri run-parts[6283]: (/etc/cron.hourly) starting 0anacron
+Oct 30 06:01:01 aluk10-pri run-parts[6283]: (/etc/cron.hourly) finished 0anacron
+Oct 30 07:01:01 aluk10-pri CROND[6306]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 07:01:01 aluk10-pri run-parts[6306]: (/etc/cron.hourly) starting 0anacron
+Oct 30 07:01:01 aluk10-pri run-parts[6306]: (/etc/cron.hourly) finished 0anacron
+Oct 30 08:01:01 aluk10-pri CROND[6337]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 08:01:01 aluk10-pri run-parts[6337]: (/etc/cron.hourly) starting 0anacron
+Oct 30 08:01:01 aluk10-pri run-parts[6337]: (/etc/cron.hourly) finished 0anacron
+Oct 30 09:01:01 aluk10-pri CROND[6366]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 09:01:01 aluk10-pri run-parts[6366]: (/etc/cron.hourly) starting 0anacron
+Oct 30 09:01:01 aluk10-pri run-parts[6366]: (/etc/cron.hourly) finished 0anacron
+Oct 30 10:01:01 aluk10-pri CROND[6390]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 10:01:01 aluk10-pri run-parts[6390]: (/etc/cron.hourly) starting 0anacron
+Oct 30 10:01:01 aluk10-pri run-parts[6390]: (/etc/cron.hourly) finished 0anacron
+Oct 30 11:01:01 aluk10-pri CROND[6413]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 11:01:01 aluk10-pri run-parts[6413]: (/etc/cron.hourly) starting 0anacron
+Oct 30 11:01:01 aluk10-pri run-parts[6413]: (/etc/cron.hourly) finished 0anacron
+Oct 30 12:01:01 aluk10-pri CROND[6443]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 12:01:01 aluk10-pri run-parts[6443]: (/etc/cron.hourly) starting 0anacron
+Oct 30 12:01:01 aluk10-pri run-parts[6443]: (/etc/cron.hourly) finished 0anacron
+Oct 30 13:01:01 aluk10-pri CROND[6466]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 13:01:01 aluk10-pri run-parts[6466]: (/etc/cron.hourly) starting 0anacron
+Oct 30 13:01:01 aluk10-pri run-parts[6466]: (/etc/cron.hourly) finished 0anacron
+Oct 30 14:01:01 aluk10-pri CROND[6486]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 14:01:01 aluk10-pri run-parts[6486]: (/etc/cron.hourly) starting 0anacron
+Oct 30 14:01:01 aluk10-pri run-parts[6486]: (/etc/cron.hourly) finished 0anacron
+Oct 30 15:01:01 aluk10-pri CROND[6509]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 15:01:01 aluk10-pri run-parts[6509]: (/etc/cron.hourly) starting 0anacron
+Oct 30 15:01:01 aluk10-pri run-parts[6509]: (/etc/cron.hourly) finished 0anacron
+Oct 30 16:01:01 aluk10-pri CROND[6538]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 16:01:01 aluk10-pri run-parts[6538]: (/etc/cron.hourly) starting 0anacron
+Oct 30 16:01:01 aluk10-pri run-parts[6538]: (/etc/cron.hourly) finished 0anacron
+Oct 30 17:01:01 aluk10-pri CROND[6562]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 17:01:01 aluk10-pri run-parts[6562]: (/etc/cron.hourly) starting 0anacron
+Oct 30 17:01:01 aluk10-pri run-parts[6562]: (/etc/cron.hourly) finished 0anacron
+Oct 30 18:01:01 aluk10-pri CROND[6585]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 18:01:01 aluk10-pri run-parts[6585]: (/etc/cron.hourly) starting 0anacron
+Oct 30 18:01:01 aluk10-pri run-parts[6585]: (/etc/cron.hourly) finished 0anacron
+Oct 30 19:01:01 aluk10-pri CROND[6614]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 19:01:01 aluk10-pri run-parts[6614]: (/etc/cron.hourly) starting 0anacron
+Oct 30 19:01:01 aluk10-pri run-parts[6614]: (/etc/cron.hourly) finished 0anacron
+Oct 30 20:01:01 aluk10-pri CROND[6648]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 20:01:01 aluk10-pri run-parts[6648]: (/etc/cron.hourly) starting 0anacron
+Oct 30 20:01:01 aluk10-pri run-parts[6648]: (/etc/cron.hourly) finished 0anacron
+Oct 30 21:01:01 aluk10-pri CROND[6672]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 21:01:01 aluk10-pri run-parts[6672]: (/etc/cron.hourly) starting 0anacron
+Oct 30 21:01:01 aluk10-pri run-parts[6672]: (/etc/cron.hourly) finished 0anacron
+Oct 30 22:01:01 aluk10-pri CROND[6713]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 22:01:01 aluk10-pri run-parts[6713]: (/etc/cron.hourly) starting 0anacron
+Oct 30 22:01:01 aluk10-pri run-parts[6713]: (/etc/cron.hourly) finished 0anacron
+Oct 30 23:01:01 aluk10-pri CROND[6737]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 30 23:01:01 aluk10-pri run-parts[6737]: (/etc/cron.hourly) starting 0anacron
+Oct 30 23:01:01 aluk10-pri run-parts[6737]: (/etc/cron.hourly) finished 0anacron
+Oct 31 00:01:01 aluk10-pri CROND[6763]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 00:01:01 aluk10-pri run-parts[6763]: (/etc/cron.hourly) starting 0anacron
+Oct 31 00:01:01 aluk10-pri anacron[6772]: Anacron started on 2020-10-31
+Oct 31 00:01:01 aluk10-pri anacron[6772]: Normal exit (0 jobs run)
+Oct 31 00:01:01 aluk10-pri run-parts[6763]: (/etc/cron.hourly) finished 0anacron
+Oct 31 01:01:01 aluk10-pri CROND[6794]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 01:01:01 aluk10-pri run-parts[6794]: (/etc/cron.hourly) starting 0anacron
+Oct 31 01:01:01 aluk10-pri anacron[6803]: Anacron started on 2020-10-31
+Oct 31 01:01:01 aluk10-pri anacron[6803]: Normal exit (0 jobs run)
+Oct 31 01:01:01 aluk10-pri run-parts[6794]: (/etc/cron.hourly) finished 0anacron
+Oct 31 02:01:01 aluk10-pri CROND[6819]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 02:01:01 aluk10-pri run-parts[6819]: (/etc/cron.hourly) starting 0anacron
+Oct 31 02:01:01 aluk10-pri anacron[6828]: Anacron started on 2020-10-31
+Oct 31 02:01:01 aluk10-pri anacron[6828]: Normal exit (0 jobs run)
+Oct 31 02:01:01 aluk10-pri run-parts[6819]: (/etc/cron.hourly) finished 0anacron
+Oct 31 03:01:01 aluk10-pri CROND[6844]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 03:01:01 aluk10-pri run-parts[6844]: (/etc/cron.hourly) starting 0anacron
+Oct 31 03:01:01 aluk10-pri anacron[6853]: Anacron started on 2020-10-31
+Oct 31 03:01:01 aluk10-pri anacron[6853]: Will run job `cron.daily' in 7 min.
+Oct 31 03:01:01 aluk10-pri anacron[6853]: Jobs will be executed sequentially
+Oct 31 03:01:01 aluk10-pri run-parts[6844]: (/etc/cron.hourly) finished 0anacron
+Oct 31 03:08:01 aluk10-pri anacron[6853]: Job `cron.daily' started
+Oct 31 03:08:01 aluk10-pri run-parts[6858]: (/etc/cron.daily) starting logrotate
+Oct 31 03:08:01 aluk10-pri run-parts[6858]: (/etc/cron.daily) finished logrotate
+Oct 31 03:08:01 aluk10-pri anacron[6853]: Job `cron.daily' terminated
+Oct 31 03:08:01 aluk10-pri anacron[6853]: Normal exit (1 job run)
+Oct 31 04:01:01 aluk10-pri CROND[6885]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 04:01:01 aluk10-pri run-parts[6885]: (/etc/cron.hourly) starting 0anacron
+Oct 31 04:01:01 aluk10-pri run-parts[6885]: (/etc/cron.hourly) finished 0anacron
+Oct 31 05:01:01 aluk10-pri CROND[6908]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 05:01:01 aluk10-pri run-parts[6908]: (/etc/cron.hourly) starting 0anacron
+Oct 31 05:01:01 aluk10-pri run-parts[6908]: (/etc/cron.hourly) finished 0anacron
+Oct 31 06:01:01 aluk10-pri CROND[6932]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 06:01:01 aluk10-pri run-parts[6932]: (/etc/cron.hourly) starting 0anacron
+Oct 31 06:01:01 aluk10-pri run-parts[6932]: (/etc/cron.hourly) finished 0anacron
+Oct 31 07:01:01 aluk10-pri CROND[6961]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 07:01:01 aluk10-pri run-parts[6961]: (/etc/cron.hourly) starting 0anacron
+Oct 31 07:01:01 aluk10-pri run-parts[6961]: (/etc/cron.hourly) finished 0anacron
+Oct 31 08:01:01 aluk10-pri CROND[6992]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 08:01:01 aluk10-pri run-parts[6992]: (/etc/cron.hourly) starting 0anacron
+Oct 31 08:01:01 aluk10-pri run-parts[6992]: (/etc/cron.hourly) finished 0anacron
+Oct 31 09:01:01 aluk10-pri CROND[7015]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 09:01:01 aluk10-pri run-parts[7015]: (/etc/cron.hourly) starting 0anacron
+Oct 31 09:01:01 aluk10-pri run-parts[7015]: (/etc/cron.hourly) finished 0anacron
+Oct 31 10:01:01 aluk10-pri CROND[7045]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 10:01:01 aluk10-pri run-parts[7045]: (/etc/cron.hourly) starting 0anacron
+Oct 31 10:01:01 aluk10-pri run-parts[7045]: (/etc/cron.hourly) finished 0anacron
+Oct 31 11:01:01 aluk10-pri CROND[7068]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 11:01:01 aluk10-pri run-parts[7068]: (/etc/cron.hourly) starting 0anacron
+Oct 31 11:01:01 aluk10-pri run-parts[7068]: (/etc/cron.hourly) finished 0anacron
+Oct 31 12:01:01 aluk10-pri CROND[7092]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 12:01:01 aluk10-pri run-parts[7092]: (/etc/cron.hourly) starting 0anacron
+Oct 31 12:01:01 aluk10-pri run-parts[7092]: (/etc/cron.hourly) finished 0anacron
+Oct 31 13:01:01 aluk10-pri CROND[7121]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 13:01:01 aluk10-pri run-parts[7121]: (/etc/cron.hourly) starting 0anacron
+Oct 31 13:01:01 aluk10-pri run-parts[7121]: (/etc/cron.hourly) finished 0anacron
+Oct 31 14:01:01 aluk10-pri CROND[7144]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 14:01:01 aluk10-pri run-parts[7144]: (/etc/cron.hourly) starting 0anacron
+Oct 31 14:01:01 aluk10-pri run-parts[7144]: (/etc/cron.hourly) finished 0anacron
+Oct 31 15:01:01 aluk10-pri CROND[7168]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 15:01:01 aluk10-pri run-parts[7168]: (/etc/cron.hourly) starting 0anacron
+Oct 31 15:01:01 aluk10-pri run-parts[7168]: (/etc/cron.hourly) finished 0anacron
+Oct 31 16:01:01 aluk10-pri CROND[7198]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 16:01:01 aluk10-pri run-parts[7198]: (/etc/cron.hourly) starting 0anacron
+Oct 31 16:01:01 aluk10-pri run-parts[7198]: (/etc/cron.hourly) finished 0anacron
+Oct 31 17:01:01 aluk10-pri CROND[7221]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 17:01:01 aluk10-pri run-parts[7221]: (/etc/cron.hourly) starting 0anacron
+Oct 31 17:01:01 aluk10-pri run-parts[7221]: (/etc/cron.hourly) finished 0anacron
+Oct 31 18:01:01 aluk10-pri CROND[7244]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 18:01:01 aluk10-pri run-parts[7244]: (/etc/cron.hourly) starting 0anacron
+Oct 31 18:01:01 aluk10-pri run-parts[7244]: (/etc/cron.hourly) finished 0anacron
+Oct 31 19:01:01 aluk10-pri CROND[7274]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 19:01:01 aluk10-pri run-parts[7274]: (/etc/cron.hourly) starting 0anacron
+Oct 31 19:01:01 aluk10-pri run-parts[7274]: (/etc/cron.hourly) finished 0anacron
+Oct 31 20:01:01 aluk10-pri CROND[7307]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 20:01:01 aluk10-pri run-parts[7307]: (/etc/cron.hourly) starting 0anacron
+Oct 31 20:01:01 aluk10-pri run-parts[7307]: (/etc/cron.hourly) finished 0anacron
+Oct 31 21:01:01 aluk10-pri CROND[7330]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 21:01:01 aluk10-pri run-parts[7330]: (/etc/cron.hourly) starting 0anacron
+Oct 31 21:01:01 aluk10-pri run-parts[7330]: (/etc/cron.hourly) finished 0anacron
+Oct 31 22:01:01 aluk10-pri CROND[7360]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 22:01:01 aluk10-pri run-parts[7360]: (/etc/cron.hourly) starting 0anacron
+Oct 31 22:01:01 aluk10-pri run-parts[7360]: (/etc/cron.hourly) finished 0anacron
+Oct 31 23:01:01 aluk10-pri CROND[7383]: (root) CMD (run-parts /etc/cron.hourly)
+Oct 31 23:01:01 aluk10-pri run-parts[7383]: (/etc/cron.hourly) starting 0anacron
+Oct 31 23:01:01 aluk10-pri run-parts[7383]: (/etc/cron.hourly) finished 0anacron
+Nov  1 00:01:01 aluk10-pri CROND[7409]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  1 00:01:01 aluk10-pri run-parts[7409]: (/etc/cron.hourly) starting 0anacron
+Nov  1 00:01:01 aluk10-pri anacron[7418]: Anacron started on 2020-11-01
+Nov  1 00:01:01 aluk10-pri anacron[7418]: Normal exit (0 jobs run)
+Nov  1 00:01:01 aluk10-pri run-parts[7409]: (/etc/cron.hourly) finished 0anacron
+Nov  1 01:01:01 aluk10-pri CROND[7440]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  1 01:01:01 aluk10-pri run-parts[7440]: (/etc/cron.hourly) starting 0anacron
+Nov  1 01:01:01 aluk10-pri anacron[7449]: Anacron started on 2020-11-01
+Nov  1 01:01:01 aluk10-pri anacron[7449]: Normal exit (0 jobs run)
+Nov  1 01:01:01 aluk10-pri run-parts[7440]: (/etc/cron.hourly) finished 0anacron
+Nov  1 01:01:01 aluk10-pri CROND[7465]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  1 01:01:01 aluk10-pri run-parts[7465]: (/etc/cron.hourly) starting 0anacron
+Nov  1 01:01:01 aluk10-pri anacron[7474]: Anacron started on 2020-11-01
+Nov  1 01:01:01 aluk10-pri anacron[7474]: Normal exit (0 jobs run)
+Nov  1 01:01:01 aluk10-pri run-parts[7465]: (/etc/cron.hourly) finished 0anacron
+Nov  1 02:01:01 aluk10-pri CROND[7490]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  1 02:01:01 aluk10-pri run-parts[7490]: (/etc/cron.hourly) starting 0anacron
+Nov  1 02:01:01 aluk10-pri anacron[7499]: Anacron started on 2020-11-01
+Nov  1 02:01:01 aluk10-pri anacron[7499]: Normal exit (0 jobs run)
+Nov  1 02:01:01 aluk10-pri run-parts[7490]: (/etc/cron.hourly) finished 0anacron
+Nov  1 03:01:02 aluk10-pri CROND[7521]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  1 03:01:02 aluk10-pri run-parts[7521]: (/etc/cron.hourly) starting 0anacron
+Nov  1 03:01:02 aluk10-pri anacron[7530]: Anacron started on 2020-11-01
+Nov  1 03:01:02 aluk10-pri anacron[7530]: Will run job `cron.daily' in 35 min.
+Nov  1 03:01:02 aluk10-pri anacron[7530]: Jobs will be executed sequentially
+Nov  1 03:01:02 aluk10-pri run-parts[7521]: (/etc/cron.hourly) finished 0anacron
+Nov  1 03:36:02 aluk10-pri anacron[7530]: Job `cron.daily' started
+Nov  1 03:36:02 aluk10-pri run-parts[7539]: (/etc/cron.daily) starting logrotate

@@ -1,0 +1,7 @@
+Oct 27 17:32:18 vkim11-pri sshd[9439]: Accepted publickey for instructor from 172.16.0.1 port 48354 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 27 17:32:18 vkim11-pri systemd[9443]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:18 vkim11-pri sshd[9439]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:18 vkim11-pri sshd[9455]: Received disconnect from 172.16.0.1 port 48354:11: disconnected by user
+Oct 27 17:32:18 vkim11-pri sshd[9455]: Disconnected from user instructor 172.16.0.1 port 48354
+Oct 27 17:32:18 vkim11-pri sshd[9439]: pam_unix(sshd:session): session closed for user instructor
+Oct 27 17:32:18 vkim11-pri systemd[9449]: pam_unix(systemd-user:session): session closed for user instructor

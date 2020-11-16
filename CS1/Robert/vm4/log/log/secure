@@ -1,0 +1,286 @@
+Nov  8 15:55:40 rjacinto1-rns sudo[14402]: student : TTY=tty1 ; PWD=/home/student/rjacinto1/lab4 ; USER=root ; COMMAND=/bin/su
+Nov  8 15:55:40 rjacinto1-rns sudo[14402]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 15:55:40 rjacinto1-rns sudo[14402]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  8 15:55:40 rjacinto1-rns su[14404]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 15:55:40 rjacinto1-rns su[14404]: pam_unix(su:session): session opened for user root by student(uid=0)
+Nov  8 22:21:15 rjacinto1-rns polkitd[989]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  8 22:21:15 rjacinto1-rns polkitd[989]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  8 22:21:15 rjacinto1-rns polkitd[989]: Finished loading, compiling and executing 2 rules
+Nov  8 22:21:15 rjacinto1-rns polkitd[989]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  8 22:21:20 rjacinto1-rns sshd[1027]: Server listening on 0.0.0.0 port 22.
+Nov  8 22:21:20 rjacinto1-rns sshd[1027]: Server listening on :: port 22.
+Nov  8 22:21:37 rjacinto1-rns login[1107]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=rjacinto1
+Nov  8 22:21:39 rjacinto1-rns login[1107]: FAILED LOGIN 1 FROM tty1 FOR rjacinto1, Authentication failure
+Nov  8 22:22:21 rjacinto1-rns polkitd[983]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  8 22:22:21 rjacinto1-rns polkitd[983]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  8 22:22:21 rjacinto1-rns polkitd[983]: Finished loading, compiling and executing 2 rules
+Nov  8 22:22:21 rjacinto1-rns polkitd[983]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  8 22:22:24 rjacinto1-rns sshd[1025]: Server listening on 0.0.0.0 port 22.
+Nov  8 22:22:24 rjacinto1-rns sshd[1025]: Server listening on :: port 22.
+Nov  8 22:22:43 rjacinto1-rns systemd[1554]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Nov  8 22:22:43 rjacinto1-rns login[1129]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Nov  8 22:22:43 rjacinto1-rns login[1129]: LOGIN ON tty1 BY student
+Nov  8 22:22:52 rjacinto1-rns sudo[1625]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Nov  8 22:22:52 rjacinto1-rns sudo[1625]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:22:52 rjacinto1-rns sudo[1625]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  8 22:22:52 rjacinto1-rns su[1627]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:22:52 rjacinto1-rns su[1627]: pam_unix(su:session): session opened for user root by student(uid=0)
+Nov 10 15:06:02 rjacinto1-rns sshd[3025]: Accepted publickey for instructor from 172.16.0.1 port 47274 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 10 15:06:02 rjacinto1-rns systemd[3029]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:02 rjacinto1-rns sshd[3025]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:02 rjacinto1-rns sshd[3040]: Received disconnect from 172.16.0.1 port 47274:11: disconnected by user
+Nov 10 15:06:02 rjacinto1-rns sshd[3040]: Disconnected from user instructor 172.16.0.1 port 47274
+Nov 10 15:06:02 rjacinto1-rns sshd[3025]: pam_unix(sshd:session): session closed for user instructor
+Nov 10 15:06:02 rjacinto1-rns systemd[3034]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 11 20:06:03 rjacinto1-rns sshd[3841]: Accepted publickey for instructor from 172.16.0.1 port 47796 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 11 20:06:03 rjacinto1-rns systemd[3845]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:03 rjacinto1-rns sshd[3841]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:03 rjacinto1-rns sshd[3856]: Received disconnect from 172.16.0.1 port 47796:11: disconnected by user
+Nov 11 20:06:03 rjacinto1-rns sshd[3856]: Disconnected from user instructor 172.16.0.1 port 47796
+Nov 11 20:06:03 rjacinto1-rns sshd[3841]: pam_unix(sshd:session): session closed for user instructor
+Nov 11 20:06:03 rjacinto1-rns systemd[3850]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:05:14 rjacinto1-rns sshd[4771]: Accepted publickey for instructor from 172.16.0.1 port 48244 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:05:14 rjacinto1-rns systemd[4775]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:14 rjacinto1-rns sshd[4771]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:14 rjacinto1-rns sshd[4786]: Received disconnect from 172.16.0.1 port 48244:11: disconnected by user
+Nov 13 01:05:14 rjacinto1-rns sshd[4786]: Disconnected from user instructor 172.16.0.1 port 48244
+Nov 13 01:05:14 rjacinto1-rns sshd[4771]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:05:14 rjacinto1-rns systemd[4780]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:10:02 rjacinto1-rns sshd[4814]: Accepted publickey for instructor from 172.16.0.1 port 48494 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:10:02 rjacinto1-rns systemd[4818]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:10:02 rjacinto1-rns sshd[4814]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:10:02 rjacinto1-rns sshd[4828]: Received disconnect from 172.16.0.1 port 48494:11: disconnected by user
+Nov 13 01:10:02 rjacinto1-rns sshd[4828]: Disconnected from user instructor 172.16.0.1 port 48494
+Nov 13 01:10:02 rjacinto1-rns sshd[4814]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:10:02 rjacinto1-rns systemd[4822]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 14 20:13:51 rjacinto1-rns sshd[17018]: Accepted password for rjacinto1 from 192.168.13.3 port 45738 ssh2
+Nov 14 20:13:51 rjacinto1-rns systemd[17023]: pam_unix(systemd-user:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:13:51 rjacinto1-rns sshd[17018]: pam_unix(sshd:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:13:51 rjacinto1-rns sshd[17033]: Received disconnect from 192.168.13.3 port 45738:11: disconnected by user
+Nov 14 20:13:51 rjacinto1-rns sshd[17033]: Disconnected from user rjacinto1 192.168.13.3 port 45738
+Nov 14 20:13:51 rjacinto1-rns sshd[17018]: pam_unix(sshd:session): session closed for user rjacinto1
+Nov 14 20:13:51 rjacinto1-rns systemd[17027]: pam_unix(systemd-user:session): session closed for user rjacinto1
+Nov 14 20:14:25 rjacinto1-rns sshd[17060]: Accepted password for rjacinto1 from 192.168.13.3 port 45752 ssh2
+Nov 14 20:14:25 rjacinto1-rns systemd[17065]: pam_unix(systemd-user:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:14:26 rjacinto1-rns sshd[17060]: pam_unix(sshd:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:14:26 rjacinto1-rns sshd[17075]: Received disconnect from 192.168.13.3 port 45752:11: disconnected by user
+Nov 14 20:14:26 rjacinto1-rns sshd[17075]: Disconnected from user rjacinto1 192.168.13.3 port 45752
+Nov 14 20:14:26 rjacinto1-rns sshd[17060]: pam_unix(sshd:session): session closed for user rjacinto1
+Nov 14 20:14:26 rjacinto1-rns systemd[17069]: pam_unix(systemd-user:session): session closed for user rjacinto1
+Nov 14 20:14:46 rjacinto1-rns sshd[17101]: Accepted password for rjacinto1 from 192.168.13.3 port 45754 ssh2
+Nov 14 20:14:46 rjacinto1-rns systemd[17106]: pam_unix(systemd-user:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:14:46 rjacinto1-rns sshd[17101]: pam_unix(sshd:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:14:47 rjacinto1-rns sshd[17116]: Received disconnect from 192.168.13.3 port 45754:11: disconnected by user
+Nov 14 20:14:47 rjacinto1-rns sshd[17116]: Disconnected from user rjacinto1 192.168.13.3 port 45754
+Nov 14 20:14:47 rjacinto1-rns sshd[17101]: pam_unix(sshd:session): session closed for user rjacinto1
+Nov 14 20:14:47 rjacinto1-rns systemd[17110]: pam_unix(systemd-user:session): session closed for user rjacinto1
+Nov 14 20:15:25 rjacinto1-rns sshd[17145]: Accepted password for rjacinto1 from 192.168.13.3 port 45756 ssh2
+Nov 14 20:15:25 rjacinto1-rns systemd[17150]: pam_unix(systemd-user:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:15:25 rjacinto1-rns sshd[17145]: pam_unix(sshd:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:15:25 rjacinto1-rns sshd[17160]: Received disconnect from 192.168.13.3 port 45756:11: disconnected by user
+Nov 14 20:15:25 rjacinto1-rns sshd[17160]: Disconnected from user rjacinto1 192.168.13.3 port 45756
+Nov 14 20:15:25 rjacinto1-rns sshd[17145]: pam_unix(sshd:session): session closed for user rjacinto1
+Nov 14 20:15:25 rjacinto1-rns systemd[17154]: pam_unix(systemd-user:session): session closed for user rjacinto1
+Nov 14 20:18:33 rjacinto1-rns sshd[17187]: Accepted password for rjacinto1 from 192.168.13.3 port 45758 ssh2
+Nov 14 20:18:33 rjacinto1-rns systemd[17192]: pam_unix(systemd-user:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:18:33 rjacinto1-rns sshd[17187]: pam_unix(sshd:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:18:33 rjacinto1-rns sshd[17202]: Received disconnect from 192.168.13.3 port 45758:11: disconnected by user
+Nov 14 20:18:33 rjacinto1-rns sshd[17202]: Disconnected from user rjacinto1 192.168.13.3 port 45758
+Nov 14 20:18:33 rjacinto1-rns sshd[17187]: pam_unix(sshd:session): session closed for user rjacinto1
+Nov 14 20:18:33 rjacinto1-rns systemd[17196]: pam_unix(systemd-user:session): session closed for user rjacinto1
+Nov 14 20:20:22 rjacinto1-rns sshd[17226]: Connection closed by authenticating user rjacinto1 192.168.13.3 port 45760 [preauth]
+Nov 14 20:20:22 rjacinto1-rns sshd[17228]: Connection closed by authenticating user rjacinto1 192.168.13.3 port 45762 [preauth]
+Nov 14 20:20:24 rjacinto1-rns sshd[17230]: Accepted password for rjacinto1 from 192.168.13.3 port 45764 ssh2
+Nov 14 20:20:24 rjacinto1-rns systemd[17235]: pam_unix(systemd-user:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:20:24 rjacinto1-rns sshd[17230]: pam_unix(sshd:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:20:24 rjacinto1-rns sshd[17245]: Received disconnect from 192.168.13.3 port 45764:11: disconnected by user
+Nov 14 20:20:24 rjacinto1-rns sshd[17245]: Disconnected from user rjacinto1 192.168.13.3 port 45764
+Nov 14 20:20:24 rjacinto1-rns sshd[17230]: pam_unix(sshd:session): session closed for user rjacinto1
+Nov 14 20:20:24 rjacinto1-rns systemd[17239]: pam_unix(systemd-user:session): session closed for user rjacinto1
+Nov 14 20:20:30 rjacinto1-rns sshd[17273]: Accepted publickey for rjacinto1 from 192.168.13.3 port 45766 ssh2: RSA SHA256:kVgNW/ttyM0GlY5Dn9qceC2kpdXa/Mwlo3fgE0fYhyg
+Nov 14 20:20:30 rjacinto1-rns systemd[17277]: pam_unix(systemd-user:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:20:30 rjacinto1-rns sshd[17273]: pam_unix(sshd:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:20:33 rjacinto1-rns sshd[17287]: Received disconnect from 192.168.13.3 port 45766:11: disconnected by user
+Nov 14 20:20:33 rjacinto1-rns sshd[17287]: Disconnected from user rjacinto1 192.168.13.3 port 45766
+Nov 14 20:20:33 rjacinto1-rns sshd[17273]: pam_unix(sshd:session): session closed for user rjacinto1
+Nov 14 20:20:33 rjacinto1-rns systemd[17281]: pam_unix(systemd-user:session): session closed for user rjacinto1
+Nov 14 20:20:39 rjacinto1-rns sshd[17323]: Connection closed by authenticating user rjacinto1 192.168.13.3 port 45768 [preauth]
+Nov 14 20:21:47 rjacinto1-rns sshd[17325]: Accepted password for rjacinto1 from 192.168.13.3 port 45770 ssh2
+Nov 14 20:21:47 rjacinto1-rns systemd[17330]: pam_unix(systemd-user:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:21:47 rjacinto1-rns sshd[17325]: pam_unix(sshd:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:21:47 rjacinto1-rns sshd[17340]: Received disconnect from 192.168.13.3 port 45770:11: disconnected by user
+Nov 14 20:21:47 rjacinto1-rns sshd[17340]: Disconnected from user rjacinto1 192.168.13.3 port 45770
+Nov 14 20:21:47 rjacinto1-rns sshd[17325]: pam_unix(sshd:session): session closed for user rjacinto1
+Nov 14 20:21:47 rjacinto1-rns systemd[17334]: pam_unix(systemd-user:session): session closed for user rjacinto1
+Nov 14 20:22:10 rjacinto1-rns sshd[17364]: Connection closed by authenticating user rjacinto1 192.168.13.3 port 45772 [preauth]
+Nov 14 20:22:46 rjacinto1-rns sshd[17366]: Accepted password for rjacinto1 from 192.168.13.3 port 45774 ssh2
+Nov 14 20:22:46 rjacinto1-rns systemd[17371]: pam_unix(systemd-user:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:22:46 rjacinto1-rns sshd[17366]: pam_unix(sshd:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:22:46 rjacinto1-rns sshd[17381]: Received disconnect from 192.168.13.3 port 45774:11: disconnected by user
+Nov 14 20:22:46 rjacinto1-rns sshd[17381]: Disconnected from user rjacinto1 192.168.13.3 port 45774
+Nov 14 20:22:46 rjacinto1-rns sshd[17366]: pam_unix(sshd:session): session closed for user rjacinto1
+Nov 14 20:22:46 rjacinto1-rns systemd[17375]: pam_unix(systemd-user:session): session closed for user rjacinto1
+Nov 14 20:24:38 rjacinto1-rns sshd[17404]: Accepted publickey for rjacinto1 from 192.168.13.3 port 45776 ssh2: RSA SHA256:kVgNW/ttyM0GlY5Dn9qceC2kpdXa/Mwlo3fgE0fYhyg
+Nov 14 20:24:38 rjacinto1-rns systemd[17408]: pam_unix(systemd-user:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:24:38 rjacinto1-rns sshd[17404]: pam_unix(sshd:session): session opened for user rjacinto1 by (uid=0)
+Nov 14 20:24:38 rjacinto1-rns sshd[17418]: Received disconnect from 192.168.13.3 port 45776:11: disconnected by user
+Nov 14 20:24:38 rjacinto1-rns sshd[17418]: Disconnected from user rjacinto1 192.168.13.3 port 45776
+Nov 14 20:24:38 rjacinto1-rns sshd[17404]: pam_unix(sshd:session): session closed for user rjacinto1
+Nov 14 20:24:38 rjacinto1-rns systemd[17412]: pam_unix(systemd-user:session): session closed for user rjacinto1
+Nov 14 20:38:31 rjacinto1-rns su[17451]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:38:31 rjacinto1-rns su[17451]: pam_unix(su:session): session opened for user rjacinto1 by student(uid=0)
+Nov 14 20:38:35 rjacinto1-rns sudo[17474]: rjacinto1 : user NOT in sudoers ; TTY=tty1 ; PWD=/home/rjacinto1/backups ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 20:39:03 rjacinto1-rns sudo[17478]: pam_unix(sudo:auth): conversation failed
+Nov 14 20:39:03 rjacinto1-rns sudo[17478]: pam_unix(sudo:auth): auth could not identify password for [rjacinto1]
+Nov 14 20:39:03 rjacinto1-rns sudo[17478]: rjacinto1 : user NOT in sudoers ; TTY=tty1 ; PWD=/home/rjacinto1/backups ; USER=root ; COMMAND=/bin/su
+Nov 14 20:39:08 rjacinto1-rns unix_chkpwd[17482]: password check failed for user (rjacinto1)
+Nov 14 20:39:08 rjacinto1-rns sudo[17480]: pam_unix(sudo:auth): authentication failure; logname=student uid=1002 euid=0 tty=/dev/tty1 ruser=rjacinto1 rhost=  user=rjacinto1
+Nov 14 20:39:09 rjacinto1-rns sudo[17480]: rjacinto1 : user NOT in sudoers ; TTY=tty1 ; PWD=/home/rjacinto1/backups ; USER=root ; COMMAND=student
+Nov 14 20:39:12 rjacinto1-rns su[17483]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:39:12 rjacinto1-rns su[17483]: pam_unix(su:session): session opened for user student by student(uid=1002)
+Nov 14 20:39:23 rjacinto1-rns sudo[17510]: student : TTY=tty1 ; PWD=/home/rjacinto1/backups ; USER=root ; COMMAND=/sbin/usermod -aG wheel rjacinto1
+Nov 14 20:39:23 rjacinto1-rns sudo[17510]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:39:23 rjacinto1-rns sudo[17510]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 20:39:23 rjacinto1-rns usermod[17512]: add 'rjacinto1' to group 'wheel'
+Nov 14 20:39:23 rjacinto1-rns usermod[17512]: add 'rjacinto1' to shadow group 'wheel'
+Nov 14 20:39:23 rjacinto1-rns sudo[17510]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:39:31 rjacinto1-rns su[17521]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:39:31 rjacinto1-rns su[17521]: pam_unix(su:session): session opened for user rjacinto1 by student(uid=1000)
+Nov 14 20:39:34 rjacinto1-rns sudo[17547]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1/backups ; USER=root ; COMMAND=/bin/ls
+Nov 14 20:39:34 rjacinto1-rns sudo[17547]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:39:34 rjacinto1-rns sudo[17547]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 20:39:34 rjacinto1-rns sudo[17547]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:39:41 rjacinto1-rns sudo[17550]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1/backups ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 20:39:41 rjacinto1-rns sudo[17550]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:39:41 rjacinto1-rns sudo[17550]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 20:39:50 rjacinto1-rns sudo[17550]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:40:21 rjacinto1-rns sudo[17554]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1/backups ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 20:40:21 rjacinto1-rns sudo[17554]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:40:21 rjacinto1-rns sudo[17554]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 20:40:31 rjacinto1-rns sudo[17554]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:41:02 rjacinto1-rns systemd[17568]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 20:42:01 rjacinto1-rns systemd[17599]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 20:43:01 rjacinto1-rns systemd[17625]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 20:43:24 rjacinto1-rns sudo[17647]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1/backups ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 20:43:24 rjacinto1-rns sudo[17647]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:43:24 rjacinto1-rns sudo[17647]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 20:44:01 rjacinto1-rns systemd[17654]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 20:44:27 rjacinto1-rns sudo[17647]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:44:28 rjacinto1-rns sudo[17676]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1/backups ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 20:44:28 rjacinto1-rns sudo[17676]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:44:28 rjacinto1-rns sudo[17676]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:06:26 rjacinto1-rns sudo[17676]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:06:31 rjacinto1-rns sudo[17727]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1/backups ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:06:31 rjacinto1-rns sudo[17727]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:06:31 rjacinto1-rns sudo[17727]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:06:32 rjacinto1-rns sudo[17727]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:14:55 rjacinto1-rns sudo[17737]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:14:55 rjacinto1-rns sudo[17737]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:14:55 rjacinto1-rns sudo[17737]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:22:12 rjacinto1-rns sudo[17737]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:22:14 rjacinto1-rns sudo[17742]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:22:14 rjacinto1-rns sudo[17742]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:22:14 rjacinto1-rns sudo[17742]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:22:24 rjacinto1-rns sudo[17742]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:23:19 rjacinto1-rns sudo[17747]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:23:19 rjacinto1-rns sudo[17747]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:23:19 rjacinto1-rns sudo[17747]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:23:25 rjacinto1-rns sudo[17747]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:25:51 rjacinto1-rns unix_chkpwd[17762]: password check failed for user (root)
+Nov 14 22:25:51 rjacinto1-rns su[17760]: pam_unix(su:auth): authentication failure; logname=student uid=1002 euid=0 tty=tty1 ruser=student rhost=  user=root
+Nov 14 22:25:53 rjacinto1-rns sudo[17763]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1 ; USER=root ; COMMAND=/bin/su
+Nov 14 22:25:53 rjacinto1-rns sudo[17763]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:25:53 rjacinto1-rns sudo[17763]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:25:53 rjacinto1-rns su[17765]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:25:53 rjacinto1-rns su[17765]: pam_unix(su:session): session opened for user root by student(uid=0)
+Nov 14 22:26:44 rjacinto1-rns sudo[17785]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:26:44 rjacinto1-rns sudo[17785]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:26:44 rjacinto1-rns sudo[17785]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:27:37 rjacinto1-rns sudo[17785]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:28:47 rjacinto1-rns sudo[17793]: rjacinto1 : TTY=tty1 ; PWD=/home/rjacinto1 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:28:47 rjacinto1-rns sudo[17793]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:28:47 rjacinto1-rns sudo[17793]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:28:49 rjacinto1-rns sudo[17793]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:37:07 rjacinto1-rns sudo[17858]: rjacinto1 : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/bin/tail -f /var/log/syslog
+Nov 14 22:37:07 rjacinto1-rns sudo[17858]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:37:07 rjacinto1-rns sudo[17858]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:37:07 rjacinto1-rns sudo[17858]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:48:01 rjacinto1-rns systemd[17894]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:49:01 rjacinto1-rns systemd[17926]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:50:02 rjacinto1-rns systemd[17953]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:51:01 rjacinto1-rns systemd[17980]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:52:01 rjacinto1-rns systemd[18005]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:53:01 rjacinto1-rns systemd[18031]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:54:01 rjacinto1-rns systemd[18056]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:55:01 rjacinto1-rns systemd[18081]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:56:01 rjacinto1-rns systemd[18106]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:57:01 rjacinto1-rns systemd[18131]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:58:01 rjacinto1-rns systemd[18156]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:59:02 rjacinto1-rns systemd[18181]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:00:01 rjacinto1-rns systemd[18206]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:01:01 rjacinto1-rns systemd[18237]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:02:01 rjacinto1-rns systemd[18273]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:03:01 rjacinto1-rns systemd[18298]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:04:01 rjacinto1-rns systemd[18323]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:05:01 rjacinto1-rns systemd[18348]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:06:01 rjacinto1-rns systemd[18373]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:07:01 rjacinto1-rns systemd[18398]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:08:01 rjacinto1-rns systemd[18423]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:09:01 rjacinto1-rns systemd[18448]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:10:01 rjacinto1-rns systemd[18474]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:11:01 rjacinto1-rns systemd[18499]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:12:01 rjacinto1-rns systemd[18524]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:13:01 rjacinto1-rns systemd[18549]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:14:01 rjacinto1-rns systemd[18574]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:15:01 rjacinto1-rns systemd[18599]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:16:01 rjacinto1-rns systemd[18624]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:17:01 rjacinto1-rns systemd[18650]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:18:01 rjacinto1-rns systemd[18675]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:19:01 rjacinto1-rns systemd[18701]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:20:01 rjacinto1-rns systemd[18726]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:21:01 rjacinto1-rns systemd[18751]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:22:01 rjacinto1-rns systemd[18776]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:23:01 rjacinto1-rns systemd[18801]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:24:01 rjacinto1-rns systemd[18826]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:25:01 rjacinto1-rns systemd[18852]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:26:01 rjacinto1-rns systemd[18877]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:27:01 rjacinto1-rns systemd[18902]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:28:01 rjacinto1-rns systemd[18927]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:29:01 rjacinto1-rns systemd[18952]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:30:01 rjacinto1-rns systemd[18977]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:31:01 rjacinto1-rns systemd[19002]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:32:01 rjacinto1-rns systemd[19028]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:33:01 rjacinto1-rns systemd[19053]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:34:01 rjacinto1-rns systemd[19078]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:35:01 rjacinto1-rns systemd[19103]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:36:01 rjacinto1-rns systemd[19128]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:37:01 rjacinto1-rns systemd[19153]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:38:01 rjacinto1-rns systemd[19179]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:39:02 rjacinto1-rns systemd[19204]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:40:01 rjacinto1-rns systemd[19229]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:41:01 rjacinto1-rns systemd[19254]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:42:01 rjacinto1-rns systemd[19279]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:43:01 rjacinto1-rns systemd[19304]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:44:01 rjacinto1-rns systemd[19329]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:45:01 rjacinto1-rns systemd[19354]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:46:01 rjacinto1-rns systemd[19379]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:47:01 rjacinto1-rns systemd[19405]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:48:01 rjacinto1-rns systemd[19430]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:49:01 rjacinto1-rns systemd[19455]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:50:01 rjacinto1-rns systemd[19480]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:51:01 rjacinto1-rns systemd[19514]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:52:02 rjacinto1-rns systemd[19539]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:53:01 rjacinto1-rns systemd[19565]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:54:01 rjacinto1-rns systemd[19590]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:55:01 rjacinto1-rns systemd[19615]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:56:01 rjacinto1-rns systemd[19640]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:57:01 rjacinto1-rns systemd[19665]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:58:01 rjacinto1-rns systemd[19690]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:59:01 rjacinto1-rns systemd[19716]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:00:01 rjacinto1-rns systemd[19743]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:01:01 rjacinto1-rns systemd[19774]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:02:01 rjacinto1-rns systemd[19812]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:03:01 rjacinto1-rns systemd[19837]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:04:01 rjacinto1-rns systemd[19862]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:05:01 rjacinto1-rns systemd[19888]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:06:01 rjacinto1-rns systemd[19914]: pam_unix(systemd-user:session): session opened for user root by (uid=0)

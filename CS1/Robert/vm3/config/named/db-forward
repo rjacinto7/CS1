@@ -1,0 +1,18 @@
+$ORIGIN rjacinto1.com.
+$TTL    1D
+; SOA records
+@       IN      SOA rjacinto1-pri.rjacinto1.com. root.rjacinto1.com. (
+		0	; Serial
+		3h	; Refresh
+		30m	; Retry
+		3w	; Expire
+		1h	; minimum
+)
+@	NS	rjacinto1-pri.rjacinto1.com.
+
+; A records
+rjacinto1-pri	IN	A	192.168.13.53
+rjacinto1-rns	IN	A	192.168.13.253
+www	IN	A	192.168.13.80
+mail	IN	A	192.168.13.25
+rjacinto1.com.	IN	MX	10 mail.rjacinto1.com.

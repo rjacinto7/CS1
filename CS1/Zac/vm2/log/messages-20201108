@@ -1,0 +1,1256 @@
+Nov  1 03:41:01 zachary-vm2 rsyslogd[1089]: [origin software="rsyslogd" swVersion="8.1911.0-3.el8" x-pid="1089" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Nov  1 04:28:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 04:28:57 zachary-vm2 dnf[12543]: Metadata cache refreshed recently.
+Nov  1 04:28:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 05:29:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 05:29:57 zachary-vm2 dnf[12568]: Metadata cache refreshed recently.
+Nov  1 05:29:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2971] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2982] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2982] dhcp4 (ens192): option expiry               => '1604315220'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2982] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2982] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2982] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2982] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2983] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2983] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2983] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2983] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2983] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2983] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2983] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2983] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2983] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2983] dhcp4 (ens192): option requested_routers    => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2984] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2984] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2984] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2984] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2984] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2984] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  1 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604228820.2984] dhcp4 (ens192): state changed extended -> extended
+Nov  1 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  1 06:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 06:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 06:30:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 06:30:57 zachary-vm2 dnf[12599]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  1 06:30:57 zachary-vm2 dnf[12599]: CentOS-8 - Base                                  27 kB/s | 3.9 kB     00:00
+Nov  1 06:30:58 zachary-vm2 dnf[12599]: CentOS-8 - Extras                               5.5 kB/s | 1.5 kB     00:00
+Nov  1 06:30:58 zachary-vm2 dnf[12599]: Metadata cache created.
+Nov  1 06:30:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 07:31:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 07:31:57 zachary-vm2 dnf[12630]: Metadata cache refreshed recently.
+Nov  1 07:31:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 08:32:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 08:32:57 zachary-vm2 dnf[12655]: Metadata cache refreshed recently.
+Nov  1 08:32:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 09:33:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 09:33:57 zachary-vm2 dnf[12681]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Nov  1 09:33:58 zachary-vm2 dnf[12681]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  1 09:33:58 zachary-vm2 dnf[12681]: CentOS-8 - Extras                               6.7 kB/s | 1.5 kB     00:00
+Nov  1 09:33:58 zachary-vm2 dnf[12681]: Metadata cache created.
+Nov  1 09:33:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 10:34:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 10:34:57 zachary-vm2 dnf[12712]: Metadata cache refreshed recently.
+Nov  1 10:34:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 11:35:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 11:35:57 zachary-vm2 dnf[12738]: Metadata cache refreshed recently.
+Nov  1 11:35:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 12:36:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 12:36:57 zachary-vm2 dnf[12763]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  1 12:36:57 zachary-vm2 dnf[12763]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Nov  1 12:36:58 zachary-vm2 dnf[12763]: CentOS-8 - Extras                               8.3 kB/s | 1.5 kB     00:00
+Nov  1 12:36:58 zachary-vm2 dnf[12763]: Metadata cache created.
+Nov  1 12:36:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 13:37:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 13:37:57 zachary-vm2 dnf[12796]: Metadata cache refreshed recently.
+Nov  1 13:37:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 14:38:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 14:38:57 zachary-vm2 dnf[12821]: Metadata cache refreshed recently.
+Nov  1 14:38:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 15:39:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 15:39:57 zachary-vm2 dnf[12847]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  1 15:39:58 zachary-vm2 dnf[12847]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Nov  1 15:39:58 zachary-vm2 dnf[12847]: CentOS-8 - Extras                               9.1 kB/s | 1.5 kB     00:00
+Nov  1 15:39:58 zachary-vm2 dnf[12847]: Metadata cache created.
+Nov  1 15:39:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 16:40:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 16:40:57 zachary-vm2 dnf[12878]: Metadata cache refreshed recently.
+Nov  1 16:40:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 17:41:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 17:41:57 zachary-vm2 dnf[12903]: Metadata cache refreshed recently.
+Nov  1 17:41:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2972] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2984] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2984] dhcp4 (ens192): option expiry               => '1604358420'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2985] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2985] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2985] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2985] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2985] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2985] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2985] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2985] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2985] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2985] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): option requested_routers    => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  1 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604272020.2986] dhcp4 (ens192): state changed extended -> extended
+Nov  1 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  1 18:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 18:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 18:32:57 zachary-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  1 18:32:57 zachary-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Nov  1 18:42:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 18:42:57 zachary-vm2 dnf[12936]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  1 18:42:57 zachary-vm2 dnf[12936]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Nov  1 18:42:58 zachary-vm2 dnf[12936]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Nov  1 18:42:58 zachary-vm2 dnf[12936]: Metadata cache created.
+Nov  1 18:42:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 19:43:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 19:43:57 zachary-vm2 dnf[12968]: Metadata cache refreshed recently.
+Nov  1 19:43:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 20:44:47 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 20:44:47 zachary-vm2 dnf[12993]: Metadata cache refreshed recently.
+Nov  1 20:44:47 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 21:44:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 21:44:57 zachary-vm2 dnf[13018]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  1 21:44:58 zachary-vm2 dnf[13018]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  1 21:44:58 zachary-vm2 dnf[13018]: CentOS-8 - Extras                               8.2 kB/s | 1.5 kB     00:00
+Nov  1 21:44:58 zachary-vm2 dnf[13018]: Metadata cache created.
+Nov  1 21:44:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 22:45:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 22:45:57 zachary-vm2 dnf[13050]: Metadata cache refreshed recently.
+Nov  1 22:45:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  1 23:46:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  1 23:46:57 zachary-vm2 dnf[13075]: Metadata cache refreshed recently.
+Nov  1 23:46:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 00:00:57 zachary-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  2 00:00:57 zachary-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  2 00:47:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 00:47:57 zachary-vm2 dnf[13105]: CentOS-8 - AppStream                             26 kB/s | 4.3 kB     00:00
+Nov  2 00:47:57 zachary-vm2 dnf[13105]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  2 00:47:58 zachary-vm2 dnf[13105]: CentOS-8 - Extras                               6.8 kB/s | 1.5 kB     00:00
+Nov  2 00:47:58 zachary-vm2 dnf[13105]: Metadata cache created.
+Nov  2 00:47:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 01:48:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 01:48:57 zachary-vm2 dnf[13138]: Metadata cache refreshed recently.
+Nov  2 01:48:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 02:49:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 02:49:57 zachary-vm2 dnf[13166]: Metadata cache refreshed recently.
+Nov  2 02:49:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 03:50:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 03:50:57 zachary-vm2 dnf[13202]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  2 03:50:57 zachary-vm2 dnf[13202]: CentOS-8 - Base                                  36 kB/s | 3.9 kB     00:00
+Nov  2 03:50:58 zachary-vm2 dnf[13202]: CentOS-8 - Extras                               4.0 kB/s | 1.5 kB     00:00
+Nov  2 03:50:58 zachary-vm2 dnf[13202]: Metadata cache created.
+Nov  2 03:50:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 04:51:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 04:51:57 zachary-vm2 dnf[13233]: Metadata cache refreshed recently.
+Nov  2 04:51:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 05:52:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 05:52:57 zachary-vm2 dnf[13259]: Metadata cache refreshed recently.
+Nov  2 05:52:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2974] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2980] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2980] dhcp4 (ens192): option expiry               => '1604401620'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2980] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2980] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2980] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2980] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2980] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2980] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2980] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_routers    => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2981] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2982] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2982] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  2 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604315220.2982] dhcp4 (ens192): state changed extended -> extended
+Nov  2 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  2 06:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  2 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  2 06:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  2 06:53:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 06:53:57 zachary-vm2 dnf[13290]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Nov  2 06:53:57 zachary-vm2 dnf[13290]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  2 06:53:58 zachary-vm2 dnf[13290]: CentOS-8 - Extras                               4.7 kB/s | 1.5 kB     00:00
+Nov  2 06:53:58 zachary-vm2 dnf[13290]: Metadata cache created.
+Nov  2 06:53:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 07:54:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 07:54:57 zachary-vm2 dnf[13322]: Metadata cache refreshed recently.
+Nov  2 07:54:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 08:55:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 08:55:57 zachary-vm2 dnf[13347]: Metadata cache refreshed recently.
+Nov  2 08:55:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 09:56:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 09:56:57 zachary-vm2 dnf[13373]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  2 09:56:57 zachary-vm2 dnf[13373]: CentOS-8 - Base                                  27 kB/s | 3.9 kB     00:00
+Nov  2 09:56:58 zachary-vm2 dnf[13373]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Nov  2 09:56:58 zachary-vm2 dnf[13373]: Metadata cache created.
+Nov  2 09:56:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 10:57:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 10:57:57 zachary-vm2 dnf[13404]: Metadata cache refreshed recently.
+Nov  2 10:57:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 11:58:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 11:58:57 zachary-vm2 dnf[13430]: Metadata cache refreshed recently.
+Nov  2 11:58:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 12:59:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 12:59:57 zachary-vm2 dnf[13455]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Nov  2 12:59:58 zachary-vm2 dnf[13455]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Nov  2 12:59:58 zachary-vm2 dnf[13455]: CentOS-8 - Extras                               4.7 kB/s | 1.5 kB     00:00
+Nov  2 12:59:58 zachary-vm2 dnf[13455]: Metadata cache created.
+Nov  2 12:59:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 14:00:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 14:00:57 zachary-vm2 dnf[13487]: Metadata cache refreshed recently.
+Nov  2 14:00:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 15:01:01 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 15:01:02 zachary-vm2 dnf[13513]: Metadata cache refreshed recently.
+Nov  2 15:01:02 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 16:01:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 16:01:57 zachary-vm2 dnf[13548]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Nov  2 16:01:57 zachary-vm2 dnf[13548]: CentOS-8 - Base                                  27 kB/s | 3.9 kB     00:00
+Nov  2 16:01:58 zachary-vm2 dnf[13548]: CentOS-8 - Extras                               2.0 kB/s | 1.5 kB     00:00
+Nov  2 16:01:58 zachary-vm2 dnf[13548]: Metadata cache created.
+Nov  2 16:01:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 17:02:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 17:02:57 zachary-vm2 dnf[13579]: Metadata cache refreshed recently.
+Nov  2 17:02:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 18:03:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 18:03:57 zachary-vm2 dnf[13605]: Metadata cache refreshed recently.
+Nov  2 18:03:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2973] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2982] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2982] dhcp4 (ens192): option expiry               => '1604444820'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2982] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2982] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2982] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2982] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2982] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2983] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2983] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2983] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2983] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2983] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2983] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2983] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2983] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2983] dhcp4 (ens192): option requested_routers    => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2983] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2984] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2984] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2984] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2984] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2984] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  2 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604358420.2984] dhcp4 (ens192): state changed extended -> extended
+Nov  2 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  2 18:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  2 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  2 18:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  2 18:33:57 zachary-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  2 18:33:57 zachary-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Nov  2 19:04:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 19:04:57 zachary-vm2 dnf[13637]: CentOS-8 - AppStream                             20 kB/s | 4.3 kB     00:00
+Nov  2 19:04:57 zachary-vm2 dnf[13637]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  2 19:04:58 zachary-vm2 dnf[13637]: CentOS-8 - Extras                               6.3 kB/s | 1.5 kB     00:00
+Nov  2 19:04:58 zachary-vm2 dnf[13637]: Metadata cache created.
+Nov  2 19:04:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 20:05:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 20:05:57 zachary-vm2 dnf[13669]: Metadata cache refreshed recently.
+Nov  2 20:05:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 21:06:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 21:06:57 zachary-vm2 dnf[13694]: Metadata cache refreshed recently.
+Nov  2 21:06:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 22:07:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 22:07:57 zachary-vm2 dnf[13721]: CentOS-8 - AppStream                            9.1 kB/s | 4.3 kB     00:00
+Nov  2 22:07:58 zachary-vm2 dnf[13721]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  2 22:07:58 zachary-vm2 dnf[13721]: CentOS-8 - Extras                               8.2 kB/s | 1.5 kB     00:00
+Nov  2 22:07:58 zachary-vm2 dnf[13721]: Metadata cache created.
+Nov  2 22:07:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  2 23:08:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  2 23:08:57 zachary-vm2 dnf[13752]: Metadata cache refreshed recently.
+Nov  2 23:08:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 00:00:57 zachary-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  3 00:00:57 zachary-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  3 00:09:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 00:09:57 zachary-vm2 dnf[13781]: Metadata cache refreshed recently.
+Nov  3 00:09:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 01:10:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 01:10:57 zachary-vm2 dnf[13809]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Nov  3 01:10:57 zachary-vm2 dnf[13809]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  3 01:10:58 zachary-vm2 dnf[13809]: CentOS-8 - Extras                               8.0 kB/s | 1.5 kB     00:00
+Nov  3 01:10:58 zachary-vm2 dnf[13809]: Metadata cache created.
+Nov  3 01:10:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 02:11:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 02:11:57 zachary-vm2 dnf[13842]: Metadata cache refreshed recently.
+Nov  3 02:11:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 03:12:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 03:12:57 zachary-vm2 dnf[13870]: Metadata cache refreshed recently.
+Nov  3 03:12:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 04:13:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 04:13:57 zachary-vm2 dnf[13904]: CentOS-8 - AppStream                            9.1 kB/s | 4.3 kB     00:00
+Nov  3 04:13:58 zachary-vm2 dnf[13904]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  3 04:13:58 zachary-vm2 dnf[13904]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Nov  3 04:13:58 zachary-vm2 dnf[13904]: Metadata cache created.
+Nov  3 04:13:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 05:14:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 05:14:57 zachary-vm2 dnf[13936]: Metadata cache refreshed recently.
+Nov  3 05:14:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2976] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2980] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option expiry               => '1604488020'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2981] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2982] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2982] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2982] dhcp4 (ens192): option requested_routers    => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2982] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2982] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2982] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2982] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2982] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2982] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  3 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604401620.2982] dhcp4 (ens192): state changed extended -> extended
+Nov  3 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  3 06:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  3 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  3 06:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  3 06:15:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 06:15:57 zachary-vm2 dnf[13966]: Metadata cache refreshed recently.
+Nov  3 06:15:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 07:16:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 07:16:57 zachary-vm2 dnf[13991]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Nov  3 07:16:58 zachary-vm2 dnf[13991]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  3 07:16:58 zachary-vm2 dnf[13991]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Nov  3 07:16:58 zachary-vm2 dnf[13991]: Metadata cache created.
+Nov  3 07:16:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 08:17:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 08:17:57 zachary-vm2 dnf[14023]: Metadata cache refreshed recently.
+Nov  3 08:17:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 09:18:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 09:18:57 zachary-vm2 dnf[14049]: Metadata cache refreshed recently.
+Nov  3 09:18:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 10:19:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 10:19:57 zachary-vm2 dnf[14074]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Nov  3 10:19:57 zachary-vm2 dnf[14074]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  3 10:19:58 zachary-vm2 dnf[14074]: CentOS-8 - Extras                               5.7 kB/s | 1.5 kB     00:00
+Nov  3 10:19:58 zachary-vm2 dnf[14074]: Metadata cache created.
+Nov  3 10:19:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 11:20:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 11:20:57 zachary-vm2 dnf[14105]: Metadata cache refreshed recently.
+Nov  3 11:20:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 12:21:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 12:21:57 zachary-vm2 dnf[14131]: Metadata cache refreshed recently.
+Nov  3 12:21:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 13:22:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 13:22:57 zachary-vm2 dnf[14159]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Nov  3 13:22:57 zachary-vm2 dnf[14159]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  3 13:22:58 zachary-vm2 dnf[14159]: CentOS-8 - Extras                                10 kB/s | 1.5 kB     00:00
+Nov  3 13:22:58 zachary-vm2 dnf[14159]: Metadata cache created.
+Nov  3 13:22:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 14:23:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 14:23:57 zachary-vm2 dnf[14191]: Metadata cache refreshed recently.
+Nov  3 14:23:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 15:24:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 15:24:57 zachary-vm2 dnf[14216]: Metadata cache refreshed recently.
+Nov  3 15:24:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 16:25:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 16:25:57 zachary-vm2 dnf[14241]: CentOS-8 - AppStream                             23 kB/s | 4.3 kB     00:00
+Nov  3 16:25:57 zachary-vm2 dnf[14241]: CentOS-8 - Base                                  25 kB/s | 3.9 kB     00:00
+Nov  3 16:25:58 zachary-vm2 dnf[14241]: CentOS-8 - Extras                               5.9 kB/s | 1.5 kB     00:00
+Nov  3 16:25:58 zachary-vm2 dnf[14241]: Metadata cache created.
+Nov  3 16:25:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 17:26:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 17:26:57 zachary-vm2 dnf[14272]: Metadata cache refreshed recently.
+Nov  3 17:26:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2990] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2998] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2998] dhcp4 (ens192): option expiry               => '1604531220'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2998] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2998] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2998] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2998] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2998] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2998] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2999] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2999] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2999] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2999] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2999] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2999] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2999] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2999] dhcp4 (ens192): option requested_routers    => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2999] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.2999] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.3000] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.3000] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.3000] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.3000] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  3 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604444820.3000] dhcp4 (ens192): state changed extended -> extended
+Nov  3 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  3 18:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  3 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  3 18:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  3 18:27:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 18:27:57 zachary-vm2 dnf[14303]: Metadata cache refreshed recently.
+Nov  3 18:27:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 18:34:57 zachary-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  3 18:34:57 zachary-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Nov  3 19:28:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 19:28:57 zachary-vm2 dnf[14331]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  3 19:28:58 zachary-vm2 dnf[14331]: CentOS-8 - Base                                 6.5 kB/s | 3.9 kB     00:00
+Nov  3 19:28:58 zachary-vm2 dnf[14331]: CentOS-8 - Extras                               4.4 kB/s | 1.5 kB     00:00
+Nov  3 19:28:58 zachary-vm2 dnf[14331]: Metadata cache created.
+Nov  3 19:28:59 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 20:29:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 20:29:57 zachary-vm2 dnf[14363]: Metadata cache refreshed recently.
+Nov  3 20:29:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 21:30:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 21:30:57 zachary-vm2 dnf[14388]: Metadata cache refreshed recently.
+Nov  3 21:30:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 22:31:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 22:31:57 zachary-vm2 dnf[14413]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Nov  3 22:31:57 zachary-vm2 dnf[14413]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  3 22:31:58 zachary-vm2 dnf[14413]: CentOS-8 - Extras                                14 kB/s | 1.5 kB     00:00
+Nov  3 22:31:58 zachary-vm2 dnf[14413]: Metadata cache created.
+Nov  3 22:31:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  3 23:32:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  3 23:32:57 zachary-vm2 dnf[14445]: Metadata cache refreshed recently.
+Nov  3 23:32:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 00:00:57 zachary-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  4 00:00:57 zachary-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  4 00:33:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 00:33:57 zachary-vm2 dnf[14475]: Metadata cache refreshed recently.
+Nov  4 00:33:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 01:34:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 01:34:57 zachary-vm2 dnf[14502]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  4 01:34:57 zachary-vm2 dnf[14502]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  4 01:34:58 zachary-vm2 dnf[14502]: CentOS-8 - Extras                               5.9 kB/s | 1.5 kB     00:00
+Nov  4 01:34:58 zachary-vm2 dnf[14502]: Metadata cache created.
+Nov  4 01:34:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 02:35:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 02:35:57 zachary-vm2 dnf[14535]: Metadata cache refreshed recently.
+Nov  4 02:35:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 03:36:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 03:36:57 zachary-vm2 dnf[14572]: Metadata cache refreshed recently.
+Nov  4 03:36:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 04:37:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 04:37:57 zachary-vm2 dnf[14600]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Nov  4 04:37:58 zachary-vm2 dnf[14600]: CentOS-8 - Base                                  10 kB/s | 3.9 kB     00:00
+Nov  4 04:37:58 zachary-vm2 dnf[14600]: CentOS-8 - Extras                               9.4 kB/s | 1.5 kB     00:00
+Nov  4 04:37:58 zachary-vm2 dnf[14600]: Metadata cache created.
+Nov  4 04:37:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 05:38:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 05:38:57 zachary-vm2 dnf[14632]: Metadata cache refreshed recently.
+Nov  4 05:38:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2986] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2990] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2990] dhcp4 (ens192): option expiry               => '1604574420'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2991] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2992] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2992] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2992] dhcp4 (ens192): option requested_routers    => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2992] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2992] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2992] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2992] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2992] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2992] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  4 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604488020.2992] dhcp4 (ens192): state changed extended -> extended
+Nov  4 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  4 06:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  4 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  4 06:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  4 06:39:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 06:39:57 zachary-vm2 dnf[14662]: Metadata cache refreshed recently.
+Nov  4 06:39:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 07:40:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 07:40:57 zachary-vm2 dnf[14688]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Nov  4 07:40:58 zachary-vm2 dnf[14688]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  4 07:40:58 zachary-vm2 dnf[14688]: CentOS-8 - Extras                               6.8 kB/s | 1.5 kB     00:00
+Nov  4 07:40:58 zachary-vm2 dnf[14688]: Metadata cache created.
+Nov  4 07:40:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 08:41:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 08:41:57 zachary-vm2 dnf[14719]: Metadata cache refreshed recently.
+Nov  4 08:41:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 09:42:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 09:42:57 zachary-vm2 dnf[14745]: Metadata cache refreshed recently.
+Nov  4 09:42:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 10:43:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 10:43:57 zachary-vm2 dnf[14770]: CentOS-8 - AppStream                            8.8 kB/s | 4.3 kB     00:00
+Nov  4 10:43:58 zachary-vm2 dnf[14770]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Nov  4 10:43:58 zachary-vm2 dnf[14770]: CentOS-8 - Extras                               6.0 kB/s | 1.5 kB     00:00
+Nov  4 10:43:58 zachary-vm2 dnf[14770]: Metadata cache created.
+Nov  4 10:43:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 11:44:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 11:44:57 zachary-vm2 dnf[14802]: Metadata cache refreshed recently.
+Nov  4 11:44:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 12:45:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 12:45:57 zachary-vm2 dnf[14827]: Metadata cache refreshed recently.
+Nov  4 12:45:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 13:46:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 13:46:57 zachary-vm2 dnf[14852]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  4 13:46:58 zachary-vm2 dnf[14852]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Nov  4 13:46:58 zachary-vm2 dnf[14852]: CentOS-8 - Extras                                14 kB/s | 1.5 kB     00:00
+Nov  4 13:46:58 zachary-vm2 dnf[14852]: Metadata cache created.
+Nov  4 13:46:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 14:47:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 14:47:57 zachary-vm2 dnf[14884]: Metadata cache refreshed recently.
+Nov  4 14:47:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 15:48:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 15:48:57 zachary-vm2 dnf[14910]: Metadata cache refreshed recently.
+Nov  4 15:48:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 16:49:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 16:49:57 zachary-vm2 dnf[14935]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Nov  4 16:49:58 zachary-vm2 dnf[14935]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  4 16:49:58 zachary-vm2 dnf[14935]: CentOS-8 - Extras                               7.1 kB/s | 1.5 kB     00:00
+Nov  4 16:49:58 zachary-vm2 dnf[14935]: Metadata cache created.
+Nov  4 16:49:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 17:50:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 17:50:57 zachary-vm2 dnf[14966]: Metadata cache refreshed recently.
+Nov  4 17:50:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2989] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2993] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2993] dhcp4 (ens192): option expiry               => '1604617620'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2993] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2993] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2993] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2993] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2993] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2994] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2994] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2994] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2994] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2994] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2994] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2994] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2994] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2994] dhcp4 (ens192): option requested_routers    => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2995] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2995] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2995] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2995] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2995] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2995] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  4 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604531220.2995] dhcp4 (ens192): state changed extended -> extended
+Nov  4 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  4 18:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  4 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  4 18:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  4 18:35:57 zachary-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  4 18:35:57 zachary-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Nov  4 18:51:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 18:51:57 zachary-vm2 dnf[14999]: Metadata cache refreshed recently.
+Nov  4 18:51:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 19:52:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 19:52:57 zachary-vm2 dnf[15025]: CentOS-8 - AppStream                             23 kB/s | 4.3 kB     00:00
+Nov  4 19:52:57 zachary-vm2 dnf[15025]: CentOS-8 - Base                                  33 kB/s | 3.9 kB     00:00
+Nov  4 19:52:58 zachary-vm2 dnf[15025]: CentOS-8 - Extras                               5.5 kB/s | 1.5 kB     00:00
+Nov  4 19:52:58 zachary-vm2 dnf[15025]: Metadata cache created.
+Nov  4 19:52:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 20:53:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 20:53:57 zachary-vm2 dnf[15057]: Metadata cache refreshed recently.
+Nov  4 20:53:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 21:54:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 21:54:57 zachary-vm2 dnf[15082]: Metadata cache refreshed recently.
+Nov  4 21:54:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 22:55:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 22:55:57 zachary-vm2 dnf[15108]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Nov  4 22:55:57 zachary-vm2 dnf[15108]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  4 22:55:58 zachary-vm2 dnf[15108]: CentOS-8 - Extras                                11 kB/s | 1.5 kB     00:00
+Nov  4 22:55:58 zachary-vm2 dnf[15108]: Metadata cache created.
+Nov  4 22:55:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  4 23:56:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  4 23:56:57 zachary-vm2 dnf[15139]: Metadata cache refreshed recently.
+Nov  4 23:56:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 00:00:57 zachary-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  5 00:00:57 zachary-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  5 00:57:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 00:57:57 zachary-vm2 dnf[15168]: Metadata cache refreshed recently.
+Nov  5 00:57:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 01:58:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 01:58:57 zachary-vm2 dnf[15196]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  5 01:58:57 zachary-vm2 dnf[15196]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  5 01:58:58 zachary-vm2 dnf[15196]: CentOS-8 - Extras                                14 kB/s | 1.5 kB     00:00
+Nov  5 01:58:58 zachary-vm2 dnf[15196]: Metadata cache created.
+Nov  5 01:58:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 02:59:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 02:59:57 zachary-vm2 dnf[15230]: Metadata cache refreshed recently.
+Nov  5 02:59:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 04:00:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 04:00:57 zachary-vm2 dnf[15266]: Metadata cache refreshed recently.
+Nov  5 04:00:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 05:01:01 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 05:01:01 zachary-vm2 dnf[15292]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Nov  5 05:01:02 zachary-vm2 dnf[15292]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  5 05:01:02 zachary-vm2 dnf[15292]: CentOS-8 - Extras                               6.2 kB/s | 1.5 kB     00:00
+Nov  5 05:01:02 zachary-vm2 dnf[15292]: Metadata cache created.
+Nov  5 05:01:02 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 06:01:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 06:01:57 zachary-vm2 dnf[15334]: Metadata cache refreshed recently.
+Nov  5 06:01:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2988] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2992] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2993] dhcp4 (ens192): option expiry               => '1604660820'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2993] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2993] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2993] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2993] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2993] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2993] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2993] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2993] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2994] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2994] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2994] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2994] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2994] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2994] dhcp4 (ens192): option requested_routers    => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2994] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2994] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2994] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2994] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2995] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2995] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  5 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604574420.2995] dhcp4 (ens192): state changed extended -> extended
+Nov  5 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  5 06:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  5 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  5 06:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  5 07:02:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 07:02:57 zachary-vm2 dnf[15364]: Metadata cache refreshed recently.
+Nov  5 07:02:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 08:03:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 08:03:58 zachary-vm2 dnf[15390]: CentOS-8 - AppStream                            7.0 kB/s | 4.3 kB     00:00
+Nov  5 08:03:58 zachary-vm2 dnf[15390]: CentOS-8 - Base                                  33 kB/s | 3.9 kB     00:00
+Nov  5 08:03:58 zachary-vm2 dnf[15390]: CentOS-8 - Extras                               5.0 kB/s | 1.5 kB     00:00
+Nov  5 08:03:58 zachary-vm2 dnf[15390]: Metadata cache created.
+Nov  5 08:03:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 09:04:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 09:04:57 zachary-vm2 dnf[15421]: Metadata cache refreshed recently.
+Nov  5 09:04:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 10:05:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 10:05:57 zachary-vm2 dnf[15447]: Metadata cache refreshed recently.
+Nov  5 10:05:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 11:06:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 11:06:57 zachary-vm2 dnf[15472]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  5 11:06:58 zachary-vm2 dnf[15472]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  5 11:06:58 zachary-vm2 dnf[15472]: CentOS-8 - Extras                               5.0 kB/s | 1.5 kB     00:00
+Nov  5 11:06:58 zachary-vm2 dnf[15472]: Metadata cache created.
+Nov  5 11:06:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 12:07:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 12:07:57 zachary-vm2 dnf[15505]: Metadata cache refreshed recently.
+Nov  5 12:07:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 13:08:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 13:08:57 zachary-vm2 dnf[15530]: Metadata cache refreshed recently.
+Nov  5 13:08:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 14:09:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 14:09:57 zachary-vm2 dnf[15556]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Nov  5 14:09:57 zachary-vm2 dnf[15556]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  5 14:09:58 zachary-vm2 dnf[15556]: CentOS-8 - Extras                               7.8 kB/s | 1.5 kB     00:00
+Nov  5 14:09:58 zachary-vm2 dnf[15556]: Metadata cache created.
+Nov  5 14:09:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 15:10:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 15:10:57 zachary-vm2 dnf[15587]: Metadata cache refreshed recently.
+Nov  5 15:10:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 16:11:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 16:11:57 zachary-vm2 dnf[15612]: Metadata cache refreshed recently.
+Nov  5 16:11:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 17:12:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 17:12:57 zachary-vm2 dnf[15638]: CentOS-8 - AppStream                             39 kB/s | 4.3 kB     00:00
+Nov  5 17:12:57 zachary-vm2 dnf[15638]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  5 17:12:58 zachary-vm2 dnf[15638]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Nov  5 17:12:58 zachary-vm2 dnf[15638]: Metadata cache created.
+Nov  5 17:12:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2976] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2982] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2982] dhcp4 (ens192): option expiry               => '1604704020'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2982] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2982] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2983] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2984] dhcp4 (ens192): option requested_routers    => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2984] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2984] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2984] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2984] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2984] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2984] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  5 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604617620.2984] dhcp4 (ens192): state changed extended -> extended
+Nov  5 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  5 18:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  5 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  5 18:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  5 18:13:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 18:13:57 zachary-vm2 dnf[15675]: Metadata cache refreshed recently.
+Nov  5 18:13:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 18:36:57 zachary-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  5 18:36:57 zachary-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Nov  5 19:14:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 19:14:57 zachary-vm2 dnf[15702]: Metadata cache refreshed recently.
+Nov  5 19:14:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 20:15:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 20:15:57 zachary-vm2 dnf[15727]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  5 20:15:57 zachary-vm2 dnf[15727]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Nov  5 20:15:58 zachary-vm2 dnf[15727]: CentOS-8 - Extras                               8.3 kB/s | 1.5 kB     00:00
+Nov  5 20:15:58 zachary-vm2 dnf[15727]: Metadata cache created.
+Nov  5 20:15:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 21:16:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 21:16:57 zachary-vm2 dnf[15759]: Metadata cache refreshed recently.
+Nov  5 21:16:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 22:17:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 22:17:57 zachary-vm2 dnf[15784]: Metadata cache refreshed recently.
+Nov  5 22:17:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  5 23:18:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  5 23:18:57 zachary-vm2 dnf[15810]: CentOS-8 - AppStream                             32 kB/s | 4.3 kB     00:00
+Nov  5 23:18:57 zachary-vm2 dnf[15810]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Nov  5 23:18:58 zachary-vm2 dnf[15810]: CentOS-8 - Extras                               5.0 kB/s | 1.5 kB     00:00
+Nov  5 23:18:58 zachary-vm2 dnf[15810]: Metadata cache created.
+Nov  5 23:18:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 00:00:57 zachary-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  6 00:00:57 zachary-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  6 00:19:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 00:19:57 zachary-vm2 dnf[15845]: Metadata cache refreshed recently.
+Nov  6 00:19:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 01:20:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 01:20:57 zachary-vm2 dnf[15873]: Metadata cache refreshed recently.
+Nov  6 01:20:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 02:21:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 02:21:57 zachary-vm2 dnf[15900]: CentOS-8 - AppStream                             44 kB/s | 4.3 kB     00:00
+Nov  6 02:21:57 zachary-vm2 dnf[15900]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  6 02:21:58 zachary-vm2 dnf[15900]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Nov  6 02:21:58 zachary-vm2 dnf[15900]: Metadata cache created.
+Nov  6 02:21:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 03:22:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 03:22:57 zachary-vm2 dnf[15933]: Metadata cache refreshed recently.
+Nov  6 03:22:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 04:23:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 04:23:57 zachary-vm2 dnf[15968]: Metadata cache refreshed recently.
+Nov  6 04:23:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 05:24:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 05:24:57 zachary-vm2 dnf[15994]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  6 05:24:58 zachary-vm2 dnf[15994]: CentOS-8 - Base                                  19 kB/s | 3.9 kB     00:00
+Nov  6 05:24:58 zachary-vm2 dnf[15994]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Nov  6 05:24:58 zachary-vm2 dnf[15994]: Metadata cache created.
+Nov  6 05:24:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2985] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2989] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2989] dhcp4 (ens192): option expiry               => '1604747220'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2989] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2989] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2989] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2989] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2989] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2989] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_routers    => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2990] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2991] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2991] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  6 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604660820.2991] dhcp4 (ens192): state changed extended -> extended
+Nov  6 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  6 06:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  6 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  6 06:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  6 06:25:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 06:25:57 zachary-vm2 dnf[16030]: Metadata cache refreshed recently.
+Nov  6 06:25:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 07:26:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 07:26:57 zachary-vm2 dnf[16055]: Metadata cache refreshed recently.
+Nov  6 07:26:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 08:27:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 08:27:57 zachary-vm2 dnf[16081]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Nov  6 08:27:57 zachary-vm2 dnf[16081]: CentOS-8 - Base                                  28 kB/s | 3.9 kB     00:00
+Nov  6 08:27:58 zachary-vm2 dnf[16081]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Nov  6 08:27:58 zachary-vm2 dnf[16081]: Metadata cache created.
+Nov  6 08:27:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 09:28:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 09:28:57 zachary-vm2 dnf[16113]: Metadata cache refreshed recently.
+Nov  6 09:28:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 10:29:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 10:29:57 zachary-vm2 dnf[16138]: Metadata cache refreshed recently.
+Nov  6 10:29:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 11:30:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 11:30:57 zachary-vm2 dnf[16163]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Nov  6 11:30:57 zachary-vm2 dnf[16163]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  6 11:30:58 zachary-vm2 dnf[16163]: CentOS-8 - Extras                               5.7 kB/s | 1.5 kB     00:00
+Nov  6 11:30:58 zachary-vm2 dnf[16163]: Metadata cache created.
+Nov  6 11:30:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 12:31:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 12:31:57 zachary-vm2 dnf[16194]: Metadata cache refreshed recently.
+Nov  6 12:31:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 13:32:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 13:32:57 zachary-vm2 dnf[16220]: Metadata cache refreshed recently.
+Nov  6 13:32:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 14:33:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 14:33:57 zachary-vm2 dnf[16246]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Nov  6 14:33:57 zachary-vm2 dnf[16246]: CentOS-8 - Base                                  34 kB/s | 3.9 kB     00:00
+Nov  6 14:33:58 zachary-vm2 dnf[16246]: CentOS-8 - Extras                               7.6 kB/s | 1.5 kB     00:00
+Nov  6 14:33:58 zachary-vm2 dnf[16246]: Metadata cache created.
+Nov  6 14:33:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 15:34:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 15:34:57 zachary-vm2 dnf[16277]: Metadata cache refreshed recently.
+Nov  6 15:34:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 16:35:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 16:35:57 zachary-vm2 dnf[16303]: Metadata cache refreshed recently.
+Nov  6 16:35:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 17:36:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 17:36:57 zachary-vm2 dnf[16328]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Nov  6 17:36:57 zachary-vm2 dnf[16328]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Nov  6 17:36:58 zachary-vm2 dnf[16328]: CentOS-8 - Extras                               6.2 kB/s | 1.5 kB     00:00
+Nov  6 17:36:58 zachary-vm2 dnf[16328]: Metadata cache created.
+Nov  6 17:36:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.2994] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3005] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option expiry               => '1604790420'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3006] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3007] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3007] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3007] dhcp4 (ens192): option requested_routers    => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3007] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3007] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3007] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3007] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3007] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3007] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  6 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604704020.3007] dhcp4 (ens192): state changed extended -> extended
+Nov  6 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  6 18:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  6 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  6 18:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  6 18:37:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 18:37:57 zachary-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  6 18:37:57 zachary-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Nov  6 18:37:57 zachary-vm2 dnf[16365]: Metadata cache refreshed recently.
+Nov  6 18:37:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 19:38:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 19:38:57 zachary-vm2 dnf[16393]: Metadata cache refreshed recently.
+Nov  6 19:38:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 20:39:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 20:39:57 zachary-vm2 dnf[16419]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Nov  6 20:39:57 zachary-vm2 dnf[16419]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Nov  6 20:39:58 zachary-vm2 dnf[16419]: CentOS-8 - Extras                               4.8 kB/s | 1.5 kB     00:00
+Nov  6 20:39:58 zachary-vm2 dnf[16419]: Metadata cache created.
+Nov  6 20:39:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 21:40:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 21:40:57 zachary-vm2 dnf[16450]: Metadata cache refreshed recently.
+Nov  6 21:40:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 22:41:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 22:41:57 zachary-vm2 dnf[16475]: Metadata cache refreshed recently.
+Nov  6 22:41:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: Created slice User Slice of UID 1001.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: Starting User Manager for UID 1001...
+Nov  6 23:31:35 zachary-vm2 systemd[1]: Started Session 5 of user instructor.
+Nov  6 23:31:35 zachary-vm2 systemd-logind[1028]: New session 5 of user instructor.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Reached target Paths.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Starting D-Bus User Message Bus Socket.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Reached target Timers.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Listening on D-Bus User Message Bus Socket.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Reached target Sockets.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Reached target Basic System.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Reached target Default.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Startup finished in 44ms.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: Started User Manager for UID 1001.
+Nov  6 23:31:35 zachary-vm2 systemd-logind[1028]: Session 5 logged out. Waiting for processes to exit.
+Nov  6 23:31:35 zachary-vm2 systemd-logind[1028]: Removed session 5.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: Stopping User Manager for UID 1001...
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Stopped target Default.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Stopped target Basic System.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Stopped target Paths.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Stopped target Timers.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Stopped target Sockets.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Closed D-Bus User Message Bus Socket.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Reached target Shutdown.
+Nov  6 23:31:35 zachary-vm2 systemd[16502]: Starting Exit the Session...
+Nov  6 23:31:35 zachary-vm2 systemd[1]: user@1001.service: Killing process 16526 (systemctl) with signal SIGKILL.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: Stopped User Manager for UID 1001.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: Removed slice User Slice of UID 1001.
+Nov  6 23:31:35 zachary-vm2 systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  6 23:31:35 zachary-vm2 systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  6 23:42:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  6 23:42:57 zachary-vm2 dnf[16537]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  6 23:42:58 zachary-vm2 dnf[16537]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  6 23:42:58 zachary-vm2 dnf[16537]: CentOS-8 - Extras                               8.0 kB/s | 1.5 kB     00:00
+Nov  6 23:42:58 zachary-vm2 dnf[16537]: Metadata cache created.
+Nov  6 23:42:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 00:00:57 zachary-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  7 00:00:57 zachary-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  7 00:01:16 zachary-vm2 systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 00:01:16 zachary-vm2 systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 00:01:16 zachary-vm2 systemd[1]: Starting User Manager for UID 1001...
+Nov  7 00:01:16 zachary-vm2 systemd[1]: Started Session 7 of user instructor.
+Nov  7 00:01:16 zachary-vm2 systemd-logind[1028]: New session 7 of user instructor.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Reached target Paths.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Reached target Timers.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Starting D-Bus User Message Bus Socket.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Listening on D-Bus User Message Bus Socket.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Reached target Sockets.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Reached target Basic System.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Reached target Default.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Startup finished in 45ms.
+Nov  7 00:01:16 zachary-vm2 systemd[1]: Started User Manager for UID 1001.
+Nov  7 00:01:16 zachary-vm2 systemd-logind[1028]: Session 7 logged out. Waiting for processes to exit.
+Nov  7 00:01:16 zachary-vm2 systemd-logind[1028]: Removed session 7.
+Nov  7 00:01:16 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:01:16 zachary-vm2 systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Stopped target Default.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Stopped target Basic System.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Stopped target Timers.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Stopped target Sockets.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Closed D-Bus User Message Bus Socket.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Stopped target Paths.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Reached target Shutdown.
+Nov  7 00:01:16 zachary-vm2 systemd[16568]: Starting Exit the Session...
+Nov  7 00:01:16 zachary-vm2 systemd[1]: user@1001.service: Killing process 16593 (systemctl) with signal SIGKILL.
+Nov  7 00:01:16 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:01:16 zachary-vm2 systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 00:01:16 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:01:16 zachary-vm2 systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 00:01:16 zachary-vm2 systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 00:01:17 zachary-vm2 systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 00:43:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 00:43:57 zachary-vm2 dnf[16611]: Metadata cache refreshed recently.
+Nov  7 00:43:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: Starting User Manager for UID 1001...
+Nov  7 00:47:38 zachary-vm2 systemd[1]: Started Session 9 of user instructor.
+Nov  7 00:47:38 zachary-vm2 systemd-logind[1028]: New session 9 of user instructor.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Starting D-Bus User Message Bus Socket.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Reached target Paths.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Reached target Timers.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Listening on D-Bus User Message Bus Socket.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Reached target Sockets.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Reached target Basic System.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Reached target Default.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Startup finished in 44ms.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: Started User Manager for UID 1001.
+Nov  7 00:47:38 zachary-vm2 systemd-logind[1028]: Session 9 logged out. Waiting for processes to exit.
+Nov  7 00:47:38 zachary-vm2 systemd-logind[1028]: Removed session 9.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Stopped target Default.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Stopped target Basic System.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Stopped target Paths.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Stopped target Timers.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Stopped target Sockets.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Closed D-Bus User Message Bus Socket.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Reached target Shutdown.
+Nov  7 00:47:38 zachary-vm2 systemd[16618]: Starting Exit the Session...
+Nov  7 00:47:38 zachary-vm2 systemd[1]: user@1001.service: Killing process 16643 (systemctl) with signal SIGKILL.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 00:47:38 zachary-vm2 systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 00:47:38 zachary-vm2 systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: Starting User Manager for UID 1001...
+Nov  7 00:59:10 zachary-vm2 systemd[1]: Started Session 11 of user instructor.
+Nov  7 00:59:10 zachary-vm2 systemd-logind[1028]: New session 11 of user instructor.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Reached target Paths.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Starting D-Bus User Message Bus Socket.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Reached target Timers.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Listening on D-Bus User Message Bus Socket.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Reached target Sockets.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Reached target Basic System.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Reached target Default.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Startup finished in 44ms.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: Started User Manager for UID 1001.
+Nov  7 00:59:10 zachary-vm2 systemd-logind[1028]: Session 11 logged out. Waiting for processes to exit.
+Nov  7 00:59:10 zachary-vm2 systemd-logind[1028]: Removed session 11.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Stopped target Default.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Stopped target Basic System.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Stopped target Paths.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Stopped target Sockets.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Closed D-Bus User Message Bus Socket.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Stopped target Timers.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Reached target Shutdown.
+Nov  7 00:59:10 zachary-vm2 systemd[16657]: Starting Exit the Session...
+Nov  7 00:59:10 zachary-vm2 systemd[1]: user@1001.service: Killing process 16682 (systemctl) with signal SIGKILL.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 00:59:10 zachary-vm2 systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 00:59:10 zachary-vm2 systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 01:44:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 01:44:57 zachary-vm2 dnf[16712]: Metadata cache refreshed recently.
+Nov  7 01:44:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 02:45:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 02:45:57 zachary-vm2 dnf[16739]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Nov  7 02:45:57 zachary-vm2 dnf[16739]: CentOS-8 - Base                                  26 kB/s | 3.9 kB     00:00
+Nov  7 02:45:57 zachary-vm2 dnf[16739]: CentOS-8 - Extras                                19 kB/s | 1.5 kB     00:00
+Nov  7 02:45:58 zachary-vm2 dnf[16739]: Metadata cache created.
+Nov  7 02:45:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 03:46:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 03:46:57 zachary-vm2 dnf[16782]: Metadata cache refreshed recently.
+Nov  7 03:46:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 04:47:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 04:47:57 zachary-vm2 dnf[16807]: Metadata cache refreshed recently.
+Nov  7 04:47:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 05:48:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 05:48:57 zachary-vm2 dnf[16833]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  7 05:48:58 zachary-vm2 dnf[16833]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Nov  7 05:48:58 zachary-vm2 dnf[16833]: CentOS-8 - Extras                               5.4 kB/s | 1.5 kB     00:00
+Nov  7 05:48:58 zachary-vm2 dnf[16833]: Metadata cache created.
+Nov  7 05:48:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.2999] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3009] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3009] dhcp4 (ens192): option expiry               => '1604833620'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3010] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3010] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3010] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3010] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3010] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3010] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3010] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3010] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3010] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3010] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3011] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3011] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3011] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3011] dhcp4 (ens192): option requested_routers    => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3011] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3011] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3011] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3011] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3012] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3012] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  7 06:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604747220.3012] dhcp4 (ens192): state changed extended -> extended
+Nov  7 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  7 06:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  7 06:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  7 06:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  7 06:49:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 06:49:57 zachary-vm2 dnf[16869]: Metadata cache refreshed recently.
+Nov  7 06:49:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 07:50:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 07:50:57 zachary-vm2 dnf[16895]: Metadata cache refreshed recently.
+Nov  7 07:50:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 08:51:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 08:51:57 zachary-vm2 dnf[16920]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Nov  7 08:51:57 zachary-vm2 dnf[16920]: CentOS-8 - Base                                  23 kB/s | 3.9 kB     00:00
+Nov  7 08:51:58 zachary-vm2 dnf[16920]: CentOS-8 - Extras                               4.0 kB/s | 1.5 kB     00:00
+Nov  7 08:51:58 zachary-vm2 dnf[16920]: Metadata cache created.
+Nov  7 08:51:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 09:52:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 09:52:57 zachary-vm2 dnf[16951]: Metadata cache refreshed recently.
+Nov  7 09:52:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 10:53:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 10:53:57 zachary-vm2 dnf[16977]: Metadata cache refreshed recently.
+Nov  7 10:53:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 11:54:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 11:54:57 zachary-vm2 dnf[17003]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  7 11:54:57 zachary-vm2 dnf[17003]: CentOS-8 - Base                                  28 kB/s | 3.9 kB     00:00
+Nov  7 11:54:58 zachary-vm2 dnf[17003]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Nov  7 11:54:58 zachary-vm2 dnf[17003]: Metadata cache created.
+Nov  7 11:54:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 12:55:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 12:55:57 zachary-vm2 dnf[17034]: Metadata cache refreshed recently.
+Nov  7 12:55:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 13:56:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 13:56:57 zachary-vm2 dnf[17059]: Metadata cache refreshed recently.
+Nov  7 13:56:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 14:57:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 14:57:57 zachary-vm2 dnf[17084]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  7 14:57:58 zachary-vm2 dnf[17084]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  7 14:57:58 zachary-vm2 dnf[17084]: CentOS-8 - Extras                               7.5 kB/s | 1.5 kB     00:00
+Nov  7 14:57:58 zachary-vm2 dnf[17084]: Metadata cache created.
+Nov  7 14:57:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 15:58:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 15:58:57 zachary-vm2 dnf[17116]: Metadata cache refreshed recently.
+Nov  7 15:58:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 16:59:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 16:59:57 zachary-vm2 dnf[17141]: Metadata cache refreshed recently.
+Nov  7 16:59:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 18:00:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 18:00:57 zachary-vm2 dnf[17166]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Nov  7 18:00:57 zachary-vm2 dnf[17166]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Nov  7 18:00:58 zachary-vm2 dnf[17166]: CentOS-8 - Extras                               5.0 kB/s | 1.5 kB     00:00
+Nov  7 18:00:58 zachary-vm2 dnf[17166]: Metadata cache created.
+Nov  7 18:00:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2981] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2994] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2994] dhcp4 (ens192): option expiry               => '1604876820'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2994] dhcp4 (ens192): option ip_address           => '172.16.12.2'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2994] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2994] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2994] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2995] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2995] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2995] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2995] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2995] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2995] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2995] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2995] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2995] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2995] dhcp4 (ens192): option requested_routers    => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2996] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2996] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2996] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2996] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2996] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2996] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  7 18:07:00 zachary-vm2 NetworkManager[989]: <info>  [1604790420.2996] dhcp4 (ens192): state changed extended -> extended
+Nov  7 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  7 18:07:00 zachary-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  7 18:07:00 zachary-vm2 dbus-daemon[988]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  7 18:07:00 zachary-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  7 18:38:57 zachary-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  7 18:38:57 zachary-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Nov  7 19:01:01 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 19:01:02 zachary-vm2 dnf[17206]: Metadata cache refreshed recently.
+Nov  7 19:01:02 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 20:01:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 20:01:57 zachary-vm2 dnf[17241]: Metadata cache refreshed recently.
+Nov  7 20:01:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 21:02:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 21:02:57 zachary-vm2 dnf[17267]: CentOS-8 - AppStream                             34 kB/s | 4.3 kB     00:00
+Nov  7 21:02:57 zachary-vm2 dnf[17267]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  7 21:02:58 zachary-vm2 dnf[17267]: CentOS-8 - Extras                               6.1 kB/s | 1.5 kB     00:00
+Nov  7 21:02:58 zachary-vm2 dnf[17267]: Metadata cache created.
+Nov  7 21:02:58 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 22:03:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 22:03:57 zachary-vm2 dnf[17298]: Metadata cache refreshed recently.
+Nov  7 22:03:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  7 22:32:53 zachary-vm2 systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 22:32:53 zachary-vm2 systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 22:32:53 zachary-vm2 systemd[1]: Starting User Manager for UID 1001...
+Nov  7 22:32:53 zachary-vm2 systemd[1]: Started Session 13 of user instructor.
+Nov  7 22:32:53 zachary-vm2 systemd-logind[1028]: New session 13 of user instructor.
+Nov  7 22:32:53 zachary-vm2 systemd[17311]: Starting D-Bus User Message Bus Socket.
+Nov  7 22:32:53 zachary-vm2 systemd[17311]: Reached target Paths.
+Nov  7 22:32:53 zachary-vm2 systemd[17311]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 22:32:53 zachary-vm2 systemd[17311]: Reached target Timers.
+Nov  7 22:32:53 zachary-vm2 systemd[17311]: Listening on D-Bus User Message Bus Socket.
+Nov  7 22:32:53 zachary-vm2 systemd[17311]: Reached target Sockets.
+Nov  7 22:32:53 zachary-vm2 systemd[17311]: Reached target Basic System.
+Nov  7 22:32:53 zachary-vm2 systemd[17311]: Reached target Default.
+Nov  7 22:32:53 zachary-vm2 systemd[17311]: Startup finished in 43ms.
+Nov  7 22:32:53 zachary-vm2 systemd[1]: Started User Manager for UID 1001.
+Nov  7 22:32:53 zachary-vm2 systemd-logind[1028]: Session 13 logged out. Waiting for processes to exit.
+Nov  7 22:32:53 zachary-vm2 systemd-logind[1028]: Removed session 13.
+Nov  7 22:32:54 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 22:32:54 zachary-vm2 systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 22:32:54 zachary-vm2 systemd[17311]: Stopped target Default.
+Nov  7 22:32:54 zachary-vm2 systemd[17311]: Stopped target Basic System.
+Nov  7 22:32:54 zachary-vm2 systemd[17311]: Stopped target Timers.
+Nov  7 22:32:54 zachary-vm2 systemd[17311]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 22:32:54 zachary-vm2 systemd[17311]: Stopped target Sockets.
+Nov  7 22:32:54 zachary-vm2 systemd[17311]: Closed D-Bus User Message Bus Socket.
+Nov  7 22:32:54 zachary-vm2 systemd[17311]: Stopped target Paths.
+Nov  7 22:32:54 zachary-vm2 systemd[17311]: Reached target Shutdown.
+Nov  7 22:32:54 zachary-vm2 systemd[17311]: Starting Exit the Session...
+Nov  7 22:32:54 zachary-vm2 systemd[1]: user@1001.service: Killing process 17336 (systemctl) with signal SIGKILL.
+Nov  7 22:32:54 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 22:32:54 zachary-vm2 systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 22:32:54 zachary-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 22:32:54 zachary-vm2 systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 22:32:54 zachary-vm2 systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 22:32:54 zachary-vm2 systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 23:04:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  7 23:04:57 zachary-vm2 dnf[17362]: Metadata cache refreshed recently.
+Nov  7 23:04:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  8 00:00:57 zachary-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  8 00:00:57 zachary-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  8 00:05:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  8 00:05:57 zachary-vm2 dnf[17391]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Nov  8 00:05:58 zachary-vm2 dnf[17391]: CentOS-8 - Base                                 3.8 kB/s | 3.9 kB     00:01
+Nov  8 00:05:59 zachary-vm2 dnf[17391]: CentOS-8 - Extras                               6.2 kB/s | 1.5 kB     00:00
+Nov  8 00:05:59 zachary-vm2 dnf[17391]: Metadata cache created.
+Nov  8 00:05:59 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  8 01:06:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  8 01:06:57 zachary-vm2 dnf[17424]: Metadata cache refreshed recently.
+Nov  8 01:06:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  8 02:07:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  8 02:07:57 zachary-vm2 dnf[17453]: Metadata cache refreshed recently.
+Nov  8 02:07:57 zachary-vm2 systemd[1]: Started dnf makecache.
+Nov  8 03:08:57 zachary-vm2 systemd[1]: Starting dnf makecache...
+Nov  8 03:08:57 zachary-vm2 dnf[17480]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  8 03:08:58 zachary-vm2 dnf[17480]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  8 03:08:58 zachary-vm2 dnf[17480]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Nov  8 03:08:58 zachary-vm2 dnf[17480]: Metadata cache created.
+Nov  8 03:08:58 zachary-vm2 systemd[1]: Started dnf makecache.

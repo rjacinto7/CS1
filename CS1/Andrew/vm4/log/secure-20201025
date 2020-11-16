@@ -1,0 +1,629 @@
+Oct 20 21:30:08 localhost sudo[18795]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 20 21:30:08 localhost sudo[18795]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 21:30:08 localhost sudo[18795]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 20 21:30:08 localhost sudo[18795]: pam_unix(sudo:session): session closed for user root
+Oct 20 21:30:14 localhost sudo[18798]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables --flush
+Oct 20 21:30:14 localhost sudo[18798]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 21:30:14 localhost sudo[18798]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 20 21:30:14 localhost sudo[18798]: pam_unix(sudo:session): session closed for user root
+Oct 20 21:30:16 localhost sudo[18802]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 20 21:30:16 localhost sudo[18802]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 21:30:16 localhost sudo[18802]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 20 21:30:16 localhost sudo[18802]: pam_unix(sudo:session): session closed for user root
+Oct 20 21:30:46 localhost sudo[18806]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -j DROP -j LOG --log-prefix Dropped Packets
+Oct 20 21:30:46 localhost sudo[18806]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 20 21:30:46 localhost sudo[18806]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 20 21:30:46 localhost sudo[18806]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:17:02 localhost sudo[19381]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Oct 21 18:17:02 localhost sudo[19381]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:17:02 localhost sudo[19381]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:17:10 localhost sudo[19381]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:17:21 aluk10_rns polkitd[964]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 18:17:21 aluk10_rns polkitd[964]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 18:17:21 aluk10_rns polkitd[964]: Finished loading, compiling and executing 2 rules
+Oct 21 18:17:21 aluk10_rns polkitd[964]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 18:17:25 aluk10_rns sshd[1007]: Server listening on 0.0.0.0 port 22.
+Oct 21 18:17:25 aluk10_rns sshd[1007]: Server listening on :: port 22.
+Oct 21 18:19:26 aluk10_rns systemd[1496]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Oct 21 18:19:26 aluk10_rns login[1073]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Oct 21 18:19:26 aluk10_rns login[1073]: LOGIN ON tty1 BY aluk10
+Oct 21 18:25:00 aluk10_rns sudo[1539]:  aluk10 : TTY=tty1 ; PWD=/var ; USER=root ; COMMAND=/bin/cd named/
+Oct 21 18:25:00 aluk10_rns sudo[1539]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:25:00 aluk10_rns sudo[1539]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:25:00 aluk10_rns sudo[1539]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:25:10 aluk10_rns sudo[1543]:  aluk10 : TTY=tty1 ; PWD=/var ; USER=root ; COMMAND=/bin/ls named/
+Oct 21 18:25:10 aluk10_rns sudo[1543]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:25:10 aluk10_rns sudo[1543]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:25:10 aluk10_rns sudo[1543]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:25:35 aluk10_rns sudo[1546]:  aluk10 : TTY=tty1 ; PWD=/var ; USER=root ; COMMAND=/bin/cp named/named.conf /home/aluk10/Desktop
+Oct 21 18:25:35 aluk10_rns sudo[1546]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:25:35 aluk10_rns sudo[1546]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:25:35 aluk10_rns sudo[1546]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:26:08 aluk10_rns sudo[1554]:  aluk10 : TTY=tty1 ; PWD=/var ; USER=root ; COMMAND=/bin/ls named
+Oct 21 18:26:08 aluk10_rns sudo[1554]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:26:08 aluk10_rns sudo[1554]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:26:08 aluk10_rns sudo[1554]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:26:30 aluk10_rns sudo[1557]:  aluk10 : TTY=tty1 ; PWD=/var ; USER=root ; COMMAND=/bin/cp named/named.conf /home/aluk10/original_named.conf
+Oct 21 18:26:30 aluk10_rns sudo[1557]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:26:30 aluk10_rns sudo[1557]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:26:30 aluk10_rns sudo[1557]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:26:41 aluk10_rns sudo[1561]:  aluk10 : TTY=tty1 ; PWD=/var ; USER=root ; COMMAND=/bin/cat /home/aluk10/original_named.conf
+Oct 21 18:26:41 aluk10_rns sudo[1561]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:26:41 aluk10_rns sudo[1561]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:26:41 aluk10_rns sudo[1561]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:27:05 aluk10_rns sudo[1565]:  aluk10 : TTY=tty1 ; PWD=/var ; USER=root ; COMMAND=/bin/cp named/root.zone /home/aluk10/original_rooz.zone
+Oct 21 18:27:05 aluk10_rns sudo[1565]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:27:05 aluk10_rns sudo[1565]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:27:05 aluk10_rns sudo[1565]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:27:18 aluk10_rns sudo[1570]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat original_rooz.zone
+Oct 21 18:27:18 aluk10_rns sudo[1570]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:27:18 aluk10_rns sudo[1570]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:27:18 aluk10_rns sudo[1570]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:27:26 aluk10_rns sudo[1576]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat original_named.conf
+Oct 21 18:27:26 aluk10_rns sudo[1576]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:27:26 aluk10_rns sudo[1576]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:27:26 aluk10_rns sudo[1576]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:29:06 aluk10_rns sudo[1580]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /var/named/named.conf
+Oct 21 18:29:06 aluk10_rns sudo[1580]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:29:06 aluk10_rns sudo[1580]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:32:56 aluk10_rns sudo[1580]: pam_unix(sudo:session): session closed for user root
+Oct 21 18:33:36 aluk10_rns sudo[1589]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl status named
+Oct 21 18:33:36 aluk10_rns sudo[1589]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:33:36 aluk10_rns sudo[1589]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 18:33:37 aluk10_rns sudo[1589]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:19:38 aluk10_rns sudo[1614]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/chmod +x rz
+Oct 21 19:19:38 aluk10_rns sudo[1614]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:19:38 aluk10_rns sudo[1614]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:19:38 aluk10_rns sudo[1614]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:19:42 aluk10_rns sudo[1617]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su root
+Oct 21 19:19:42 aluk10_rns sudo[1617]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:19:42 aluk10_rns sudo[1617]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:19:43 aluk10_rns su[1619]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:19:43 aluk10_rns su[1619]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:21:55 aluk10_rns sudo[1671]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/yum install wget
+Oct 21 19:21:55 aluk10_rns sudo[1671]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:21:55 aluk10_rns sudo[1671]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:21:59 aluk10_rns sudo[1671]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:28:16 aluk10_rns sudo[10886]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+Oct 21 19:28:16 aluk10_rns sudo[10886]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:28:16 aluk10_rns sudo[10886]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:28:16 aluk10_rns sudo[10886]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:28:16 aluk10_rns sudo[10889]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D FORWARD -j REJECT --reject-with icmp-host-prohibited
+Oct 21 19:28:16 aluk10_rns sudo[10889]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:28:16 aluk10_rns sudo[10889]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:28:16 aluk10_rns sudo[10889]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:36:28 aluk10_rns sudo[10971]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables --flush
+Oct 21 19:36:28 aluk10_rns sudo[10971]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:36:28 aluk10_rns sudo[10971]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:36:28 aluk10_rns sudo[10971]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:37:41 aluk10_rns sshd[1001]: Server listening on 0.0.0.0 port 22.
+Oct 21 19:37:41 aluk10_rns sshd[1001]: Server listening on :: port 22.
+Oct 21 19:37:41 aluk10_rns polkitd[958]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 19:37:41 aluk10_rns polkitd[958]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 19:37:41 aluk10_rns polkitd[958]: Finished loading, compiling and executing 2 rules
+Oct 21 19:37:41 aluk10_rns polkitd[958]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 19:38:07 aluk10_rns systemd[1493]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Oct 21 19:38:07 aluk10_rns login[1047]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Oct 21 19:38:07 aluk10_rns login[1047]: LOGIN ON tty1 BY aluk10
+Oct 21 19:38:14 aluk10_rns sudo[1534]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Oct 21 19:38:14 aluk10_rns sudo[1534]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:38:14 aluk10_rns sudo[1534]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:38:14 aluk10_rns su[1536]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:38:14 aluk10_rns su[1536]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:38:25 aluk10_rns sudo[1590]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+Oct 21 19:38:25 aluk10_rns sudo[1590]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:38:25 aluk10_rns sudo[1590]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:38:25 aluk10_rns sudo[1590]: pam_unix(sudo:session): session closed for user root
+Oct 21 19:38:25 aluk10_rns sudo[1593]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D FORWARD -j REJECT --reject-with icmp-host-prohibited
+Oct 21 19:38:25 aluk10_rns sudo[1593]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 19:38:25 aluk10_rns sudo[1593]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 19:38:25 aluk10_rns sudo[1593]: pam_unix(sudo:session): session closed for user root
+Oct 21 20:12:26 aluk10-rns polkitd[961]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 20:12:26 aluk10-rns polkitd[961]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 20:12:26 aluk10-rns polkitd[961]: Finished loading, compiling and executing 2 rules
+Oct 21 20:12:26 aluk10-rns polkitd[961]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 20:12:31 aluk10-rns sshd[1004]: Server listening on 0.0.0.0 port 22.
+Oct 21 20:12:31 aluk10-rns sshd[1004]: Server listening on :: port 22.
+Oct 21 20:12:55 aluk10-rns systemd[1502]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Oct 21 20:12:55 aluk10-rns login[1076]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Oct 21 20:12:55 aluk10-rns login[1076]: LOGIN ON tty1 BY aluk10
+Oct 21 20:12:59 aluk10-rns sudo[1542]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su root
+Oct 21 20:12:59 aluk10-rns sudo[1542]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:12:59 aluk10-rns sudo[1542]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 20:12:59 aluk10-rns su[1544]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:12:59 aluk10-rns su[1544]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Oct 21 20:13:05 aluk10-rns sudo[1596]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+Oct 21 20:13:05 aluk10-rns sudo[1596]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:13:05 aluk10-rns sudo[1596]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 20:13:05 aluk10-rns sudo[1596]: pam_unix(sudo:session): session closed for user root
+Oct 21 20:13:05 aluk10-rns sudo[1599]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D FORWARD -j REJECT --reject-with icmp-host-prohibited
+Oct 21 20:13:05 aluk10-rns sudo[1599]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:13:05 aluk10-rns sudo[1599]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 20:13:05 aluk10-rns sudo[1599]: pam_unix(sudo:session): session closed for user root
+Oct 21 20:51:12 aluk10-rns sshd[1006]: Server listening on 0.0.0.0 port 22.
+Oct 21 20:51:12 aluk10-rns sshd[1006]: Server listening on :: port 22.
+Oct 21 20:51:12 aluk10-rns polkitd[969]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 20:51:12 aluk10-rns polkitd[969]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 20:51:12 aluk10-rns polkitd[969]: Finished loading, compiling and executing 2 rules
+Oct 21 20:51:12 aluk10-rns polkitd[969]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 20:51:24 aluk10-rns systemd[1498]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Oct 21 20:51:24 aluk10-rns login[1055]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Oct 21 20:51:24 aluk10-rns login[1055]: LOGIN ON tty1 BY aluk10
+Oct 21 20:51:37 aluk10-rns sudo[1538]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Oct 21 20:51:37 aluk10-rns sudo[1538]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:51:37 aluk10-rns sudo[1538]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 20:51:37 aluk10-rns su[1540]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:51:37 aluk10-rns su[1540]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Oct 21 20:51:48 aluk10-rns sudo[1597]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+Oct 21 20:51:48 aluk10-rns sudo[1597]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:51:48 aluk10-rns sudo[1597]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 20:51:48 aluk10-rns sudo[1597]: pam_unix(sudo:session): session closed for user root
+Oct 21 20:51:48 aluk10-rns sudo[1600]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D FORWARD -j REJECT --reject-with icmp-host-prohibited
+Oct 21 20:51:48 aluk10-rns sudo[1600]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 20:51:48 aluk10-rns sudo[1600]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 20:51:48 aluk10-rns sudo[1600]: pam_unix(sudo:session): session closed for user root
+Oct 21 21:48:32 aluk10-rns polkitd[972]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 21:48:32 aluk10-rns polkitd[972]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 21:48:32 aluk10-rns polkitd[972]: Finished loading, compiling and executing 2 rules
+Oct 21 21:48:32 aluk10-rns polkitd[972]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 21:48:35 aluk10-rns sshd[1003]: Server listening on 0.0.0.0 port 22.
+Oct 21 21:48:35 aluk10-rns sshd[1003]: Server listening on :: port 22.
+Oct 21 21:50:26 aluk10-rns systemd[1511]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Oct 21 21:50:26 aluk10-rns login[1088]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Oct 21 21:50:26 aluk10-rns login[1088]: LOGIN ON tty1 BY aluk10
+Oct 21 21:51:05 aluk10-rns sudo[1548]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Oct 21 21:51:05 aluk10-rns sudo[1548]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:51:05 aluk10-rns sudo[1548]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 21:51:05 aluk10-rns su[1550]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:51:05 aluk10-rns su[1550]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Oct 21 21:51:12 aluk10-rns sudo[1570]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Oct 21 21:51:12 aluk10-rns sudo[1570]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:51:12 aluk10-rns sudo[1570]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 21:51:12 aluk10-rns su[1572]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 21:51:12 aluk10-rns su[1572]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Oct 21 22:00:18 aluk10-rns sudo[1646]:    root : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+Oct 21 22:00:18 aluk10-rns sudo[1646]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:00:18 aluk10-rns sudo[1646]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 22:00:18 aluk10-rns sudo[1646]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:00:19 aluk10-rns sudo[1649]:    root : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D FORWARD -j REJECT --reject-with icmp-host-prohibited
+Oct 21 22:00:19 aluk10-rns sudo[1649]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:00:19 aluk10-rns sudo[1649]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 22:00:19 aluk10-rns sudo[1649]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:37:59 aluk10-rns su[1572]: pam_unix(su:session): session closed for user root
+Oct 21 22:37:59 aluk10-rns sudo[1570]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:38:04 aluk10-rns su[1550]: pam_unix(su:session): session closed for user root
+Oct 21 22:38:04 aluk10-rns sudo[1548]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:38:30 aluk10-rns sudo[1724]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 21 22:38:30 aluk10-rns sudo[1724]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:38:30 aluk10-rns sudo[1724]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 22:38:30 aluk10-rns sudo[1724]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:38:50 aluk10-rns sudo[1728]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 21 22:38:50 aluk10-rns sudo[1728]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:38:50 aluk10-rns sudo[1728]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 22:38:50 aluk10-rns sudo[1728]: pam_unix(sudo:session): session closed for user root
+Oct 21 22:43:08 aluk10-rns sudo[1737]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Oct 21 22:43:08 aluk10-rns sudo[1737]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:43:08 aluk10-rns sudo[1737]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 22:43:18 aluk10-rns sudo[1737]: pam_unix(sudo:session): session closed for user root
+Oct 21 23:10:21 aluk10-rns polkitd[971]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 23:10:21 aluk10-rns polkitd[971]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 23:10:21 aluk10-rns polkitd[971]: Finished loading, compiling and executing 2 rules
+Oct 21 23:10:21 aluk10-rns polkitd[971]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 23:10:26 aluk10-rns sshd[1013]: Server listening on 0.0.0.0 port 22.
+Oct 21 23:10:26 aluk10-rns sshd[1013]: Server listening on :: port 22.
+Oct 21 23:10:51 aluk10-rns systemd[1508]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Oct 21 23:10:51 aluk10-rns login[1083]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Oct 21 23:10:51 aluk10-rns login[1083]: LOGIN ON tty1 BY aluk10
+Oct 21 23:11:31 aluk10-rns sudo[1549]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 21 23:11:31 aluk10-rns sudo[1549]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 23:11:31 aluk10-rns sudo[1549]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 23:11:31 aluk10-rns sudo[1581]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+Oct 21 23:11:31 aluk10-rns sudo[1581]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 23:11:31 aluk10-rns sudo[1581]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 23:11:31 aluk10-rns sudo[1581]: pam_unix(sudo:session): session closed for user root
+Oct 21 23:11:31 aluk10-rns sudo[1584]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D FORWARD -j REJECT --reject-with icmp-host-prohibited
+Oct 21 23:11:31 aluk10-rns sudo[1584]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 23:11:31 aluk10-rns sudo[1584]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 23:11:31 aluk10-rns sudo[1584]: pam_unix(sudo:session): session closed for user root
+Oct 21 23:11:31 aluk10-rns sudo[1549]: pam_unix(sudo:session): session closed for user root
+Oct 21 23:12:25 aluk10-rns sudo[1602]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables-save -t filter
+Oct 21 23:12:25 aluk10-rns sudo[1602]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 23:12:25 aluk10-rns sudo[1602]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 23:12:25 aluk10-rns sudo[1602]: pam_unix(sudo:session): session closed for user root
+Oct 21 23:17:13 aluk10-rns sudo[1646]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/ifdown ens224
+Oct 21 23:17:13 aluk10-rns sudo[1646]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 23:17:13 aluk10-rns sudo[1646]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 23:17:13 aluk10-rns sudo[1646]: pam_unix(sudo:session): session closed for user root
+Oct 21 23:17:18 aluk10-rns sudo[1660]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/ifup ens224
+Oct 21 23:17:18 aluk10-rns sudo[1660]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 23:17:18 aluk10-rns sudo[1660]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 23:17:18 aluk10-rns sudo[1660]: pam_unix(sudo:session): session closed for user root
+Oct 21 23:36:14 aluk10-rns polkitd[971]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 23:36:14 aluk10-rns polkitd[971]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 23:36:14 aluk10-rns polkitd[971]: Finished loading, compiling and executing 2 rules
+Oct 21 23:36:14 aluk10-rns polkitd[971]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 23:36:18 aluk10-rns sshd[1007]: Server listening on 0.0.0.0 port 22.
+Oct 21 23:36:18 aluk10-rns sshd[1007]: Server listening on :: port 22.
+Oct 21 23:37:18 aluk10-rns systemd[1505]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Oct 21 23:37:19 aluk10-rns login[1080]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Oct 21 23:37:19 aluk10-rns login[1080]: LOGIN ON tty1 BY aluk10
+Oct 21 23:41:28 aluk10-rns sudo[1548]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 21 23:41:28 aluk10-rns sudo[1548]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 23:41:28 aluk10-rns sudo[1548]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 23:41:28 aluk10-rns sudo[1580]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+Oct 21 23:41:28 aluk10-rns sudo[1580]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 23:41:28 aluk10-rns sudo[1580]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 23:41:28 aluk10-rns sudo[1580]: pam_unix(sudo:session): session closed for user root
+Oct 21 23:41:28 aluk10-rns sudo[1583]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D FORWARD -j REJECT --reject-with icmp-host-prohibited
+Oct 21 23:41:28 aluk10-rns sudo[1583]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 23:41:28 aluk10-rns sudo[1583]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 21 23:41:28 aluk10-rns sudo[1583]: pam_unix(sudo:session): session closed for user root
+Oct 21 23:41:28 aluk10-rns sudo[1548]: pam_unix(sudo:session): session closed for user root
+Oct 22 00:06:28 aluk10-rns sudo[1638]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables --flush
+Oct 22 00:06:28 aluk10-rns sudo[1638]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 00:06:28 aluk10-rns sudo[1638]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 00:06:28 aluk10-rns sudo[1638]: pam_unix(sudo:session): session closed for user root
+Oct 22 00:16:01 aluk10-rns sudo[1643]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Oct 22 00:16:01 aluk10-rns sudo[1643]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 00:16:01 aluk10-rns sudo[1643]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 00:16:01 aluk10-rns su[1645]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 22 00:16:01 aluk10-rns su[1645]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Oct 22 01:17:37 aluk10-rns polkitd[1002]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 22 01:17:37 aluk10-rns polkitd[1002]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 22 01:17:37 aluk10-rns polkitd[1002]: Finished loading, compiling and executing 2 rules
+Oct 22 01:17:37 aluk10-rns polkitd[1002]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 22 01:17:37 aluk10-rns sshd[1039]: Server listening on 0.0.0.0 port 22.
+Oct 22 01:17:37 aluk10-rns sshd[1039]: Server listening on :: port 22.
+Oct 22 01:17:49 aluk10-rns systemd[1530]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Oct 22 01:17:49 aluk10-rns login[1086]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Oct 22 01:17:49 aluk10-rns login[1086]: LOGIN ON tty1 BY aluk10
+Oct 22 01:17:54 aluk10-rns sudo[1569]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Oct 22 01:17:54 aluk10-rns sudo[1569]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 01:17:54 aluk10-rns sudo[1569]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 01:17:54 aluk10-rns su[1571]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 22 01:17:54 aluk10-rns su[1571]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Oct 22 01:17:59 aluk10-rns sudo[1621]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+Oct 22 01:17:59 aluk10-rns sudo[1621]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 01:17:59 aluk10-rns sudo[1621]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 01:17:59 aluk10-rns sudo[1621]: pam_unix(sudo:session): session closed for user root
+Oct 22 01:17:59 aluk10-rns sudo[1624]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D FORWARD -j REJECT --reject-with icmp-host-prohibited
+Oct 22 01:17:59 aluk10-rns sudo[1624]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 01:17:59 aluk10-rns sudo[1624]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 01:17:59 aluk10-rns sudo[1624]: pam_unix(sudo:session): session closed for user root
+Oct 22 01:20:17 aluk10-rns sshd[1658]: Accepted publickey for aluk10 from 192.168.17.1 port 56984 ssh2: RSA SHA256:yVYIaEBXAJ2qn7AB1LN2s5rma/4ihfd/FHbL0HSIXiA
+Oct 22 01:20:17 aluk10-rns sshd[1658]: pam_unix(sshd:session): session opened for user aluk10 by (uid=0)
+Oct 22 01:23:35 aluk10-rns sudo[1743]:  aluk10 : TTY=pts/0 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables --flush
+Oct 22 01:23:35 aluk10-rns sudo[1743]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 01:23:35 aluk10-rns sudo[1743]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 01:23:35 aluk10-rns sudo[1743]: pam_unix(sudo:session): session closed for user root
+Oct 22 03:09:28 aluk10-rns sshd[1661]: Received disconnect from 192.168.17.1 port 56984:11: disconnected by user
+Oct 22 03:09:28 aluk10-rns sshd[1661]: Disconnected from user aluk10 192.168.17.1 port 56984
+Oct 22 03:09:28 aluk10-rns sshd[1658]: pam_unix(sshd:session): session closed for user aluk10
+Oct 22 03:09:50 aluk10-rns sshd[1972]: error: kex_exchange_identification: Connection closed by remote host
+Oct 22 21:07:54 aluk10-rns polkitd[975]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 22 21:07:54 aluk10-rns polkitd[975]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 22 21:07:54 aluk10-rns polkitd[975]: Finished loading, compiling and executing 2 rules
+Oct 22 21:07:54 aluk10-rns polkitd[975]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 22 21:07:59 aluk10-rns sshd[1012]: Server listening on 0.0.0.0 port 22.
+Oct 22 21:07:59 aluk10-rns sshd[1012]: Server listening on :: port 22.
+Oct 22 21:16:03 aluk10-rns systemd[1513]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Oct 22 21:16:03 aluk10-rns login[1088]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Oct 22 21:16:03 aluk10-rns login[1088]: LOGIN ON tty1 BY aluk10
+Oct 22 21:16:27 aluk10-rns sudo[1553]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 22 21:16:27 aluk10-rns sudo[1553]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 21:16:27 aluk10-rns sudo[1553]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 21:16:27 aluk10-rns sudo[1553]: pam_unix(sudo:session): session closed for user root
+Oct 22 21:18:31 aluk10-rns sudo[1563]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 22 21:18:31 aluk10-rns sudo[1563]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 21:18:31 aluk10-rns sudo[1563]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 21:18:31 aluk10-rns sudo[1563]: pam_unix(sudo:session): session closed for user root
+Oct 22 21:19:06 aluk10-rns sudo[1567]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 22 21:19:06 aluk10-rns sudo[1567]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 21:19:06 aluk10-rns sudo[1567]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 21:19:07 aluk10-rns sudo[1567]: pam_unix(sudo:session): session closed for user root
+Oct 22 21:31:09 aluk10-rns sshd[948]: Server listening on 0.0.0.0 port 22.
+Oct 22 21:31:09 aluk10-rns sshd[948]: Server listening on :: port 22.
+Oct 22 21:31:09 aluk10-rns polkitd[908]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 22 21:31:09 aluk10-rns polkitd[908]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 22 21:31:09 aluk10-rns polkitd[908]: Finished loading, compiling and executing 2 rules
+Oct 22 21:31:09 aluk10-rns polkitd[908]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 22 21:31:23 aluk10-rns systemd[1515]: pam_unix(systemd-user:session): session opened for user aluk10 by (uid=0)
+Oct 22 21:31:23 aluk10-rns login[1068]: pam_unix(login:session): session opened for user aluk10 by LOGIN(uid=0)
+Oct 22 21:31:23 aluk10-rns login[1068]: LOGIN ON tty1 BY aluk10
+Oct 22 21:31:27 aluk10-rns sudo[1553]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 22 21:31:27 aluk10-rns sudo[1553]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 21:31:27 aluk10-rns sudo[1553]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 21:31:27 aluk10-rns sudo[1553]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:07:49 aluk10-rns sudo[1648]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 22 22:07:49 aluk10-rns sudo[1648]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:07:49 aluk10-rns sudo[1648]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:07:49 aluk10-rns sudo[1648]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:10:26 aluk10-rns sudo[1654]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables --flush
+Oct 22 22:10:26 aluk10-rns sudo[1654]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:10:26 aluk10-rns sudo[1654]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:10:26 aluk10-rns sudo[1654]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:10:31 aluk10-rns sudo[1658]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 22 22:10:31 aluk10-rns sudo[1658]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:10:31 aluk10-rns sudo[1658]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:10:31 aluk10-rns sudo[1658]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:38:17 aluk10-rns sshd[1727]: Accepted publickey for aluk10 from 192.168.17.1 port 55294 ssh2: RSA SHA256:yVYIaEBXAJ2qn7AB1LN2s5rma/4ihfd/FHbL0HSIXiA
+Oct 22 22:38:17 aluk10-rns sshd[1727]: pam_unix(sshd:session): session opened for user aluk10 by (uid=0)
+Oct 22 22:39:35 aluk10-rns sudo[1758]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 22 22:39:35 aluk10-rns sudo[1758]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:39:35 aluk10-rns sudo[1758]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:39:35 aluk10-rns sudo[1758]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:39:38 aluk10-rns sudo[1763]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 22 22:39:38 aluk10-rns sudo[1763]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:39:38 aluk10-rns sudo[1763]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:39:38 aluk10-rns sudo[1763]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:54:46 aluk10-rns sudo[1787]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables --flush
+Oct 22 22:54:46 aluk10-rns sudo[1787]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:54:46 aluk10-rns sudo[1787]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:54:46 aluk10-rns sudo[1787]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:54:49 aluk10-rns sudo[1790]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 22 22:54:49 aluk10-rns sudo[1790]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:54:49 aluk10-rns sudo[1790]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:54:49 aluk10-rns sudo[1790]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:55:16 aluk10-rns sudo[1833]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 22 22:55:16 aluk10-rns sudo[1833]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:55:16 aluk10-rns sudo[1833]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:55:16 aluk10-rns sudo[1833]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:58:45 aluk10-rns sudo[1837]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 22 22:58:45 aluk10-rns sudo[1837]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:58:45 aluk10-rns sudo[1837]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:58:45 aluk10-rns sudo[1837]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:58:50 aluk10-rns sudo[1842]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 22 22:58:50 aluk10-rns sudo[1842]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:58:50 aluk10-rns sudo[1842]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:58:50 aluk10-rns sudo[1842]: pam_unix(sudo:session): session closed for user root
+Oct 22 22:59:04 aluk10-rns sudo[1847]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 22 22:59:04 aluk10-rns sudo[1847]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 22 22:59:04 aluk10-rns sudo[1847]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 22 22:59:04 aluk10-rns sudo[1847]: pam_unix(sudo:session): session closed for user root
+Oct 22 23:28:06 aluk10-rns sshd[1876]: Accepted password for aluk10 from 192.168.17.3 port 40272 ssh2
+Oct 22 23:28:06 aluk10-rns sshd[1876]: pam_unix(sshd:session): session opened for user aluk10 by (uid=0)
+Oct 22 23:28:16 aluk10-rns sshd[1880]: Received disconnect from 192.168.17.3 port 40272:11: disconnected by user
+Oct 22 23:28:16 aluk10-rns sshd[1880]: Disconnected from user aluk10 192.168.17.3 port 40272
+Oct 22 23:28:16 aluk10-rns sshd[1876]: pam_unix(sshd:session): session closed for user aluk10
+Oct 23 00:39:18 aluk10-rns sudo[1958]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Oct 23 00:39:18 aluk10-rns sudo[1958]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:39:18 aluk10-rns sudo[1958]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:39:18 aluk10-rns su[1960]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:39:18 aluk10-rns su[1960]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:52:10 aluk10-rns sshd[1730]: Received disconnect from 192.168.17.1 port 55294:11: disconnected by user
+Oct 23 00:52:10 aluk10-rns sshd[1730]: Disconnected from user aluk10 192.168.17.1 port 55294
+Oct 23 00:52:10 aluk10-rns sshd[1727]: pam_unix(sshd:session): session closed for user aluk10
+Oct 23 00:56:30 aluk10-rns sshd[1988]: Accepted publickey for aluk10 from 192.168.17.1 port 55308 ssh2: RSA SHA256:yVYIaEBXAJ2qn7AB1LN2s5rma/4ihfd/FHbL0HSIXiA
+Oct 23 00:56:30 aluk10-rns sshd[1988]: pam_unix(sshd:session): session opened for user aluk10 by (uid=0)
+Oct 23 00:56:33 aluk10-rns sshd[1991]: Received disconnect from 192.168.17.1 port 55308:11: disconnected by user
+Oct 23 00:56:33 aluk10-rns sshd[1991]: Disconnected from user aluk10 192.168.17.1 port 55308
+Oct 23 00:56:33 aluk10-rns sshd[1988]: pam_unix(sshd:session): session closed for user aluk10
+Oct 23 00:58:19 aluk10-rns sudo[2021]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 00:58:19 aluk10-rns sudo[2021]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:58:19 aluk10-rns sudo[2021]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:58:19 aluk10-rns sudo[2021]: pam_unix(sudo:session): session closed for user root
+Oct 23 00:59:00 aluk10-rns sudo[2026]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 00:59:00 aluk10-rns sudo[2026]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:59:00 aluk10-rns sudo[2026]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:59:00 aluk10-rns sudo[2026]: pam_unix(sudo:session): session closed for user root
+Oct 23 00:59:01 aluk10-rns sudo[2030]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 00:59:01 aluk10-rns sudo[2030]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:59:01 aluk10-rns sudo[2030]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:59:01 aluk10-rns sudo[2030]: pam_unix(sudo:session): session closed for user root
+Oct 23 00:59:02 aluk10-rns sudo[2034]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 00:59:02 aluk10-rns sudo[2034]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:59:02 aluk10-rns sudo[2034]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:59:02 aluk10-rns sudo[2034]: pam_unix(sudo:session): session closed for user root
+Oct 23 00:59:03 aluk10-rns sudo[2038]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 00:59:03 aluk10-rns sudo[2038]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:59:03 aluk10-rns sudo[2038]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:59:03 aluk10-rns sudo[2038]: pam_unix(sudo:session): session closed for user root
+Oct 23 00:59:04 aluk10-rns sudo[2042]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 00:59:04 aluk10-rns sudo[2042]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:59:04 aluk10-rns sudo[2042]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:59:04 aluk10-rns sudo[2042]: pam_unix(sudo:session): session closed for user root
+Oct 23 00:59:05 aluk10-rns sudo[2046]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 00:59:05 aluk10-rns sudo[2046]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:59:05 aluk10-rns sudo[2046]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:59:05 aluk10-rns sudo[2046]: pam_unix(sudo:session): session closed for user root
+Oct 23 00:59:05 aluk10-rns sudo[2050]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 00:59:05 aluk10-rns sudo[2050]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:59:05 aluk10-rns sudo[2050]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:59:05 aluk10-rns sudo[2050]: pam_unix(sudo:session): session closed for user root
+Oct 23 00:59:06 aluk10-rns sudo[2054]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 00:59:06 aluk10-rns sudo[2054]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 00:59:06 aluk10-rns sudo[2054]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 00:59:06 aluk10-rns sudo[2054]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:00:48 aluk10-rns sudo[2062]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 01:00:48 aluk10-rns sudo[2062]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:00:48 aluk10-rns sudo[2062]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:00:48 aluk10-rns sudo[2062]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:00:56 aluk10-rns sudo[2106]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:00:56 aluk10-rns sudo[2106]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:00:56 aluk10-rns sudo[2106]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:00:56 aluk10-rns sudo[2106]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:00:57 aluk10-rns sudo[2110]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:00:57 aluk10-rns sudo[2110]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:00:57 aluk10-rns sudo[2110]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:00:57 aluk10-rns sudo[2110]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:00:57 aluk10-rns sudo[2114]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:00:57 aluk10-rns sudo[2114]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:00:57 aluk10-rns sudo[2114]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:00:57 aluk10-rns sudo[2114]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:00:58 aluk10-rns sudo[2118]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:00:58 aluk10-rns sudo[2118]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:00:58 aluk10-rns sudo[2118]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:00:58 aluk10-rns sudo[2118]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:00:58 aluk10-rns sudo[2122]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:00:58 aluk10-rns sudo[2122]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:00:58 aluk10-rns sudo[2122]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:00:58 aluk10-rns sudo[2122]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:00:59 aluk10-rns sudo[2126]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:00:59 aluk10-rns sudo[2126]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:00:59 aluk10-rns sudo[2126]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:00:59 aluk10-rns sudo[2126]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:00:59 aluk10-rns sudo[2130]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:00:59 aluk10-rns sudo[2130]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:00:59 aluk10-rns sudo[2130]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:00:59 aluk10-rns sudo[2130]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:01:00 aluk10-rns sudo[2134]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:01:00 aluk10-rns sudo[2134]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:01:00 aluk10-rns sudo[2134]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:01:00 aluk10-rns sudo[2134]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:01:10 aluk10-rns sudo[2152]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -lnv
+Oct 23 01:01:10 aluk10-rns sudo[2152]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:01:10 aluk10-rns sudo[2152]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:01:10 aluk10-rns sudo[2152]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:01:16 aluk10-rns sudo[2155]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -Lnv
+Oct 23 01:01:16 aluk10-rns sudo[2155]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:01:16 aluk10-rns sudo[2155]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:01:16 aluk10-rns sudo[2155]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:01:20 aluk10-rns sudo[2158]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -L
+Oct 23 01:01:20 aluk10-rns sudo[2158]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:01:20 aluk10-rns sudo[2158]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:01:22 aluk10-rns sudo[2158]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:01:26 aluk10-rns sudo[2161]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -L -v -n
+Oct 23 01:01:26 aluk10-rns sudo[2161]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:01:26 aluk10-rns sudo[2161]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:01:26 aluk10-rns sudo[2161]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:02:44 aluk10-rns sudo[2165]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 01:02:44 aluk10-rns sudo[2165]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:02:44 aluk10-rns sudo[2165]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:02:44 aluk10-rns sudo[2165]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:02:52 aluk10-rns sudo[2209]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -L -v -n
+Oct 23 01:02:52 aluk10-rns sudo[2209]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:02:52 aluk10-rns sudo[2209]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:02:52 aluk10-rns sudo[2209]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:02:58 aluk10-rns sudo[2213]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:02:58 aluk10-rns sudo[2213]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:02:58 aluk10-rns sudo[2213]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:02:58 aluk10-rns sudo[2213]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:03:00 aluk10-rns sudo[2217]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:03:00 aluk10-rns sudo[2217]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:03:00 aluk10-rns sudo[2217]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:03:00 aluk10-rns sudo[2217]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:03:03 aluk10-rns sudo[2222]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:03:03 aluk10-rns sudo[2222]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:03:03 aluk10-rns sudo[2222]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:03:03 aluk10-rns sudo[2222]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:04:05 aluk10-rns sudo[2230]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:04:05 aluk10-rns sudo[2230]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:04:05 aluk10-rns sudo[2230]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:04:05 aluk10-rns sudo[2230]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:07:20 aluk10-rns sudo[2237]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:07:20 aluk10-rns sudo[2237]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:07:20 aluk10-rns sudo[2237]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:07:20 aluk10-rns sudo[2237]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:07:24 aluk10-rns sudo[2242]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 01:07:24 aluk10-rns sudo[2242]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:07:24 aluk10-rns sudo[2242]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:07:24 aluk10-rns sudo[2242]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:12:02 aluk10-rns su[1960]: pam_unix(su:session): session closed for user root
+Oct 23 01:12:02 aluk10-rns sudo[1958]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:35:18 aluk10-rns sudo[2272]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 23 01:35:18 aluk10-rns sudo[2272]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:35:18 aluk10-rns sudo[2272]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:35:18 aluk10-rns sudo[2272]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:50:48 aluk10-rns sudo[2293]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables --flush
+Oct 23 01:50:48 aluk10-rns sudo[2293]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:50:48 aluk10-rns sudo[2293]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:50:48 aluk10-rns sudo[2293]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:51:22 aluk10-rns sudo[2297]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp --dport 53 -j ACCEPT
+Oct 23 01:51:22 aluk10-rns sudo[2297]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:51:22 aluk10-rns sudo[2297]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:51:22 aluk10-rns sudo[2297]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:56:57 aluk10-rns sudo[2325]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 23 01:56:57 aluk10-rns sudo[2325]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:56:57 aluk10-rns sudo[2325]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:56:57 aluk10-rns sudo[2325]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:57:03 aluk10-rns sudo[2329]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 01:57:03 aluk10-rns sudo[2329]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:57:03 aluk10-rns sudo[2329]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:57:03 aluk10-rns sudo[2329]: pam_unix(sudo:session): session closed for user root
+Oct 23 01:59:56 aluk10-rns sudo[2380]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 01:59:56 aluk10-rns sudo[2380]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 01:59:56 aluk10-rns sudo[2380]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 01:59:56 aluk10-rns sudo[2380]: pam_unix(sudo:session): session closed for user root
+Oct 23 02:00:21 aluk10-rns sudo[2432]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 02:00:21 aluk10-rns sudo[2432]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 02:00:21 aluk10-rns sudo[2432]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 02:00:21 aluk10-rns sudo[2432]: pam_unix(sudo:session): session closed for user root
+Oct 23 02:00:54 aluk10-rns sudo[2488]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 02:00:54 aluk10-rns sudo[2488]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 02:00:54 aluk10-rns sudo[2488]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 02:00:54 aluk10-rns sudo[2488]: pam_unix(sudo:session): session closed for user root
+Oct 23 02:01:29 aluk10-rns sudo[2547]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 02:01:29 aluk10-rns sudo[2547]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 02:01:29 aluk10-rns sudo[2547]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 02:01:29 aluk10-rns sudo[2547]: pam_unix(sudo:session): session closed for user root
+Oct 23 02:01:51 aluk10-rns sudo[2594]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 02:01:51 aluk10-rns sudo[2594]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 02:01:51 aluk10-rns sudo[2594]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 02:01:51 aluk10-rns sudo[2594]: pam_unix(sudo:session): session closed for user root
+Oct 23 02:02:10 aluk10-rns sudo[2641]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 02:02:10 aluk10-rns sudo[2641]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 02:02:10 aluk10-rns sudo[2641]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 02:02:10 aluk10-rns sudo[2641]: pam_unix(sudo:session): session closed for user root
+Oct 23 02:02:12 aluk10-rns sudo[2683]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 02:02:12 aluk10-rns sudo[2683]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 02:02:12 aluk10-rns sudo[2683]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 02:02:12 aluk10-rns sudo[2683]: pam_unix(sudo:session): session closed for user root
+Oct 23 02:02:50 aluk10-rns sudo[2736]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 02:02:50 aluk10-rns sudo[2736]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 02:02:50 aluk10-rns sudo[2736]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 02:02:50 aluk10-rns sudo[2736]: pam_unix(sudo:session): session closed for user root
+Oct 23 02:03:02 aluk10-rns sudo[2786]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 02:03:02 aluk10-rns sudo[2786]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 02:03:02 aluk10-rns sudo[2786]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 02:03:02 aluk10-rns sudo[2786]: pam_unix(sudo:session): session closed for user root
+Oct 23 02:05:52 aluk10-rns sudo[2830]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 23 02:05:52 aluk10-rns sudo[2830]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 02:05:52 aluk10-rns sudo[2830]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 02:05:52 aluk10-rns sudo[2830]: pam_unix(sudo:session): session closed for user root
+Oct 23 18:17:29 aluk10-rns sudo[3366]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/su
+Oct 23 18:17:29 aluk10-rns sudo[3366]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 18:17:29 aluk10-rns sudo[3366]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 18:17:29 aluk10-rns su[3368]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 23 18:17:29 aluk10-rns su[3368]: pam_unix(su:session): session opened for user root by aluk10(uid=0)
+Oct 23 21:05:03 aluk10-rns sshd[3513]: Accepted publickey for aluk10 from 192.168.17.1 port 35186 ssh2: RSA SHA256:yVYIaEBXAJ2qn7AB1LN2s5rma/4ihfd/FHbL0HSIXiA
+Oct 23 21:05:03 aluk10-rns sshd[3513]: pam_unix(sshd:session): session opened for user aluk10 by (uid=0)
+Oct 23 21:05:28 aluk10-rns unix_chkpwd[3549]: password check failed for user (root)
+Oct 23 21:05:28 aluk10-rns sshd[3547]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.17.3  user=root
+Oct 23 21:05:30 aluk10-rns sshd[3547]: Failed password for root from 192.168.17.3 port 45132 ssh2
+Oct 23 21:05:33 aluk10-rns unix_chkpwd[3550]: password check failed for user (root)
+Oct 23 21:05:33 aluk10-rns sshd[3545]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.17.2  user=root
+Oct 23 21:05:35 aluk10-rns sshd[3545]: Failed password for root from 192.168.17.2 port 47438 ssh2
+Oct 23 21:05:38 aluk10-rns sshd[3547]: Connection closed by authenticating user root 192.168.17.3 port 45132 [preauth]
+Oct 23 21:05:55 aluk10-rns unix_chkpwd[3555]: password check failed for user (root)
+Oct 23 21:05:56 aluk10-rns sshd[3545]: Failed password for root from 192.168.17.2 port 47438 ssh2
+Oct 23 21:06:00 aluk10-rns unix_chkpwd[3556]: password check failed for user (root)
+Oct 23 21:06:02 aluk10-rns sshd[3545]: Failed password for root from 192.168.17.2 port 47438 ssh2
+Oct 23 21:06:02 aluk10-rns sshd[3545]: Connection closed by authenticating user root 192.168.17.2 port 47438 [preauth]
+Oct 23 21:06:02 aluk10-rns sshd[3545]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.17.2  user=root
+Oct 23 21:06:08 aluk10-rns unix_chkpwd[3557]: password check failed for user (root)
+Oct 23 21:06:08 aluk10-rns sshd[3551]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.17.3  user=root
+Oct 23 21:06:10 aluk10-rns sshd[3551]: Failed password for root from 192.168.17.3 port 45134 ssh2
+Oct 23 21:06:12 aluk10-rns sshd[3551]: Connection closed by authenticating user root 192.168.17.3 port 45134 [preauth]
+Oct 23 21:06:21 aluk10-rns sshd[3558]: Accepted password for aluk10 from 192.168.17.3 port 45136 ssh2
+Oct 23 21:06:21 aluk10-rns sshd[3558]: pam_unix(sshd:session): session opened for user aluk10 by (uid=0)
+Oct 23 21:06:34 aluk10-rns sshd[3588]: Accepted password for aluk10 from 192.168.17.2 port 47440 ssh2
+Oct 23 21:06:34 aluk10-rns sshd[3588]: pam_unix(sshd:session): session opened for user aluk10 by (uid=0)
+Oct 23 21:23:21 aluk10-rns sshd[3562]: Received disconnect from 192.168.17.3 port 45136:11: disconnected by user
+Oct 23 21:23:21 aluk10-rns sshd[3562]: Disconnected from user aluk10 192.168.17.3 port 45136
+Oct 23 21:23:21 aluk10-rns sshd[3558]: pam_unix(sshd:session): session closed for user aluk10
+Oct 23 21:23:23 aluk10-rns sshd[3517]: Received disconnect from 192.168.17.1 port 35186:11: disconnected by user
+Oct 23 21:23:23 aluk10-rns sshd[3517]: Disconnected from user aluk10 192.168.17.1 port 35186
+Oct 23 21:23:23 aluk10-rns sshd[3513]: pam_unix(sshd:session): session closed for user aluk10
+Oct 23 21:23:28 aluk10-rns sshd[3592]: Received disconnect from 192.168.17.2 port 47440:11: disconnected by user
+Oct 23 21:23:28 aluk10-rns sshd[3592]: Disconnected from user aluk10 192.168.17.2 port 47440
+Oct 23 21:23:28 aluk10-rns sshd[3588]: pam_unix(sshd:session): session closed for user aluk10
+Oct 23 21:24:10 aluk10-rns su[3368]: pam_unix(su:session): session closed for user root
+Oct 23 21:24:10 aluk10-rns sudo[3366]: pam_unix(sudo:session): session closed for user root
+Oct 23 22:51:55 aluk10-rns sudo[3681]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -F
+Oct 23 22:51:55 aluk10-rns sudo[3681]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 22:51:55 aluk10-rns sudo[3681]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 22:51:55 aluk10-rns sudo[3681]: pam_unix(sudo:session): session closed for user root
+Oct 23 23:25:11 aluk10-rns sudo[3767]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 23 23:25:11 aluk10-rns sudo[3767]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 23:25:11 aluk10-rns sudo[3767]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 23 23:25:11 aluk10-rns sudo[3767]: pam_unix(sudo:session): session closed for user root

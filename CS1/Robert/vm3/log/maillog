@@ -1,0 +1,20 @@
+Nov 15 19:05:05 rjacinto1-pri postfix/pickup[60763]: 4791420A5B05: uid=0 from=<root>
+Nov 15 19:05:05 rjacinto1-pri postfix/cleanup[65764]: 4791420A5B05: message-id=<20201116000505.4791420A5B05@mail.rjacinto1.com>
+Nov 15 19:05:05 rjacinto1-pri postfix/qmgr[1248]: 4791420A5B05: from=<root@rjacinto1.com>, size=451, nrcpt=1 (queue active)
+Nov 15 19:05:05 rjacinto1-pri postfix/smtp[65766]: 4791420A5B05: to=<vkim11@aluk10.com>, relay=mail.aluk10.com[192.168.17.25]:25, delay=0.21, delays=0.03/0.02/0.13/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 40B522073B42)
+Nov 15 19:05:05 rjacinto1-pri postfix/qmgr[1248]: 4791420A5B05: removed
+Nov 15 19:17:20 rjacinto1-pri postfix/pickup[60763]: 5C67020A5B05: uid=0 from=<root>
+Nov 15 19:17:20 rjacinto1-pri postfix/cleanup[66355]: 5C67020A5B05: message-id=<20201116001720.5C67020A5B05@mail.rjacinto1.com>
+Nov 15 19:17:20 rjacinto1-pri postfix/qmgr[1248]: 5C67020A5B05: from=<root@rjacinto1.com>, size=449, nrcpt=1 (queue active)
+Nov 15 19:17:20 rjacinto1-pri postfix/smtp[66357]: 5C67020A5B05: to=<vkim11@ravz.com>, relay=mail.ravz.com[192.168.17.25]:25, delay=0.19, delays=0.03/0.02/0.11/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 518082073B42)
+Nov 15 19:17:20 rjacinto1-pri postfix/qmgr[1248]: 5C67020A5B05: removed
+Nov 15 19:18:12 rjacinto1-pri postfix/pickup[60763]: ABFFB20A5B05: uid=0 from=<root>
+Nov 15 19:18:12 rjacinto1-pri postfix/cleanup[66355]: ABFFB20A5B05: message-id=<20201116001812.ABFFB20A5B05@mail.rjacinto1.com>
+Nov 15 19:18:12 rjacinto1-pri postfix/qmgr[1248]: ABFFB20A5B05: from=<root@rjacinto1.com>, size=448, nrcpt=1 (queue active)
+Nov 15 19:18:12 rjacinto1-pri postfix/smtp[66357]: ABFFB20A5B05: to=<vkim11@ravz.com>, relay=mail.ravz.com[192.168.17.25]:25, delay=0.07, delays=0.01/0/0.06/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 86FD62073B42)
+Nov 15 19:18:12 rjacinto1-pri postfix/qmgr[1248]: ABFFB20A5B05: removed
+Nov 15 20:04:36 rjacinto1-pri postfix/pickup[66618]: D256D20A5B05: uid=0 from=<root>
+Nov 15 20:04:36 rjacinto1-pri postfix/cleanup[68363]: D256D20A5B05: message-id=<20201116010436.D256D20A5B05@mail.rjacinto1.com>
+Nov 15 20:04:36 rjacinto1-pri postfix/qmgr[1248]: D256D20A5B05: from=<root@rjacinto1.com>, size=447, nrcpt=1 (queue active)
+Nov 15 20:04:37 rjacinto1-pri postfix/smtp[68365]: D256D20A5B05: to=<quack@ravz.com>, relay=mail.ravz.com[192.168.17.25]:25, delay=0.21, delays=0.03/0.02/0.12/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as CA3C32073B42)
+Nov 15 20:04:37 rjacinto1-pri postfix/qmgr[1248]: D256D20A5B05: removed

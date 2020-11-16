@@ -1,0 +1,138 @@
+Oct 13 08:53:24 localhost sshd[3961]: Accepted publickey for instructor from 172.16.0.1 port 44634 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 13 08:53:24 localhost systemd[3965]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 13 08:53:24 localhost sshd[3961]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 13 08:53:24 localhost sshd[3976]: Received disconnect from 172.16.0.1 port 44634:11: disconnected by user
+Oct 13 08:53:24 localhost sshd[3976]: Disconnected from user instructor 172.16.0.1 port 44634
+Oct 13 08:53:24 localhost sshd[3961]: pam_unix(sshd:session): session closed for user instructor
+Oct 13 08:53:24 localhost systemd[3970]: pam_unix(systemd-user:session): session closed for user instructor
+Oct 14 15:25:29 localhost sudo[4820]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/yum install bind
+Oct 14 15:25:29 localhost sudo[4820]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:25:29 localhost sudo[4820]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:25:36 localhost groupadd[4829]: group added to /etc/group: name=named, GID=25
+Oct 14 15:25:36 localhost groupadd[4829]: group added to /etc/gshadow: name=named
+Oct 14 15:25:36 localhost groupadd[4829]: new group: name=named, GID=25
+Oct 14 15:25:36 localhost useradd[4836]: new user: name=named, UID=25, GID=25, home=/var/named, shell=/bin/false
+Oct 14 15:25:38 localhost sudo[4820]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:25:59 localhost sudo[13237]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/yum install bind-utils
+Oct 14 15:25:59 localhost sudo[13237]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:25:59 localhost sudo[13237]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:26:03 localhost sudo[13237]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:26:20 localhost sudo[13630]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Oct 14 15:26:20 localhost sudo[13630]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:26:20 localhost sudo[13630]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:27:47 localhost sudo[13630]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:28:02 localhost sudo[13634]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl start bind
+Oct 14 15:28:02 localhost sudo[13634]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:28:02 localhost sudo[13634]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:28:02 localhost sudo[13634]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:28:23 localhost sudo[13638]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl status BIND
+Oct 14 15:28:23 localhost sudo[13638]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:28:23 localhost sudo[13638]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:28:23 localhost sudo[13638]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:29:17 localhost sudo[13644]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /var/named/root.zone
+Oct 14 15:29:17 localhost sudo[13644]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:29:17 localhost sudo[13644]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:29:19 localhost sudo[13644]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:34:56 localhost sudo[13651]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /var/named/named.conf
+Oct 14 15:34:56 localhost sudo[13651]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:34:56 localhost sudo[13651]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:35:05 localhost sudo[13651]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:35:19 localhost sudo[13654]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Oct 14 15:35:19 localhost sudo[13654]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:35:19 localhost sudo[13654]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:36:41 localhost sudo[13654]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:37:01 localhost sudo[13657]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cd /var/named/
+Oct 14 15:37:01 localhost sudo[13657]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:37:01 localhost sudo[13657]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:37:01 localhost sudo[13657]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:37:59 localhost sudo[13662]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cp /etc/named.conf /var/named/named.conf
+Oct 14 15:37:59 localhost sudo[13662]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:37:59 localhost sudo[13662]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:37:59 localhost sudo[13662]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:38:16 localhost polkitd[955]: Registered Authentication Agent for unix-process:13665:42572097 (system bus name :1.307 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Oct 14 15:38:22 localhost polkitd[955]: Operator of unix-process:13665:42572097 successfully authenticated as unix-user:aluk10 to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.308 [systemctl start named.service] (owned by unix-user:aluk10)
+Oct 14 15:38:22 localhost polkitd[955]: Unregistered Authentication Agent for unix-process:13665:42572097 (system bus name :1.307, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Oct 14 15:38:34 localhost sudo[13699]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/journalctl -xe
+Oct 14 15:38:34 localhost sudo[13699]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:38:34 localhost sudo[13699]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:39:17 localhost sudo[13699]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:39:45 localhost sudo[13704]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/ls /etc/named/
+Oct 14 15:39:45 localhost sudo[13704]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:39:45 localhost sudo[13704]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:39:45 localhost sudo[13704]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:40:12 localhost sudo[13708]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl start named.service
+Oct 14 15:40:12 localhost sudo[13708]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:40:12 localhost sudo[13708]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:40:12 localhost sudo[13708]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:40:28 localhost sudo[13723]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl status named.service
+Oct 14 15:40:28 localhost sudo[13723]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:40:28 localhost sudo[13723]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:41:00 localhost sudo[13723]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:41:44 localhost sudo[13728]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/cp /etc/named.conf /var/named/root.zone
+Oct 14 15:41:44 localhost sudo[13728]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:41:44 localhost sudo[13728]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:41:44 localhost sudo[13728]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:41:48 localhost sudo[13732]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl start named.service
+Oct 14 15:41:48 localhost sudo[13732]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:41:48 localhost sudo[13732]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:41:48 localhost sudo[13732]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:41:53 localhost sudo[13747]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl status named.service
+Oct 14 15:41:53 localhost sudo[13747]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:41:53 localhost sudo[13747]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:42:12 localhost sudo[13747]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:42:30 localhost sudo[13752]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nano /var/named/root.zone
+Oct 14 15:42:30 localhost sudo[13752]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:42:30 localhost sudo[13752]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:42:55 localhost sudo[13752]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:43:21 localhost sudo[13755]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/ls -la /var/named/
+Oct 14 15:43:21 localhost sudo[13755]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:43:21 localhost sudo[13755]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:43:21 localhost sudo[13755]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:43:52 localhost sudo[13758]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl start named-chroot.service
+Oct 14 15:43:52 localhost sudo[13758]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:43:52 localhost sudo[13758]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:43:52 localhost sudo[13758]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:46:16 localhost polkitd[955]: Registered Authentication Agent for unix-process:13763:42620120 (system bus name :1.335 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Oct 14 15:46:24 localhost polkitd[955]: Operator of unix-process:13763:42620120 successfully authenticated as unix-user:aluk10 to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.336 [systemctl start named.service] (owned by unix-user:aluk10)
+Oct 14 15:46:24 localhost polkitd[955]: Unregistered Authentication Agent for unix-process:13763:42620120 (system bus name :1.335, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Oct 14 15:46:57 localhost sudo[13793]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/yum remove bind bind-utils
+Oct 14 15:46:57 localhost sudo[13793]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:46:57 localhost sudo[13793]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:47:00 localhost sudo[13793]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:47:09 localhost sudo[14131]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/yum install bind bind-utils
+Oct 14 15:47:09 localhost sudo[14131]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:47:09 localhost sudo[14131]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:47:14 localhost useradd[14141]: failed adding user 'named', exit code: 9
+Oct 14 15:47:15 localhost sudo[14131]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:47:24 localhost sudo[14603]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl start named.service
+Oct 14 15:47:24 localhost sudo[14603]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:47:24 localhost sudo[14603]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:47:24 localhost sudo[14603]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:47:48 localhost sudo[14621]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/systemctl enable named.service
+Oct 14 15:47:48 localhost sudo[14621]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:47:48 localhost sudo[14621]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:47:48 localhost sudo[14621]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:59:51 localhost sudo[14652]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/ifdown ens224
+Oct 14 15:59:51 localhost sudo[14652]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:59:51 localhost sudo[14652]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:59:51 localhost sudo[14652]: pam_unix(sudo:session): session closed for user root
+Oct 14 15:59:56 localhost sudo[14670]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/ifup ens224
+Oct 14 15:59:56 localhost sudo[14670]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 15:59:56 localhost sudo[14670]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 15:59:56 localhost sudo[14670]: pam_unix(sudo:session): session closed for user root
+Oct 14 16:00:13 localhost sudo[14684]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/bin/nmtui
+Oct 14 16:00:13 localhost sudo[14684]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 16:00:13 localhost sudo[14684]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 16:01:01 localhost sudo[14684]: pam_unix(sudo:session): session closed for user root
+Oct 14 16:02:38 localhost sudo[14709]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=./r
+Oct 14 16:02:38 localhost sudo[14709]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 16:02:38 localhost sudo[14709]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 16:02:38 localhost sudo[14746]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+Oct 14 16:02:38 localhost sudo[14746]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 16:02:38 localhost sudo[14746]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 16:02:38 localhost sudo[14746]: pam_unix(sudo:session): session closed for user root
+Oct 14 16:02:38 localhost sudo[14749]:  aluk10 : TTY=tty1 ; PWD=/home/aluk10 ; USER=root ; COMMAND=/sbin/iptables -D FORWARD -j REJECT --reject-with icmp-host-prohibited
+Oct 14 16:02:38 localhost sudo[14749]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 14 16:02:38 localhost sudo[14749]: pam_unix(sudo:session): session opened for user root by aluk10(uid=0)
+Oct 14 16:02:38 localhost sudo[14749]: pam_unix(sudo:session): session closed for user root
+Oct 14 16:02:38 localhost sudo[14709]: pam_unix(sudo:session): session closed for user root

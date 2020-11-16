@@ -1,0 +1,37 @@
+$ORIGIN ravz.com.
+$TTL    1D
+; SOA records
+@       IN      SOA rjacinto1-pri.ravz.com. root.ravz.com. (
+		1	; Serial
+		3h	; Refresh
+		30m	; Retry
+		3w	; Expire
+		1h	; minimum
+)
+@	NS	rjacinto1-pri.ravz.com.
+
+; A records
+rjacinto1-pri	IN	A	192.168.13.53
+rjacinto1-rns	IN	A	192.168.13.253
+www	IN	A	192.168.13.80
+backups	IN	A	192.168.15.4
+db	IN	A	192.168.12.4
+mail	IN	A	192.168.17.25
+ravz.com.	IN	MX	10 mail.ravz.com.
+
+robert-vm1	IN	A	192.168.13.1
+robert-vm2	IN	A	192.168.13.2
+robert-vm3	IN	A	192.168.13.3
+robert-vm4	IN	A	192.168.13.4
+andrew-vm1	IN	A	192.168.17.1
+andrew-vm2	IN	A	192.168.17.2
+andrew-vm3	IN	A	192.168.17.3
+andrew-vm4	IN	A	192.168.17.4
+zac-vm1	IN	A	192.168.12.1
+zac-vm2	IN	A	192.168.12.2
+zac-vm3	IN	A	192.168.12.3
+zac-vm4	IN	A	192.168.12.4
+vlad-vm1	IN	A	192.168.15.1
+vlad-vm2	IN	A	192.168.15.2
+vlad-vm3	IN	A	192.168.15.3
+vlad-vm4	IN	A	192.168.15.4

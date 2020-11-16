@@ -1,0 +1,420 @@
+Nov 10 15:06:14 localhost sshd[24554]: Accepted publickey for instructor from 172.16.0.1 port 57004 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 10 15:06:14 localhost systemd[24558]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:14 localhost sshd[24554]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:14 localhost sshd[24567]: Received disconnect from 172.16.0.1 port 57004:11: disconnected by user
+Nov 10 15:06:14 localhost sshd[24567]: Disconnected from user instructor 172.16.0.1 port 57004
+Nov 10 15:06:14 localhost sshd[24554]: pam_unix(sshd:session): session closed for user instructor
+Nov 10 15:06:14 localhost systemd[24561]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 10 18:19:46 localhost sudo[24677]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Nov 10 18:19:46 localhost sudo[24677]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:19:46 localhost sudo[24677]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:19:55 localhost sudo[24677]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:20:02 localhost sudo[24680]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Nov 10 18:20:02 localhost sudo[24680]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:20:02 localhost sudo[24680]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:20:09 localhost sudo[24680]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:20:13 localhost sudo[24683]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Nov 10 18:20:13 localhost sudo[24683]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:20:13 localhost sudo[24683]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:20:31 localhost sudo[24683]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:20:33 localhost sudo[24686]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Nov 10 18:20:33 localhost sudo[24686]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:20:33 localhost sudo[24686]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:20:34 localhost sudo[24686]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:20:36 localhost sudo[24689]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Nov 10 18:20:36 localhost sudo[24689]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:20:36 localhost sudo[24689]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:20:37 localhost sudo[24689]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:20:38 localhost sudo[24692]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Nov 10 18:20:38 localhost sudo[24692]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:20:38 localhost sudo[24692]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:20:44 localhost sudo[24692]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:20:50 zhonderich_rns polkitd[978]: Loading rules from directory /etc/polkit-1/rules.d
+Nov 10 18:20:50 zhonderich_rns polkitd[978]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov 10 18:20:50 zhonderich_rns polkitd[978]: Finished loading, compiling and executing 2 rules
+Nov 10 18:20:50 zhonderich_rns polkitd[978]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov 10 18:20:55 zhonderich_rns sshd[1020]: Server listening on 0.0.0.0 port 22.
+Nov 10 18:20:55 zhonderich_rns sshd[1020]: Server listening on :: port 22.
+Nov 10 18:21:32 zhonderich_rns login[1067]: pam_unix(login:auth): check pass; user unknown
+Nov 10 18:21:32 zhonderich_rns login[1067]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Nov 10 18:21:34 zhonderich_rns login[1067]: FAILED LOGIN 1 FROM tty1 FOR studnet, Authentication failure
+Nov 10 18:21:41 zhonderich_rns login[1067]: pam_unix(login:auth): check pass; user unknown
+Nov 10 18:21:43 zhonderich_rns login[1067]: FAILED LOGIN 2 FROM tty1 FOR studnet, Authentication failure
+Nov 10 18:21:48 zhonderich_rns systemd[1555]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Nov 10 18:21:48 zhonderich_rns login[1067]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Nov 10 18:21:48 zhonderich_rns login[1067]: LOGIN ON tty1 BY student
+Nov 10 18:22:42 zhonderich_rns sudo[1593]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /var/named/root.zone
+Nov 10 18:22:42 zhonderich_rns sudo[1593]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:22:42 zhonderich_rns sudo[1593]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:22:47 zhonderich_rns sudo[1593]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:22:56 zhonderich_rns sudo[1597]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/ls /var/named/root.zone
+Nov 10 18:22:56 zhonderich_rns sudo[1597]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:22:56 zhonderich_rns sudo[1597]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:22:56 zhonderich_rns sudo[1597]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:23:00 zhonderich_rns sudo[1600]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/ls /var/named/
+Nov 10 18:23:00 zhonderich_rns sudo[1600]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:23:00 zhonderich_rns sudo[1600]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:23:00 zhonderich_rns sudo[1600]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:23:52 zhonderich_rns sudo[1603]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /var/named/root.zone
+Nov 10 18:23:52 zhonderich_rns sudo[1603]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:23:52 zhonderich_rns sudo[1603]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:30:42 zhonderich_rns sudo[1603]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:30:50 zhonderich_rns sudo[1609]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/systemctl start named
+Nov 10 18:30:50 zhonderich_rns sudo[1609]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:30:50 zhonderich_rns sudo[1609]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:30:50 zhonderich_rns sudo[1609]: pam_unix(sudo:session): session closed for user root
+Nov 10 18:30:56 zhonderich_rns sudo[1647]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/systemctl status named
+Nov 10 18:30:56 zhonderich_rns sudo[1647]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 18:30:56 zhonderich_rns sudo[1647]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 18:31:00 zhonderich_rns sudo[1647]: pam_unix(sudo:session): session closed for user root
+Nov 10 19:21:09 zhonderich_rns sudo[1681]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nmtui
+Nov 10 19:21:09 zhonderich_rns sudo[1681]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 19:21:09 zhonderich_rns sudo[1681]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 19:21:18 zhonderich_rns sudo[1681]: pam_unix(sudo:session): session closed for user root
+Nov 10 19:21:29 zhonderich_rns sudo[1688]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nmtui
+Nov 10 19:21:29 zhonderich_rns sudo[1688]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 19:21:29 zhonderich_rns sudo[1688]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 19:22:01 zhonderich_rns sudo[1688]: pam_unix(sudo:session): session closed for user root
+Nov 10 19:22:25 zhonderich_rns sudo[1695]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nmtui
+Nov 10 19:22:25 zhonderich_rns sudo[1695]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 19:22:25 zhonderich_rns sudo[1695]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 19:22:47 zhonderich_rns sudo[1695]: pam_unix(sudo:session): session closed for user root
+Nov 10 19:23:01 zhonderich_rns sudo[1702]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nmtui
+Nov 10 19:23:01 zhonderich_rns sudo[1702]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 19:23:01 zhonderich_rns sudo[1702]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 19:23:10 zhonderich_rns sudo[1702]: pam_unix(sudo:session): session closed for user root
+Nov 10 19:23:21 zhonderich_rns sudo[1715]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nmtui
+Nov 10 19:23:21 zhonderich_rns sudo[1715]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 19:23:21 zhonderich_rns sudo[1715]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 19:23:26 zhonderich_rns sudo[1715]: pam_unix(sudo:session): session closed for user root
+Nov 10 19:23:51 zhonderich_rns sudo[1728]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Nov 10 19:23:51 zhonderich_rns sudo[1728]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 19:23:51 zhonderich_rns sudo[1728]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 19:24:24 zhonderich_rns sudo[1728]: pam_unix(sudo:session): session closed for user root
+Nov 10 19:24:47 zhonderich-rns polkitd[898]: Loading rules from directory /etc/polkit-1/rules.d
+Nov 10 19:24:47 zhonderich-rns polkitd[898]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov 10 19:24:47 zhonderich-rns polkitd[898]: Finished loading, compiling and executing 2 rules
+Nov 10 19:24:47 zhonderich-rns polkitd[898]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov 10 19:24:52 zhonderich-rns sshd[983]: Server listening on 0.0.0.0 port 22.
+Nov 10 19:24:52 zhonderich-rns sshd[983]: Server listening on :: port 22.
+Nov 10 19:26:26 zhonderich-rns systemd[1516]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Nov 10 19:26:26 zhonderich-rns login[1027]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Nov 10 19:26:26 zhonderich-rns login[1027]: LOGIN ON tty1 BY student
+Nov 10 19:26:35 zhonderich-rns sudo[1554]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nmtui
+Nov 10 19:26:35 zhonderich-rns sudo[1554]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 19:26:35 zhonderich-rns sudo[1554]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 19:26:47 zhonderich-rns sudo[1554]: pam_unix(sudo:session): session closed for user root
+Nov 10 19:27:11 zhonderich-rns sudo[1568]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nmtui
+Nov 10 19:27:11 zhonderich-rns sudo[1568]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 10 19:27:11 zhonderich-rns sudo[1568]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 10 19:27:15 zhonderich-rns sudo[1568]: pam_unix(sudo:session): session closed for user root
+Nov 11 20:06:00 zhonderich-rns sshd[2306]: Accepted publickey for instructor from 172.16.0.1 port 57526 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 11 20:06:00 zhonderich-rns systemd[2310]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:00 zhonderich-rns sshd[2306]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:00 zhonderich-rns sshd[2321]: Received disconnect from 172.16.0.1 port 57526:11: disconnected by user
+Nov 11 20:06:00 zhonderich-rns sshd[2321]: Disconnected from user instructor 172.16.0.1 port 57526
+Nov 11 20:06:00 zhonderich-rns sshd[2306]: pam_unix(sshd:session): session closed for user instructor
+Nov 11 20:06:00 zhonderich-rns systemd[2315]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:05:11 zhonderich-rns sshd[3169]: Accepted publickey for instructor from 172.16.0.1 port 57974 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:05:11 zhonderich-rns systemd[3173]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:11 zhonderich-rns sshd[3169]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:11 zhonderich-rns sshd[3184]: Received disconnect from 172.16.0.1 port 57974:11: disconnected by user
+Nov 13 01:05:11 zhonderich-rns sshd[3184]: Disconnected from user instructor 172.16.0.1 port 57974
+Nov 13 01:05:11 zhonderich-rns sshd[3169]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:05:11 zhonderich-rns systemd[3178]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:09:59 zhonderich-rns sshd[3209]: Accepted publickey for instructor from 172.16.0.1 port 58224 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:09:59 zhonderich-rns systemd[3213]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:09:59 zhonderich-rns sshd[3209]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:09:59 zhonderich-rns sshd[3223]: Received disconnect from 172.16.0.1 port 58224:11: disconnected by user
+Nov 13 01:09:59 zhonderich-rns sshd[3223]: Disconnected from user instructor 172.16.0.1 port 58224
+Nov 13 01:09:59 zhonderich-rns sshd[3209]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:09:59 zhonderich-rns systemd[3217]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 14 15:27:10 zhonderich-rns polkitd[959]: Loading rules from directory /etc/polkit-1/rules.d
+Nov 14 15:27:10 zhonderich-rns polkitd[959]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov 14 15:27:10 zhonderich-rns polkitd[959]: Finished loading, compiling and executing 2 rules
+Nov 14 15:27:10 zhonderich-rns polkitd[959]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov 14 15:27:14 zhonderich-rns sshd[996]: Server listening on 0.0.0.0 port 22.
+Nov 14 15:27:14 zhonderich-rns sshd[996]: Server listening on :: port 22.
+Nov 14 15:27:39 zhonderich-rns systemd[1528]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Nov 14 15:27:39 zhonderich-rns login[1042]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Nov 14 15:27:39 zhonderich-rns login[1042]: LOGIN ON tty1 BY student
+Nov 14 15:31:03 zhonderich-rns sudo[1570]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/ls /var/named/
+Nov 14 15:31:03 zhonderich-rns sudo[1570]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:31:03 zhonderich-rns sudo[1570]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:31:03 zhonderich-rns sudo[1570]: pam_unix(sudo:session): session closed for user root
+Nov 14 15:33:44 zhonderich-rns sudo[1575]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/ls /var/named/
+Nov 14 15:33:44 zhonderich-rns sudo[1575]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:33:44 zhonderich-rns sudo[1575]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:33:44 zhonderich-rns sudo[1575]: pam_unix(sudo:session): session closed for user root
+Nov 14 15:34:01 zhonderich-rns sudo[1578]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /var/named/named.localhost
+Nov 14 15:34:01 zhonderich-rns sudo[1578]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:34:01 zhonderich-rns sudo[1578]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:36:26 zhonderich-rns sudo[1578]: pam_unix(sudo:session): session closed for user root
+Nov 14 15:36:32 zhonderich-rns sudo[1582]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /var/named/named.ca
+Nov 14 15:36:32 zhonderich-rns sudo[1582]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:36:32 zhonderich-rns sudo[1582]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:37:51 zhonderich-rns sudo[1582]: pam_unix(sudo:session): session closed for user root
+Nov 14 15:38:25 zhonderich-rns sudo[1590]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/cp /var/named/named.ca named.cabackup
+Nov 14 15:38:25 zhonderich-rns sudo[1590]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:38:25 zhonderich-rns sudo[1590]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:38:25 zhonderich-rns sudo[1590]: pam_unix(sudo:session): session closed for user root
+Nov 14 15:38:36 zhonderich-rns sudo[1593]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/ls /var/named
+Nov 14 15:38:36 zhonderich-rns sudo[1593]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:38:36 zhonderich-rns sudo[1593]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:38:36 zhonderich-rns sudo[1593]: pam_unix(sudo:session): session closed for user root
+Nov 14 15:38:54 zhonderich-rns sudo[1597]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /var/named/named.ca
+Nov 14 15:38:54 zhonderich-rns sudo[1597]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:38:54 zhonderich-rns sudo[1597]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:39:02 zhonderich-rns sudo[1597]: pam_unix(sudo:session): session closed for user root
+Nov 14 15:39:03 zhonderich-rns sudo[1600]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /var/named/named.ca
+Nov 14 15:39:03 zhonderich-rns sudo[1600]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:39:03 zhonderich-rns sudo[1600]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:45:18 zhonderich-rns sudo[1600]: pam_unix(sudo:session): session closed for user root
+Nov 14 15:46:02 zhonderich-rns sudo[1606]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Nov 14 15:46:02 zhonderich-rns sudo[1606]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:46:02 zhonderich-rns sudo[1606]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:46:38 zhonderich-rns sudo[1606]: pam_unix(sudo:session): session closed for user root
+Nov 14 15:46:54 zhonderich-rns polkitd[959]: Registered Authentication Agent for unix-process:1610:119252 (system bus name :1.37 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Nov 14 15:46:57 zhonderich-rns polkitd[959]: Unregistered Authentication Agent for unix-process:1610:119252 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Nov 14 15:46:57 zhonderich-rns polkitd[959]: Operator of unix-process:1610:119252 FAILED to authenticate to gain authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.38 [<unknown>] (owned by unix-user:student)
+Nov 14 15:47:01 zhonderich-rns sudo[1622]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/systemctl start named
+Nov 14 15:47:01 zhonderich-rns sudo[1622]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:47:01 zhonderich-rns sudo[1622]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:47:01 zhonderich-rns sudo[1622]: pam_unix(sudo:session): session closed for user root
+Nov 14 15:47:12 zhonderich-rns sudo[1640]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/systemctl status named
+Nov 14 15:47:12 zhonderich-rns sudo[1640]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 15:47:12 zhonderich-rns sudo[1640]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 15:47:44 zhonderich-rns sudo[1640]: pam_unix(sudo:session): session closed for user root
+Nov 14 16:57:15 zhonderich-rns sudo[1679]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Nov 14 16:57:15 zhonderich-rns sudo[1679]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 16:57:15 zhonderich-rns sudo[1679]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 16:57:15 zhonderich-rns su[1681]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 16:57:15 zhonderich-rns su[1681]: pam_unix(su:session): session opened for user root by student(uid=0)
+Nov 14 17:48:24 zhonderich-rns sudo[1785]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=./vm_script.sh
+Nov 14 17:48:25 zhonderich-rns sudo[1785]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1785]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1788]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1788]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1788]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1788]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1791]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.1.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1791]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1791]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1791]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1794]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.2.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1794]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1794]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1794]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1797]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.2.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1797]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1797]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1797]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1800]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.3.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1800]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1800]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1800]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1803]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.3.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1803]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1803]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1803]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1806]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.4.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1806]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1806]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1806]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1809]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.4.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1809]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1809]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1809]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1812]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.5.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1812]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1812]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1812]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1815]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.5.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1815]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1815]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1815]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1818]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.6.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1818]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1818]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1818]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1821]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.6.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1821]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1821]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1821]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1824]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.7.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1824]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1824]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1824]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1827]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.7.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1827]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1827]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1827]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1830]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.8.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1830]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1830]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1830]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1833]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.8.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1833]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1833]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1833]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1836]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.9.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1836]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1836]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1836]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1839]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.9.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1839]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1839]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1839]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1842]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.10.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1842]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1842]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1842]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1845]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.10.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1845]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1845]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1845]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1848]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.11.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1848]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1848]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1848]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1851]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.11.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1851]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1851]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1851]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1854]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.13.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1854]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1854]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1854]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1857]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.13.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1857]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1857]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1857]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1860]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.14.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1860]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1860]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1860]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1863]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.14.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1863]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1863]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1863]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1866]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.15.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1866]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1866]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1866]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1869]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.15.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1869]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1869]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1869]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1872]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.16.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1872]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1872]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1872]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1875]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.16.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1875]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1875]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1875]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1878]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.17.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1878]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1878]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1878]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1881]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.17.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1881]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1881]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1881]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1884]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.18.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1884]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1884]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1884]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1887]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.18.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1887]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1887]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1887]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1890]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.19.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1890]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1890]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1890]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1893]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.19.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1893]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1893]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1893]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1896]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.20.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1896]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1896]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1896]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1899]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.20.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1899]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1899]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1899]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1902]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.21.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1902]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1902]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1902]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1905]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.21.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1905]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1905]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1905]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1908]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.22.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1908]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1908]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1908]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1911]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.22.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1911]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1911]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1911]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1914]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.23.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1914]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1914]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1914]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1917]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.23.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1917]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1917]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1917]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1920]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.24.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1920]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1920]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1920]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1923]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.24.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1923]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1923]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1923]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1926]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.25.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1926]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1926]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1926]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1929]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.25.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1929]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1929]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1929]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1932]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.26.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1932]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1932]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1932]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1935]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.26.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1935]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1935]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1935]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1938]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.27.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1938]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1938]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1938]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1941]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.27.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1941]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1941]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1941]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1944]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.28.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1944]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1944]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1944]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:25 zhonderich-rns sudo[1947]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.28.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:25 zhonderich-rns sudo[1947]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:25 zhonderich-rns sudo[1947]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:25 zhonderich-rns sudo[1947]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:26 zhonderich-rns sudo[1950]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.29.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 14 17:48:26 zhonderich-rns sudo[1950]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:26 zhonderich-rns sudo[1950]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:26 zhonderich-rns sudo[1950]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:26 zhonderich-rns sudo[1953]:    root : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.29.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 14 17:48:26 zhonderich-rns sudo[1953]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:48:26 zhonderich-rns sudo[1953]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 17:48:26 zhonderich-rns sudo[1953]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:48:26 zhonderich-rns sudo[1785]: pam_unix(sudo:session): session closed for user root

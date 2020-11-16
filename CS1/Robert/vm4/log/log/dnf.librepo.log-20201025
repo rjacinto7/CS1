@@ -1,0 +1,714 @@
+2020-10-18T08:31:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T08:31:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T09:32:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T09:32:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T09:32:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T09:32:17Z INFO Downloading: http://centos.mirror.globo.tech/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-18T09:32:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-18T09:32:17Z INFO Downloading: http://centos.westmancom.com/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-18T09:32:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-18T09:32:17Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-18T10:33:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T10:33:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T11:34:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T11:34:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T12:35:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T12:35:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T12:35:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:35:47Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:35:47Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:35:47Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:36:17Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30001 milliseconds]
+2020-10-18T12:36:17Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30001 milliseconds]
+2020-10-18T12:36:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:36:47Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30003 milliseconds]
+2020-10-18T12:36:47Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30003 milliseconds]
+2020-10-18T12:36:47Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:37:17Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:37:17Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:37:17Z INFO Error while downloading: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:37:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:37:47Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:37:47Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:37:47Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:38:17Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30004 milliseconds]
+2020-10-18T12:38:17Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30004 milliseconds]
+2020-10-18T12:38:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:38:47Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:38:47Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:38:47Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:39:17Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:39:17Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:39:17Z INFO Error while downloading: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:39:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:39:47Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30001 milliseconds]
+2020-10-18T12:39:47Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30001 milliseconds]
+2020-10-18T12:39:47Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:40:17Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30004 milliseconds]
+2020-10-18T12:40:17Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30004 milliseconds]
+2020-10-18T12:40:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:40:47Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30004 milliseconds]
+2020-10-18T12:40:47Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30004 milliseconds]
+2020-10-18T12:40:47Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T12:41:17Z INFO Serious error - Curl code (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:41:17Z INFO Error during transfer: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:41:17Z INFO Error while downloading: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Connection timed out after 30000 milliseconds]
+2020-10-18T12:41:17Z WARNING LRO_MIRRORLISTURL processing failed
+2020-10-18T13:42:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T13:42:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T14:43:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T14:43:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T15:44:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T15:44:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T15:44:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T15:44:25Z INFO Downloading: http://mirror2.evolution-host.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-18T15:44:25Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-18T15:44:25Z INFO Downloading: http://mirror.dst.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-18T15:44:25Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-18T15:44:26Z INFO Downloading: http://mirror.netflash.net/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-18T16:45:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T16:45:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T17:46:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T17:46:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T18:47:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T18:47:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T18:47:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T18:47:17Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-18T18:47:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-18T18:47:17Z INFO Downloading: http://less.cogeco.net/CentOS/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-18T18:47:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-18T18:47:17Z INFO Downloading: http://less.cogeco.net/CentOS/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-18T19:48:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T19:48:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T20:49:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T20:49:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T21:50:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T21:50:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T21:50:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-18T21:50:17Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-18T21:50:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-18T21:50:17Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-18T21:50:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-18T21:50:18Z INFO Downloading: http://centos.mirror.iweb.ca/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-18T22:51:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T22:51:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T23:52:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-18T23:52:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T00:53:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T00:53:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T00:53:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-19T00:53:17Z INFO Downloading: http://centos.mirror.globo.tech/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-19T00:53:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-19T00:53:17Z INFO Downloading: http://less.cogeco.net/CentOS/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-19T00:53:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-19T00:53:17Z INFO Downloading: http://centos.mirror.globo.tech/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-19T01:54:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T01:54:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T02:55:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T02:55:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T03:56:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T03:56:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T03:56:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-19T03:56:17Z INFO Downloading: http://centos.ca-west.mirror.fullhost.io/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-19T03:56:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-19T03:56:17Z INFO Downloading: http://centos.mirror.colo-serv.net/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-19T03:56:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-19T03:56:18Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-19T04:57:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T04:57:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T05:58:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T05:58:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T06:59:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T06:59:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T06:59:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-19T06:59:17Z INFO Downloading: http://mirror.calgah.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-19T06:59:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-19T06:59:18Z INFO Downloading: http://centos.mirror.vexxhost.com/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-19T06:59:18Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-19T06:59:18Z INFO Downloading: http://centos.mirror.netelligent.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-19T08:00:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T08:00:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T09:01:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T09:01:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T10:01:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T10:01:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T10:01:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-19T10:01:17Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-19T10:01:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-19T10:01:17Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-19T10:01:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-19T10:01:17Z INFO Downloading: http://mirror.dst.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-19T11:02:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T11:02:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T12:03:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T12:03:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T13:04:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T13:04:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T13:04:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-19T13:04:17Z INFO Downloading: http://centos.mirror.ca.planethoster.net/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-19T13:04:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-19T13:04:17Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-19T13:04:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-19T13:04:17Z INFO Downloading: http://less.cogeco.net/CentOS/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-19T14:05:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T14:05:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T15:06:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T15:06:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T16:07:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T16:07:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T16:07:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-19T16:07:17Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-19T16:07:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-19T16:07:17Z INFO Downloading: http://less.cogeco.net/CentOS/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-19T16:07:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-19T16:07:18Z INFO Downloading: http://centos.westmancom.com/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-19T17:08:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T17:08:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T18:09:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T18:09:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T19:10:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T19:10:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T19:10:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-19T19:10:17Z INFO Downloading: http://centos.mirror.iweb.ca/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-19T19:10:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-19T19:10:18Z INFO Downloading: http://mirror2.evolution-host.com/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-19T19:10:18Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-19T19:10:18Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-19T20:11:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T20:11:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T21:12:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T21:12:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T22:13:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T22:13:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T22:13:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-19T22:13:18Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-19T22:13:18Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-19T22:13:18Z INFO Downloading: http://centos.mirror.colo-serv.net/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-19T22:13:18Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-19T22:13:18Z INFO Downloading: http://mirror2.evolution-host.com/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-19T23:14:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-19T23:14:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T00:15:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T00:15:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T01:16:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T01:16:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T01:16:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-20T01:16:17Z INFO Downloading: http://mirror2.evolution-host.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-20T01:16:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-20T01:16:17Z INFO Downloading: http://mirror.csclub.uwaterloo.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-20T01:16:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-20T01:16:18Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-20T02:17:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T02:17:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T03:18:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T03:18:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T04:19:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T04:19:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T04:19:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-20T04:19:17Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-20T04:19:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-20T04:19:17Z INFO Downloading: http://centos.westmancom.com/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-20T04:19:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-20T04:19:17Z INFO Downloading: http://centos.mirror.globo.tech/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-20T05:20:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T05:20:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T06:21:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T06:21:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T07:22:01Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T07:22:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T07:22:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-20T07:22:02Z INFO Downloading: http://mirror.netaddicted.ca/CentOS/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-20T07:22:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-20T07:22:02Z INFO Downloading: http://mirror.netflash.net/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-20T07:22:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-20T07:22:02Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-20T08:22:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T08:22:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T09:23:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T09:23:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T10:24:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T10:24:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T10:24:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-20T10:24:17Z INFO Downloading: http://mirror.esecuredata.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-20T10:24:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-20T10:24:18Z INFO Downloading: http://centos.mirror.vexxhost.com/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-20T10:24:18Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-20T10:24:18Z INFO Downloading: http://mirror.csclub.uwaterloo.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-20T11:25:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T11:25:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T12:26:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T12:26:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T13:27:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T13:27:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T13:27:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-20T13:27:17Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-20T13:27:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-20T13:27:17Z INFO Downloading: http://centos.mirror.ca.planethoster.net/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-20T13:27:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-20T13:27:18Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-20T14:28:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T14:28:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T15:29:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T15:29:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T16:30:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T16:30:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T16:30:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-20T16:30:17Z INFO Downloading: http://centos.mirror.iweb.ca/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-20T16:30:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-20T16:30:17Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-20T16:30:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-20T16:30:19Z INFO Downloading: http://mirror.netaddicted.ca/CentOS/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-20T17:31:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T17:31:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T18:32:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T18:32:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T19:33:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T19:33:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T19:33:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-20T19:33:17Z INFO Downloading: http://mirror.netaddicted.ca/CentOS/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-20T19:33:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-20T19:33:17Z INFO Downloading: http://centos.westmancom.com/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-20T19:33:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-20T19:33:17Z INFO Downloading: http://centos.mirror.netelligent.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-20T20:34:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T20:34:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T21:35:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T21:35:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T22:36:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T22:36:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T22:36:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-20T22:36:18Z INFO Downloading: http://mirror.csclub.uwaterloo.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-20T22:36:18Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-20T22:36:18Z INFO Downloading: http://centos.mirror.netelligent.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-20T22:36:18Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-20T22:36:18Z INFO Downloading: http://mirror.dst.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-20T23:37:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-20T23:37:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T00:38:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T00:38:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T01:39:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T01:39:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T01:39:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-21T01:39:17Z INFO Downloading: http://centos.les.net/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-21T01:39:18Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-21T01:39:18Z INFO Downloading: http://mirror2.evolution-host.com/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-21T01:39:18Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-21T01:39:18Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-21T02:40:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T02:40:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T03:41:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T03:41:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T04:42:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T04:42:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T04:42:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-21T04:42:20Z INFO Downloading: http://centos.westmancom.com/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-21T04:42:20Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-21T04:42:20Z INFO Downloading: http://centos.mirror.ca.planethoster.net/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-21T04:42:20Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-21T04:42:20Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-21T05:43:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T05:43:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T06:44:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T06:44:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T07:45:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T07:45:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T07:45:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-21T07:45:17Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-21T07:45:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-21T07:45:17Z INFO Downloading: http://centos.ca-west.mirror.fullhost.io/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-21T07:45:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-21T07:45:17Z INFO Downloading: http://mirror.netaddicted.ca/CentOS/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-21T08:46:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T08:46:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T09:47:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T09:47:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T10:48:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T10:48:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T10:48:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-21T10:48:17Z INFO Downloading: http://centos.les.net/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-21T10:48:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-21T10:48:17Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-21T10:48:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-21T10:48:17Z INFO Downloading: http://centos.westmancom.com/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-21T11:49:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T11:49:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T12:50:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T12:50:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T13:51:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T13:51:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T13:51:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-21T13:51:17Z INFO Downloading: http://centos.mirror.globo.tech/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-21T13:51:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-21T13:51:17Z INFO Downloading: http://centos.ca-west.mirror.fullhost.io/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-21T13:51:18Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-21T13:51:18Z INFO Downloading: http://centos.ca-west.mirror.fullhost.io/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-21T14:52:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T14:52:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T15:53:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T15:53:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T16:54:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T16:54:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T16:54:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-21T16:54:17Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-21T16:54:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-21T16:54:17Z INFO Downloading: http://mirror.netaddicted.ca/CentOS/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-21T16:54:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-21T16:54:17Z INFO Downloading: http://centos.les.net/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-21T17:55:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T17:55:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T18:56:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T18:56:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T19:57:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T19:57:16Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T19:57:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-21T19:57:17Z INFO Downloading: http://centos.mirror.globo.tech/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-21T19:57:17Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-21T19:57:19Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-21T19:57:20Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-21T19:57:20Z INFO Downloading: http://centos.westmancom.com/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-21T20:27:23Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T20:27:23Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T21:28:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T21:28:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T22:24:18Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T22:24:18Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T22:24:20Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-21T22:24:20Z INFO Downloading: http://mirror.esecuredata.com/centos/8.2.2004/AppStream/x86_64/os/Packages/wget-1.19.5-8.el8_1.1.x86_64.rpm
+2020-10-21T22:28:22Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T22:28:22Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T23:29:22Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T23:29:22Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-21T23:29:23Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-21T23:29:23Z INFO Downloading: http://mirror.dst.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-21T23:29:23Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-21T23:29:23Z INFO Downloading: http://centos.mirror.vexxhost.com/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-21T23:29:23Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-21T23:29:23Z INFO Downloading: http://mirror.esecuredata.com/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-22T00:14:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T00:14:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T01:15:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T01:15:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T02:15:42Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T02:15:42Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T03:16:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T03:16:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Error while downloading: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Error while downloading: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T03:16:02Z INFO Error during transfer: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z INFO Error while downloading: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+2020-10-22T03:16:02Z WARNING LRO_MIRRORLISTURL processing failed
+2020-10-22T04:16:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T04:16:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T05:17:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T05:17:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T06:18:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T06:18:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T06:18:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T06:18:13Z INFO Downloading: http://centos.mirror.vexxhost.com/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-22T06:18:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-22T06:18:14Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-22T06:18:14Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-22T06:18:14Z INFO Downloading: http://mirror.esecuredata.com/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-22T07:19:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T07:19:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T08:19:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T08:19:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T09:20:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T09:20:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T09:20:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T09:20:12Z INFO Downloading: http://centos.westmancom.com/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-22T09:20:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-22T09:20:13Z INFO Downloading: http://centos.westmancom.com/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-22T09:20:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-22T09:20:14Z INFO Downloading: http://centos.les.net/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-22T10:21:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T10:21:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T11:22:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T11:22:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T12:22:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T12:22:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T12:22:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T12:22:12Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-22T12:22:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-22T12:22:13Z INFO Downloading: http://centos.mirror.globo.tech/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-22T12:22:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-22T12:22:13Z INFO Downloading: http://centos.les.net/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-22T13:23:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T13:23:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T14:24:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T14:24:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T15:25:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T15:25:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T15:25:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T15:25:02Z INFO Downloading: http://centos.mirror.colo-serv.net/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-22T15:25:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-22T15:25:03Z INFO Downloading: http://mirror.calgah.com/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-22T15:25:03Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-22T15:25:04Z INFO Downloading: http://centos.les.net/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-22T16:25:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T16:25:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T17:26:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T17:26:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T18:27:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T18:27:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T18:27:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T18:27:12Z INFO Downloading: http://mirror2.evolution-host.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-22T18:27:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-22T18:27:13Z INFO Downloading: http://centos.mirror.vexxhost.com/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-22T18:27:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-22T18:27:13Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-22T19:28:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T19:28:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T20:28:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T20:28:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T21:29:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T21:29:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T21:29:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-22T21:29:12Z INFO Downloading: http://mirror.esecuredata.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-22T21:29:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-22T21:29:12Z INFO Downloading: http://centos.ca-west.mirror.fullhost.io/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-22T21:29:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-22T21:29:13Z INFO Downloading: http://mirror.netflash.net/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-22T22:30:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T22:30:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T23:31:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-22T23:31:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T00:31:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T00:31:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T00:31:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-23T00:31:12Z INFO Downloading: http://mirror2.evolution-host.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-23T00:31:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-23T00:31:13Z INFO Downloading: http://muug.ca/mirror/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-23T00:31:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-23T00:31:13Z INFO Downloading: http://mirror.calgah.com/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-23T01:32:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T01:32:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T02:33:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T02:33:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T03:34:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T03:34:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T03:34:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-23T03:34:02Z INFO Downloading: http://mirror.calgah.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-23T03:34:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-23T03:34:02Z INFO Downloading: http://mirror.csclub.uwaterloo.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-23T03:34:03Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-23T03:34:03Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-23T04:34:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T04:34:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T05:35:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T05:35:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T06:36:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T06:36:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T06:36:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-23T06:36:14Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-23T06:36:14Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-23T06:36:14Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-23T06:36:14Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-23T06:36:14Z INFO Downloading: http://mirror.netflash.net/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-23T07:37:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T07:37:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T08:37:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T08:37:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T09:38:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T09:38:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T09:38:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-23T09:38:12Z INFO Downloading: http://mirror.netaddicted.ca/CentOS/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-23T09:38:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-23T09:38:13Z INFO Downloading: http://mirror.calgah.com/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-23T09:38:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-23T09:38:13Z INFO Downloading: http://less.cogeco.net/CentOS/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-23T10:39:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T10:39:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T11:40:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T11:40:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T12:40:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T12:40:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T12:40:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-23T12:40:14Z INFO Downloading: http://centos.mirror.colo-serv.net/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-23T12:40:14Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-23T12:40:14Z INFO Downloading: http://mirror.netaddicted.ca/CentOS/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-23T12:40:14Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-23T12:40:14Z INFO Downloading: http://mirror2.evolution-host.com/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-23T13:41:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T13:41:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T14:42:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T14:42:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T15:43:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T15:43:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T15:43:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-23T15:43:02Z INFO Downloading: http://mirror.calgah.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-23T15:43:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-23T15:43:02Z INFO Downloading: http://mirror.netflash.net/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-23T15:43:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-23T15:43:02Z INFO Downloading: http://centos.mirror.ca.planethoster.net/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-23T16:43:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T16:43:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T17:44:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T17:44:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T18:45:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T18:45:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T18:45:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-23T18:45:12Z INFO Downloading: http://centos.mirror.ca.planethoster.net/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-23T18:45:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-23T18:45:14Z INFO Downloading: http://muug.ca/mirror/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-23T18:45:14Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-23T18:45:14Z INFO Downloading: http://mirror.esecuredata.com/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-23T19:46:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T19:46:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T20:46:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T20:46:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T21:47:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T21:47:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T21:47:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-23T21:47:12Z INFO Downloading: http://centos.mirror.vexxhost.com/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-23T21:47:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-23T21:47:12Z INFO Downloading: http://less.cogeco.net/CentOS/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-23T21:47:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-23T21:47:14Z INFO Downloading: http://centos.mirror.netelligent.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-23T22:48:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T22:48:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T23:49:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-23T23:49:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T00:49:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T00:49:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T00:49:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-24T00:49:12Z INFO Downloading: http://centos.ca-west.mirror.fullhost.io/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-24T00:49:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-24T00:49:16Z INFO Downloading: http://centos.mirror.ca.planethoster.net/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-24T00:49:16Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-24T00:49:16Z INFO Downloading: http://centos.mirror.netelligent.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-24T01:50:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T01:50:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T02:51:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T02:51:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T03:52:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T03:52:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T03:52:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-24T03:52:02Z INFO Downloading: http://centos.ca-west.mirror.fullhost.io/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-24T03:52:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-24T03:52:03Z INFO Downloading: http://mirror.csclub.uwaterloo.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-24T03:52:03Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-24T03:52:03Z INFO Downloading: http://centos.mirror.globo.tech/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-24T04:52:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T04:52:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T05:53:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T05:53:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T06:54:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T06:54:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T06:54:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-24T06:54:12Z INFO Downloading: http://centos.mirror.ca.planethoster.net/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-24T06:54:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-24T06:54:12Z INFO Downloading: http://centos.les.net/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-24T06:54:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-24T06:54:13Z INFO Downloading: http://centos.mirror.globo.tech/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-24T07:55:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T07:55:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T08:55:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T08:55:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T09:56:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T09:56:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T09:56:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-24T09:56:12Z INFO Downloading: http://muug.ca/mirror/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-24T09:56:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-24T09:56:12Z INFO Downloading: http://mirror.it.ubc.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-24T09:56:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-24T09:56:13Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-24T10:57:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T10:57:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T11:58:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T11:58:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T12:58:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T12:58:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T12:58:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-24T12:58:12Z INFO Downloading: http://mirror.calgah.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-24T12:58:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-24T12:58:13Z INFO Downloading: http://mirror.dst.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-24T12:58:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-24T12:58:13Z INFO Downloading: http://mirror.dst.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-24T13:59:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T13:59:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T15:00:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T15:00:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T16:01:01Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T16:01:01Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T16:01:01Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-24T16:01:01Z INFO Downloading: http://centos.mirror.vexxhost.com/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-24T16:01:01Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-24T16:01:02Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-24T16:01:02Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-24T16:01:02Z INFO Downloading: http://mirror.its.dal.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-24T17:01:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T17:01:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T18:02:08Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T18:02:08Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T19:02:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T19:02:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T19:02:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-24T19:02:15Z INFO Downloading: http://centos.mirror.netelligent.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-24T19:02:16Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-24T19:02:16Z INFO Downloading: http://centos.mirror.iweb.ca/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-24T19:02:16Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-24T19:02:16Z INFO Downloading: http://centos.mirror.colo-serv.net/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-24T20:03:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T20:03:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T21:04:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T21:04:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T22:04:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T22:04:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T22:04:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-24T22:04:12Z INFO Downloading: http://centos.mirror.netelligent.ca/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-24T22:04:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-24T22:04:15Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-24T22:04:15Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-24T22:04:15Z INFO Downloading: http://mirror.dst.ca/centos/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-24T23:05:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-24T23:05:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T00:06:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T00:06:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T01:06:54Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T01:06:54Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T01:06:54Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-25T01:06:54Z INFO Downloading: http://mirror.esecuredata.com/centos/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-25T01:06:54Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-25T01:06:55Z INFO Downloading: http://less.cogeco.net/CentOS/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-25T01:06:55Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-25T01:06:55Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-25T02:07:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T02:07:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T03:07:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T03:07:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T04:08:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T04:08:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T04:08:12Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock
+2020-10-25T04:08:13Z INFO Downloading: http://centos.mirror.rafal.ca/8.2.2004/AppStream/x86_64/os/repodata/repomd.xml
+2020-10-25T04:08:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=BaseOS&infra=stock
+2020-10-25T04:08:13Z INFO Downloading: http://mirror.dst.ca/centos/8.2.2004/BaseOS/x86_64/os/repodata/repomd.xml
+2020-10-25T04:08:13Z INFO Downloading: http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=extras&infra=stock
+2020-10-25T04:08:13Z INFO Downloading: http://centos.les.net/8.2.2004/extras/x86_64/os/repodata/repomd.xml
+2020-10-25T05:09:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T05:09:12Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T06:10:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)
+2020-10-25T06:10:02Z INFO Librepo version: 1.11.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1c zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.9.0/openssl/zlib nghttp2/1.33.0)

@@ -1,0 +1,7 @@
+Oct 27 17:32:14 zachary-vm2 sshd[9391]: Accepted publickey for instructor from 172.16.0.1 port 34134 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 27 17:32:14 zachary-vm2 systemd[9395]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:14 zachary-vm2 sshd[9391]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:14 zachary-vm2 sshd[9404]: Received disconnect from 172.16.0.1 port 34134:11: disconnected by user
+Oct 27 17:32:14 zachary-vm2 sshd[9404]: Disconnected from user instructor 172.16.0.1 port 34134
+Oct 27 17:32:14 zachary-vm2 sshd[9391]: pam_unix(sshd:session): session closed for user instructor
+Oct 27 17:32:14 zachary-vm2 systemd[9398]: pam_unix(systemd-user:session): session closed for user instructor

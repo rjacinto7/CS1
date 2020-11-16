@@ -1,0 +1,447 @@
+Nov 15 15:15:00 zachary-vm2 sudo[11093]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Nov 15 15:15:00 zachary-vm2 sudo[11093]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:15:00 zachary-vm2 sudo[11093]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:15:00 zachary-vm2 su[11097]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:15:00 zachary-vm2 su[11097]: pam_unix(su:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11162]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11162]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11162]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11162]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11165]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.1.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11165]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11165]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11165]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11168]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.2.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11168]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11168]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11168]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11171]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.2.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11171]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11171]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11171]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11174]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.3.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11174]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11174]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11174]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11177]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.3.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11177]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11177]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11177]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11180]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.4.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11180]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11180]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11180]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11183]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.4.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11183]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11183]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11183]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11186]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.5.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11186]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11186]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11186]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11189]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.5.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11189]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11189]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11189]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11192]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.6.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11192]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11192]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11192]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11195]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.6.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11195]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11195]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11195]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11198]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.7.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11198]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11198]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11198]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11201]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.7.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11201]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11201]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11201]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11204]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.8.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11204]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11204]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11204]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11207]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.8.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11207]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11207]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11207]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11210]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.9.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11210]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11210]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11210]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11213]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.9.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11213]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11213]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11213]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11216]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.10.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11216]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11216]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11216]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11219]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.10.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11219]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11219]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11219]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11222]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.11.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11222]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11222]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11222]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11225]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.11.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11225]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11225]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11225]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11228]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.13.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11228]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11228]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11228]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11231]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.13.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11231]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11231]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11231]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11234]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.14.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11234]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11234]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11234]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11237]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.14.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11237]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11237]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11237]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11240]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.15.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11240]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11240]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11240]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11243]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.15.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11243]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11243]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11243]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11246]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.16.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11246]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11246]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11246]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11249]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.16.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11249]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11249]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11249]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11252]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.17.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11252]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11252]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11252]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11255]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.17.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11255]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11255]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11255]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11258]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.18.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11258]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11258]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11258]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11261]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.18.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11261]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11261]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11261]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11264]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.19.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11264]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11264]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11264]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11267]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.19.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11267]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11267]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11267]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11270]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.20.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11270]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11270]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11270]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11273]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.20.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11273]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11273]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11273]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11276]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.21.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11276]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11276]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11276]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11279]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.21.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11279]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11279]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11279]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11282]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.22.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11282]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11282]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11282]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11285]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.22.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11285]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11285]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11285]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11288]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.23.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11288]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11288]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11288]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11291]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.23.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11291]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11291]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11291]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11294]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.24.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11294]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11294]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11294]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11297]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.24.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11297]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11297]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11297]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11300]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.25.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11300]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11300]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11300]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11303]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.25.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11303]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11303]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11303]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11306]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.26.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11306]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11306]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11306]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11309]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.26.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11309]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11309]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11309]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11312]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.27.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11312]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11312]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11312]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11315]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.27.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11315]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11315]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11315]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11318]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.28.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11318]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11318]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11318]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11321]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.28.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11321]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11321]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:09 zachary-vm2 sudo[11321]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:09 zachary-vm2 sudo[11324]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 192.168.29.0 netmask 255.255.255.0 gw 192.168.12.1
+Nov 15 15:20:09 zachary-vm2 sudo[11324]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:09 zachary-vm2 sudo[11324]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:10 zachary-vm2 sudo[11324]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:20:10 zachary-vm2 sudo[11327]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/sbin/route add -net 172.16.29.1 netmask 255.255.255.255 gw 192.168.12.1
+Nov 15 15:20:10 zachary-vm2 sudo[11327]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 15 15:20:10 zachary-vm2 sudo[11327]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 15 15:20:10 zachary-vm2 sudo[11327]: pam_unix(sudo:session): session closed for user root
+Nov 15 15:33:01 zachary-vm2 systemd[11737]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:34:01 zachary-vm2 systemd[11785]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:35:01 zachary-vm2 systemd[11824]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:36:01 zachary-vm2 systemd[11861]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:37:01 zachary-vm2 systemd[11896]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:38:01 zachary-vm2 systemd[11933]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:39:02 zachary-vm2 systemd[11973]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:40:01 zachary-vm2 systemd[12020]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:41:01 zachary-vm2 systemd[12062]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:42:01 zachary-vm2 systemd[12103]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:43:01 zachary-vm2 systemd[12145]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:44:02 zachary-vm2 systemd[12187]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:45:01 zachary-vm2 systemd[12228]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:46:02 zachary-vm2 systemd[12269]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:47:01 zachary-vm2 systemd[12311]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:48:01 zachary-vm2 systemd[12352]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:49:01 zachary-vm2 systemd[12393]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:50:01 zachary-vm2 systemd[12434]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:51:01 zachary-vm2 systemd[12475]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:52:01 zachary-vm2 systemd[12516]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:53:01 zachary-vm2 systemd[12558]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:54:01 zachary-vm2 systemd[12599]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:55:02 zachary-vm2 systemd[12641]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:56:01 zachary-vm2 systemd[12684]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:57:01 zachary-vm2 systemd[12725]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:58:01 zachary-vm2 systemd[12767]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 15:59:02 zachary-vm2 systemd[12808]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:00:01 zachary-vm2 systemd[12850]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:01:01 zachary-vm2 systemd[12894]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:02:01 zachary-vm2 systemd[12943]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:03:01 zachary-vm2 systemd[12984]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:04:01 zachary-vm2 systemd[13025]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:05:01 zachary-vm2 systemd[13066]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:06:01 zachary-vm2 systemd[13108]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:07:01 zachary-vm2 systemd[13149]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:08:01 zachary-vm2 systemd[13190]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:09:02 zachary-vm2 systemd[13231]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:10:01 zachary-vm2 systemd[13272]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:11:01 zachary-vm2 systemd[13313]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:12:01 zachary-vm2 systemd[13355]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:13:02 zachary-vm2 systemd[13396]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:14:01 zachary-vm2 systemd[13437]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:15:01 zachary-vm2 systemd[13478]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:16:01 zachary-vm2 systemd[13519]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:17:02 zachary-vm2 systemd[13560]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:18:01 zachary-vm2 systemd[13602]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:19:01 zachary-vm2 systemd[13643]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:20:01 zachary-vm2 systemd[13684]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:21:01 zachary-vm2 systemd[13725]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:22:01 zachary-vm2 systemd[13766]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:23:01 zachary-vm2 systemd[13807]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:24:01 zachary-vm2 systemd[13848]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:25:01 zachary-vm2 systemd[13890]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:26:01 zachary-vm2 systemd[13931]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:27:01 zachary-vm2 systemd[13972]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:28:01 zachary-vm2 systemd[14014]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:29:01 zachary-vm2 systemd[14055]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:30:01 zachary-vm2 systemd[14096]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:31:01 zachary-vm2 systemd[14138]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:32:01 zachary-vm2 systemd[14179]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:33:01 zachary-vm2 systemd[14220]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:34:01 zachary-vm2 systemd[14261]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:35:01 zachary-vm2 systemd[14302]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:36:01 zachary-vm2 systemd[14343]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:37:01 zachary-vm2 systemd[14385]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:38:01 zachary-vm2 systemd[14426]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:39:01 zachary-vm2 systemd[14467]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:40:01 zachary-vm2 systemd[14508]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:41:01 zachary-vm2 systemd[14549]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:42:01 zachary-vm2 systemd[14590]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:43:01 zachary-vm2 systemd[14632]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:44:02 zachary-vm2 systemd[14673]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:45:01 zachary-vm2 systemd[14714]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:46:01 zachary-vm2 systemd[14755]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:47:02 zachary-vm2 systemd[14796]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:48:01 zachary-vm2 systemd[14837]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:49:01 zachary-vm2 systemd[14879]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:50:01 zachary-vm2 systemd[14920]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:51:02 zachary-vm2 systemd[14961]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:52:02 zachary-vm2 systemd[15002]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:53:01 zachary-vm2 systemd[15043]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:54:01 zachary-vm2 systemd[15084]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:55:02 zachary-vm2 systemd[15126]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:56:01 zachary-vm2 systemd[15170]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:57:01 zachary-vm2 systemd[15211]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:58:02 zachary-vm2 systemd[15253]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 16:59:01 zachary-vm2 systemd[15294]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:00:01 zachary-vm2 systemd[15337]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:01:01 zachary-vm2 systemd[15382]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:02:01 zachary-vm2 systemd[15431]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:03:01 zachary-vm2 systemd[15472]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:04:01 zachary-vm2 systemd[15513]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:05:01 zachary-vm2 systemd[15554]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:06:01 zachary-vm2 systemd[15595]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:07:01 zachary-vm2 systemd[15636]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:08:01 zachary-vm2 systemd[15678]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:09:02 zachary-vm2 systemd[15719]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:10:01 zachary-vm2 systemd[15760]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:11:01 zachary-vm2 systemd[15801]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:12:02 zachary-vm2 systemd[15842]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:13:01 zachary-vm2 systemd[15884]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:14:01 zachary-vm2 systemd[15925]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:15:01 zachary-vm2 systemd[15966]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:16:01 zachary-vm2 systemd[16007]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:17:01 zachary-vm2 systemd[16048]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:18:02 zachary-vm2 systemd[16089]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:19:01 zachary-vm2 systemd[16130]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:20:01 zachary-vm2 systemd[16171]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:21:01 zachary-vm2 systemd[16213]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:22:02 zachary-vm2 systemd[16254]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:23:01 zachary-vm2 systemd[16295]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:24:01 zachary-vm2 systemd[16336]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:25:01 zachary-vm2 systemd[16377]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:26:02 zachary-vm2 systemd[16418]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:27:01 zachary-vm2 systemd[16460]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:28:01 zachary-vm2 systemd[16502]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:29:01 zachary-vm2 systemd[16543]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:30:02 zachary-vm2 systemd[16584]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:31:01 zachary-vm2 systemd[16625]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:32:01 zachary-vm2 systemd[16666]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:33:01 zachary-vm2 systemd[16708]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:34:02 zachary-vm2 systemd[16749]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:35:01 zachary-vm2 systemd[16790]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:36:01 zachary-vm2 systemd[16831]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:37:02 zachary-vm2 systemd[16872]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:38:01 zachary-vm2 systemd[16913]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:39:01 zachary-vm2 systemd[16955]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:40:01 zachary-vm2 systemd[16996]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:41:01 zachary-vm2 systemd[17037]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:42:01 zachary-vm2 systemd[17078]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:43:01 zachary-vm2 systemd[17119]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:44:02 zachary-vm2 systemd[17160]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:45:01 zachary-vm2 systemd[17202]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:46:01 zachary-vm2 systemd[17243]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:47:01 zachary-vm2 systemd[17284]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:48:02 zachary-vm2 systemd[17325]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:49:01 zachary-vm2 systemd[17366]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:50:01 zachary-vm2 systemd[17407]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:51:01 zachary-vm2 systemd[17449]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:52:01 zachary-vm2 systemd[17490]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:53:02 zachary-vm2 systemd[17531]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:54:01 zachary-vm2 systemd[17572]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:55:01 zachary-vm2 systemd[17613]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:56:01 zachary-vm2 systemd[17663]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:57:02 zachary-vm2 systemd[17704]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:58:01 zachary-vm2 systemd[17747]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 17:59:01 zachary-vm2 systemd[17788]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:00:01 zachary-vm2 systemd[17829]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:01:02 zachary-vm2 systemd[17873]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:02:01 zachary-vm2 systemd[17922]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:03:01 zachary-vm2 systemd[17963]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:04:02 zachary-vm2 systemd[18005]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:05:01 zachary-vm2 systemd[18046]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:06:01 zachary-vm2 systemd[18087]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:07:01 zachary-vm2 systemd[18128]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:08:02 zachary-vm2 systemd[18169]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:09:01 zachary-vm2 systemd[18210]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:10:01 zachary-vm2 systemd[18252]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:11:02 zachary-vm2 systemd[18293]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:12:01 zachary-vm2 systemd[18334]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:13:01 zachary-vm2 systemd[18375]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:14:01 zachary-vm2 systemd[18416]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:15:02 zachary-vm2 systemd[18457]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:16:01 zachary-vm2 systemd[18499]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:17:01 zachary-vm2 systemd[18540]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:18:01 zachary-vm2 systemd[18581]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:19:02 zachary-vm2 systemd[18622]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:20:01 zachary-vm2 systemd[18663]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:21:01 zachary-vm2 systemd[18704]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:22:01 zachary-vm2 systemd[18746]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:23:02 zachary-vm2 systemd[18787]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:24:01 zachary-vm2 systemd[18828]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:25:02 zachary-vm2 systemd[18869]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:26:01 zachary-vm2 systemd[18910]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:27:01 zachary-vm2 systemd[18952]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:28:02 zachary-vm2 systemd[18994]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:29:01 zachary-vm2 systemd[19035]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:30:01 zachary-vm2 systemd[19076]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:31:01 zachary-vm2 systemd[19117]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:32:02 zachary-vm2 systemd[19158]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:33:01 zachary-vm2 systemd[19199]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:34:02 zachary-vm2 systemd[19240]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:35:01 zachary-vm2 systemd[19282]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:36:01 zachary-vm2 systemd[19323]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:37:02 zachary-vm2 systemd[19364]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:38:01 zachary-vm2 systemd[19405]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:39:01 zachary-vm2 systemd[19446]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:40:01 zachary-vm2 systemd[19487]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:41:02 zachary-vm2 systemd[19529]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:42:01 zachary-vm2 systemd[19570]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:43:01 zachary-vm2 systemd[19611]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:44:01 zachary-vm2 systemd[19652]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:45:02 zachary-vm2 systemd[19693]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:46:02 zachary-vm2 systemd[19734]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:47:01 zachary-vm2 systemd[19775]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:48:01 zachary-vm2 systemd[19817]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:49:02 zachary-vm2 systemd[19858]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:50:01 zachary-vm2 systemd[19899]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:51:01 zachary-vm2 systemd[19940]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:52:01 zachary-vm2 systemd[19981]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:53:01 zachary-vm2 systemd[20022]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:54:02 zachary-vm2 systemd[20063]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:55:02 zachary-vm2 systemd[20105]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:56:01 zachary-vm2 systemd[20149]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:57:01 zachary-vm2 systemd[20190]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:58:01 zachary-vm2 systemd[20232]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 18:59:02 zachary-vm2 systemd[20273]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 19:00:01 zachary-vm2 systemd[20314]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 19:01:02 zachary-vm2 systemd[20359]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 19:02:01 zachary-vm2 systemd[20408]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 19:03:01 zachary-vm2 systemd[20449]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 19:04:01 zachary-vm2 systemd[20490]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 19:05:01 zachary-vm2 systemd[20531]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 19:06:01 zachary-vm2 systemd[20572]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 19:07:01 zachary-vm2 systemd[20614]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 19:08:01 zachary-vm2 systemd[20655]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 20:38:02 zachary-vm2 systemd[22871]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 20:39:01 zachary-vm2 systemd[22912]: pam_unix(systemd-user:session): session opened for user root by (uid=0)

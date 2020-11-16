@@ -1,0 +1,1560 @@
+Oct 25 03:44:01 aluk10-rns systemd[1]: Reloading Berkeley Internet Name Domain (DNS).
+Oct 25 03:44:01 aluk10-rns named[3408]: received control channel command 'reload'
+Oct 25 03:44:01 aluk10-rns named[3408]: loading configuration from '/etc/named.conf'
+Oct 25 03:44:01 aluk10-rns named[3408]: unable to open '/etc/bind.keys'; using built-in keys instead
+Oct 25 03:44:01 aluk10-rns named[3408]: looking for GeoIP2 databases in '/usr/share/GeoIP'
+Oct 25 03:44:01 aluk10-rns named[3408]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-Country.mmdb'
+Oct 25 03:44:01 aluk10-rns named[3408]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-City.mmdb'
+Oct 25 03:44:01 aluk10-rns named[3408]: using default UDP/IPv4 port range: [32768, 60999]
+Oct 25 03:44:01 aluk10-rns named[3408]: using default UDP/IPv6 port range: [32768, 60999]
+Oct 25 03:44:01 aluk10-rns named[3408]: sizing zone task pool based on 1 zones
+Oct 25 03:44:01 aluk10-rns named[3408]: none:104: 'max-cache-size 90%' - setting to 1644MB (out of 1826MB)
+Oct 25 03:44:01 aluk10-rns named[3408]: none:104: 'max-cache-size 90%' - setting to 1644MB (out of 1826MB)
+Oct 25 03:44:01 aluk10-rns named[3408]: configuring command channel from '/etc/rndc.key'
+Oct 25 03:44:01 aluk10-rns named[3408]: configuring command channel from '/etc/rndc.key'
+Oct 25 03:44:01 aluk10-rns named[3408]: reloading configuration succeeded
+Oct 25 03:44:01 aluk10-rns named[3408]: reloading zones succeeded
+Oct 25 03:44:01 aluk10-rns named[3408]: all zones loaded
+Oct 25 03:44:01 aluk10-rns named[3408]: running
+Oct 25 03:44:01 aluk10-rns sh[4536]: server reload successful
+Oct 25 03:44:01 aluk10-rns systemd[1]: Reloaded Berkeley Internet Name Domain (DNS).
+Oct 25 03:44:01 aluk10-rns rsyslogd[1133]: [origin software="rsyslogd" swVersion="8.1911.0-3.el8" x-pid="1133" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct 25 04:35:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 04:35:49 aluk10-rns dnf[4578]: Metadata cache refreshed recently.
+Oct 25 04:35:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 05:36:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 05:36:49 aluk10-rns dnf[4602]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 25 05:36:49 aluk10-rns dnf[4602]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 25 05:36:50 aluk10-rns dnf[4602]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Oct 25 05:36:50 aluk10-rns dnf[4602]: Metadata cache created.
+Oct 25 05:36:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 06:37:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 06:37:49 aluk10-rns dnf[4632]: Metadata cache refreshed recently.
+Oct 25 06:37:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 07:38:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 07:38:49 aluk10-rns dnf[4655]: Metadata cache refreshed recently.
+Oct 25 07:38:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 08:39:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 08:39:49 aluk10-rns dnf[4678]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 25 08:39:49 aluk10-rns dnf[4678]: CentOS-8 - Base                                  34 kB/s | 3.9 kB     00:00
+Oct 25 08:39:49 aluk10-rns dnf[4678]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Oct 25 08:39:49 aluk10-rns dnf[4678]: Metadata cache created.
+Oct 25 08:39:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 09:37:11 aluk10-rns NetworkManager[917]: <error> [1603633031.8169] dhcp4 (ens192): error -113 dispatching events
+Oct 25 09:37:11 aluk10-rns NetworkManager[917]: <info>  [1603633031.8178] dhcp4 (ens192): state changed bound -> fail
+Oct 25 09:37:11 aluk10-rns NetworkManager[917]: <info>  [1603633031.8180] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7575] device (ens192): DHCPv4: grace period expired
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7576] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <warn>  [1603633121.7592] device (ens192): Activation: failed for connection 'ens192'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7599] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7603] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7620] dhcp4 (ens192): canceled DHCP transaction
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7620] dhcp4 (ens192): state changed fail -> done
+Oct 25 09:38:41 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 25 09:38:41 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 25 09:38:41 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7888] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7898] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7899] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7902] manager: NetworkManager state is now CONNECTING
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7903] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7908] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.7911] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 25 09:38:41 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8003] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8003] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8003] dhcp4 (ens192): option expiry               => '1603719521'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8003] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8003] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8003] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8003] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8003] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8003] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_routers    => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8004] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8005] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8005] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8005] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8005] dhcp4 (ens192): state changed unknown -> bound
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8014] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 25 09:38:41 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 25 09:38:41 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8130] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8132] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8136] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8145] manager: NetworkManager state is now CONNECTED_SITE
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8146] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8172] device (ens192): Activation: successful, device activated.
+Oct 25 09:38:41 aluk10-rns NetworkManager[917]: <info>  [1603633121.8176] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 25 09:40:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 09:40:49 aluk10-rns dnf[4716]: Metadata cache refreshed recently.
+Oct 25 09:40:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 10:41:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 10:41:49 aluk10-rns dnf[4739]: Metadata cache refreshed recently.
+Oct 25 10:41:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 11:42:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 11:42:49 aluk10-rns dnf[4763]: CentOS-8 - AppStream                            8.4 kB/s | 4.3 kB     00:00
+Oct 25 11:42:49 aluk10-rns dnf[4763]: CentOS-8 - Base                                  22 kB/s | 3.9 kB     00:00
+Oct 25 11:42:50 aluk10-rns dnf[4763]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Oct 25 11:42:50 aluk10-rns dnf[4763]: Metadata cache created.
+Oct 25 11:42:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 12:43:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 12:43:49 aluk10-rns dnf[4793]: Metadata cache refreshed recently.
+Oct 25 12:43:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 13:44:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 13:44:49 aluk10-rns dnf[4816]: Metadata cache refreshed recently.
+Oct 25 13:44:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 14:45:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 14:45:49 aluk10-rns dnf[4839]: CentOS-8 - AppStream                             24 kB/s | 4.3 kB     00:00
+Oct 25 14:45:49 aluk10-rns dnf[4839]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 25 14:45:49 aluk10-rns dnf[4839]: CentOS-8 - Extras                               8.3 kB/s | 1.5 kB     00:00
+Oct 25 14:45:50 aluk10-rns dnf[4839]: Metadata cache created.
+Oct 25 14:45:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 15:46:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 15:46:49 aluk10-rns dnf[4868]: Metadata cache refreshed recently.
+Oct 25 15:46:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 16:47:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 16:47:49 aluk10-rns dnf[4892]: Metadata cache refreshed recently.
+Oct 25 16:47:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 17:48:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 17:48:49 aluk10-rns dnf[4915]: CentOS-8 - AppStream                             33 kB/s | 4.3 kB     00:00
+Oct 25 17:48:49 aluk10-rns dnf[4915]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 25 17:48:49 aluk10-rns dnf[4915]: CentOS-8 - Extras                               9.2 kB/s | 1.5 kB     00:00
+Oct 25 17:48:49 aluk10-rns dnf[4915]: Metadata cache created.
+Oct 25 17:48:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 18:49:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 18:49:49 aluk10-rns dnf[4945]: Metadata cache refreshed recently.
+Oct 25 18:49:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 19:50:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 19:50:49 aluk10-rns dnf[4968]: Metadata cache refreshed recently.
+Oct 25 19:50:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 20:51:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 20:51:49 aluk10-rns dnf[4992]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 25 20:51:49 aluk10-rns dnf[4992]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 25 20:51:49 aluk10-rns dnf[4992]: CentOS-8 - Extras                               6.0 kB/s | 1.5 kB     00:00
+Oct 25 20:51:50 aluk10-rns dnf[4992]: Metadata cache created.
+Oct 25 20:51:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 21:38:41 aluk10-rns NetworkManager[917]: <error> [1603676321.7948] dhcp4 (ens192): error -113 dispatching events
+Oct 25 21:38:41 aluk10-rns NetworkManager[917]: <info>  [1603676321.7949] dhcp4 (ens192): state changed bound -> fail
+Oct 25 21:38:41 aluk10-rns NetworkManager[917]: <info>  [1603676321.7951] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7638] device (ens192): DHCPv4: grace period expired
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7639] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <warn>  [1603676411.7654] device (ens192): Activation: failed for connection 'ens192'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7661] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7665] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7683] dhcp4 (ens192): canceled DHCP transaction
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7683] dhcp4 (ens192): state changed fail -> done
+Oct 25 21:40:11 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 25 21:40:11 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 25 21:40:11 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7950] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7959] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7960] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7963] manager: NetworkManager state is now CONNECTING
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7964] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7969] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.7971] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 25 21:40:11 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 25 21:40:11 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8080] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 25 21:40:11 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8081] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8081] dhcp4 (ens192): option expiry               => '1603762811'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8081] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8081] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8081] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8081] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8081] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8081] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8081] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8081] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option requested_routers    => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8082] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8083] dhcp4 (ens192): state changed unknown -> bound
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8092] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8178] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8180] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8184] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8192] manager: NetworkManager state is now CONNECTED_SITE
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8193] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8224] device (ens192): Activation: successful, device activated.
+Oct 25 21:40:11 aluk10-rns NetworkManager[917]: <info>  [1603676411.8229] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 25 21:49:48 aluk10-rns systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 25 21:49:48 aluk10-rns systemd[1]: Started Cleanup of Temporary Directories.
+Oct 25 21:52:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 21:52:49 aluk10-rns dnf[5031]: Metadata cache refreshed recently.
+Oct 25 21:52:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 22:53:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 22:53:49 aluk10-rns dnf[5055]: Metadata cache refreshed recently.
+Oct 25 22:53:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 25 23:54:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 25 23:54:49 aluk10-rns dnf[5078]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 25 23:54:49 aluk10-rns dnf[5078]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 25 23:54:49 aluk10-rns dnf[5078]: CentOS-8 - Extras                               7.3 kB/s | 1.5 kB     00:00
+Oct 25 23:54:50 aluk10-rns dnf[5078]: Metadata cache created.
+Oct 25 23:54:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 00:00:02 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 26 00:00:02 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 26 00:00:02 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 26 00:00:48 aluk10-rns systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 26 00:00:48 aluk10-rns systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 26 00:55:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 00:55:49 aluk10-rns dnf[5111]: Metadata cache refreshed recently.
+Oct 26 00:55:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 01:56:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 01:56:49 aluk10-rns dnf[5137]: Metadata cache refreshed recently.
+Oct 26 01:56:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 02:57:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 02:57:49 aluk10-rns dnf[5163]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 26 02:57:49 aluk10-rns dnf[5163]: CentOS-8 - Base                                  34 kB/s | 3.9 kB     00:00
+Oct 26 02:57:49 aluk10-rns dnf[5163]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Oct 26 02:57:50 aluk10-rns dnf[5163]: Metadata cache created.
+Oct 26 02:57:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 03:58:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 03:58:49 aluk10-rns dnf[5203]: Metadata cache refreshed recently.
+Oct 26 03:58:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 04:59:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 04:59:49 aluk10-rns dnf[5226]: Metadata cache refreshed recently.
+Oct 26 04:59:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 06:00:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 06:00:49 aluk10-rns dnf[5250]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 26 06:00:49 aluk10-rns dnf[5250]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 26 06:00:49 aluk10-rns dnf[5250]: CentOS-8 - Extras                               6.1 kB/s | 1.5 kB     00:00
+Oct 26 06:00:50 aluk10-rns dnf[5250]: Metadata cache created.
+Oct 26 06:00:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 07:01:01 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 07:01:01 aluk10-rns dnf[5280]: Metadata cache refreshed recently.
+Oct 26 07:01:01 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 08:01:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 08:01:49 aluk10-rns dnf[5314]: Metadata cache refreshed recently.
+Oct 26 08:01:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 09:02:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 09:02:49 aluk10-rns dnf[5337]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 26 09:02:49 aluk10-rns dnf[5337]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 26 09:02:49 aluk10-rns dnf[5337]: CentOS-8 - Extras                               9.7 kB/s | 1.5 kB     00:00
+Oct 26 09:02:50 aluk10-rns dnf[5337]: Metadata cache created.
+Oct 26 09:02:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 09:40:11 aluk10-rns NetworkManager[917]: <error> [1603719611.8004] dhcp4 (ens192): error -113 dispatching events
+Oct 26 09:40:11 aluk10-rns NetworkManager[917]: <info>  [1603719611.8022] dhcp4 (ens192): state changed bound -> fail
+Oct 26 09:40:11 aluk10-rns NetworkManager[917]: <info>  [1603719611.8024] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7533] device (ens192): DHCPv4: grace period expired
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7534] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <warn>  [1603719701.7549] device (ens192): Activation: failed for connection 'ens192'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7556] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7560] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7576] dhcp4 (ens192): canceled DHCP transaction
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7576] dhcp4 (ens192): state changed fail -> done
+Oct 26 09:41:41 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 26 09:41:41 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 26 09:41:41 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7831] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7841] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7842] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7845] manager: NetworkManager state is now CONNECTING
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7846] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7851] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7853] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 26 09:41:41 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 26 09:41:41 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7955] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 26 09:41:41 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7955] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7955] dhcp4 (ens192): option expiry               => '1603806101'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7955] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7955] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7955] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7955] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7955] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7955] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_routers    => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7956] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7957] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7957] dhcp4 (ens192): state changed unknown -> bound
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.7966] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.8077] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.8080] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.8084] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.8092] manager: NetworkManager state is now CONNECTED_SITE
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.8093] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.8128] device (ens192): Activation: successful, device activated.
+Oct 26 09:41:41 aluk10-rns NetworkManager[917]: <info>  [1603719701.8132] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 26 10:03:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 10:03:49 aluk10-rns dnf[5375]: Metadata cache refreshed recently.
+Oct 26 10:03:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 11:04:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 11:04:49 aluk10-rns dnf[5398]: Metadata cache refreshed recently.
+Oct 26 11:04:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 12:05:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 12:05:49 aluk10-rns dnf[5422]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 26 12:05:49 aluk10-rns dnf[5422]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 26 12:05:49 aluk10-rns dnf[5422]: CentOS-8 - Extras                               4.6 kB/s | 1.5 kB     00:00
+Oct 26 12:05:50 aluk10-rns dnf[5422]: Metadata cache created.
+Oct 26 12:05:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 13:06:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 13:06:49 aluk10-rns dnf[5451]: Metadata cache refreshed recently.
+Oct 26 13:06:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 14:07:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 14:07:49 aluk10-rns dnf[5475]: Metadata cache refreshed recently.
+Oct 26 14:07:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 15:08:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 15:08:49 aluk10-rns dnf[5498]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 26 15:08:49 aluk10-rns dnf[5498]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 26 15:08:49 aluk10-rns dnf[5498]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Oct 26 15:08:50 aluk10-rns dnf[5498]: Metadata cache created.
+Oct 26 15:08:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 16:09:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 16:09:49 aluk10-rns dnf[5527]: Metadata cache refreshed recently.
+Oct 26 16:09:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 17:10:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 17:10:49 aluk10-rns dnf[5551]: Metadata cache refreshed recently.
+Oct 26 17:10:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 18:11:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 18:11:49 aluk10-rns dnf[5574]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 26 18:11:49 aluk10-rns dnf[5574]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 26 18:11:49 aluk10-rns dnf[5574]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Oct 26 18:11:50 aluk10-rns dnf[5574]: Metadata cache created.
+Oct 26 18:11:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 19:12:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 19:12:49 aluk10-rns dnf[5604]: Metadata cache refreshed recently.
+Oct 26 19:12:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 20:13:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 20:13:49 aluk10-rns dnf[5627]: Metadata cache refreshed recently.
+Oct 26 20:13:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 21:14:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 21:14:49 aluk10-rns dnf[5651]: CentOS-8 - AppStream                             26 kB/s | 4.3 kB     00:00
+Oct 26 21:14:49 aluk10-rns dnf[5651]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 26 21:14:49 aluk10-rns dnf[5651]: CentOS-8 - Extras                               5.7 kB/s | 1.5 kB     00:00
+Oct 26 21:14:50 aluk10-rns dnf[5651]: Metadata cache created.
+Oct 26 21:14:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 21:41:41 aluk10-rns NetworkManager[917]: <error> [1603762901.7896] dhcp4 (ens192): error -113 dispatching events
+Oct 26 21:41:41 aluk10-rns NetworkManager[917]: <info>  [1603762901.7899] dhcp4 (ens192): state changed bound -> fail
+Oct 26 21:41:41 aluk10-rns NetworkManager[917]: <info>  [1603762901.7900] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.7922] device (ens192): DHCPv4: grace period expired
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.7924] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <warn>  [1603762991.7941] device (ens192): Activation: failed for connection 'ens192'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.7948] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.7953] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.7963] dhcp4 (ens192): canceled DHCP transaction
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.7964] dhcp4 (ens192): state changed fail -> done
+Oct 26 21:43:11 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 26 21:43:11 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 26 21:43:11 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8213] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8223] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8224] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8227] manager: NetworkManager state is now CONNECTING
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8228] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8233] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8236] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 26 21:43:11 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 26 21:43:11 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8344] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 26 21:43:11 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8344] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option expiry               => '1603849391'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8345] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8346] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8346] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8346] dhcp4 (ens192): option requested_routers    => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8346] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8346] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8346] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8346] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8346] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8346] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8346] dhcp4 (ens192): state changed unknown -> bound
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8356] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8445] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8447] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8452] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8460] manager: NetworkManager state is now CONNECTED_SITE
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8461] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8492] device (ens192): Activation: successful, device activated.
+Oct 26 21:43:11 aluk10-rns NetworkManager[917]: <info>  [1603762991.8496] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 26 21:50:48 aluk10-rns systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 26 21:50:48 aluk10-rns systemd[1]: Started Cleanup of Temporary Directories.
+Oct 26 22:15:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 22:15:49 aluk10-rns dnf[5691]: Metadata cache refreshed recently.
+Oct 26 22:15:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 26 23:16:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 26 23:16:49 aluk10-rns dnf[5714]: Metadata cache refreshed recently.
+Oct 26 23:16:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 00:00:10 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 27 00:00:10 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 27 00:00:10 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 27 00:00:48 aluk10-rns systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 27 00:00:48 aluk10-rns systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 27 00:17:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 00:17:49 aluk10-rns dnf[5742]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 27 00:17:49 aluk10-rns dnf[5742]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 27 00:17:49 aluk10-rns dnf[5742]: CentOS-8 - Extras                                18 kB/s | 1.5 kB     00:00
+Oct 27 00:17:50 aluk10-rns dnf[5742]: Metadata cache created.
+Oct 27 00:17:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 01:18:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 01:18:49 aluk10-rns dnf[5773]: Metadata cache refreshed recently.
+Oct 27 01:18:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 02:19:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 02:19:49 aluk10-rns dnf[5798]: Metadata cache refreshed recently.
+Oct 27 02:19:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 03:20:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 03:20:49 aluk10-rns dnf[5823]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 27 03:20:49 aluk10-rns dnf[5823]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 27 03:20:50 aluk10-rns dnf[5823]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Oct 27 03:20:50 aluk10-rns dnf[5823]: Metadata cache created.
+Oct 27 03:20:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 04:21:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 04:21:49 aluk10-rns dnf[5862]: Metadata cache refreshed recently.
+Oct 27 04:21:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 05:22:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 05:22:49 aluk10-rns dnf[5886]: Metadata cache refreshed recently.
+Oct 27 05:22:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 06:23:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 06:23:49 aluk10-rns dnf[5909]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 27 06:23:49 aluk10-rns dnf[5909]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 27 06:23:49 aluk10-rns dnf[5909]: CentOS-8 - Extras                               8.6 kB/s | 1.5 kB     00:00
+Oct 27 06:23:50 aluk10-rns dnf[5909]: Metadata cache created.
+Oct 27 06:23:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 07:24:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 07:24:49 aluk10-rns dnf[5938]: Metadata cache refreshed recently.
+Oct 27 07:24:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 08:25:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 08:25:49 aluk10-rns dnf[5962]: Metadata cache refreshed recently.
+Oct 27 08:25:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 09:26:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 09:26:49 aluk10-rns dnf[5985]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 27 09:26:49 aluk10-rns dnf[5985]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 27 09:26:49 aluk10-rns dnf[5985]: CentOS-8 - Extras                                14 kB/s | 1.5 kB     00:00
+Oct 27 09:26:50 aluk10-rns dnf[5985]: Metadata cache created.
+Oct 27 09:26:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 09:43:11 aluk10-rns NetworkManager[917]: <error> [1603806191.8272] dhcp4 (ens192): error -113 dispatching events
+Oct 27 09:43:11 aluk10-rns NetworkManager[917]: <info>  [1603806191.8286] dhcp4 (ens192): state changed bound -> fail
+Oct 27 09:43:11 aluk10-rns NetworkManager[917]: <info>  [1603806191.8287] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8061] device (ens192): DHCPv4: grace period expired
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8062] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <warn>  [1603806281.8078] device (ens192): Activation: failed for connection 'ens192'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8085] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8089] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8100] dhcp4 (ens192): canceled DHCP transaction
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8101] dhcp4 (ens192): state changed fail -> done
+Oct 27 09:44:41 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 27 09:44:41 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 27 09:44:41 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8358] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8367] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8368] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8371] manager: NetworkManager state is now CONNECTING
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8372] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8377] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8380] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 27 09:44:41 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 27 09:44:41 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8488] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8488] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8488] dhcp4 (ens192): option expiry               => '1603892681'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8489] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8490] dhcp4 (ens192): option requested_routers    => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8490] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8490] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8490] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8490] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8490] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8490] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8490] dhcp4 (ens192): state changed unknown -> bound
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8499] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 27 09:44:41 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8596] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8598] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8602] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8610] manager: NetworkManager state is now CONNECTED_SITE
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8611] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8643] device (ens192): Activation: successful, device activated.
+Oct 27 09:44:41 aluk10-rns NetworkManager[917]: <info>  [1603806281.8647] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 27 10:27:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 10:27:49 aluk10-rns dnf[6023]: Metadata cache refreshed recently.
+Oct 27 10:27:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 11:28:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 11:28:49 aluk10-rns dnf[6046]: Metadata cache refreshed recently.
+Oct 27 11:28:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 12:29:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 12:29:49 aluk10-rns dnf[6069]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Oct 27 12:29:49 aluk10-rns dnf[6069]: CentOS-8 - Base                                  26 kB/s | 3.9 kB     00:00
+Oct 27 12:29:49 aluk10-rns dnf[6069]: CentOS-8 - Extras                               4.2 kB/s | 1.5 kB     00:00
+Oct 27 12:29:50 aluk10-rns dnf[6069]: Metadata cache created.
+Oct 27 12:29:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 13:30:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 13:30:49 aluk10-rns dnf[6098]: Metadata cache refreshed recently.
+Oct 27 13:30:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 14:31:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 14:31:49 aluk10-rns dnf[6121]: Metadata cache refreshed recently.
+Oct 27 14:31:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 15:32:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 15:32:49 aluk10-rns dnf[6146]: CentOS-8 - AppStream                             31 kB/s | 4.3 kB     00:00
+Oct 27 15:32:49 aluk10-rns dnf[6146]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 27 15:32:49 aluk10-rns dnf[6146]: CentOS-8 - Extras                               5.7 kB/s | 1.5 kB     00:00
+Oct 27 15:32:50 aluk10-rns dnf[6146]: Metadata cache created.
+Oct 27 15:32:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 16:33:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 16:33:49 aluk10-rns dnf[6175]: Metadata cache refreshed recently.
+Oct 27 16:33:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 17:32:21 aluk10-rns systemd[1]: Created slice User Slice of UID 1001.
+Oct 27 17:32:21 aluk10-rns systemd[1]: Started /run/user/1001 mount wrapper.
+Oct 27 17:32:21 aluk10-rns systemd[1]: Starting User Manager for UID 1001...
+Oct 27 17:32:21 aluk10-rns systemd[1]: Started Session 9 of user instructor.
+Oct 27 17:32:21 aluk10-rns systemd-logind[1060]: New session 9 of user instructor.
+Oct 27 17:32:21 aluk10-rns systemd[6202]: Reached target Paths.
+Oct 27 17:32:21 aluk10-rns systemd[6202]: Starting D-Bus User Message Bus Socket.
+Oct 27 17:32:21 aluk10-rns systemd[6202]: Started Mark boot as successful after the user session has run 2 minutes.
+Oct 27 17:32:21 aluk10-rns systemd[6202]: Reached target Timers.
+Oct 27 17:32:21 aluk10-rns systemd[6202]: Listening on D-Bus User Message Bus Socket.
+Oct 27 17:32:21 aluk10-rns systemd[6202]: Reached target Sockets.
+Oct 27 17:32:21 aluk10-rns systemd[6202]: Reached target Basic System.
+Oct 27 17:32:21 aluk10-rns systemd[6202]: Reached target Default.
+Oct 27 17:32:21 aluk10-rns systemd[6202]: Startup finished in 37ms.
+Oct 27 17:32:21 aluk10-rns systemd[1]: Started User Manager for UID 1001.
+Oct 27 17:32:22 aluk10-rns systemd-logind[1060]: Session 9 logged out. Waiting for processes to exit.
+Oct 27 17:32:22 aluk10-rns systemd-logind[1060]: Removed session 9.
+Oct 27 17:32:22 aluk10-rns systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 27 17:32:22 aluk10-rns systemd[1]: Stopping User Manager for UID 1001...
+Oct 27 17:32:22 aluk10-rns systemd[6202]: Stopped target Default.
+Oct 27 17:32:22 aluk10-rns systemd[6202]: Stopped target Basic System.
+Oct 27 17:32:22 aluk10-rns systemd[6202]: Stopped target Paths.
+Oct 27 17:32:22 aluk10-rns systemd[6202]: Stopped target Timers.
+Oct 27 17:32:22 aluk10-rns systemd[6202]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Oct 27 17:32:22 aluk10-rns systemd[6202]: Stopped target Sockets.
+Oct 27 17:32:22 aluk10-rns systemd[6202]: Closed D-Bus User Message Bus Socket.
+Oct 27 17:32:22 aluk10-rns systemd[6202]: Reached target Shutdown.
+Oct 27 17:32:22 aluk10-rns systemd[6202]: Starting Exit the Session...
+Oct 27 17:32:22 aluk10-rns systemd[1]: user@1001.service: Killing process 6229 (systemctl) with signal SIGKILL.
+Oct 27 17:32:22 aluk10-rns systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 27 17:32:22 aluk10-rns systemd[1]: Stopped User Manager for UID 1001.
+Oct 27 17:32:22 aluk10-rns systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 27 17:32:22 aluk10-rns systemd[1]: Removed slice User Slice of UID 1001.
+Oct 27 17:32:22 aluk10-rns systemd[1]: Stopping /run/user/1001 mount wrapper...
+Oct 27 17:32:22 aluk10-rns systemd[1]: Stopped /run/user/1001 mount wrapper.
+Oct 27 17:34:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 17:34:49 aluk10-rns dnf[6238]: Metadata cache refreshed recently.
+Oct 27 17:34:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 18:35:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 18:35:49 aluk10-rns dnf[6261]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 27 18:35:49 aluk10-rns dnf[6261]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 27 18:35:49 aluk10-rns dnf[6261]: CentOS-8 - Extras                               8.4 kB/s | 1.5 kB     00:00
+Oct 27 18:35:50 aluk10-rns dnf[6261]: Metadata cache created.
+Oct 27 18:35:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 19:36:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 19:36:49 aluk10-rns dnf[6291]: Metadata cache refreshed recently.
+Oct 27 19:36:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 20:37:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 20:37:49 aluk10-rns dnf[6314]: Metadata cache refreshed recently.
+Oct 27 20:37:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 21:38:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 21:38:49 aluk10-rns dnf[6338]: CentOS-8 - AppStream                             22 kB/s | 4.3 kB     00:00
+Oct 27 21:38:49 aluk10-rns dnf[6338]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 27 21:38:49 aluk10-rns dnf[6338]: CentOS-8 - Extras                               4.7 kB/s | 1.5 kB     00:00
+Oct 27 21:38:50 aluk10-rns dnf[6338]: Metadata cache created.
+Oct 27 21:38:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 21:44:41 aluk10-rns NetworkManager[917]: <error> [1603849481.8431] dhcp4 (ens192): error -113 dispatching events
+Oct 27 21:44:41 aluk10-rns NetworkManager[917]: <info>  [1603849481.8442] dhcp4 (ens192): state changed bound -> fail
+Oct 27 21:44:41 aluk10-rns NetworkManager[917]: <info>  [1603849481.8443] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7251] device (ens192): DHCPv4: grace period expired
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7252] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <warn>  [1603849571.7267] device (ens192): Activation: failed for connection 'ens192'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7274] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7278] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7291] dhcp4 (ens192): canceled DHCP transaction
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7292] dhcp4 (ens192): state changed fail -> done
+Oct 27 21:46:11 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 27 21:46:11 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 27 21:46:11 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7544] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7553] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7554] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7557] manager: NetworkManager state is now CONNECTING
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7558] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7563] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7565] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 27 21:46:11 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 27 21:46:11 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 27 21:46:11 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7661] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7661] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option expiry               => '1603935971'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7662] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): option requested_routers    => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7663] dhcp4 (ens192): state changed unknown -> bound
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7673] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7790] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7792] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7796] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7804] manager: NetworkManager state is now CONNECTED_SITE
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7805] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7840] device (ens192): Activation: successful, device activated.
+Oct 27 21:46:11 aluk10-rns NetworkManager[917]: <info>  [1603849571.7844] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 27 21:51:48 aluk10-rns systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 27 21:51:48 aluk10-rns systemd[1]: Started Cleanup of Temporary Directories.
+Oct 27 22:39:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 22:39:49 aluk10-rns dnf[6377]: Metadata cache refreshed recently.
+Oct 27 22:39:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 27 23:40:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 27 23:40:49 aluk10-rns dnf[6401]: Metadata cache refreshed recently.
+Oct 27 23:40:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 00:00:09 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 28 00:00:09 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 28 00:00:09 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 28 00:00:48 aluk10-rns systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 28 00:00:48 aluk10-rns systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 28 00:41:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 00:41:49 aluk10-rns dnf[6428]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 28 00:41:49 aluk10-rns dnf[6428]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Oct 28 00:41:49 aluk10-rns dnf[6428]: CentOS-8 - Extras                               4.5 kB/s | 1.5 kB     00:00
+Oct 28 00:41:50 aluk10-rns dnf[6428]: Metadata cache created.
+Oct 28 00:41:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 01:42:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 01:42:49 aluk10-rns dnf[6460]: Metadata cache refreshed recently.
+Oct 28 01:42:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 02:43:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 02:43:49 aluk10-rns dnf[6485]: Metadata cache refreshed recently.
+Oct 28 02:43:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 03:44:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 03:44:49 aluk10-rns dnf[6522]: CentOS-8 - AppStream                             28 kB/s | 4.3 kB     00:00
+Oct 28 03:44:49 aluk10-rns dnf[6522]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 28 03:44:49 aluk10-rns dnf[6522]: CentOS-8 - Extras                               4.6 kB/s | 1.5 kB     00:00
+Oct 28 03:44:50 aluk10-rns dnf[6522]: Metadata cache created.
+Oct 28 03:44:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 04:45:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 04:45:49 aluk10-rns dnf[6551]: Metadata cache refreshed recently.
+Oct 28 04:45:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 05:46:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 05:46:49 aluk10-rns dnf[6575]: Metadata cache refreshed recently.
+Oct 28 05:46:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 06:47:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 06:47:49 aluk10-rns dnf[6599]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 28 06:47:49 aluk10-rns dnf[6599]: CentOS-8 - Base                                  48 kB/s | 3.9 kB     00:00
+Oct 28 06:47:49 aluk10-rns dnf[6599]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Oct 28 06:47:49 aluk10-rns dnf[6599]: Metadata cache created.
+Oct 28 06:47:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 07:48:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 07:48:49 aluk10-rns dnf[6628]: Metadata cache refreshed recently.
+Oct 28 07:48:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 08:49:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 08:49:49 aluk10-rns dnf[6652]: Metadata cache refreshed recently.
+Oct 28 08:49:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 09:46:11 aluk10-rns NetworkManager[917]: <error> [1603892771.7604] dhcp4 (ens192): error -113 dispatching events
+Oct 28 09:46:11 aluk10-rns NetworkManager[917]: <info>  [1603892771.7611] dhcp4 (ens192): state changed bound -> fail
+Oct 28 09:46:11 aluk10-rns NetworkManager[917]: <info>  [1603892771.7613] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8029] device (ens192): DHCPv4: grace period expired
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8030] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <warn>  [1603892861.8047] device (ens192): Activation: failed for connection 'ens192'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8054] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8058] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8077] dhcp4 (ens192): canceled DHCP transaction
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8077] dhcp4 (ens192): state changed fail -> done
+Oct 28 09:47:41 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 28 09:47:41 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 28 09:47:41 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8350] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8360] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8361] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8364] manager: NetworkManager state is now CONNECTING
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8365] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8370] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8372] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 28 09:47:41 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 28 09:47:41 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8487] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 28 09:47:41 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8488] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8488] dhcp4 (ens192): option expiry               => '1603979261'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8488] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8488] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8488] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8488] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_routers    => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8489] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8490] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8490] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8490] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8490] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8490] dhcp4 (ens192): state changed unknown -> bound
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8500] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8615] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8617] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8622] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8630] manager: NetworkManager state is now CONNECTED_SITE
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8631] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8666] device (ens192): Activation: successful, device activated.
+Oct 28 09:47:41 aluk10-rns NetworkManager[917]: <info>  [1603892861.8671] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 28 09:50:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 09:50:49 aluk10-rns dnf[6684]: CentOS-8 - AppStream                             10 kB/s | 4.3 kB     00:00
+Oct 28 09:50:49 aluk10-rns dnf[6684]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 28 09:50:49 aluk10-rns dnf[6684]: CentOS-8 - Extras                                15 kB/s | 1.5 kB     00:00
+Oct 28 09:50:50 aluk10-rns dnf[6684]: Metadata cache created.
+Oct 28 09:50:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 10:51:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 10:51:49 aluk10-rns dnf[6713]: Metadata cache refreshed recently.
+Oct 28 10:51:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 11:52:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 11:52:49 aluk10-rns dnf[6737]: Metadata cache refreshed recently.
+Oct 28 11:52:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 12:53:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 12:53:49 aluk10-rns dnf[6760]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 28 12:53:49 aluk10-rns dnf[6760]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 28 12:53:50 aluk10-rns dnf[6760]: CentOS-8 - Extras                               5.4 kB/s | 1.5 kB     00:00
+Oct 28 12:53:50 aluk10-rns dnf[6760]: Metadata cache created.
+Oct 28 12:53:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 13:54:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 13:54:49 aluk10-rns dnf[6789]: Metadata cache refreshed recently.
+Oct 28 13:54:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 14:55:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 14:55:49 aluk10-rns dnf[6813]: Metadata cache refreshed recently.
+Oct 28 14:55:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 15:56:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 15:56:49 aluk10-rns dnf[6836]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 28 15:56:49 aluk10-rns dnf[6836]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 28 15:56:49 aluk10-rns dnf[6836]: CentOS-8 - Extras                               7.3 kB/s | 1.5 kB     00:00
+Oct 28 15:56:50 aluk10-rns dnf[6836]: Metadata cache created.
+Oct 28 15:56:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 16:57:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 16:57:49 aluk10-rns dnf[6866]: Metadata cache refreshed recently.
+Oct 28 16:57:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 17:58:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 17:58:49 aluk10-rns dnf[6889]: Metadata cache refreshed recently.
+Oct 28 17:58:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 18:59:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 18:59:49 aluk10-rns dnf[6913]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 28 18:59:49 aluk10-rns dnf[6913]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 28 18:59:49 aluk10-rns dnf[6913]: CentOS-8 - Extras                               7.8 kB/s | 1.5 kB     00:00
+Oct 28 18:59:50 aluk10-rns dnf[6913]: Metadata cache created.
+Oct 28 18:59:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 20:00:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 20:00:49 aluk10-rns dnf[6942]: Metadata cache refreshed recently.
+Oct 28 20:00:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 21:01:01 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 21:01:01 aluk10-rns dnf[6966]: Metadata cache refreshed recently.
+Oct 28 21:01:01 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 21:47:41 aluk10-rns NetworkManager[917]: <error> [1603936061.8410] dhcp4 (ens192): error -113 dispatching events
+Oct 28 21:47:41 aluk10-rns NetworkManager[917]: <info>  [1603936061.8420] dhcp4 (ens192): state changed bound -> fail
+Oct 28 21:47:41 aluk10-rns NetworkManager[917]: <info>  [1603936061.8421] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7629] device (ens192): DHCPv4: grace period expired
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7630] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <warn>  [1603936151.7644] device (ens192): Activation: failed for connection 'ens192'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7651] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7655] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7665] dhcp4 (ens192): canceled DHCP transaction
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7665] dhcp4 (ens192): state changed fail -> done
+Oct 28 21:49:11 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 28 21:49:11 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 28 21:49:11 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7934] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7943] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7944] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7947] manager: NetworkManager state is now CONNECTING
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7949] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7953] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.7956] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 28 21:49:11 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8039] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8040] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8040] dhcp4 (ens192): option expiry               => '1604022551'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8040] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8040] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8040] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8040] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8040] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8040] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8040] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8040] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option requested_routers    => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8041] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8042] dhcp4 (ens192): state changed unknown -> bound
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8051] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 28 21:49:11 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 28 21:49:11 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8160] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8163] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8167] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8175] manager: NetworkManager state is now CONNECTED_SITE
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8176] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8208] device (ens192): Activation: successful, device activated.
+Oct 28 21:49:11 aluk10-rns NetworkManager[917]: <info>  [1603936151.8213] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 28 21:52:38 aluk10-rns systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 28 21:52:38 aluk10-rns systemd[1]: Started Cleanup of Temporary Directories.
+Oct 28 22:01:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 22:01:49 aluk10-rns dnf[7010]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 28 22:01:49 aluk10-rns dnf[7010]: CentOS-8 - Base                                  32 kB/s | 3.9 kB     00:00
+Oct 28 22:01:49 aluk10-rns dnf[7010]: CentOS-8 - Extras                               4.3 kB/s | 1.5 kB     00:00
+Oct 28 22:01:50 aluk10-rns dnf[7010]: Metadata cache created.
+Oct 28 22:01:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 28 23:02:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 28 23:02:49 aluk10-rns dnf[7040]: Metadata cache refreshed recently.
+Oct 28 23:02:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 00:00:07 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 29 00:00:07 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 29 00:00:07 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 29 00:00:48 aluk10-rns systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 29 00:00:48 aluk10-rns systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 29 00:03:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 00:03:49 aluk10-rns dnf[7067]: Metadata cache refreshed recently.
+Oct 29 00:03:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 01:04:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 01:04:49 aluk10-rns dnf[7092]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 29 01:04:49 aluk10-rns dnf[7092]: CentOS-8 - Base                                  37 kB/s | 3.9 kB     00:00
+Oct 29 01:04:49 aluk10-rns dnf[7092]: CentOS-8 - Extras                               5.0 kB/s | 1.5 kB     00:00
+Oct 29 01:04:50 aluk10-rns dnf[7092]: Metadata cache created.
+Oct 29 01:04:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 02:05:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 02:05:49 aluk10-rns dnf[7124]: Metadata cache refreshed recently.
+Oct 29 02:05:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 03:06:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 03:06:49 aluk10-rns dnf[7149]: Metadata cache refreshed recently.
+Oct 29 03:06:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 04:07:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 04:07:49 aluk10-rns dnf[7182]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 29 04:07:49 aluk10-rns dnf[7182]: CentOS-8 - Base                                  31 kB/s | 3.9 kB     00:00
+Oct 29 04:07:49 aluk10-rns dnf[7182]: CentOS-8 - Extras                               4.1 kB/s | 1.5 kB     00:00
+Oct 29 04:07:50 aluk10-rns dnf[7182]: Metadata cache created.
+Oct 29 04:07:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 05:08:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 05:08:49 aluk10-rns dnf[7211]: Metadata cache refreshed recently.
+Oct 29 05:08:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 06:09:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 06:09:49 aluk10-rns dnf[7234]: Metadata cache refreshed recently.
+Oct 29 06:09:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 07:10:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 07:10:49 aluk10-rns dnf[7258]: CentOS-8 - AppStream                             44 kB/s | 4.3 kB     00:00
+Oct 29 07:10:49 aluk10-rns dnf[7258]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Oct 29 07:10:49 aluk10-rns dnf[7258]: CentOS-8 - Extras                               6.0 kB/s | 1.5 kB     00:00
+Oct 29 07:10:49 aluk10-rns dnf[7258]: Metadata cache created.
+Oct 29 07:10:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 08:11:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 08:11:49 aluk10-rns dnf[7288]: Metadata cache refreshed recently.
+Oct 29 08:11:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 09:12:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 09:12:49 aluk10-rns dnf[7311]: Metadata cache refreshed recently.
+Oct 29 09:12:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 09:49:11 aluk10-rns NetworkManager[917]: <error> [1603979351.7999] dhcp4 (ens192): error -113 dispatching events
+Oct 29 09:49:11 aluk10-rns NetworkManager[917]: <info>  [1603979351.8004] dhcp4 (ens192): state changed bound -> fail
+Oct 29 09:49:11 aluk10-rns NetworkManager[917]: <info>  [1603979351.8005] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7362] device (ens192): DHCPv4: grace period expired
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7363] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <warn>  [1603979441.7380] device (ens192): Activation: failed for connection 'ens192'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7387] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7391] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7404] dhcp4 (ens192): canceled DHCP transaction
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7404] dhcp4 (ens192): state changed fail -> done
+Oct 29 09:50:41 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 29 09:50:41 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 29 09:50:41 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7650] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7661] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7662] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7664] manager: NetworkManager state is now CONNECTING
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7665] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7670] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7673] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 29 09:50:41 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 29 09:50:41 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 29 09:50:41 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7768] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7768] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7768] dhcp4 (ens192): option expiry               => '1604065841'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7768] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7769] dhcp4 (ens192): option requested_routers    => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7770] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7770] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7770] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7770] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7770] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7770] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7770] dhcp4 (ens192): state changed unknown -> bound
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7779] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7888] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7890] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7894] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7903] manager: NetworkManager state is now CONNECTED_SITE
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7903] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7937] device (ens192): Activation: successful, device activated.
+Oct 29 09:50:41 aluk10-rns NetworkManager[917]: <info>  [1603979441.7942] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 29 10:13:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 10:13:49 aluk10-rns dnf[7343]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Oct 29 10:13:49 aluk10-rns dnf[7343]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 29 10:13:49 aluk10-rns dnf[7343]: CentOS-8 - Extras                               6.2 kB/s | 1.5 kB     00:00
+Oct 29 10:13:50 aluk10-rns dnf[7343]: Metadata cache created.
+Oct 29 10:13:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 11:14:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 11:14:49 aluk10-rns dnf[7372]: Metadata cache refreshed recently.
+Oct 29 11:14:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 12:15:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 12:15:49 aluk10-rns dnf[7395]: Metadata cache refreshed recently.
+Oct 29 12:15:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 13:16:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 13:16:49 aluk10-rns dnf[7419]: CentOS-8 - AppStream                             32 kB/s | 4.3 kB     00:00
+Oct 29 13:16:49 aluk10-rns dnf[7419]: CentOS-8 - Base                                  35 kB/s | 3.9 kB     00:00
+Oct 29 13:16:49 aluk10-rns dnf[7419]: CentOS-8 - Extras                               3.9 kB/s | 1.5 kB     00:00
+Oct 29 13:16:49 aluk10-rns dnf[7419]: Metadata cache created.
+Oct 29 13:16:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 14:17:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 14:17:49 aluk10-rns dnf[7449]: Metadata cache refreshed recently.
+Oct 29 14:17:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 15:18:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 15:18:49 aluk10-rns dnf[7472]: Metadata cache refreshed recently.
+Oct 29 15:18:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 16:19:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 16:19:49 aluk10-rns dnf[7495]: CentOS-8 - AppStream                             22 kB/s | 4.3 kB     00:00
+Oct 29 16:19:49 aluk10-rns dnf[7495]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Oct 29 16:19:49 aluk10-rns dnf[7495]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Oct 29 16:19:50 aluk10-rns dnf[7495]: Metadata cache created.
+Oct 29 16:19:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 17:20:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 17:20:49 aluk10-rns dnf[7525]: Metadata cache refreshed recently.
+Oct 29 17:20:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 18:21:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 18:21:49 aluk10-rns dnf[7548]: Metadata cache refreshed recently.
+Oct 29 18:21:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 19:22:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 19:22:49 aluk10-rns dnf[7572]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 29 19:22:49 aluk10-rns dnf[7572]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 29 19:22:49 aluk10-rns dnf[7572]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Oct 29 19:22:50 aluk10-rns dnf[7572]: Metadata cache created.
+Oct 29 19:22:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 20:23:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 20:23:49 aluk10-rns dnf[7601]: Metadata cache refreshed recently.
+Oct 29 20:23:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 21:24:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 21:24:49 aluk10-rns dnf[7625]: Metadata cache refreshed recently.
+Oct 29 21:24:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 21:50:41 aluk10-rns NetworkManager[917]: <error> [1604022641.7714] dhcp4 (ens192): error -113 dispatching events
+Oct 29 21:50:41 aluk10-rns NetworkManager[917]: <info>  [1604022641.7718] dhcp4 (ens192): state changed bound -> fail
+Oct 29 21:50:41 aluk10-rns NetworkManager[917]: <info>  [1604022641.7719] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7524] device (ens192): DHCPv4: grace period expired
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7525] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <warn>  [1604022731.7540] device (ens192): Activation: failed for connection 'ens192'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7546] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7550] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7562] dhcp4 (ens192): canceled DHCP transaction
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7563] dhcp4 (ens192): state changed fail -> done
+Oct 29 21:52:11 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 29 21:52:11 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 29 21:52:11 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7834] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7844] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7845] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7848] manager: NetworkManager state is now CONNECTING
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7849] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7854] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7856] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 29 21:52:11 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 29 21:52:11 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7975] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 29 21:52:11 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7975] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7975] dhcp4 (ens192): option expiry               => '1604109131'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7975] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7976] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7977] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7977] dhcp4 (ens192): option requested_routers    => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7977] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7977] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7977] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7977] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7977] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7977] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7977] dhcp4 (ens192): state changed unknown -> bound
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.7987] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.8080] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.8083] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.8087] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.8095] manager: NetworkManager state is now CONNECTED_SITE
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.8096] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.8150] device (ens192): Activation: successful, device activated.
+Oct 29 21:52:11 aluk10-rns NetworkManager[917]: <info>  [1604022731.8155] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 29 21:52:48 aluk10-rns systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 29 21:52:48 aluk10-rns systemd[1]: Started Cleanup of Temporary Directories.
+Oct 29 22:25:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 22:25:49 aluk10-rns dnf[7658]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 29 22:25:49 aluk10-rns dnf[7658]: CentOS-8 - Base                                  22 kB/s | 3.9 kB     00:00
+Oct 29 22:25:50 aluk10-rns dnf[7658]: CentOS-8 - Extras                               3.6 kB/s | 1.5 kB     00:00
+Oct 29 22:25:50 aluk10-rns dnf[7658]: Metadata cache created.
+Oct 29 22:25:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 29 23:26:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 29 23:26:49 aluk10-rns dnf[7688]: Metadata cache refreshed recently.
+Oct 29 23:26:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 00:00:06 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 30 00:00:06 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 30 00:00:06 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 30 00:00:48 aluk10-rns systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 30 00:00:48 aluk10-rns systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 30 00:27:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 00:27:49 aluk10-rns dnf[7715]: Metadata cache refreshed recently.
+Oct 30 00:27:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 01:28:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 01:28:49 aluk10-rns dnf[7741]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 30 01:28:49 aluk10-rns dnf[7741]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Oct 30 01:28:49 aluk10-rns dnf[7741]: CentOS-8 - Extras                               8.0 kB/s | 1.5 kB     00:00
+Oct 30 01:28:50 aluk10-rns dnf[7741]: Metadata cache created.
+Oct 30 01:28:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 02:29:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 02:29:49 aluk10-rns dnf[7772]: Metadata cache refreshed recently.
+Oct 30 02:29:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 03:30:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 03:30:49 aluk10-rns dnf[7797]: Metadata cache refreshed recently.
+Oct 30 03:30:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 04:31:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 04:31:49 aluk10-rns dnf[7830]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 30 04:31:49 aluk10-rns dnf[7830]: CentOS-8 - Base                                  39 kB/s | 3.9 kB     00:00
+Oct 30 04:31:49 aluk10-rns dnf[7830]: CentOS-8 - Extras                               7.2 kB/s | 1.5 kB     00:00
+Oct 30 04:31:50 aluk10-rns dnf[7830]: Metadata cache created.
+Oct 30 04:31:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 05:32:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 05:32:49 aluk10-rns dnf[7859]: Metadata cache refreshed recently.
+Oct 30 05:32:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 06:33:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 06:33:49 aluk10-rns dnf[7883]: Metadata cache refreshed recently.
+Oct 30 06:33:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 07:34:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 07:34:49 aluk10-rns dnf[7906]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 30 07:34:49 aluk10-rns dnf[7906]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 30 07:34:49 aluk10-rns dnf[7906]: CentOS-8 - Extras                               6.1 kB/s | 1.5 kB     00:00
+Oct 30 07:34:50 aluk10-rns dnf[7906]: Metadata cache created.
+Oct 30 07:34:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 08:35:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 08:35:49 aluk10-rns dnf[7936]: Metadata cache refreshed recently.
+Oct 30 08:35:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 09:36:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 09:36:49 aluk10-rns dnf[7959]: Metadata cache refreshed recently.
+Oct 30 09:36:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 09:52:11 aluk10-rns NetworkManager[917]: <error> [1604065931.7896] dhcp4 (ens192): error -113 dispatching events
+Oct 30 09:52:11 aluk10-rns NetworkManager[917]: <info>  [1604065931.7903] dhcp4 (ens192): state changed bound -> fail
+Oct 30 09:52:11 aluk10-rns NetworkManager[917]: <info>  [1604065931.7905] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7377] device (ens192): DHCPv4: grace period expired
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7379] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <warn>  [1604066021.7396] device (ens192): Activation: failed for connection 'ens192'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7403] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7407] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7422] dhcp4 (ens192): canceled DHCP transaction
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7423] dhcp4 (ens192): state changed fail -> done
+Oct 30 09:53:41 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 30 09:53:41 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 30 09:53:41 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7662] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7672] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7673] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7676] manager: NetworkManager state is now CONNECTING
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7677] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7682] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7684] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 30 09:53:41 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 30 09:53:41 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 30 09:53:41 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7781] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7781] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7781] dhcp4 (ens192): option expiry               => '1604152421'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7781] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7781] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7781] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_routers    => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7782] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7783] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7783] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7783] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7783] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7783] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7783] dhcp4 (ens192): state changed unknown -> bound
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7793] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7907] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7909] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7913] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7921] manager: NetworkManager state is now CONNECTED_SITE
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7922] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7953] device (ens192): Activation: successful, device activated.
+Oct 30 09:53:41 aluk10-rns NetworkManager[917]: <info>  [1604066021.7957] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 30 10:37:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 10:37:49 aluk10-rns dnf[7991]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 30 10:37:49 aluk10-rns dnf[7991]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Oct 30 10:37:50 aluk10-rns dnf[7991]: CentOS-8 - Extras                               7.2 kB/s | 1.5 kB     00:00
+Oct 30 10:37:50 aluk10-rns dnf[7991]: Metadata cache created.
+Oct 30 10:37:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 11:38:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 11:38:49 aluk10-rns dnf[8020]: Metadata cache refreshed recently.
+Oct 30 11:38:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 12:39:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 12:39:49 aluk10-rns dnf[8044]: Metadata cache refreshed recently.
+Oct 30 12:39:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 13:40:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 13:40:49 aluk10-rns dnf[8067]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 30 13:40:49 aluk10-rns dnf[8067]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 30 13:40:49 aluk10-rns dnf[8067]: CentOS-8 - Extras                               4.5 kB/s | 1.5 kB     00:00
+Oct 30 13:40:50 aluk10-rns dnf[8067]: Metadata cache created.
+Oct 30 13:40:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 14:41:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 14:41:49 aluk10-rns dnf[8097]: Metadata cache refreshed recently.
+Oct 30 14:41:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 15:42:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 15:42:49 aluk10-rns dnf[8120]: Metadata cache refreshed recently.
+Oct 30 15:42:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 16:43:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 16:43:49 aluk10-rns dnf[8144]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 30 16:43:49 aluk10-rns dnf[8144]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 30 16:43:50 aluk10-rns dnf[8144]: CentOS-8 - Extras                               5.1 kB/s | 1.5 kB     00:00
+Oct 30 16:43:50 aluk10-rns dnf[8144]: Metadata cache created.
+Oct 30 16:43:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 17:44:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 17:44:49 aluk10-rns dnf[8173]: Metadata cache refreshed recently.
+Oct 30 17:44:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 18:45:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 18:45:49 aluk10-rns dnf[8196]: Metadata cache refreshed recently.
+Oct 30 18:45:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 19:46:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 19:46:49 aluk10-rns dnf[8220]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 30 19:46:49 aluk10-rns dnf[8220]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 30 19:46:53 aluk10-rns dnf[8220]: CentOS-8 - Extras                               371  B/s | 1.5 kB     00:04
+Oct 30 19:46:54 aluk10-rns dnf[8220]: Metadata cache created.
+Oct 30 19:46:54 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 20:47:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 20:47:49 aluk10-rns dnf[8250]: Metadata cache refreshed recently.
+Oct 30 20:47:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 21:48:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 21:48:49 aluk10-rns dnf[8273]: Metadata cache refreshed recently.
+Oct 30 21:48:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 21:53:41 aluk10-rns NetworkManager[917]: <error> [1604109221.7728] dhcp4 (ens192): error -113 dispatching events
+Oct 30 21:53:41 aluk10-rns NetworkManager[917]: <info>  [1604109221.7729] dhcp4 (ens192): state changed bound -> fail
+Oct 30 21:53:41 aluk10-rns NetworkManager[917]: <info>  [1604109221.7730] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 30 21:53:41 aluk10-rns systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 30 21:53:41 aluk10-rns systemd[1]: Started Cleanup of Temporary Directories.
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.7924] device (ens192): DHCPv4: grace period expired
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.7926] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <warn>  [1604109311.7944] device (ens192): Activation: failed for connection 'ens192'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.7950] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.7954] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.7966] dhcp4 (ens192): canceled DHCP transaction
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.7966] dhcp4 (ens192): state changed fail -> done
+Oct 30 21:55:11 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 30 21:55:11 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 30 21:55:11 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8183] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8193] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8194] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8196] manager: NetworkManager state is now CONNECTING
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8198] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8203] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8205] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 30 21:55:11 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 30 21:55:11 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8388] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option expiry               => '1604195711'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8389] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): option requested_routers    => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8390] dhcp4 (ens192): state changed unknown -> bound
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8400] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 30 21:55:11 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8451] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8453] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8457] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8465] manager: NetworkManager state is now CONNECTED_SITE
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8466] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8490] device (ens192): Activation: successful, device activated.
+Oct 30 21:55:11 aluk10-rns NetworkManager[917]: <info>  [1604109311.8494] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 30 22:49:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 22:49:49 aluk10-rns dnf[8306]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 30 22:54:44 aluk10-rns dnf[8306]: CentOS-8 - AppStream                             20 kB/s | 5.8 MB     04:54
+Oct 30 22:54:45 aluk10-rns dnf[8306]: CentOS-8 - Base                                 8.5 kB/s | 3.9 kB     00:00
+Oct 30 22:55:35 aluk10-rns dnf[8306]: CentOS-8 - Base                                  46 kB/s | 2.2 MB     00:49
+Oct 30 22:55:36 aluk10-rns dnf[8306]: CentOS-8 - Extras                               6.7 kB/s | 1.5 kB     00:00
+Oct 30 22:55:36 aluk10-rns dnf[8306]: Metadata cache created.
+Oct 30 22:55:36 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 30 23:55:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 30 23:55:49 aluk10-rns dnf[8346]: Metadata cache refreshed recently.
+Oct 30 23:55:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 00:00:04 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 31 00:00:04 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 31 00:00:04 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Oct 31 00:00:48 aluk10-rns systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 31 00:00:48 aluk10-rns systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 31 00:56:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 00:56:49 aluk10-rns dnf[8374]: Metadata cache refreshed recently.
+Oct 31 00:56:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 01:57:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 01:57:49 aluk10-rns dnf[8400]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 31 01:57:49 aluk10-rns dnf[8400]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 31 01:57:49 aluk10-rns dnf[8400]: CentOS-8 - Extras                               6.0 kB/s | 1.5 kB     00:00
+Oct 31 01:57:50 aluk10-rns dnf[8400]: Metadata cache created.
+Oct 31 01:57:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 02:58:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 02:58:49 aluk10-rns dnf[8431]: Metadata cache refreshed recently.
+Oct 31 02:58:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 03:59:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 03:59:49 aluk10-rns dnf[8466]: Metadata cache refreshed recently.
+Oct 31 03:59:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 05:00:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 05:00:49 aluk10-rns dnf[8489]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 31 05:00:49 aluk10-rns dnf[8489]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 31 05:00:49 aluk10-rns dnf[8489]: CentOS-8 - Extras                               5.3 kB/s | 1.5 kB     00:00
+Oct 31 05:00:50 aluk10-rns dnf[8489]: Metadata cache created.
+Oct 31 05:00:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 06:01:01 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 06:01:01 aluk10-rns dnf[8519]: Metadata cache refreshed recently.
+Oct 31 06:01:01 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 07:01:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 07:01:49 aluk10-rns dnf[8552]: Metadata cache refreshed recently.
+Oct 31 07:01:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 08:02:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 08:02:49 aluk10-rns dnf[8576]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Oct 31 08:02:49 aluk10-rns dnf[8576]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 31 08:02:49 aluk10-rns dnf[8576]: CentOS-8 - Extras                               3.9 kB/s | 1.5 kB     00:00
+Oct 31 08:02:50 aluk10-rns dnf[8576]: Metadata cache created.
+Oct 31 08:02:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 09:03:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 09:03:49 aluk10-rns dnf[8606]: Metadata cache refreshed recently.
+Oct 31 09:03:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 09:55:11 aluk10-rns NetworkManager[917]: <error> [1604152511.8245] dhcp4 (ens192): error -113 dispatching events
+Oct 31 09:55:11 aluk10-rns NetworkManager[917]: <info>  [1604152511.8255] dhcp4 (ens192): state changed bound -> fail
+Oct 31 09:55:11 aluk10-rns NetworkManager[917]: <info>  [1604152511.8256] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7339] device (ens192): DHCPv4: grace period expired
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7340] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <warn>  [1604152601.7356] device (ens192): Activation: failed for connection 'ens192'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7363] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7366] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7379] dhcp4 (ens192): canceled DHCP transaction
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7379] dhcp4 (ens192): state changed fail -> done
+Oct 31 09:56:41 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 31 09:56:41 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 31 09:56:41 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7631] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7641] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7642] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7645] manager: NetworkManager state is now CONNECTING
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7646] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7651] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7654] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7733] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7733] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7733] dhcp4 (ens192): option expiry               => '1604239001'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7733] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7733] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7733] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7733] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_routers    => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7734] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7735] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7735] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7735] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7735] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7735] dhcp4 (ens192): state changed unknown -> bound
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7745] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 31 09:56:41 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 31 09:56:41 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 31 09:56:41 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7887] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7890] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7895] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7903] manager: NetworkManager state is now CONNECTED_SITE
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7904] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7938] device (ens192): Activation: successful, device activated.
+Oct 31 09:56:41 aluk10-rns NetworkManager[917]: <info>  [1604152601.7943] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 31 10:04:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 10:04:49 aluk10-rns dnf[8637]: Metadata cache refreshed recently.
+Oct 31 10:04:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 11:05:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 11:05:49 aluk10-rns dnf[8661]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 31 11:05:49 aluk10-rns dnf[8661]: CentOS-8 - Base                                  31 kB/s | 3.9 kB     00:00
+Oct 31 11:05:49 aluk10-rns dnf[8661]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Oct 31 11:05:49 aluk10-rns dnf[8661]: Metadata cache created.
+Oct 31 11:05:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 12:06:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 12:06:49 aluk10-rns dnf[8690]: Metadata cache refreshed recently.
+Oct 31 12:06:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 13:07:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 13:07:49 aluk10-rns dnf[8714]: Metadata cache refreshed recently.
+Oct 31 13:07:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 14:08:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 14:08:49 aluk10-rns dnf[8737]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 31 14:08:49 aluk10-rns dnf[8737]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Oct 31 14:08:49 aluk10-rns dnf[8737]: CentOS-8 - Extras                               9.0 kB/s | 1.5 kB     00:00
+Oct 31 14:08:50 aluk10-rns dnf[8737]: Metadata cache created.
+Oct 31 14:08:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 15:09:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 15:09:49 aluk10-rns dnf[8766]: Metadata cache refreshed recently.
+Oct 31 15:09:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 16:10:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 16:10:49 aluk10-rns dnf[8790]: Metadata cache refreshed recently.
+Oct 31 16:10:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 17:11:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 17:11:49 aluk10-rns dnf[8813]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 31 17:11:49 aluk10-rns dnf[8813]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Oct 31 17:11:50 aluk10-rns dnf[8813]: CentOS-8 - Extras                               5.7 kB/s | 1.5 kB     00:00
+Oct 31 17:11:50 aluk10-rns dnf[8813]: Metadata cache created.
+Oct 31 17:11:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 18:12:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 18:12:49 aluk10-rns dnf[8843]: Metadata cache refreshed recently.
+Oct 31 18:12:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 19:13:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 19:13:49 aluk10-rns dnf[8866]: Metadata cache refreshed recently.
+Oct 31 19:13:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 20:14:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 20:14:49 aluk10-rns dnf[8890]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 31 20:14:49 aluk10-rns dnf[8890]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 31 20:14:49 aluk10-rns dnf[8890]: CentOS-8 - Extras                               6.0 kB/s | 1.5 kB     00:00
+Oct 31 20:14:50 aluk10-rns dnf[8890]: Metadata cache created.
+Oct 31 20:14:50 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 21:15:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 21:15:49 aluk10-rns dnf[8919]: Metadata cache refreshed recently.
+Oct 31 21:15:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 21:53:48 aluk10-rns systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 31 21:53:48 aluk10-rns systemd[1]: Started Cleanup of Temporary Directories.
+Oct 31 21:56:41 aluk10-rns NetworkManager[917]: <error> [1604195801.7686] dhcp4 (ens192): error -113 dispatching events
+Oct 31 21:56:41 aluk10-rns NetworkManager[917]: <info>  [1604195801.7689] dhcp4 (ens192): state changed bound -> fail
+Oct 31 21:56:41 aluk10-rns NetworkManager[917]: <info>  [1604195801.7690] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.7727] device (ens192): DHCPv4: grace period expired
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.7728] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <warn>  [1604195891.7743] device (ens192): Activation: failed for connection 'ens192'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.7750] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.7754] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.7768] dhcp4 (ens192): canceled DHCP transaction
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.7769] dhcp4 (ens192): state changed fail -> done
+Oct 31 21:58:11 aluk10-rns dbus-daemon[914]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 31 21:58:11 aluk10-rns systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 31 21:58:11 aluk10-rns named[3408]: no longer listening on 172.16.17.4#53
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8037] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8046] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8047] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8050] manager: NetworkManager state is now CONNECTING
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8052] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8056] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8059] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 31 21:58:11 aluk10-rns dbus-daemon[914]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8156] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 31 21:58:11 aluk10-rns named[3408]: listening on IPv4 interface ens192, 172.16.17.4#53
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8157] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8157] dhcp4 (ens192): option expiry               => '1604282291'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8157] dhcp4 (ens192): option ip_address           => '172.16.17.4'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8157] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8157] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8157] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8157] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8157] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8157] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8158] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8158] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8158] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8158] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8158] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8158] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8158] dhcp4 (ens192): option requested_routers    => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8158] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8158] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8159] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8159] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8159] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8159] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8159] dhcp4 (ens192): state changed unknown -> bound
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8168] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 31 21:58:11 aluk10-rns systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8280] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8283] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8288] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8296] manager: NetworkManager state is now CONNECTED_SITE
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8297] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8331] device (ens192): Activation: successful, device activated.
+Oct 31 21:58:11 aluk10-rns NetworkManager[917]: <info>  [1604195891.8335] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 31 22:16:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 22:16:49 aluk10-rns dnf[8953]: Metadata cache refreshed recently.
+Oct 31 22:16:49 aluk10-rns systemd[1]: Started dnf makecache.
+Oct 31 23:17:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Oct 31 23:17:49 aluk10-rns dnf[8976]: CentOS-8 - AppStream                             28 kB/s | 4.3 kB     00:00
+Oct 31 23:17:49 aluk10-rns dnf[8976]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 31 23:17:49 aluk10-rns dnf[8976]: CentOS-8 - Extras                               7.4 kB/s | 1.5 kB     00:00
+Oct 31 23:17:49 aluk10-rns dnf[8976]: Metadata cache created.
+Oct 31 23:17:50 aluk10-rns systemd[1]: Started dnf makecache.
+Nov  1 00:00:03 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Nov  1 00:00:03 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Nov  1 00:00:03 aluk10-rns named[3408]: trust-anchor-telemetry '_ta-4a5c-4f66/IN' from 192.168.17.2
+Nov  1 00:00:48 aluk10-rns systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  1 00:00:48 aluk10-rns systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  1 00:18:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Nov  1 00:18:49 aluk10-rns dnf[9010]: Metadata cache refreshed recently.
+Nov  1 00:18:49 aluk10-rns systemd[1]: Started dnf makecache.
+Nov  1 01:19:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Nov  1 01:19:49 aluk10-rns dnf[9035]: Metadata cache refreshed recently.
+Nov  1 01:19:49 aluk10-rns systemd[1]: Started dnf makecache.
+Nov  1 01:20:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Nov  1 01:20:49 aluk10-rns dnf[9060]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  1 01:20:51 aluk10-rns dnf[9060]: CentOS-8 - Base                                 1.8 kB/s | 3.9 kB     00:02
+Nov  1 01:20:51 aluk10-rns dnf[9060]: CentOS-8 - Extras                               7.1 kB/s | 1.5 kB     00:00
+Nov  1 01:20:52 aluk10-rns dnf[9060]: Metadata cache created.
+Nov  1 01:20:52 aluk10-rns systemd[1]: Started dnf makecache.
+Nov  1 02:21:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Nov  1 02:21:49 aluk10-rns dnf[9092]: Metadata cache refreshed recently.
+Nov  1 02:21:49 aluk10-rns systemd[1]: Started dnf makecache.
+Nov  1 03:22:48 aluk10-rns systemd[1]: Starting dnf makecache...
+Nov  1 03:22:49 aluk10-rns dnf[9117]: Metadata cache refreshed recently.
+Nov  1 03:22:49 aluk10-rns systemd[1]: Started dnf makecache.
+Nov  1 03:39:01 aluk10-rns systemd[1]: Reloading Berkeley Internet Name Domain (DNS).
+Nov  1 03:39:01 aluk10-rns named[3408]: received control channel command 'reload'
+Nov  1 03:39:01 aluk10-rns named[3408]: loading configuration from '/etc/named.conf'
+Nov  1 03:39:01 aluk10-rns named[3408]: unable to open '/etc/bind.keys'; using built-in keys instead
+Nov  1 03:39:01 aluk10-rns named[3408]: looking for GeoIP2 databases in '/usr/share/GeoIP'
+Nov  1 03:39:01 aluk10-rns named[3408]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-Country.mmdb'
+Nov  1 03:39:01 aluk10-rns named[3408]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-City.mmdb'
+Nov  1 03:39:01 aluk10-rns named[3408]: using default UDP/IPv4 port range: [32768, 60999]
+Nov  1 03:39:01 aluk10-rns named[3408]: using default UDP/IPv6 port range: [32768, 60999]
+Nov  1 03:39:01 aluk10-rns named[3408]: sizing zone task pool based on 1 zones
+Nov  1 03:39:01 aluk10-rns named[3408]: none:104: 'max-cache-size 90%' - setting to 1644MB (out of 1826MB)
+Nov  1 03:39:01 aluk10-rns named[3408]: none:104: 'max-cache-size 90%' - setting to 1644MB (out of 1826MB)
+Nov  1 03:39:01 aluk10-rns named[3408]: configuring command channel from '/etc/rndc.key'
+Nov  1 03:39:01 aluk10-rns named[3408]: configuring command channel from '/etc/rndc.key'
+Nov  1 03:39:01 aluk10-rns named[3408]: reloading configuration succeeded
+Nov  1 03:39:01 aluk10-rns named[3408]: reloading zones succeeded
+Nov  1 03:39:01 aluk10-rns named[3408]: all zones loaded
+Nov  1 03:39:01 aluk10-rns named[3408]: running
+Nov  1 03:39:01 aluk10-rns sh[9132]: server reload successful
+Nov  1 03:39:01 aluk10-rns systemd[1]: Reloaded Berkeley Internet Name Domain (DNS).

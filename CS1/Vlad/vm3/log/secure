@@ -1,0 +1,818 @@
+Nov  8 16:42:10 vkim11-pri sudo[17462]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nmtui
+Nov  8 16:42:10 vkim11-pri sudo[17462]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 16:42:10 vkim11-pri sudo[17462]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 16:43:09 vkim11-pri sudo[17462]: pam_unix(sudo:session): session closed for user root
+Nov  8 16:43:20 vkim11-pri sudo[17472]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/ifdown ens224
+Nov  8 16:43:20 vkim11-pri sudo[17472]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 16:43:20 vkim11-pri sudo[17472]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 16:43:20 vkim11-pri sudo[17472]: pam_unix(sudo:session): session closed for user root
+Nov  8 16:43:23 vkim11-pri sudo[17486]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/ifup ens224
+Nov  8 16:43:23 vkim11-pri sudo[17486]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 16:43:23 vkim11-pri sudo[17486]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 16:43:23 vkim11-pri sudo[17486]: pam_unix(sudo:session): session closed for user root
+Nov  8 16:44:30 vkim11-pri sudo[17501]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/yum install postfix
+Nov  8 16:44:30 vkim11-pri sudo[17501]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 16:44:30 vkim11-pri sudo[17501]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 16:44:40 vkim11-pri groupadd[17510]: group added to /etc/group: name=postdrop, GID=90
+Nov  8 16:44:40 vkim11-pri groupadd[17510]: group added to /etc/gshadow: name=postdrop
+Nov  8 16:44:40 vkim11-pri groupadd[17510]: new group: name=postdrop, GID=90
+Nov  8 16:44:40 vkim11-pri groupadd[17517]: group added to /etc/group: name=postfix, GID=89
+Nov  8 16:44:40 vkim11-pri groupadd[17517]: group added to /etc/gshadow: name=postfix
+Nov  8 16:44:40 vkim11-pri groupadd[17517]: new group: name=postfix, GID=89
+Nov  8 16:44:41 vkim11-pri useradd[17524]: new user: name=postfix, UID=89, GID=89, home=/var/spool/postfix, shell=/sbin/nologin
+Nov  8 16:44:41 vkim11-pri useradd[17524]: add 'postfix' to group 'mail'
+Nov  8 16:44:41 vkim11-pri useradd[17524]: add 'postfix' to shadow group 'mail'
+Nov  8 16:44:44 vkim11-pri sudo[17501]: pam_unix(sudo:session): session closed for user root
+Nov  8 16:46:00 vkim11-pri sudo[29275]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/postfix/main.cf
+Nov  8 16:46:00 vkim11-pri sudo[29275]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 16:46:00 vkim11-pri sudo[29275]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:02:11 vkim11-pri sudo[29275]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:02:26 vkim11-pri sudo[29292]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/named.ca
+Nov  8 17:02:26 vkim11-pri sudo[29292]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:02:26 vkim11-pri sudo[29292]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:02:45 vkim11-pri sudo[29292]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:04:10 vkim11-pri sudo[29299]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Nov  8 17:04:10 vkim11-pri sudo[29299]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:04:10 vkim11-pri sudo[29299]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:04:17 vkim11-pri sudo[29299]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:04:38 vkim11-pri sudo[29302]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 17:04:38 vkim11-pri sudo[29302]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:04:38 vkim11-pri sudo[29302]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:05:26 vkim11-pri sudo[29302]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:05:44 vkim11-pri sudo[29307]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/15.168.192.in-addr.arpa
+Nov  8 17:05:44 vkim11-pri sudo[29307]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:05:44 vkim11-pri sudo[29307]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:05:45 vkim11-pri sudo[29307]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:05:52 vkim11-pri sudo[29312]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Nov  8 17:05:52 vkim11-pri sudo[29312]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:05:52 vkim11-pri sudo[29312]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:05:56 vkim11-pri sudo[29312]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:06:04 vkim11-pri sudo[29315]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.15.168.192
+Nov  8 17:06:04 vkim11-pri sudo[29315]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:06:04 vkim11-pri sudo[29315]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:06:47 vkim11-pri sudo[29315]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:06:54 vkim11-pri sudo[29319]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 17:06:54 vkim11-pri sudo[29319]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:06:54 vkim11-pri sudo[29319]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:06:54 vkim11-pri sudo[29319]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:07:04 vkim11-pri sudo[29343]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl status named
+Nov  8 17:07:04 vkim11-pri sudo[29343]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:07:04 vkim11-pri sudo[29343]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:07:22 vkim11-pri sudo[29343]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:07:29 vkim11-pri sudo[29350]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 17:07:29 vkim11-pri sudo[29350]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:07:29 vkim11-pri sudo[29350]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:07:29 vkim11-pri sudo[29350]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:07:34 vkim11-pri sudo[29365]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 17:07:34 vkim11-pri sudo[29365]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:07:34 vkim11-pri sudo[29365]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:07:34 vkim11-pri sudo[29365]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:07:37 vkim11-pri sudo[29380]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl status named
+Nov  8 17:07:37 vkim11-pri sudo[29380]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:07:37 vkim11-pri sudo[29380]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:07:39 vkim11-pri sudo[29380]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:07:51 vkim11-pri sudo[29384]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 17:07:51 vkim11-pri sudo[29384]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:07:51 vkim11-pri sudo[29384]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:08:21 vkim11-pri sudo[29384]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:08:27 vkim11-pri polkitd[958]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  8 17:08:27 vkim11-pri polkitd[958]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  8 17:08:27 vkim11-pri polkitd[958]: Finished loading, compiling and executing 2 rules
+Nov  8 17:08:27 vkim11-pri polkitd[958]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  8 17:08:32 vkim11-pri sshd[997]: Server listening on 0.0.0.0 port 22.
+Nov  8 17:08:32 vkim11-pri sshd[997]: Server listening on :: port 22.
+Nov  8 17:08:54 vkim11-pri systemd[1490]: pam_unix(systemd-user:session): session opened for user vkim11 by (uid=0)
+Nov  8 17:08:54 vkim11-pri login[1069]: pam_unix(login:session): session opened for user vkim11 by LOGIN(uid=0)
+Nov  8 17:08:54 vkim11-pri login[1069]: LOGIN ON tty1 BY vkim11
+Nov  8 17:09:01 vkim11-pri sudo[1527]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl status named
+Nov  8 17:09:01 vkim11-pri sudo[1527]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:09:01 vkim11-pri sudo[1527]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:09:09 vkim11-pri sudo[1527]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:09:17 vkim11-pri sudo[1536]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Nov  8 17:09:17 vkim11-pri sudo[1536]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:09:17 vkim11-pri sudo[1536]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:09:34 vkim11-pri sudo[1536]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:09:41 vkim11-pri sudo[1540]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 17:09:41 vkim11-pri sudo[1540]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:09:41 vkim11-pri sudo[1540]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:09:41 vkim11-pri sudo[1540]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:09:46 vkim11-pri sudo[1559]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl status named
+Nov  8 17:09:46 vkim11-pri sudo[1559]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:09:46 vkim11-pri sudo[1559]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:45 vkim11-pri sudo[1559]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:53 vkim11-pri sudo[1567]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 172.16.0.0/16 --dport 53 -j ACCEPT
+Nov  8 17:10:53 vkim11-pri sudo[1567]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:53 vkim11-pri sudo[1567]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:53 vkim11-pri sudo[1567]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:53 vkim11-pri sudo[1570]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 192.168.0.0/16 --dport 53 -j ACCEPT
+Nov  8 17:10:53 vkim11-pri sudo[1570]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:53 vkim11-pri sudo[1570]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:53 vkim11-pri sudo[1570]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:53 vkim11-pri sudo[1573]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 192.168.0.0/16 -j ACCEPT
+Nov  8 17:10:53 vkim11-pri sudo[1573]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:53 vkim11-pri sudo[1573]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:53 vkim11-pri sudo[1573]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:53 vkim11-pri sudo[1576]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 172.16.0.0/16 -j ACCEPT
+Nov  8 17:10:53 vkim11-pri sudo[1576]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:53 vkim11-pri sudo[1576]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:53 vkim11-pri sudo[1576]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:53 vkim11-pri sudo[1579]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.0/24 --dport 22 -j ACCEPT
+Nov  8 17:10:53 vkim11-pri sudo[1579]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:53 vkim11-pri sudo[1579]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:53 vkim11-pri sudo[1579]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:53 vkim11-pri sudo[1582]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 172.16.0.1 --dport 22 -j ACCEPT
+Nov  8 17:10:53 vkim11-pri sudo[1582]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:53 vkim11-pri sudo[1582]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:53 vkim11-pri sudo[1582]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:53 vkim11-pri sudo[1585]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -N LOGGING
+Nov  8 17:10:53 vkim11-pri sudo[1585]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:53 vkim11-pri sudo[1585]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:53 vkim11-pri sudo[1585]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:53 vkim11-pri sudo[1588]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 22 -j LOGGING
+Nov  8 17:10:53 vkim11-pri sudo[1588]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:53 vkim11-pri sudo[1588]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:53 vkim11-pri sudo[1588]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:53 vkim11-pri sudo[1591]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j LOG --log-level 6 --log-prefix DROPPED PACKETS
+Nov  8 17:10:53 vkim11-pri sudo[1591]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:53 vkim11-pri sudo[1591]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:53 vkim11-pri sudo[1591]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1603]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1603]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1603]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1603]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1606]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.2.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1606]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1606]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1606]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1609]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.3.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1609]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1609]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1609]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1612]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.4.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1612]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1612]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1612]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1615]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.5.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1615]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1615]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1615]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1618]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.6.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1618]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1618]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1618]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1621]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.7.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1621]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1621]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1621]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1624]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.8.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1624]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1624]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1624]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1627]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.9.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1627]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1627]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1627]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1630]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.10.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1630]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1630]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1630]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1633]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.11.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1633]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1633]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1633]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1636]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.12.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1636]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1636]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1636]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1639]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.13.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1639]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1639]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1639]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1642]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.14.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1642]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1642]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1642]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1645]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.16.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1645]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1645]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1645]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1648]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.17.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1648]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1648]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1648]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1651]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.18.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1651]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1651]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1651]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1654]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.19.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1654]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1654]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1654]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1657]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.20.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1657]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1657]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1657]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1660]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.21.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1660]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1660]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1660]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1663]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.22.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1663]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1663]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1663]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1666]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.23.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1666]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1666]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1666]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1669]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.24.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1669]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1669]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1669]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1672]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.25.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1672]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1672]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1672]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1675]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.26.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1675]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1675]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1675]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1678]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.27.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1678]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1678]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1678]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1681]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.28.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1681]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1681]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1681]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1684]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.29.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1684]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1684]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1684]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:04 vkim11-pri sudo[1687]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.30.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:04 vkim11-pri sudo[1687]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:04 vkim11-pri sudo[1687]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:04 vkim11-pri sudo[1687]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:14:29 vkim11-pri sudo[1694]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 17:14:29 vkim11-pri sudo[1694]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:14:29 vkim11-pri sudo[1694]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:14:35 vkim11-pri sudo[1694]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:15:13 vkim11-pri sudo[1699]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Nov  8 17:15:13 vkim11-pri sudo[1699]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:15:13 vkim11-pri sudo[1699]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:15:14 vkim11-pri sudo[1699]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:21:18 vkim11-pri sudo[1707]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/postfix/main.cf
+Nov  8 17:21:18 vkim11-pri sudo[1707]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:21:18 vkim11-pri sudo[1707]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:26:38 vkim11-pri sudo[1707]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:27:38 vkim11-pri sudo[1719]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 17:27:38 vkim11-pri sudo[1719]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:27:38 vkim11-pri sudo[1719]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:27:38 vkim11-pri sudo[1719]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:28:10 vkim11-pri sudo[1727]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov  8 17:28:10 vkim11-pri sudo[1727]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:28:10 vkim11-pri sudo[1727]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:37:03 vkim11-pri sudo[1727]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:40:50 vkim11-pri sudo[1738]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 17:40:50 vkim11-pri sudo[1738]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:40:50 vkim11-pri sudo[1738]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:41:30 vkim11-pri sudo[1738]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:41:38 vkim11-pri sudo[1743]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.15.168.192
+Nov  8 17:41:38 vkim11-pri sudo[1743]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:41:38 vkim11-pri sudo[1743]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:41:41 vkim11-pri sudo[1743]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:44:11 vkim11-pri sudo[1760]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 17:44:11 vkim11-pri sudo[1760]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:44:11 vkim11-pri sudo[1760]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:44:53 vkim11-pri sudo[1760]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:44:58 vkim11-pri sudo[1765]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 17:44:58 vkim11-pri sudo[1765]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:44:58 vkim11-pri sudo[1765]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:44:58 vkim11-pri sudo[1765]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:45:47 vkim11-pri sudo[1796]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.15.168.192
+Nov  8 17:45:47 vkim11-pri sudo[1796]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:45:47 vkim11-pri sudo[1796]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:46:06 vkim11-pri sudo[1796]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:46:21 vkim11-pri sudo[1803]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 17:46:21 vkim11-pri sudo[1803]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:46:21 vkim11-pri sudo[1803]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:48:36 vkim11-pri sudo[1803]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:48:39 vkim11-pri sudo[1808]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 17:48:39 vkim11-pri sudo[1808]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:48:39 vkim11-pri sudo[1808]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:48:42 vkim11-pri sudo[1808]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:48:48 vkim11-pri sudo[1812]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 17:48:48 vkim11-pri sudo[1812]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:48:48 vkim11-pri sudo[1812]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:48:48 vkim11-pri sudo[1812]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:48:53 vkim11-pri sudo[1837]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl status named
+Nov  8 17:48:53 vkim11-pri sudo[1837]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:48:53 vkim11-pri sudo[1837]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:49:02 vkim11-pri sudo[1837]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:50:02 vkim11-pri sudo[1850]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.15.168.192
+Nov  8 17:50:02 vkim11-pri sudo[1850]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:50:02 vkim11-pri sudo[1850]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:50:52 vkim11-pri sudo[1850]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:50:56 vkim11-pri sudo[1854]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -F
+Nov  8 17:50:56 vkim11-pri sudo[1854]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:50:56 vkim11-pri sudo[1854]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:50:56 vkim11-pri sudo[1854]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:51:05 vkim11-pri sudo[1859]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 17:51:05 vkim11-pri sudo[1859]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:51:05 vkim11-pri sudo[1859]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:51:05 vkim11-pri sudo[1859]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:55:44 vkim11-pri sudo[1864]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov  8 17:55:44 vkim11-pri sudo[1864]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:55:44 vkim11-pri sudo[1864]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:55:48 vkim11-pri sudo[1864]: pam_unix(sudo:session): session closed for user root
+Nov  8 18:22:54 vkim11-pri sudo[1899]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 18:22:54 vkim11-pri sudo[1899]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:22:55 vkim11-pri sudo[1899]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 18:25:37 vkim11-pri sudo[1899]: pam_unix(sudo:session): session closed for user root
+Nov  8 18:25:52 vkim11-pri sudo[1913]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 18:25:52 vkim11-pri sudo[1913]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:25:52 vkim11-pri sudo[1913]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 18:25:52 vkim11-pri sudo[1913]: pam_unix(sudo:session): session closed for user root
+Nov  8 18:26:44 vkim11-pri sudo[1918]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/named.conf
+Nov  8 18:26:44 vkim11-pri sudo[1918]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:26:44 vkim11-pri sudo[1918]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 18:26:50 vkim11-pri sudo[1918]: pam_unix(sudo:session): session closed for user root
+Nov  8 18:26:53 vkim11-pri sudo[1921]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov  8 18:26:53 vkim11-pri sudo[1921]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:26:53 vkim11-pri sudo[1921]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 18:27:28 vkim11-pri sudo[1921]: pam_unix(sudo:session): session closed for user root
+Nov  8 18:29:13 vkim11-pri sudo[1928]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 18:29:13 vkim11-pri sudo[1928]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:29:13 vkim11-pri sudo[1928]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 18:37:59 vkim11-pri sudo[1928]: pam_unix(sudo:session): session closed for user root
+Nov  8 18:40:29 vkim11-pri sudo[1972]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 18:40:29 vkim11-pri sudo[1972]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:40:29 vkim11-pri sudo[1972]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 18:44:13 vkim11-pri sudo[1972]: pam_unix(sudo:session): session closed for user root
+Nov  8 18:45:15 vkim11-pri sudo[1978]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 18:45:15 vkim11-pri sudo[1978]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:45:15 vkim11-pri sudo[1978]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 18:46:39 vkim11-pri sudo[1978]: pam_unix(sudo:session): session closed for user root
+Nov  8 18:46:45 vkim11-pri sudo[1982]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 18:46:45 vkim11-pri sudo[1982]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:46:45 vkim11-pri sudo[1982]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 18:46:46 vkim11-pri sudo[1982]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:09:42 vkim11-pri sudo[2044]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 19:09:42 vkim11-pri sudo[2044]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:09:42 vkim11-pri sudo[2044]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:11:11 vkim11-pri sudo[2044]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:13:49 vkim11-pri sudo[2096]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 19:13:49 vkim11-pri sudo[2096]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:13:49 vkim11-pri sudo[2096]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:14:12 vkim11-pri sudo[2096]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:14:17 vkim11-pri sudo[2099]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 19:14:17 vkim11-pri sudo[2099]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:14:17 vkim11-pri sudo[2099]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:14:17 vkim11-pri sudo[2099]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:14:40 vkim11-pri sudo[2125]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 19:14:40 vkim11-pri sudo[2125]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:14:40 vkim11-pri sudo[2125]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:16:12 vkim11-pri sudo[2125]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:16:14 vkim11-pri sudo[2129]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 19:16:14 vkim11-pri sudo[2129]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:16:14 vkim11-pri sudo[2129]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:16:14 vkim11-pri sudo[2129]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:16:35 vkim11-pri sudo[2154]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 19:16:35 vkim11-pri sudo[2154]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:16:35 vkim11-pri sudo[2154]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:16:37 vkim11-pri sudo[2154]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:17:35 vkim11-pri sudo[2170]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 19:17:35 vkim11-pri sudo[2170]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:17:35 vkim11-pri sudo[2170]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:17:38 vkim11-pri sudo[2170]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:18:47 vkim11-pri sudo[2182]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 19:18:47 vkim11-pri sudo[2182]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:18:47 vkim11-pri sudo[2182]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:19:03 vkim11-pri sudo[2182]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:19:42 vkim11-pri sudo[2186]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 19:19:42 vkim11-pri sudo[2186]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:19:42 vkim11-pri sudo[2186]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:19:42 vkim11-pri sudo[2186]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:21:44 vkim11-pri sudo[2249]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 19:21:44 vkim11-pri sudo[2249]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:21:44 vkim11-pri sudo[2249]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:22:10 vkim11-pri sudo[2249]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:24:37 vkim11-pri sudo[2255]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov  8 19:24:37 vkim11-pri sudo[2255]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:24:37 vkim11-pri sudo[2255]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:24:40 vkim11-pri sudo[2255]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:24:46 vkim11-pri sudo[2259]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/yum install -y mailx
+Nov  8 19:24:46 vkim11-pri sudo[2259]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:24:46 vkim11-pri sudo[2259]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:24:47 vkim11-pri sudo[2259]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:24:52 vkim11-pri sudo[2276]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov  8 19:24:52 vkim11-pri sudo[2276]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:24:52 vkim11-pri sudo[2276]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:24:56 vkim11-pri sudo[2276]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:24:57 vkim11-pri sudo[2279]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/yum install -y mailx
+Nov  8 19:24:57 vkim11-pri sudo[2279]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:24:57 vkim11-pri sudo[2279]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:25:00 vkim11-pri sudo[2279]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:25:03 vkim11-pri sudo[2568]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov  8 19:25:03 vkim11-pri sudo[2568]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:25:03 vkim11-pri sudo[2568]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:25:06 vkim11-pri sudo[2568]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:25:44 vkim11-pri sudo[2574]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov  8 19:25:44 vkim11-pri sudo[2574]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:25:44 vkim11-pri sudo[2574]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:25:46 vkim11-pri sudo[2574]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:29:25 vkim11-pri sudo[2587]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl status postfix
+Nov  8 19:29:25 vkim11-pri sudo[2587]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:29:25 vkim11-pri sudo[2587]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:29:25 vkim11-pri sudo[2587]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:29:38 vkim11-pri sudo[2591]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl start postfix
+Nov  8 19:29:38 vkim11-pri sudo[2591]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:29:38 vkim11-pri sudo[2591]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:29:38 vkim11-pri sudo[2591]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:29:42 vkim11-pri sudo[2678]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl enable postfix
+Nov  8 19:29:42 vkim11-pri sudo[2678]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:29:42 vkim11-pri sudo[2678]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:29:42 vkim11-pri sudo[2678]: pam_unix(sudo:session): session closed for user root
+Nov  8 19:45:29 vkim11-pri sudo[2776]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/db.ravz.com
+Nov  8 19:45:29 vkim11-pri sudo[2776]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 19:45:29 vkim11-pri sudo[2776]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 19:46:45 vkim11-pri sudo[2776]: pam_unix(sudo:session): session closed for user root
+Nov  8 21:22:04 vkim11-pri unix_chkpwd[3020]: password check failed for user (vkim11)
+Nov  8 21:22:04 vkim11-pri sudo[3018]: pam_unix(sudo:auth): authentication failure; logname=vkim11 uid=1002 euid=0 tty=/dev/tty1 ruser=vkim11 rhost=  user=vkim11
+Nov  8 21:22:08 vkim11-pri sudo[3018]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  8 21:22:08 vkim11-pri sudo[3018]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 21:22:08 vkim11-pri sudo[3018]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 21:22:08 vkim11-pri sudo[3018]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:07:14 vkim11-pri sudo[3198]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/log/maillog
+Nov  8 22:07:14 vkim11-pri sudo[3198]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:07:14 vkim11-pri sudo[3198]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:07:29 vkim11-pri sudo[3198]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:50:43 vkim11-pri sudo[3257]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/grep /var/log/maillog
+Nov  8 22:50:43 vkim11-pri sudo[3257]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:50:43 vkim11-pri sudo[3257]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:50:53 vkim11-pri sudo[3257]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:50:59 vkim11-pri sudo[3263]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/grep /var/log/maillog
+Nov  8 22:50:59 vkim11-pri sudo[3263]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:50:59 vkim11-pri sudo[3263]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:51:03 vkim11-pri sudo[3263]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:51:53 vkim11-pri sudo[3276]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/grep /var/log/maillog
+Nov  8 22:51:53 vkim11-pri sudo[3276]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:51:53 vkim11-pri sudo[3276]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:52:47 vkim11-pri sudo[3276]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:52:55 vkim11-pri sudo[3279]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano PNSscript.bash
+Nov  8 22:52:55 vkim11-pri sudo[3279]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:52:55 vkim11-pri sudo[3279]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:45 vkim11-pri sudo[3279]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3285]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 172.16.0.0/16 --dport 53 -j ACCEPT
+Nov  8 22:53:49 vkim11-pri sudo[3285]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3285]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3285]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3288]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 192.168.0.0/16 --dport 53 -j ACCEPT
+Nov  8 22:53:49 vkim11-pri sudo[3288]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3288]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3288]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3291]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp --dport 25 -j ACCEPT
+Nov  8 22:53:49 vkim11-pri sudo[3291]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3291]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3291]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3294]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 192.168.0.0/16 -j ACCEPT
+Nov  8 22:53:49 vkim11-pri sudo[3294]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3294]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3294]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3297]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 172.16.0.0/16 -j ACCEPT
+Nov  8 22:53:49 vkim11-pri sudo[3297]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3297]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3297]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3300]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.0/24 --dport 22 -j ACCEPT
+Nov  8 22:53:49 vkim11-pri sudo[3300]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3300]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3300]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3303]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 172.16.0.1 --dport 22 -j ACCEPT
+Nov  8 22:53:49 vkim11-pri sudo[3303]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3303]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3303]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3306]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -N LOGGING
+Nov  8 22:53:49 vkim11-pri sudo[3306]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3306]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3306]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3309]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 22 -j LOGGING
+Nov  8 22:53:49 vkim11-pri sudo[3309]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3309]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3309]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3312]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j LOG --log-level 6 --log-prefix DROPPED PACKETS
+Nov  8 22:53:49 vkim11-pri sudo[3312]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3312]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3312]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3315]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j DROP
+Nov  8 22:53:49 vkim11-pri sudo[3315]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3315]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3315]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:49 vkim11-pri sudo[3318]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp -s 192.168.15.0/24 -j REJECT
+Nov  8 22:53:49 vkim11-pri sudo[3318]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:49 vkim11-pri sudo[3318]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:49 vkim11-pri sudo[3318]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:56:27 vkim11-pri sshd[3322]: Accepted publickey for vkim11 from 192.168.15.1 port 60248 ssh2: RSA SHA256:6VLNBFOmLcSNyKyWi7b6hiG6RFhCQK6UNoDDMv+Uk0Q
+Nov  8 22:56:27 vkim11-pri sshd[3322]: pam_unix(sshd:session): session opened for user vkim11 by (uid=0)
+Nov  8 22:56:40 vkim11-pri sshd[3325]: Received disconnect from 192.168.15.1 port 60248:11: disconnected by user
+Nov  8 22:56:40 vkim11-pri sshd[3325]: Disconnected from user vkim11 192.168.15.1 port 60248
+Nov  8 22:56:40 vkim11-pri sshd[3322]: pam_unix(sshd:session): session closed for user vkim11
+Nov  8 22:56:54 vkim11-pri sshd[3353]: Accepted publickey for vkim11 from 192.168.15.1 port 60250 ssh2: RSA SHA256:6VLNBFOmLcSNyKyWi7b6hiG6RFhCQK6UNoDDMv+Uk0Q
+Nov  8 22:56:54 vkim11-pri sshd[3353]: pam_unix(sshd:session): session opened for user vkim11 by (uid=0)
+Nov  8 22:57:10 vkim11-pri sshd[3356]: Received disconnect from 192.168.15.1 port 60250:11: disconnected by user
+Nov  8 22:57:10 vkim11-pri sshd[3356]: Disconnected from user vkim11 192.168.15.1 port 60250
+Nov  8 22:57:10 vkim11-pri sshd[3353]: pam_unix(sshd:session): session closed for user vkim11
+Nov  8 22:57:22 vkim11-pri sshd[3383]: Accepted password for vkim11 from 192.168.15.4 port 47768 ssh2
+Nov  8 22:57:22 vkim11-pri sshd[3383]: pam_unix(sshd:session): session opened for user vkim11 by (uid=0)
+Nov  8 22:57:38 vkim11-pri sshd[3387]: Received disconnect from 192.168.15.4 port 47768:11: disconnected by user
+Nov  8 22:57:38 vkim11-pri sshd[3387]: Disconnected from user vkim11 192.168.15.4 port 47768
+Nov  8 22:57:38 vkim11-pri sshd[3383]: pam_unix(sshd:session): session closed for user vkim11
+Nov  8 23:04:09 vkim11-pri sudo[3448]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 23:04:09 vkim11-pri sudo[3448]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:04:09 vkim11-pri sudo[3448]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:04:09 vkim11-pri sudo[3448]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:04:39 vkim11-pri sudo[3463]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 23:04:39 vkim11-pri sudo[3463]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:04:39 vkim11-pri sudo[3463]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:04:39 vkim11-pri sudo[3463]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:20 vkim11-pri sudo[3471]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -F
+Nov  8 23:08:20 vkim11-pri sudo[3471]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:20 vkim11-pri sudo[3471]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:20 vkim11-pri sudo[3471]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3476]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 172.16.0.0/16 --dport 53 -j ACCEPT
+Nov  8 23:08:45 vkim11-pri sudo[3476]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3476]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3476]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3479]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 192.168.0.0/16 --dport 53 -j ACCEPT
+Nov  8 23:08:45 vkim11-pri sudo[3479]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3479]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3479]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3482]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp --dport 25 -j ACCEPT
+Nov  8 23:08:45 vkim11-pri sudo[3482]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3482]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3482]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3485]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 192.168.0.0/16 -j ACCEPT
+Nov  8 23:08:45 vkim11-pri sudo[3485]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3485]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3485]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3488]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 172.16.0.0/16 -j ACCEPT
+Nov  8 23:08:45 vkim11-pri sudo[3488]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3488]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3488]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3491]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.0/24 --dport 22 -j ACCEPT
+Nov  8 23:08:45 vkim11-pri sudo[3491]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3491]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3491]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3494]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 172.16.0.1 --dport 22 -j ACCEPT
+Nov  8 23:08:45 vkim11-pri sudo[3494]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3494]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3494]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3497]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -N LOGGING
+Nov  8 23:08:45 vkim11-pri sudo[3497]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3497]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3497]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3500]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 22 -j LOGGING
+Nov  8 23:08:45 vkim11-pri sudo[3500]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3500]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3500]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3503]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j LOG --log-level 6 --log-prefix DROPPED PACKETS
+Nov  8 23:08:45 vkim11-pri sudo[3503]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3503]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3503]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3506]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j DROP
+Nov  8 23:08:45 vkim11-pri sudo[3506]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3506]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3506]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:45 vkim11-pri sudo[3509]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp -s 192.168.15.0/24 -j REJECT
+Nov  8 23:08:45 vkim11-pri sudo[3509]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:45 vkim11-pri sudo[3509]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:45 vkim11-pri sudo[3509]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:09:30 vkim11-pri sudo[3514]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 23:09:30 vkim11-pri sudo[3514]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:09:30 vkim11-pri sudo[3514]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:09:30 vkim11-pri sudo[3514]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:11:29 vkim11-pri sudo[3521]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Nov  8 23:11:29 vkim11-pri sudo[3521]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:11:29 vkim11-pri sudo[3521]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:11:30 vkim11-pri sudo[3521]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:56 vkim11-pri sudo[3528]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -F
+Nov  8 23:12:56 vkim11-pri sudo[3528]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:56 vkim11-pri sudo[3528]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:56 vkim11-pri sudo[3528]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:58 vkim11-pri sudo[3532]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 172.16.0.0/16 --dport 53 -j ACCEPT
+Nov  8 23:12:58 vkim11-pri sudo[3532]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:58 vkim11-pri sudo[3532]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:58 vkim11-pri sudo[3532]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:58 vkim11-pri sudo[3535]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 192.168.0.0/16 --dport 53 -j ACCEPT
+Nov  8 23:12:58 vkim11-pri sudo[3535]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:58 vkim11-pri sudo[3535]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:58 vkim11-pri sudo[3535]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:58 vkim11-pri sudo[3538]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp --dport 25 -j ACCEPT
+Nov  8 23:12:58 vkim11-pri sudo[3538]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:58 vkim11-pri sudo[3538]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:58 vkim11-pri sudo[3538]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:58 vkim11-pri sudo[3541]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 192.168.0.0/16 -j ACCEPT
+Nov  8 23:12:58 vkim11-pri sudo[3541]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:58 vkim11-pri sudo[3541]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:58 vkim11-pri sudo[3541]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:58 vkim11-pri sudo[3544]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 172.16.0.0/16 -j ACCEPT
+Nov  8 23:12:58 vkim11-pri sudo[3544]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:58 vkim11-pri sudo[3544]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:58 vkim11-pri sudo[3544]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:58 vkim11-pri sudo[3547]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.0/24 --dport 22 -j ACCEPT
+Nov  8 23:12:58 vkim11-pri sudo[3547]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:58 vkim11-pri sudo[3547]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:58 vkim11-pri sudo[3547]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:58 vkim11-pri sudo[3550]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 172.16.0.1 --dport 22 -j ACCEPT
+Nov  8 23:12:58 vkim11-pri sudo[3550]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:58 vkim11-pri sudo[3550]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:58 vkim11-pri sudo[3550]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:58 vkim11-pri sudo[3553]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -N LOGGING
+Nov  8 23:12:58 vkim11-pri sudo[3553]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:58 vkim11-pri sudo[3553]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:58 vkim11-pri sudo[3553]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:58 vkim11-pri sudo[3556]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 22 -j LOGGING
+Nov  8 23:12:58 vkim11-pri sudo[3556]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:58 vkim11-pri sudo[3556]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:58 vkim11-pri sudo[3556]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:59 vkim11-pri sudo[3559]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j LOG --log-level 6 --log-prefix DROPPED PACKETS
+Nov  8 23:12:59 vkim11-pri sudo[3559]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:59 vkim11-pri sudo[3559]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:59 vkim11-pri sudo[3559]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:59 vkim11-pri sudo[3562]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j REJECT
+Nov  8 23:12:59 vkim11-pri sudo[3562]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:59 vkim11-pri sudo[3562]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:59 vkim11-pri sudo[3562]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:12:59 vkim11-pri sudo[3565]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp -s 192.168.15.0/24 -j REJECT
+Nov  8 23:12:59 vkim11-pri sudo[3565]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:12:59 vkim11-pri sudo[3565]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:12:59 vkim11-pri sudo[3565]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:13:02 vkim11-pri sudo[3569]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 23:13:02 vkim11-pri sudo[3569]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:13:02 vkim11-pri sudo[3569]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:13:02 vkim11-pri sudo[3569]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:14:38 vkim11-pri sudo[3575]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/cat /var/log/maillog
+Nov  8 23:14:38 vkim11-pri sudo[3575]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:14:38 vkim11-pri sudo[3575]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:14:38 vkim11-pri sudo[3575]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:30:14 vkim11-pri sudo[3598]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Nov  8 23:30:14 vkim11-pri sudo[3598]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:30:14 vkim11-pri sudo[3598]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:30:15 vkim11-pri sudo[3598]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:31:42 vkim11-pri sudo[3607]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Nov  8 23:31:42 vkim11-pri sudo[3607]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:31:42 vkim11-pri sudo[3607]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:31:43 vkim11-pri sudo[3607]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:26 vkim11-pri sudo[3615]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano PNSscript.bash
+Nov  8 23:33:26 vkim11-pri sudo[3615]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:26 vkim11-pri sudo[3615]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:37 vkim11-pri sudo[3615]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:42 vkim11-pri sudo[3619]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -F
+Nov  8 23:33:42 vkim11-pri sudo[3619]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:42 vkim11-pri sudo[3619]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:42 vkim11-pri sudo[3619]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3623]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 172.16.0.0/16 --dport 53 -j ACCEPT
+Nov  8 23:33:46 vkim11-pri sudo[3623]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3623]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3623]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3626]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 192.168.0.0/16 --dport 53 -j ACCEPT
+Nov  8 23:33:46 vkim11-pri sudo[3626]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3626]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3626]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3629]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp --dport 25 -j ACCEPT
+Nov  8 23:33:46 vkim11-pri sudo[3629]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3629]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3629]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3632]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 192.168.0.0/16 -j ACCEPT
+Nov  8 23:33:46 vkim11-pri sudo[3632]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3632]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3632]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3635]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 172.16.0.0/16 -j ACCEPT
+Nov  8 23:33:46 vkim11-pri sudo[3635]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3635]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3635]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3638]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.0/24 --dport 22 -j ACCEPT
+Nov  8 23:33:46 vkim11-pri sudo[3638]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3638]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3638]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3641]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 172.16.0.1 --dport 22 -j ACCEPT
+Nov  8 23:33:46 vkim11-pri sudo[3641]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3641]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3641]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3644]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -N LOGGING
+Nov  8 23:33:46 vkim11-pri sudo[3644]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3644]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3644]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3647]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 22 -j LOGGING
+Nov  8 23:33:46 vkim11-pri sudo[3647]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3647]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3647]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3650]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j LOG --log-level 6 --log-prefix DROPPED PACKETS
+Nov  8 23:33:46 vkim11-pri sudo[3650]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3650]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3650]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:33:46 vkim11-pri sudo[3653]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j REJECT
+Nov  8 23:33:46 vkim11-pri sudo[3653]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:33:46 vkim11-pri sudo[3653]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:33:46 vkim11-pri sudo[3653]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:36:42 vkim11-pri sudo[3658]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables-save -t filter
+Nov  8 23:36:42 vkim11-pri sudo[3658]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:36:42 vkim11-pri sudo[3658]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:36:42 vkim11-pri sudo[3658]: pam_unix(sudo:session): session closed for user root
+Nov 10 15:06:05 vkim11-pri sshd[4784]: Accepted publickey for instructor from 172.16.0.1 port 50370 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 10 15:06:05 vkim11-pri systemd[4788]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:05 vkim11-pri sshd[4784]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:05 vkim11-pri sshd[4797]: Received disconnect from 172.16.0.1 port 50370:11: disconnected by user
+Nov 10 15:06:05 vkim11-pri sshd[4797]: Disconnected from user instructor 172.16.0.1 port 50370
+Nov 10 15:06:05 vkim11-pri sshd[4784]: pam_unix(sshd:session): session closed for user instructor
+Nov 10 15:06:05 vkim11-pri systemd[4791]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 11 20:06:06 vkim11-pri sshd[5620]: Accepted publickey for instructor from 172.16.0.1 port 50892 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 11 20:06:07 vkim11-pri systemd[5624]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:07 vkim11-pri sshd[5620]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:07 vkim11-pri sshd[5634]: Received disconnect from 172.16.0.1 port 50892:11: disconnected by user
+Nov 11 20:06:07 vkim11-pri sshd[5634]: Disconnected from user instructor 172.16.0.1 port 50892
+Nov 11 20:06:07 vkim11-pri sshd[5620]: pam_unix(sshd:session): session closed for user instructor
+Nov 11 20:06:07 vkim11-pri systemd[5628]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:05:17 vkim11-pri sshd[6463]: Accepted publickey for instructor from 172.16.0.1 port 51340 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:05:17 vkim11-pri systemd[6467]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:17 vkim11-pri sshd[6463]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:17 vkim11-pri sshd[6477]: Received disconnect from 172.16.0.1 port 51340:11: disconnected by user
+Nov 13 01:05:17 vkim11-pri sshd[6477]: Disconnected from user instructor 172.16.0.1 port 51340
+Nov 13 01:05:17 vkim11-pri sshd[6463]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:05:17 vkim11-pri systemd[6471]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:10:05 vkim11-pri sshd[6501]: Accepted publickey for instructor from 172.16.0.1 port 51590 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:10:06 vkim11-pri systemd[6505]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:10:06 vkim11-pri sshd[6501]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:10:06 vkim11-pri sshd[6514]: Received disconnect from 172.16.0.1 port 51590:11: disconnected by user
+Nov 13 01:10:06 vkim11-pri sshd[6514]: Disconnected from user instructor 172.16.0.1 port 51590
+Nov 13 01:10:06 vkim11-pri sshd[6501]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:10:06 vkim11-pri systemd[6508]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 14 17:42:10 vkim11-pri sudo[7687]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov 14 17:42:10 vkim11-pri sudo[7687]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:42:10 vkim11-pri sudo[7687]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 17:42:11 vkim11-pri sudo[7687]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:43:05 vkim11-pri sudo[7698]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov 14 17:43:05 vkim11-pri sudo[7698]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:43:05 vkim11-pri sudo[7698]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 17:43:19 vkim11-pri sudo[7698]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:57:08 vkim11-pri sudo[7731]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov 14 17:57:08 vkim11-pri sudo[7731]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:57:08 vkim11-pri sudo[7731]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 17:57:12 vkim11-pri sudo[7731]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:57:17 vkim11-pri sudo[7737]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/yum install rsync
+Nov 14 17:57:17 vkim11-pri sudo[7737]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:57:17 vkim11-pri sudo[7737]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 17:57:20 vkim11-pri sudo[7737]: pam_unix(sudo:session): session closed for user root
+Nov 14 17:57:22 vkim11-pri sudo[8021]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov 14 17:57:22 vkim11-pri sudo[8021]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:57:22 vkim11-pri sudo[8021]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 17:57:25 vkim11-pri sudo[8021]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:03:11 vkim11-pri sudo[8240]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/cd /var/named
+Nov 14 23:03:11 vkim11-pri sudo[8240]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:03:11 vkim11-pri sudo[8240]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:03:11 vkim11-pri sudo[8240]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:03:21 vkim11-pri sudo[8246]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/cd /var/named
+Nov 14 23:03:21 vkim11-pri sudo[8246]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:03:21 vkim11-pri sudo[8246]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:03:21 vkim11-pri sudo[8246]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:03:41 vkim11-pri sudo[8251]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/ls /var/named
+Nov 14 23:03:41 vkim11-pri sudo[8251]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:03:41 vkim11-pri sudo[8251]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:03:41 vkim11-pri sudo[8251]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:03:58 vkim11-pri sudo[8254]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/cat /etc/named.ca
+Nov 14 23:03:58 vkim11-pri sudo[8254]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:03:58 vkim11-pri sudo[8254]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:03:58 vkim11-pri sudo[8254]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:04:03 vkim11-pri sudo[8257]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/cat /etc/named.conf
+Nov 14 23:04:03 vkim11-pri sudo[8257]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:04:03 vkim11-pri sudo[8257]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:04:03 vkim11-pri sudo[8257]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:04:08 vkim11-pri sudo[8260]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/ls /var/named
+Nov 14 23:04:08 vkim11-pri sudo[8260]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:04:08 vkim11-pri sudo[8260]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:04:08 vkim11-pri sudo[8260]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:04:11 vkim11-pri sudo[8265]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/ls /var/named
+Nov 14 23:04:11 vkim11-pri sudo[8265]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:04:11 vkim11-pri sudo[8265]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:04:11 vkim11-pri sudo[8265]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:44:38 vkim11-pri sudo[8287]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 23:44:38 vkim11-pri sudo[8287]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:44:38 vkim11-pri sudo[8287]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:44:49 vkim11-pri sudo[8287]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:45:23 vkim11-pri sudo[8302]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 23:45:23 vkim11-pri sudo[8302]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:45:23 vkim11-pri sudo[8302]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:45:29 vkim11-pri sudo[8302]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:45:54 vkim11-pri sudo[8311]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 23:45:54 vkim11-pri sudo[8311]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:45:54 vkim11-pri sudo[8311]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:45:57 vkim11-pri sudo[8311]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:47:17 vkim11-pri sudo[8340]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/su
+Nov 14 23:47:17 vkim11-pri sudo[8340]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:47:17 vkim11-pri sudo[8340]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:47:17 vkim11-pri su[8342]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:47:17 vkim11-pri su[8342]: pam_unix(su:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:48:01 vkim11-pri systemd[8368]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:49:01 vkim11-pri systemd[8410]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:50:01 vkim11-pri systemd[8454]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:51:01 vkim11-pri systemd[8538]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:52:01 vkim11-pri systemd[8576]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:53:01 vkim11-pri systemd[8611]: pam_unix(systemd-user:session): session opened for user root by (uid=0)

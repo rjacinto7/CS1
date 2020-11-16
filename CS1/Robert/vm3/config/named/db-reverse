@@ -1,0 +1,19 @@
+$ORIGIN 13.168.192.in-addr.arpa. 
+$TTL 1D
+; SOA records
+@       IN      SOA rjacinto1-pri.rjacinto1.com. root.rjacinto1.com. (
+	0	; Serial
+	3h	; refresh
+	30m	; retry
+	3w	; expire
+	1h	; minimum
+)      
+@	IN	NS	rjacinto1-pri.rjacinto1.com.
+@	IN	PTR	rjacinto1-pri.rjacinto1.com.
+
+; PTR records
+53	IN	PTR	rjacinto1-pri.rjacinto1.com.
+253	IN	PTR	rjacinto1-rns.rjacinto1.com.
+80	IN	PTR	www.rjacinto1.com.
+25	IN	PTR	mail.rjacinto1.com.
+

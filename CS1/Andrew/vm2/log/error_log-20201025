@@ -1,0 +1,65 @@
+[Sun Oct 18 03:19:01.744029 2020] [lbmethod_heartbeat:notice] [pid 1007:tid 140174541945152] AH02282: No slotmem from mod_heartmonitor
+[Sun Oct 18 03:19:01.744611 2020] [http2:warn] [pid 1007:tid 140174541945152] AH02951: mod_ssl does not seem to be enabled
+[Sun Oct 18 03:19:01.744954 2020] [mpm_event:notice] [pid 1007:tid 140174541945152] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Sun Oct 18 03:19:01.744967 2020] [core:notice] [pid 1007:tid 140174541945152] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Tue Oct 20 21:04:57.481893 2020] [mpm_event:notice] [pid 1007:tid 140174541945152] AH00492: caught SIGWINCH, shutting down gracefully
+[Tue Oct 20 21:05:06.921318 2020] [core:notice] [pid 1002:tid 140352974178624] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Tue Oct 20 21:05:06.925879 2020] [suexec:notice] [pid 1002:tid 140352974178624] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using aluk10_web.ravz. Set the 'ServerName' directive globally to suppress this message
+[Tue Oct 20 21:05:07.010965 2020] [lbmethod_heartbeat:notice] [pid 1002:tid 140352974178624] AH02282: No slotmem from mod_heartmonitor
+[Tue Oct 20 21:05:07.016781 2020] [http2:warn] [pid 1002:tid 140352974178624] AH02951: mod_ssl does not seem to be enabled
+[Tue Oct 20 21:05:07.030065 2020] [mpm_event:notice] [pid 1002:tid 140352974178624] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Tue Oct 20 21:05:07.030087 2020] [core:notice] [pid 1002:tid 140352974178624] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Oct 21 18:20:21.739816 2020] [mpm_event:notice] [pid 1002:tid 140352974178624] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Oct 21 18:20:38.876776 2020] [core:notice] [pid 937:tid 139749919365440] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Oct 21 18:20:38.887118 2020] [suexec:notice] [pid 937:tid 139749919365440] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using aluk10_web.ravz. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 21 18:20:39.021033 2020] [lbmethod_heartbeat:notice] [pid 937:tid 139749919365440] AH02282: No slotmem from mod_heartmonitor
+[Wed Oct 21 18:20:39.022568 2020] [http2:warn] [pid 937:tid 139749919365440] AH02951: mod_ssl does not seem to be enabled
+[Wed Oct 21 18:20:39.036929 2020] [mpm_event:notice] [pid 937:tid 139749919365440] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Wed Oct 21 18:20:39.036951 2020] [core:notice] [pid 937:tid 139749919365440] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Oct 21 20:12:02.063173 2020] [mpm_event:notice] [pid 937:tid 139749919365440] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Oct 21 20:12:20.655572 2020] [core:notice] [pid 992:tid 140399924005184] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Oct 21 20:12:20.659941 2020] [suexec:notice] [pid 992:tid 140399924005184] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using aluk10-web.ravz. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 21 20:12:20.755603 2020] [lbmethod_heartbeat:notice] [pid 992:tid 140399924005184] AH02282: No slotmem from mod_heartmonitor
+[Wed Oct 21 20:12:20.757261 2020] [http2:warn] [pid 992:tid 140399924005184] AH02951: mod_ssl does not seem to be enabled
+[Wed Oct 21 20:12:20.780052 2020] [mpm_event:notice] [pid 992:tid 140399924005184] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Wed Oct 21 20:12:20.780082 2020] [core:notice] [pid 992:tid 140399924005184] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Oct 21 20:38:07.790767 2020] [mpm_event:notice] [pid 992:tid 140399924005184] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Oct 21 20:38:26.940926 2020] [core:notice] [pid 1004:tid 140022990256448] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Oct 21 20:38:26.944900 2020] [suexec:notice] [pid 1004:tid 140022990256448] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using aluk10-web.ravz. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 21 20:38:27.032739 2020] [lbmethod_heartbeat:notice] [pid 1004:tid 140022990256448] AH02282: No slotmem from mod_heartmonitor
+[Wed Oct 21 20:38:27.035045 2020] [http2:warn] [pid 1004:tid 140022990256448] AH02951: mod_ssl does not seem to be enabled
+[Wed Oct 21 20:38:27.046625 2020] [mpm_event:notice] [pid 1004:tid 140022990256448] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Wed Oct 21 20:38:27.055877 2020] [core:notice] [pid 1004:tid 140022990256448] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Oct 21 23:09:55.865621 2020] [mpm_event:notice] [pid 1004:tid 140022990256448] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Oct 21 23:10:19.399400 2020] [core:notice] [pid 1335:tid 140092531308864] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Oct 21 23:10:19.406474 2020] [suexec:notice] [pid 1335:tid 140092531308864] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Oct 21 23:10:19.462787 2020] [lbmethod_heartbeat:notice] [pid 1335:tid 140092531308864] AH02282: No slotmem from mod_heartmonitor
+[Wed Oct 21 23:10:19.463397 2020] [http2:warn] [pid 1335:tid 140092531308864] AH02951: mod_ssl does not seem to be enabled
+[Wed Oct 21 23:10:19.465214 2020] [mpm_event:notice] [pid 1335:tid 140092531308864] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Wed Oct 21 23:10:19.465237 2020] [core:notice] [pid 1335:tid 140092531308864] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Oct 21 23:36:23.777963 2020] [mpm_event:notice] [pid 1335:tid 140092531308864] AH00492: caught SIGWINCH, shutting down gracefully
+[Wed Oct 21 23:36:48.020820 2020] [core:notice] [pid 1300:tid 140354566363456] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Wed Oct 21 23:36:48.026402 2020] [suexec:notice] [pid 1300:tid 140354566363456] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Oct 21 23:36:48.081364 2020] [lbmethod_heartbeat:notice] [pid 1300:tid 140354566363456] AH02282: No slotmem from mod_heartmonitor
+[Wed Oct 21 23:36:48.081955 2020] [http2:warn] [pid 1300:tid 140354566363456] AH02951: mod_ssl does not seem to be enabled
+[Wed Oct 21 23:36:48.083738 2020] [mpm_event:notice] [pid 1300:tid 140354566363456] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Wed Oct 21 23:36:48.083759 2020] [core:notice] [pid 1300:tid 140354566363456] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Oct 22 21:07:46.126435 2020] [mpm_event:notice] [pid 1300:tid 140354566363456] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Oct 22 21:08:09.099022 2020] [core:notice] [pid 1315:tid 139987921582400] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Thu Oct 22 21:08:09.104063 2020] [suexec:notice] [pid 1315:tid 139987921582400] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Oct 22 21:08:09.158968 2020] [lbmethod_heartbeat:notice] [pid 1315:tid 139987921582400] AH02282: No slotmem from mod_heartmonitor
+[Thu Oct 22 21:08:09.159574 2020] [http2:warn] [pid 1315:tid 139987921582400] AH02951: mod_ssl does not seem to be enabled
+[Thu Oct 22 21:08:09.161358 2020] [mpm_event:notice] [pid 1315:tid 139987921582400] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Thu Oct 22 21:08:09.161377 2020] [core:notice] [pid 1315:tid 139987921582400] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Oct 22 21:18:26.058867 2020] [mpm_event:notice] [pid 1315:tid 139987921582400] AH00492: caught SIGWINCH, shutting down gracefully
+[Thu Oct 22 21:18:50.116278 2020] [core:notice] [pid 1309:tid 140089043773760] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Thu Oct 22 21:18:50.120561 2020] [suexec:notice] [pid 1309:tid 140089043773760] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Oct 22 21:18:50.172508 2020] [lbmethod_heartbeat:notice] [pid 1309:tid 140089043773760] AH02282: No slotmem from mod_heartmonitor
+[Thu Oct 22 21:18:50.173115 2020] [http2:warn] [pid 1309:tid 140089043773760] AH02951: mod_ssl does not seem to be enabled
+[Thu Oct 22 21:18:50.174894 2020] [mpm_event:notice] [pid 1309:tid 140089043773760] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Thu Oct 22 21:18:50.174913 2020] [core:notice] [pid 1309:tid 140089043773760] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Oct 25 03:09:01.301013 2020] [mpm_event:notice] [pid 1309:tid 140089043773760] AH00493: SIGUSR1 received.  Doing graceful restart

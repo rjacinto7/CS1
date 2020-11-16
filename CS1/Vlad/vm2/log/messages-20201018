@@ -1,0 +1,1131 @@
+Oct 11 03:29:15 vlad-vm2 systemd[1]: Reloaded The Apache HTTP Server.
+Oct 11 03:29:15 vlad-vm2 rsyslogd[1327]: [origin software="rsyslogd" swVersion="8.1911.0-3.el8" x-pid="1327" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct 11 03:29:15 vlad-vm2 httpd[997]: Server configured, listening on: port 80
+Oct 11 04:02:07 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 04:02:08 vlad-vm2 dnf[6815]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 11 04:02:08 vlad-vm2 dnf[6815]: CentOS-8 - Base                                  23 kB/s | 3.9 kB     00:00
+Oct 11 04:02:08 vlad-vm2 dnf[6815]: CentOS-8 - Extras                               4.1 kB/s | 1.5 kB     00:00
+Oct 11 04:02:09 vlad-vm2 dnf[6815]: Metadata cache created.
+Oct 11 04:02:09 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 05:02:11 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 05:02:11 vlad-vm2 dnf[6846]: Metadata cache refreshed recently.
+Oct 11 05:02:11 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 06:02:14 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 06:02:15 vlad-vm2 dnf[6871]: Metadata cache refreshed recently.
+Oct 11 06:02:15 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2547] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2556] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2556] dhcp4 (ens192): option expiry               => '1602499801'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2556] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2557] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2557] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2557] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2557] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2557] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2557] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2557] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2557] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option requested_routers    => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2558] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 11 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602413401.2559] dhcp4 (ens192): state changed extended -> extended
+Oct 11 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 11 06:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 11 06:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 07:02:18 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 07:02:19 vlad-vm2 dnf[6902]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 11 07:02:19 vlad-vm2 dnf[6902]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 11 07:02:19 vlad-vm2 dnf[6902]: CentOS-8 - Extras                               5.7 kB/s | 1.5 kB     00:00
+Oct 11 07:02:20 vlad-vm2 dnf[6902]: Metadata cache created.
+Oct 11 07:02:20 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 08:02:22 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 08:02:22 vlad-vm2 dnf[6933]: Metadata cache refreshed recently.
+Oct 11 08:02:22 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 09:02:25 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 09:02:26 vlad-vm2 dnf[6958]: Metadata cache refreshed recently.
+Oct 11 09:02:26 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 10:02:29 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 10:02:30 vlad-vm2 dnf[6983]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 11 10:02:30 vlad-vm2 dnf[6983]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 11 10:02:31 vlad-vm2 dnf[6983]: CentOS-8 - Extras                               4.7 kB/s | 1.5 kB     00:00
+Oct 11 10:02:31 vlad-vm2 dnf[6983]: Metadata cache created.
+Oct 11 10:02:31 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 11:02:33 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 11:02:33 vlad-vm2 dnf[7015]: Metadata cache refreshed recently.
+Oct 11 11:02:33 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 12:02:37 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 12:02:37 vlad-vm2 dnf[7040]: Metadata cache refreshed recently.
+Oct 11 12:02:37 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 13:02:38 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 13:02:39 vlad-vm2 dnf[7066]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 11 13:02:39 vlad-vm2 dnf[7066]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Oct 11 13:02:39 vlad-vm2 dnf[7066]: CentOS-8 - Extras                                10 kB/s | 1.5 kB     00:00
+Oct 11 13:02:39 vlad-vm2 dnf[7066]: Metadata cache created.
+Oct 11 13:02:39 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 14:02:44 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 14:02:44 vlad-vm2 dnf[7097]: Metadata cache refreshed recently.
+Oct 11 14:02:44 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 15:02:48 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 15:02:48 vlad-vm2 dnf[7122]: Metadata cache refreshed recently.
+Oct 11 15:02:48 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 16:02:48 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 16:02:49 vlad-vm2 dnf[7148]: CentOS-8 - AppStream                             28 kB/s | 4.3 kB     00:00
+Oct 11 16:02:49 vlad-vm2 dnf[7148]: CentOS-8 - Base                                  30 kB/s | 3.9 kB     00:00
+Oct 11 16:02:49 vlad-vm2 dnf[7148]: CentOS-8 - Extras                               3.9 kB/s | 1.5 kB     00:00
+Oct 11 16:02:49 vlad-vm2 dnf[7148]: Metadata cache created.
+Oct 11 16:02:49 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 17:02:55 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 17:02:55 vlad-vm2 dnf[7179]: Metadata cache refreshed recently.
+Oct 11 17:02:55 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 18:02:59 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 18:02:59 vlad-vm2 dnf[7204]: Metadata cache refreshed recently.
+Oct 11 18:02:59 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2560] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2564] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2564] dhcp4 (ens192): option expiry               => '1602543001'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2564] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2564] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2564] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2564] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2564] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2564] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2564] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2565] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2565] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2565] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2565] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2565] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2565] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2565] dhcp4 (ens192): option requested_routers    => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2565] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2565] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2566] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2566] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2566] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2566] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 11 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602456601.2566] dhcp4 (ens192): state changed extended -> extended
+Oct 11 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 11 18:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 11 18:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 19:03:02 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 19:03:03 vlad-vm2 dnf[7235]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 11 19:03:03 vlad-vm2 dnf[7235]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 11 19:03:04 vlad-vm2 dnf[7235]: CentOS-8 - Extras                               1.7 kB/s | 1.5 kB     00:00
+Oct 11 19:03:05 vlad-vm2 dnf[7235]: Metadata cache created.
+Oct 11 19:03:05 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 19:05:13 vlad-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 11 19:05:13 vlad-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 11 20:03:06 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 20:03:06 vlad-vm2 dnf[7268]: Metadata cache refreshed recently.
+Oct 11 20:03:07 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 21:03:10 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 21:03:10 vlad-vm2 dnf[7293]: Metadata cache refreshed recently.
+Oct 11 21:03:10 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 22:03:13 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 22:03:15 vlad-vm2 dnf[7319]: CentOS-8 - AppStream                            6.9 kB/s | 4.3 kB     00:00
+Oct 11 22:03:15 vlad-vm2 dnf[7319]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 11 22:03:15 vlad-vm2 dnf[7319]: CentOS-8 - Extras                               7.8 kB/s | 1.5 kB     00:00
+Oct 11 22:03:15 vlad-vm2 dnf[7319]: Metadata cache created.
+Oct 11 22:03:15 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 11 23:03:17 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 23:03:18 vlad-vm2 dnf[7350]: Metadata cache refreshed recently.
+Oct 11 23:03:18 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 00:00:01 vlad-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 12 00:00:01 vlad-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 12 00:03:21 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 00:03:21 vlad-vm2 dnf[7379]: Metadata cache refreshed recently.
+Oct 12 00:03:21 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 01:03:25 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 01:03:25 vlad-vm2 dnf[7407]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 12 01:03:25 vlad-vm2 dnf[7407]: CentOS-8 - Base                                  24 kB/s | 3.9 kB     00:00
+Oct 12 01:03:26 vlad-vm2 dnf[7407]: CentOS-8 - Extras                               6.0 kB/s | 1.5 kB     00:00
+Oct 12 01:03:26 vlad-vm2 dnf[7407]: Metadata cache created.
+Oct 12 01:03:26 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 02:03:28 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 02:03:29 vlad-vm2 dnf[7440]: Metadata cache refreshed recently.
+Oct 12 02:03:29 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 03:03:32 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 03:03:32 vlad-vm2 dnf[7467]: Metadata cache refreshed recently.
+Oct 12 03:03:32 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 04:03:36 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 04:03:36 vlad-vm2 dnf[7502]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 12 04:03:37 vlad-vm2 dnf[7502]: CentOS-8 - Base                                  26 kB/s | 3.9 kB     00:00
+Oct 12 04:03:37 vlad-vm2 dnf[7502]: CentOS-8 - Extras                               4.6 kB/s | 1.5 kB     00:00
+Oct 12 04:03:37 vlad-vm2 dnf[7502]: Metadata cache created.
+Oct 12 04:03:37 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 05:03:39 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 05:03:40 vlad-vm2 dnf[7533]: Metadata cache refreshed recently.
+Oct 12 05:03:40 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 06:03:43 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 06:03:43 vlad-vm2 dnf[7558]: Metadata cache refreshed recently.
+Oct 12 06:03:43 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2544] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2549] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2550] dhcp4 (ens192): option expiry               => '1602586201'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2550] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2550] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2550] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2550] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2550] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2550] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2550] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2550] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2550] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2551] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2551] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2551] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2551] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2551] dhcp4 (ens192): option requested_routers    => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2551] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2551] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2551] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2551] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2551] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2552] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 12 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602499801.2552] dhcp4 (ens192): state changed extended -> extended
+Oct 12 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 12 06:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 12 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 12 06:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 12 07:03:47 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 07:03:47 vlad-vm2 dnf[7589]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 12 07:03:48 vlad-vm2 dnf[7589]: CentOS-8 - Base                                  30 kB/s | 3.9 kB     00:00
+Oct 12 07:03:48 vlad-vm2 dnf[7589]: CentOS-8 - Extras                               5.5 kB/s | 1.5 kB     00:00
+Oct 12 07:03:48 vlad-vm2 dnf[7589]: Metadata cache created.
+Oct 12 07:03:48 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 08:03:50 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 08:03:51 vlad-vm2 dnf[7620]: Metadata cache refreshed recently.
+Oct 12 08:03:51 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 09:03:54 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 09:03:54 vlad-vm2 dnf[7645]: Metadata cache refreshed recently.
+Oct 12 09:03:55 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 10:03:58 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 10:03:59 vlad-vm2 dnf[7670]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 12 10:03:59 vlad-vm2 dnf[7670]: CentOS-8 - Base                                 6.7 kB/s | 3.9 kB     00:00
+Oct 12 10:03:59 vlad-vm2 dnf[7670]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Oct 12 10:04:00 vlad-vm2 dnf[7670]: Metadata cache created.
+Oct 12 10:04:00 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 11:04:02 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 11:04:02 vlad-vm2 dnf[7702]: Metadata cache refreshed recently.
+Oct 12 11:04:02 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 12:04:05 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 12:04:06 vlad-vm2 dnf[7727]: Metadata cache refreshed recently.
+Oct 12 12:04:06 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 13:04:09 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 13:04:10 vlad-vm2 dnf[7752]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 12 13:04:10 vlad-vm2 dnf[7752]: CentOS-8 - Base                                  19 kB/s | 3.9 kB     00:00
+Oct 12 13:04:11 vlad-vm2 dnf[7752]: CentOS-8 - Extras                               1.6 kB/s | 1.5 kB     00:00
+Oct 12 13:04:11 vlad-vm2 dnf[7752]: Metadata cache created.
+Oct 12 13:04:11 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 14:04:13 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 14:04:13 vlad-vm2 dnf[7784]: Metadata cache refreshed recently.
+Oct 12 14:04:13 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 15:04:16 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 15:04:17 vlad-vm2 dnf[7809]: Metadata cache refreshed recently.
+Oct 12 15:04:17 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 16:04:20 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 16:04:21 vlad-vm2 dnf[7834]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 12 16:04:21 vlad-vm2 dnf[7834]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 12 16:04:21 vlad-vm2 dnf[7834]: CentOS-8 - Extras                               4.1 kB/s | 1.5 kB     00:00
+Oct 12 16:04:22 vlad-vm2 dnf[7834]: Metadata cache created.
+Oct 12 16:04:22 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 17:04:24 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 17:04:24 vlad-vm2 dnf[7866]: Metadata cache refreshed recently.
+Oct 12 17:04:24 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 18:04:28 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 18:04:28 vlad-vm2 dnf[7891]: Metadata cache refreshed recently.
+Oct 12 18:04:28 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2539] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2545] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2545] dhcp4 (ens192): option expiry               => '1602629401'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2545] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2545] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2545] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2545] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2545] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2545] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2546] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2546] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2546] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2546] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2546] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2546] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2546] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2546] dhcp4 (ens192): option requested_routers    => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2546] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2546] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2547] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2547] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2547] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2547] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 12 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602543001.2547] dhcp4 (ens192): state changed extended -> extended
+Oct 12 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 12 18:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 12 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 12 18:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 12 19:04:31 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 19:04:32 vlad-vm2 dnf[7921]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 12 19:04:32 vlad-vm2 dnf[7921]: CentOS-8 - Base                                  26 kB/s | 3.9 kB     00:00
+Oct 12 19:04:32 vlad-vm2 dnf[7921]: CentOS-8 - Extras                               5.4 kB/s | 1.5 kB     00:00
+Oct 12 19:04:33 vlad-vm2 dnf[7921]: Metadata cache created.
+Oct 12 19:04:33 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 19:05:21 vlad-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 12 19:05:21 vlad-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 12 20:04:35 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 20:04:35 vlad-vm2 dnf[7954]: Metadata cache refreshed recently.
+Oct 12 20:04:35 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 21:04:39 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 21:04:39 vlad-vm2 dnf[7980]: Metadata cache refreshed recently.
+Oct 12 21:04:39 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 22:04:42 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 22:04:43 vlad-vm2 dnf[8005]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 12 22:04:44 vlad-vm2 dnf[8005]: CentOS-8 - Base                                  10 kB/s | 3.9 kB     00:00
+Oct 12 22:04:45 vlad-vm2 dnf[8005]: CentOS-8 - Extras                               1.5 kB/s | 1.5 kB     00:00
+Oct 12 22:04:45 vlad-vm2 dnf[8005]: Metadata cache created.
+Oct 12 22:04:45 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 12 23:04:46 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 23:04:46 vlad-vm2 dnf[8036]: Metadata cache refreshed recently.
+Oct 12 23:04:47 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 00:00:00 vlad-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 13 00:00:00 vlad-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 13 00:04:48 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 00:04:48 vlad-vm2 dnf[8066]: Metadata cache refreshed recently.
+Oct 13 00:04:48 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 01:04:54 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 01:04:54 vlad-vm2 dnf[8093]: CentOS-8 - AppStream                             32 kB/s | 4.3 kB     00:00
+Oct 13 01:04:54 vlad-vm2 dnf[8093]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 13 01:04:55 vlad-vm2 dnf[8093]: CentOS-8 - Extras                               8.1 kB/s | 1.5 kB     00:00
+Oct 13 01:04:55 vlad-vm2 dnf[8093]: Metadata cache created.
+Oct 13 01:04:55 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 02:04:57 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 02:04:58 vlad-vm2 dnf[8126]: Metadata cache refreshed recently.
+Oct 13 02:04:58 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 03:05:01 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 03:05:01 vlad-vm2 dnf[8153]: Metadata cache refreshed recently.
+Oct 13 03:05:01 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 04:05:05 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 04:05:05 vlad-vm2 dnf[8187]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 13 04:05:06 vlad-vm2 dnf[8187]: CentOS-8 - Base                                 6.4 kB/s | 3.9 kB     00:00
+Oct 13 04:05:07 vlad-vm2 dnf[8187]: CentOS-8 - Extras                               1.0 kB/s | 1.5 kB     00:01
+Oct 13 04:05:08 vlad-vm2 dnf[8187]: Metadata cache created.
+Oct 13 04:05:08 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 05:05:08 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 05:05:09 vlad-vm2 dnf[8218]: Metadata cache refreshed recently.
+Oct 13 05:05:09 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 06:05:12 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 06:05:12 vlad-vm2 dnf[8243]: Metadata cache refreshed recently.
+Oct 13 06:05:12 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2559] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2570] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2570] dhcp4 (ens192): option expiry               => '1602672601'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2570] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2570] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2570] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2570] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2570] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_routers    => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2571] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2572] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2572] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2572] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2572] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 13 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602586201.2572] dhcp4 (ens192): state changed extended -> extended
+Oct 13 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 13 06:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 13 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 13 06:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 13 07:05:16 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 07:05:17 vlad-vm2 dnf[8274]: CentOS-8 - AppStream                            3.3 kB/s | 4.3 kB     00:01
+Oct 13 07:05:18 vlad-vm2 dnf[8274]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 13 07:05:18 vlad-vm2 dnf[8274]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Oct 13 07:05:18 vlad-vm2 dnf[8274]: Metadata cache created.
+Oct 13 07:05:18 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 08:05:19 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 08:05:20 vlad-vm2 dnf[8305]: Metadata cache refreshed recently.
+Oct 13 08:05:20 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: Started /run/user/1001 mount wrapper.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: Created slice User Slice of UID 1001.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: Starting User Manager for UID 1001...
+Oct 13 08:53:21 vlad-vm2 systemd[1]: Started Session 3 of user instructor.
+Oct 13 08:53:21 vlad-vm2 systemd-logind[1256]: New session 3 of user instructor.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Starting D-Bus User Message Bus Socket.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Reached target Paths.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Started Mark boot as successful after the user session has run 2 minutes.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Reached target Timers.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Listening on D-Bus User Message Bus Socket.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Reached target Sockets.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Reached target Basic System.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Reached target Default.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Startup finished in 44ms.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: Started User Manager for UID 1001.
+Oct 13 08:53:21 vlad-vm2 systemd-logind[1256]: Session 3 logged out. Waiting for processes to exit.
+Oct 13 08:53:21 vlad-vm2 systemd-logind[1256]: Removed session 3.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: Stopping User Manager for UID 1001...
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Stopped target Default.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Stopped target Basic System.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Stopped target Sockets.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Closed D-Bus User Message Bus Socket.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Stopped target Paths.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Stopped target Timers.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Reached target Shutdown.
+Oct 13 08:53:21 vlad-vm2 systemd[8322]: Starting Exit the Session...
+Oct 13 08:53:21 vlad-vm2 systemd[1]: user@1001.service: Killing process 8348 (systemctl) with signal SIGKILL.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: Stopped User Manager for UID 1001.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: Removed slice User Slice of UID 1001.
+Oct 13 08:53:21 vlad-vm2 systemd[1]: Stopping /run/user/1001 mount wrapper...
+Oct 13 08:53:21 vlad-vm2 systemd[1]: Stopped /run/user/1001 mount wrapper.
+Oct 13 09:05:23 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 09:05:24 vlad-vm2 dnf[8372]: Metadata cache refreshed recently.
+Oct 13 09:05:24 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 10:05:27 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 10:05:28 vlad-vm2 dnf[8397]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 13 10:05:28 vlad-vm2 dnf[8397]: CentOS-8 - Base                                  22 kB/s | 3.9 kB     00:00
+Oct 13 10:05:28 vlad-vm2 dnf[8397]: CentOS-8 - Extras                               4.4 kB/s | 1.5 kB     00:00
+Oct 13 10:05:28 vlad-vm2 dnf[8397]: Metadata cache created.
+Oct 13 10:05:29 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 11:05:31 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 11:05:31 vlad-vm2 dnf[8428]: Metadata cache refreshed recently.
+Oct 13 11:05:31 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 12:05:34 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 12:05:35 vlad-vm2 dnf[8454]: Metadata cache refreshed recently.
+Oct 13 12:05:35 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 13:05:38 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 13:05:38 vlad-vm2 dnf[8479]: CentOS-8 - AppStream                             27 kB/s | 4.3 kB     00:00
+Oct 13 13:05:39 vlad-vm2 dnf[8479]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 13 13:05:39 vlad-vm2 dnf[8479]: CentOS-8 - Extras                               7.9 kB/s | 1.5 kB     00:00
+Oct 13 13:05:39 vlad-vm2 dnf[8479]: Metadata cache created.
+Oct 13 13:05:39 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 14:05:42 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 14:05:42 vlad-vm2 dnf[8510]: Metadata cache refreshed recently.
+Oct 13 14:05:42 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 15:05:45 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 15:05:46 vlad-vm2 dnf[8535]: Metadata cache refreshed recently.
+Oct 13 15:05:46 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 16:05:48 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 16:05:49 vlad-vm2 dnf[8561]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 13 16:05:49 vlad-vm2 dnf[8561]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 13 16:05:50 vlad-vm2 dnf[8561]: CentOS-8 - Extras                               2.9 kB/s | 1.5 kB     00:00
+Oct 13 16:05:50 vlad-vm2 dnf[8561]: Metadata cache created.
+Oct 13 16:05:50 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 17:05:53 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 17:05:53 vlad-vm2 dnf[8592]: Metadata cache refreshed recently.
+Oct 13 17:05:53 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 18:05:56 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 18:05:57 vlad-vm2 dnf[8617]: Metadata cache refreshed recently.
+Oct 13 18:05:57 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2575] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2582] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2582] dhcp4 (ens192): option expiry               => '1602715801'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2582] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2583] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2583] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2583] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2583] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2583] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2583] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2583] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2583] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2583] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2583] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2584] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2584] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2584] dhcp4 (ens192): option requested_routers    => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2584] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2584] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2584] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2584] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2584] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2584] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 13 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602629401.2584] dhcp4 (ens192): state changed extended -> extended
+Oct 13 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 13 18:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 13 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 13 18:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 13 19:05:30 vlad-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 13 19:05:30 vlad-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 13 19:06:00 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 19:06:01 vlad-vm2 dnf[8650]: CentOS-8 - AppStream                             24 kB/s | 4.3 kB     00:00
+Oct 13 19:06:01 vlad-vm2 dnf[8650]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 13 19:06:01 vlad-vm2 dnf[8650]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Oct 13 19:06:02 vlad-vm2 dnf[8650]: Metadata cache created.
+Oct 13 19:06:02 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 20:06:04 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 20:06:04 vlad-vm2 dnf[8681]: Metadata cache refreshed recently.
+Oct 13 20:06:04 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 21:06:08 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 21:06:09 vlad-vm2 dnf[8706]: Metadata cache refreshed recently.
+Oct 13 21:06:09 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 22:06:11 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 22:06:12 vlad-vm2 dnf[8732]: CentOS-8 - AppStream                            9.9 kB/s | 4.3 kB     00:00
+Oct 13 22:06:12 vlad-vm2 dnf[8732]: CentOS-8 - Base                                  24 kB/s | 3.9 kB     00:00
+Oct 13 22:06:12 vlad-vm2 dnf[8732]: CentOS-8 - Extras                                10 kB/s | 1.5 kB     00:00
+Oct 13 22:06:13 vlad-vm2 dnf[8732]: Metadata cache created.
+Oct 13 22:06:13 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 13 23:06:15 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 23:06:15 vlad-vm2 dnf[8763]: Metadata cache refreshed recently.
+Oct 13 23:06:15 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 00:00:08 vlad-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 14 00:00:08 vlad-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 14 00:06:19 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 00:06:19 vlad-vm2 dnf[8793]: Metadata cache refreshed recently.
+Oct 14 00:06:19 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 01:06:22 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 01:06:23 vlad-vm2 dnf[8820]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 14 01:06:24 vlad-vm2 dnf[8820]: CentOS-8 - Base                                 5.7 kB/s | 3.9 kB     00:00
+Oct 14 01:06:24 vlad-vm2 dnf[8820]: CentOS-8 - Extras                               6.7 kB/s | 1.5 kB     00:00
+Oct 14 01:06:24 vlad-vm2 dnf[8820]: Metadata cache created.
+Oct 14 01:06:24 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 02:06:26 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 02:06:26 vlad-vm2 dnf[8853]: Metadata cache refreshed recently.
+Oct 14 02:06:26 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 03:06:30 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 03:06:30 vlad-vm2 dnf[8880]: Metadata cache refreshed recently.
+Oct 14 03:06:30 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 04:06:33 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 04:06:34 vlad-vm2 dnf[8917]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 14 04:06:34 vlad-vm2 dnf[8917]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 14 04:06:35 vlad-vm2 dnf[8917]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Oct 14 04:06:35 vlad-vm2 dnf[8917]: Metadata cache created.
+Oct 14 04:06:35 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 05:06:37 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 05:06:37 vlad-vm2 dnf[8948]: Metadata cache refreshed recently.
+Oct 14 05:06:37 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 06:06:41 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 06:06:41 vlad-vm2 dnf[8973]: Metadata cache refreshed recently.
+Oct 14 06:06:41 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2554] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2562] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2563] dhcp4 (ens192): option expiry               => '1602759001'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2563] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2563] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2563] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2563] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2563] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2563] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2563] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2563] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2563] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2564] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2564] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2564] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2564] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2564] dhcp4 (ens192): option requested_routers    => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2564] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2564] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2564] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2564] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2564] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2565] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 14 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602672601.2565] dhcp4 (ens192): state changed extended -> extended
+Oct 14 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 14 06:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 14 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 14 06:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 14 07:06:44 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 07:06:45 vlad-vm2 dnf[9004]: CentOS-8 - AppStream                             20 kB/s | 4.3 kB     00:00
+Oct 14 07:06:45 vlad-vm2 dnf[9004]: CentOS-8 - Base                                  31 kB/s | 3.9 kB     00:00
+Oct 14 07:06:45 vlad-vm2 dnf[9004]: CentOS-8 - Extras                                11 kB/s | 1.5 kB     00:00
+Oct 14 07:06:46 vlad-vm2 dnf[9004]: Metadata cache created.
+Oct 14 07:06:46 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 08:06:48 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 08:06:48 vlad-vm2 dnf[9035]: Metadata cache refreshed recently.
+Oct 14 08:06:48 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 09:06:52 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 09:06:52 vlad-vm2 dnf[9060]: Metadata cache refreshed recently.
+Oct 14 09:06:52 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 10:06:55 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 10:06:56 vlad-vm2 dnf[9086]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 14 10:06:56 vlad-vm2 dnf[9086]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 14 10:06:57 vlad-vm2 dnf[9086]: CentOS-8 - Extras                               6.3 kB/s | 1.5 kB     00:00
+Oct 14 10:06:57 vlad-vm2 dnf[9086]: Metadata cache created.
+Oct 14 10:06:57 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 11:06:59 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 11:07:00 vlad-vm2 dnf[9117]: Metadata cache refreshed recently.
+Oct 14 11:07:00 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 12:07:03 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 12:07:03 vlad-vm2 dnf[9143]: Metadata cache refreshed recently.
+Oct 14 12:07:03 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 13:07:07 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 13:07:07 vlad-vm2 dnf[9168]: CentOS-8 - AppStream                             25 kB/s | 4.3 kB     00:00
+Oct 14 13:07:07 vlad-vm2 dnf[9168]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 14 13:07:08 vlad-vm2 dnf[9168]: CentOS-8 - Extras                                13 kB/s | 1.5 kB     00:00
+Oct 14 13:07:08 vlad-vm2 dnf[9168]: Metadata cache created.
+Oct 14 13:07:08 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 14:07:10 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 14:07:11 vlad-vm2 dnf[9199]: Metadata cache refreshed recently.
+Oct 14 14:07:11 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 15:07:14 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 15:07:14 vlad-vm2 dnf[9224]: Metadata cache refreshed recently.
+Oct 14 15:07:14 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 16:07:18 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 16:07:18 vlad-vm2 dnf[9250]: CentOS-8 - AppStream                             22 kB/s | 4.3 kB     00:00
+Oct 14 16:07:19 vlad-vm2 dnf[9250]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 14 16:07:19 vlad-vm2 dnf[9250]: CentOS-8 - Extras                               3.6 kB/s | 1.5 kB     00:00
+Oct 14 16:07:19 vlad-vm2 dnf[9250]: Metadata cache created.
+Oct 14 16:07:19 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 17:07:21 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 17:07:22 vlad-vm2 dnf[9281]: Metadata cache refreshed recently.
+Oct 14 17:07:22 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 18:07:25 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 18:07:25 vlad-vm2 dnf[9306]: Metadata cache refreshed recently.
+Oct 14 18:07:25 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2566] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2576] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2576] dhcp4 (ens192): option expiry               => '1602802201'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2576] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2576] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2576] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2576] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2576] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2576] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2576] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2576] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2577] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2577] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2577] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2577] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2577] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2577] dhcp4 (ens192): option requested_routers    => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2577] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2577] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2577] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2577] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2578] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2578] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 14 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602715801.2578] dhcp4 (ens192): state changed extended -> extended
+Oct 14 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 14 18:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 14 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 14 18:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 14 19:05:38 vlad-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 14 19:05:38 vlad-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 14 19:07:29 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 19:07:29 vlad-vm2 dnf[9339]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Oct 14 19:07:30 vlad-vm2 dnf[9339]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 14 19:07:30 vlad-vm2 dnf[9339]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Oct 14 19:07:30 vlad-vm2 dnf[9339]: Metadata cache created.
+Oct 14 19:07:30 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 20:07:32 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 20:07:33 vlad-vm2 dnf[9370]: Metadata cache refreshed recently.
+Oct 14 20:07:33 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 21:07:36 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 21:07:37 vlad-vm2 dnf[9396]: Metadata cache refreshed recently.
+Oct 14 21:07:37 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 22:07:40 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 22:07:40 vlad-vm2 dnf[9421]: CentOS-8 - AppStream                             20 kB/s | 4.3 kB     00:00
+Oct 14 22:07:41 vlad-vm2 dnf[9421]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 14 22:07:41 vlad-vm2 dnf[9421]: CentOS-8 - Extras                               5.3 kB/s | 1.5 kB     00:00
+Oct 14 22:07:41 vlad-vm2 dnf[9421]: Metadata cache created.
+Oct 14 22:07:41 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 14 23:07:44 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 23:07:44 vlad-vm2 dnf[9452]: Metadata cache refreshed recently.
+Oct 14 23:07:44 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 00:00:07 vlad-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 15 00:00:07 vlad-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 15 00:07:47 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 00:07:48 vlad-vm2 dnf[9481]: Metadata cache refreshed recently.
+Oct 15 00:07:48 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 01:07:48 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 01:07:49 vlad-vm2 dnf[9509]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 15 01:07:49 vlad-vm2 dnf[9509]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 15 01:07:49 vlad-vm2 dnf[9509]: CentOS-8 - Extras                               5.7 kB/s | 1.5 kB     00:00
+Oct 15 01:07:50 vlad-vm2 dnf[9509]: Metadata cache created.
+Oct 15 01:07:50 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 02:07:54 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 02:07:55 vlad-vm2 dnf[9542]: Metadata cache refreshed recently.
+Oct 15 02:07:55 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 03:07:58 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 03:07:59 vlad-vm2 dnf[9569]: Metadata cache refreshed recently.
+Oct 15 03:07:59 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 04:08:02 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 04:08:03 vlad-vm2 dnf[9604]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 15 04:08:03 vlad-vm2 dnf[9604]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Oct 15 04:08:03 vlad-vm2 dnf[9604]: CentOS-8 - Extras                               6.8 kB/s | 1.5 kB     00:00
+Oct 15 04:08:03 vlad-vm2 dnf[9604]: Metadata cache created.
+Oct 15 04:08:04 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 05:08:06 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 05:08:06 vlad-vm2 dnf[9635]: Metadata cache refreshed recently.
+Oct 15 05:08:06 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 06:08:09 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 06:08:10 vlad-vm2 dnf[9660]: Metadata cache refreshed recently.
+Oct 15 06:08:10 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2549] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2556] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2556] dhcp4 (ens192): option expiry               => '1602845401'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2556] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2556] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2556] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2557] dhcp4 (ens192): option requested_routers    => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2558] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2558] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2558] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2558] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2558] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2558] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 15 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602759001.2558] dhcp4 (ens192): state changed extended -> extended
+Oct 15 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 15 06:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 15 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 15 06:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 15 07:08:13 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 07:08:14 vlad-vm2 dnf[9690]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 15 07:08:14 vlad-vm2 dnf[9690]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 15 07:08:14 vlad-vm2 dnf[9690]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Oct 15 07:08:15 vlad-vm2 dnf[9690]: Metadata cache created.
+Oct 15 07:08:15 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 08:08:17 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 08:08:17 vlad-vm2 dnf[9722]: Metadata cache refreshed recently.
+Oct 15 08:08:17 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 09:08:20 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 09:08:21 vlad-vm2 dnf[9747]: Metadata cache refreshed recently.
+Oct 15 09:08:21 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 10:08:24 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 10:08:25 vlad-vm2 dnf[9772]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 15 10:08:25 vlad-vm2 dnf[9772]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Oct 15 10:08:25 vlad-vm2 dnf[9772]: CentOS-8 - Extras                               6.2 kB/s | 1.5 kB     00:00
+Oct 15 10:08:26 vlad-vm2 dnf[9772]: Metadata cache created.
+Oct 15 10:08:26 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 11:08:28 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 11:08:28 vlad-vm2 dnf[9804]: Metadata cache refreshed recently.
+Oct 15 11:08:28 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 12:08:31 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 12:08:32 vlad-vm2 dnf[9829]: Metadata cache refreshed recently.
+Oct 15 12:08:32 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 13:08:35 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 13:08:36 vlad-vm2 dnf[9854]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 15 13:08:36 vlad-vm2 dnf[9854]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 15 13:08:36 vlad-vm2 dnf[9854]: CentOS-8 - Extras                               8.1 kB/s | 1.5 kB     00:00
+Oct 15 13:08:37 vlad-vm2 dnf[9854]: Metadata cache created.
+Oct 15 13:08:37 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 14:08:38 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 14:08:38 vlad-vm2 dnf[9886]: Metadata cache refreshed recently.
+Oct 15 14:08:38 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 15:08:43 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 15:08:43 vlad-vm2 dnf[9911]: Metadata cache refreshed recently.
+Oct 15 15:08:43 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 16:08:46 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 16:08:47 vlad-vm2 dnf[9936]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 15 16:08:47 vlad-vm2 dnf[9936]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Oct 15 16:08:47 vlad-vm2 dnf[9936]: CentOS-8 - Extras                                10 kB/s | 1.5 kB     00:00
+Oct 15 16:08:48 vlad-vm2 dnf[9936]: Metadata cache created.
+Oct 15 16:08:48 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 17:08:48 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 17:08:48 vlad-vm2 dnf[9968]: Metadata cache refreshed recently.
+Oct 15 17:08:48 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 18:08:54 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 18:08:54 vlad-vm2 dnf[9993]: Metadata cache refreshed recently.
+Oct 15 18:08:54 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2585] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2590] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2590] dhcp4 (ens192): option expiry               => '1602888601'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2590] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2590] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2591] dhcp4 (ens192): option requested_routers    => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2592] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2592] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2592] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2592] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2592] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2592] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 15 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602802201.2592] dhcp4 (ens192): state changed extended -> extended
+Oct 15 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 15 18:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 15 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 15 18:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 15 19:05:47 vlad-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 15 19:05:47 vlad-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 15 19:08:57 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 19:08:58 vlad-vm2 dnf[10026]: CentOS-8 - AppStream                             24 kB/s | 4.3 kB     00:00
+Oct 15 19:08:58 vlad-vm2 dnf[10026]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 15 19:08:58 vlad-vm2 dnf[10026]: CentOS-8 - Extras                                15 kB/s | 1.5 kB     00:00
+Oct 15 19:08:59 vlad-vm2 dnf[10026]: Metadata cache created.
+Oct 15 19:08:59 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 20:09:01 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 20:09:01 vlad-vm2 dnf[10057]: Metadata cache refreshed recently.
+Oct 15 20:09:01 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 21:09:05 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 21:09:05 vlad-vm2 dnf[10082]: Metadata cache refreshed recently.
+Oct 15 21:09:05 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 22:09:08 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 22:09:09 vlad-vm2 dnf[10107]: CentOS-8 - AppStream                             24 kB/s | 4.3 kB     00:00
+Oct 15 22:09:09 vlad-vm2 dnf[10107]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Oct 15 22:09:09 vlad-vm2 dnf[10107]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Oct 15 22:09:10 vlad-vm2 dnf[10107]: Metadata cache created.
+Oct 15 22:09:10 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 15 23:09:12 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 23:09:12 vlad-vm2 dnf[10138]: Metadata cache refreshed recently.
+Oct 15 23:09:12 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 00:00:05 vlad-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 16 00:00:05 vlad-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 16 00:09:16 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 00:09:16 vlad-vm2 dnf[10168]: Metadata cache refreshed recently.
+Oct 16 00:09:16 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 01:09:19 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 01:09:20 vlad-vm2 dnf[10195]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 16 01:09:20 vlad-vm2 dnf[10195]: CentOS-8 - Base                                  31 kB/s | 3.9 kB     00:00
+Oct 16 01:09:20 vlad-vm2 dnf[10195]: CentOS-8 - Extras                               8.7 kB/s | 1.5 kB     00:00
+Oct 16 01:09:21 vlad-vm2 dnf[10195]: Metadata cache created.
+Oct 16 01:09:21 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 02:09:23 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 02:09:23 vlad-vm2 dnf[10228]: Metadata cache refreshed recently.
+Oct 16 02:09:23 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 03:09:27 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 03:09:27 vlad-vm2 dnf[10265]: Metadata cache refreshed recently.
+Oct 16 03:09:27 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 04:09:30 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 04:09:31 vlad-vm2 dnf[10292]: CentOS-8 - AppStream                             42 kB/s | 4.3 kB     00:00
+Oct 16 04:09:31 vlad-vm2 dnf[10292]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 16 04:09:31 vlad-vm2 dnf[10292]: CentOS-8 - Extras                               4.6 kB/s | 1.5 kB     00:00
+Oct 16 04:09:32 vlad-vm2 dnf[10292]: Metadata cache created.
+Oct 16 04:09:32 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 05:09:34 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 05:09:34 vlad-vm2 dnf[10323]: Metadata cache refreshed recently.
+Oct 16 05:09:34 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 06:09:38 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 06:09:38 vlad-vm2 dnf[10349]: Metadata cache refreshed recently.
+Oct 16 06:09:38 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2546] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2556] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2556] dhcp4 (ens192): option expiry               => '1602931801'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2556] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2556] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2556] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2556] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2556] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2556] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2556] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_routers    => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2557] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2558] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 16 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602845401.2558] dhcp4 (ens192): state changed extended -> extended
+Oct 16 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 16 06:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 16 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 16 06:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 16 07:09:41 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 07:09:42 vlad-vm2 dnf[10379]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 16 07:09:42 vlad-vm2 dnf[10379]: CentOS-8 - Base                                  33 kB/s | 3.9 kB     00:00
+Oct 16 07:09:43 vlad-vm2 dnf[10379]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Oct 16 07:09:43 vlad-vm2 dnf[10379]: Metadata cache created.
+Oct 16 07:09:43 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 08:09:45 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 08:09:46 vlad-vm2 dnf[10410]: Metadata cache refreshed recently.
+Oct 16 08:09:46 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 09:09:48 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 09:09:48 vlad-vm2 dnf[10436]: Metadata cache refreshed recently.
+Oct 16 09:09:48 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 10:09:53 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 10:09:53 vlad-vm2 dnf[10461]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 16 10:09:54 vlad-vm2 dnf[10461]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 16 10:09:54 vlad-vm2 dnf[10461]: CentOS-8 - Extras                               7.1 kB/s | 1.5 kB     00:00
+Oct 16 10:09:54 vlad-vm2 dnf[10461]: Metadata cache created.
+Oct 16 10:09:54 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 11:09:56 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 11:09:57 vlad-vm2 dnf[10492]: Metadata cache refreshed recently.
+Oct 16 11:09:57 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 12:10:00 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 12:10:00 vlad-vm2 dnf[10517]: Metadata cache refreshed recently.
+Oct 16 12:10:00 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 13:10:04 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 13:10:04 vlad-vm2 dnf[10543]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 16 13:10:05 vlad-vm2 dnf[10543]: CentOS-8 - Base                                  21 kB/s | 3.9 kB     00:00
+Oct 16 13:10:05 vlad-vm2 dnf[10543]: CentOS-8 - Extras                               5.4 kB/s | 1.5 kB     00:00
+Oct 16 13:10:05 vlad-vm2 dnf[10543]: Metadata cache created.
+Oct 16 13:10:05 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 14:10:07 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 14:10:08 vlad-vm2 dnf[10574]: Metadata cache refreshed recently.
+Oct 16 14:10:08 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 15:10:11 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 15:10:11 vlad-vm2 dnf[10599]: Metadata cache refreshed recently.
+Oct 16 15:10:11 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 16:10:15 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 16:10:15 vlad-vm2 dnf[10625]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 16 16:10:16 vlad-vm2 dnf[10625]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 16 16:10:16 vlad-vm2 dnf[10625]: CentOS-8 - Extras                               8.5 kB/s | 1.5 kB     00:00
+Oct 16 16:10:16 vlad-vm2 dnf[10625]: Metadata cache created.
+Oct 16 16:10:16 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 17:10:18 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 17:10:19 vlad-vm2 dnf[10656]: Metadata cache refreshed recently.
+Oct 16 17:10:19 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 18:10:22 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 18:10:22 vlad-vm2 dnf[10682]: Metadata cache refreshed recently.
+Oct 16 18:10:22 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2545] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2548] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2549] dhcp4 (ens192): option expiry               => '1602975001'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2549] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2549] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2549] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2549] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2549] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2549] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2549] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2549] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2549] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option requested_routers    => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2550] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 16 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602888601.2551] dhcp4 (ens192): state changed extended -> extended
+Oct 16 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 16 18:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 16 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 16 18:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 16 19:05:48 vlad-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 16 19:05:48 vlad-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 16 19:10:26 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 19:10:26 vlad-vm2 dnf[10714]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 16 19:10:26 vlad-vm2 dnf[10714]: CentOS-8 - Base                                  26 kB/s | 3.9 kB     00:00
+Oct 16 19:10:27 vlad-vm2 dnf[10714]: CentOS-8 - Extras                               4.5 kB/s | 1.5 kB     00:00
+Oct 16 19:10:27 vlad-vm2 dnf[10714]: Metadata cache created.
+Oct 16 19:10:27 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 20:10:29 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 20:10:30 vlad-vm2 dnf[10746]: Metadata cache refreshed recently.
+Oct 16 20:10:30 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 21:10:33 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 21:10:33 vlad-vm2 dnf[10771]: Metadata cache refreshed recently.
+Oct 16 21:10:33 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 22:10:37 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 22:10:38 vlad-vm2 dnf[10796]: CentOS-8 - AppStream                            9.5 kB/s | 4.3 kB     00:00
+Oct 16 22:10:38 vlad-vm2 dnf[10796]: CentOS-8 - Base                                 9.9 kB/s | 3.9 kB     00:00
+Oct 16 22:10:38 vlad-vm2 dnf[10796]: CentOS-8 - Extras                               8.1 kB/s | 1.5 kB     00:00
+Oct 16 22:10:38 vlad-vm2 dnf[10796]: Metadata cache created.
+Oct 16 22:10:38 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 16 23:10:40 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 23:10:41 vlad-vm2 dnf[10827]: Metadata cache refreshed recently.
+Oct 16 23:10:41 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 00:00:03 vlad-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 17 00:00:03 vlad-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 17 00:10:44 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 00:10:44 vlad-vm2 dnf[10857]: Metadata cache refreshed recently.
+Oct 17 00:10:44 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 01:10:48 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 01:10:48 vlad-vm2 dnf[10884]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Oct 17 01:10:48 vlad-vm2 dnf[10884]: CentOS-8 - Base                                  45 kB/s | 3.9 kB     00:00
+Oct 17 01:10:49 vlad-vm2 dnf[10884]: CentOS-8 - Extras                               9.8 kB/s | 1.5 kB     00:00
+Oct 17 01:10:49 vlad-vm2 dnf[10884]: Metadata cache created.
+Oct 17 01:10:49 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 02:10:51 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 02:10:52 vlad-vm2 dnf[10917]: Metadata cache refreshed recently.
+Oct 17 02:10:52 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 03:10:55 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 03:10:55 vlad-vm2 dnf[10944]: Metadata cache refreshed recently.
+Oct 17 03:10:55 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 04:10:59 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 04:10:59 vlad-vm2 dnf[10979]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 17 04:11:00 vlad-vm2 dnf[10979]: CentOS-8 - Base                                  26 kB/s | 3.9 kB     00:00
+Oct 17 04:11:00 vlad-vm2 dnf[10979]: CentOS-8 - Extras                               3.6 kB/s | 1.5 kB     00:00
+Oct 17 04:11:00 vlad-vm2 dnf[10979]: Metadata cache created.
+Oct 17 04:11:00 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 05:11:02 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 05:11:03 vlad-vm2 dnf[11010]: Metadata cache refreshed recently.
+Oct 17 05:11:03 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 06:11:06 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 06:11:06 vlad-vm2 dnf[11035]: Metadata cache refreshed recently.
+Oct 17 06:11:06 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2543] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2551] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2551] dhcp4 (ens192): option expiry               => '1603018201'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2551] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2551] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2551] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2551] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2551] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2551] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2551] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_routers    => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2552] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2553] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2553] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 17 06:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602931801.2553] dhcp4 (ens192): state changed extended -> extended
+Oct 17 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 17 06:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 17 06:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 17 06:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 17 07:11:10 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 07:11:10 vlad-vm2 dnf[11066]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 17 07:11:11 vlad-vm2 dnf[11066]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 17 07:11:11 vlad-vm2 dnf[11066]: CentOS-8 - Extras                               5.1 kB/s | 1.5 kB     00:00
+Oct 17 07:11:11 vlad-vm2 dnf[11066]: Metadata cache created.
+Oct 17 07:11:11 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 08:11:13 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 08:11:14 vlad-vm2 dnf[11097]: Metadata cache refreshed recently.
+Oct 17 08:11:14 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 09:11:17 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 09:11:17 vlad-vm2 dnf[11122]: Metadata cache refreshed recently.
+Oct 17 09:11:17 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 10:11:21 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 10:11:21 vlad-vm2 dnf[11148]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 17 10:11:22 vlad-vm2 dnf[11148]: CentOS-8 - Base                                  39 kB/s | 3.9 kB     00:00
+Oct 17 10:11:22 vlad-vm2 dnf[11148]: CentOS-8 - Extras                               5.0 kB/s | 1.5 kB     00:00
+Oct 17 10:11:22 vlad-vm2 dnf[11148]: Metadata cache created.
+Oct 17 10:11:22 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 11:11:24 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 11:11:25 vlad-vm2 dnf[11179]: Metadata cache refreshed recently.
+Oct 17 11:11:25 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 12:11:28 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 12:11:28 vlad-vm2 dnf[11204]: Metadata cache refreshed recently.
+Oct 17 12:11:28 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 13:11:32 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 13:11:32 vlad-vm2 dnf[11230]: CentOS-8 - AppStream                             22 kB/s | 4.3 kB     00:00
+Oct 17 13:11:33 vlad-vm2 dnf[11230]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 17 13:11:33 vlad-vm2 dnf[11230]: CentOS-8 - Extras                               8.8 kB/s | 1.5 kB     00:00
+Oct 17 13:11:33 vlad-vm2 dnf[11230]: Metadata cache created.
+Oct 17 13:11:33 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 14:11:35 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 14:11:36 vlad-vm2 dnf[11261]: Metadata cache refreshed recently.
+Oct 17 14:11:36 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 15:11:38 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 15:11:38 vlad-vm2 dnf[11286]: Metadata cache refreshed recently.
+Oct 17 15:11:38 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 16:11:43 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 16:11:43 vlad-vm2 dnf[11312]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 17 16:11:44 vlad-vm2 dnf[11312]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 17 16:11:44 vlad-vm2 dnf[11312]: CentOS-8 - Extras                               6.3 kB/s | 1.5 kB     00:00
+Oct 17 16:11:44 vlad-vm2 dnf[11312]: Metadata cache created.
+Oct 17 16:11:44 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 17:11:47 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 17:11:47 vlad-vm2 dnf[11343]: Metadata cache refreshed recently.
+Oct 17 17:11:47 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 18:11:48 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 18:11:48 vlad-vm2 dnf[11368]: Metadata cache refreshed recently.
+Oct 17 18:11:48 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2550] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2555] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2555] dhcp4 (ens192): option expiry               => '1603061401'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2555] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2555] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2555] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2555] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2555] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2555] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2556] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2556] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2556] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2556] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2556] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2556] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2556] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2556] dhcp4 (ens192): option requested_routers    => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2556] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2556] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2557] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2557] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2557] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2557] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 17 18:50:01 vlad-vm2 NetworkManager[969]: <info>  [1602975001.2557] dhcp4 (ens192): state changed extended -> extended
+Oct 17 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=969 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 17 18:50:01 vlad-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 17 18:50:01 vlad-vm2 dbus-daemon[965]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 17 18:50:01 vlad-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 17 19:05:54 vlad-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 17 19:05:54 vlad-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 17 19:11:54 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 19:11:54 vlad-vm2 dnf[11401]: CentOS-8 - AppStream                             28 kB/s | 4.3 kB     00:00
+Oct 17 19:11:55 vlad-vm2 dnf[11401]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 17 19:11:55 vlad-vm2 dnf[11401]: CentOS-8 - Extras                                10 kB/s | 1.5 kB     00:00
+Oct 17 19:11:55 vlad-vm2 dnf[11401]: Metadata cache created.
+Oct 17 19:11:55 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 20:11:58 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 20:11:58 vlad-vm2 dnf[11433]: Metadata cache refreshed recently.
+Oct 17 20:11:58 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 21:12:01 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 21:12:02 vlad-vm2 dnf[11458]: Metadata cache refreshed recently.
+Oct 17 21:12:02 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 22:12:05 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 22:12:06 vlad-vm2 dnf[11484]: CentOS-8 - AppStream                            8.7 kB/s | 4.3 kB     00:00
+Oct 17 22:12:06 vlad-vm2 dnf[11484]: CentOS-8 - Base                                 6.9 kB/s | 3.9 kB     00:00
+Oct 17 22:12:07 vlad-vm2 dnf[11484]: CentOS-8 - Extras                                15 kB/s | 1.5 kB     00:00
+Oct 17 22:12:07 vlad-vm2 dnf[11484]: Metadata cache created.
+Oct 17 22:12:07 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 17 23:12:09 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 23:12:09 vlad-vm2 dnf[11515]: Metadata cache refreshed recently.
+Oct 17 23:12:09 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 18 00:00:02 vlad-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 18 00:00:02 vlad-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 18 00:12:12 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 18 00:12:13 vlad-vm2 dnf[11545]: Metadata cache refreshed recently.
+Oct 18 00:12:13 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 18 01:12:16 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 18 01:12:20 vlad-vm2 dnf[11572]: CentOS-8 - AppStream                            1.1 kB/s | 4.3 kB     00:04
+Oct 18 01:12:21 vlad-vm2 dnf[11572]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 18 01:12:21 vlad-vm2 dnf[11572]: CentOS-8 - Extras                                15 kB/s | 1.5 kB     00:00
+Oct 18 01:12:21 vlad-vm2 dnf[11572]: Metadata cache created.
+Oct 18 01:12:21 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 18 02:12:30 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 18 02:12:30 vlad-vm2 dnf[11605]: Metadata cache refreshed recently.
+Oct 18 02:12:30 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 18 03:12:33 vlad-vm2 systemd[1]: Starting dnf makecache...
+Oct 18 03:12:34 vlad-vm2 dnf[11632]: Metadata cache refreshed recently.
+Oct 18 03:12:34 vlad-vm2 systemd[1]: Started dnf makecache.
+Oct 18 03:43:01 vlad-vm2 systemd[1]: Reloading The Apache HTTP Server.

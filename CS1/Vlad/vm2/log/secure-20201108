@@ -1,0 +1,107 @@
+Nov  6 12:52:45 vkim11-web sudo[14634]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  6 12:52:45 vkim11-web sudo[14634]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:52:45 vkim11-web sudo[14634]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:52:45 vkim11-web sudo[14634]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:55:35 vkim11-web sudo[14661]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  6 12:55:35 vkim11-web sudo[14661]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:55:35 vkim11-web sudo[14661]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:55:35 vkim11-web sudo[14661]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:55:38 vkim11-web sudo[14664]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -F
+Nov  6 12:55:38 vkim11-web sudo[14664]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:55:38 vkim11-web sudo[14664]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:55:38 vkim11-web sudo[14664]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:55:41 vkim11-web sudo[14668]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  6 12:55:41 vkim11-web sudo[14668]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:55:41 vkim11-web sudo[14668]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:55:41 vkim11-web sudo[14668]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:56:51 vkim11-web sudo[14689]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano CNSScript.bash
+Nov  6 12:56:51 vkim11-web sudo[14689]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:56:51 vkim11-web sudo[14689]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:21 vkim11-web sudo[14689]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14695]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 172.16.0.1 --dport 53 -j ACCEPT
+Nov  6 12:57:25 vkim11-web sudo[14695]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14695]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14695]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14698]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 192.168.15.0/24 --dport 53 -j ACCEPT
+Nov  6 12:57:25 vkim11-web sudo[14698]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14698]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14698]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14701]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.0/24 --dport 53 -j ACCEPT
+Nov  6 12:57:25 vkim11-web sudo[14701]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14701]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14701]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14704]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUt -p tcp -s 172.16.0.1 --dport 53 -j ACCEPT
+Nov  6 12:57:25 vkim11-web sudo[14704]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14704]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14704]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14707]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 192.168.15.0/24 -j ACCEPT
+Nov  6 12:57:25 vkim11-web sudo[14707]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14707]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14707]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14710]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 172.16.0.1 -j ACCEPT
+Nov  6 12:57:25 vkim11-web sudo[14710]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14710]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14710]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14713]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.1 --dport 22 -j ACCEPT
+Nov  6 12:57:25 vkim11-web sudo[14713]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14713]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14713]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14716]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 172.16.0.1 --dport 22 -j ACCEPT
+Nov  6 12:57:25 vkim11-web sudo[14716]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14716]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14716]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14719]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -N LOGGING
+Nov  6 12:57:25 vkim11-web sudo[14719]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14719]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14719]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14722]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 22 -j LOGGING
+Nov  6 12:57:25 vkim11-web sudo[14722]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14722]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14722]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14725]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j LOG --log-level 6 --log-prefix DROPPED PACKETS
+Nov  6 12:57:25 vkim11-web sudo[14725]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14725]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14725]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:25 vkim11-web sudo[14728]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j DROP
+Nov  6 12:57:25 vkim11-web sudo[14728]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:25 vkim11-web sudo[14728]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:25 vkim11-web sudo[14728]: pam_unix(sudo:session): session closed for user root
+Nov  6 12:57:29 vkim11-web sudo[14732]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  6 12:57:29 vkim11-web sudo[14732]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  6 12:57:29 vkim11-web sudo[14732]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  6 12:57:29 vkim11-web sudo[14732]: pam_unix(sudo:session): session closed for user root
+Nov  6 23:31:39 vkim11-web sshd[15099]: Accepted publickey for instructor from 172.16.0.1 port 37962 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  6 23:31:39 vkim11-web systemd[15103]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  6 23:31:39 vkim11-web sshd[15099]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  6 23:31:39 vkim11-web sshd[15113]: Received disconnect from 172.16.0.1 port 37962:11: disconnected by user
+Nov  6 23:31:39 vkim11-web sshd[15113]: Disconnected from user instructor 172.16.0.1 port 37962
+Nov  6 23:31:39 vkim11-web sshd[15099]: pam_unix(sshd:session): session closed for user instructor
+Nov  6 23:31:39 vkim11-web systemd[15107]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:01:20 vkim11-web sshd[15160]: Accepted publickey for instructor from 172.16.0.1 port 38232 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:01:20 vkim11-web systemd[15164]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:01:21 vkim11-web sshd[15160]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:01:21 vkim11-web sshd[15173]: Received disconnect from 172.16.0.1 port 38232:11: disconnected by user
+Nov  7 00:01:21 vkim11-web sshd[15173]: Disconnected from user instructor 172.16.0.1 port 38232
+Nov  7 00:01:21 vkim11-web sshd[15160]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:01:21 vkim11-web systemd[15167]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:47:42 vkim11-web sshd[15209]: Accepted publickey for instructor from 172.16.0.1 port 38414 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:47:42 vkim11-web systemd[15213]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:47:42 vkim11-web sshd[15209]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:47:42 vkim11-web sshd[15222]: Received disconnect from 172.16.0.1 port 38414:11: disconnected by user
+Nov  7 00:47:42 vkim11-web sshd[15222]: Disconnected from user instructor 172.16.0.1 port 38414
+Nov  7 00:47:42 vkim11-web sshd[15209]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:47:42 vkim11-web systemd[15216]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:59:14 vkim11-web sshd[15247]: Accepted publickey for instructor from 172.16.0.1 port 38654 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:59:14 vkim11-web systemd[15251]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:59:14 vkim11-web sshd[15247]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:59:14 vkim11-web sshd[15261]: Received disconnect from 172.16.0.1 port 38654:11: disconnected by user
+Nov  7 00:59:14 vkim11-web sshd[15261]: Disconnected from user instructor 172.16.0.1 port 38654
+Nov  7 00:59:14 vkim11-web sshd[15247]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:59:14 vkim11-web systemd[15255]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 22:32:58 vkim11-web sshd[15945]: Accepted publickey for instructor from 172.16.0.1 port 39464 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 22:32:58 vkim11-web systemd[15949]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 22:32:58 vkim11-web sshd[15945]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 22:32:58 vkim11-web sshd[15958]: Received disconnect from 172.16.0.1 port 39464:11: disconnected by user
+Nov  7 22:32:58 vkim11-web sshd[15958]: Disconnected from user instructor 172.16.0.1 port 39464
+Nov  7 22:32:58 vkim11-web sshd[15945]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 22:32:58 vkim11-web systemd[15952]: pam_unix(systemd-user:session): session closed for user instructor

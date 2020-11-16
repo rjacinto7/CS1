@@ -1,0 +1,106 @@
+2020-11-15 13:23:44 0 [Warning] mysqld: GSSAPI plugin : default principal 'mariadb/zhonderich-rns.ravz.com@' not found in keytab
+2020-11-15 13:23:44 0 [ERROR] mysqld: Server GSSAPI error (major 851968, minor 2529639093) : gss_acquire_cred failed -Unspecified GSS failure.  Minor code may provide more information. Keytab FILE:/etc/krb5.keytab is nonexistent or empty. 
+2020-11-15 13:23:44 0 [ERROR] Plugin 'gssapi' init function returned error.
+2020-11-15 13:23:46 0 [Note] InnoDB: Using Linux native AIO
+2020-11-15 13:23:46 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-11-15 13:23:46 0 [Note] InnoDB: Uses event mutexes
+2020-11-15 13:23:46 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-11-15 13:23:46 0 [Note] InnoDB: Number of pools: 1
+2020-11-15 13:23:46 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-11-15 13:23:46 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-11-15 13:23:46 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-11-15 13:23:46 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-11-15 13:23:46 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-11-15 13:23:46 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-11-15 13:23:46 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-11-15 13:23:46 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-11-15 13:23:46 0 [Note] InnoDB: Waiting for purge to start
+2020-11-15 13:23:46 0 [Note] InnoDB: 10.3.17 started; log sequence number 1630815; transaction id 21
+2020-11-15 13:23:46 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-11-15 13:23:46 0 [Note] InnoDB: Buffer pool(s) load completed at 201115 13:23:46
+2020-11-15 13:23:46 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-11-15 13:23:46 0 [Warning] mysqld: GSSAPI plugin : default principal 'mariadb/zhonderich-rns.ravz.com@' not found in keytab
+2020-11-15 13:23:46 0 [ERROR] mysqld: Server GSSAPI error (major 851968, minor 2529639093) : gss_acquire_cred failed -Unspecified GSS failure.  Minor code may provide more information. Keytab FILE:/etc/krb5.keytab is nonexistent or empty. 
+2020-11-15 13:23:46 0 [ERROR] Plugin 'gssapi' init function returned error.
+2020-11-15 13:23:46 0 [Note] Server socket created on IP: '::'.
+2020-11-15 13:23:46 0 [Note] Reading of all Master_info entries succeeded
+2020-11-15 13:23:46 0 [Note] Added new Master_info '' to hash table
+2020-11-15 13:23:46 0 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '10.3.17-MariaDB'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MariaDB Server
+2020-11-15 13:36:51 0 [Note] /usr/libexec/mysqld (initiated by: unknown): Normal shutdown
+2020-11-15 13:36:51 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-11-15 13:36:51 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-11-15 13:36:51 0 [Note] InnoDB: Starting shutdown...
+2020-11-15 13:36:51 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2020-11-15 13:36:51 0 [Note] InnoDB: Buffer pool(s) dump completed at 201115 13:36:51
+2020-11-15 13:36:52 0 [Note] InnoDB: Shutdown completed; log sequence number 1630824; transaction id 22
+2020-11-15 13:36:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-11-15 13:36:52 0 [Note] /usr/libexec/mysqld: Shutdown complete
+
+2020-11-15 13:37:15 0 [Note] InnoDB: Using Linux native AIO
+2020-11-15 13:37:15 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-11-15 13:37:15 0 [Note] InnoDB: Uses event mutexes
+2020-11-15 13:37:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-11-15 13:37:15 0 [Note] InnoDB: Number of pools: 1
+2020-11-15 13:37:15 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-11-15 13:37:15 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-11-15 13:37:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-11-15 13:37:15 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-11-15 13:37:15 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-11-15 13:37:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-11-15 13:37:15 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-11-15 13:37:15 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-11-15 13:37:15 0 [Note] InnoDB: 10.3.17 started; log sequence number 1630824; transaction id 21
+2020-11-15 13:37:15 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-11-15 13:37:15 0 [Note] InnoDB: Buffer pool(s) load completed at 201115 13:37:15
+2020-11-15 13:37:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-11-15 13:37:15 0 [Warning] mysqld: GSSAPI plugin : default principal 'mariadb/zhonderich-rns.ravz.com@' not found in keytab
+2020-11-15 13:37:15 0 [ERROR] mysqld: Server GSSAPI error (major 851968, minor 2529639093) : gss_acquire_cred failed -Unspecified GSS failure.  Minor code may provide more information. Keytab FILE:/etc/krb5.keytab is nonexistent or empty. 
+2020-11-15 13:37:15 0 [ERROR] Plugin 'gssapi' init function returned error.
+2020-11-15 13:37:15 0 [Note] Server socket created on IP: '::'.
+2020-11-15 13:37:15 0 [Note] Reading of all Master_info entries succeeded
+2020-11-15 13:37:15 0 [Note] Added new Master_info '' to hash table
+2020-11-15 13:37:15 0 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '10.3.17-MariaDB'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MariaDB Server
+2020-11-15 13:40:52 8 [Warning] Access denied for user 'student'@'localhost' (using password: NO)
+2020-11-15 15:58:27 10 [Warning] IP address '192.168.13.2' could not be resolved: Name or service not known
+2020-11-15 16:00:51 0 [Note] /usr/libexec/mysqld (initiated by: unknown): Normal shutdown
+2020-11-15 16:00:51 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-11-15 16:00:51 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-11-15 16:00:51 0 [Note] InnoDB: Starting shutdown...
+2020-11-15 16:00:51 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2020-11-15 16:00:51 0 [Note] InnoDB: Buffer pool(s) dump completed at 201115 16:00:51
+2020-11-15 16:00:53 0 [Note] InnoDB: Shutdown completed; log sequence number 1630833; transaction id 24
+2020-11-15 16:00:53 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-11-15 16:00:53 0 [Note] /usr/libexec/mysqld: Shutdown complete
+
+2020-11-15 16:00:53 0 [Note] InnoDB: Using Linux native AIO
+2020-11-15 16:00:53 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-11-15 16:00:53 0 [Note] InnoDB: Uses event mutexes
+2020-11-15 16:00:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-11-15 16:00:53 0 [Note] InnoDB: Number of pools: 1
+2020-11-15 16:00:53 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-11-15 16:00:53 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-11-15 16:00:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-11-15 16:00:53 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-11-15 16:00:53 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-11-15 16:00:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-11-15 16:00:53 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-11-15 16:00:53 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-11-15 16:00:53 0 [Note] InnoDB: Waiting for purge to start
+2020-11-15 16:00:53 0 [Note] InnoDB: 10.3.17 started; log sequence number 1630833; transaction id 21
+2020-11-15 16:00:53 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-11-15 16:00:53 0 [Note] InnoDB: Buffer pool(s) load completed at 201115 16:00:53
+2020-11-15 16:00:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-11-15 16:00:53 0 [Warning] mysqld: GSSAPI plugin : default principal 'mariadb/zhonderich-rns.ravz.com@' not found in keytab
+2020-11-15 16:00:53 0 [ERROR] mysqld: Server GSSAPI error (major 851968, minor 2529639093) : gss_acquire_cred failed -Unspecified GSS failure.  Minor code may provide more information. Keytab FILE:/etc/krb5.keytab is nonexistent or empty. 
+2020-11-15 16:00:53 0 [ERROR] Plugin 'gssapi' init function returned error.
+2020-11-15 16:00:53 0 [Note] Server socket created on IP: '0.0.0.0'.
+2020-11-15 16:00:53 0 [Note] Reading of all Master_info entries succeeded
+2020-11-15 16:00:53 0 [Note] Added new Master_info '' to hash table
+2020-11-15 16:00:53 0 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '10.3.17-MariaDB'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MariaDB Server
+2020-11-15 16:01:15 8 [Warning] IP address '192.168.13.2' could not be resolved: Name or service not known
+2020-11-15 16:27:15 14 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2020-11-15 16:29:16 16 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2020-11-15 16:33:16 20 [Warning] Access denied for user 'root'@'localhost' (using password: YES)

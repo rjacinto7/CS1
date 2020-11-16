@@ -1,0 +1,1635 @@
+Nov  1 03:15:01 localhost rsyslogd[1179]: [origin software="rsyslogd" swVersion="8.1911.0-3.el8" x-pid="1179" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Nov  1 04:09:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 04:18:58 localhost dnf[8942]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:27
+Nov  1 04:18:58 localhost dnf[8942]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 04:18:58 localhost dnf[8942]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 04:18:58 localhost dnf[8942]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 04:18:58 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 04:18:58 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 04:18:58 localhost systemd[1]: Failed to start dnf makecache.
+Nov  1 05:19:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 05:19:30 localhost dnf[8980]: Metadata cache refreshed recently.
+Nov  1 05:19:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 06:20:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 06:20:30 localhost dnf[9003]: Metadata cache refreshed recently.
+Nov  1 06:20:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 06:37:33 localhost NetworkManager[1011]: <error> [1604230653.7732] dhcp4 (ens192): error -113 dispatching events
+Nov  1 06:37:33 localhost NetworkManager[1011]: <info>  [1604230653.7740] dhcp4 (ens192): state changed bound -> fail
+Nov  1 06:37:33 localhost NetworkManager[1011]: <info>  [1604230653.7742] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7230] device (ens192): DHCPv4: grace period expired
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7230] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  1 06:39:03 localhost NetworkManager[1011]: <warn>  [1604230743.7245] device (ens192): Activation: failed for connection 'ens192'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7253] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7266] dhcp4 (ens192): canceled DHCP transaction
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7266] dhcp4 (ens192): state changed fail -> done
+Nov  1 06:39:03 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  1 06:39:03 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7577] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7587] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7588] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7591] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7699] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7701] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 06:39:03 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 06:39:03 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7768] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7768] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7768] dhcp4 (ens192): option expiry               => '1604317143'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7768] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7768] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7768] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7768] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7768] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7768] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_routers    => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7769] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7770] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7770] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7770] dhcp4 (ens192): state changed unknown -> bound
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7780] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7876] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7878] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  1 06:39:03 localhost NetworkManager[1011]: <info>  [1604230743.7918] device (ens192): Activation: successful, device activated.
+Nov  1 07:21:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 07:30:59 localhost dnf[9034]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:28
+Nov  1 07:30:59 localhost dnf[9034]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 07:30:59 localhost dnf[9034]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 07:30:59 localhost dnf[9034]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 07:30:59 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 07:30:59 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 07:30:59 localhost systemd[1]: Failed to start dnf makecache.
+Nov  1 08:31:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 08:31:30 localhost dnf[9071]: Metadata cache refreshed recently.
+Nov  1 08:31:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 09:32:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 09:32:30 localhost dnf[9094]: Metadata cache refreshed recently.
+Nov  1 09:32:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 10:33:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 10:42:59 localhost dnf[9118]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:28
+Nov  1 10:42:59 localhost dnf[9118]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 10:42:59 localhost dnf[9118]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 10:42:59 localhost dnf[9118]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 10:42:59 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 10:42:59 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 10:42:59 localhost systemd[1]: Failed to start dnf makecache.
+Nov  1 11:43:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 11:43:30 localhost dnf[9155]: Metadata cache refreshed recently.
+Nov  1 11:43:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 12:44:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 12:44:30 localhost dnf[9179]: Metadata cache refreshed recently.
+Nov  1 12:44:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 13:45:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 13:54:59 localhost dnf[9202]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:28
+Nov  1 13:54:59 localhost dnf[9202]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 13:54:59 localhost dnf[9202]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 13:54:59 localhost dnf[9202]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 13:54:59 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 13:54:59 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 13:54:59 localhost systemd[1]: Failed to start dnf makecache.
+Nov  1 14:55:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 14:55:30 localhost dnf[9239]: Metadata cache refreshed recently.
+Nov  1 14:55:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 15:56:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 15:56:30 localhost dnf[9262]: Metadata cache refreshed recently.
+Nov  1 15:56:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 16:57:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 17:06:52 localhost dnf[9285]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:21
+Nov  1 17:06:52 localhost dnf[9285]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 17:06:52 localhost dnf[9285]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 17:06:52 localhost dnf[9285]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 17:06:52 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 17:06:52 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 17:06:52 localhost systemd[1]: Failed to start dnf makecache.
+Nov  1 18:07:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 18:07:30 localhost dnf[9333]: Metadata cache refreshed recently.
+Nov  1 18:07:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 18:32:30 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  1 18:32:30 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Nov  1 18:39:03 localhost NetworkManager[1011]: <error> [1604273943.7735] dhcp4 (ens192): error -113 dispatching events
+Nov  1 18:39:03 localhost NetworkManager[1011]: <info>  [1604273943.7743] dhcp4 (ens192): state changed bound -> fail
+Nov  1 18:39:03 localhost NetworkManager[1011]: <info>  [1604273943.7744] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7231] device (ens192): DHCPv4: grace period expired
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7232] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  1 18:40:33 localhost NetworkManager[1011]: <warn>  [1604274033.7247] device (ens192): Activation: failed for connection 'ens192'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7256] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7273] dhcp4 (ens192): canceled DHCP transaction
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7274] dhcp4 (ens192): state changed fail -> done
+Nov  1 18:40:33 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  1 18:40:33 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7576] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7586] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7587] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7590] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7697] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7700] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 18:40:33 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 18:40:33 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7759] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option expiry               => '1604360433'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7760] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): option requested_routers    => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7761] dhcp4 (ens192): state changed unknown -> bound
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7771] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7865] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7867] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  1 18:40:33 localhost NetworkManager[1011]: <info>  [1604274033.7909] device (ens192): Activation: successful, device activated.
+Nov  1 19:08:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 19:08:30 localhost dnf[9367]: Metadata cache refreshed recently.
+Nov  1 19:08:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 20:09:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 20:18:58 localhost dnf[9391]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:27
+Nov  1 20:18:58 localhost dnf[9391]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 20:18:58 localhost dnf[9391]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 20:18:58 localhost dnf[9391]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 20:18:58 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 20:18:58 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 20:18:58 localhost systemd[1]: Failed to start dnf makecache.
+Nov  1 21:19:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 21:19:30 localhost dnf[9428]: Metadata cache refreshed recently.
+Nov  1 21:19:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 22:20:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 22:20:30 localhost dnf[9451]: Metadata cache refreshed recently.
+Nov  1 22:20:30 localhost systemd[1]: Started dnf makecache.
+Nov  1 23:21:30 localhost systemd[1]: Starting dnf makecache...
+Nov  1 23:30:52 localhost dnf[9474]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:21
+Nov  1 23:30:52 localhost dnf[9474]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 23:30:52 localhost dnf[9474]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 23:30:52 localhost dnf[9474]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  1 23:30:52 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 23:30:52 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 23:30:52 localhost systemd[1]: Failed to start dnf makecache.
+Nov  2 00:00:30 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  2 00:01:57 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  2 00:31:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 00:31:30 localhost dnf[9515]: Metadata cache refreshed recently.
+Nov  2 00:31:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 01:32:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 01:32:30 localhost dnf[9540]: Metadata cache refreshed recently.
+Nov  2 01:32:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 02:33:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 02:42:59 localhost dnf[9566]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:28
+Nov  2 02:42:59 localhost dnf[9566]: Errors during downloading metadata for repository 'AppStream':
+Nov  2 02:42:59 localhost dnf[9566]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 02:42:59 localhost dnf[9566]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 02:42:59 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  2 02:42:59 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  2 02:42:59 localhost systemd[1]: Failed to start dnf makecache.
+Nov  2 03:43:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 03:43:30 localhost dnf[9614]: Metadata cache refreshed recently.
+Nov  2 03:43:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 04:44:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 04:44:30 localhost dnf[9639]: Metadata cache refreshed recently.
+Nov  2 04:44:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 05:45:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 05:54:56 localhost dnf[9662]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:25
+Nov  2 05:54:56 localhost dnf[9662]: Errors during downloading metadata for repository 'AppStream':
+Nov  2 05:54:56 localhost dnf[9662]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 05:54:56 localhost dnf[9662]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 05:54:56 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  2 05:54:56 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  2 05:54:56 localhost systemd[1]: Failed to start dnf makecache.
+Nov  2 06:40:33 localhost NetworkManager[1011]: <error> [1604317233.7740] dhcp4 (ens192): error -113 dispatching events
+Nov  2 06:40:33 localhost NetworkManager[1011]: <info>  [1604317233.7746] dhcp4 (ens192): state changed bound -> fail
+Nov  2 06:40:33 localhost NetworkManager[1011]: <info>  [1604317233.7746] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7228] device (ens192): DHCPv4: grace period expired
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7229] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  2 06:42:03 localhost NetworkManager[1011]: <warn>  [1604317323.7244] device (ens192): Activation: failed for connection 'ens192'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7252] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7264] dhcp4 (ens192): canceled DHCP transaction
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7264] dhcp4 (ens192): state changed fail -> done
+Nov  2 06:42:03 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  2 06:42:03 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7583] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7593] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7594] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7598] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7710] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7713] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  2 06:42:03 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  2 06:42:03 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7779] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7779] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7779] dhcp4 (ens192): option expiry               => '1604403723'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7779] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7779] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7779] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_routers    => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7780] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7781] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7781] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7781] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7781] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7781] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7781] dhcp4 (ens192): state changed unknown -> bound
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7791] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7887] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7889] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  2 06:42:03 localhost NetworkManager[1011]: <info>  [1604317323.7930] device (ens192): Activation: successful, device activated.
+Nov  2 06:55:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 06:55:30 localhost dnf[9707]: Metadata cache refreshed recently.
+Nov  2 06:55:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 07:56:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 07:56:30 localhost dnf[9730]: Metadata cache refreshed recently.
+Nov  2 07:56:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 08:57:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 09:06:52 localhost dnf[9753]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:21
+Nov  2 09:06:52 localhost dnf[9753]: Errors during downloading metadata for repository 'AppStream':
+Nov  2 09:06:52 localhost dnf[9753]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 09:06:52 localhost dnf[9753]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 09:06:52 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  2 09:06:52 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  2 09:06:52 localhost systemd[1]: Failed to start dnf makecache.
+Nov  2 10:07:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 10:07:30 localhost dnf[9801]: Metadata cache refreshed recently.
+Nov  2 10:07:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 11:08:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 11:08:30 localhost dnf[9825]: Metadata cache refreshed recently.
+Nov  2 11:08:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 12:09:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 12:18:56 localhost dnf[9849]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:25
+Nov  2 12:18:56 localhost dnf[9849]: Errors during downloading metadata for repository 'AppStream':
+Nov  2 12:18:56 localhost dnf[9849]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 12:18:56 localhost dnf[9849]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 12:18:56 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  2 12:18:56 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  2 12:18:56 localhost systemd[1]: Failed to start dnf makecache.
+Nov  2 13:19:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 13:19:30 localhost dnf[9886]: Metadata cache refreshed recently.
+Nov  2 13:19:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 14:20:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 14:20:30 localhost dnf[9909]: Metadata cache refreshed recently.
+Nov  2 14:20:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 15:21:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 15:30:56 localhost dnf[9932]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:25
+Nov  2 15:30:56 localhost dnf[9932]: Errors during downloading metadata for repository 'AppStream':
+Nov  2 15:30:56 localhost dnf[9932]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 15:30:56 localhost dnf[9932]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 15:30:56 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  2 15:30:56 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  2 15:30:56 localhost systemd[1]: Failed to start dnf makecache.
+Nov  2 16:31:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 16:31:30 localhost dnf[9969]: Metadata cache refreshed recently.
+Nov  2 16:31:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 17:32:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 17:32:30 localhost dnf[9992]: Metadata cache refreshed recently.
+Nov  2 17:32:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 18:33:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 18:33:30 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  2 18:33:30 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Nov  2 18:42:03 localhost NetworkManager[1011]: <error> [1604360523.7745] dhcp4 (ens192): error -113 dispatching events
+Nov  2 18:42:03 localhost NetworkManager[1011]: <info>  [1604360523.7749] dhcp4 (ens192): state changed bound -> fail
+Nov  2 18:42:03 localhost NetworkManager[1011]: <info>  [1604360523.7751] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  2 18:42:48 localhost dnf[10016]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:17
+Nov  2 18:42:48 localhost dnf[10016]: Errors during downloading metadata for repository 'AppStream':
+Nov  2 18:42:48 localhost dnf[10016]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 18:42:48 localhost dnf[10016]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 18:42:48 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  2 18:42:48 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  2 18:42:48 localhost systemd[1]: Failed to start dnf makecache.
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7227] device (ens192): DHCPv4: grace period expired
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7228] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  2 18:43:33 localhost NetworkManager[1011]: <warn>  [1604360613.7241] device (ens192): Activation: failed for connection 'ens192'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7250] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7260] dhcp4 (ens192): canceled DHCP transaction
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7261] dhcp4 (ens192): state changed fail -> done
+Nov  2 18:43:33 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  2 18:43:33 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7543] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7552] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7553] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7556] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7672] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7674] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  2 18:43:33 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  2 18:43:33 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7780] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7780] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7780] dhcp4 (ens192): option expiry               => '1604447013'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7780] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7780] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7781] dhcp4 (ens192): option requested_routers    => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7782] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7782] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7782] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7782] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7782] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7782] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7782] dhcp4 (ens192): state changed unknown -> bound
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7792] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7842] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7844] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  2 18:43:33 localhost NetworkManager[1011]: <info>  [1604360613.7887] device (ens192): Activation: successful, device activated.
+Nov  2 19:43:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 19:43:30 localhost dnf[10063]: Metadata cache refreshed recently.
+Nov  2 19:43:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 20:44:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 20:44:30 localhost dnf[10086]: Metadata cache refreshed recently.
+Nov  2 20:44:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 21:45:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 21:54:52 localhost dnf[10110]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:21
+Nov  2 21:54:52 localhost dnf[10110]: Errors during downloading metadata for repository 'AppStream':
+Nov  2 21:54:52 localhost dnf[10110]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 21:54:52 localhost dnf[10110]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  2 21:54:52 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  2 21:54:52 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  2 21:54:52 localhost systemd[1]: Failed to start dnf makecache.
+Nov  2 22:55:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 22:55:30 localhost dnf[10147]: Metadata cache refreshed recently.
+Nov  2 22:55:30 localhost systemd[1]: Started dnf makecache.
+Nov  2 23:56:30 localhost systemd[1]: Starting dnf makecache...
+Nov  2 23:56:30 localhost dnf[10170]: Metadata cache refreshed recently.
+Nov  2 23:56:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 00:00:30 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  3 00:01:57 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  3 00:57:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 01:06:58 localhost dnf[10197]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:27
+Nov  3 01:06:58 localhost dnf[10197]: Errors during downloading metadata for repository 'AppStream':
+Nov  3 01:06:58 localhost dnf[10197]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 01:06:58 localhost dnf[10197]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 01:06:58 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  3 01:06:58 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  3 01:06:58 localhost systemd[1]: Failed to start dnf makecache.
+Nov  3 02:07:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 02:07:30 localhost dnf[10249]: Metadata cache refreshed recently.
+Nov  3 02:07:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 03:08:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 03:08:30 localhost dnf[10274]: Metadata cache refreshed recently.
+Nov  3 03:08:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 04:09:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 04:18:52 localhost dnf[10307]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:21
+Nov  3 04:18:52 localhost dnf[10307]: Errors during downloading metadata for repository 'AppStream':
+Nov  3 04:18:52 localhost dnf[10307]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 04:18:52 localhost dnf[10307]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 04:18:52 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  3 04:18:52 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  3 04:18:52 localhost systemd[1]: Failed to start dnf makecache.
+Nov  3 05:19:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 05:19:30 localhost dnf[10343]: Metadata cache refreshed recently.
+Nov  3 05:19:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 06:20:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 06:20:30 localhost dnf[10367]: Metadata cache refreshed recently.
+Nov  3 06:20:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 06:43:33 localhost NetworkManager[1011]: <error> [1604403813.7712] dhcp4 (ens192): error -113 dispatching events
+Nov  3 06:43:33 localhost NetworkManager[1011]: <info>  [1604403813.7716] dhcp4 (ens192): state changed bound -> fail
+Nov  3 06:43:33 localhost NetworkManager[1011]: <info>  [1604403813.7717] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7223] device (ens192): DHCPv4: grace period expired
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7224] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  3 06:45:03 localhost NetworkManager[1011]: <warn>  [1604403903.7239] device (ens192): Activation: failed for connection 'ens192'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7248] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7264] dhcp4 (ens192): canceled DHCP transaction
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7264] dhcp4 (ens192): state changed fail -> done
+Nov  3 06:45:03 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  3 06:45:03 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7587] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7596] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7597] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7600] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7706] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7709] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  3 06:45:03 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  3 06:45:03 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7775] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7775] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option expiry               => '1604490303'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7776] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7777] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7777] dhcp4 (ens192): option requested_routers    => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7777] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7777] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7777] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7777] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7777] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7777] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7777] dhcp4 (ens192): state changed unknown -> bound
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7787] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7886] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7888] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  3 06:45:03 localhost NetworkManager[1011]: <info>  [1604403903.7929] device (ens192): Activation: successful, device activated.
+Nov  3 07:21:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 07:31:00 localhost dnf[10398]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:29
+Nov  3 07:31:00 localhost dnf[10398]: Errors during downloading metadata for repository 'AppStream':
+Nov  3 07:31:00 localhost dnf[10398]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 07:31:00 localhost dnf[10398]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 07:31:00 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  3 07:31:00 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  3 07:31:00 localhost systemd[1]: Failed to start dnf makecache.
+Nov  3 08:31:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 08:31:30 localhost dnf[10435]: Metadata cache refreshed recently.
+Nov  3 08:31:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 09:32:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 09:32:30 localhost dnf[10458]: Metadata cache refreshed recently.
+Nov  3 09:32:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 10:33:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 10:42:56 localhost dnf[10482]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:25
+Nov  3 10:42:56 localhost dnf[10482]: Errors during downloading metadata for repository 'AppStream':
+Nov  3 10:42:56 localhost dnf[10482]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 10:42:56 localhost dnf[10482]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 10:42:56 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  3 10:42:56 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  3 10:42:56 localhost systemd[1]: Failed to start dnf makecache.
+Nov  3 11:43:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 11:43:30 localhost dnf[10518]: Metadata cache refreshed recently.
+Nov  3 11:43:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 12:44:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 12:44:30 localhost dnf[10542]: Metadata cache refreshed recently.
+Nov  3 12:44:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 13:45:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 13:54:56 localhost dnf[10565]: CentOS-8 - AppStream                            0.0  B/s |   0  B     09:25
+Nov  3 13:54:56 localhost dnf[10565]: Errors during downloading metadata for repository 'AppStream':
+Nov  3 13:54:56 localhost dnf[10565]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 13:54:56 localhost dnf[10565]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 13:54:56 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  3 13:54:56 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  3 13:54:56 localhost systemd[1]: Failed to start dnf makecache.
+Nov  3 14:55:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 14:55:30 localhost dnf[10602]: Metadata cache refreshed recently.
+Nov  3 14:55:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 15:56:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 15:56:30 localhost dnf[10625]: Metadata cache refreshed recently.
+Nov  3 15:56:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 16:57:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 17:08:45 localhost dnf[10648]: CentOS-8 - AppStream                            0.0  B/s |   0  B     11:15
+Nov  3 17:08:45 localhost dnf[10648]: Errors during downloading metadata for repository 'AppStream':
+Nov  3 17:08:45 localhost dnf[10648]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 17:08:45 localhost dnf[10648]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 17:08:45 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  3 17:08:45 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  3 17:08:45 localhost systemd[1]: Failed to start dnf makecache.
+Nov  3 18:09:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 18:09:30 localhost dnf[10697]: Metadata cache refreshed recently.
+Nov  3 18:09:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 18:34:30 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  3 18:34:30 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Nov  3 18:45:03 localhost NetworkManager[1011]: <error> [1604447103.7746] dhcp4 (ens192): error -113 dispatching events
+Nov  3 18:45:03 localhost NetworkManager[1011]: <info>  [1604447103.7747] dhcp4 (ens192): state changed bound -> fail
+Nov  3 18:45:03 localhost NetworkManager[1011]: <info>  [1604447103.7748] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8014] device (ens192): DHCPv4: grace period expired
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8018] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  3 18:46:33 localhost NetworkManager[1011]: <warn>  [1604447193.8036] device (ens192): Activation: failed for connection 'ens192'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8045] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8057] dhcp4 (ens192): canceled DHCP transaction
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8058] dhcp4 (ens192): state changed fail -> done
+Nov  3 18:46:33 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  3 18:46:33 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8386] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8396] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8396] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8400] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8515] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8518] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  3 18:46:33 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  3 18:46:33 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8622] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8622] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8622] dhcp4 (ens192): option expiry               => '1604533593'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8622] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8622] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8622] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_routers    => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8623] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8624] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8624] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8624] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8624] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8624] dhcp4 (ens192): state changed unknown -> bound
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8634] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8680] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8682] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  3 18:46:33 localhost NetworkManager[1011]: <info>  [1604447193.8725] device (ens192): Activation: successful, device activated.
+Nov  3 19:10:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 19:10:30 localhost dnf[10730]: Metadata cache refreshed recently.
+Nov  3 19:10:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 20:11:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 20:22:45 localhost dnf[10753]: CentOS-8 - AppStream                            0.0  B/s |   0  B     11:14
+Nov  3 20:22:45 localhost dnf[10753]: Errors during downloading metadata for repository 'AppStream':
+Nov  3 20:22:45 localhost dnf[10753]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 20:22:45 localhost dnf[10753]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 20:22:45 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  3 20:22:45 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  3 20:22:45 localhost systemd[1]: Failed to start dnf makecache.
+Nov  3 21:23:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 21:23:30 localhost dnf[10791]: Metadata cache refreshed recently.
+Nov  3 21:23:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 22:24:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 22:24:30 localhost dnf[10815]: Metadata cache refreshed recently.
+Nov  3 22:24:30 localhost systemd[1]: Started dnf makecache.
+Nov  3 23:25:30 localhost systemd[1]: Starting dnf makecache...
+Nov  3 23:36:45 localhost dnf[10838]: CentOS-8 - AppStream                            0.0  B/s |   0  B     11:15
+Nov  3 23:36:45 localhost dnf[10838]: Errors during downloading metadata for repository 'AppStream':
+Nov  3 23:36:45 localhost dnf[10838]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 23:36:45 localhost dnf[10838]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  3 23:36:45 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  3 23:36:45 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  3 23:36:45 localhost systemd[1]: Failed to start dnf makecache.
+Nov  4 00:00:30 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  4 00:01:57 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  4 00:37:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 00:37:30 localhost dnf[10879]: Metadata cache refreshed recently.
+Nov  4 00:37:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 01:38:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 01:38:30 localhost dnf[10904]: Metadata cache refreshed recently.
+Nov  4 01:38:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 02:39:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 02:50:45 localhost dnf[10930]: CentOS-8 - AppStream                            0.0  B/s |   0  B     11:15
+Nov  4 02:50:45 localhost dnf[10930]: Errors during downloading metadata for repository 'AppStream':
+Nov  4 02:50:45 localhost dnf[10930]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  4 02:50:45 localhost dnf[10930]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  4 02:50:45 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  4 02:50:45 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  4 02:50:45 localhost systemd[1]: Failed to start dnf makecache.
+Nov  4 03:51:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 03:51:30 localhost dnf[10978]: Metadata cache refreshed recently.
+Nov  4 03:51:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 04:52:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 04:52:30 localhost dnf[11003]: Metadata cache refreshed recently.
+Nov  4 04:52:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 05:53:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 05:58:43 localhost dnf[11027]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  4 05:58:43 localhost dnf[11027]: Errors during downloading metadata for repository 'AppStream':
+Nov  4 05:58:43 localhost dnf[11027]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  4 05:58:43 localhost dnf[11027]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 05:58:43 localhost dnf[11027]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 05:58:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  4 05:58:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  4 05:58:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  4 06:46:33 localhost NetworkManager[1011]: <error> [1604490393.8559] dhcp4 (ens192): error -113 dispatching events
+Nov  4 06:46:33 localhost NetworkManager[1011]: <info>  [1604490393.8564] dhcp4 (ens192): state changed bound -> fail
+Nov  4 06:46:33 localhost NetworkManager[1011]: <info>  [1604490393.8565] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7227] device (ens192): DHCPv4: grace period expired
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7227] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  4 06:48:03 localhost NetworkManager[1011]: <warn>  [1604490483.7241] device (ens192): Activation: failed for connection 'ens192'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7249] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7267] dhcp4 (ens192): canceled DHCP transaction
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7267] dhcp4 (ens192): state changed fail -> done
+Nov  4 06:48:03 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  4 06:48:03 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7580] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7590] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7591] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7594] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7703] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7706] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  4 06:48:03 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7769] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7769] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7769] dhcp4 (ens192): option expiry               => '1604576883'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7769] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7769] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7769] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7769] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7769] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_routers    => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7770] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7771] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7771] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7771] dhcp4 (ens192): state changed unknown -> bound
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7781] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  4 06:48:03 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7886] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7889] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  4 06:48:03 localhost NetworkManager[1011]: <info>  [1604490483.7928] device (ens192): Activation: successful, device activated.
+Nov  4 06:59:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 06:59:30 localhost dnf[11071]: Metadata cache refreshed recently.
+Nov  4 06:59:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 08:00:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 08:00:30 localhost dnf[11094]: Metadata cache refreshed recently.
+Nov  4 08:00:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 09:01:01 localhost systemd[1]: Starting dnf makecache...
+Nov  4 09:06:15 localhost dnf[11119]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  4 09:06:15 localhost dnf[11119]: Errors during downloading metadata for repository 'AppStream':
+Nov  4 09:06:15 localhost dnf[11119]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  4 09:06:15 localhost dnf[11119]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 09:06:15 localhost dnf[11119]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 09:06:15 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  4 09:06:15 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  4 09:06:15 localhost systemd[1]: Failed to start dnf makecache.
+Nov  4 10:06:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 10:06:30 localhost dnf[11165]: Metadata cache refreshed recently.
+Nov  4 10:06:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 11:07:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 11:07:30 localhost dnf[11188]: Metadata cache refreshed recently.
+Nov  4 11:07:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 12:08:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 12:13:43 localhost dnf[11212]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  4 12:13:43 localhost dnf[11212]: Errors during downloading metadata for repository 'AppStream':
+Nov  4 12:13:43 localhost dnf[11212]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  4 12:13:43 localhost dnf[11212]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 12:13:43 localhost dnf[11212]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 12:13:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  4 12:13:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  4 12:13:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  4 13:14:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 13:14:30 localhost dnf[11249]: Metadata cache refreshed recently.
+Nov  4 13:14:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 14:15:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 14:15:30 localhost dnf[11272]: Metadata cache refreshed recently.
+Nov  4 14:15:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 15:16:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 15:21:43 localhost dnf[11295]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:12
+Nov  4 15:21:43 localhost dnf[11295]: Errors during downloading metadata for repository 'AppStream':
+Nov  4 15:21:43 localhost dnf[11295]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 15:21:43 localhost dnf[11295]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  4 15:21:43 localhost dnf[11295]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 15:21:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  4 15:21:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  4 15:21:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  4 16:22:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 16:22:30 localhost dnf[11331]: Metadata cache refreshed recently.
+Nov  4 16:22:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 17:23:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 17:23:30 localhost dnf[11354]: Metadata cache refreshed recently.
+Nov  4 17:23:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 18:24:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 18:29:43 localhost dnf[11378]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  4 18:29:43 localhost dnf[11378]: Errors during downloading metadata for repository 'AppStream':
+Nov  4 18:29:43 localhost dnf[11378]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  4 18:29:43 localhost dnf[11378]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 18:29:43 localhost dnf[11378]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 18:29:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  4 18:29:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  4 18:29:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  4 18:35:30 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  4 18:35:30 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Nov  4 18:48:03 localhost NetworkManager[1011]: <error> [1604533683.7743] dhcp4 (ens192): error -113 dispatching events
+Nov  4 18:48:03 localhost NetworkManager[1011]: <info>  [1604533683.7747] dhcp4 (ens192): state changed bound -> fail
+Nov  4 18:48:03 localhost NetworkManager[1011]: <info>  [1604533683.7750] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7224] device (ens192): DHCPv4: grace period expired
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7225] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  4 18:49:33 localhost NetworkManager[1011]: <warn>  [1604533773.7240] device (ens192): Activation: failed for connection 'ens192'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7249] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7260] dhcp4 (ens192): canceled DHCP transaction
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7260] dhcp4 (ens192): state changed fail -> done
+Nov  4 18:49:33 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  4 18:49:33 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7566] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7576] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7577] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7580] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7685] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7688] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7744] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7744] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option expiry               => '1604620173'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7745] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7746] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7746] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7746] dhcp4 (ens192): option requested_routers    => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7746] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7746] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7746] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7746] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7746] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7746] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7746] dhcp4 (ens192): state changed unknown -> bound
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7757] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  4 18:49:33 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  4 18:49:33 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7860] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7862] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  4 18:49:33 localhost NetworkManager[1011]: <info>  [1604533773.7903] device (ens192): Activation: successful, device activated.
+Nov  4 19:30:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 19:30:30 localhost dnf[11425]: Metadata cache refreshed recently.
+Nov  4 19:30:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 20:31:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 20:31:30 localhost dnf[11448]: Metadata cache refreshed recently.
+Nov  4 20:31:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 21:32:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 21:37:43 localhost dnf[11471]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:12
+Nov  4 21:37:43 localhost dnf[11471]: Errors during downloading metadata for repository 'AppStream':
+Nov  4 21:37:43 localhost dnf[11471]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  4 21:37:43 localhost dnf[11471]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 21:37:43 localhost dnf[11471]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  4 21:37:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  4 21:37:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  4 21:37:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  4 22:38:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 22:38:30 localhost dnf[11507]: Metadata cache refreshed recently.
+Nov  4 22:38:30 localhost systemd[1]: Started dnf makecache.
+Nov  4 23:39:30 localhost systemd[1]: Starting dnf makecache...
+Nov  4 23:39:30 localhost dnf[11531]: Metadata cache refreshed recently.
+Nov  4 23:39:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 00:00:30 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  5 00:01:57 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  5 00:40:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 00:45:43 localhost dnf[11559]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:12
+Nov  5 00:45:43 localhost dnf[11559]: Errors during downloading metadata for repository 'AppStream':
+Nov  5 00:45:43 localhost dnf[11559]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 00:45:43 localhost dnf[11559]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  5 00:45:43 localhost dnf[11559]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 00:45:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  5 00:45:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  5 00:45:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  5 01:46:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 01:46:30 localhost dnf[11597]: Metadata cache refreshed recently.
+Nov  5 01:46:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 02:47:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 02:47:30 localhost dnf[11622]: Metadata cache refreshed recently.
+Nov  5 02:47:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 03:48:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 03:53:43 localhost dnf[11656]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  5 03:53:43 localhost dnf[11656]: Errors during downloading metadata for repository 'AppStream':
+Nov  5 03:53:43 localhost dnf[11656]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 03:53:43 localhost dnf[11656]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  5 03:53:43 localhost dnf[11656]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 03:53:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  5 03:53:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  5 03:53:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  5 04:54:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 04:54:30 localhost dnf[11693]: Metadata cache refreshed recently.
+Nov  5 04:54:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 05:55:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 05:55:30 localhost dnf[11717]: Metadata cache refreshed recently.
+Nov  5 05:55:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 06:49:33 localhost NetworkManager[1011]: <error> [1604576973.7734] dhcp4 (ens192): error -113 dispatching events
+Nov  5 06:49:33 localhost NetworkManager[1011]: <info>  [1604576973.7739] dhcp4 (ens192): state changed bound -> fail
+Nov  5 06:49:33 localhost NetworkManager[1011]: <info>  [1604576973.7739] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7224] device (ens192): DHCPv4: grace period expired
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7225] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  5 06:51:03 localhost NetworkManager[1011]: <warn>  [1604577063.7242] device (ens192): Activation: failed for connection 'ens192'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7251] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7265] dhcp4 (ens192): canceled DHCP transaction
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7265] dhcp4 (ens192): state changed fail -> done
+Nov  5 06:51:03 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  5 06:51:03 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7593] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7602] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7603] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7607] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7717] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7720] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  5 06:51:03 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  5 06:51:03 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7788] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7788] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7788] dhcp4 (ens192): option expiry               => '1604663463'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7788] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7788] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7789] dhcp4 (ens192): option requested_routers    => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7790] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7790] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7790] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7790] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7790] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7790] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7790] dhcp4 (ens192): state changed unknown -> bound
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7800] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7900] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7902] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  5 06:51:03 localhost NetworkManager[1011]: <info>  [1604577063.7943] device (ens192): Activation: successful, device activated.
+Nov  5 06:56:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 07:01:43 localhost dnf[11748]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:12
+Nov  5 07:01:43 localhost dnf[11748]: Errors during downloading metadata for repository 'AppStream':
+Nov  5 07:01:43 localhost dnf[11748]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  5 07:01:43 localhost dnf[11748]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 07:01:43 localhost dnf[11748]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 07:01:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  5 07:01:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  5 07:01:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  5 08:02:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 08:02:30 localhost dnf[11795]: Metadata cache refreshed recently.
+Nov  5 08:02:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 09:03:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 09:03:30 localhost dnf[11818]: Metadata cache refreshed recently.
+Nov  5 09:03:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 10:04:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 10:09:43 localhost dnf[11843]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:12
+Nov  5 10:09:43 localhost dnf[11843]: Errors during downloading metadata for repository 'AppStream':
+Nov  5 10:09:43 localhost dnf[11843]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 10:09:43 localhost dnf[11843]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  5 10:09:43 localhost dnf[11843]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 10:09:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  5 10:09:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  5 10:09:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  5 11:10:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 11:10:30 localhost dnf[11879]: Metadata cache refreshed recently.
+Nov  5 11:10:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 12:11:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 12:11:30 localhost dnf[11902]: Metadata cache refreshed recently.
+Nov  5 12:11:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 13:12:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 13:17:43 localhost dnf[11925]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  5 13:17:43 localhost dnf[11925]: Errors during downloading metadata for repository 'AppStream':
+Nov  5 13:17:43 localhost dnf[11925]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 13:17:43 localhost dnf[11925]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  5 13:17:43 localhost dnf[11925]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 13:17:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  5 13:17:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  5 13:17:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  5 14:18:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 14:18:30 localhost dnf[11961]: Metadata cache refreshed recently.
+Nov  5 14:18:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 15:19:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 15:19:30 localhost dnf[11986]: Metadata cache refreshed recently.
+Nov  5 15:19:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 16:20:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 16:25:43 localhost dnf[12009]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:12
+Nov  5 16:25:43 localhost dnf[12009]: Errors during downloading metadata for repository 'AppStream':
+Nov  5 16:25:43 localhost dnf[12009]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 16:25:43 localhost dnf[12009]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  5 16:25:43 localhost dnf[12009]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 16:25:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  5 16:25:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  5 16:25:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  5 17:26:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 17:26:30 localhost dnf[12045]: Metadata cache refreshed recently.
+Nov  5 17:26:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 18:27:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 18:27:30 localhost dnf[12068]: Metadata cache refreshed recently.
+Nov  5 18:27:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 18:36:30 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  5 18:36:30 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Nov  5 18:51:03 localhost NetworkManager[1011]: <error> [1604620263.7756] dhcp4 (ens192): error -113 dispatching events
+Nov  5 18:51:03 localhost NetworkManager[1011]: <info>  [1604620263.7767] dhcp4 (ens192): state changed bound -> fail
+Nov  5 18:51:03 localhost NetworkManager[1011]: <info>  [1604620263.7768] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7224] device (ens192): DHCPv4: grace period expired
+Nov  5 18:52:33 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7225] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  5 18:52:33 localhost NetworkManager[1011]: <warn>  [1604620353.7238] device (ens192): Activation: failed for connection 'ens192'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7247] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7263] dhcp4 (ens192): canceled DHCP transaction
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7264] dhcp4 (ens192): state changed fail -> done
+Nov  5 18:52:33 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7583] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7593] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7594] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7597] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7705] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7708] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  5 18:52:33 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  5 18:52:33 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7783] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7783] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7783] dhcp4 (ens192): option expiry               => '1604706753'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7783] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7783] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7784] dhcp4 (ens192): option requested_routers    => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7785] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7785] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7785] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7785] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7785] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7785] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7785] dhcp4 (ens192): state changed unknown -> bound
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7794] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7890] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7892] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  5 18:52:33 localhost NetworkManager[1011]: <info>  [1604620353.7933] device (ens192): Activation: successful, device activated.
+Nov  5 19:28:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 19:33:43 localhost dnf[12102]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  5 19:33:43 localhost dnf[12102]: Errors during downloading metadata for repository 'AppStream':
+Nov  5 19:33:43 localhost dnf[12102]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  5 19:33:43 localhost dnf[12102]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 19:33:43 localhost dnf[12102]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 19:33:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  5 19:33:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  5 19:33:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  5 20:34:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 20:34:30 localhost dnf[12138]: Metadata cache refreshed recently.
+Nov  5 20:34:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 21:35:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 21:35:30 localhost dnf[12162]: Metadata cache refreshed recently.
+Nov  5 21:35:30 localhost systemd[1]: Started dnf makecache.
+Nov  5 22:36:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 22:41:43 localhost dnf[12185]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:12
+Nov  5 22:41:43 localhost dnf[12185]: Errors during downloading metadata for repository 'AppStream':
+Nov  5 22:41:43 localhost dnf[12185]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  5 22:41:43 localhost dnf[12185]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 22:41:43 localhost dnf[12185]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  5 22:41:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  5 22:41:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  5 22:41:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  5 23:42:30 localhost systemd[1]: Starting dnf makecache...
+Nov  5 23:42:30 localhost dnf[12221]: Metadata cache refreshed recently.
+Nov  5 23:42:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 00:00:30 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  6 00:01:57 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  6 00:43:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 00:43:30 localhost dnf[12249]: Metadata cache refreshed recently.
+Nov  6 00:43:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 01:44:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 01:49:43 localhost dnf[12274]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  6 01:49:43 localhost dnf[12274]: Errors during downloading metadata for repository 'AppStream':
+Nov  6 01:49:43 localhost dnf[12274]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  6 01:49:43 localhost dnf[12274]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 01:49:43 localhost dnf[12274]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 01:49:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  6 01:49:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  6 01:49:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  6 02:50:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 02:50:30 localhost dnf[12313]: Metadata cache refreshed recently.
+Nov  6 02:50:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 03:51:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 03:51:30 localhost dnf[12347]: Metadata cache refreshed recently.
+Nov  6 03:51:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 04:52:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 04:57:43 localhost dnf[12370]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  6 04:57:43 localhost dnf[12370]: Errors during downloading metadata for repository 'AppStream':
+Nov  6 04:57:43 localhost dnf[12370]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  6 04:57:43 localhost dnf[12370]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 04:57:43 localhost dnf[12370]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 04:57:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  6 04:57:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  6 04:57:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  6 05:58:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 05:58:30 localhost dnf[12406]: Metadata cache refreshed recently.
+Nov  6 05:58:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 06:52:33 localhost NetworkManager[1011]: <error> [1604663553.7753] dhcp4 (ens192): error -113 dispatching events
+Nov  6 06:52:33 localhost NetworkManager[1011]: <info>  [1604663553.7756] dhcp4 (ens192): state changed bound -> fail
+Nov  6 06:52:33 localhost NetworkManager[1011]: <info>  [1604663553.7757] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7227] device (ens192): DHCPv4: grace period expired
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7228] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  6 06:54:03 localhost NetworkManager[1011]: <warn>  [1604663643.7242] device (ens192): Activation: failed for connection 'ens192'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7251] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7267] dhcp4 (ens192): canceled DHCP transaction
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7267] dhcp4 (ens192): state changed fail -> done
+Nov  6 06:54:03 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  6 06:54:03 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7589] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7599] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7600] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7603] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7707] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7710] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  6 06:54:03 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7778] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7778] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option expiry               => '1604750043'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7779] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7780] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7780] dhcp4 (ens192): option requested_routers    => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7780] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7780] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7780] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7780] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7780] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7780] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7780] dhcp4 (ens192): state changed unknown -> bound
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7791] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  6 06:54:03 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7893] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7895] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  6 06:54:03 localhost NetworkManager[1011]: <info>  [1604663643.7934] device (ens192): Activation: successful, device activated.
+Nov  6 06:59:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 06:59:30 localhost dnf[12438]: Metadata cache refreshed recently.
+Nov  6 06:59:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 08:00:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 08:05:43 localhost dnf[12462]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:12
+Nov  6 08:05:43 localhost dnf[12462]: Errors during downloading metadata for repository 'AppStream':
+Nov  6 08:05:43 localhost dnf[12462]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  6 08:05:43 localhost dnf[12462]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 08:05:43 localhost dnf[12462]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 08:05:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  6 08:05:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  6 08:05:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  6 09:06:00 localhost systemd[1]: Starting dnf makecache...
+Nov  6 09:06:00 localhost dnf[12509]: Metadata cache refreshed recently.
+Nov  6 09:06:00 localhost systemd[1]: Started dnf makecache.
+Nov  6 10:06:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 10:06:30 localhost dnf[12532]: Metadata cache refreshed recently.
+Nov  6 10:06:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 11:07:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 11:12:43 localhost dnf[12555]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  6 11:12:43 localhost dnf[12555]: Errors during downloading metadata for repository 'AppStream':
+Nov  6 11:12:43 localhost dnf[12555]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 11:12:43 localhost dnf[12555]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  6 11:12:43 localhost dnf[12555]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 11:12:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  6 11:12:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  6 11:12:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  6 12:13:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 12:13:30 localhost dnf[12591]: Metadata cache refreshed recently.
+Nov  6 12:13:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 13:01:01 localhost rsyslogd[1179]: imjournal: journal files changed, reloading...  [v8.1911.0-3.el8 try https://www.rsyslog.com/e/0 ]
+Nov  6 13:14:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 13:14:30 localhost dnf[12617]: Metadata cache refreshed recently.
+Nov  6 13:14:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 14:15:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 14:20:42 localhost dnf[12640]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:11
+Nov  6 14:20:42 localhost dnf[12640]: Errors during downloading metadata for repository 'AppStream':
+Nov  6 14:20:42 localhost dnf[12640]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 14:20:42 localhost dnf[12640]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  6 14:20:42 localhost dnf[12640]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 14:20:42 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  6 14:20:42 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  6 14:20:42 localhost systemd[1]: Failed to start dnf makecache.
+Nov  6 15:21:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 15:21:30 localhost dnf[12676]: Metadata cache refreshed recently.
+Nov  6 15:21:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 16:22:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 16:22:30 localhost dnf[12699]: Metadata cache refreshed recently.
+Nov  6 16:22:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 17:23:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 17:28:43 localhost dnf[12722]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  6 17:28:43 localhost dnf[12722]: Errors during downloading metadata for repository 'AppStream':
+Nov  6 17:28:43 localhost dnf[12722]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 17:28:43 localhost dnf[12722]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  6 17:28:43 localhost dnf[12722]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 17:28:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  6 17:28:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  6 17:28:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  6 18:29:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 18:29:30 localhost dnf[12759]: Metadata cache refreshed recently.
+Nov  6 18:29:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 18:37:30 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  6 18:37:30 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Nov  6 18:54:03 localhost NetworkManager[1011]: <error> [1604706843.7743] dhcp4 (ens192): error -113 dispatching events
+Nov  6 18:54:03 localhost NetworkManager[1011]: <info>  [1604706843.7753] dhcp4 (ens192): state changed bound -> fail
+Nov  6 18:54:03 localhost NetworkManager[1011]: <info>  [1604706843.7755] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7225] device (ens192): DHCPv4: grace period expired
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7227] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  6 18:55:33 localhost NetworkManager[1011]: <warn>  [1604706933.7246] device (ens192): Activation: failed for connection 'ens192'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7256] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7271] dhcp4 (ens192): canceled DHCP transaction
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7272] dhcp4 (ens192): state changed fail -> done
+Nov  6 18:55:33 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  6 18:55:33 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7590] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7601] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7602] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7605] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7715] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7718] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  6 18:55:33 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  6 18:55:33 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7788] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7788] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7788] dhcp4 (ens192): option expiry               => '1604793333'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7788] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7788] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7788] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7788] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7788] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7788] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_routers    => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7789] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7790] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7790] dhcp4 (ens192): state changed unknown -> bound
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7800] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7896] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7898] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  6 18:55:33 localhost NetworkManager[1011]: <info>  [1604706933.7940] device (ens192): Activation: successful, device activated.
+Nov  6 19:30:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 19:30:30 localhost dnf[12792]: Metadata cache refreshed recently.
+Nov  6 19:30:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 20:31:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 20:36:42 localhost dnf[12815]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:11
+Nov  6 20:36:42 localhost dnf[12815]: Errors during downloading metadata for repository 'AppStream':
+Nov  6 20:36:42 localhost dnf[12815]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  6 20:36:42 localhost dnf[12815]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 20:36:42 localhost dnf[12815]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 20:36:42 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  6 20:36:42 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  6 20:36:42 localhost systemd[1]: Failed to start dnf makecache.
+Nov  6 21:37:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 21:37:30 localhost dnf[12851]: Metadata cache refreshed recently.
+Nov  6 21:37:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 22:38:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 22:38:30 localhost dnf[12874]: Metadata cache refreshed recently.
+Nov  6 22:38:30 localhost systemd[1]: Started dnf makecache.
+Nov  6 23:31:33 localhost systemd[1]: Created slice User Slice of UID 1001.
+Nov  6 23:31:33 localhost systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  6 23:31:33 localhost systemd[1]: Starting User Manager for UID 1001...
+Nov  6 23:31:33 localhost systemd[1]: Started Session 5 of user instructor.
+Nov  6 23:31:33 localhost systemd-logind[1053]: New session 5 of user instructor.
+Nov  6 23:31:33 localhost systemd[12901]: Reached target Paths.
+Nov  6 23:31:33 localhost systemd[12901]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  6 23:31:33 localhost systemd[12901]: Reached target Timers.
+Nov  6 23:31:33 localhost systemd[12901]: Starting D-Bus User Message Bus Socket.
+Nov  6 23:31:33 localhost systemd[12901]: Listening on D-Bus User Message Bus Socket.
+Nov  6 23:31:33 localhost systemd[12901]: Reached target Sockets.
+Nov  6 23:31:33 localhost systemd[12901]: Reached target Basic System.
+Nov  6 23:31:33 localhost systemd[12901]: Reached target Default.
+Nov  6 23:31:33 localhost systemd[12901]: Startup finished in 37ms.
+Nov  6 23:31:33 localhost systemd[1]: Started User Manager for UID 1001.
+Nov  6 23:31:33 localhost systemd-logind[1053]: Session 5 logged out. Waiting for processes to exit.
+Nov  6 23:31:33 localhost systemd-logind[1053]: Removed session 5.
+Nov  6 23:31:33 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  6 23:31:33 localhost systemd[1]: Stopping User Manager for UID 1001...
+Nov  6 23:31:33 localhost systemd[12901]: Stopped target Default.
+Nov  6 23:31:33 localhost systemd[12901]: Stopped target Basic System.
+Nov  6 23:31:33 localhost systemd[12901]: Stopped target Timers.
+Nov  6 23:31:33 localhost systemd[12901]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  6 23:31:33 localhost systemd[12901]: Stopped target Paths.
+Nov  6 23:31:33 localhost systemd[12901]: Stopped target Sockets.
+Nov  6 23:31:33 localhost systemd[12901]: Closed D-Bus User Message Bus Socket.
+Nov  6 23:31:33 localhost systemd[12901]: Reached target Shutdown.
+Nov  6 23:31:33 localhost systemd[12901]: Starting Exit the Session...
+Nov  6 23:31:33 localhost systemd[1]: user@1001.service: Killing process 12927 (systemctl) with signal SIGKILL.
+Nov  6 23:31:33 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  6 23:31:33 localhost systemd[1]: Stopped User Manager for UID 1001.
+Nov  6 23:31:33 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  6 23:31:33 localhost systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  6 23:31:33 localhost systemd[1]: Removed slice User Slice of UID 1001.
+Nov  6 23:31:33 localhost systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  6 23:39:30 localhost systemd[1]: Starting dnf makecache...
+Nov  6 23:44:43 localhost dnf[12938]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:12
+Nov  6 23:44:43 localhost dnf[12938]: Errors during downloading metadata for repository 'AppStream':
+Nov  6 23:44:43 localhost dnf[12938]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  6 23:44:43 localhost dnf[12938]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 23:44:43 localhost dnf[12938]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  6 23:44:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  6 23:44:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  6 23:44:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  7 00:00:30 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  7 00:01:14 localhost systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 00:01:14 localhost systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 00:01:14 localhost systemd[1]: Starting User Manager for UID 1001...
+Nov  7 00:01:14 localhost systemd[1]: Started Session 7 of user instructor.
+Nov  7 00:01:14 localhost systemd-logind[1053]: New session 7 of user instructor.
+Nov  7 00:01:14 localhost systemd[12975]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:01:14 localhost systemd[12975]: Reached target Timers.
+Nov  7 00:01:14 localhost systemd[12975]: Reached target Paths.
+Nov  7 00:01:14 localhost systemd[12975]: Starting D-Bus User Message Bus Socket.
+Nov  7 00:01:14 localhost systemd[12975]: Listening on D-Bus User Message Bus Socket.
+Nov  7 00:01:14 localhost systemd[12975]: Reached target Sockets.
+Nov  7 00:01:14 localhost systemd[12975]: Reached target Basic System.
+Nov  7 00:01:14 localhost systemd[12975]: Reached target Default.
+Nov  7 00:01:14 localhost systemd[12975]: Startup finished in 41ms.
+Nov  7 00:01:14 localhost systemd[1]: Started User Manager for UID 1001.
+Nov  7 00:01:14 localhost systemd-logind[1053]: Session 7 logged out. Waiting for processes to exit.
+Nov  7 00:01:14 localhost systemd-logind[1053]: Removed session 7.
+Nov  7 00:01:14 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:01:14 localhost systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 00:01:14 localhost systemd[12975]: Stopped target Default.
+Nov  7 00:01:14 localhost systemd[12975]: Stopped target Basic System.
+Nov  7 00:01:14 localhost systemd[12975]: Stopped target Sockets.
+Nov  7 00:01:14 localhost systemd[12975]: Closed D-Bus User Message Bus Socket.
+Nov  7 00:01:14 localhost systemd[12975]: Stopped target Paths.
+Nov  7 00:01:14 localhost systemd[12975]: Stopped target Timers.
+Nov  7 00:01:14 localhost systemd[12975]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:01:14 localhost systemd[12975]: Reached target Shutdown.
+Nov  7 00:01:14 localhost systemd[12975]: Starting Exit the Session...
+Nov  7 00:01:14 localhost systemd[1]: user@1001.service: Killing process 13001 (systemctl) with signal SIGKILL.
+Nov  7 00:01:14 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:01:14 localhost systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 00:01:14 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:01:14 localhost systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 00:01:14 localhost systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 00:01:14 localhost systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 00:01:57 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  7 00:45:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 00:45:30 localhost dnf[13019]: Metadata cache refreshed recently.
+Nov  7 00:45:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 00:47:35 localhost systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 00:47:35 localhost systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 00:47:35 localhost systemd[1]: Starting User Manager for UID 1001...
+Nov  7 00:47:35 localhost systemd[1]: Started Session 9 of user instructor.
+Nov  7 00:47:35 localhost systemd-logind[1053]: New session 9 of user instructor.
+Nov  7 00:47:35 localhost systemd[13026]: Reached target Paths.
+Nov  7 00:47:35 localhost systemd[13026]: Starting D-Bus User Message Bus Socket.
+Nov  7 00:47:35 localhost systemd[13026]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:47:35 localhost systemd[13026]: Reached target Timers.
+Nov  7 00:47:35 localhost systemd[13026]: Listening on D-Bus User Message Bus Socket.
+Nov  7 00:47:35 localhost systemd[13026]: Reached target Sockets.
+Nov  7 00:47:35 localhost systemd[13026]: Reached target Basic System.
+Nov  7 00:47:35 localhost systemd[13026]: Reached target Default.
+Nov  7 00:47:35 localhost systemd[13026]: Startup finished in 37ms.
+Nov  7 00:47:35 localhost systemd[1]: Started User Manager for UID 1001.
+Nov  7 00:47:35 localhost systemd-logind[1053]: Session 9 logged out. Waiting for processes to exit.
+Nov  7 00:47:35 localhost systemd-logind[1053]: Removed session 9.
+Nov  7 00:47:35 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:47:35 localhost systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 00:47:35 localhost systemd[13026]: Stopped target Default.
+Nov  7 00:47:35 localhost systemd[13026]: Stopped target Basic System.
+Nov  7 00:47:35 localhost systemd[13026]: Stopped target Timers.
+Nov  7 00:47:35 localhost systemd[13026]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:47:35 localhost systemd[13026]: Stopped target Paths.
+Nov  7 00:47:35 localhost systemd[13026]: Stopped target Sockets.
+Nov  7 00:47:35 localhost systemd[13026]: Closed D-Bus User Message Bus Socket.
+Nov  7 00:47:35 localhost systemd[13026]: Reached target Shutdown.
+Nov  7 00:47:35 localhost systemd[13026]: Starting Exit the Session...
+Nov  7 00:47:35 localhost systemd[1]: user@1001.service: Killing process 13052 (systemctl) with signal SIGKILL.
+Nov  7 00:47:35 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:47:35 localhost systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 00:47:35 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:47:35 localhost systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 00:47:35 localhost systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 00:47:35 localhost systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 00:59:07 localhost systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 00:59:07 localhost systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 00:59:07 localhost systemd[1]: Starting User Manager for UID 1001...
+Nov  7 00:59:07 localhost systemd[1]: Started Session 11 of user instructor.
+Nov  7 00:59:07 localhost systemd-logind[1053]: New session 11 of user instructor.
+Nov  7 00:59:08 localhost systemd[13068]: Reached target Paths.
+Nov  7 00:59:08 localhost systemd[13068]: Starting D-Bus User Message Bus Socket.
+Nov  7 00:59:08 localhost systemd[13068]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:59:08 localhost systemd[13068]: Reached target Timers.
+Nov  7 00:59:08 localhost systemd[13068]: Listening on D-Bus User Message Bus Socket.
+Nov  7 00:59:08 localhost systemd[13068]: Reached target Sockets.
+Nov  7 00:59:08 localhost systemd[13068]: Reached target Basic System.
+Nov  7 00:59:08 localhost systemd[13068]: Reached target Default.
+Nov  7 00:59:08 localhost systemd[13068]: Startup finished in 39ms.
+Nov  7 00:59:08 localhost systemd[1]: Started User Manager for UID 1001.
+Nov  7 00:59:08 localhost systemd-logind[1053]: Session 11 logged out. Waiting for processes to exit.
+Nov  7 00:59:08 localhost systemd-logind[1053]: Removed session 11.
+Nov  7 00:59:08 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:59:08 localhost systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 00:59:08 localhost systemd[13068]: Stopped target Default.
+Nov  7 00:59:08 localhost systemd[13068]: Stopped target Basic System.
+Nov  7 00:59:08 localhost systemd[13068]: Stopped target Sockets.
+Nov  7 00:59:08 localhost systemd[13068]: Closed D-Bus User Message Bus Socket.
+Nov  7 00:59:08 localhost systemd[13068]: Stopped target Paths.
+Nov  7 00:59:08 localhost systemd[13068]: Stopped target Timers.
+Nov  7 00:59:08 localhost systemd[13068]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:59:08 localhost systemd[13068]: Reached target Shutdown.
+Nov  7 00:59:08 localhost systemd[13068]: Starting Exit the Session...
+Nov  7 00:59:08 localhost systemd[1]: user@1001.service: Killing process 13094 (systemctl) with signal SIGKILL.
+Nov  7 00:59:08 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:59:08 localhost systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 00:59:08 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:59:08 localhost systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 00:59:08 localhost systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 00:59:08 localhost systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 01:46:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 01:46:30 localhost dnf[13124]: Metadata cache refreshed recently.
+Nov  7 01:46:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 02:47:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 02:52:42 localhost dnf[13149]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:11
+Nov  7 02:52:42 localhost dnf[13149]: Errors during downloading metadata for repository 'AppStream':
+Nov  7 02:52:42 localhost dnf[13149]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 02:52:42 localhost dnf[13149]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  7 02:52:42 localhost dnf[13149]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 02:52:42 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  7 02:52:42 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  7 02:52:42 localhost systemd[1]: Failed to start dnf makecache.
+Nov  7 03:53:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 03:53:30 localhost dnf[13197]: Metadata cache refreshed recently.
+Nov  7 03:53:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 04:54:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 04:54:30 localhost dnf[13220]: Metadata cache refreshed recently.
+Nov  7 04:54:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 05:55:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 06:00:43 localhost dnf[13244]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  7 06:00:43 localhost dnf[13244]: Errors during downloading metadata for repository 'AppStream':
+Nov  7 06:00:43 localhost dnf[13244]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 06:00:43 localhost dnf[13244]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  7 06:00:43 localhost dnf[13244]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 06:00:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  7 06:00:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  7 06:00:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  7 06:55:33 localhost NetworkManager[1011]: <error> [1604750133.7759] dhcp4 (ens192): error -113 dispatching events
+Nov  7 06:55:33 localhost NetworkManager[1011]: <info>  [1604750133.7765] dhcp4 (ens192): state changed bound -> fail
+Nov  7 06:55:33 localhost NetworkManager[1011]: <info>  [1604750133.7766] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7221] device (ens192): DHCPv4: grace period expired
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7222] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  7 06:57:03 localhost NetworkManager[1011]: <warn>  [1604750223.7237] device (ens192): Activation: failed for connection 'ens192'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7246] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7262] dhcp4 (ens192): canceled DHCP transaction
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7262] dhcp4 (ens192): state changed fail -> done
+Nov  7 06:57:03 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  7 06:57:03 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7593] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7602] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7603] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7606] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7713] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7715] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  7 06:57:03 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7786] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7786] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7786] dhcp4 (ens192): option expiry               => '1604836623'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7786] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7786] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7786] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7786] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7786] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_routers    => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7787] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7788] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7788] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7788] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7788] dhcp4 (ens192): state changed unknown -> bound
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7798] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  7 06:57:03 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7909] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7911] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  7 06:57:03 localhost NetworkManager[1011]: <info>  [1604750223.7953] device (ens192): Activation: successful, device activated.
+Nov  7 07:01:01 localhost systemd[1]: Starting dnf makecache...
+Nov  7 07:01:02 localhost dnf[13289]: Metadata cache refreshed recently.
+Nov  7 07:01:02 localhost systemd[1]: Started dnf makecache.
+Nov  7 08:01:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 08:01:30 localhost dnf[13322]: Metadata cache refreshed recently.
+Nov  7 08:01:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 09:02:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 09:07:42 localhost dnf[13345]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:11
+Nov  7 09:07:42 localhost dnf[13345]: Errors during downloading metadata for repository 'AppStream':
+Nov  7 09:07:42 localhost dnf[13345]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 09:07:42 localhost dnf[13345]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  7 09:07:42 localhost dnf[13345]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 09:07:42 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  7 09:07:42 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  7 09:07:42 localhost systemd[1]: Failed to start dnf makecache.
+Nov  7 10:08:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 10:08:30 localhost dnf[13381]: Metadata cache refreshed recently.
+Nov  7 10:08:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 11:09:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 11:09:30 localhost dnf[13405]: Metadata cache refreshed recently.
+Nov  7 11:09:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 12:10:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 12:15:43 localhost dnf[13428]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:12
+Nov  7 12:15:43 localhost dnf[13428]: Errors during downloading metadata for repository 'AppStream':
+Nov  7 12:15:43 localhost dnf[13428]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 12:15:43 localhost dnf[13428]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  7 12:15:43 localhost dnf[13428]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 12:15:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  7 12:15:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  7 12:15:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  7 13:16:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 13:16:30 localhost dnf[13464]: Metadata cache refreshed recently.
+Nov  7 13:16:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 14:17:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 14:17:30 localhost dnf[13487]: Metadata cache refreshed recently.
+Nov  7 14:17:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 15:18:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 15:23:42 localhost dnf[13511]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:11
+Nov  7 15:23:42 localhost dnf[13511]: Errors during downloading metadata for repository 'AppStream':
+Nov  7 15:23:42 localhost dnf[13511]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  7 15:23:42 localhost dnf[13511]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 15:23:42 localhost dnf[13511]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 15:23:42 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  7 15:23:42 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  7 15:23:42 localhost systemd[1]: Failed to start dnf makecache.
+Nov  7 16:24:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 16:24:30 localhost dnf[13548]: Metadata cache refreshed recently.
+Nov  7 16:24:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 17:25:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 17:25:30 localhost dnf[13571]: Metadata cache refreshed recently.
+Nov  7 17:25:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 18:26:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 18:31:43 localhost dnf[13594]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  7 18:31:43 localhost dnf[13594]: Errors during downloading metadata for repository 'AppStream':
+Nov  7 18:31:43 localhost dnf[13594]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 18:31:43 localhost dnf[13594]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  7 18:31:43 localhost dnf[13594]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 18:31:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  7 18:31:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  7 18:31:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  7 18:38:30 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  7 18:38:30 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Nov  7 18:57:03 localhost NetworkManager[1011]: <error> [1604793423.7750] dhcp4 (ens192): error -113 dispatching events
+Nov  7 18:57:03 localhost NetworkManager[1011]: <info>  [1604793423.7760] dhcp4 (ens192): state changed bound -> fail
+Nov  7 18:57:03 localhost NetworkManager[1011]: <info>  [1604793423.7761] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7221] device (ens192): DHCPv4: grace period expired
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7222] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  7 18:58:33 localhost NetworkManager[1011]: <warn>  [1604793513.7240] device (ens192): Activation: failed for connection 'ens192'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7250] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7264] dhcp4 (ens192): canceled DHCP transaction
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7264] dhcp4 (ens192): state changed fail -> done
+Nov  7 18:58:33 localhost dbus-daemon[980]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.7' (uid=0 pid=1011 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  7 18:58:33 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7603] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7613] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7614] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7617] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7729] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7732] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  7 18:58:33 localhost dbus-daemon[980]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  7 18:58:33 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7837] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7837] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7837] dhcp4 (ens192): option expiry               => '1604879913'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7837] dhcp4 (ens192): option ip_address           => '172.16.12.3'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7837] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7838] dhcp4 (ens192): option requested_routers    => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7839] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7839] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7839] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7839] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7839] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7839] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7839] dhcp4 (ens192): state changed unknown -> bound
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7849] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7898] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7900] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  7 18:58:33 localhost NetworkManager[1011]: <info>  [1604793513.7943] device (ens192): Activation: successful, device activated.
+Nov  7 19:32:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 19:32:30 localhost dnf[13640]: Metadata cache refreshed recently.
+Nov  7 19:32:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 20:33:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 20:33:30 localhost dnf[13664]: Metadata cache refreshed recently.
+Nov  7 20:33:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 21:34:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 21:39:42 localhost dnf[13688]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:11
+Nov  7 21:39:42 localhost dnf[13688]: Errors during downloading metadata for repository 'AppStream':
+Nov  7 21:39:42 localhost dnf[13688]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 21:39:42 localhost dnf[13688]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  7 21:39:42 localhost dnf[13688]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  7 21:39:42 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  7 21:39:42 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  7 21:39:42 localhost systemd[1]: Failed to start dnf makecache.
+Nov  7 22:32:51 localhost systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 22:32:51 localhost systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 22:32:51 localhost systemd[1]: Starting User Manager for UID 1001...
+Nov  7 22:32:51 localhost systemd[1]: Started Session 13 of user instructor.
+Nov  7 22:32:51 localhost systemd-logind[1053]: New session 13 of user instructor.
+Nov  7 22:32:51 localhost systemd[13727]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 22:32:51 localhost systemd[13727]: Reached target Timers.
+Nov  7 22:32:51 localhost systemd[13727]: Reached target Paths.
+Nov  7 22:32:51 localhost systemd[13727]: Starting D-Bus User Message Bus Socket.
+Nov  7 22:32:51 localhost systemd[13727]: Listening on D-Bus User Message Bus Socket.
+Nov  7 22:32:51 localhost systemd[13727]: Reached target Sockets.
+Nov  7 22:32:51 localhost systemd[13727]: Reached target Basic System.
+Nov  7 22:32:51 localhost systemd[13727]: Reached target Default.
+Nov  7 22:32:51 localhost systemd[13727]: Startup finished in 38ms.
+Nov  7 22:32:51 localhost systemd[1]: Started User Manager for UID 1001.
+Nov  7 22:32:51 localhost systemd-logind[1053]: Session 13 logged out. Waiting for processes to exit.
+Nov  7 22:32:51 localhost systemd-logind[1053]: Removed session 13.
+Nov  7 22:32:51 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 22:32:51 localhost systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 22:32:51 localhost systemd[13727]: Stopped target Default.
+Nov  7 22:32:51 localhost systemd[13727]: Stopped target Basic System.
+Nov  7 22:32:51 localhost systemd[13727]: Stopped target Paths.
+Nov  7 22:32:51 localhost systemd[13727]: Stopped target Timers.
+Nov  7 22:32:51 localhost systemd[13727]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 22:32:51 localhost systemd[13727]: Stopped target Sockets.
+Nov  7 22:32:51 localhost systemd[13727]: Closed D-Bus User Message Bus Socket.
+Nov  7 22:32:51 localhost systemd[13727]: Reached target Shutdown.
+Nov  7 22:32:51 localhost systemd[13727]: Starting Exit the Session...
+Nov  7 22:32:51 localhost systemd[1]: user@1001.service: Killing process 13753 (systemctl) with signal SIGKILL.
+Nov  7 22:32:51 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 22:32:51 localhost systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 22:32:51 localhost systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 22:32:51 localhost systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 22:32:51 localhost systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 22:32:51 localhost systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 22:40:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 22:40:30 localhost dnf[13764]: Metadata cache refreshed recently.
+Nov  7 22:40:30 localhost systemd[1]: Started dnf makecache.
+Nov  7 23:41:30 localhost systemd[1]: Starting dnf makecache...
+Nov  7 23:41:30 localhost dnf[13787]: Metadata cache refreshed recently.
+Nov  7 23:41:30 localhost systemd[1]: Started dnf makecache.
+Nov  8 00:00:30 localhost systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  8 00:01:57 localhost systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  8 00:42:30 localhost systemd[1]: Starting dnf makecache...
+Nov  8 00:47:43 localhost dnf[13814]: CentOS-8 - AppStream                            0.0  B/s |   0  B     05:13
+Nov  8 00:47:43 localhost dnf[13814]: Errors during downloading metadata for repository 'AppStream':
+Nov  8 00:47:43 localhost dnf[13814]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  8 00:47:43 localhost dnf[13814]:  - Curl error (28): Timeout was reached for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Resolving timed out after 30000 milliseconds]
+Nov  8 00:47:43 localhost dnf[13814]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  8 00:47:43 localhost systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  8 00:47:43 localhost systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  8 00:47:43 localhost systemd[1]: Failed to start dnf makecache.
+Nov  8 01:48:30 localhost systemd[1]: Starting dnf makecache...
+Nov  8 01:48:30 localhost dnf[13853]: Metadata cache refreshed recently.
+Nov  8 01:48:30 localhost systemd[1]: Started dnf makecache.
+Nov  8 02:49:30 localhost systemd[1]: Starting dnf makecache...
+Nov  8 02:49:30 localhost dnf[13878]: Metadata cache refreshed recently.
+Nov  8 02:49:30 localhost systemd[1]: Started dnf makecache.

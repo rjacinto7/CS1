@@ -1,0 +1,301 @@
+2020-06-23 11:27:47,616 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-06-23 11:27:47,637 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-06-23 11:27:47,638 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-06-23 11:27:48,644 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-06-23 11:27:48,645 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-06-23 11:27:48,658 INFO     tuned.daemon.controller: starting controller
+2020-06-23 11:27:48,658 INFO     tuned.daemon.daemon: starting tuning
+2020-06-23 11:27:48,677 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-06-23 11:27:48,680 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-06-23 11:27:48,692 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-06-23 11:27:48,696 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, sda, dm-0
+2020-06-23 11:27:48,706 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-06-23 11:27:48,706 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-06-24 10:08:10,162 INFO     tuned.daemon.controller: terminating controller
+2020-06-24 10:08:10,162 INFO     tuned.daemon.daemon: stopping tuning
+2020-06-24 10:08:10,258 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-07-22 14:49:32,315 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-07-22 14:49:32,337 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-07-22 14:49:32,339 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-07-22 14:49:33,128 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-07-22 14:49:33,129 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-07-22 14:49:33,135 INFO     tuned.daemon.controller: starting controller
+2020-07-22 14:49:33,136 INFO     tuned.daemon.daemon: starting tuning
+2020-07-22 14:49:33,146 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-07-22 14:49:33,148 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-07-22 14:49:33,154 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-07-22 14:49:33,157 INFO     tuned.plugins.base: instance disk: assigning devices sda, dm-0, dm-1
+2020-07-22 14:49:33,164 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-07-22 14:49:33,164 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-07-22 14:55:39,649 INFO     tuned.daemon.controller: terminating controller
+2020-07-22 14:55:39,649 INFO     tuned.daemon.daemon: stopping tuning
+2020-07-22 14:55:39,791 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-07-22 14:56:01,657 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-07-22 14:56:01,674 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-07-22 14:56:01,677 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-07-22 14:56:02,500 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-07-22 14:56:02,501 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-07-22 14:56:02,508 INFO     tuned.daemon.controller: starting controller
+2020-07-22 14:56:02,508 INFO     tuned.daemon.daemon: starting tuning
+2020-07-22 14:56:02,518 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-07-22 14:56:02,520 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-07-22 14:56:02,528 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-07-22 14:56:02,531 INFO     tuned.plugins.base: instance disk: assigning devices sda, dm-0, dm-1
+2020-07-22 14:56:02,538 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-07-22 14:56:02,538 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-07-22 14:59:03,287 INFO     tuned.daemon.controller: terminating controller
+2020-07-22 14:59:03,288 INFO     tuned.daemon.daemon: stopping tuning
+2020-07-22 14:59:03,415 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-09-16 12:59:45,837 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-09-16 12:59:45,855 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-09-16 12:59:45,858 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-09-16 12:59:46,611 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-09-16 12:59:46,613 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-09-16 12:59:46,620 INFO     tuned.daemon.controller: starting controller
+2020-09-16 12:59:46,620 INFO     tuned.daemon.daemon: starting tuning
+2020-09-16 12:59:46,635 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-09-16 12:59:46,636 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-09-16 12:59:46,647 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-09-16 12:59:46,649 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, dm-0, sda
+2020-09-16 12:59:46,661 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-09-16 12:59:46,661 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-09-30 18:52:00,982 INFO     tuned.daemon.controller: terminating controller
+2020-09-30 18:52:00,983 INFO     tuned.daemon.daemon: stopping tuning
+2020-09-30 18:52:01,221 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-09-30 18:52:11,276 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-09-30 18:52:11,304 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-09-30 18:52:11,307 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-09-30 18:52:12,200 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-09-30 18:52:12,201 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-09-30 18:52:12,213 INFO     tuned.daemon.controller: starting controller
+2020-09-30 18:52:12,213 INFO     tuned.daemon.daemon: starting tuning
+2020-09-30 18:52:12,233 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-09-30 18:52:12,237 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-09-30 18:52:12,250 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-09-30 18:52:12,255 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, sda, dm-1
+2020-09-30 18:52:12,265 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-09-30 18:52:12,265 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-09-30 19:25:37,039 INFO     tuned.daemon.controller: terminating controller
+2020-09-30 19:25:37,039 INFO     tuned.daemon.daemon: stopping tuning
+2020-09-30 19:25:37,186 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-09-30 19:25:58,152 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-09-30 19:25:58,181 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-09-30 19:25:58,185 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-09-30 19:25:59,105 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-09-30 19:25:59,106 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-09-30 19:25:59,117 INFO     tuned.daemon.controller: starting controller
+2020-09-30 19:25:59,118 INFO     tuned.daemon.daemon: starting tuning
+2020-09-30 19:25:59,137 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-09-30 19:25:59,143 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-09-30 19:25:59,155 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-09-30 19:25:59,159 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, sda, dm-0
+2020-09-30 19:25:59,170 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-09-30 19:25:59,170 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-01 18:37:25,967 INFO     tuned.daemon.controller: terminating controller
+2020-10-01 18:37:25,967 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-01 18:37:26,137 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-01 18:37:48,714 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-01 18:37:48,743 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-01 18:37:48,746 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-01 18:37:49,649 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-01 18:37:49,650 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-01 18:37:49,661 INFO     tuned.daemon.controller: starting controller
+2020-10-01 18:37:49,661 INFO     tuned.daemon.daemon: starting tuning
+2020-10-01 18:37:49,680 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-01 18:37:49,685 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-01 18:37:49,698 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-01 18:37:49,703 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, sda, dm-0
+2020-10-01 18:37:49,714 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-01 18:37:49,715 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-02 12:56:29,934 INFO     tuned.daemon.controller: terminating controller
+2020-10-02 12:56:29,934 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-02 12:56:30,033 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-02 21:55:28,461 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-02 21:55:28,490 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-02 21:55:28,494 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-02 21:55:29,411 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-02 21:55:29,412 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-02 21:55:29,423 INFO     tuned.daemon.controller: starting controller
+2020-10-02 21:55:29,423 INFO     tuned.daemon.daemon: starting tuning
+2020-10-02 21:55:29,442 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-02 21:55:29,447 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-02 21:55:29,460 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-02 21:55:29,463 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-1, sda
+2020-10-02 21:55:29,478 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-02 21:55:29,478 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-09 17:22:51,220 INFO     tuned.daemon.controller: terminating controller
+2020-10-09 17:22:51,220 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-09 17:22:51,340 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-09 17:23:10,954 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-09 17:23:10,998 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-09 17:23:11,003 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-09 17:23:11,867 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-09 17:23:11,869 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-09 17:23:11,880 INFO     tuned.daemon.controller: starting controller
+2020-10-09 17:23:11,880 INFO     tuned.daemon.daemon: starting tuning
+2020-10-09 17:23:11,902 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-09 17:23:11,906 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-09 17:23:11,924 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-09 17:23:11,928 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, dm-0, sda
+2020-10-09 17:23:11,937 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-09 17:23:11,938 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-21 18:17:12,728 INFO     tuned.daemon.controller: terminating controller
+2020-10-21 18:17:12,729 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-21 18:17:13,862 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-21 18:17:25,451 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-21 18:17:25,478 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-21 18:17:25,481 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-21 18:17:26,400 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-21 18:17:26,401 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-21 18:17:26,414 INFO     tuned.daemon.controller: starting controller
+2020-10-21 18:17:26,414 INFO     tuned.daemon.daemon: starting tuning
+2020-10-21 18:17:26,433 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-21 18:17:26,437 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-21 18:17:26,449 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-21 18:17:26,454 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, sda, dm-0
+2020-10-21 18:17:26,468 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-21 18:17:26,468 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-21 19:37:23,142 INFO     tuned.daemon.controller: terminating controller
+2020-10-21 19:37:23,143 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-21 19:37:23,289 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-21 19:37:42,802 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-21 19:37:42,836 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-21 19:37:42,841 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-21 19:37:43,771 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-21 19:37:43,772 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-21 19:37:43,784 INFO     tuned.daemon.controller: starting controller
+2020-10-21 19:37:43,784 INFO     tuned.daemon.daemon: starting tuning
+2020-10-21 19:37:43,808 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-21 19:37:43,816 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-21 19:37:43,824 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-21 19:37:43,837 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, sda, dm-1
+2020-10-21 19:37:43,848 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-21 19:37:43,848 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-21 20:12:11,320 INFO     tuned.daemon.controller: terminating controller
+2020-10-21 20:12:11,321 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-21 20:12:11,544 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-21 20:12:31,424 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-21 20:12:31,449 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-21 20:12:31,452 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-21 20:12:32,382 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-21 20:12:32,383 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-21 20:12:32,394 INFO     tuned.daemon.controller: starting controller
+2020-10-21 20:12:32,394 INFO     tuned.daemon.daemon: starting tuning
+2020-10-21 20:12:32,412 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-21 20:12:32,417 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-21 20:12:32,430 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-21 20:12:32,434 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, sda, dm-1
+2020-10-21 20:12:32,447 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-21 20:12:32,447 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-21 20:50:54,839 INFO     tuned.daemon.controller: terminating controller
+2020-10-21 20:50:54,840 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-21 20:50:54,987 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-21 20:51:13,768 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-21 20:51:13,796 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-21 20:51:13,797 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-21 20:51:14,756 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-21 20:51:14,758 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-21 20:51:14,769 INFO     tuned.daemon.controller: starting controller
+2020-10-21 20:51:14,769 INFO     tuned.daemon.daemon: starting tuning
+2020-10-21 20:51:14,794 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-21 20:51:14,801 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-21 20:51:14,814 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-21 20:51:14,829 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, sda, dm-1
+2020-10-21 20:51:14,845 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-21 20:51:14,845 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-21 21:48:14,127 INFO     tuned.daemon.controller: terminating controller
+2020-10-21 21:48:14,127 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-21 21:48:14,269 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-21 21:48:36,254 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-21 21:48:36,299 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-21 21:48:36,302 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-21 21:48:37,216 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-21 21:48:37,217 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-21 21:48:37,227 INFO     tuned.daemon.controller: starting controller
+2020-10-21 21:48:37,227 INFO     tuned.daemon.daemon: starting tuning
+2020-10-21 21:48:37,246 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-21 21:48:37,251 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-21 21:48:37,262 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-21 21:48:37,266 INFO     tuned.plugins.base: instance disk: assigning devices sda, dm-0, dm-1
+2020-10-21 21:48:37,281 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-21 21:48:37,281 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-21 23:10:03,181 INFO     tuned.daemon.controller: terminating controller
+2020-10-21 23:10:03,182 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-21 23:10:03,311 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-21 23:10:26,918 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-21 23:10:26,950 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-21 23:10:26,954 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-21 23:10:27,883 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-21 23:10:27,885 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-21 23:10:27,895 INFO     tuned.daemon.controller: starting controller
+2020-10-21 23:10:27,895 INFO     tuned.daemon.daemon: starting tuning
+2020-10-21 23:10:27,916 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-21 23:10:27,921 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-21 23:10:27,933 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-21 23:10:27,941 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, sda, dm-1
+2020-10-21 23:10:27,950 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-21 23:10:27,951 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-21 23:35:56,508 INFO     tuned.daemon.controller: terminating controller
+2020-10-21 23:35:56,509 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-21 23:35:56,630 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-21 23:36:18,356 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-21 23:36:18,384 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-21 23:36:18,387 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-21 23:36:19,304 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-21 23:36:19,305 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-21 23:36:19,315 INFO     tuned.daemon.controller: starting controller
+2020-10-21 23:36:19,315 INFO     tuned.daemon.daemon: starting tuning
+2020-10-21 23:36:19,338 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-21 23:36:19,340 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-21 23:36:19,353 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-21 23:36:19,359 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-1, sda
+2020-10-21 23:36:19,371 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-21 23:36:19,372 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-22 01:17:19,848 INFO     tuned.daemon.controller: terminating controller
+2020-10-22 01:17:19,848 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-22 01:17:19,997 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-22 01:17:38,753 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-22 01:17:38,779 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-22 01:17:38,781 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-22 01:17:39,748 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-22 01:17:39,749 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-22 01:17:39,760 INFO     tuned.daemon.controller: starting controller
+2020-10-22 01:17:39,760 INFO     tuned.daemon.daemon: starting tuning
+2020-10-22 01:17:39,780 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-22 01:17:39,783 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-22 01:17:39,793 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-22 01:17:39,801 INFO     tuned.plugins.base: instance disk: assigning devices sda, dm-1, dm-0
+2020-10-22 01:17:39,820 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-22 01:17:39,821 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-22 21:07:36,793 INFO     tuned.daemon.controller: terminating controller
+2020-10-22 21:07:36,793 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-22 21:07:37,007 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-22 21:07:59,960 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-22 21:07:59,986 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-22 21:07:59,989 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-22 21:08:00,896 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-22 21:08:00,897 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-22 21:08:00,909 INFO     tuned.daemon.controller: starting controller
+2020-10-22 21:08:00,909 INFO     tuned.daemon.daemon: starting tuning
+2020-10-22 21:08:00,929 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-22 21:08:00,934 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-22 21:08:00,947 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-22 21:08:00,954 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-1, sda
+2020-10-22 21:08:00,963 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-22 21:08:00,963 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-10-22 21:30:53,125 INFO     tuned.daemon.controller: terminating controller
+2020-10-22 21:30:53,125 INFO     tuned.daemon.daemon: stopping tuning
+2020-10-22 21:30:53,294 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-10-22 21:31:11,039 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-10-22 21:31:11,061 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-10-22 21:31:11,065 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2020-10-22 21:31:12,040 INFO     tuned.daemon.daemon: Using 'virtual-guest' profile
+2020-10-22 21:31:12,041 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-10-22 21:31:12,053 INFO     tuned.daemon.controller: starting controller
+2020-10-22 21:31:12,053 INFO     tuned.daemon.daemon: starting tuning
+2020-10-22 21:31:12,077 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0
+2020-10-22 21:31:12,079 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2020-10-22 21:31:12,090 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2020-10-22 21:31:12,103 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-1, sda
+2020-10-22 21:31:12,119 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-10-22 21:31:12,119 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied

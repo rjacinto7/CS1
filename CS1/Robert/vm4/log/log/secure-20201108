@@ -1,0 +1,46 @@
+Nov  6 23:31:34 rjacinto1-rns sshd[13033]: Accepted publickey for instructor from 172.16.0.1 port 39394 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  6 23:31:34 rjacinto1-rns systemd[13037]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  6 23:31:34 rjacinto1-rns sshd[13033]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  6 23:31:34 rjacinto1-rns sshd[13049]: Received disconnect from 172.16.0.1 port 39394:11: disconnected by user
+Nov  6 23:31:34 rjacinto1-rns sshd[13049]: Disconnected from user instructor 172.16.0.1 port 39394
+Nov  6 23:31:34 rjacinto1-rns sshd[13033]: pam_unix(sshd:session): session closed for user instructor
+Nov  6 23:31:34 rjacinto1-rns systemd[13043]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:01:15 rjacinto1-rns sshd[13103]: Accepted publickey for instructor from 172.16.0.1 port 39664 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:01:15 rjacinto1-rns systemd[13107]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:01:15 rjacinto1-rns sshd[13103]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:01:15 rjacinto1-rns sshd[13118]: Received disconnect from 172.16.0.1 port 39664:11: disconnected by user
+Nov  7 00:01:15 rjacinto1-rns sshd[13118]: Disconnected from user instructor 172.16.0.1 port 39664
+Nov  7 00:01:15 rjacinto1-rns sshd[13103]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:01:15 rjacinto1-rns systemd[13112]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:47:36 rjacinto1-rns sshd[13153]: Accepted publickey for instructor from 172.16.0.1 port 39846 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:47:37 rjacinto1-rns systemd[13157]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:47:37 rjacinto1-rns sshd[13153]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:47:37 rjacinto1-rns sshd[13168]: Received disconnect from 172.16.0.1 port 39846:11: disconnected by user
+Nov  7 00:47:37 rjacinto1-rns sshd[13168]: Disconnected from user instructor 172.16.0.1 port 39846
+Nov  7 00:47:37 rjacinto1-rns sshd[13153]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:47:37 rjacinto1-rns systemd[13162]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:59:09 rjacinto1-rns sshd[13195]: Accepted publickey for instructor from 172.16.0.1 port 40086 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:59:09 rjacinto1-rns systemd[13199]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:59:09 rjacinto1-rns sshd[13195]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:59:09 rjacinto1-rns sshd[13210]: Received disconnect from 172.16.0.1 port 40086:11: disconnected by user
+Nov  7 00:59:09 rjacinto1-rns sshd[13210]: Disconnected from user instructor 172.16.0.1 port 40086
+Nov  7 00:59:09 rjacinto1-rns sshd[13195]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:59:09 rjacinto1-rns systemd[13204]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 01:47:24 rjacinto1-rns sshd[13259]: Accepted publickey for instructor from 172.16.0.1 port 40250 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 01:47:24 rjacinto1-rns systemd[13263]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 01:47:24 rjacinto1-rns sshd[13259]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 01:47:25 rjacinto1-rns sudo[13275]: instructor : TTY=unknown ; PWD=/home/instructor ; USER=root ; COMMAND=/sbin/iptables -L -n -v
+Nov  7 01:47:25 rjacinto1-rns sudo[13275]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  7 01:47:25 rjacinto1-rns sudo[13275]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  7 01:47:25 rjacinto1-rns sudo[13275]: pam_unix(sudo:session): session closed for user root
+Nov  7 01:47:25 rjacinto1-rns sshd[13274]: Received disconnect from 172.16.0.1 port 40250:11: disconnected by user
+Nov  7 01:47:25 rjacinto1-rns sshd[13274]: Disconnected from user instructor 172.16.0.1 port 40250
+Nov  7 01:47:25 rjacinto1-rns sshd[13259]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 01:47:25 rjacinto1-rns systemd[13268]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 22:32:52 rjacinto1-rns sshd[13871]: Accepted publickey for instructor from 172.16.0.1 port 40896 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 22:32:53 rjacinto1-rns systemd[13875]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 22:32:53 rjacinto1-rns sshd[13871]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 22:32:53 rjacinto1-rns sshd[13886]: Received disconnect from 172.16.0.1 port 40896:11: disconnected by user
+Nov  7 22:32:53 rjacinto1-rns sshd[13886]: Disconnected from user instructor 172.16.0.1 port 40896
+Nov  7 22:32:53 rjacinto1-rns sshd[13871]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 22:32:53 rjacinto1-rns systemd[13880]: pam_unix(systemd-user:session): session closed for user instructor

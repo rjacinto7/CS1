@@ -1,0 +1,1775 @@
+Oct 25 03:09:01 aluk10-web named[3694]: all zones loaded
+Oct 25 03:09:01 aluk10-web named[3694]: running
+Oct 25 03:09:01 aluk10-web rsyslogd[1057]: [origin software="rsyslogd" swVersion="8.1911.0-3.el8" x-pid="1057" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct 25 03:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 03:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 03:32:15 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 03:32:16 aluk10-web dnf[5334]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 25 03:32:16 aluk10-web dnf[5334]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 03:32:16 aluk10-web dnf[5334]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 03:32:16 aluk10-web dnf[5334]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 03:32:16 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 03:32:16 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 03:32:16 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 25 04:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 04:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 04:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 04:32:19 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 04:32:19 aluk10-web dnf[5371]: Metadata cache refreshed recently.
+Oct 25 04:32:19 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 05:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 05:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 05:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 05:32:23 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 05:32:23 aluk10-web dnf[5396]: Metadata cache refreshed recently.
+Oct 25 05:32:23 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 06:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 06:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 06:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 06:32:26 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 06:32:27 aluk10-web dnf[5422]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 25 06:32:27 aluk10-web dnf[5422]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 06:32:27 aluk10-web dnf[5422]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 06:32:27 aluk10-web dnf[5422]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 06:32:27 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 06:32:27 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 06:32:27 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 25 07:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 07:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 07:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 07:32:30 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 07:32:30 aluk10-web dnf[5459]: Metadata cache refreshed recently.
+Oct 25 07:32:31 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 08:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 08:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 08:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 08:32:34 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 08:32:34 aluk10-web dnf[5485]: Metadata cache refreshed recently.
+Oct 25 08:32:34 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 09:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4750] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4759] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4759] dhcp4 (ens192): option expiry               => '1603718324'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4759] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4759] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4759] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4760] dhcp4 (ens192): option requested_routers    => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4761] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4761] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4761] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4761] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4761] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4761] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 25 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603631924.4761] dhcp4 (ens192): state changed extended -> extended
+Oct 25 09:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 25 09:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 25 09:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 25 09:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 25 09:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 09:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 09:32:38 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 09:32:38 aluk10-web dnf[5516]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 25 09:32:38 aluk10-web dnf[5516]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 09:32:38 aluk10-web dnf[5516]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 09:32:38 aluk10-web dnf[5516]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 09:32:38 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 09:32:38 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 09:32:38 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 25 10:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 10:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 10:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 10:32:41 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 10:32:42 aluk10-web dnf[5554]: Metadata cache refreshed recently.
+Oct 25 10:32:42 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 11:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 11:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 11:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 11:32:45 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 11:32:45 aluk10-web dnf[5580]: Metadata cache refreshed recently.
+Oct 25 11:32:45 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 12:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 12:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 12:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 12:32:49 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 12:32:49 aluk10-web dnf[5606]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 25 12:32:49 aluk10-web dnf[5606]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 12:32:49 aluk10-web dnf[5606]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 12:32:49 aluk10-web dnf[5606]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 12:32:49 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 12:32:49 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 12:32:49 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 25 13:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 13:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 13:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 13:32:52 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 13:32:53 aluk10-web dnf[5644]: Metadata cache refreshed recently.
+Oct 25 13:32:53 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 14:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 14:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 14:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 14:32:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 14:32:56 aluk10-web dnf[5669]: Metadata cache refreshed recently.
+Oct 25 14:32:56 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 15:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 15:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 15:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 15:33:00 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 15:33:01 aluk10-web dnf[5694]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 25 15:33:01 aluk10-web dnf[5694]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 15:33:01 aluk10-web dnf[5694]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 15:33:01 aluk10-web dnf[5694]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 15:33:01 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 15:33:01 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 15:33:01 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 25 16:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 16:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 16:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 16:33:03 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 16:33:04 aluk10-web dnf[5732]: Metadata cache refreshed recently.
+Oct 25 16:33:04 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 17:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 17:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 17:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 17:33:07 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 17:33:07 aluk10-web dnf[5758]: Metadata cache refreshed recently.
+Oct 25 17:33:07 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 18:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 18:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 18:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 18:33:11 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 18:33:11 aluk10-web dnf[5784]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 25 18:33:11 aluk10-web dnf[5784]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 18:33:11 aluk10-web dnf[5784]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 18:33:11 aluk10-web dnf[5784]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 18:33:12 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 18:33:12 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 18:33:12 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 25 19:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 19:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 19:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 19:33:14 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 19:33:15 aluk10-web dnf[5822]: Metadata cache refreshed recently.
+Oct 25 19:33:15 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 20:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 20:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 20:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 20:33:18 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 20:33:18 aluk10-web dnf[5847]: Metadata cache refreshed recently.
+Oct 25 20:33:18 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 21:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4757] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4769] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4769] dhcp4 (ens192): option expiry               => '1603761524'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4769] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4769] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4769] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4769] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4769] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4770] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4770] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4770] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4770] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4770] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4770] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4770] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4770] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4770] dhcp4 (ens192): option requested_routers    => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4770] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4771] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4771] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4771] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4771] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4771] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 25 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603675124.4771] dhcp4 (ens192): state changed extended -> extended
+Oct 25 21:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 25 21:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 25 21:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 25 21:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 25 21:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 21:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 21:33:22 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 21:33:23 aluk10-web dnf[5877]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 25 21:33:23 aluk10-web dnf[5877]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 21:33:23 aluk10-web dnf[5877]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 21:33:23 aluk10-web dnf[5877]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 21:33:23 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 21:33:23 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 21:33:23 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 25 21:34:02 aluk10-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 25 21:34:02 aluk10-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 25 22:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 22:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 22:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 22:33:26 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 22:33:26 aluk10-web dnf[5917]: Metadata cache refreshed recently.
+Oct 25 22:33:26 aluk10-web systemd[1]: Started dnf makecache.
+Oct 25 23:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 23:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 25 23:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 25 23:33:29 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 25 23:33:30 aluk10-web dnf[5943]: Metadata cache refreshed recently.
+Oct 25 23:33:30 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 00:00:01 aluk10-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 26 00:00:01 aluk10-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 26 00:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 00:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 00:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 00:33:33 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 00:33:34 aluk10-web dnf[5972]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 26 00:33:34 aluk10-web dnf[5972]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 00:33:34 aluk10-web dnf[5972]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 00:33:34 aluk10-web dnf[5972]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 00:33:34 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 00:33:34 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 00:33:34 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 26 01:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 01:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 01:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 01:33:37 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 01:33:37 aluk10-web dnf[6012]: Metadata cache refreshed recently.
+Oct 26 01:33:37 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 02:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 02:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 02:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 02:33:40 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 02:33:41 aluk10-web dnf[6040]: Metadata cache refreshed recently.
+Oct 26 02:33:41 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 03:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 03:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 03:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 03:33:44 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 03:33:45 aluk10-web dnf[6067]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 26 03:33:45 aluk10-web dnf[6067]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 03:33:45 aluk10-web dnf[6067]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 03:33:45 aluk10-web dnf[6067]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 03:33:45 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 03:33:45 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 03:33:45 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 26 04:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 04:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 04:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 04:33:48 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 04:33:48 aluk10-web dnf[6113]: Metadata cache refreshed recently.
+Oct 26 04:33:48 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 05:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 05:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 05:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 05:33:51 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 05:33:52 aluk10-web dnf[6139]: Metadata cache refreshed recently.
+Oct 26 05:33:52 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 06:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 06:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 06:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 06:33:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 06:33:56 aluk10-web dnf[6165]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 26 06:33:56 aluk10-web dnf[6165]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 06:33:56 aluk10-web dnf[6165]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 06:33:56 aluk10-web dnf[6165]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 06:33:56 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 06:33:56 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 06:33:56 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 26 07:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 07:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 07:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 07:33:59 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 07:33:59 aluk10-web dnf[6202]: Metadata cache refreshed recently.
+Oct 26 07:33:59 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 08:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 08:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 08:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 08:34:03 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 08:34:03 aluk10-web dnf[6227]: Metadata cache refreshed recently.
+Oct 26 08:34:03 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 09:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4782] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4791] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4791] dhcp4 (ens192): option expiry               => '1603804724'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4791] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4791] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4791] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4791] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4791] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4791] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4791] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4791] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option requested_routers    => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4792] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4793] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 26 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603718324.4793] dhcp4 (ens192): state changed extended -> extended
+Oct 26 09:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 26 09:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 26 09:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 26 09:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 26 09:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 09:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 09:34:06 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 09:34:07 aluk10-web dnf[6258]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 26 09:34:07 aluk10-web dnf[6258]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 09:34:07 aluk10-web dnf[6258]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 09:34:07 aluk10-web dnf[6258]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 09:34:07 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 09:34:07 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 09:34:07 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 26 10:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 10:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 10:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 10:34:10 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 10:34:10 aluk10-web dnf[6296]: Metadata cache refreshed recently.
+Oct 26 10:34:10 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 11:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 11:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 11:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 11:34:14 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 11:34:14 aluk10-web dnf[6321]: Metadata cache refreshed recently.
+Oct 26 11:34:14 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 12:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 12:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 12:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 12:34:17 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 12:34:18 aluk10-web dnf[6347]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 26 12:34:18 aluk10-web dnf[6347]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 12:34:18 aluk10-web dnf[6347]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 12:34:18 aluk10-web dnf[6347]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 12:34:18 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 12:34:18 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 12:34:18 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 26 13:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 13:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 13:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 13:34:21 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 13:34:21 aluk10-web dnf[6384]: Metadata cache refreshed recently.
+Oct 26 13:34:21 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 14:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 14:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 14:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 14:34:25 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 14:34:25 aluk10-web dnf[6410]: Metadata cache refreshed recently.
+Oct 26 14:34:25 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 15:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 15:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 15:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 15:34:28 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 15:34:29 aluk10-web dnf[6435]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 26 15:34:29 aluk10-web dnf[6435]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 15:34:29 aluk10-web dnf[6435]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 15:34:29 aluk10-web dnf[6435]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 15:34:29 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 15:34:29 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 15:34:29 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 26 16:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 16:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 16:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 16:34:32 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 16:34:32 aluk10-web dnf[6472]: Metadata cache refreshed recently.
+Oct 26 16:34:32 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 17:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 17:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 17:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 17:34:36 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 17:34:36 aluk10-web dnf[6498]: Metadata cache refreshed recently.
+Oct 26 17:34:36 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 18:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 18:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 18:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 18:34:39 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 18:34:40 aluk10-web dnf[6523]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 26 18:34:40 aluk10-web dnf[6523]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 18:34:40 aluk10-web dnf[6523]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 18:34:40 aluk10-web dnf[6523]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 18:34:40 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 18:34:40 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 18:34:40 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 26 19:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 19:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 19:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 19:34:43 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 19:34:43 aluk10-web dnf[6561]: Metadata cache refreshed recently.
+Oct 26 19:34:43 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 20:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 20:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 20:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 20:34:47 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 20:34:47 aluk10-web dnf[6586]: Metadata cache refreshed recently.
+Oct 26 20:34:47 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 21:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4755] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4760] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4760] dhcp4 (ens192): option expiry               => '1603847924'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4760] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4760] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4760] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4760] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4760] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4761] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4761] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4761] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4761] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4761] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4761] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4761] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4761] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4761] dhcp4 (ens192): option requested_routers    => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4762] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4762] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4762] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4762] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4762] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4762] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 26 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603761524.4762] dhcp4 (ens192): state changed extended -> extended
+Oct 26 21:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 26 21:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 26 21:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 26 21:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 26 21:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 21:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 21:34:10 aluk10-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 26 21:34:10 aluk10-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 26 21:34:50 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 21:34:51 aluk10-web dnf[6619]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 26 21:34:51 aluk10-web dnf[6619]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 21:34:51 aluk10-web dnf[6619]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 21:34:51 aluk10-web dnf[6619]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 21:34:51 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 21:34:51 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 21:34:51 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 26 22:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 22:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 22:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 22:34:54 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 22:34:54 aluk10-web dnf[6656]: Metadata cache refreshed recently.
+Oct 26 22:34:55 aluk10-web systemd[1]: Started dnf makecache.
+Oct 26 23:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 23:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 26 23:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 26 23:34:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 26 23:34:56 aluk10-web dnf[6682]: Metadata cache refreshed recently.
+Oct 26 23:34:56 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 00:00:09 aluk10-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 27 00:00:10 aluk10-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 27 00:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 00:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 00:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 00:35:02 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 00:35:02 aluk10-web dnf[6711]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 27 00:35:02 aluk10-web dnf[6711]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 00:35:02 aluk10-web dnf[6711]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 00:35:02 aluk10-web dnf[6711]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 00:35:02 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 00:35:02 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 00:35:02 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 27 01:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 01:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 01:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 01:35:05 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 01:35:06 aluk10-web dnf[6751]: Metadata cache refreshed recently.
+Oct 27 01:35:06 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 02:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 02:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 02:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 02:35:09 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 02:35:09 aluk10-web dnf[6779]: Metadata cache refreshed recently.
+Oct 27 02:35:09 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 03:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 03:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 03:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 03:35:13 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 03:35:13 aluk10-web dnf[6815]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 27 03:35:13 aluk10-web dnf[6815]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 03:35:13 aluk10-web dnf[6815]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 03:35:13 aluk10-web dnf[6815]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 03:35:14 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 03:35:14 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 03:35:14 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 27 04:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 04:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 04:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 04:35:16 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 04:35:17 aluk10-web dnf[6852]: Metadata cache refreshed recently.
+Oct 27 04:35:17 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 05:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 05:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 05:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 05:35:20 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 05:35:20 aluk10-web dnf[6878]: Metadata cache refreshed recently.
+Oct 27 05:35:20 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 06:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 06:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 06:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 06:35:24 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 06:35:24 aluk10-web dnf[6903]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 27 06:35:24 aluk10-web dnf[6903]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 06:35:24 aluk10-web dnf[6903]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 06:35:24 aluk10-web dnf[6903]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 06:35:24 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 06:35:24 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 06:35:24 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 27 07:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 07:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 07:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 07:35:27 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 07:35:28 aluk10-web dnf[6941]: Metadata cache refreshed recently.
+Oct 27 07:35:28 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 08:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 08:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 08:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 08:35:31 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 08:35:31 aluk10-web dnf[6967]: Metadata cache refreshed recently.
+Oct 27 08:35:31 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 09:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4773] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4780] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4780] dhcp4 (ens192): option expiry               => '1603891124'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4780] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4780] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4780] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4780] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4780] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4780] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4780] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4780] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option requested_routers    => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4781] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 27 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603804724.4782] dhcp4 (ens192): state changed extended -> extended
+Oct 27 09:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 27 09:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 27 09:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 27 09:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 27 09:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 09:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 09:35:35 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 09:35:36 aluk10-web dnf[6997]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 27 09:35:36 aluk10-web dnf[6997]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 09:35:36 aluk10-web dnf[6997]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 09:35:36 aluk10-web dnf[6997]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 09:35:36 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 09:35:36 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 09:35:36 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 27 10:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 10:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 10:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 10:35:38 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 10:35:39 aluk10-web dnf[7035]: Metadata cache refreshed recently.
+Oct 27 10:35:39 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 11:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 11:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 11:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 11:35:42 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 11:35:43 aluk10-web dnf[7061]: Metadata cache refreshed recently.
+Oct 27 11:35:43 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 12:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 12:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 12:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 12:35:46 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 12:35:47 aluk10-web dnf[7086]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 27 12:35:47 aluk10-web dnf[7086]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 12:35:47 aluk10-web dnf[7086]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 12:35:47 aluk10-web dnf[7086]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 12:35:47 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 12:35:47 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 12:35:47 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 27 13:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 13:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 13:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 13:35:49 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 13:35:50 aluk10-web dnf[7124]: Metadata cache refreshed recently.
+Oct 27 13:35:50 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 14:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 14:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 14:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 14:35:53 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 14:35:53 aluk10-web dnf[7150]: Metadata cache refreshed recently.
+Oct 27 14:35:53 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 15:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 15:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 15:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 15:35:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 15:35:56 aluk10-web dnf[7176]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 27 15:35:56 aluk10-web dnf[7176]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 15:35:56 aluk10-web dnf[7176]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 15:35:56 aluk10-web dnf[7176]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 15:35:56 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 15:35:56 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 15:35:56 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 27 16:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 16:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 16:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 16:36:00 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 16:36:01 aluk10-web dnf[7213]: Metadata cache refreshed recently.
+Oct 27 16:36:01 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 17:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 17:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 17:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 17:32:20 aluk10-web systemd[1]: Started /run/user/1001 mount wrapper.
+Oct 27 17:32:20 aluk10-web systemd[1]: Created slice User Slice of UID 1001.
+Oct 27 17:32:20 aluk10-web systemd[1]: Starting User Manager for UID 1001...
+Oct 27 17:32:20 aluk10-web systemd[1]: Started Session 7 of user instructor.
+Oct 27 17:32:20 aluk10-web systemd-logind[1061]: New session 7 of user instructor.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Started Mark boot as successful after the user session has run 2 minutes.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Reached target Paths.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Starting D-Bus User Message Bus Socket.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Reached target Timers.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Listening on D-Bus User Message Bus Socket.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Reached target Sockets.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Reached target Basic System.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Reached target Default.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Startup finished in 43ms.
+Oct 27 17:32:20 aluk10-web systemd[1]: Started User Manager for UID 1001.
+Oct 27 17:32:20 aluk10-web systemd-logind[1061]: Session 7 logged out. Waiting for processes to exit.
+Oct 27 17:32:20 aluk10-web systemd-logind[1061]: Removed session 7.
+Oct 27 17:32:20 aluk10-web systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 27 17:32:20 aluk10-web systemd[1]: Stopping User Manager for UID 1001...
+Oct 27 17:32:20 aluk10-web systemd[7242]: Stopped target Default.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Stopped target Basic System.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Stopped target Paths.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Stopped target Timers.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Stopped target Sockets.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Closed D-Bus User Message Bus Socket.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Reached target Shutdown.
+Oct 27 17:32:20 aluk10-web systemd[7242]: Starting Exit the Session...
+Oct 27 17:32:20 aluk10-web systemd[1]: user@1001.service: Killing process 7267 (systemctl) with signal SIGKILL.
+Oct 27 17:32:20 aluk10-web systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 27 17:32:20 aluk10-web systemd[1]: Stopped User Manager for UID 1001.
+Oct 27 17:32:20 aluk10-web systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 27 17:32:20 aluk10-web systemd[1]: Removed slice User Slice of UID 1001.
+Oct 27 17:32:20 aluk10-web systemd[1]: Stopping /run/user/1001 mount wrapper...
+Oct 27 17:32:20 aluk10-web systemd[1]: Stopped /run/user/1001 mount wrapper.
+Oct 27 17:36:04 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 17:36:05 aluk10-web dnf[7275]: Metadata cache refreshed recently.
+Oct 27 17:36:05 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 18:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 18:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 18:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 18:36:08 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 18:36:09 aluk10-web dnf[7301]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 27 18:36:09 aluk10-web dnf[7301]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 18:36:09 aluk10-web dnf[7301]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 18:36:09 aluk10-web dnf[7301]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 18:36:09 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 18:36:09 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 18:36:09 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 27 19:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 19:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 19:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 19:36:12 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 19:36:12 aluk10-web dnf[7338]: Metadata cache refreshed recently.
+Oct 27 19:36:12 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 20:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 20:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 20:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 20:36:15 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 20:36:16 aluk10-web dnf[7364]: Metadata cache refreshed recently.
+Oct 27 20:36:16 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 21:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4753] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4758] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4758] dhcp4 (ens192): option expiry               => '1603934324'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4758] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4758] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4758] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4758] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4758] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4758] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4758] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4759] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4759] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4759] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4759] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4759] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4759] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4759] dhcp4 (ens192): option requested_routers    => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4759] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4759] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4760] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4760] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4760] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4760] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 27 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603847924.4760] dhcp4 (ens192): state changed extended -> extended
+Oct 27 21:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 27 21:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 27 21:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 27 21:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 27 21:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 21:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 21:34:19 aluk10-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 27 21:34:19 aluk10-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 27 21:36:19 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 21:36:20 aluk10-web dnf[7397]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 27 21:36:20 aluk10-web dnf[7397]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 21:36:20 aluk10-web dnf[7397]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 21:36:20 aluk10-web dnf[7397]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 21:36:20 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 21:36:20 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 21:36:20 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 27 22:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 22:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 22:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 22:36:23 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 22:36:23 aluk10-web dnf[7434]: Metadata cache refreshed recently.
+Oct 27 22:36:23 aluk10-web systemd[1]: Started dnf makecache.
+Oct 27 23:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 23:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 27 23:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 27 23:36:26 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 27 23:36:27 aluk10-web dnf[7459]: Metadata cache refreshed recently.
+Oct 27 23:36:27 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 00:00:08 aluk10-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 28 00:00:08 aluk10-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 28 00:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 00:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 00:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 00:36:30 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 00:36:31 aluk10-web dnf[7489]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 28 00:36:31 aluk10-web dnf[7489]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 00:36:31 aluk10-web dnf[7489]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 00:36:31 aluk10-web dnf[7489]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 00:36:31 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 00:36:31 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 00:36:31 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 28 01:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 01:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 01:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 01:36:34 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 01:36:34 aluk10-web dnf[7528]: Metadata cache refreshed recently.
+Oct 28 01:36:34 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 02:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 02:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 02:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 02:36:38 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 02:36:38 aluk10-web dnf[7556]: Metadata cache refreshed recently.
+Oct 28 02:36:38 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 03:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 03:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 03:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 03:36:41 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 03:36:42 aluk10-web dnf[7593]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 28 03:36:42 aluk10-web dnf[7593]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 03:36:42 aluk10-web dnf[7593]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 03:36:42 aluk10-web dnf[7593]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 03:36:42 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 03:36:42 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 03:36:42 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 28 04:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 04:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 04:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 04:36:45 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 04:36:45 aluk10-web dnf[7632]: Metadata cache refreshed recently.
+Oct 28 04:36:45 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 05:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 05:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 05:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 05:36:48 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 05:36:49 aluk10-web dnf[7658]: Metadata cache refreshed recently.
+Oct 28 05:36:49 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 06:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 06:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 06:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 06:36:52 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 06:36:53 aluk10-web dnf[7683]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 28 06:36:53 aluk10-web dnf[7683]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 06:36:53 aluk10-web dnf[7683]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 06:36:53 aluk10-web dnf[7683]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 06:36:53 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 06:36:53 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 06:36:53 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 28 07:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 07:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 07:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 07:36:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 07:36:56 aluk10-web dnf[7721]: Metadata cache refreshed recently.
+Oct 28 07:36:56 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 08:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 08:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 08:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 08:37:00 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 08:37:00 aluk10-web dnf[7746]: Metadata cache refreshed recently.
+Oct 28 08:37:00 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 09:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4758] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4764] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4764] dhcp4 (ens192): option expiry               => '1603977524'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4764] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4764] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4765] dhcp4 (ens192): option requested_routers    => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4766] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4766] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4766] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4766] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4766] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4766] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 28 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603891124.4766] dhcp4 (ens192): state changed extended -> extended
+Oct 28 09:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 28 09:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 28 09:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 28 09:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 28 09:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 09:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 09:37:03 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 09:37:04 aluk10-web dnf[7777]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 28 09:37:04 aluk10-web dnf[7777]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 09:37:04 aluk10-web dnf[7777]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 09:37:04 aluk10-web dnf[7777]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 09:37:04 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 09:37:04 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 09:37:04 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 28 10:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 10:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 10:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 10:37:07 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 10:37:07 aluk10-web dnf[7814]: Metadata cache refreshed recently.
+Oct 28 10:37:07 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 11:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 11:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 11:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 11:37:11 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 11:37:11 aluk10-web dnf[7840]: Metadata cache refreshed recently.
+Oct 28 11:37:11 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 12:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 12:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 12:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 12:37:14 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 12:37:15 aluk10-web dnf[7865]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 28 12:37:15 aluk10-web dnf[7865]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 12:37:15 aluk10-web dnf[7865]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 12:37:15 aluk10-web dnf[7865]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 12:37:15 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 12:37:15 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 12:37:15 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 28 13:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 13:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 13:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 13:37:18 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 13:37:18 aluk10-web dnf[7903]: Metadata cache refreshed recently.
+Oct 28 13:37:18 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 14:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 14:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 14:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 14:37:22 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 14:37:22 aluk10-web dnf[7928]: Metadata cache refreshed recently.
+Oct 28 14:37:22 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 15:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 15:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 15:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 15:37:25 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 15:37:26 aluk10-web dnf[7954]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 28 15:37:26 aluk10-web dnf[7954]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 15:37:26 aluk10-web dnf[7954]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 15:37:26 aluk10-web dnf[7954]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 15:37:26 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 15:37:26 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 15:37:26 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 28 16:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 16:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 16:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 16:37:29 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 16:37:30 aluk10-web dnf[7992]: Metadata cache refreshed recently.
+Oct 28 16:37:30 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 17:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 17:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 17:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 17:37:33 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 17:37:33 aluk10-web dnf[8017]: Metadata cache refreshed recently.
+Oct 28 17:37:33 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 18:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 18:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 18:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 18:37:36 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 18:37:37 aluk10-web dnf[8042]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 28 18:37:37 aluk10-web dnf[8042]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 18:37:37 aluk10-web dnf[8042]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 18:37:37 aluk10-web dnf[8042]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 18:37:37 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 18:37:37 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 18:37:37 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 28 19:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 19:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 19:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 19:37:40 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 19:37:40 aluk10-web dnf[8080]: Metadata cache refreshed recently.
+Oct 28 19:37:40 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 20:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 20:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 20:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 20:37:44 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 20:37:44 aluk10-web dnf[8106]: Metadata cache refreshed recently.
+Oct 28 20:37:44 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 21:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4768] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4777] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4777] dhcp4 (ens192): option expiry               => '1604020724'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4777] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4777] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4777] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4777] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4778] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4778] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4778] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4778] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4778] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4778] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4778] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4778] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4778] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4778] dhcp4 (ens192): option requested_routers    => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4779] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4779] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4779] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4779] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4779] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4779] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 28 21:18:44 aluk10-web NetworkManager[961]: <info>  [1603934324.4779] dhcp4 (ens192): state changed extended -> extended
+Oct 28 21:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 28 21:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 28 21:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 28 21:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 28 21:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 21:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 21:34:27 aluk10-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 28 21:34:27 aluk10-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 28 21:37:47 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 21:37:48 aluk10-web dnf[8138]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 28 21:37:48 aluk10-web dnf[8138]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 21:37:48 aluk10-web dnf[8138]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 21:37:48 aluk10-web dnf[8138]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 21:37:48 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 21:37:48 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 21:37:48 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 28 22:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 22:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 22:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 22:37:51 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 22:37:51 aluk10-web dnf[8175]: Metadata cache refreshed recently.
+Oct 28 22:37:52 aluk10-web systemd[1]: Started dnf makecache.
+Oct 28 23:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 23:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 28 23:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 28 23:37:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 28 23:37:55 aluk10-web dnf[8201]: Metadata cache refreshed recently.
+Oct 28 23:37:55 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 00:00:06 aluk10-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 29 00:00:06 aluk10-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 29 00:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 00:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 00:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 00:37:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 00:37:56 aluk10-web dnf[8230]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 29 00:37:56 aluk10-web dnf[8230]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 00:37:56 aluk10-web dnf[8230]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 00:37:56 aluk10-web dnf[8230]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 00:37:56 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 00:37:56 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 00:37:56 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 29 01:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 01:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 01:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 01:38:02 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 01:38:02 aluk10-web dnf[8270]: Metadata cache refreshed recently.
+Oct 29 01:38:03 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 02:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 02:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 02:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 02:38:06 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 02:38:06 aluk10-web dnf[8298]: Metadata cache refreshed recently.
+Oct 29 02:38:06 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 03:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 03:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 03:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 03:38:10 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 03:38:10 aluk10-web dnf[8334]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 29 03:38:10 aluk10-web dnf[8334]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 03:38:10 aluk10-web dnf[8334]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 03:38:10 aluk10-web dnf[8334]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 03:38:10 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 03:38:10 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 03:38:10 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 29 04:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 04:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 04:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 04:38:13 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 04:38:14 aluk10-web dnf[8371]: Metadata cache refreshed recently.
+Oct 29 04:38:14 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 05:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 05:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 05:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 05:38:17 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 05:38:17 aluk10-web dnf[8397]: Metadata cache refreshed recently.
+Oct 29 05:38:17 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 06:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 06:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 06:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 06:38:20 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 06:38:21 aluk10-web dnf[8422]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 29 06:38:21 aluk10-web dnf[8422]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 06:38:21 aluk10-web dnf[8422]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 06:38:21 aluk10-web dnf[8422]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 06:38:21 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 06:38:21 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 06:38:21 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 29 07:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 07:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 07:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 07:38:24 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 07:38:24 aluk10-web dnf[8460]: Metadata cache refreshed recently.
+Oct 29 07:38:25 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 08:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 08:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 08:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 08:38:28 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 08:38:28 aluk10-web dnf[8485]: Metadata cache refreshed recently.
+Oct 29 08:38:28 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 09:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4768] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4778] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4779] dhcp4 (ens192): option expiry               => '1604063924'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4779] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4779] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4779] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4779] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4779] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4779] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4779] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4779] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4780] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4780] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4780] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4780] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4780] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4780] dhcp4 (ens192): option requested_routers    => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4780] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4780] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4780] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4780] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4781] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4781] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 29 09:18:44 aluk10-web NetworkManager[961]: <info>  [1603977524.4781] dhcp4 (ens192): state changed extended -> extended
+Oct 29 09:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 29 09:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 29 09:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 29 09:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 29 09:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 09:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 09:38:31 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 09:38:32 aluk10-web dnf[8516]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 29 09:38:32 aluk10-web dnf[8516]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 09:38:32 aluk10-web dnf[8516]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 09:38:32 aluk10-web dnf[8516]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 09:38:32 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 09:38:32 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 09:38:32 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 29 10:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 10:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 10:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 10:38:35 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 10:38:35 aluk10-web dnf[8553]: Metadata cache refreshed recently.
+Oct 29 10:38:36 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 11:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 11:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 11:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 11:38:39 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 11:38:39 aluk10-web dnf[8579]: Metadata cache refreshed recently.
+Oct 29 11:38:39 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 12:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 12:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 12:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 12:38:43 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 12:38:43 aluk10-web dnf[8605]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 29 12:38:43 aluk10-web dnf[8605]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 12:38:43 aluk10-web dnf[8605]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 12:38:43 aluk10-web dnf[8605]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 12:38:43 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 12:38:43 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 12:38:43 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 29 13:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 13:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 13:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 13:38:46 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 13:38:47 aluk10-web dnf[8642]: Metadata cache refreshed recently.
+Oct 29 13:38:47 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 14:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 14:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 14:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 14:38:50 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 14:38:50 aluk10-web dnf[8667]: Metadata cache refreshed recently.
+Oct 29 14:38:50 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 15:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 15:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 15:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 15:38:54 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 15:38:54 aluk10-web dnf[8693]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 29 15:38:54 aluk10-web dnf[8693]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 15:38:54 aluk10-web dnf[8693]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 15:38:54 aluk10-web dnf[8693]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 15:38:54 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 15:38:54 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 15:38:54 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 29 16:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 16:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 16:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 16:38:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 16:38:56 aluk10-web dnf[8730]: Metadata cache refreshed recently.
+Oct 29 16:38:56 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 17:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 17:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 17:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 17:39:01 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 17:39:01 aluk10-web dnf[8755]: Metadata cache refreshed recently.
+Oct 29 17:39:01 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 18:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 18:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 18:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 18:39:05 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 18:39:05 aluk10-web dnf[8781]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 29 18:39:05 aluk10-web dnf[8781]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 18:39:05 aluk10-web dnf[8781]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 18:39:05 aluk10-web dnf[8781]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 18:39:05 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 18:39:05 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 18:39:06 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 29 19:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 19:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 19:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 19:39:08 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 19:39:09 aluk10-web dnf[8819]: Metadata cache refreshed recently.
+Oct 29 19:39:09 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 20:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 20:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 20:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 20:39:12 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 20:39:12 aluk10-web dnf[8844]: Metadata cache refreshed recently.
+Oct 29 20:39:12 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 21:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4763] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4777] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4777] dhcp4 (ens192): option expiry               => '1604107124'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4777] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4777] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4777] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4777] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4777] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4778] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4778] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4778] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4778] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4778] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4778] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4778] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4778] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4778] dhcp4 (ens192): option requested_routers    => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4779] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4779] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4779] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4779] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4779] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4779] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 29 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604020724.4779] dhcp4 (ens192): state changed extended -> extended
+Oct 29 21:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 29 21:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 29 21:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 29 21:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 29 21:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 21:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 21:34:35 aluk10-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 29 21:34:35 aluk10-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 29 21:39:16 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 21:39:17 aluk10-web dnf[8876]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 29 21:39:17 aluk10-web dnf[8876]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 21:39:17 aluk10-web dnf[8876]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 21:39:17 aluk10-web dnf[8876]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 21:39:17 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 21:39:17 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 21:39:17 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 29 22:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 22:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 22:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 22:39:19 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 22:39:20 aluk10-web dnf[8913]: Metadata cache refreshed recently.
+Oct 29 22:39:20 aluk10-web systemd[1]: Started dnf makecache.
+Oct 29 23:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 23:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 29 23:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 29 23:39:23 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 29 23:39:23 aluk10-web dnf[8939]: Metadata cache refreshed recently.
+Oct 29 23:39:23 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 00:00:04 aluk10-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 30 00:00:05 aluk10-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 30 00:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 00:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 00:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 00:39:27 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 00:39:28 aluk10-web dnf[8968]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 30 00:39:28 aluk10-web dnf[8968]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 00:39:28 aluk10-web dnf[8968]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 00:39:28 aluk10-web dnf[8968]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 00:39:28 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 00:39:28 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 00:39:28 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 30 01:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 01:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 01:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 01:39:30 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 01:39:31 aluk10-web dnf[9008]: Metadata cache refreshed recently.
+Oct 30 01:39:31 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 02:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 02:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 02:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 02:39:34 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 02:39:34 aluk10-web dnf[9035]: Metadata cache refreshed recently.
+Oct 30 02:39:35 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 03:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 03:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 03:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 03:39:38 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 03:39:39 aluk10-web dnf[9072]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 30 03:39:39 aluk10-web dnf[9072]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 03:39:39 aluk10-web dnf[9072]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 03:39:39 aluk10-web dnf[9072]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 03:39:39 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 03:39:39 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 03:39:39 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 30 04:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 04:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 04:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 04:39:42 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 04:39:42 aluk10-web dnf[9109]: Metadata cache refreshed recently.
+Oct 30 04:39:42 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 05:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 05:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 05:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 05:39:45 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 05:39:46 aluk10-web dnf[9135]: Metadata cache refreshed recently.
+Oct 30 05:39:46 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 06:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 06:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 06:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 06:39:49 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 06:39:50 aluk10-web dnf[9160]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 30 06:39:50 aluk10-web dnf[9160]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 06:39:50 aluk10-web dnf[9160]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 06:39:50 aluk10-web dnf[9160]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 06:39:50 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 06:39:50 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 06:39:50 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 30 07:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 07:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 07:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 07:39:53 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 07:39:53 aluk10-web dnf[9198]: Metadata cache refreshed recently.
+Oct 30 07:39:53 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 08:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 08:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 08:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 08:39:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 08:39:56 aluk10-web dnf[9223]: Metadata cache refreshed recently.
+Oct 30 08:39:56 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 09:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4765] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4777] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4777] dhcp4 (ens192): option expiry               => '1604150324'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4777] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4777] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4777] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4778] dhcp4 (ens192): option requested_routers    => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4779] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4779] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4779] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4779] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4779] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4779] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 30 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604063924.4779] dhcp4 (ens192): state changed extended -> extended
+Oct 30 09:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 30 09:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 30 09:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 30 09:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 30 09:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 09:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 09:40:00 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 09:40:01 aluk10-web dnf[9253]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 30 09:40:01 aluk10-web dnf[9253]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 09:40:01 aluk10-web dnf[9253]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 09:40:01 aluk10-web dnf[9253]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 09:40:01 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 09:40:01 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 09:40:01 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 30 10:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 10:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 10:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 10:40:04 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 10:40:04 aluk10-web dnf[9290]: Metadata cache refreshed recently.
+Oct 30 10:40:04 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 11:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 11:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 11:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 11:40:07 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 11:40:08 aluk10-web dnf[9316]: Metadata cache refreshed recently.
+Oct 30 11:40:08 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 12:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 12:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 12:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 12:40:11 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 12:40:12 aluk10-web dnf[9341]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 30 12:40:12 aluk10-web dnf[9341]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 12:40:12 aluk10-web dnf[9341]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 12:40:12 aluk10-web dnf[9341]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 12:40:12 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 12:40:12 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 12:40:12 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 30 13:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 13:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 13:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 13:40:15 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 13:40:15 aluk10-web dnf[9378]: Metadata cache refreshed recently.
+Oct 30 13:40:15 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 14:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 14:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 14:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 14:40:18 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 14:40:19 aluk10-web dnf[9404]: Metadata cache refreshed recently.
+Oct 30 14:40:19 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 15:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 15:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 15:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 15:40:22 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 15:40:23 aluk10-web dnf[9429]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 30 15:40:23 aluk10-web dnf[9429]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 15:40:23 aluk10-web dnf[9429]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 15:40:23 aluk10-web dnf[9429]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 15:40:23 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 15:40:23 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 15:40:23 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 30 16:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 16:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 16:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 16:40:26 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 16:40:26 aluk10-web dnf[9466]: Metadata cache refreshed recently.
+Oct 30 16:40:26 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 17:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 17:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 17:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 17:40:30 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 17:40:30 aluk10-web dnf[9492]: Metadata cache refreshed recently.
+Oct 30 17:40:30 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 18:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 18:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 18:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 18:40:33 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 18:40:34 aluk10-web dnf[9517]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 30 18:40:34 aluk10-web dnf[9517]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 18:40:34 aluk10-web dnf[9517]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 18:40:34 aluk10-web dnf[9517]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 18:40:34 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 18:40:34 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 18:40:34 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 30 19:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 19:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 19:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 19:40:37 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 19:40:37 aluk10-web dnf[9554]: Metadata cache refreshed recently.
+Oct 30 19:40:37 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 20:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 20:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 20:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 20:40:40 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 20:40:41 aluk10-web dnf[9579]: Metadata cache refreshed recently.
+Oct 30 20:40:41 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 21:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4765] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4773] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option expiry               => '1604193524'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4774] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4775] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4775] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4775] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4775] dhcp4 (ens192): option requested_routers    => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4775] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4775] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4775] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4775] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4775] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4776] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 30 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604107124.4776] dhcp4 (ens192): state changed extended -> extended
+Oct 30 21:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 30 21:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 30 21:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 30 21:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 30 21:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 21:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 21:34:44 aluk10-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 30 21:34:44 aluk10-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 30 21:40:44 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 21:40:45 aluk10-web dnf[9612]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 30 21:40:45 aluk10-web dnf[9612]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 21:40:45 aluk10-web dnf[9612]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 21:40:45 aluk10-web dnf[9612]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 21:40:45 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 21:40:45 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 21:40:45 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 30 22:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 22:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 22:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 22:40:48 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 22:40:48 aluk10-web dnf[9649]: Metadata cache refreshed recently.
+Oct 30 22:40:48 aluk10-web systemd[1]: Started dnf makecache.
+Oct 30 23:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 23:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 30 23:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 30 23:40:52 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 30 23:40:52 aluk10-web dnf[9674]: Metadata cache refreshed recently.
+Oct 30 23:40:52 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 00:00:03 aluk10-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 31 00:00:03 aluk10-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 31 00:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 00:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 00:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 00:40:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 00:40:56 aluk10-web dnf[9704]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 31 00:40:56 aluk10-web dnf[9704]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 00:40:56 aluk10-web dnf[9704]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 00:40:56 aluk10-web dnf[9704]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 00:40:56 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 00:40:56 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 00:40:56 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 31 01:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 01:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 01:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 01:40:59 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 01:40:59 aluk10-web dnf[9743]: Metadata cache refreshed recently.
+Oct 31 01:40:59 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 02:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 02:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 02:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 02:41:03 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 02:41:03 aluk10-web dnf[9770]: Metadata cache refreshed recently.
+Oct 31 02:41:03 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 03:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 03:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 03:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 03:41:06 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 03:41:07 aluk10-web dnf[9798]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 31 03:41:07 aluk10-web dnf[9798]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 03:41:07 aluk10-web dnf[9798]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 03:41:07 aluk10-web dnf[9798]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 03:41:07 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 03:41:07 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 03:41:07 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 31 04:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 04:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 04:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 04:41:10 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 04:41:10 aluk10-web dnf[9844]: Metadata cache refreshed recently.
+Oct 31 04:41:10 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 05:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 05:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 05:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 05:41:14 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 05:41:14 aluk10-web dnf[9869]: Metadata cache refreshed recently.
+Oct 31 05:41:14 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 06:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 06:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 06:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 06:41:17 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 06:41:18 aluk10-web dnf[9895]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 31 06:41:18 aluk10-web dnf[9895]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 06:41:18 aluk10-web dnf[9895]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 06:41:18 aluk10-web dnf[9895]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 06:41:18 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 06:41:18 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 06:41:18 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 31 07:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 07:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 07:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 07:41:21 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 07:41:21 aluk10-web dnf[9932]: Metadata cache refreshed recently.
+Oct 31 07:41:21 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 08:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 08:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 08:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 08:41:25 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 08:41:25 aluk10-web dnf[9957]: Metadata cache refreshed recently.
+Oct 31 08:41:25 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 09:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4776] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4785] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4785] dhcp4 (ens192): option expiry               => '1604236724'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4785] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4785] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4786] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4786] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4786] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4786] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4786] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4786] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4786] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4786] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4786] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4787] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4787] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4787] dhcp4 (ens192): option requested_routers    => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4787] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4787] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4787] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4787] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4787] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4787] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 31 09:18:44 aluk10-web NetworkManager[961]: <info>  [1604150324.4787] dhcp4 (ens192): state changed extended -> extended
+Oct 31 09:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 31 09:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 31 09:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 31 09:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 31 09:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 09:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 09:41:28 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 09:41:29 aluk10-web dnf[9988]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 31 09:41:29 aluk10-web dnf[9988]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 09:41:29 aluk10-web dnf[9988]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 09:41:29 aluk10-web dnf[9988]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 09:41:29 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 09:41:29 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 09:41:29 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 31 10:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 10:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 10:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 10:41:32 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 10:41:32 aluk10-web dnf[10025]: Metadata cache refreshed recently.
+Oct 31 10:41:32 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 11:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 11:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 11:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 11:41:36 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 11:41:36 aluk10-web dnf[10050]: Metadata cache refreshed recently.
+Oct 31 11:41:36 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 12:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 12:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 12:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 12:41:40 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 12:41:40 aluk10-web dnf[10076]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 31 12:41:40 aluk10-web dnf[10076]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 12:41:40 aluk10-web dnf[10076]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 12:41:40 aluk10-web dnf[10076]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 12:41:40 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 12:41:40 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 12:41:40 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 31 13:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 13:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 13:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 13:41:43 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 13:41:44 aluk10-web dnf[10113]: Metadata cache refreshed recently.
+Oct 31 13:41:44 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 14:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 14:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 14:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 14:41:47 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 14:41:47 aluk10-web dnf[10138]: Metadata cache refreshed recently.
+Oct 31 14:41:47 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 15:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 15:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 15:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 15:41:51 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 15:41:51 aluk10-web dnf[10163]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 31 15:41:51 aluk10-web dnf[10163]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 15:41:51 aluk10-web dnf[10163]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 15:41:51 aluk10-web dnf[10163]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 15:41:52 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 15:41:52 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 15:41:52 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 31 16:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 16:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 16:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 16:41:54 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 16:41:55 aluk10-web dnf[10201]: Metadata cache refreshed recently.
+Oct 31 16:41:55 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 17:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 17:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 17:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 17:41:55 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 17:41:56 aluk10-web dnf[10226]: Metadata cache refreshed recently.
+Oct 31 17:41:56 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 18:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 18:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 18:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 18:42:02 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 18:42:02 aluk10-web dnf[10251]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 31 18:42:02 aluk10-web dnf[10251]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 18:42:02 aluk10-web dnf[10251]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 18:42:02 aluk10-web dnf[10251]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 18:42:02 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 18:42:02 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 18:42:02 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 31 19:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 19:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 19:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 19:42:05 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 19:42:06 aluk10-web dnf[10289]: Metadata cache refreshed recently.
+Oct 31 19:42:06 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 20:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 20:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 20:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 20:42:09 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 20:42:09 aluk10-web dnf[10314]: Metadata cache refreshed recently.
+Oct 31 20:42:09 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 21:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4762] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4772] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4772] dhcp4 (ens192): option expiry               => '1604279924'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4772] dhcp4 (ens192): option ip_address           => '172.16.17.2'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4772] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4772] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4772] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4772] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4772] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4772] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4773] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4773] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4773] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4773] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4773] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4773] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4773] dhcp4 (ens192): option requested_routers    => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4773] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4773] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4773] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4774] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4774] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4774] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 31 21:18:44 aluk10-web NetworkManager[961]: <info>  [1604193524.4774] dhcp4 (ens192): state changed extended -> extended
+Oct 31 21:18:44 aluk10-web dbus-daemon[959]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 31 21:18:44 aluk10-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 31 21:18:44 aluk10-web dbus-daemon[959]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 31 21:18:44 aluk10-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 31 21:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 21:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 21:34:52 aluk10-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 31 21:34:52 aluk10-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 31 21:42:13 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 21:42:13 aluk10-web dnf[10346]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Oct 31 21:42:13 aluk10-web dnf[10346]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 21:42:13 aluk10-web dnf[10346]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 21:42:13 aluk10-web dnf[10346]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 21:42:14 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 21:42:14 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 21:42:14 aluk10-web systemd[1]: Failed to start dnf makecache.
+Oct 31 22:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 22:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 22:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 22:42:16 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 22:42:17 aluk10-web dnf[10384]: Metadata cache refreshed recently.
+Oct 31 22:42:17 aluk10-web systemd[1]: Started dnf makecache.
+Oct 31 23:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 23:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Oct 31 23:26:18 aluk10-web named[3694]: resolver priming query complete
+Oct 31 23:42:20 aluk10-web systemd[1]: Starting dnf makecache...
+Oct 31 23:42:20 aluk10-web dnf[10410]: Metadata cache refreshed recently.
+Oct 31 23:42:20 aluk10-web systemd[1]: Started dnf makecache.
+Nov  1 00:00:01 aluk10-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  1 00:00:01 aluk10-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  1 00:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Nov  1 00:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Nov  1 00:26:18 aluk10-web named[3694]: resolver priming query complete
+Nov  1 00:42:24 aluk10-web systemd[1]: Starting dnf makecache...
+Nov  1 00:42:25 aluk10-web dnf[10439]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Nov  1 00:42:25 aluk10-web dnf[10439]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 00:42:25 aluk10-web dnf[10439]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  1 00:42:25 aluk10-web dnf[10439]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  1 00:42:25 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 00:42:25 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 00:42:25 aluk10-web systemd[1]: Failed to start dnf makecache.
+Nov  1 01:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Nov  1 01:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Nov  1 01:26:18 aluk10-web named[3694]: resolver priming query complete
+Nov  1 01:42:27 aluk10-web systemd[1]: Starting dnf makecache...
+Nov  1 01:42:28 aluk10-web dnf[10479]: Metadata cache refreshed recently.
+Nov  1 01:42:28 aluk10-web systemd[1]: Started dnf makecache.
+Nov  1 01:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Nov  1 01:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Nov  1 01:26:18 aluk10-web named[3694]: resolver priming query complete
+Nov  1 01:42:31 aluk10-web systemd[1]: Starting dnf makecache...
+Nov  1 01:42:31 aluk10-web dnf[10506]: Metadata cache refreshed recently.
+Nov  1 01:42:31 aluk10-web systemd[1]: Started dnf makecache.
+Nov  1 02:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Nov  1 02:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Nov  1 02:26:18 aluk10-web named[3694]: resolver priming query complete
+Nov  1 02:42:35 aluk10-web systemd[1]: Starting dnf makecache...
+Nov  1 02:42:36 aluk10-web dnf[10533]: CentOS-8 - AppStream                            0.0  B/s |   0  B     00:00
+Nov  1 02:42:36 aluk10-web dnf[10533]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 02:42:36 aluk10-web dnf[10533]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  1 02:42:36 aluk10-web dnf[10533]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  1 02:42:36 aluk10-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 02:42:36 aluk10-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 02:42:36 aluk10-web systemd[1]: Failed to start dnf makecache.
+Nov  1 03:09:01 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Nov  1 03:26:18 aluk10-web named[3694]: managed-keys-zone: Unable to fetch DNSKEY set '.': ncache nxrrset
+Nov  1 03:26:18 aluk10-web named[3694]: resolver priming query complete
+Nov  1 03:42:38 aluk10-web systemd[1]: Starting dnf makecache...
+Nov  1 03:42:39 aluk10-web dnf[10572]: Metadata cache refreshed recently.
+Nov  1 03:42:39 aluk10-web systemd[1]: Started dnf makecache.
+Nov  1 03:50:01 aluk10-web systemd[1]: Reloading The Apache HTTP Server.
+Nov  1 03:50:01 aluk10-web systemd[1]: Reloaded The Apache HTTP Server.
+Nov  1 03:50:01 aluk10-web systemd[1]: Reloading Berkeley Internet Name Domain (DNS).
+Nov  1 03:50:01 aluk10-web named[3694]: received control channel command 'reload'
+Nov  1 03:50:01 aluk10-web named[3694]: loading configuration from '/etc/named.conf'
+Nov  1 03:50:01 aluk10-web named[3694]: unable to open '/etc/bind.keys'; using built-in keys instead
+Nov  1 03:50:01 aluk10-web named[3694]: looking for GeoIP2 databases in '/usr/share/GeoIP'
+Nov  1 03:50:01 aluk10-web named[3694]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-Country.mmdb'
+Nov  1 03:50:01 aluk10-web named[3694]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-City.mmdb'
+Nov  1 03:50:01 aluk10-web named[3694]: using default UDP/IPv4 port range: [32768, 60999]
+Nov  1 03:50:01 aluk10-web named[3694]: using default UDP/IPv6 port range: [32768, 60999]
+Nov  1 03:50:01 aluk10-web named[3694]: sizing zone task pool based on 6 zones
+Nov  1 03:50:01 aluk10-web named[3694]: none:104: 'max-cache-size 90%' - setting to 1643MB (out of 1825MB)

@@ -1,0 +1,7 @@
+Oct 27 17:32:21 aluk10-rns sshd[6198]: Accepted publickey for instructor from 172.16.0.1 port 47070 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 27 17:32:21 aluk10-rns systemd[6202]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:21 aluk10-rns sshd[6198]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:22 aluk10-rns sshd[6213]: Received disconnect from 172.16.0.1 port 47070:11: disconnected by user
+Oct 27 17:32:22 aluk10-rns sshd[6213]: Disconnected from user instructor 172.16.0.1 port 47070
+Oct 27 17:32:22 aluk10-rns sshd[6198]: pam_unix(sshd:session): session closed for user instructor
+Oct 27 17:32:22 aluk10-rns systemd[6207]: pam_unix(systemd-user:session): session closed for user instructor

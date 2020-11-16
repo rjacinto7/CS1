@@ -1,0 +1,7 @@
+[Sat Nov 14 16:15:50.515441 2020] [core:notice] [pid 6548:tid 140228832856384] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sat Nov 14 16:15:50.521253 2020] [suexec:notice] [pid 6548:tid 140228832856384] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Nov 14 16:15:50.538955 2020] [lbmethod_heartbeat:notice] [pid 6548:tid 140228832856384] AH02282: No slotmem from mod_heartmonitor
+[Sat Nov 14 16:15:50.539543 2020] [http2:warn] [pid 6548:tid 140228832856384] AH02951: mod_ssl does not seem to be enabled
+[Sat Nov 14 16:15:50.542322 2020] [mpm_event:notice] [pid 6548:tid 140228832856384] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Sat Nov 14 16:15:50.542346 2020] [core:notice] [pid 6548:tid 140228832856384] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Nov 15 03:24:01.441158 2020] [mpm_event:notice] [pid 6548:tid 140228832856384] AH00493: SIGUSR1 received.  Doing graceful restart

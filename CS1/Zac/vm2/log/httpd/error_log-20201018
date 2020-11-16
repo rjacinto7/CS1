@@ -1,0 +1,10 @@
+[Sun Oct 11 14:50:42.581916 2020] [core:notice] [pid 34197:tid 140720089155904] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Sun Oct 11 14:50:42.583388 2020] [suexec:notice] [pid 34197:tid 140720089155904] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sun Oct 11 14:50:42.619613 2020] [lbmethod_heartbeat:notice] [pid 34197:tid 140720089155904] AH02282: No slotmem from mod_heartmonitor
+[Sun Oct 11 14:50:42.620428 2020] [http2:warn] [pid 34197:tid 140720089155904] AH02951: mod_ssl does not seem to be enabled
+[Sun Oct 11 14:50:42.623670 2020] [mpm_event:notice] [pid 34197:tid 140720089155904] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Sun Oct 11 14:50:42.623712 2020] [core:notice] [pid 34197:tid 140720089155904] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Oct 11 14:52:41.772050 2020] [autoindex:error] [pid 34201:tid 140719326996224] [client 192.168.12.2:35480] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Oct 11 14:56:39.958715 2020] [autoindex:error] [pid 34201:tid 140719192712960] [client 192.168.12.2:35482] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Oct 11 14:58:27.824551 2020] [autoindex:error] [pid 34201:tid 140719360567040] [client ::1:50380] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Oct 18 03:10:56.737031 2020] [mpm_event:notice] [pid 34197:tid 140720089155904] AH00493: SIGUSR1 received.  Doing graceful restart

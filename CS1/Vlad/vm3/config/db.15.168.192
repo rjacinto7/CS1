@@ -1,0 +1,18 @@
+
+$TTL 604800 
+@ IN SOA vkim11-pri.vkim11.com. root.vkim11-pri.vkim11.com. (
+			6 ; Serial 
+			604800 ; Refresh 
+			86400 ; Retry 
+			2419200 ; Expire 
+			604800 ; minimum
+)
+; name servers 
+
+@	IN	NS	vkim11-pri.vkim11.com.
+@	IN	PTR	vkim11-pri.vkim11.com.
+; PTR Records 
+53	IN	PTR	vkim11-pri.vkim11.com.
+253	IN	PTR	vkim11-rns.vkim11.com. 
+80	IN	PTR	www.vkim11.com.
+25	IN	PTR	mail.vkim11.com. 

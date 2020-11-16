@@ -1,0 +1,1361 @@
+Oct 25 03:34:31 vkim11-web rsyslogd[1261]: [origin software="rsyslogd" swVersion="8.1911.0-3.el8" x-pid="1261" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct 25 03:34:41 vkim11-web httpd[997]: Server configured, listening on: port 80
+Oct 25 03:47:14 vkim11-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 25 03:47:14 vkim11-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 25 04:05:05 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 04:05:06 vkim11-web dnf[5257]: Metadata cache refreshed recently.
+Oct 25 04:05:06 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 05:05:09 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 05:07:10 vkim11-web dnf[5282]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 25 05:07:10 vkim11-web dnf[5282]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 05:07:10 vkim11-web dnf[5282]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 05:07:10 vkim11-web dnf[5282]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 05:07:10 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 05:07:10 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 05:07:10 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 25 06:07:13 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 06:07:13 vkim11-web dnf[5319]: Metadata cache refreshed recently.
+Oct 25 06:07:13 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 07:07:16 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 07:07:17 vkim11-web dnf[5345]: Metadata cache refreshed recently.
+Oct 25 07:07:17 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 08:07:20 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 08:09:21 vkim11-web dnf[5370]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 25 08:09:21 vkim11-web dnf[5370]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 08:09:21 vkim11-web dnf[5370]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 08:09:21 vkim11-web dnf[5370]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 08:09:22 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 08:09:22 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 08:09:22 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 25 09:09:24 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 09:09:24 vkim11-web dnf[5408]: Metadata cache refreshed recently.
+Oct 25 09:09:25 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 10:09:28 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 10:09:28 vkim11-web dnf[5433]: Metadata cache refreshed recently.
+Oct 25 10:09:28 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 11:09:32 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 11:11:33 vkim11-web dnf[5459]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 25 11:11:33 vkim11-web dnf[5459]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 11:11:33 vkim11-web dnf[5459]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 11:11:33 vkim11-web dnf[5459]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 11:11:33 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 11:11:33 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 11:11:33 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 25 12:11:34 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 12:11:35 vkim11-web dnf[5496]: Metadata cache refreshed recently.
+Oct 25 12:11:35 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 13:11:39 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 13:11:40 vkim11-web dnf[5521]: Metadata cache refreshed recently.
+Oct 25 13:11:40 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 14:11:43 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 14:13:44 vkim11-web dnf[5546]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 25 14:13:44 vkim11-web dnf[5546]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 14:13:44 vkim11-web dnf[5546]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 14:13:44 vkim11-web dnf[5546]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 14:13:44 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 14:13:44 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 14:13:44 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 25 15:13:47 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 15:13:47 vkim11-web dnf[5585]: Metadata cache refreshed recently.
+Oct 25 15:13:47 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1744] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1751] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1751] dhcp4 (ens192): option expiry               => '1603740721'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1752] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1753] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1753] dhcp4 (ens192): option requested_routers    => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1753] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1753] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1753] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1753] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1753] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1753] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 25 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603654321.1753] dhcp4 (ens192): state changed extended -> extended
+Oct 25 15:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 25 15:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 25 15:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 25 15:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 25 16:13:51 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 16:13:51 vkim11-web dnf[5615]: Metadata cache refreshed recently.
+Oct 25 16:13:51 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 17:13:54 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 17:15:55 vkim11-web dnf[5640]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 25 17:15:55 vkim11-web dnf[5640]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 17:15:55 vkim11-web dnf[5640]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 17:15:55 vkim11-web dnf[5640]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 17:15:55 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 17:15:55 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 17:15:55 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 25 18:15:58 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 18:15:58 vkim11-web dnf[5677]: Metadata cache refreshed recently.
+Oct 25 18:15:59 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 19:16:02 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 19:16:02 vkim11-web dnf[5703]: Metadata cache refreshed recently.
+Oct 25 19:16:02 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 20:16:06 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 20:18:07 vkim11-web dnf[5728]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 25 20:18:07 vkim11-web dnf[5728]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 20:18:07 vkim11-web dnf[5728]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 20:18:07 vkim11-web dnf[5728]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 20:18:07 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 20:18:07 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 20:18:07 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 25 21:18:09 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 21:18:10 vkim11-web dnf[5766]: Metadata cache refreshed recently.
+Oct 25 21:18:10 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 22:18:13 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 22:18:13 vkim11-web dnf[5791]: Metadata cache refreshed recently.
+Oct 25 22:18:13 vkim11-web systemd[1]: Started dnf makecache.
+Oct 25 23:18:17 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 25 23:20:18 vkim11-web dnf[5816]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 25 23:20:18 vkim11-web dnf[5816]: Errors during downloading metadata for repository 'AppStream':
+Oct 25 23:20:18 vkim11-web dnf[5816]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 23:20:18 vkim11-web dnf[5816]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 25 23:20:18 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 23:20:18 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 25 23:20:18 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 26 00:00:09 vkim11-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 26 00:00:22 vkim11-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 26 00:20:21 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 00:20:21 vkim11-web dnf[5858]: Metadata cache refreshed recently.
+Oct 26 00:20:21 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 01:20:24 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 01:20:25 vkim11-web dnf[5885]: Metadata cache refreshed recently.
+Oct 26 01:20:25 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 02:20:28 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 02:22:29 vkim11-web dnf[5913]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 26 02:22:29 vkim11-web dnf[5913]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 02:22:29 vkim11-web dnf[5913]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 02:22:29 vkim11-web dnf[5913]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 02:22:29 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 02:22:29 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 02:22:29 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 26 03:22:32 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 03:22:32 vkim11-web dnf[5961]: Metadata cache refreshed recently.
+Oct 26 03:22:32 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1762] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1765] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1765] dhcp4 (ens192): option expiry               => '1603783921'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1765] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1766] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1767] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1767] dhcp4 (ens192): option requested_routers    => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1767] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1767] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1767] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1767] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1767] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1767] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 26 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603697521.1767] dhcp4 (ens192): state changed extended -> extended
+Oct 26 03:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 26 03:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 26 03:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 26 03:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 26 03:47:23 vkim11-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 26 03:47:23 vkim11-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 26 04:22:34 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 04:22:35 vkim11-web dnf[5994]: Metadata cache refreshed recently.
+Oct 26 04:22:35 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 05:22:39 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 05:24:40 vkim11-web dnf[6019]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 26 05:24:40 vkim11-web dnf[6019]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 05:24:40 vkim11-web dnf[6019]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 05:24:40 vkim11-web dnf[6019]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 05:24:41 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 05:24:41 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 05:24:41 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 26 06:24:43 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 06:24:43 vkim11-web dnf[6057]: Metadata cache refreshed recently.
+Oct 26 06:24:44 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 07:24:47 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 07:24:47 vkim11-web dnf[6082]: Metadata cache refreshed recently.
+Oct 26 07:24:47 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 08:24:51 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 08:26:52 vkim11-web dnf[6107]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 26 08:26:52 vkim11-web dnf[6107]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 08:26:52 vkim11-web dnf[6107]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 08:26:52 vkim11-web dnf[6107]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 08:26:52 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 08:26:52 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 08:26:52 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 26 09:26:54 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 09:26:55 vkim11-web dnf[6145]: Metadata cache refreshed recently.
+Oct 26 09:26:55 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 10:26:58 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 10:26:59 vkim11-web dnf[6170]: Metadata cache refreshed recently.
+Oct 26 10:26:59 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 11:27:02 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 11:29:03 vkim11-web dnf[6195]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 26 11:29:03 vkim11-web dnf[6195]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 11:29:03 vkim11-web dnf[6195]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 11:29:03 vkim11-web dnf[6195]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 11:29:03 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 11:29:03 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 11:29:03 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 26 12:29:06 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 12:29:06 vkim11-web dnf[6233]: Metadata cache refreshed recently.
+Oct 26 12:29:06 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 13:29:10 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 13:29:10 vkim11-web dnf[6259]: Metadata cache refreshed recently.
+Oct 26 13:29:10 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 14:29:13 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 14:31:15 vkim11-web dnf[6284]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 26 14:31:15 vkim11-web dnf[6284]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 14:31:15 vkim11-web dnf[6284]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 14:31:15 vkim11-web dnf[6284]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 14:31:15 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 14:31:15 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 14:31:15 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 26 15:31:17 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 15:31:17 vkim11-web dnf[6321]: Metadata cache refreshed recently.
+Oct 26 15:31:17 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1749] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1759] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1759] dhcp4 (ens192): option expiry               => '1603827121'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1759] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1759] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1759] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1759] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1759] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1759] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1759] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1760] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1760] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1760] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1760] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1760] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1760] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1760] dhcp4 (ens192): option requested_routers    => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1760] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1760] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1760] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1761] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1761] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1761] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 26 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603740721.1761] dhcp4 (ens192): state changed extended -> extended
+Oct 26 15:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 26 15:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 26 15:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 26 15:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 26 16:31:21 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 16:31:21 vkim11-web dnf[6352]: Metadata cache refreshed recently.
+Oct 26 16:31:21 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 17:31:24 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 17:33:26 vkim11-web dnf[6377]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 26 17:33:26 vkim11-web dnf[6377]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 17:33:26 vkim11-web dnf[6377]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 17:33:26 vkim11-web dnf[6377]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 17:33:26 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 17:33:26 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 17:33:26 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 26 18:33:28 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 18:33:29 vkim11-web dnf[6416]: Metadata cache refreshed recently.
+Oct 26 18:33:29 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 19:33:32 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 19:33:32 vkim11-web dnf[6441]: Metadata cache refreshed recently.
+Oct 26 19:33:32 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 20:33:34 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 20:35:36 vkim11-web dnf[6467]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 26 20:35:36 vkim11-web dnf[6467]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 20:35:36 vkim11-web dnf[6467]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 20:35:36 vkim11-web dnf[6467]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 20:35:36 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 20:35:36 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 20:35:36 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 26 21:35:40 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 21:35:40 vkim11-web dnf[6504]: Metadata cache refreshed recently.
+Oct 26 21:35:40 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 22:35:43 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 22:35:44 vkim11-web dnf[6529]: Metadata cache refreshed recently.
+Oct 26 22:35:44 vkim11-web systemd[1]: Started dnf makecache.
+Oct 26 23:35:47 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 26 23:37:48 vkim11-web dnf[6555]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 26 23:37:48 vkim11-web dnf[6555]: Errors during downloading metadata for repository 'AppStream':
+Oct 26 23:37:48 vkim11-web dnf[6555]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 23:37:48 vkim11-web dnf[6555]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 26 23:37:48 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 26 23:37:48 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 26 23:37:48 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 27 00:00:09 vkim11-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 27 00:00:21 vkim11-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 27 00:37:51 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 00:37:51 vkim11-web dnf[6596]: Metadata cache refreshed recently.
+Oct 27 00:37:51 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 01:37:55 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 01:37:55 vkim11-web dnf[6624]: Metadata cache refreshed recently.
+Oct 27 01:37:55 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 02:37:58 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 02:40:00 vkim11-web dnf[6651]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 27 02:40:00 vkim11-web dnf[6651]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 02:40:00 vkim11-web dnf[6651]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 02:40:00 vkim11-web dnf[6651]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 02:40:00 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 02:40:00 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 02:40:00 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1745] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1748] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1749] dhcp4 (ens192): option expiry               => '1603870321'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1749] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1749] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1749] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1749] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1749] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1749] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1749] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1749] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1749] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1750] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1750] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1750] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1750] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1750] dhcp4 (ens192): option requested_routers    => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1750] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1750] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1750] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1750] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1750] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1751] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 27 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603783921.1751] dhcp4 (ens192): state changed extended -> extended
+Oct 27 03:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 27 03:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 27 03:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 27 03:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 27 03:40:02 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 03:40:03 vkim11-web dnf[6705]: Metadata cache refreshed recently.
+Oct 27 03:40:03 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 03:47:33 vkim11-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 27 03:47:33 vkim11-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 27 04:40:06 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 04:40:06 vkim11-web dnf[6732]: Metadata cache refreshed recently.
+Oct 27 04:40:06 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 05:40:10 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 05:42:11 vkim11-web dnf[6757]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 27 05:42:11 vkim11-web dnf[6757]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 05:42:11 vkim11-web dnf[6757]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 05:42:11 vkim11-web dnf[6757]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 05:42:11 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 05:42:11 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 05:42:11 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 27 06:42:13 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 06:42:14 vkim11-web dnf[6795]: Metadata cache refreshed recently.
+Oct 27 06:42:14 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 07:42:17 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 07:42:17 vkim11-web dnf[6820]: Metadata cache refreshed recently.
+Oct 27 07:42:18 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 08:42:21 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 08:44:22 vkim11-web dnf[6845]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 27 08:44:22 vkim11-web dnf[6845]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 08:44:22 vkim11-web dnf[6845]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 08:44:22 vkim11-web dnf[6845]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 08:44:22 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 08:44:22 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 08:44:22 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 27 09:44:25 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 09:44:25 vkim11-web dnf[6883]: Metadata cache refreshed recently.
+Oct 27 09:44:25 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 10:44:28 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 10:44:29 vkim11-web dnf[6908]: Metadata cache refreshed recently.
+Oct 27 10:44:29 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 11:44:32 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 11:46:33 vkim11-web dnf[6934]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 27 11:46:33 vkim11-web dnf[6934]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 11:46:33 vkim11-web dnf[6934]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 11:46:33 vkim11-web dnf[6934]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 11:46:33 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 11:46:33 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 11:46:33 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 27 12:46:34 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 12:46:35 vkim11-web dnf[6971]: Metadata cache refreshed recently.
+Oct 27 12:46:35 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 13:46:40 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 13:46:40 vkim11-web dnf[6996]: Metadata cache refreshed recently.
+Oct 27 13:46:40 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 14:46:43 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 14:48:45 vkim11-web dnf[7022]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 27 14:48:45 vkim11-web dnf[7022]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 14:48:45 vkim11-web dnf[7022]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 14:48:45 vkim11-web dnf[7022]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 14:48:45 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 14:48:45 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 14:48:45 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1750] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1758] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1758] dhcp4 (ens192): option expiry               => '1603913521'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1758] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1758] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1758] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1759] dhcp4 (ens192): option requested_routers    => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1760] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1760] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1760] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1760] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1760] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1760] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 27 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603827121.1760] dhcp4 (ens192): state changed extended -> extended
+Oct 27 15:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 27 15:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 27 15:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 27 15:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 27 15:48:47 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 15:48:48 vkim11-web dnf[7065]: Metadata cache refreshed recently.
+Oct 27 15:48:48 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 16:48:51 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 16:48:51 vkim11-web dnf[7090]: Metadata cache refreshed recently.
+Oct 27 16:48:51 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 17:32:17 vkim11-web systemd[1]: Started /run/user/1001 mount wrapper.
+Oct 27 17:32:17 vkim11-web systemd[1]: Created slice User Slice of UID 1001.
+Oct 27 17:32:17 vkim11-web systemd[1]: Starting User Manager for UID 1001...
+Oct 27 17:32:17 vkim11-web systemd[1]: Started Session 4 of user instructor.
+Oct 27 17:32:17 vkim11-web systemd-logind[1266]: New session 4 of user instructor.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Started Mark boot as successful after the user session has run 2 minutes.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Reached target Timers.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Starting D-Bus User Message Bus Socket.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Reached target Paths.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Listening on D-Bus User Message Bus Socket.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Reached target Sockets.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Reached target Basic System.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Reached target Default.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Startup finished in 43ms.
+Oct 27 17:32:17 vkim11-web systemd[1]: Started User Manager for UID 1001.
+Oct 27 17:32:17 vkim11-web systemd-logind[1266]: Session 4 logged out. Waiting for processes to exit.
+Oct 27 17:32:17 vkim11-web systemd-logind[1266]: Removed session 4.
+Oct 27 17:32:17 vkim11-web systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 27 17:32:17 vkim11-web systemd[1]: Stopping User Manager for UID 1001...
+Oct 27 17:32:17 vkim11-web systemd[7116]: Stopped target Default.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Stopped target Basic System.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Stopped target Sockets.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Closed D-Bus User Message Bus Socket.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Stopped target Paths.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Stopped target Timers.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Reached target Shutdown.
+Oct 27 17:32:17 vkim11-web systemd[7116]: Starting Exit the Session...
+Oct 27 17:32:17 vkim11-web systemd[1]: user@1001.service: Killing process 7142 (systemctl) with signal SIGKILL.
+Oct 27 17:32:17 vkim11-web systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 27 17:32:17 vkim11-web systemd[1]: Stopped User Manager for UID 1001.
+Oct 27 17:32:17 vkim11-web systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 27 17:32:17 vkim11-web systemd[1]: Removed slice User Slice of UID 1001.
+Oct 27 17:32:17 vkim11-web systemd[1]: Stopping /run/user/1001 mount wrapper...
+Oct 27 17:32:17 vkim11-web systemd[1]: Stopped /run/user/1001 mount wrapper.
+Oct 27 17:48:55 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 17:50:56 vkim11-web dnf[7152]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 27 17:50:56 vkim11-web dnf[7152]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 17:50:56 vkim11-web dnf[7152]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 17:50:56 vkim11-web dnf[7152]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 17:50:56 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 17:50:56 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 17:50:56 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 27 18:50:58 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 18:50:59 vkim11-web dnf[7190]: Metadata cache refreshed recently.
+Oct 27 18:50:59 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 19:51:02 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 19:51:02 vkim11-web dnf[7215]: Metadata cache refreshed recently.
+Oct 27 19:51:02 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 20:51:06 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 20:53:07 vkim11-web dnf[7240]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 27 20:53:07 vkim11-web dnf[7240]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 20:53:07 vkim11-web dnf[7240]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 20:53:07 vkim11-web dnf[7240]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 20:53:07 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 20:53:07 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 20:53:07 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 27 21:53:10 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 21:53:10 vkim11-web dnf[7278]: Metadata cache refreshed recently.
+Oct 27 21:53:10 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 22:53:14 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 22:53:14 vkim11-web dnf[7304]: Metadata cache refreshed recently.
+Oct 27 22:53:14 vkim11-web systemd[1]: Started dnf makecache.
+Oct 27 23:53:17 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 27 23:55:19 vkim11-web dnf[7329]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 27 23:55:19 vkim11-web dnf[7329]: Errors during downloading metadata for repository 'AppStream':
+Oct 27 23:55:19 vkim11-web dnf[7329]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 23:55:19 vkim11-web dnf[7329]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 27 23:55:19 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 27 23:55:19 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 27 23:55:19 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 28 00:00:08 vkim11-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 28 00:00:20 vkim11-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 28 00:55:21 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 00:55:21 vkim11-web dnf[7371]: Metadata cache refreshed recently.
+Oct 28 00:55:21 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 01:55:25 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 01:55:25 vkim11-web dnf[7398]: Metadata cache refreshed recently.
+Oct 28 01:55:25 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 02:55:28 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 02:57:30 vkim11-web dnf[7425]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 28 02:57:30 vkim11-web dnf[7425]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 02:57:30 vkim11-web dnf[7425]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 02:57:30 vkim11-web dnf[7425]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 02:57:30 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 02:57:30 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 02:57:30 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1747] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1751] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1751] dhcp4 (ens192): option expiry               => '1603956721'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1751] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1751] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1751] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1751] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1751] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1751] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1751] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_routers    => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1752] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1753] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1753] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 28 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603870321.1753] dhcp4 (ens192): state changed extended -> extended
+Oct 28 03:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 28 03:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 28 03:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 28 03:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 28 03:47:34 vkim11-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 28 03:47:34 vkim11-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 28 03:57:32 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 03:57:33 vkim11-web dnf[7483]: Metadata cache refreshed recently.
+Oct 28 03:57:33 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 04:57:34 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 04:57:35 vkim11-web dnf[7508]: Metadata cache refreshed recently.
+Oct 28 04:57:35 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 05:57:40 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 05:59:41 vkim11-web dnf[7533]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 28 05:59:41 vkim11-web dnf[7533]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 05:59:41 vkim11-web dnf[7533]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 05:59:41 vkim11-web dnf[7533]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 05:59:41 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 05:59:41 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 05:59:41 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 28 06:59:43 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 06:59:44 vkim11-web dnf[7571]: Metadata cache refreshed recently.
+Oct 28 06:59:44 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 07:59:47 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 07:59:48 vkim11-web dnf[7596]: Metadata cache refreshed recently.
+Oct 28 07:59:48 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 08:59:51 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 09:01:52 vkim11-web dnf[7622]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 28 09:01:52 vkim11-web dnf[7622]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 09:01:52 vkim11-web dnf[7622]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 09:01:52 vkim11-web dnf[7622]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 09:01:52 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 09:01:52 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 09:01:52 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 28 10:01:55 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 10:01:55 vkim11-web dnf[7670]: Metadata cache refreshed recently.
+Oct 28 10:01:55 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 11:01:58 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 11:01:59 vkim11-web dnf[7696]: Metadata cache refreshed recently.
+Oct 28 11:01:59 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 12:02:02 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 12:04:03 vkim11-web dnf[7722]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 28 12:04:03 vkim11-web dnf[7722]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 12:04:03 vkim11-web dnf[7722]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 12:04:03 vkim11-web dnf[7722]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 12:04:03 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 12:04:03 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 12:04:03 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 28 13:04:06 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 13:04:06 vkim11-web dnf[7760]: Metadata cache refreshed recently.
+Oct 28 13:04:06 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 14:04:10 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 14:04:10 vkim11-web dnf[7785]: Metadata cache refreshed recently.
+Oct 28 14:04:10 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 15:04:13 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 15:06:15 vkim11-web dnf[7810]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 28 15:06:15 vkim11-web dnf[7810]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 15:06:15 vkim11-web dnf[7810]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 15:06:15 vkim11-web dnf[7810]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 15:06:15 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 15:06:15 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 15:06:15 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1761] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1770] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1770] dhcp4 (ens192): option expiry               => '1603999921'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1770] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1770] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1770] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1770] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1770] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1770] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_routers    => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1771] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1772] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1772] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1772] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 28 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603913521.1772] dhcp4 (ens192): state changed extended -> extended
+Oct 28 15:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 28 15:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 28 15:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 28 15:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 28 16:06:17 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 16:06:18 vkim11-web dnf[7853]: Metadata cache refreshed recently.
+Oct 28 16:06:18 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 17:06:21 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 17:06:21 vkim11-web dnf[7879]: Metadata cache refreshed recently.
+Oct 28 17:06:21 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 18:06:25 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 18:08:26 vkim11-web dnf[7904]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 28 18:08:26 vkim11-web dnf[7904]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 18:08:26 vkim11-web dnf[7904]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 18:08:26 vkim11-web dnf[7904]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 18:08:26 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 18:08:26 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 18:08:26 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 28 19:08:29 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 19:08:29 vkim11-web dnf[7942]: Metadata cache refreshed recently.
+Oct 28 19:08:29 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 20:08:32 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 20:08:33 vkim11-web dnf[7967]: Metadata cache refreshed recently.
+Oct 28 20:08:33 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 21:08:34 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 21:10:36 vkim11-web dnf[7993]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 28 21:10:36 vkim11-web dnf[7993]: Errors during downloading metadata for repository 'AppStream':
+Oct 28 21:10:36 vkim11-web dnf[7993]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 21:10:36 vkim11-web dnf[7993]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 28 21:10:36 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 28 21:10:36 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 28 21:10:36 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 28 22:10:40 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 22:10:40 vkim11-web dnf[8030]: Metadata cache refreshed recently.
+Oct 28 22:10:40 vkim11-web systemd[1]: Started dnf makecache.
+Oct 28 23:10:44 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 28 23:10:44 vkim11-web dnf[8056]: Metadata cache refreshed recently.
+Oct 28 23:10:44 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 00:00:07 vkim11-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 29 00:00:19 vkim11-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 29 00:10:47 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 00:12:49 vkim11-web dnf[8085]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 29 00:12:49 vkim11-web dnf[8085]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 00:12:49 vkim11-web dnf[8085]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 00:12:49 vkim11-web dnf[8085]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 00:12:49 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 00:12:49 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 00:12:49 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 29 01:12:51 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 01:12:52 vkim11-web dnf[8125]: Metadata cache refreshed recently.
+Oct 29 01:12:52 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 02:12:55 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 02:12:55 vkim11-web dnf[8152]: Metadata cache refreshed recently.
+Oct 29 02:12:55 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 03:12:59 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 03:15:00 vkim11-web dnf[8179]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 29 03:15:00 vkim11-web dnf[8179]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 03:15:00 vkim11-web dnf[8179]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 03:15:00 vkim11-web dnf[8179]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 03:15:00 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 03:15:00 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 03:15:00 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1749] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1751] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1751] dhcp4 (ens192): option expiry               => '1604043121'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1751] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1752] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1753] dhcp4 (ens192): option requested_routers    => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1753] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1753] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1753] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1753] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1753] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1753] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 29 03:32:01 vkim11-web NetworkManager[966]: <info>  [1603956721.1753] dhcp4 (ens192): state changed extended -> extended
+Oct 29 03:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 29 03:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 29 03:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 29 03:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 29 03:47:41 vkim11-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 29 03:47:41 vkim11-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 29 04:15:03 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 04:15:03 vkim11-web dnf[8233]: Metadata cache refreshed recently.
+Oct 29 04:15:03 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 05:15:06 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 05:15:07 vkim11-web dnf[8258]: Metadata cache refreshed recently.
+Oct 29 05:15:07 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 06:15:10 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 06:17:11 vkim11-web dnf[8283]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 29 06:17:11 vkim11-web dnf[8283]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 06:17:11 vkim11-web dnf[8283]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 06:17:11 vkim11-web dnf[8283]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 06:17:11 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 06:17:11 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 06:17:11 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 29 07:17:14 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 07:17:14 vkim11-web dnf[8321]: Metadata cache refreshed recently.
+Oct 29 07:17:14 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 08:17:17 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 08:17:18 vkim11-web dnf[8346]: Metadata cache refreshed recently.
+Oct 29 08:17:18 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 09:17:21 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 09:19:22 vkim11-web dnf[8372]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 29 09:19:22 vkim11-web dnf[8372]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 09:19:22 vkim11-web dnf[8372]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 09:19:22 vkim11-web dnf[8372]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 09:19:22 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 09:19:22 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 09:19:22 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 29 10:19:25 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 10:19:25 vkim11-web dnf[8410]: Metadata cache refreshed recently.
+Oct 29 10:19:25 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 11:19:29 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 11:19:29 vkim11-web dnf[8435]: Metadata cache refreshed recently.
+Oct 29 11:19:29 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 12:19:32 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 12:21:34 vkim11-web dnf[8460]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 29 12:21:34 vkim11-web dnf[8460]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 12:21:34 vkim11-web dnf[8460]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 12:21:34 vkim11-web dnf[8460]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 12:21:34 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 12:21:34 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 12:21:34 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 29 13:21:34 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 13:21:35 vkim11-web dnf[8498]: Metadata cache refreshed recently.
+Oct 29 13:21:35 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 14:21:40 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 14:21:40 vkim11-web dnf[8523]: Metadata cache refreshed recently.
+Oct 29 14:21:40 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 15:21:44 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 15:23:45 vkim11-web dnf[8548]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 29 15:23:45 vkim11-web dnf[8548]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 15:23:45 vkim11-web dnf[8548]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 15:23:45 vkim11-web dnf[8548]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 15:23:45 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 15:23:45 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 15:23:45 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1752] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1758] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1759] dhcp4 (ens192): option expiry               => '1604086321'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1759] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1759] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1759] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1759] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1759] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1759] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1759] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1759] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1760] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1760] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1760] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1760] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1760] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1760] dhcp4 (ens192): option requested_routers    => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1760] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1760] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1760] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1760] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1761] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1761] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 29 15:32:01 vkim11-web NetworkManager[966]: <info>  [1603999921.1761] dhcp4 (ens192): state changed extended -> extended
+Oct 29 15:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 29 15:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 29 15:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 29 15:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 29 16:23:47 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 16:23:48 vkim11-web dnf[8591]: Metadata cache refreshed recently.
+Oct 29 16:23:48 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 17:23:51 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 17:23:51 vkim11-web dnf[8616]: Metadata cache refreshed recently.
+Oct 29 17:23:51 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 18:23:55 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 18:25:56 vkim11-web dnf[8642]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 29 18:25:56 vkim11-web dnf[8642]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 18:25:56 vkim11-web dnf[8642]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 18:25:56 vkim11-web dnf[8642]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 18:25:56 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 18:25:56 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 18:25:56 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 29 19:25:59 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 19:25:59 vkim11-web dnf[8679]: Metadata cache refreshed recently.
+Oct 29 19:25:59 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 20:26:02 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 20:26:03 vkim11-web dnf[8705]: Metadata cache refreshed recently.
+Oct 29 20:26:03 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 21:26:06 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 21:28:07 vkim11-web dnf[8731]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 29 21:28:07 vkim11-web dnf[8731]: Errors during downloading metadata for repository 'AppStream':
+Oct 29 21:28:07 vkim11-web dnf[8731]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 21:28:07 vkim11-web dnf[8731]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 29 21:28:07 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 29 21:28:07 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 29 21:28:07 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 29 22:28:10 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 22:28:10 vkim11-web dnf[8769]: Metadata cache refreshed recently.
+Oct 29 22:28:10 vkim11-web systemd[1]: Started dnf makecache.
+Oct 29 23:28:14 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 29 23:28:14 vkim11-web dnf[8794]: Metadata cache refreshed recently.
+Oct 29 23:28:14 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 00:00:05 vkim11-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 30 00:00:18 vkim11-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 30 00:28:17 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 00:30:18 vkim11-web dnf[8823]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 30 00:30:18 vkim11-web dnf[8823]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 00:30:18 vkim11-web dnf[8823]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 00:30:18 vkim11-web dnf[8823]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 00:30:18 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 00:30:18 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 00:30:18 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 30 01:30:21 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 01:30:22 vkim11-web dnf[8863]: Metadata cache refreshed recently.
+Oct 30 01:30:22 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 02:30:25 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 02:30:25 vkim11-web dnf[8890]: Metadata cache refreshed recently.
+Oct 30 02:30:25 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 03:30:29 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1767] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1770] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1770] dhcp4 (ens192): option expiry               => '1604129521'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1770] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1770] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1770] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1770] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1770] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1771] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1771] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1771] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1771] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1771] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1771] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1771] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1771] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1771] dhcp4 (ens192): option requested_routers    => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1772] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1772] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1772] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1772] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1772] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1772] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 30 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604043121.1772] dhcp4 (ens192): state changed extended -> extended
+Oct 30 03:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 30 03:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 30 03:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 30 03:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 30 03:32:30 vkim11-web dnf[8926]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 30 03:32:30 vkim11-web dnf[8926]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 03:32:30 vkim11-web dnf[8926]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 03:32:30 vkim11-web dnf[8926]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 03:32:30 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 03:32:30 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 03:32:30 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 30 03:47:50 vkim11-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 30 03:47:50 vkim11-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 30 04:32:32 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 04:32:33 vkim11-web dnf[8972]: Metadata cache refreshed recently.
+Oct 30 04:32:33 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 05:32:34 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 05:32:35 vkim11-web dnf[8998]: Metadata cache refreshed recently.
+Oct 30 05:32:35 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 06:32:40 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 06:34:41 vkim11-web dnf[9023]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 30 06:34:41 vkim11-web dnf[9023]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 06:34:41 vkim11-web dnf[9023]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 06:34:41 vkim11-web dnf[9023]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 06:34:41 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 06:34:41 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 06:34:41 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 30 07:34:44 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 07:34:44 vkim11-web dnf[9060]: Metadata cache refreshed recently.
+Oct 30 07:34:44 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 08:34:47 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 08:34:48 vkim11-web dnf[9086]: Metadata cache refreshed recently.
+Oct 30 08:34:48 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 09:34:51 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 09:36:52 vkim11-web dnf[9111]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 30 09:36:52 vkim11-web dnf[9111]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 09:36:52 vkim11-web dnf[9111]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 09:36:52 vkim11-web dnf[9111]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 09:36:52 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 09:36:52 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 09:36:52 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 30 10:36:55 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 10:36:55 vkim11-web dnf[9148]: Metadata cache refreshed recently.
+Oct 30 10:36:55 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 11:36:59 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 11:36:59 vkim11-web dnf[9174]: Metadata cache refreshed recently.
+Oct 30 11:36:59 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 12:37:02 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 12:39:04 vkim11-web dnf[9199]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 30 12:39:04 vkim11-web dnf[9199]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 12:39:04 vkim11-web dnf[9199]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 12:39:04 vkim11-web dnf[9199]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 12:39:04 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 12:39:04 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 12:39:04 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 30 13:39:06 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 13:39:07 vkim11-web dnf[9237]: Metadata cache refreshed recently.
+Oct 30 13:39:07 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 14:39:10 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 14:39:10 vkim11-web dnf[9262]: Metadata cache refreshed recently.
+Oct 30 14:39:10 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1759] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1770] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1770] dhcp4 (ens192): option expiry               => '1604172721'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1770] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1770] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1771] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1771] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1771] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1771] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1771] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1771] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1771] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1771] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1772] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1772] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1772] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1772] dhcp4 (ens192): option requested_routers    => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1772] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1772] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1772] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1772] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1773] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1773] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 30 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604086321.1773] dhcp4 (ens192): state changed extended -> extended
+Oct 30 15:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 30 15:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 30 15:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 30 15:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 30 15:39:14 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 15:41:15 vkim11-web dnf[9293]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 30 15:41:15 vkim11-web dnf[9293]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 15:41:15 vkim11-web dnf[9293]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 15:41:15 vkim11-web dnf[9293]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 15:41:15 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 15:41:15 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 15:41:15 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 30 16:41:18 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 16:41:18 vkim11-web dnf[9330]: Metadata cache refreshed recently.
+Oct 30 16:41:18 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 17:41:21 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 17:41:22 vkim11-web dnf[9355]: Metadata cache refreshed recently.
+Oct 30 17:41:22 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 18:41:25 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 18:43:26 vkim11-web dnf[9381]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 30 18:43:26 vkim11-web dnf[9381]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 18:43:26 vkim11-web dnf[9381]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 18:43:26 vkim11-web dnf[9381]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 18:43:26 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 18:43:26 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 18:43:26 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 30 19:43:29 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 19:43:29 vkim11-web dnf[9418]: Metadata cache refreshed recently.
+Oct 30 19:43:29 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 20:43:33 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 20:43:33 vkim11-web dnf[9444]: Metadata cache refreshed recently.
+Oct 30 20:43:33 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 21:43:34 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 21:45:36 vkim11-web dnf[9469]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 30 21:45:36 vkim11-web dnf[9469]: Errors during downloading metadata for repository 'AppStream':
+Oct 30 21:45:36 vkim11-web dnf[9469]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 21:45:36 vkim11-web dnf[9469]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 30 21:45:36 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 30 21:45:36 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 30 21:45:36 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 30 22:45:40 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 22:45:41 vkim11-web dnf[9507]: Metadata cache refreshed recently.
+Oct 30 22:45:41 vkim11-web systemd[1]: Started dnf makecache.
+Oct 30 23:45:44 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 30 23:45:44 vkim11-web dnf[9532]: Metadata cache refreshed recently.
+Oct 30 23:45:44 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 00:00:05 vkim11-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 31 00:00:17 vkim11-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 31 00:45:48 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 00:47:49 vkim11-web dnf[9562]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 31 00:47:49 vkim11-web dnf[9562]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 00:47:49 vkim11-web dnf[9562]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 00:47:49 vkim11-web dnf[9562]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 00:47:49 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 00:47:49 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 00:47:49 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 31 01:47:52 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 01:47:52 vkim11-web dnf[9601]: Metadata cache refreshed recently.
+Oct 31 01:47:52 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 02:47:55 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 02:47:56 vkim11-web dnf[9629]: Metadata cache refreshed recently.
+Oct 31 02:47:56 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1773] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1777] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1777] dhcp4 (ens192): option expiry               => '1604215921'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1777] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1777] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1777] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1778] dhcp4 (ens192): option requested_routers    => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1779] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1779] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1779] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1779] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1779] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1779] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 31 03:32:01 vkim11-web NetworkManager[966]: <info>  [1604129521.1779] dhcp4 (ens192): state changed extended -> extended
+Oct 31 03:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 31 03:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 31 03:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 31 03:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 31 03:47:59 vkim11-web systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 31 03:47:59 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 03:47:59 vkim11-web systemd[1]: Started Cleanup of Temporary Directories.
+Oct 31 03:50:00 vkim11-web dnf[9672]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 31 03:50:00 vkim11-web dnf[9672]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 03:50:00 vkim11-web dnf[9672]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 03:50:00 vkim11-web dnf[9672]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 03:50:00 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 03:50:00 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 03:50:00 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 31 04:50:03 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 04:50:03 vkim11-web dnf[9710]: Metadata cache refreshed recently.
+Oct 31 04:50:03 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 05:50:07 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 05:50:07 vkim11-web dnf[9736]: Metadata cache refreshed recently.
+Oct 31 05:50:07 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 06:50:10 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 06:52:12 vkim11-web dnf[9761]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 31 06:52:12 vkim11-web dnf[9761]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 06:52:12 vkim11-web dnf[9761]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 06:52:12 vkim11-web dnf[9761]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 06:52:12 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 06:52:12 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 06:52:12 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 31 07:52:14 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 07:52:15 vkim11-web dnf[9798]: Metadata cache refreshed recently.
+Oct 31 07:52:15 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 08:52:18 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 08:52:18 vkim11-web dnf[9824]: Metadata cache refreshed recently.
+Oct 31 08:52:18 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 09:52:22 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 09:54:23 vkim11-web dnf[9849]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 31 09:54:23 vkim11-web dnf[9849]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 09:54:23 vkim11-web dnf[9849]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 09:54:23 vkim11-web dnf[9849]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 09:54:23 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 09:54:23 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 09:54:23 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 31 10:54:26 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 10:54:26 vkim11-web dnf[9887]: Metadata cache refreshed recently.
+Oct 31 10:54:26 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 11:54:29 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 11:54:30 vkim11-web dnf[9913]: Metadata cache refreshed recently.
+Oct 31 11:54:30 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 12:54:33 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 12:56:34 vkim11-web dnf[9938]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 31 12:56:34 vkim11-web dnf[9938]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 12:56:34 vkim11-web dnf[9938]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 12:56:34 vkim11-web dnf[9938]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 12:56:34 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 12:56:34 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 12:56:34 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 31 13:56:34 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 13:56:35 vkim11-web dnf[9976]: Metadata cache refreshed recently.
+Oct 31 13:56:35 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 14:56:41 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 14:56:41 vkim11-web dnf[10001]: Metadata cache refreshed recently.
+Oct 31 14:56:41 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1760] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1770] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1770] dhcp4 (ens192): option expiry               => '1604259121'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1770] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1770] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1770] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1770] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1771] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1771] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1771] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1771] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1771] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1771] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1771] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1771] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1771] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1771] dhcp4 (ens192): option requested_routers    => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1772] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1772] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1772] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1772] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1772] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1772] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 31 15:32:01 vkim11-web NetworkManager[966]: <info>  [1604172721.1772] dhcp4 (ens192): state changed extended -> extended
+Oct 31 15:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 31 15:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 31 15:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 31 15:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 31 15:56:44 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 15:58:46 vkim11-web dnf[10032]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 31 15:58:46 vkim11-web dnf[10032]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 15:58:46 vkim11-web dnf[10032]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 15:58:46 vkim11-web dnf[10032]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 15:58:46 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 15:58:46 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 15:58:46 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 31 16:58:48 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 16:58:49 vkim11-web dnf[10069]: Metadata cache refreshed recently.
+Oct 31 16:58:49 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 17:58:52 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 17:58:52 vkim11-web dnf[10095]: Metadata cache refreshed recently.
+Oct 31 17:58:52 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 18:58:56 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 19:00:57 vkim11-web dnf[10120]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 31 19:00:57 vkim11-web dnf[10120]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 19:00:57 vkim11-web dnf[10120]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 19:00:57 vkim11-web dnf[10120]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 19:00:57 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 19:00:57 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 19:00:57 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 31 20:01:00 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 20:01:00 vkim11-web dnf[10158]: Metadata cache refreshed recently.
+Oct 31 20:01:00 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 21:01:01 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 21:01:02 vkim11-web dnf[10184]: Metadata cache refreshed recently.
+Oct 31 21:01:02 vkim11-web systemd[1]: Started dnf makecache.
+Oct 31 22:01:07 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 22:03:08 vkim11-web dnf[10219]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Oct 31 22:03:08 vkim11-web dnf[10219]: Errors during downloading metadata for repository 'AppStream':
+Oct 31 22:03:08 vkim11-web dnf[10219]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 22:03:08 vkim11-web dnf[10219]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Oct 31 22:03:08 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Oct 31 22:03:08 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Oct 31 22:03:08 vkim11-web systemd[1]: Failed to start dnf makecache.
+Oct 31 23:03:11 vkim11-web systemd[1]: Starting dnf makecache...
+Oct 31 23:03:11 vkim11-web dnf[10258]: Metadata cache refreshed recently.
+Oct 31 23:03:11 vkim11-web systemd[1]: Started dnf makecache.
+Nov  1 00:00:04 vkim11-web systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  1 00:00:17 vkim11-web systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  1 00:03:15 vkim11-web systemd[1]: Starting dnf makecache...
+Nov  1 00:03:15 vkim11-web dnf[10287]: Metadata cache refreshed recently.
+Nov  1 00:03:15 vkim11-web systemd[1]: Started dnf makecache.
+Nov  1 01:03:18 vkim11-web systemd[1]: Starting dnf makecache...
+Nov  1 01:05:19 vkim11-web dnf[10315]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Nov  1 01:05:19 vkim11-web dnf[10315]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 01:05:19 vkim11-web dnf[10315]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  1 01:05:19 vkim11-web dnf[10315]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  1 01:05:19 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 01:05:19 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 01:05:19 vkim11-web systemd[1]: Failed to start dnf makecache.
+Nov  1 01:05:22 vkim11-web systemd[1]: Starting dnf makecache...
+Nov  1 01:05:22 vkim11-web dnf[10354]: Metadata cache refreshed recently.
+Nov  1 01:05:22 vkim11-web systemd[1]: Started dnf makecache.
+Nov  1 02:05:26 vkim11-web systemd[1]: Starting dnf makecache...
+Nov  1 02:05:26 vkim11-web dnf[10381]: Metadata cache refreshed recently.
+Nov  1 02:05:26 vkim11-web systemd[1]: Started dnf makecache.
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1761] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1767] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1767] dhcp4 (ens192): option expiry               => '1604302321'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1767] dhcp4 (ens192): option ip_address           => '172.16.15.2'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1767] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1768] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1768] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1768] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1768] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1768] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1768] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1768] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1768] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1768] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1769] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1769] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1769] dhcp4 (ens192): option requested_routers    => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1769] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1769] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1769] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1769] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1769] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1769] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  1 02:32:01 vkim11-web NetworkManager[966]: <info>  [1604215921.1770] dhcp4 (ens192): state changed extended -> extended
+Nov  1 02:32:01 vkim11-web dbus-daemon[961]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=966 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  1 02:32:01 vkim11-web systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 02:32:01 vkim11-web dbus-daemon[961]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 02:32:01 vkim11-web systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 02:48:08 vkim11-web systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  1 02:48:08 vkim11-web systemd[1]: Started Cleanup of Temporary Directories.
+Nov  1 03:05:29 vkim11-web systemd[1]: Starting dnf makecache...
+Nov  1 03:07:31 vkim11-web dnf[10416]: CentOS-8 - AppStream                            0.0  B/s |   0  B     02:00
+Nov  1 03:07:31 vkim11-web dnf[10416]: Errors during downloading metadata for repository 'AppStream':
+Nov  1 03:07:31 vkim11-web dnf[10416]:  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  1 03:07:31 vkim11-web dnf[10416]: Error: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+Nov  1 03:07:31 vkim11-web systemd[1]: dnf-makecache.service: Main process exited, code=exited, status=1/FAILURE
+Nov  1 03:07:31 vkim11-web systemd[1]: dnf-makecache.service: Failed with result 'exit-code'.
+Nov  1 03:07:31 vkim11-web systemd[1]: Failed to start dnf makecache.
+Nov  1 03:23:01 vkim11-web systemd[1]: Reloading The Apache HTTP Server.
+Nov  1 03:23:21 vkim11-web httpd[10442]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::250:56ff:fe00:3a. Set the 'ServerName' directive globally to suppress this message
+Nov  1 03:23:21 vkim11-web systemd[1]: Reloaded The Apache HTTP Server.
+Nov  1 03:23:21 vkim11-web systemd[1]: Reloading Berkeley Internet Name Domain (DNS).
+Nov  1 03:23:21 vkim11-web named[3231]: received control channel command 'reload'
+Nov  1 03:23:21 vkim11-web named[3231]: loading configuration from '/etc/named.conf'
+Nov  1 03:23:21 vkim11-web named[3231]: unable to open '/etc/bind.keys'; using built-in keys instead
+Nov  1 03:23:21 vkim11-web named[3231]: looking for GeoIP2 databases in '/usr/share/GeoIP'
+Nov  1 03:23:21 vkim11-web named[3231]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-Country.mmdb'
+Nov  1 03:23:21 vkim11-web named[3231]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-City.mmdb'
+Nov  1 03:23:21 vkim11-web named[3231]: using default UDP/IPv4 port range: [32768, 60999]
+Nov  1 03:23:21 vkim11-web named[3231]: using default UDP/IPv6 port range: [32768, 60999]
+Nov  1 03:23:21 vkim11-web named[3231]: sizing zone task pool based on 1 zones
+Nov  1 03:23:21 vkim11-web named[3231]: none:104: 'max-cache-size 90%' - setting to 1644MB (out of 1826MB)
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 10.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 16.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 17.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 18.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 19.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 20.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 21.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 22.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 23.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 24.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 25.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 26.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 27.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 28.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 29.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 30.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 31.172.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 64.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 65.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 66.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 67.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 68.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 69.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 70.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 71.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 72.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 73.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 74.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 75.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 76.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 77.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 78.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 79.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 80.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 81.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 82.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 83.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 84.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 85.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 86.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 87.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 88.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 89.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 90.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 91.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 92.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 93.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 94.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 95.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 96.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 97.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 98.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 99.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 100.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 101.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 102.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 103.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 104.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 105.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 106.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 107.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 108.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 109.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 110.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 111.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 112.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 113.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 114.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 115.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 116.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 117.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 118.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 119.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 120.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 121.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 122.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 123.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 124.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 125.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 126.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 127.100.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 0.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 127.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: D.F.IP6.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 8.E.F.IP6.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 9.E.F.IP6.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: A.E.F.IP6.ARPA
+Nov  1 03:23:21 vkim11-web systemd[1]: Reloaded Berkeley Internet Name Domain (DNS).
+Nov  1 03:23:21 vkim11-web sh[10446]: server reload successful
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: B.E.F.IP6.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: EMPTY.AS112.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: automatic empty zone: HOME.ARPA
+Nov  1 03:23:21 vkim11-web named[3231]: none:104: 'max-cache-size 90%' - setting to 1644MB (out of 1826MB)
+Nov  1 03:23:21 vkim11-web named[3231]: configuring command channel from '/etc/rndc.key'
+Nov  1 03:23:21 vkim11-web named[3231]: configuring command channel from '/etc/rndc.key'
+Nov  1 03:23:21 vkim11-web named[3231]: reloading configuration succeeded
+Nov  1 03:23:21 vkim11-web named[3231]: reloading zones succeeded
+Nov  1 03:23:21 vkim11-web named[3231]: all zones loaded
+Nov  1 03:23:21 vkim11-web named[3231]: running

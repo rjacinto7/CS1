@@ -1,0 +1,118 @@
+Nov 15 16:55:37 aluk10-pri dovecot[50084]: master: Dovecot v2.3.8 (9df20d2db) starting up for imap, pop3, lmtp
+Nov 15 17:09:00 aluk10-pri dovecot[50087]: pop3-login: Login: user=<aluk10>, method=PLAIN, rip=::1, lip=::1, mpid=50863, secured, session=<Jc5Igiy0qr0AAAAAAAAAAAAAAAAAAAAB>
+Nov 15 17:09:00 aluk10-pri dovecot[50087]: pop3(aluk10)<50863><Jc5Igiy0qr0AAAAAAAAAAAAAAAAAAAAB>: Error: Namespace '': Mail storage autodetection failed with home=/home/aluk10
+Nov 15 17:09:00 aluk10-pri dovecot[50087]: pop3(aluk10)<50863><Jc5Igiy0qr0AAAAAAAAAAAAAAAAAAAAB>: Namespace '': Mail storage autodetection failed with home=/home/aluk10 top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 17:09:40 aluk10-pri dovecot[50087]: pop3-login: Login: user=<aluk10>, method=PLAIN, rip=::1, lip=::1, mpid=50901, secured, session=<uO+fhCy0tr0AAAAAAAAAAAAAAAAAAAAB>
+Nov 15 17:09:40 aluk10-pri dovecot[50087]: pop3(aluk10)<50901><uO+fhCy0tr0AAAAAAAAAAAAAAAAAAAAB>: Error: Namespace '': Mail storage autodetection failed with home=/home/aluk10
+Nov 15 17:09:40 aluk10-pri dovecot[50087]: pop3(aluk10)<50901><uO+fhCy0tr0AAAAAAAAAAAAAAAAAAAAB>: Namespace '': Mail storage autodetection failed with home=/home/aluk10 top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 17:10:37 aluk10-pri dovecot[50087]: pop3-login: Login: user=<aluk10>, method=PLAIN, rip=::1, lip=::1, mpid=50944, secured, session=<xjwEiCy0wr0AAAAAAAAAAAAAAAAAAAAB>
+Nov 15 17:10:37 aluk10-pri dovecot[50087]: pop3(aluk10)<50944><xjwEiCy0wr0AAAAAAAAAAAAAAAAAAAAB>: Error: Namespace '': Mail storage autodetection failed with home=/home/aluk10
+Nov 15 17:10:37 aluk10-pri dovecot[50087]: pop3(aluk10)<50944><xjwEiCy0wr0AAAAAAAAAAAAAAAAAAAAB>: Namespace '': Mail storage autodetection failed with home=/home/aluk10 top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 17:11:21 aluk10-pri dovecot[50087]: pop3-login: Disconnected: Too many bad commands (auth failed, 1 attempts in 24 secs): user=<pam>, method=PLAIN, rip=::1, lip=::1, secured, session=<Ey41iSy0xL0AAAAAAAAAAAAAAAAAAAAB>
+Nov 15 17:11:41 aluk10-pri dovecot[50087]: pop3-login: Login: user=<aluk10>, method=PLAIN, rip=::1, lip=::1, mpid=50985, secured, session=<goDciyy00L0AAAAAAAAAAAAAAAAAAAAB>
+Nov 15 17:11:41 aluk10-pri dovecot[50087]: pop3(aluk10)<50985><goDciyy00L0AAAAAAAAAAAAAAAAAAAAB>: Error: Namespace '': Mail storage autodetection failed with home=/home/aluk10
+Nov 15 17:11:41 aluk10-pri dovecot[50087]: pop3(aluk10)<50985><goDciyy00L0AAAAAAAAAAAAAAAAAAAAB>: Namespace '': Mail storage autodetection failed with home=/home/aluk10 top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 17:34:38 aluk10-pri dovecot[50084]: master: Warning: Killed with signal 15 (by pid=51742 uid=0 code=kill)
+Nov 15 17:34:39 aluk10-pri dovecot[51752]: master: Dovecot v2.3.8 (9df20d2db) starting up for imap, pop3, lmtp
+Nov 15 17:36:59 aluk10-pri dovecot[51756]: pop3-login: Disconnected: Too many bad commands (auth failed, 1 attempts in 0 secs): user=<aluk10>, rip=192.168.17.1, lip=192.168.17.25, session=<HVpY5iy07IzAqBEB>
+Nov 15 17:38:50 aluk10-pri dovecot[51756]: pop3-login: Disconnected: Too many bad commands (no auth attempts in 4 secs): user=<>, rip=192.168.17.1, lip=192.168.17.25, TLS, session=<oaru7Cy07ozAqBEB>
+Nov 15 17:42:16 aluk10-pri dovecot[51756]: pop3-login: Disconnected: Inactivity (no auth attempts in 180 secs): user=<>, rip=192.168.17.1, lip=192.168.17.25, TLS, session=<yQo++Sy08IzAqBEB>
+Nov 15 17:48:09 aluk10-pri dovecot[51756]: pop3-login: Login: user=<aluk10>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=52255, TLS, session=<bXNBDi208ozAqBEB>
+Nov 15 17:48:09 aluk10-pri dovecot[51756]: pop3(aluk10)<52255><bXNBDi208ozAqBEB>: Error: fchown(/home/aluk10/mail, group=12(mail)) failed: Operation not permitted (egid=1002(aluk10), group based on /var/mail/aluk10 - see http://wiki2.dovecot.org/Errors/ChgrpNoPerm)
+Nov 15 17:48:09 aluk10-pri dovecot[51756]: pop3(aluk10)<52255><bXNBDi208ozAqBEB>: Error: Couldn't open INBOX: Permission denied
+Nov 15 17:48:09 aluk10-pri dovecot[51756]: pop3(aluk10)<52255><bXNBDi208ozAqBEB>: Couldn't open INBOX: Permission denied top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 17:49:03 aluk10-pri dovecot[51756]: pop3-login: Disconnected: Too many bad commands (auth failed, 1 attempts in 11 secs): user=<pam>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, TLS, session=<3FzVEC209IzAqBEB>
+Nov 15 17:49:15 aluk10-pri dovecot[51756]: pop3-login: Login: user=<aluk10>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=52292, TLS, session=<G9YzEi209ozAqBEB>
+Nov 15 17:49:15 aluk10-pri dovecot[51756]: pop3(aluk10)<52292><G9YzEi209ozAqBEB>: Error: fchown(/home/aluk10/mail, group=12(mail)) failed: Operation not permitted (egid=1002(aluk10), group based on /var/mail/aluk10 - see http://wiki2.dovecot.org/Errors/ChgrpNoPerm)
+Nov 15 17:49:15 aluk10-pri dovecot[51756]: pop3(aluk10)<52292><G9YzEi209ozAqBEB>: Error: Couldn't open INBOX: Permission denied
+Nov 15 17:49:15 aluk10-pri dovecot[51756]: pop3(aluk10)<52292><G9YzEi209ozAqBEB>: Couldn't open INBOX: Permission denied top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 18:09:59 aluk10-pri dovecot[51756]: pop3-login: Login: user=<aluk10>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=53006, TLS, session=<jhVVXC20+IzAqBEB>
+Nov 15 18:11:01 aluk10-pri dovecot[51756]: pop3(aluk10)<53006><jhVVXC20+IzAqBEB>: Connection closed top=0/0, retr=0/0, del=0/36, size=45131
+Nov 15 18:11:31 aluk10-pri dovecot[51756]: pop3-login: Login: user=<test>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=53075, TLS, session=<cbjUYS20+ozAqBEB>
+Nov 15 18:14:23 aluk10-pri dovecot[51756]: pop3-login: Login: user=<test>, method=PLAIN, rip=192.168.13.4, lip=192.168.17.25, mpid=53176, TLS, session=<RFEVbC207MLAqA0E>
+Nov 15 18:20:59 aluk10-pri dovecot[51756]: pop3(test)<53176><RFEVbC207MLAqA0E>: Connection closed top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 18:23:04 aluk10-pri dovecot[51756]: pop3(test)<53075><cbjUYS20+ozAqBEB>: Disconnected for inactivity top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 18:49:21 aluk10-pri dovecot[51756]: pop3-login: Disconnected: Too many bad commands (no auth attempts in 129 secs): user=<>, rip=192.168.17.1, lip=192.168.17.25, TLS, session=<CLIk6S20/IzAqBEB>
+Nov 15 18:50:12 aluk10-pri dovecot[51756]: pop3-login: Login: user=<rjacinto1>, method=PLAIN, rip=192.168.13.4, lip=192.168.17.25, mpid=53861, TLS, session=<l7Mp7C20zsPAqA0E>
+Nov 15 18:50:18 aluk10-pri dovecot[51756]: pop3(rjacinto1)<53861><l7Mp7C20zsPAqA0E>: Connection closed top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 18:56:16 aluk10-pri dovecot[51756]: pop3-login: Login: user=<rjacinto1>, method=PLAIN, rip=192.168.13.4, lip=192.168.17.25, mpid=54146, TLS, session=<iDnmAS60+MPAqA0E>
+Nov 15 18:57:35 aluk10-pri dovecot[51756]: pop3-login: Login: user=<vkim11>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=54184, TLS, session=<S6SSBi60Co3AqBEB>
+Nov 15 18:59:38 aluk10-pri dovecot[51756]: pop3(rjacinto1)<54146><iDnmAS60+MPAqA0E>: Connection closed top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 19:05:19 aluk10-pri postfix/smtpd[54474]: connect from unknown[192.168.13.3]
+Nov 15 19:05:19 aluk10-pri postfix/smtpd[54474]: 40B522073B42: client=unknown[192.168.13.3]
+Nov 15 19:05:19 aluk10-pri postfix/cleanup[54478]: 40B522073B42: message-id=<20201116000505.4791420A5B05@mail.rjacinto1.com>
+Nov 15 19:05:19 aluk10-pri postfix/qmgr[24354]: 40B522073B42: from=<root@rjacinto1.com>, size=635, nrcpt=1 (queue active)
+Nov 15 19:05:19 aluk10-pri postfix/smtpd[54474]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov 15 19:05:19 aluk10-pri postfix/local[54479]: 40B522073B42: to=<vkim11@aluk10.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov 15 19:05:19 aluk10-pri postfix/qmgr[24354]: 40B522073B42: removed
+Nov 15 19:08:36 aluk10-pri dovecot[51756]: pop3(vkim11)<54184><S6SSBi60Co3AqBEB>: Disconnected for inactivity top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 19:08:39 aluk10-pri postfix/anvil[54476]: statistics: max connection rate 1/60s for (smtp:192.168.13.3) at Nov 15 19:05:19
+Nov 15 19:08:39 aluk10-pri postfix/anvil[54476]: statistics: max connection count 1 for (smtp:192.168.13.3) at Nov 15 19:05:19
+Nov 15 19:08:39 aluk10-pri postfix/anvil[54476]: statistics: max cache size 1 at Nov 15 19:05:19
+Nov 15 19:17:12 aluk10-pri postfix/postfix-script[54737]: stopping the Postfix mail system
+Nov 15 19:17:12 aluk10-pri postfix/master[24352]: terminating on signal 15
+Nov 15 19:17:13 aluk10-pri postfix/postfix-script[54815]: starting the Postfix mail system
+Nov 15 19:17:13 aluk10-pri postfix/master[54817]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov 15 19:17:34 aluk10-pri postfix/smtpd[54829]: connect from unknown[192.168.13.3]
+Nov 15 19:17:34 aluk10-pri postfix/smtpd[54829]: 518082073B42: client=unknown[192.168.13.3]
+Nov 15 19:17:34 aluk10-pri postfix/cleanup[54834]: 518082073B42: message-id=<20201116001720.5C67020A5B05@mail.rjacinto1.com>
+Nov 15 19:17:34 aluk10-pri postfix/qmgr[54819]: 518082073B42: from=<root@rjacinto1.com>, size=631, nrcpt=1 (queue active)
+Nov 15 19:17:34 aluk10-pri postfix/smtpd[54829]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov 15 19:17:34 aluk10-pri postfix/local[54835]: 518082073B42: to=<vkim11@ravz.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov 15 19:17:34 aluk10-pri postfix/qmgr[54819]: 518082073B42: removed
+Nov 15 19:18:26 aluk10-pri postfix/smtpd[54829]: connect from unknown[192.168.13.3]
+Nov 15 19:18:26 aluk10-pri postfix/smtpd[54829]: 86FD62073B42: client=unknown[192.168.13.3]
+Nov 15 19:18:26 aluk10-pri postfix/cleanup[54834]: 86FD62073B42: message-id=<20201116001812.ABFFB20A5B05@mail.rjacinto1.com>
+Nov 15 19:18:26 aluk10-pri postfix/qmgr[54819]: 86FD62073B42: from=<root@rjacinto1.com>, size=630, nrcpt=1 (queue active)
+Nov 15 19:18:26 aluk10-pri postfix/smtpd[54829]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov 15 19:18:26 aluk10-pri postfix/local[54835]: 86FD62073B42: to=<vkim11@ravz.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov 15 19:18:26 aluk10-pri postfix/qmgr[54819]: 86FD62073B42: removed
+Nov 15 19:21:46 aluk10-pri postfix/anvil[54832]: statistics: max connection rate 2/60s for (smtp:192.168.13.3) at Nov 15 19:18:26
+Nov 15 19:21:46 aluk10-pri postfix/anvil[54832]: statistics: max connection count 1 for (smtp:192.168.13.3) at Nov 15 19:17:34
+Nov 15 19:21:46 aluk10-pri postfix/anvil[54832]: statistics: max cache size 1 at Nov 15 19:17:34
+Nov 15 19:38:52 aluk10-pri dovecot[51756]: pop3-login: Disconnected (no auth attempts in 10 secs): user=<>, rip=192.168.17.1, lip=192.168.17.25, TLS: Connection closed, session=<cno8mi60DI3AqBEB>
+Nov 15 19:54:46 aluk10-pri dovecot[51752]: master: Warning: Killed with signal 15 (by pid=55385 uid=0 code=kill)
+Nov 15 19:54:47 aluk10-pri dovecot[55395]: master: Dovecot v2.3.8 (9df20d2db) starting up for imap, pop3, lmtp
+Nov 15 19:55:14 aluk10-pri dovecot[55399]: pop3-login: Login: user=<vkim11>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=55419, TLS, session=<0wq71C60Do3AqBEB>
+Nov 15 19:55:14 aluk10-pri dovecot[55399]: pop3(vkim11)<55419><0wq71C60Do3AqBEB>: Error: Syncing INBOX failed: Mailbox isn't a valid mbox file
+Nov 15 19:55:14 aluk10-pri dovecot[55399]: pop3(vkim11)<55419><0wq71C60Do3AqBEB>: Error: Couldn't init INBOX: Mailbox isn't a valid mbox file
+Nov 15 19:55:14 aluk10-pri dovecot[55399]: pop3(vkim11)<55419><0wq71C60Do3AqBEB>: Couldn't init INBOX: Mailbox isn't a valid mbox file top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 19:57:37 aluk10-pri dovecot[55399]: pop3-login: Login: user=<vkim11>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=55462, TLS, session=<rUhD3S60EI3AqBEB>
+Nov 15 19:57:37 aluk10-pri dovecot[55399]: pop3(vkim11)<55462><rUhD3S60EI3AqBEB>: Error: Syncing INBOX failed: Mailbox isn't a valid mbox file
+Nov 15 19:57:37 aluk10-pri dovecot[55399]: pop3(vkim11)<55462><rUhD3S60EI3AqBEB>: Error: Couldn't init INBOX: Mailbox isn't a valid mbox file
+Nov 15 19:57:37 aluk10-pri dovecot[55399]: pop3(vkim11)<55462><rUhD3S60EI3AqBEB>: Couldn't init INBOX: Mailbox isn't a valid mbox file top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 20:04:50 aluk10-pri postfix/smtpd[55590]: connect from unknown[192.168.13.3]
+Nov 15 20:04:50 aluk10-pri postfix/smtpd[55590]: CA3C32073B42: client=unknown[192.168.13.3]
+Nov 15 20:04:50 aluk10-pri postfix/cleanup[55594]: CA3C32073B42: message-id=<20201116010436.D256D20A5B05@mail.rjacinto1.com>
+Nov 15 20:04:50 aluk10-pri postfix/qmgr[54819]: CA3C32073B42: from=<root@rjacinto1.com>, size=628, nrcpt=1 (queue active)
+Nov 15 20:04:50 aluk10-pri postfix/smtpd[55590]: disconnect from unknown[192.168.13.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov 15 20:04:50 aluk10-pri postfix/local[55595]: CA3C32073B42: to=<quack@ravz.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov 15 20:04:50 aluk10-pri postfix/qmgr[54819]: CA3C32073B42: removed
+Nov 15 20:05:01 aluk10-pri dovecot[55399]: pop3-login: Login: user=<quack>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=55608, TLS, session=<uiXC9y60Eo3AqBEB>
+Nov 15 20:05:12 aluk10-pri dovecot[55399]: pop3(quack)<55608><uiXC9y60Eo3AqBEB>: Connection closed top=0/0, retr=0/0, del=0/1, size=724
+Nov 15 20:05:24 aluk10-pri dovecot[55399]: pop3-login: Login: user=<vkim11>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=55615, TLS, session=<o+Ud+S60FI3AqBEB>
+Nov 15 20:05:24 aluk10-pri dovecot[55399]: pop3(vkim11)<55615><o+Ud+S60FI3AqBEB>: Error: Syncing INBOX failed: Mailbox isn't a valid mbox file
+Nov 15 20:05:24 aluk10-pri dovecot[55399]: pop3(vkim11)<55615><o+Ud+S60FI3AqBEB>: Error: Couldn't init INBOX: Mailbox isn't a valid mbox file
+Nov 15 20:05:24 aluk10-pri dovecot[55399]: pop3(vkim11)<55615><o+Ud+S60FI3AqBEB>: Couldn't init INBOX: Mailbox isn't a valid mbox file top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 20:06:59 aluk10-pri dovecot[55399]: pop3-login: Login: user=<quack>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=55643, TLS, session=<5zDA/i60Fo3AqBEB>
+Nov 15 20:07:38 aluk10-pri dovecot[55399]: pop3(quack)<55643><5zDA/i60Fo3AqBEB>: Disconnected: Logged out top=0/0, retr=1/740, del=0/1, size=724
+Nov 15 20:08:11 aluk10-pri postfix/anvil[55592]: statistics: max connection rate 1/60s for (smtp:192.168.13.3) at Nov 15 20:04:50
+Nov 15 20:08:11 aluk10-pri postfix/anvil[55592]: statistics: max connection count 1 for (smtp:192.168.13.3) at Nov 15 20:04:50
+Nov 15 20:08:11 aluk10-pri postfix/anvil[55592]: statistics: max cache size 1 at Nov 15 20:04:50
+Nov 15 20:16:26 aluk10-pri dovecot[55399]: pop3-login: Login: user=<kim>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=55878, TLS, session=</3aLIC+0GI3AqBEB>
+Nov 15 20:16:26 aluk10-pri dovecot[55399]: pop3(kim)<55878></3aLIC+0GI3AqBEB>: Error: fchown(/home/kim/mail, group=12(mail)) failed: Operation not permitted (egid=1011(kim), group based on /var/spool/mail/kim - see http://wiki2.dovecot.org/Errors/ChgrpNoPerm)
+Nov 15 20:16:26 aluk10-pri dovecot[55399]: pop3(kim)<55878></3aLIC+0GI3AqBEB>: Error: Couldn't open INBOX: Permission denied
+Nov 15 20:16:26 aluk10-pri dovecot[55399]: pop3(kim)<55878></3aLIC+0GI3AqBEB>: Couldn't open INBOX: Permission denied top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 20:16:44 aluk10-pri dovecot[55399]: pop3-login: Login: user=<kim>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=55887, TLS, session=<4QCjIS+0Go3AqBEB>
+Nov 15 20:16:44 aluk10-pri dovecot[55399]: pop3(kim)<55887><4QCjIS+0Go3AqBEB>: Error: fchown(/home/kim/mail, group=12(mail)) failed: Operation not permitted (egid=1011(kim), group based on /var/spool/mail/kim - see http://wiki2.dovecot.org/Errors/ChgrpNoPerm)
+Nov 15 20:16:44 aluk10-pri dovecot[55399]: pop3(kim)<55887><4QCjIS+0Go3AqBEB>: Error: Couldn't open INBOX: Permission denied
+Nov 15 20:16:44 aluk10-pri dovecot[55399]: pop3(kim)<55887><4QCjIS+0Go3AqBEB>: Couldn't open INBOX: Permission denied top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 20:17:25 aluk10-pri dovecot[55399]: pop3-login: Login: user=<kim>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=55908, TLS, session=<hxQcJC+0HI3AqBEB>
+Nov 15 20:17:25 aluk10-pri dovecot[55399]: pop3(kim)<55908><hxQcJC+0HI3AqBEB>: Error: fchown(/home/kim/mail, group=12(mail)) failed: Operation not permitted (egid=1011(kim), group based on /var/spool/mail/kim - see http://wiki2.dovecot.org/Errors/ChgrpNoPerm)
+Nov 15 20:17:25 aluk10-pri dovecot[55399]: pop3(kim)<55908><hxQcJC+0HI3AqBEB>: Error: Couldn't open INBOX: Permission denied
+Nov 15 20:17:25 aluk10-pri dovecot[55399]: pop3(kim)<55908><hxQcJC+0HI3AqBEB>: Couldn't open INBOX: Permission denied top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 20:17:57 aluk10-pri dovecot[55399]: pop3-login: Login: user=<kim>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=55922, TLS, session=<H/3+JS+0Ho3AqBEB>
+Nov 15 20:32:29 aluk10-pri dovecot[55399]: pop3(kim)<55922><H/3+JS+0Ho3AqBEB>: Disconnected: Logged out top=0/0, retr=0/0, del=0/0, size=0
+Nov 15 20:32:52 aluk10-pri dovecot[55399]: pop3-login: Disconnected (no auth attempts in 9 secs): user=<>, rip=192.168.17.1, lip=192.168.17.25, session=<+vFTWy+0II3AqBEB>
+Nov 15 20:35:08 aluk10-pri dovecot[55399]: imap-login: Disconnected (no auth attempts in 125 secs): user=<>, rip=192.168.17.1, lip=192.168.17.25, TLS: Connection closed, session=<IxpyYy+0UM3AqBEB>
+Nov 15 20:37:40 aluk10-pri dovecot[55399]: imap-login: Login: user=<kim>, method=PLAIN, rip=192.168.17.1, lip=192.168.17.25, mpid=56269, TLS, session=<8zaHbC+0Us3AqBEB>

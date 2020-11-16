@@ -1,0 +1,7 @@
+Oct 13 08:53:18 Robert-vm2 sshd[38920]: Accepted publickey for instructor from 172.16.0.1 port 33226 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 13 08:53:18 Robert-vm2 sshd[38920]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 13 08:53:18 Robert-vm2 sshd[38934]: Received disconnect from 172.16.0.1 port 33226:11: disconnected by user
+Oct 13 08:53:18 Robert-vm2 sshd[38934]: Disconnected from user instructor 172.16.0.1 port 33226
+Oct 13 08:53:18 Robert-vm2 sshd[38920]: pam_unix(sshd:session): session closed for user instructor
+Oct 13 08:53:18 Robert-vm2 systemd[38928]: pam_unix(systemd-user:session): session closed for user instructor

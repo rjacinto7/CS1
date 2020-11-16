@@ -1,0 +1,1480 @@
+Oct 11 03:16:01 Robert-vm2 rsyslogd[1034]: [origin software="rsyslogd" swVersion="8.1911.0-3.el8" x-pid="1034" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct 11 03:16:01 Robert-vm2 httpd[34708]: Server configured, listening on: port 80
+Oct 11 03:55:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 03:55:08 Robert-vm2 dnf[37395]: Metadata cache refreshed recently.
+Oct 11 03:55:08 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 04:55:17 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 04:55:18 Robert-vm2 dnf[37420]: CentOS-8 - AppStream                             28 kB/s | 4.3 kB     00:00
+Oct 11 04:55:18 Robert-vm2 dnf[37420]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 11 04:55:18 Robert-vm2 dnf[37420]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Oct 11 04:55:18 Robert-vm2 dnf[37420]: Metadata cache created.
+Oct 11 04:55:18 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 05:55:21 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 05:55:21 Robert-vm2 dnf[37452]: Metadata cache refreshed recently.
+Oct 11 05:55:21 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 06:55:24 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 06:55:25 Robert-vm2 dnf[37477]: Metadata cache refreshed recently.
+Oct 11 06:55:25 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 07:55:28 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 07:55:29 Robert-vm2 dnf[37502]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 11 07:55:29 Robert-vm2 dnf[37502]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Oct 11 07:55:29 Robert-vm2 dnf[37502]: CentOS-8 - Extras                               3.5 kB/s | 1.5 kB     00:00
+Oct 11 07:55:30 Robert-vm2 dnf[37502]: Metadata cache created.
+Oct 11 07:55:30 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 08:55:32 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 08:55:32 Robert-vm2 dnf[37534]: Metadata cache refreshed recently.
+Oct 11 08:55:32 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 09:55:35 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 09:55:36 Robert-vm2 dnf[37559]: Metadata cache refreshed recently.
+Oct 11 09:55:36 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 10:55:39 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 10:55:40 Robert-vm2 dnf[37584]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Oct 11 10:55:40 Robert-vm2 dnf[37584]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 11 10:55:40 Robert-vm2 dnf[37584]: CentOS-8 - Extras                               3.9 kB/s | 1.5 kB     00:00
+Oct 11 10:55:41 Robert-vm2 dnf[37584]: Metadata cache created.
+Oct 11 10:55:41 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 11:55:43 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 11:55:43 Robert-vm2 dnf[37616]: Metadata cache refreshed recently.
+Oct 11 11:55:43 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 12:55:46 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 12:55:47 Robert-vm2 dnf[37641]: Metadata cache refreshed recently.
+Oct 11 12:55:47 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 13:47:22 Robert-vm2 NetworkManager[961]: <error> [1602438442.7999] dhcp4 (ens192): error -113 dispatching events
+Oct 11 13:47:22 Robert-vm2 NetworkManager[961]: <info>  [1602438442.8003] dhcp4 (ens192): state changed bound -> fail
+Oct 11 13:47:22 Robert-vm2 NetworkManager[961]: <info>  [1602438442.8004] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7406] device (ens192): DHCPv4: grace period expired
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7407] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <warn>  [1602438532.7424] device (ens192): Activation: failed for connection 'ens192'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7431] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7435] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7446] dhcp4 (ens192): canceled DHCP transaction
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7446] dhcp4 (ens192): state changed fail -> done
+Oct 11 13:48:52 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 11 13:48:52 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7699] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7710] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7711] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7713] manager: NetworkManager state is now CONNECTING
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7715] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7720] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7722] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 11 13:48:52 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 11 13:48:52 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7818] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7818] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7818] dhcp4 (ens192): option expiry               => '1602524932'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7818] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7818] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7818] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7818] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7818] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7818] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7819] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7819] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7819] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7819] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7819] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7819] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7819] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7819] dhcp4 (ens192): option requested_routers    => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7819] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7819] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7820] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7820] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7820] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7820] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7820] dhcp4 (ens192): state changed unknown -> bound
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7830] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7920] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7923] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7927] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7935] manager: NetworkManager state is now CONNECTED_SITE
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7936] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7991] device (ens192): Activation: successful, device activated.
+Oct 11 13:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602438532.7996] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 11 13:55:50 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 13:55:51 Robert-vm2 dnf[37674]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 11 13:55:51 Robert-vm2 dnf[37674]: CentOS-8 - Base                                  27 kB/s | 3.9 kB     00:00
+Oct 11 13:55:51 Robert-vm2 dnf[37674]: CentOS-8 - Extras                                11 kB/s | 1.5 kB     00:00
+Oct 11 13:55:51 Robert-vm2 dnf[37674]: Metadata cache created.
+Oct 11 13:55:51 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 14:55:54 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 14:55:54 Robert-vm2 dnf[37706]: Metadata cache refreshed recently.
+Oct 11 14:55:54 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 15:55:57 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 15:55:58 Robert-vm2 dnf[37731]: Metadata cache refreshed recently.
+Oct 11 15:55:58 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 16:56:01 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 16:56:02 Robert-vm2 dnf[37756]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 11 16:56:02 Robert-vm2 dnf[37756]: CentOS-8 - Base                                  21 kB/s | 3.9 kB     00:00
+Oct 11 16:56:02 Robert-vm2 dnf[37756]: CentOS-8 - Extras                               4.2 kB/s | 1.5 kB     00:00
+Oct 11 16:56:03 Robert-vm2 dnf[37756]: Metadata cache created.
+Oct 11 16:56:03 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 17:56:05 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 17:56:05 Robert-vm2 dnf[37787]: Metadata cache refreshed recently.
+Oct 11 17:56:05 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 18:56:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 18:56:08 Robert-vm2 dnf[37813]: Metadata cache refreshed recently.
+Oct 11 18:56:08 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 19:56:12 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 19:56:13 Robert-vm2 dnf[37838]: CentOS-8 - AppStream                            6.2 kB/s | 4.3 kB     00:00
+Oct 11 19:56:13 Robert-vm2 dnf[37838]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 11 19:56:14 Robert-vm2 dnf[37838]: CentOS-8 - Extras                               5.4 kB/s | 1.5 kB     00:00
+Oct 11 19:56:14 Robert-vm2 dnf[37838]: Metadata cache created.
+Oct 11 19:56:14 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 20:56:16 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 20:56:16 Robert-vm2 dnf[37870]: Metadata cache refreshed recently.
+Oct 11 20:56:16 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 21:56:20 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 21:56:20 Robert-vm2 dnf[37895]: Metadata cache refreshed recently.
+Oct 11 21:56:20 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 22:56:23 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 22:56:24 Robert-vm2 dnf[37920]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 11 22:56:24 Robert-vm2 dnf[37920]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Oct 11 22:56:25 Robert-vm2 dnf[37920]: CentOS-8 - Extras                               4.1 kB/s | 1.5 kB     00:00
+Oct 11 22:56:25 Robert-vm2 dnf[37920]: Metadata cache created.
+Oct 11 22:56:25 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 11 23:56:27 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 11 23:56:27 Robert-vm2 dnf[37951]: Metadata cache refreshed recently.
+Oct 11 23:56:27 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 00:00:07 Robert-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 12 00:00:07 Robert-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 12 00:56:31 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 00:56:31 Robert-vm2 dnf[37981]: Metadata cache refreshed recently.
+Oct 12 00:56:31 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 01:48:52 Robert-vm2 NetworkManager[961]: <error> [1602481732.7780] dhcp4 (ens192): error -113 dispatching events
+Oct 12 01:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602481732.7782] dhcp4 (ens192): state changed bound -> fail
+Oct 12 01:48:52 Robert-vm2 NetworkManager[961]: <info>  [1602481732.7783] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.7908] device (ens192): DHCPv4: grace period expired
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.7909] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <warn>  [1602481822.7925] device (ens192): Activation: failed for connection 'ens192'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.7932] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.7935] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.7948] dhcp4 (ens192): canceled DHCP transaction
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.7948] dhcp4 (ens192): state changed fail -> done
+Oct 12 01:50:22 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 12 01:50:22 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8099] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8109] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8110] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8112] manager: NetworkManager state is now CONNECTING
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8114] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8118] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8121] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 12 01:50:22 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 12 01:50:22 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8304] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8304] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8304] dhcp4 (ens192): option expiry               => '1602568222'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8304] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8304] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8304] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_routers    => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8305] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8306] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8306] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8306] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8306] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8306] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8306] dhcp4 (ens192): state changed unknown -> bound
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8316] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8402] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8404] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8408] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8416] manager: NetworkManager state is now CONNECTED_SITE
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8417] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8450] device (ens192): Activation: successful, device activated.
+Oct 12 01:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602481822.8455] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 12 01:56:34 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 01:56:35 Robert-vm2 dnf[38016]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 12 01:56:35 Robert-vm2 dnf[38016]: CentOS-8 - Base                                  38 kB/s | 3.9 kB     00:00
+Oct 12 01:56:35 Robert-vm2 dnf[38016]: CentOS-8 - Extras                               5.9 kB/s | 1.5 kB     00:00
+Oct 12 01:56:36 Robert-vm2 dnf[38016]: Metadata cache created.
+Oct 12 01:56:36 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 01:57:04 Robert-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 12 01:57:04 Robert-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 12 02:56:38 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 02:56:38 Robert-vm2 dnf[38052]: Metadata cache refreshed recently.
+Oct 12 02:56:38 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 03:56:42 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 03:56:42 Robert-vm2 dnf[38088]: Metadata cache refreshed recently.
+Oct 12 03:56:42 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 04:56:45 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 04:56:46 Robert-vm2 dnf[38113]: CentOS-8 - AppStream                             10 kB/s | 4.3 kB     00:00
+Oct 12 04:56:46 Robert-vm2 dnf[38113]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Oct 12 04:56:47 Robert-vm2 dnf[38113]: CentOS-8 - Extras                               5.3 kB/s | 1.5 kB     00:00
+Oct 12 04:56:47 Robert-vm2 dnf[38113]: Metadata cache created.
+Oct 12 04:56:47 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 05:56:49 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 05:56:49 Robert-vm2 dnf[38145]: Metadata cache refreshed recently.
+Oct 12 05:56:49 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 06:56:53 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 06:56:53 Robert-vm2 dnf[38170]: Metadata cache refreshed recently.
+Oct 12 06:56:53 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 07:56:56 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 07:56:57 Robert-vm2 dnf[38196]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 12 07:56:57 Robert-vm2 dnf[38196]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 12 07:56:58 Robert-vm2 dnf[38196]: CentOS-8 - Extras                                11 kB/s | 1.5 kB     00:00
+Oct 12 07:56:58 Robert-vm2 dnf[38196]: Metadata cache created.
+Oct 12 07:56:58 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 08:57:00 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 08:57:00 Robert-vm2 dnf[38227]: Metadata cache refreshed recently.
+Oct 12 08:57:00 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 09:57:04 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 09:57:04 Robert-vm2 dnf[38253]: Metadata cache refreshed recently.
+Oct 12 09:57:04 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 10:57:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 10:57:08 Robert-vm2 dnf[38278]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 12 10:57:08 Robert-vm2 dnf[38278]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 12 10:57:08 Robert-vm2 dnf[38278]: CentOS-8 - Extras                                10 kB/s | 1.5 kB     00:00
+Oct 12 10:57:09 Robert-vm2 dnf[38278]: Metadata cache created.
+Oct 12 10:57:09 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 11:57:11 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 11:57:11 Robert-vm2 dnf[38309]: Metadata cache refreshed recently.
+Oct 12 11:57:11 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 12:57:15 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 12:57:15 Robert-vm2 dnf[38335]: Metadata cache refreshed recently.
+Oct 12 12:57:15 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 13:50:22 Robert-vm2 NetworkManager[961]: <error> [1602525022.8166] dhcp4 (ens192): error -113 dispatching events
+Oct 12 13:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602525022.8169] dhcp4 (ens192): state changed bound -> fail
+Oct 12 13:50:22 Robert-vm2 NetworkManager[961]: <info>  [1602525022.8170] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7440] device (ens192): DHCPv4: grace period expired
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7441] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <warn>  [1602525112.7459] device (ens192): Activation: failed for connection 'ens192'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7466] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7470] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7481] dhcp4 (ens192): canceled DHCP transaction
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7481] dhcp4 (ens192): state changed fail -> done
+Oct 12 13:51:52 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 12 13:51:52 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7719] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7729] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7730] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7733] manager: NetworkManager state is now CONNECTING
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7734] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7738] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7741] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 12 13:51:52 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 12 13:51:52 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7837] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7837] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7837] dhcp4 (ens192): option expiry               => '1602611512'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7837] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7837] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7837] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7837] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7837] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_routers    => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7838] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7839] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7839] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7839] dhcp4 (ens192): state changed unknown -> bound
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7848] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7969] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7971] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7975] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7983] manager: NetworkManager state is now CONNECTED_SITE
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.7984] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.8021] device (ens192): Activation: successful, device activated.
+Oct 12 13:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602525112.8026] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 12 13:57:18 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 13:57:19 Robert-vm2 dnf[38368]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 12 13:57:19 Robert-vm2 dnf[38368]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 12 13:57:20 Robert-vm2 dnf[38368]: CentOS-8 - Extras                               7.6 kB/s | 1.5 kB     00:00
+Oct 12 13:57:20 Robert-vm2 dnf[38368]: Metadata cache created.
+Oct 12 13:57:20 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 14:57:22 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 14:57:22 Robert-vm2 dnf[38399]: Metadata cache refreshed recently.
+Oct 12 14:57:22 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 15:57:26 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 15:57:26 Robert-vm2 dnf[38425]: Metadata cache refreshed recently.
+Oct 12 15:57:26 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 16:57:29 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 16:57:30 Robert-vm2 dnf[38451]: CentOS-8 - AppStream                             47 kB/s | 4.3 kB     00:00
+Oct 12 16:57:30 Robert-vm2 dnf[38451]: CentOS-8 - Base                                  23 kB/s | 3.9 kB     00:00
+Oct 12 16:57:30 Robert-vm2 dnf[38451]: CentOS-8 - Extras                               5.4 kB/s | 1.5 kB     00:00
+Oct 12 16:57:31 Robert-vm2 dnf[38451]: Metadata cache created.
+Oct 12 16:57:31 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 17:57:33 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 17:57:33 Robert-vm2 dnf[38481]: Metadata cache refreshed recently.
+Oct 12 17:57:33 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 18:57:37 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 18:57:37 Robert-vm2 dnf[38507]: Metadata cache refreshed recently.
+Oct 12 18:57:37 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 19:57:40 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 19:57:41 Robert-vm2 dnf[38533]: CentOS-8 - AppStream                             31 kB/s | 4.3 kB     00:00
+Oct 12 19:57:41 Robert-vm2 dnf[38533]: CentOS-8 - Base                                  25 kB/s | 3.9 kB     00:00
+Oct 12 19:57:41 Robert-vm2 dnf[38533]: CentOS-8 - Extras                               6.2 kB/s | 1.5 kB     00:00
+Oct 12 19:57:42 Robert-vm2 dnf[38533]: Metadata cache created.
+Oct 12 19:57:42 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 20:57:44 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 20:57:45 Robert-vm2 dnf[38564]: Metadata cache refreshed recently.
+Oct 12 20:57:45 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 21:57:48 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 21:57:48 Robert-vm2 dnf[38589]: Metadata cache refreshed recently.
+Oct 12 21:57:48 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 22:57:52 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 22:57:52 Robert-vm2 dnf[38614]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 12 22:57:53 Robert-vm2 dnf[38614]: CentOS-8 - Base                                  20 kB/s | 3.9 kB     00:00
+Oct 12 22:57:53 Robert-vm2 dnf[38614]: CentOS-8 - Extras                               5.7 kB/s | 1.5 kB     00:00
+Oct 12 22:57:53 Robert-vm2 dnf[38614]: Metadata cache created.
+Oct 12 22:57:53 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 12 23:57:55 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 12 23:57:57 Robert-vm2 dnf[38645]: Metadata cache refreshed recently.
+Oct 12 23:57:57 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 00:00:05 Robert-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 13 00:00:05 Robert-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 13 00:57:59 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 00:57:59 Robert-vm2 dnf[38675]: Metadata cache refreshed recently.
+Oct 13 00:57:59 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 01:51:52 Robert-vm2 NetworkManager[961]: <error> [1602568312.7779] dhcp4 (ens192): error -113 dispatching events
+Oct 13 01:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602568312.7781] dhcp4 (ens192): state changed bound -> fail
+Oct 13 01:51:52 Robert-vm2 NetworkManager[961]: <info>  [1602568312.7782] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8120] device (ens192): DHCPv4: grace period expired
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8122] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <warn>  [1602568402.8139] device (ens192): Activation: failed for connection 'ens192'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8146] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8150] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8161] dhcp4 (ens192): canceled DHCP transaction
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8162] dhcp4 (ens192): state changed fail -> done
+Oct 13 01:53:22 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 13 01:53:22 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8415] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8424] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8425] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8428] manager: NetworkManager state is now CONNECTING
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8429] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8434] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8436] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 01:53:22 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 13 01:53:22 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8542] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8542] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8542] dhcp4 (ens192): option expiry               => '1602654802'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8542] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8542] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8542] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8542] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8542] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_routers    => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8543] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8544] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8544] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8544] dhcp4 (ens192): state changed unknown -> bound
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8554] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8651] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8653] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8657] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8665] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8666] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8701] device (ens192): Activation: successful, device activated.
+Oct 13 01:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602568402.8706] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 01:57:07 Robert-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 13 01:57:07 Robert-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 13 01:58:03 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 01:58:03 Robert-vm2 dnf[38712]: CentOS-8 - AppStream                             22 kB/s | 4.3 kB     00:00
+Oct 13 01:58:03 Robert-vm2 dnf[38712]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 13 01:58:04 Robert-vm2 dnf[38712]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Oct 13 01:58:04 Robert-vm2 dnf[38712]: Metadata cache created.
+Oct 13 01:58:04 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 02:58:06 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 02:58:07 Robert-vm2 dnf[38746]: Metadata cache refreshed recently.
+Oct 13 02:58:07 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 03:58:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 03:58:08 Robert-vm2 dnf[38782]: Metadata cache refreshed recently.
+Oct 13 03:58:08 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 04:58:14 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 04:58:16 Robert-vm2 dnf[38807]: CentOS-8 - AppStream                            2.0 kB/s | 4.3 kB     00:02
+Oct 13 04:58:16 Robert-vm2 dnf[38807]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 13 04:58:18 Robert-vm2 dnf[38807]: CentOS-8 - Extras                               866  B/s | 1.5 kB     00:01
+Oct 13 04:58:19 Robert-vm2 dnf[38807]: Metadata cache created.
+Oct 13 04:58:19 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 05:58:27 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 05:58:28 Robert-vm2 dnf[38838]: Metadata cache refreshed recently.
+Oct 13 05:58:28 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 06:58:31 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 06:58:31 Robert-vm2 dnf[38864]: Metadata cache refreshed recently.
+Oct 13 06:58:31 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 07:58:35 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 07:58:35 Robert-vm2 dnf[38889]: CentOS-8 - AppStream                             24 kB/s | 4.3 kB     00:00
+Oct 13 07:58:35 Robert-vm2 dnf[38889]: CentOS-8 - Base                                  25 kB/s | 3.9 kB     00:00
+Oct 13 07:58:36 Robert-vm2 dnf[38889]: CentOS-8 - Extras                               5.9 kB/s | 1.5 kB     00:00
+Oct 13 07:58:36 Robert-vm2 dnf[38889]: Metadata cache created.
+Oct 13 07:58:36 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: Created slice User Slice of UID 1001.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: Started /run/user/1001 mount wrapper.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: Starting User Manager for UID 1001...
+Oct 13 08:53:18 Robert-vm2 systemd[1]: Started Session 5 of user instructor.
+Oct 13 08:53:18 Robert-vm2 systemd-logind[1039]: New session 5 of user instructor.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Started Mark boot as successful after the user session has run 2 minutes.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Reached target Timers.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Reached target Paths.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Starting D-Bus User Message Bus Socket.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Listening on D-Bus User Message Bus Socket.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Reached target Sockets.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Reached target Basic System.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Reached target Default.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Startup finished in 44ms.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: Started User Manager for UID 1001.
+Oct 13 08:53:18 Robert-vm2 systemd-logind[1039]: Session 5 logged out. Waiting for processes to exit.
+Oct 13 08:53:18 Robert-vm2 systemd-logind[1039]: Removed session 5.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: Stopping User Manager for UID 1001...
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Stopped target Default.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Stopped target Basic System.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Stopped target Timers.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Stopped target Sockets.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Closed D-Bus User Message Bus Socket.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Stopped target Paths.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Reached target Shutdown.
+Oct 13 08:53:18 Robert-vm2 systemd[38924]: Starting Exit the Session...
+Oct 13 08:53:18 Robert-vm2 systemd[1]: user@1001.service: Killing process 38949 (systemctl) with signal SIGKILL.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: Stopped User Manager for UID 1001.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: Removed slice User Slice of UID 1001.
+Oct 13 08:53:18 Robert-vm2 systemd[1]: Stopping /run/user/1001 mount wrapper...
+Oct 13 08:53:18 Robert-vm2 systemd[1]: Stopped /run/user/1001 mount wrapper.
+Oct 13 08:58:38 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 08:58:39 Robert-vm2 dnf[38958]: Metadata cache refreshed recently.
+Oct 13 08:58:39 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 09:58:42 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 09:58:42 Robert-vm2 dnf[38984]: Metadata cache refreshed recently.
+Oct 13 09:58:42 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 10:58:46 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 10:58:46 Robert-vm2 dnf[39009]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Oct 13 10:58:47 Robert-vm2 dnf[39009]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 13 10:58:47 Robert-vm2 dnf[39009]: CentOS-8 - Extras                               6.9 kB/s | 1.5 kB     00:00
+Oct 13 10:58:47 Robert-vm2 dnf[39009]: Metadata cache created.
+Oct 13 10:58:47 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 11:58:49 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 11:58:50 Robert-vm2 dnf[39040]: Metadata cache refreshed recently.
+Oct 13 11:58:50 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 12:58:53 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 12:58:53 Robert-vm2 dnf[39066]: Metadata cache refreshed recently.
+Oct 13 12:58:53 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 13:53:22 Robert-vm2 NetworkManager[961]: <error> [1602611602.8514] dhcp4 (ens192): error -113 dispatching events
+Oct 13 13:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602611602.8526] dhcp4 (ens192): state changed bound -> fail
+Oct 13 13:53:22 Robert-vm2 NetworkManager[961]: <info>  [1602611602.8527] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.7919] device (ens192): DHCPv4: grace period expired
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.7920] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <warn>  [1602611692.7935] device (ens192): Activation: failed for connection 'ens192'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.7942] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.7946] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.7960] dhcp4 (ens192): canceled DHCP transaction
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.7960] dhcp4 (ens192): state changed fail -> done
+Oct 13 13:54:52 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 13 13:54:52 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8194] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8203] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8204] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8207] manager: NetworkManager state is now CONNECTING
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8209] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8214] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8216] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 13 13:54:52 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 13 13:54:52 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8314] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8314] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8314] dhcp4 (ens192): option expiry               => '1602698092'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8314] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8314] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8314] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8314] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8314] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8314] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_routers    => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8315] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8316] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8316] dhcp4 (ens192): state changed unknown -> bound
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8325] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8408] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8411] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8414] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8422] manager: NetworkManager state is now CONNECTED_SITE
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8423] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8471] device (ens192): Activation: successful, device activated.
+Oct 13 13:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602611692.8475] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 13 13:58:57 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 13:58:57 Robert-vm2 dnf[39099]: CentOS-8 - AppStream                             42 kB/s | 4.3 kB     00:00
+Oct 13 13:58:57 Robert-vm2 dnf[39099]: CentOS-8 - Base                                  23 kB/s | 3.9 kB     00:00
+Oct 13 13:58:58 Robert-vm2 dnf[39099]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Oct 13 13:58:58 Robert-vm2 dnf[39099]: Metadata cache created.
+Oct 13 13:58:58 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 14:59:01 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 14:59:01 Robert-vm2 dnf[39130]: Metadata cache refreshed recently.
+Oct 13 14:59:01 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 15:59:04 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 15:59:05 Robert-vm2 dnf[39155]: Metadata cache refreshed recently.
+Oct 13 15:59:05 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 16:59:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 16:59:08 Robert-vm2 dnf[39181]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 13 16:59:09 Robert-vm2 dnf[39181]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 13 16:59:09 Robert-vm2 dnf[39181]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Oct 13 16:59:09 Robert-vm2 dnf[39181]: Metadata cache created.
+Oct 13 16:59:09 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 17:59:12 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 17:59:12 Robert-vm2 dnf[39212]: Metadata cache refreshed recently.
+Oct 13 17:59:12 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 18:59:15 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 18:59:16 Robert-vm2 dnf[39237]: Metadata cache refreshed recently.
+Oct 13 18:59:16 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 19:59:19 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 19:59:19 Robert-vm2 dnf[39263]: CentOS-8 - AppStream                             28 kB/s | 4.3 kB     00:00
+Oct 13 19:59:20 Robert-vm2 dnf[39263]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 13 19:59:20 Robert-vm2 dnf[39263]: CentOS-8 - Extras                               7.1 kB/s | 1.5 kB     00:00
+Oct 13 19:59:20 Robert-vm2 dnf[39263]: Metadata cache created.
+Oct 13 19:59:20 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 20:59:23 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 20:59:23 Robert-vm2 dnf[39294]: Metadata cache refreshed recently.
+Oct 13 20:59:23 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 21:59:26 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 21:59:27 Robert-vm2 dnf[39319]: Metadata cache refreshed recently.
+Oct 13 21:59:27 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 22:59:30 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 22:59:31 Robert-vm2 dnf[39345]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 13 22:59:31 Robert-vm2 dnf[39345]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 13 22:59:31 Robert-vm2 dnf[39345]: CentOS-8 - Extras                               9.6 kB/s | 1.5 kB     00:00
+Oct 13 22:59:31 Robert-vm2 dnf[39345]: Metadata cache created.
+Oct 13 22:59:31 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 13 23:59:34 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 13 23:59:34 Robert-vm2 dnf[39376]: Metadata cache refreshed recently.
+Oct 13 23:59:34 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 00:00:04 Robert-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 14 00:00:04 Robert-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 14 00:59:37 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 00:59:38 Robert-vm2 dnf[39405]: Metadata cache refreshed recently.
+Oct 14 00:59:38 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 01:54:52 Robert-vm2 NetworkManager[961]: <error> [1602654892.8268] dhcp4 (ens192): error -113 dispatching events
+Oct 14 01:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602654892.8278] dhcp4 (ens192): state changed bound -> fail
+Oct 14 01:54:52 Robert-vm2 NetworkManager[961]: <info>  [1602654892.8279] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7294] device (ens192): DHCPv4: grace period expired
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7295] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <warn>  [1602654982.7310] device (ens192): Activation: failed for connection 'ens192'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7317] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7321] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7335] dhcp4 (ens192): canceled DHCP transaction
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7336] dhcp4 (ens192): state changed fail -> done
+Oct 14 01:56:22 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 14 01:56:22 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7574] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7583] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7584] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7587] manager: NetworkManager state is now CONNECTING
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7588] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7593] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7595] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7674] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7674] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7674] dhcp4 (ens192): option expiry               => '1602741382'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7674] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7674] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7674] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7674] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7674] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7674] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_routers    => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7675] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7676] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7676] dhcp4 (ens192): state changed unknown -> bound
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7685] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 14 01:56:22 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 14 01:56:22 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7795] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7797] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7801] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7809] manager: NetworkManager state is now CONNECTED_SITE
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7810] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7841] device (ens192): Activation: successful, device activated.
+Oct 14 01:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602654982.7846] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 14 01:57:11 Robert-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 14 01:57:11 Robert-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 14 01:59:41 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 01:59:42 Robert-vm2 dnf[39443]: CentOS-8 - AppStream                             10 kB/s | 4.3 kB     00:00
+Oct 14 01:59:42 Robert-vm2 dnf[39443]: CentOS-8 - Base                                  21 kB/s | 3.9 kB     00:00
+Oct 14 01:59:42 Robert-vm2 dnf[39443]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Oct 14 01:59:43 Robert-vm2 dnf[39443]: Metadata cache created.
+Oct 14 01:59:43 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 02:59:45 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 02:59:45 Robert-vm2 dnf[39476]: Metadata cache refreshed recently.
+Oct 14 02:59:45 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 03:59:48 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 03:59:49 Robert-vm2 dnf[39514]: Metadata cache refreshed recently.
+Oct 14 03:59:49 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 04:59:52 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 04:59:53 Robert-vm2 dnf[39540]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 14 04:59:53 Robert-vm2 dnf[39540]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 14 04:59:53 Robert-vm2 dnf[39540]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Oct 14 04:59:54 Robert-vm2 dnf[39540]: Metadata cache created.
+Oct 14 04:59:54 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 05:59:56 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 05:59:56 Robert-vm2 dnf[39571]: Metadata cache refreshed recently.
+Oct 14 05:59:56 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 06:59:57 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 06:59:58 Robert-vm2 dnf[39596]: Metadata cache refreshed recently.
+Oct 14 06:59:58 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 08:00:03 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 08:00:04 Robert-vm2 dnf[39621]: CentOS-8 - AppStream                             27 kB/s | 4.3 kB     00:00
+Oct 14 08:00:04 Robert-vm2 dnf[39621]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 14 08:00:04 Robert-vm2 dnf[39621]: CentOS-8 - Extras                                20 kB/s | 1.5 kB     00:00
+Oct 14 08:00:04 Robert-vm2 dnf[39621]: Metadata cache created.
+Oct 14 08:00:04 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 09:00:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 09:00:07 Robert-vm2 dnf[39653]: Metadata cache refreshed recently.
+Oct 14 09:00:07 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 10:00:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 10:00:08 Robert-vm2 dnf[39678]: Metadata cache refreshed recently.
+Oct 14 10:00:08 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 11:00:14 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 11:00:16 Robert-vm2 dnf[39703]: CentOS-8 - AppStream                            4.8 kB/s | 4.3 kB     00:00
+Oct 14 11:00:17 Robert-vm2 dnf[39703]: CentOS-8 - Base                                 4.4 kB/s | 3.9 kB     00:00
+Oct 14 11:00:17 Robert-vm2 dnf[39703]: CentOS-8 - Extras                               2.1 kB/s | 1.5 kB     00:00
+Oct 14 11:00:17 Robert-vm2 dnf[39703]: Metadata cache created.
+Oct 14 11:00:18 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 12:00:18 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 12:00:18 Robert-vm2 dnf[39735]: Metadata cache refreshed recently.
+Oct 14 12:00:18 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 13:00:22 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 13:00:22 Robert-vm2 dnf[39760]: Metadata cache refreshed recently.
+Oct 14 13:00:22 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 13:56:22 Robert-vm2 NetworkManager[961]: <error> [1602698182.7668] dhcp4 (ens192): error -113 dispatching events
+Oct 14 13:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602698182.7677] dhcp4 (ens192): state changed bound -> fail
+Oct 14 13:56:22 Robert-vm2 NetworkManager[961]: <info>  [1602698182.7678] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.7868] device (ens192): DHCPv4: grace period expired
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.7869] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <warn>  [1602698272.7883] device (ens192): Activation: failed for connection 'ens192'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.7890] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.7894] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.7915] dhcp4 (ens192): canceled DHCP transaction
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.7915] dhcp4 (ens192): state changed fail -> done
+Oct 14 13:57:52 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 14 13:57:52 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8171] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8180] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8181] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8184] manager: NetworkManager state is now CONNECTING
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8185] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8190] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8193] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 14 13:57:52 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 14 13:57:52 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8293] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8293] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8293] dhcp4 (ens192): option expiry               => '1602784672'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8293] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8293] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8293] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8293] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_routers    => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8294] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8295] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8295] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8295] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8295] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8295] dhcp4 (ens192): state changed unknown -> bound
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8307] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8409] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8411] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8415] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8423] manager: NetworkManager state is now CONNECTED_SITE
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8424] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8457] device (ens192): Activation: successful, device activated.
+Oct 14 13:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602698272.8462] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 14 14:00:25 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 14:00:26 Robert-vm2 dnf[39794]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 14 14:00:26 Robert-vm2 dnf[39794]: CentOS-8 - Base                                 9.0 kB/s | 3.9 kB     00:00
+Oct 14 14:00:27 Robert-vm2 dnf[39794]: CentOS-8 - Extras                               7.3 kB/s | 1.5 kB     00:00
+Oct 14 14:00:27 Robert-vm2 dnf[39794]: Metadata cache created.
+Oct 14 14:00:27 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 15:00:29 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 15:00:29 Robert-vm2 dnf[39825]: Metadata cache refreshed recently.
+Oct 14 15:00:29 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 16:00:33 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 16:00:33 Robert-vm2 dnf[39851]: Metadata cache refreshed recently.
+Oct 14 16:00:33 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 17:00:36 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 17:00:37 Robert-vm2 dnf[39876]: CentOS-8 - AppStream                             41 kB/s | 4.3 kB     00:00
+Oct 14 17:00:37 Robert-vm2 dnf[39876]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Oct 14 17:00:38 Robert-vm2 dnf[39876]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Oct 14 17:00:38 Robert-vm2 dnf[39876]: Metadata cache created.
+Oct 14 17:00:38 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 18:00:40 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 18:00:40 Robert-vm2 dnf[39908]: Metadata cache refreshed recently.
+Oct 14 18:00:40 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 19:00:44 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 19:00:44 Robert-vm2 dnf[39933]: Metadata cache refreshed recently.
+Oct 14 19:00:44 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 20:00:47 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 20:00:48 Robert-vm2 dnf[39958]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 14 20:00:48 Robert-vm2 dnf[39958]: CentOS-8 - Base                                  23 kB/s | 3.9 kB     00:00
+Oct 14 20:00:48 Robert-vm2 dnf[39958]: CentOS-8 - Extras                                11 kB/s | 1.5 kB     00:00
+Oct 14 20:00:49 Robert-vm2 dnf[39958]: Metadata cache created.
+Oct 14 20:00:49 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 21:00:51 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 21:00:51 Robert-vm2 dnf[39990]: Metadata cache refreshed recently.
+Oct 14 21:00:52 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 22:00:55 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 22:00:55 Robert-vm2 dnf[40015]: Metadata cache refreshed recently.
+Oct 14 22:00:55 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 14 23:00:59 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 14 23:00:59 Robert-vm2 dnf[40040]: CentOS-8 - AppStream                             22 kB/s | 4.3 kB     00:00
+Oct 14 23:00:59 Robert-vm2 dnf[40040]: CentOS-8 - Base                                  28 kB/s | 3.9 kB     00:00
+Oct 14 23:01:00 Robert-vm2 dnf[40040]: CentOS-8 - Extras                               6.1 kB/s | 1.5 kB     00:00
+Oct 14 23:01:00 Robert-vm2 dnf[40040]: Metadata cache created.
+Oct 14 23:01:00 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 00:00:02 Robert-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 15 00:00:02 Robert-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 15 00:01:01 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 00:01:01 Robert-vm2 dnf[40075]: Metadata cache refreshed recently.
+Oct 15 00:01:01 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 01:01:06 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 01:01:06 Robert-vm2 dnf[40114]: Metadata cache refreshed recently.
+Oct 15 01:01:06 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 01:57:19 Robert-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 15 01:57:19 Robert-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 15 01:57:52 Robert-vm2 NetworkManager[961]: <error> [1602741472.8236] dhcp4 (ens192): error -113 dispatching events
+Oct 15 01:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602741472.8239] dhcp4 (ens192): state changed bound -> fail
+Oct 15 01:57:52 Robert-vm2 NetworkManager[961]: <info>  [1602741472.8240] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7716] device (ens192): DHCPv4: grace period expired
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7717] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <warn>  [1602741562.7733] device (ens192): Activation: failed for connection 'ens192'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7741] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7745] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7758] dhcp4 (ens192): canceled DHCP transaction
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7758] dhcp4 (ens192): state changed fail -> done
+Oct 15 01:59:22 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 15 01:59:22 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7983] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7992] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7993] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7996] manager: NetworkManager state is now CONNECTING
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.7997] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8002] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8005] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 15 01:59:22 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 15 01:59:22 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8101] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8101] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option expiry               => '1602827962'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8102] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8103] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8103] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8103] dhcp4 (ens192): option requested_routers    => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8103] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8103] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8103] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8103] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8103] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8103] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8103] dhcp4 (ens192): state changed unknown -> bound
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8112] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8206] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8208] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8212] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8219] manager: NetworkManager state is now CONNECTED_SITE
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8220] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8251] device (ens192): Activation: successful, device activated.
+Oct 15 01:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602741562.8255] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 15 02:01:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 02:01:08 Robert-vm2 dnf[40151]: CentOS-8 - AppStream                             23 kB/s | 4.3 kB     00:00
+Oct 15 02:01:08 Robert-vm2 dnf[40151]: CentOS-8 - Base                                 9.8 kB/s | 3.9 kB     00:00
+Oct 15 02:01:09 Robert-vm2 dnf[40151]: CentOS-8 - Extras                               4.2 kB/s | 1.5 kB     00:00
+Oct 15 02:01:09 Robert-vm2 dnf[40151]: Metadata cache created.
+Oct 15 02:01:09 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 03:01:13 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 03:01:14 Robert-vm2 dnf[40184]: Metadata cache refreshed recently.
+Oct 15 03:01:14 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 04:01:17 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 04:01:17 Robert-vm2 dnf[40219]: Metadata cache refreshed recently.
+Oct 15 04:01:17 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 05:01:21 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 05:01:21 Robert-vm2 dnf[40244]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 15 05:01:21 Robert-vm2 dnf[40244]: CentOS-8 - Base                                  27 kB/s | 3.9 kB     00:00
+Oct 15 05:01:22 Robert-vm2 dnf[40244]: CentOS-8 - Extras                               7.1 kB/s | 1.5 kB     00:00
+Oct 15 05:01:22 Robert-vm2 dnf[40244]: Metadata cache created.
+Oct 15 05:01:22 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 06:01:24 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 06:01:25 Robert-vm2 dnf[40275]: Metadata cache refreshed recently.
+Oct 15 06:01:25 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 07:01:28 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 07:01:28 Robert-vm2 dnf[40301]: Metadata cache refreshed recently.
+Oct 15 07:01:28 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 08:01:32 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 08:01:32 Robert-vm2 dnf[40326]: CentOS-8 - AppStream                             40 kB/s | 4.3 kB     00:00
+Oct 15 08:01:32 Robert-vm2 dnf[40326]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 15 08:01:33 Robert-vm2 dnf[40326]: CentOS-8 - Extras                               5.3 kB/s | 1.5 kB     00:00
+Oct 15 08:01:33 Robert-vm2 dnf[40326]: Metadata cache created.
+Oct 15 08:01:33 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 09:01:35 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 09:01:36 Robert-vm2 dnf[40357]: Metadata cache refreshed recently.
+Oct 15 09:01:36 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 10:01:39 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 10:01:39 Robert-vm2 dnf[40383]: Metadata cache refreshed recently.
+Oct 15 10:01:39 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 11:01:43 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 11:01:43 Robert-vm2 dnf[40408]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 15 11:01:44 Robert-vm2 dnf[40408]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 15 11:01:44 Robert-vm2 dnf[40408]: CentOS-8 - Extras                               9.6 kB/s | 1.5 kB     00:00
+Oct 15 11:01:44 Robert-vm2 dnf[40408]: Metadata cache created.
+Oct 15 11:01:44 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 12:01:46 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 12:01:47 Robert-vm2 dnf[40439]: Metadata cache refreshed recently.
+Oct 15 12:01:47 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 13:01:50 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 13:01:51 Robert-vm2 dnf[40465]: Metadata cache refreshed recently.
+Oct 15 13:01:51 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 13:59:22 Robert-vm2 NetworkManager[961]: <error> [1602784762.8050] dhcp4 (ens192): error -113 dispatching events
+Oct 15 13:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602784762.8052] dhcp4 (ens192): state changed bound -> fail
+Oct 15 13:59:22 Robert-vm2 NetworkManager[961]: <info>  [1602784762.8054] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8018] device (ens192): DHCPv4: grace period expired
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8019] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <warn>  [1602784852.8035] device (ens192): Activation: failed for connection 'ens192'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8044] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8048] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8059] dhcp4 (ens192): canceled DHCP transaction
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8059] dhcp4 (ens192): state changed fail -> done
+Oct 15 14:00:52 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 15 14:00:52 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8317] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8326] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8327] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8330] manager: NetworkManager state is now CONNECTING
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8332] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8336] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8339] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 15 14:00:52 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 15 14:00:52 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8427] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8427] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8427] dhcp4 (ens192): option expiry               => '1602871252'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8427] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8427] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8427] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8427] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_routers    => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8428] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8429] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8429] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8429] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8429] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8429] dhcp4 (ens192): state changed unknown -> bound
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8438] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8543] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8545] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8549] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8557] manager: NetworkManager state is now CONNECTED_SITE
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8558] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8592] device (ens192): Activation: successful, device activated.
+Oct 15 14:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602784852.8597] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 15 14:01:54 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 14:01:54 Robert-vm2 dnf[40498]: CentOS-8 - AppStream                             41 kB/s | 4.3 kB     00:00
+Oct 15 14:01:55 Robert-vm2 dnf[40498]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 15 14:01:55 Robert-vm2 dnf[40498]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Oct 15 14:01:55 Robert-vm2 dnf[40498]: Metadata cache created.
+Oct 15 14:01:55 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 15:01:57 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 15:01:58 Robert-vm2 dnf[40529]: Metadata cache refreshed recently.
+Oct 15 15:01:58 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 16:02:01 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 16:02:02 Robert-vm2 dnf[40555]: Metadata cache refreshed recently.
+Oct 15 16:02:02 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 17:02:05 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 17:02:06 Robert-vm2 dnf[40580]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 15 17:02:06 Robert-vm2 dnf[40580]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Oct 15 17:02:06 Robert-vm2 dnf[40580]: CentOS-8 - Extras                                10 kB/s | 1.5 kB     00:00
+Oct 15 17:02:06 Robert-vm2 dnf[40580]: Metadata cache created.
+Oct 15 17:02:06 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 18:02:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 18:02:08 Robert-vm2 dnf[40612]: Metadata cache refreshed recently.
+Oct 15 18:02:08 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 19:02:12 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 19:02:13 Robert-vm2 dnf[40637]: Metadata cache refreshed recently.
+Oct 15 19:02:13 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 20:02:16 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 20:02:18 Robert-vm2 dnf[40662]: CentOS-8 - AppStream                            2.8 kB/s | 4.3 kB     00:01
+Oct 15 20:02:18 Robert-vm2 dnf[40662]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 15 20:02:18 Robert-vm2 dnf[40662]: CentOS-8 - Extras                               8.9 kB/s | 1.5 kB     00:00
+Oct 15 20:02:19 Robert-vm2 dnf[40662]: Metadata cache created.
+Oct 15 20:02:19 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 21:02:20 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 21:02:20 Robert-vm2 dnf[40694]: Metadata cache refreshed recently.
+Oct 15 21:02:20 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 22:02:23 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 22:02:24 Robert-vm2 dnf[40719]: Metadata cache refreshed recently.
+Oct 15 22:02:24 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 15 23:02:27 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 15 23:02:28 Robert-vm2 dnf[40744]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 15 23:02:28 Robert-vm2 dnf[40744]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Oct 15 23:02:28 Robert-vm2 dnf[40744]: CentOS-8 - Extras                                11 kB/s | 1.5 kB     00:00
+Oct 15 23:02:28 Robert-vm2 dnf[40744]: Metadata cache created.
+Oct 15 23:02:28 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 00:00:00 Robert-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 16 00:00:00 Robert-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 16 00:02:31 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 00:02:31 Robert-vm2 dnf[40780]: Metadata cache refreshed recently.
+Oct 16 00:02:31 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 01:02:34 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 01:02:35 Robert-vm2 dnf[40808]: Metadata cache refreshed recently.
+Oct 16 01:02:35 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 01:57:28 Robert-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 16 01:57:28 Robert-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 16 02:00:52 Robert-vm2 NetworkManager[961]: <error> [1602828052.8378] dhcp4 (ens192): error -113 dispatching events
+Oct 16 02:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602828052.8381] dhcp4 (ens192): state changed bound -> fail
+Oct 16 02:00:52 Robert-vm2 NetworkManager[961]: <info>  [1602828052.8382] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.7780] device (ens192): DHCPv4: grace period expired
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.7781] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <warn>  [1602828142.7795] device (ens192): Activation: failed for connection 'ens192'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.7802] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.7806] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.7821] dhcp4 (ens192): canceled DHCP transaction
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.7821] dhcp4 (ens192): state changed fail -> done
+Oct 16 02:02:22 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 16 02:02:22 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8056] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8065] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8066] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8069] manager: NetworkManager state is now CONNECTING
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8070] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8075] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8077] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 16 02:02:22 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 16 02:02:22 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8176] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8176] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option expiry               => '1602914542'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8177] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8178] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8178] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8178] dhcp4 (ens192): option requested_routers    => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8178] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8178] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8178] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8178] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8178] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8178] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8178] dhcp4 (ens192): state changed unknown -> bound
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8188] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8274] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8276] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8281] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8288] manager: NetworkManager state is now CONNECTED_SITE
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8289] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8321] device (ens192): Activation: successful, device activated.
+Oct 16 02:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602828142.8325] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 16 02:02:38 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 02:02:39 Robert-vm2 dnf[40845]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 16 02:02:39 Robert-vm2 dnf[40845]: CentOS-8 - Base                                  23 kB/s | 3.9 kB     00:00
+Oct 16 02:02:39 Robert-vm2 dnf[40845]: CentOS-8 - Extras                               4.7 kB/s | 1.5 kB     00:00
+Oct 16 02:02:40 Robert-vm2 dnf[40845]: Metadata cache created.
+Oct 16 02:02:40 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 03:02:42 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 03:02:42 Robert-vm2 dnf[40878]: Metadata cache refreshed recently.
+Oct 16 03:02:42 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 04:02:45 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 04:02:46 Robert-vm2 dnf[40915]: Metadata cache refreshed recently.
+Oct 16 04:02:46 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 05:02:49 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 05:02:50 Robert-vm2 dnf[40940]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 16 05:02:50 Robert-vm2 dnf[40940]: CentOS-8 - Base                                  23 kB/s | 3.9 kB     00:00
+Oct 16 05:02:50 Robert-vm2 dnf[40940]: CentOS-8 - Extras                               5.1 kB/s | 1.5 kB     00:00
+Oct 16 05:02:50 Robert-vm2 dnf[40940]: Metadata cache created.
+Oct 16 05:02:51 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 06:02:53 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 06:02:53 Robert-vm2 dnf[40972]: Metadata cache refreshed recently.
+Oct 16 06:02:53 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 07:02:56 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 07:02:57 Robert-vm2 dnf[40998]: Metadata cache refreshed recently.
+Oct 16 07:02:57 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 08:02:57 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 08:02:58 Robert-vm2 dnf[41023]: CentOS-8 - AppStream                             10 kB/s | 4.3 kB     00:00
+Oct 16 08:02:59 Robert-vm2 dnf[41023]: CentOS-8 - Base                                 3.3 kB/s | 3.9 kB     00:01
+Oct 16 08:03:00 Robert-vm2 dnf[41023]: CentOS-8 - Extras                                10 kB/s | 1.5 kB     00:00
+Oct 16 08:03:00 Robert-vm2 dnf[41023]: Metadata cache created.
+Oct 16 08:03:00 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 09:03:04 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 09:03:04 Robert-vm2 dnf[41054]: Metadata cache refreshed recently.
+Oct 16 09:03:04 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 10:03:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 10:03:08 Robert-vm2 dnf[41080]: Metadata cache refreshed recently.
+Oct 16 10:03:08 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 11:03:11 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 11:03:12 Robert-vm2 dnf[41105]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Oct 16 11:03:12 Robert-vm2 dnf[41105]: CentOS-8 - Base                                  24 kB/s | 3.9 kB     00:00
+Oct 16 11:03:12 Robert-vm2 dnf[41105]: CentOS-8 - Extras                               5.4 kB/s | 1.5 kB     00:00
+Oct 16 11:03:13 Robert-vm2 dnf[41105]: Metadata cache created.
+Oct 16 11:03:13 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 12:03:15 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 12:03:15 Robert-vm2 dnf[41137]: Metadata cache refreshed recently.
+Oct 16 12:03:15 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 13:03:19 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 13:03:19 Robert-vm2 dnf[41162]: Metadata cache refreshed recently.
+Oct 16 13:03:19 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 14:02:22 Robert-vm2 NetworkManager[961]: <error> [1602871342.8154] dhcp4 (ens192): error -113 dispatching events
+Oct 16 14:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602871342.8163] dhcp4 (ens192): state changed bound -> fail
+Oct 16 14:02:22 Robert-vm2 NetworkManager[961]: <info>  [1602871342.8164] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 16 14:03:22 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 14:03:23 Robert-vm2 dnf[41187]: CentOS-8 - AppStream                            9.4 kB/s | 4.3 kB     00:00
+Oct 16 14:03:23 Robert-vm2 dnf[41187]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Oct 16 14:03:24 Robert-vm2 dnf[41187]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Oct 16 14:03:24 Robert-vm2 dnf[41187]: Metadata cache created.
+Oct 16 14:03:24 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7446] device (ens192): DHCPv4: grace period expired
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7447] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <warn>  [1602871432.7462] device (ens192): Activation: failed for connection 'ens192'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7469] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7473] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7484] dhcp4 (ens192): canceled DHCP transaction
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7484] dhcp4 (ens192): state changed fail -> done
+Oct 16 14:03:52 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 16 14:03:52 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7699] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7709] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7710] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7713] manager: NetworkManager state is now CONNECTING
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7714] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7719] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7721] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 16 14:03:52 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 16 14:03:52 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7832] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7832] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7832] dhcp4 (ens192): option expiry               => '1602957832'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7832] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7832] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7832] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7832] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_routers    => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7833] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7834] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7834] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7834] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7834] dhcp4 (ens192): state changed unknown -> bound
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7843] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7925] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7927] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7931] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7938] manager: NetworkManager state is now CONNECTED_SITE
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7939] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7970] device (ens192): Activation: successful, device activated.
+Oct 16 14:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602871432.7974] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 16 15:03:26 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 15:03:26 Robert-vm2 dnf[41227]: Metadata cache refreshed recently.
+Oct 16 15:03:26 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 16:03:29 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 16:03:30 Robert-vm2 dnf[41252]: Metadata cache refreshed recently.
+Oct 16 16:03:30 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 17:03:33 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 17:03:34 Robert-vm2 dnf[41277]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Oct 16 17:03:34 Robert-vm2 dnf[41277]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Oct 16 17:03:34 Robert-vm2 dnf[41277]: CentOS-8 - Extras                                16 kB/s | 1.5 kB     00:00
+Oct 16 17:03:34 Robert-vm2 dnf[41277]: Metadata cache created.
+Oct 16 17:03:34 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 18:03:37 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 18:03:37 Robert-vm2 dnf[41308]: Metadata cache refreshed recently.
+Oct 16 18:03:37 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 19:03:41 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 19:03:41 Robert-vm2 dnf[41334]: Metadata cache refreshed recently.
+Oct 16 19:03:41 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 20:03:44 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 20:03:45 Robert-vm2 dnf[41359]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Oct 16 20:03:45 Robert-vm2 dnf[41359]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Oct 16 20:03:46 Robert-vm2 dnf[41359]: CentOS-8 - Extras                               6.3 kB/s | 1.5 kB     00:00
+Oct 16 20:03:46 Robert-vm2 dnf[41359]: Metadata cache created.
+Oct 16 20:03:46 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 21:03:48 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 21:03:48 Robert-vm2 dnf[41391]: Metadata cache refreshed recently.
+Oct 16 21:03:48 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 22:03:52 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 22:03:52 Robert-vm2 dnf[41416]: Metadata cache refreshed recently.
+Oct 16 22:03:52 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 16 23:03:55 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 16 23:03:56 Robert-vm2 dnf[41441]: CentOS-8 - AppStream                            9.8 kB/s | 4.3 kB     00:00
+Oct 16 23:03:56 Robert-vm2 dnf[41441]: CentOS-8 - Base                                  10 kB/s | 3.9 kB     00:00
+Oct 16 23:03:57 Robert-vm2 dnf[41441]: CentOS-8 - Extras                               5.0 kB/s | 1.5 kB     00:00
+Oct 16 23:03:57 Robert-vm2 dnf[41441]: Metadata cache created.
+Oct 16 23:03:57 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 00:00:09 Robert-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 17 00:00:09 Robert-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 17 00:03:59 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 00:03:59 Robert-vm2 dnf[41476]: Metadata cache refreshed recently.
+Oct 17 00:03:59 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 01:04:03 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 01:04:03 Robert-vm2 dnf[41504]: Metadata cache refreshed recently.
+Oct 17 01:04:03 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 01:57:36 Robert-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 17 01:57:36 Robert-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 17 02:03:52 Robert-vm2 NetworkManager[961]: <error> [1602914632.7766] dhcp4 (ens192): error -113 dispatching events
+Oct 17 02:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602914632.7768] dhcp4 (ens192): state changed bound -> fail
+Oct 17 02:03:52 Robert-vm2 NetworkManager[961]: <info>  [1602914632.7769] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 17 02:04:06 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 02:04:07 Robert-vm2 dnf[41533]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 17 02:04:07 Robert-vm2 dnf[41533]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 17 02:04:07 Robert-vm2 dnf[41533]: CentOS-8 - Extras                                13 kB/s | 1.5 kB     00:00
+Oct 17 02:04:08 Robert-vm2 dnf[41533]: Metadata cache created.
+Oct 17 02:04:08 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7702] device (ens192): DHCPv4: grace period expired
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7703] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <warn>  [1602914722.7723] device (ens192): Activation: failed for connection 'ens192'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7730] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7734] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7746] dhcp4 (ens192): canceled DHCP transaction
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7747] dhcp4 (ens192): state changed fail -> done
+Oct 17 02:05:22 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 17 02:05:22 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7966] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7975] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7976] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7979] manager: NetworkManager state is now CONNECTING
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7980] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7985] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.7988] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 17 02:05:22 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 17 02:05:22 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8083] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8084] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8084] dhcp4 (ens192): option expiry               => '1603001122'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8084] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8084] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8084] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8084] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8084] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8084] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8084] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_routers    => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8085] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8086] dhcp4 (ens192): state changed unknown -> bound
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8095] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8176] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8178] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8182] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8190] manager: NetworkManager state is now CONNECTED_SITE
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8191] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8222] device (ens192): Activation: successful, device activated.
+Oct 17 02:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602914722.8227] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 17 03:04:10 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 03:04:10 Robert-vm2 dnf[41574]: Metadata cache refreshed recently.
+Oct 17 03:04:10 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 04:04:14 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 04:04:14 Robert-vm2 dnf[41609]: Metadata cache refreshed recently.
+Oct 17 04:04:14 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 05:04:17 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 05:04:18 Robert-vm2 dnf[41634]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Oct 17 05:04:18 Robert-vm2 dnf[41634]: CentOS-8 - Base                                  30 kB/s | 3.9 kB     00:00
+Oct 17 05:04:18 Robert-vm2 dnf[41634]: CentOS-8 - Extras                               8.2 kB/s | 1.5 kB     00:00
+Oct 17 05:04:19 Robert-vm2 dnf[41634]: Metadata cache created.
+Oct 17 05:04:19 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 06:04:21 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 06:04:21 Robert-vm2 dnf[41665]: Metadata cache refreshed recently.
+Oct 17 06:04:21 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 07:04:25 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 07:04:25 Robert-vm2 dnf[41690]: Metadata cache refreshed recently.
+Oct 17 07:04:25 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 08:04:28 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 08:04:29 Robert-vm2 dnf[41716]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 17 08:04:30 Robert-vm2 dnf[41716]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 17 08:04:30 Robert-vm2 dnf[41716]: CentOS-8 - Extras                               7.5 kB/s | 1.5 kB     00:00
+Oct 17 08:04:30 Robert-vm2 dnf[41716]: Metadata cache created.
+Oct 17 08:04:30 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 09:04:32 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 09:04:33 Robert-vm2 dnf[41747]: Metadata cache refreshed recently.
+Oct 17 09:04:33 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 10:04:36 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 10:04:36 Robert-vm2 dnf[41773]: Metadata cache refreshed recently.
+Oct 17 10:04:36 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 11:04:40 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 11:04:41 Robert-vm2 dnf[41798]: CentOS-8 - AppStream                            7.1 kB/s | 4.3 kB     00:00
+Oct 17 11:04:41 Robert-vm2 dnf[41798]: CentOS-8 - Base                                  35 kB/s | 3.9 kB     00:00
+Oct 17 11:04:41 Robert-vm2 dnf[41798]: CentOS-8 - Extras                               4.5 kB/s | 1.5 kB     00:00
+Oct 17 11:04:41 Robert-vm2 dnf[41798]: Metadata cache created.
+Oct 17 11:04:41 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 12:04:43 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 12:04:44 Robert-vm2 dnf[41829]: Metadata cache refreshed recently.
+Oct 17 12:04:44 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 13:04:47 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 13:04:47 Robert-vm2 dnf[41854]: Metadata cache refreshed recently.
+Oct 17 13:04:47 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 14:04:51 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 14:04:51 Robert-vm2 dnf[41880]: CentOS-8 - AppStream                             43 kB/s | 4.3 kB     00:00
+Oct 17 14:04:51 Robert-vm2 dnf[41880]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Oct 17 14:04:52 Robert-vm2 dnf[41880]: CentOS-8 - Extras                               9.1 kB/s | 1.5 kB     00:00
+Oct 17 14:04:52 Robert-vm2 dnf[41880]: Metadata cache created.
+Oct 17 14:04:52 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 14:05:22 Robert-vm2 NetworkManager[961]: <error> [1602957922.8051] dhcp4 (ens192): error -113 dispatching events
+Oct 17 14:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602957922.8056] dhcp4 (ens192): state changed bound -> fail
+Oct 17 14:05:22 Robert-vm2 NetworkManager[961]: <info>  [1602957922.8058] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7401] device (ens192): DHCPv4: grace period expired
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7402] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <warn>  [1602958012.7417] device (ens192): Activation: failed for connection 'ens192'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7424] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7428] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7451] dhcp4 (ens192): canceled DHCP transaction
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7452] dhcp4 (ens192): state changed fail -> done
+Oct 17 14:06:52 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 17 14:06:52 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7689] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7698] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7699] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7702] manager: NetworkManager state is now CONNECTING
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7704] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7709] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7711] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 17 14:06:52 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 17 14:06:52 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7802] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option expiry               => '1603044412'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7803] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): option requested_routers    => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7804] dhcp4 (ens192): state changed unknown -> bound
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7814] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7906] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7908] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7912] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7920] manager: NetworkManager state is now CONNECTED_SITE
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7921] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7952] device (ens192): Activation: successful, device activated.
+Oct 17 14:06:52 Robert-vm2 NetworkManager[961]: <info>  [1602958012.7956] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 17 15:04:54 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 15:04:55 Robert-vm2 dnf[41919]: Metadata cache refreshed recently.
+Oct 17 15:04:55 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 16:04:58 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 16:04:58 Robert-vm2 dnf[41944]: Metadata cache refreshed recently.
+Oct 17 16:04:58 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 17:05:02 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 17:05:03 Robert-vm2 dnf[41970]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Oct 17 17:05:03 Robert-vm2 dnf[41970]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Oct 17 17:05:03 Robert-vm2 dnf[41970]: CentOS-8 - Extras                                13 kB/s | 1.5 kB     00:00
+Oct 17 17:05:03 Robert-vm2 dnf[41970]: Metadata cache created.
+Oct 17 17:05:03 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 18:05:05 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 18:05:06 Robert-vm2 dnf[42001]: Metadata cache refreshed recently.
+Oct 17 18:05:06 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 19:05:07 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 19:05:08 Robert-vm2 dnf[42026]: Metadata cache refreshed recently.
+Oct 17 19:05:08 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 20:05:13 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 20:05:13 Robert-vm2 dnf[42051]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Oct 17 20:05:14 Robert-vm2 dnf[42051]: CentOS-8 - Base                                  22 kB/s | 3.9 kB     00:00
+Oct 17 20:05:14 Robert-vm2 dnf[42051]: CentOS-8 - Extras                               7.5 kB/s | 1.5 kB     00:00
+Oct 17 20:05:14 Robert-vm2 dnf[42051]: Metadata cache created.
+Oct 17 20:05:14 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 21:05:16 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 21:05:17 Robert-vm2 dnf[42083]: Metadata cache refreshed recently.
+Oct 17 21:05:17 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 22:05:20 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 22:05:20 Robert-vm2 dnf[42108]: Metadata cache refreshed recently.
+Oct 17 22:05:21 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 17 23:05:24 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 17 23:05:24 Robert-vm2 dnf[42134]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Oct 17 23:05:25 Robert-vm2 dnf[42134]: CentOS-8 - Base                                 7.4 kB/s | 3.9 kB     00:00
+Oct 17 23:05:26 Robert-vm2 dnf[42134]: CentOS-8 - Extras                               2.9 kB/s | 1.5 kB     00:00
+Oct 17 23:05:26 Robert-vm2 dnf[42134]: Metadata cache created.
+Oct 17 23:05:26 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 18 00:00:07 Robert-vm2 systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Oct 18 00:00:07 Robert-vm2 systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Oct 18 00:05:28 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 18 00:05:28 Robert-vm2 dnf[42169]: Metadata cache refreshed recently.
+Oct 18 00:05:28 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 18 01:05:31 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 18 01:05:32 Robert-vm2 dnf[42196]: Metadata cache refreshed recently.
+Oct 18 01:05:32 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 18 01:57:44 Robert-vm2 systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 18 01:57:44 Robert-vm2 systemd[1]: Started Cleanup of Temporary Directories.
+Oct 18 02:05:35 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 18 02:05:36 Robert-vm2 dnf[42225]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Oct 18 02:05:36 Robert-vm2 dnf[42225]: CentOS-8 - Base                                  31 kB/s | 3.9 kB     00:00
+Oct 18 02:05:36 Robert-vm2 dnf[42225]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Oct 18 02:05:36 Robert-vm2 dnf[42225]: Metadata cache created.
+Oct 18 02:05:36 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 18 02:06:52 Robert-vm2 NetworkManager[961]: <error> [1603001212.7777] dhcp4 (ens192): error -113 dispatching events
+Oct 18 02:06:52 Robert-vm2 NetworkManager[961]: <info>  [1603001212.7783] dhcp4 (ens192): state changed bound -> fail
+Oct 18 02:06:52 Robert-vm2 NetworkManager[961]: <info>  [1603001212.7784] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.7920] device (ens192): DHCPv4: grace period expired
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.7921] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <warn>  [1603001302.7937] device (ens192): Activation: failed for connection 'ens192'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.7944] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.7948] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.7961] dhcp4 (ens192): canceled DHCP transaction
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.7961] dhcp4 (ens192): state changed fail -> done
+Oct 18 02:08:22 Robert-vm2 dbus-daemon[960]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=961 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Oct 18 02:08:22 Robert-vm2 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8199] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8209] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8210] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8213] manager: NetworkManager state is now CONNECTING
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8214] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8219] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8222] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Oct 18 02:08:22 Robert-vm2 dbus-daemon[960]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 18 02:08:22 Robert-vm2 systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8325] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8325] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8325] dhcp4 (ens192): option expiry               => '1603087702'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8325] dhcp4 (ens192): option ip_address           => '172.16.13.2'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8325] dhcp4 (ens192): option requested_broadcast_address => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8325] dhcp4 (ens192): option requested_domain_name => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8325] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8325] dhcp4 (ens192): option requested_domain_search => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8325] dhcp4 (ens192): option requested_host_name  => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8325] dhcp4 (ens192): option requested_interface_mtu => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_nis_domain => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_nis_servers => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_ntp_servers => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_root_path  => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_routers    => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_static_routes => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_subnet_mask => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_time_offset => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option requested_wpad       => '1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8326] dhcp4 (ens192): option routers              => '172.16.255.1'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8327] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8327] dhcp4 (ens192): state changed unknown -> bound
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8336] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8422] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8424] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8428] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8436] manager: NetworkManager state is now CONNECTED_SITE
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8437] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8485] device (ens192): Activation: successful, device activated.
+Oct 18 02:08:22 Robert-vm2 NetworkManager[961]: <info>  [1603001302.8490] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 18 03:05:39 Robert-vm2 systemd[1]: Starting dnf makecache...
+Oct 18 03:05:39 Robert-vm2 dnf[42267]: Metadata cache refreshed recently.
+Oct 18 03:05:39 Robert-vm2 systemd[1]: Started dnf makecache.
+Oct 18 03:23:01 Robert-vm2 systemd[1]: Reloading The Apache HTTP Server.

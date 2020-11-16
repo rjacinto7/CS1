@@ -1,0 +1,71 @@
+Nov  3 13:24:58 localhost sudo[19410]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/ls /var/named
+Nov  3 13:24:58 localhost sudo[19410]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  3 13:24:58 localhost sudo[19410]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  3 13:24:58 localhost sudo[19410]: pam_unix(sudo:session): session closed for user root
+Nov  3 13:25:25 localhost sudo[19413]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/nano /var/named/root.zone
+Nov  3 13:25:25 localhost sudo[19413]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  3 13:25:25 localhost sudo[19413]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  3 13:25:26 localhost sudo[19413]: pam_unix(sudo:session): session closed for user root
+Nov  3 13:30:36 localhost sudo[19417]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/systemctl start named
+Nov  3 13:30:36 localhost sudo[19417]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  3 13:30:36 localhost sudo[19417]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  3 13:30:36 localhost sudo[19417]: pam_unix(sudo:session): session closed for user root
+Nov  3 13:30:53 localhost sudo[19438]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/systemctl restart named
+Nov  3 13:30:53 localhost sudo[19438]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  3 13:30:53 localhost sudo[19438]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  3 13:30:53 localhost sudo[19438]: pam_unix(sudo:session): session closed for user root
+Nov  3 13:31:58 localhost sudo[19455]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/systemctl start named.service
+Nov  3 13:31:58 localhost sudo[19455]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  3 13:31:58 localhost sudo[19455]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  3 13:31:58 localhost sudo[19455]: pam_unix(sudo:session): session closed for user root
+Nov  3 16:04:55 localhost sshd[19548]: Accepted publickey for student from 192.168.12.1 port 48562 ssh2: RSA SHA256:Uy/XTKOXqkfBERuJKUxINKFBIhJ9G7iEWe+tAKt6CVc
+Nov  3 16:04:55 localhost sshd[19548]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Nov  3 16:04:55 localhost sshd[19551]: Received disconnect from 192.168.12.1 port 48562:11: disconnected by user
+Nov  3 16:04:55 localhost sshd[19551]: Disconnected from user student 192.168.12.1 port 48562
+Nov  3 16:04:55 localhost sshd[19548]: pam_unix(sshd:session): session closed for user student
+Nov  6 23:31:32 localhost sshd[21828]: Accepted publickey for instructor from 172.16.0.1 port 49272 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  6 23:31:32 localhost systemd[21832]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  6 23:31:32 localhost sshd[21828]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  6 23:31:32 localhost sshd[21842]: Received disconnect from 172.16.0.1 port 49272:11: disconnected by user
+Nov  6 23:31:32 localhost sshd[21842]: Disconnected from user instructor 172.16.0.1 port 49272
+Nov  6 23:31:32 localhost sshd[21828]: pam_unix(sshd:session): session closed for user instructor
+Nov  6 23:31:32 localhost systemd[21836]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:01:13 localhost sshd[21888]: Accepted publickey for instructor from 172.16.0.1 port 49542 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:01:13 localhost systemd[21892]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:01:13 localhost sshd[21888]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:01:13 localhost sshd[21902]: Received disconnect from 172.16.0.1 port 49542:11: disconnected by user
+Nov  7 00:01:13 localhost sshd[21902]: Disconnected from user instructor 172.16.0.1 port 49542
+Nov  7 00:01:13 localhost sshd[21888]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:01:13 localhost systemd[21896]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:47:34 localhost sshd[21939]: Accepted publickey for instructor from 172.16.0.1 port 49724 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:47:34 localhost systemd[21943]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:47:34 localhost sshd[21939]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:47:34 localhost sshd[21953]: Received disconnect from 172.16.0.1 port 49724:11: disconnected by user
+Nov  7 00:47:34 localhost sshd[21953]: Disconnected from user instructor 172.16.0.1 port 49724
+Nov  7 00:47:34 localhost sshd[21939]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:47:35 localhost systemd[21947]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 00:59:06 localhost sshd[21989]: Accepted publickey for instructor from 172.16.0.1 port 49964 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 00:59:07 localhost systemd[21993]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 00:59:07 localhost sshd[21989]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 00:59:07 localhost sshd[22003]: Received disconnect from 172.16.0.1 port 49964:11: disconnected by user
+Nov  7 00:59:07 localhost sshd[22003]: Disconnected from user instructor 172.16.0.1 port 49964
+Nov  7 00:59:07 localhost sshd[21989]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 00:59:07 localhost systemd[21997]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 01:47:15 localhost sshd[22047]: Accepted publickey for instructor from 172.16.0.1 port 50134 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 01:47:15 localhost systemd[22051]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 01:47:16 localhost sshd[22047]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 01:47:16 localhost sudo[22061]: instructor : TTY=unknown ; PWD=/home/instructor ; USER=root ; COMMAND=/sbin/iptables -L -n -v
+Nov  7 01:47:16 localhost sudo[22061]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  7 01:47:16 localhost sudo[22061]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  7 01:47:16 localhost sudo[22061]: pam_unix(sudo:session): session closed for user root
+Nov  7 01:47:16 localhost sshd[22060]: Received disconnect from 172.16.0.1 port 50134:11: disconnected by user
+Nov  7 01:47:16 localhost sshd[22060]: Disconnected from user instructor 172.16.0.1 port 50134
+Nov  7 01:47:16 localhost sshd[22047]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 01:47:16 localhost systemd[22054]: pam_unix(systemd-user:session): session closed for user instructor
+Nov  7 22:32:50 localhost sshd[22674]: Accepted publickey for instructor from 172.16.0.1 port 50774 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov  7 22:32:50 localhost systemd[22678]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov  7 22:32:50 localhost sshd[22674]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov  7 22:32:50 localhost sshd[22688]: Received disconnect from 172.16.0.1 port 50774:11: disconnected by user
+Nov  7 22:32:50 localhost sshd[22688]: Disconnected from user instructor 172.16.0.1 port 50774
+Nov  7 22:32:50 localhost sshd[22674]: pam_unix(sshd:session): session closed for user instructor
+Nov  7 22:32:50 localhost systemd[22682]: pam_unix(systemd-user:session): session closed for user instructor

@@ -1,0 +1,18 @@
+;$ORIGIN 12.168.192.in-addr.arpa.
+$TTL 1D
+; SOA records
+@	IN	SOA zhonderich-pri.zhonderich.com. root.zhonderich.com. (
+	0	; serial
+	3H	; refresh
+	30m	; retry
+	3w	; expire
+	1h	; minimum
+)
+@	IN	NS	zhonderich-pri.zhonderich.com.
+@	IN	PTR	zhonderich-pri.zhonderich.com.
+
+; PTR records
+80	IN	PTR	www.zhonderich.com.
+53	IN	PTR	zhonderich-pri.zhonderich.com.
+253	IN	PTR	zhonderich-rns.zhonderich.com.
+25	IN	PTR	mail.zhonderich.com.

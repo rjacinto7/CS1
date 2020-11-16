@@ -1,0 +1,270 @@
+Nov  8 15:50:23 rjacinto1-web sudo[19517]: student : TTY=tty1 ; PWD=/home/student/rjacinto1/lab4 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Nov  8 15:50:23 rjacinto1-web sudo[19517]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 15:50:23 rjacinto1-web sudo[19517]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  8 15:50:24 rjacinto1-web sudo[19517]: pam_unix(sudo:session): session closed for user root
+Nov  8 15:55:09 rjacinto1-web sudo[19526]: student : TTY=tty1 ; PWD=/home/student/rjacinto1/lab4 ; USER=root ; COMMAND=/bin/su
+Nov  8 15:55:09 rjacinto1-web sudo[19526]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 15:55:09 rjacinto1-web sudo[19526]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  8 15:55:09 rjacinto1-web su[19528]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 15:55:09 rjacinto1-web su[19528]: pam_unix(su:session): session opened for user root by student(uid=0)
+Nov  8 17:32:29 rjacinto1-web sudo[19743]: student : TTY=tty1 ; PWD=/home/student/rjacinto1/lab4 ; USER=root ; COMMAND=/sbin/ifdown ens224
+Nov  8 17:32:29 rjacinto1-web sudo[19743]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:32:29 rjacinto1-web sudo[19743]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  8 17:32:29 rjacinto1-web sudo[19743]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:32:56 rjacinto1-web sudo[19754]: student : TTY=tty1 ; PWD=/home/student/rjacinto1/lab4 ; USER=root ; COMMAND=/sbin/ifdown ens224
+Nov  8 17:32:56 rjacinto1-web sudo[19754]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:32:56 rjacinto1-web sudo[19754]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  8 17:32:56 rjacinto1-web sudo[19754]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:25:33 rjacinto1-web polkitd[976]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  8 22:25:33 rjacinto1-web polkitd[976]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  8 22:25:33 rjacinto1-web polkitd[976]: Finished loading, compiling and executing 2 rules
+Nov  8 22:25:33 rjacinto1-web polkitd[976]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  8 22:25:38 rjacinto1-web sshd[1016]: Server listening on 0.0.0.0 port 22.
+Nov  8 22:25:38 rjacinto1-web sshd[1016]: Server listening on :: port 22.
+Nov  8 22:25:47 rjacinto1-web systemd[1559]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Nov  8 22:25:47 rjacinto1-web login[1134]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Nov  8 22:25:47 rjacinto1-web login[1134]: LOGIN ON tty1 BY student
+Nov  8 22:25:57 rjacinto1-web sudo[1598]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Nov  8 22:25:57 rjacinto1-web sudo[1598]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:25:57 rjacinto1-web sudo[1598]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov  8 22:25:57 rjacinto1-web su[1602]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:25:57 rjacinto1-web su[1602]: pam_unix(su:session): session opened for user root by student(uid=0)
+Nov  8 23:24:32 rjacinto1-web su[2252]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:24:32 rjacinto1-web su[2252]: pam_unix(su:session): session opened for user rjacinto1 by student(uid=0)
+Nov 10 15:06:01 rjacinto1-web sshd[3434]: Accepted publickey for instructor from 172.16.0.1 port 54508 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 10 15:06:01 rjacinto1-web systemd[3438]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:01 rjacinto1-web sshd[3434]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:01 rjacinto1-web sshd[3447]: Received disconnect from 172.16.0.1 port 54508:11: disconnected by user
+Nov 10 15:06:01 rjacinto1-web sshd[3447]: Disconnected from user instructor 172.16.0.1 port 54508
+Nov 10 15:06:01 rjacinto1-web sshd[3434]: pam_unix(sshd:session): session closed for user instructor
+Nov 10 15:06:01 rjacinto1-web systemd[3441]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 11 20:06:03 rjacinto1-web sshd[4289]: Accepted publickey for instructor from 172.16.0.1 port 55030 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 11 20:06:03 rjacinto1-web systemd[4293]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:03 rjacinto1-web sshd[4289]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:03 rjacinto1-web sshd[4303]: Received disconnect from 172.16.0.1 port 55030:11: disconnected by user
+Nov 11 20:06:03 rjacinto1-web sshd[4303]: Disconnected from user instructor 172.16.0.1 port 55030
+Nov 11 20:06:03 rjacinto1-web sshd[4289]: pam_unix(sshd:session): session closed for user instructor
+Nov 11 20:06:03 rjacinto1-web systemd[4297]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 12 19:19:46 rjacinto1-web sudo[5001]: rjacinto1 : user NOT in sudoers ; TTY=tty1 ; PWD=/home/student/rjacinto1/lab5 ; USER=root ; COMMAND=/bin/su
+Nov 12 19:19:52 rjacinto1-web unix_chkpwd[5007]: password check failed for user (student)
+Nov 12 19:19:52 rjacinto1-web su[5005]: pam_unix(su:auth): authentication failure; logname=student uid=1002 euid=0 tty=tty1 ruser=student rhost=  user=student
+Nov 12 19:20:05 rjacinto1-web su[5008]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 12 19:20:05 rjacinto1-web su[5008]: pam_unix(su:session): session opened for user student by student(uid=1002)
+Nov 12 19:20:13 rjacinto1-web sudo[5034]: student : TTY=tty1 ; PWD=/home/student/rjacinto1/lab5 ; USER=root ; COMMAND=/bin/su
+Nov 12 19:20:13 rjacinto1-web sudo[5034]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 12 19:20:13 rjacinto1-web sudo[5034]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 12 19:20:13 rjacinto1-web su[5038]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 12 19:20:13 rjacinto1-web su[5038]: pam_unix(su:session): session opened for user root by student(uid=0)
+Nov 13 01:05:13 rjacinto1-web sshd[5354]: Accepted publickey for instructor from 172.16.0.1 port 55478 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:05:13 rjacinto1-web systemd[5358]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:13 rjacinto1-web sshd[5354]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:13 rjacinto1-web sshd[5367]: Received disconnect from 172.16.0.1 port 55478:11: disconnected by user
+Nov 13 01:05:13 rjacinto1-web sshd[5367]: Disconnected from user instructor 172.16.0.1 port 55478
+Nov 13 01:05:13 rjacinto1-web sshd[5354]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:05:13 rjacinto1-web systemd[5361]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:10:02 rjacinto1-web sshd[5391]: Accepted publickey for instructor from 172.16.0.1 port 55728 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:10:02 rjacinto1-web systemd[5395]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:10:02 rjacinto1-web sshd[5391]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:10:02 rjacinto1-web sshd[5404]: Received disconnect from 172.16.0.1 port 55728:11: disconnected by user
+Nov 13 01:10:02 rjacinto1-web sshd[5404]: Disconnected from user instructor 172.16.0.1 port 55728
+Nov 13 01:10:02 rjacinto1-web sshd[5391]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:10:02 rjacinto1-web systemd[5398]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 14 19:26:16 rjacinto1-web su[6856]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 19:26:16 rjacinto1-web su[6856]: pam_unix(su:session): session opened for user rjacinto1 by student(uid=0)
+Nov 14 19:27:03 rjacinto1-web polkitd[976]: Registered Authentication Agent for unix-process:6880:50769852 (system bus name :1.362 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Nov 14 19:27:09 rjacinto1-web polkitd[976]: Operator of unix-process:6880:50769852 successfully authenticated as unix-user:student to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.363 [systemctl stop iptables] (owned by unix-user:rjacinto1)
+Nov 14 19:27:09 rjacinto1-web polkitd[976]: Unregistered Authentication Agent for unix-process:6880:50769852 (system bus name :1.362, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Nov 14 22:11:27 rjacinto1-web sudo[7118]: rjacinto1 : user NOT in sudoers ; TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/cat /var/named/named.seneca
+Nov 14 22:11:34 rjacinto1-web su[7122]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:11:34 rjacinto1-web su[7122]: pam_unix(su:session): session opened for user student by student(uid=1002)
+Nov 14 22:11:49 rjacinto1-web sudo[7149]: student : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/sbin/usermod -aG wheel rjacinto1
+Nov 14 22:11:49 rjacinto1-web sudo[7149]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:11:49 rjacinto1-web sudo[7149]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:11:49 rjacinto1-web usermod[7153]: add 'rjacinto1' to group 'wheel'
+Nov 14 22:11:49 rjacinto1-web usermod[7153]: add 'rjacinto1' to shadow group 'wheel'
+Nov 14 22:11:49 rjacinto1-web sudo[7149]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:11:55 rjacinto1-web su[7160]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:11:55 rjacinto1-web su[7160]: pam_unix(su:session): session opened for user rjacinto1 by student(uid=1000)
+Nov 14 22:12:00 rjacinto1-web sudo[7186]: rjacinto1 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/ls
+Nov 14 22:12:00 rjacinto1-web sudo[7186]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:12:00 rjacinto1-web sudo[7186]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:12:00 rjacinto1-web sudo[7186]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:12:18 rjacinto1-web sudo[7192]: rjacinto1 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/cat /var/named/named.seneca
+Nov 14 22:12:18 rjacinto1-web sudo[7192]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:12:18 rjacinto1-web sudo[7192]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:12:18 rjacinto1-web sudo[7192]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:12:48 rjacinto1-web sudo[7196]: rjacinto1 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/chown rjacinto1:rjacinto1 /var/named/named.seneca
+Nov 14 22:12:48 rjacinto1-web sudo[7196]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:12:48 rjacinto1-web sudo[7196]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:12:48 rjacinto1-web sudo[7196]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:12:52 rjacinto1-web polkitd[976]: Registered Authentication Agent for unix-process:7199:51764807 (system bus name :1.389 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8)
+Nov 14 22:12:56 rjacinto1-web polkitd[976]: Operator of unix-process:7199:51764807 successfully authenticated as unix-user:student to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.390 [systemctl restart named] (owned by unix-user:rjacinto1)
+Nov 14 22:12:56 rjacinto1-web polkitd[976]: Unregistered Authentication Agent for unix-process:7199:51764807 (system bus name :1.389, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_CA.UTF-8) (disconnected from bus)
+Nov 14 22:18:16 rjacinto1-web sudo[7252]: rjacinto1 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/cat /var/named/named.seneca
+Nov 14 22:18:16 rjacinto1-web sudo[7252]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:18:16 rjacinto1-web sudo[7252]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:18:16 rjacinto1-web sudo[7252]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:59:38 rjacinto1-web sudo[7278]: rjacinto1 : TTY=tty1 ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/su
+Nov 14 22:59:38 rjacinto1-web sudo[7278]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:59:38 rjacinto1-web sudo[7278]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Nov 14 22:59:38 rjacinto1-web su[7282]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:59:38 rjacinto1-web su[7282]: pam_unix(su:session): session opened for user root by student(uid=0)
+Nov 14 23:19:01 rjacinto1-web systemd[18611]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:20:01 rjacinto1-web systemd[18670]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:21:01 rjacinto1-web systemd[18726]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:22:01 rjacinto1-web systemd[18779]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:23:02 rjacinto1-web systemd[18832]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:24:01 rjacinto1-web systemd[18885]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:25:01 rjacinto1-web systemd[18938]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:26:01 rjacinto1-web systemd[18992]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:27:01 rjacinto1-web systemd[19046]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:28:01 rjacinto1-web systemd[19099]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:29:01 rjacinto1-web systemd[19152]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:30:01 rjacinto1-web systemd[19206]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:31:02 rjacinto1-web systemd[19260]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:32:01 rjacinto1-web systemd[19313]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:33:01 rjacinto1-web systemd[19366]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:34:01 rjacinto1-web systemd[19419]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:35:01 rjacinto1-web systemd[19472]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:36:02 rjacinto1-web systemd[19525]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:37:01 rjacinto1-web systemd[19579]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:38:01 rjacinto1-web systemd[19632]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:39:01 rjacinto1-web systemd[19685]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:40:01 rjacinto1-web systemd[19738]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:41:01 rjacinto1-web systemd[19791]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:42:02 rjacinto1-web systemd[19844]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:43:02 rjacinto1-web systemd[19898]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:44:01 rjacinto1-web systemd[19952]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:45:01 rjacinto1-web systemd[20005]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:46:01 rjacinto1-web systemd[20058]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:47:01 rjacinto1-web systemd[20111]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:48:01 rjacinto1-web systemd[20164]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:49:01 rjacinto1-web systemd[20217]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:50:02 rjacinto1-web systemd[20270]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:51:02 rjacinto1-web systemd[20323]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:52:01 rjacinto1-web systemd[20376]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:53:01 rjacinto1-web systemd[20429]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:54:02 rjacinto1-web systemd[20483]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:55:01 rjacinto1-web systemd[20536]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:56:02 rjacinto1-web systemd[20591]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:57:01 rjacinto1-web systemd[20644]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:58:02 rjacinto1-web systemd[20697]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:59:01 rjacinto1-web systemd[20750]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:00:02 rjacinto1-web systemd[20804]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:01:02 rjacinto1-web systemd[20861]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:02:02 rjacinto1-web systemd[20925]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:03:02 rjacinto1-web systemd[20978]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:04:01 rjacinto1-web systemd[21031]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:05:01 rjacinto1-web systemd[21085]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:06:01 rjacinto1-web systemd[21138]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:07:01 rjacinto1-web systemd[21191]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:08:01 rjacinto1-web systemd[21244]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:09:01 rjacinto1-web systemd[21297]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:10:01 rjacinto1-web systemd[21350]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:11:02 rjacinto1-web systemd[21403]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:12:01 rjacinto1-web systemd[21456]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:13:01 rjacinto1-web systemd[21509]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:14:01 rjacinto1-web systemd[21563]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:15:01 rjacinto1-web systemd[21616]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:16:02 rjacinto1-web systemd[21669]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:17:02 rjacinto1-web systemd[21727]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:18:01 rjacinto1-web systemd[21780]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:19:01 rjacinto1-web systemd[21833]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:20:02 rjacinto1-web systemd[21886]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:21:01 rjacinto1-web systemd[21940]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:22:01 rjacinto1-web systemd[21993]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:23:01 rjacinto1-web systemd[22046]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:24:01 rjacinto1-web systemd[22099]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:25:01 rjacinto1-web systemd[22152]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:26:01 rjacinto1-web systemd[22206]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:27:01 rjacinto1-web systemd[22260]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:28:01 rjacinto1-web systemd[22313]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:29:01 rjacinto1-web systemd[22366]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:30:01 rjacinto1-web systemd[22419]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:31:02 rjacinto1-web systemd[22472]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:32:01 rjacinto1-web systemd[22525]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:33:01 rjacinto1-web systemd[22579]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:34:01 rjacinto1-web systemd[22632]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:35:01 rjacinto1-web systemd[22685]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:36:01 rjacinto1-web systemd[22738]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:37:01 rjacinto1-web systemd[22791]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:38:01 rjacinto1-web systemd[22844]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:39:01 rjacinto1-web systemd[22898]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:40:02 rjacinto1-web systemd[22951]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:41:01 rjacinto1-web systemd[23004]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:42:01 rjacinto1-web systemd[23057]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:43:01 rjacinto1-web systemd[23110]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:44:01 rjacinto1-web systemd[23163]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:45:02 rjacinto1-web systemd[23217]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:46:01 rjacinto1-web systemd[23271]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:47:01 rjacinto1-web systemd[23324]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:48:02 rjacinto1-web systemd[23377]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:49:01 rjacinto1-web systemd[23430]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:50:01 rjacinto1-web systemd[23483]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:51:02 rjacinto1-web systemd[23536]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:52:01 rjacinto1-web systemd[23589]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:53:01 rjacinto1-web systemd[23643]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:54:01 rjacinto1-web systemd[23696]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:55:01 rjacinto1-web systemd[23750]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:56:01 rjacinto1-web systemd[23804]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:57:02 rjacinto1-web systemd[23857]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:58:01 rjacinto1-web systemd[23910]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 00:59:01 rjacinto1-web systemd[23963]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:00:01 rjacinto1-web systemd[24016]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:01:01 rjacinto1-web systemd[24073]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:02:02 rjacinto1-web systemd[24136]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:03:01 rjacinto1-web systemd[24189]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:04:02 rjacinto1-web systemd[24242]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:05:01 rjacinto1-web systemd[24295]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:06:01 rjacinto1-web systemd[24348]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:07:01 rjacinto1-web systemd[24402]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:08:01 rjacinto1-web systemd[24455]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:09:01 rjacinto1-web systemd[24508]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:10:01 rjacinto1-web systemd[24561]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:11:02 rjacinto1-web systemd[24614]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:12:01 rjacinto1-web systemd[24667]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:13:01 rjacinto1-web systemd[24721]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:14:02 rjacinto1-web systemd[24775]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:15:01 rjacinto1-web systemd[24828]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:16:01 rjacinto1-web systemd[24881]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:17:01 rjacinto1-web systemd[24943]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:18:01 rjacinto1-web systemd[24996]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:19:01 rjacinto1-web systemd[25049]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:20:02 rjacinto1-web systemd[25103]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:21:01 rjacinto1-web systemd[25156]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:22:01 rjacinto1-web systemd[25209]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:23:01 rjacinto1-web systemd[25262]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:24:01 rjacinto1-web systemd[25315]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:25:02 rjacinto1-web systemd[25368]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:26:01 rjacinto1-web systemd[25423]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:27:01 rjacinto1-web systemd[25476]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:28:01 rjacinto1-web systemd[25529]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:29:02 rjacinto1-web systemd[25582]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:30:01 rjacinto1-web systemd[25635]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:31:02 rjacinto1-web systemd[25688]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:32:01 rjacinto1-web systemd[25742]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:33:01 rjacinto1-web systemd[25795]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:34:01 rjacinto1-web systemd[25848]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:35:01 rjacinto1-web systemd[25901]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:36:01 rjacinto1-web systemd[25955]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:37:01 rjacinto1-web systemd[26008]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:38:01 rjacinto1-web systemd[26061]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:39:01 rjacinto1-web systemd[26114]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:40:02 rjacinto1-web systemd[26167]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:41:01 rjacinto1-web systemd[26220]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:42:02 rjacinto1-web systemd[26274]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:43:01 rjacinto1-web systemd[26327]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:44:01 rjacinto1-web systemd[26380]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:45:01 rjacinto1-web systemd[26433]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:46:01 rjacinto1-web systemd[26486]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:47:02 rjacinto1-web systemd[26539]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:48:02 rjacinto1-web systemd[26593]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:49:02 rjacinto1-web systemd[26646]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:50:01 rjacinto1-web systemd[26699]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:51:01 rjacinto1-web systemd[26752]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:52:02 rjacinto1-web systemd[26805]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:53:01 rjacinto1-web systemd[26858]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:54:02 rjacinto1-web systemd[26911]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:55:01 rjacinto1-web systemd[26964]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:56:01 rjacinto1-web systemd[27019]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 15 01:57:01 rjacinto1-web systemd[27072]: pam_unix(systemd-user:session): session opened for user root by (uid=0)

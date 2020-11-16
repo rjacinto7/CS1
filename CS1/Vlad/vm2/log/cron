@@ -1,0 +1,1090 @@
+Nov  8 03:51:01 vkim11-web anacron[16139]: Job `cron.daily' started
+Nov  8 03:51:01 vkim11-web run-parts[16155]: (/etc/cron.daily) starting logrotate
+Nov  8 03:51:01 vkim11-web run-parts[16155]: (/etc/cron.daily) finished logrotate
+Nov  8 03:51:01 vkim11-web anacron[16139]: Job `cron.daily' terminated
+Nov  8 03:51:01 vkim11-web anacron[16139]: Normal exit (1 job run)
+Nov  8 04:01:01 vkim11-web CROND[16405]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 04:01:01 vkim11-web run-parts[16405]: (/etc/cron.hourly) starting 0anacron
+Nov  8 04:01:01 vkim11-web run-parts[16405]: (/etc/cron.hourly) finished 0anacron
+Nov  8 05:01:01 vkim11-web CROND[16442]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 05:01:01 vkim11-web run-parts[16442]: (/etc/cron.hourly) starting 0anacron
+Nov  8 05:01:01 vkim11-web run-parts[16442]: (/etc/cron.hourly) finished 0anacron
+Nov  8 06:01:01 vkim11-web CROND[16468]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 06:01:01 vkim11-web run-parts[16468]: (/etc/cron.hourly) starting 0anacron
+Nov  8 06:01:01 vkim11-web run-parts[16468]: (/etc/cron.hourly) finished 0anacron
+Nov  8 07:01:01 vkim11-web CROND[16494]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 07:01:01 vkim11-web run-parts[16494]: (/etc/cron.hourly) starting 0anacron
+Nov  8 07:01:01 vkim11-web run-parts[16494]: (/etc/cron.hourly) finished 0anacron
+Nov  8 08:01:01 vkim11-web CROND[16531]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 08:01:01 vkim11-web run-parts[16531]: (/etc/cron.hourly) starting 0anacron
+Nov  8 08:01:01 vkim11-web run-parts[16531]: (/etc/cron.hourly) finished 0anacron
+Nov  8 09:01:01 vkim11-web CROND[16557]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 09:01:01 vkim11-web run-parts[16557]: (/etc/cron.hourly) starting 0anacron
+Nov  8 09:01:01 vkim11-web run-parts[16557]: (/etc/cron.hourly) finished 0anacron
+Nov  8 10:01:01 vkim11-web CROND[16582]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 10:01:01 vkim11-web run-parts[16582]: (/etc/cron.hourly) starting 0anacron
+Nov  8 10:01:01 vkim11-web run-parts[16582]: (/etc/cron.hourly) finished 0anacron
+Nov  8 11:01:01 vkim11-web CROND[16620]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 11:01:01 vkim11-web run-parts[16620]: (/etc/cron.hourly) starting 0anacron
+Nov  8 11:01:01 vkim11-web run-parts[16620]: (/etc/cron.hourly) finished 0anacron
+Nov  8 12:01:01 vkim11-web CROND[16646]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 12:01:01 vkim11-web run-parts[16646]: (/etc/cron.hourly) starting 0anacron
+Nov  8 12:01:01 vkim11-web run-parts[16646]: (/etc/cron.hourly) finished 0anacron
+Nov  8 13:01:01 vkim11-web CROND[16671]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 13:01:01 vkim11-web run-parts[16671]: (/etc/cron.hourly) starting 0anacron
+Nov  8 13:01:01 vkim11-web run-parts[16671]: (/etc/cron.hourly) finished 0anacron
+Nov  8 14:01:01 vkim11-web CROND[16709]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 14:01:01 vkim11-web run-parts[16709]: (/etc/cron.hourly) starting 0anacron
+Nov  8 14:01:01 vkim11-web run-parts[16709]: (/etc/cron.hourly) finished 0anacron
+Nov  8 15:01:01 vkim11-web CROND[16739]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 15:01:01 vkim11-web run-parts[16739]: (/etc/cron.hourly) starting 0anacron
+Nov  8 15:01:01 vkim11-web run-parts[16739]: (/etc/cron.hourly) finished 0anacron
+Nov  8 16:01:01 vkim11-web CROND[16764]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 16:01:01 vkim11-web run-parts[16764]: (/etc/cron.hourly) starting 0anacron
+Nov  8 16:01:01 vkim11-web run-parts[16764]: (/etc/cron.hourly) finished 0anacron
+Nov  8 17:01:01 vkim11-web CROND[16802]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 17:01:01 vkim11-web run-parts[16802]: (/etc/cron.hourly) starting 0anacron
+Nov  8 17:01:01 vkim11-web run-parts[16802]: (/etc/cron.hourly) finished 0anacron
+Nov  8 17:08:37 vkim11-web crond[1281]: (CRON) STARTUP (1.5.2)
+Nov  8 17:08:37 vkim11-web crond[1281]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Nov  8 17:08:37 vkim11-web crond[1281]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 73% if used.)
+Nov  8 17:08:38 vkim11-web crond[1281]: (CRON) INFO (running with inotify support)
+Nov  8 18:01:01 vkim11-web CROND[2032]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 18:01:01 vkim11-web run-parts[2032]: (/etc/cron.hourly) starting 0anacron
+Nov  8 18:01:01 vkim11-web run-parts[2032]: (/etc/cron.hourly) finished 0anacron
+Nov  8 19:01:01 vkim11-web CROND[2062]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 19:01:01 vkim11-web run-parts[2062]: (/etc/cron.hourly) starting 0anacron
+Nov  8 19:01:01 vkim11-web run-parts[2062]: (/etc/cron.hourly) finished 0anacron
+Nov  8 20:01:01 vkim11-web CROND[2087]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 20:01:01 vkim11-web run-parts[2087]: (/etc/cron.hourly) starting 0anacron
+Nov  8 20:01:01 vkim11-web run-parts[2087]: (/etc/cron.hourly) finished 0anacron
+Nov  8 21:01:01 vkim11-web CROND[2131]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 21:01:01 vkim11-web run-parts[2131]: (/etc/cron.hourly) starting 0anacron
+Nov  8 21:01:01 vkim11-web run-parts[2131]: (/etc/cron.hourly) finished 0anacron
+Nov  8 22:01:01 vkim11-web CROND[2160]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 22:01:01 vkim11-web run-parts[2160]: (/etc/cron.hourly) starting 0anacron
+Nov  8 22:01:01 vkim11-web run-parts[2160]: (/etc/cron.hourly) finished 0anacron
+Nov  8 23:01:01 vkim11-web CROND[2249]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  8 23:01:01 vkim11-web run-parts[2249]: (/etc/cron.hourly) starting 0anacron
+Nov  8 23:01:01 vkim11-web run-parts[2249]: (/etc/cron.hourly) finished 0anacron
+Nov  9 00:01:01 vkim11-web CROND[2376]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 00:01:01 vkim11-web run-parts[2376]: (/etc/cron.hourly) starting 0anacron
+Nov  9 00:01:01 vkim11-web anacron[2385]: Anacron started on 2020-11-09
+Nov  9 00:01:01 vkim11-web run-parts[2376]: (/etc/cron.hourly) finished 0anacron
+Nov  9 00:01:01 vkim11-web anacron[2385]: Normal exit (0 jobs run)
+Nov  9 01:01:01 vkim11-web CROND[2403]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 01:01:01 vkim11-web run-parts[2403]: (/etc/cron.hourly) starting 0anacron
+Nov  9 01:01:01 vkim11-web anacron[2412]: Anacron started on 2020-11-09
+Nov  9 01:01:01 vkim11-web anacron[2412]: Normal exit (0 jobs run)
+Nov  9 01:01:01 vkim11-web run-parts[2403]: (/etc/cron.hourly) finished 0anacron
+Nov  9 02:01:01 vkim11-web CROND[2430]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 02:01:01 vkim11-web run-parts[2430]: (/etc/cron.hourly) starting 0anacron
+Nov  9 02:01:01 vkim11-web anacron[2439]: Anacron started on 2020-11-09
+Nov  9 02:01:01 vkim11-web anacron[2439]: Normal exit (0 jobs run)
+Nov  9 02:01:01 vkim11-web run-parts[2430]: (/etc/cron.hourly) finished 0anacron
+Nov  9 03:01:01 vkim11-web CROND[2463]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 03:01:01 vkim11-web run-parts[2463]: (/etc/cron.hourly) starting 0anacron
+Nov  9 03:01:01 vkim11-web anacron[2472]: Anacron started on 2020-11-09
+Nov  9 03:01:01 vkim11-web anacron[2472]: Will run job `cron.daily' in 26 min.
+Nov  9 03:01:01 vkim11-web anacron[2472]: Jobs will be executed sequentially
+Nov  9 03:01:01 vkim11-web run-parts[2463]: (/etc/cron.hourly) finished 0anacron
+Nov  9 03:27:01 vkim11-web anacron[2472]: Job `cron.daily' started
+Nov  9 03:27:01 vkim11-web run-parts[2483]: (/etc/cron.daily) starting logrotate
+Nov  9 03:27:01 vkim11-web run-parts[2483]: (/etc/cron.daily) finished logrotate
+Nov  9 03:27:01 vkim11-web anacron[2472]: Job `cron.daily' terminated
+Nov  9 03:27:01 vkim11-web anacron[2472]: Normal exit (1 job run)
+Nov  9 04:01:01 vkim11-web CROND[2507]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 04:01:01 vkim11-web run-parts[2507]: (/etc/cron.hourly) starting 0anacron
+Nov  9 04:01:01 vkim11-web run-parts[2507]: (/etc/cron.hourly) finished 0anacron
+Nov  9 05:01:01 vkim11-web CROND[2532]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 05:01:01 vkim11-web run-parts[2532]: (/etc/cron.hourly) starting 0anacron
+Nov  9 05:01:01 vkim11-web run-parts[2532]: (/etc/cron.hourly) finished 0anacron
+Nov  9 06:01:01 vkim11-web CROND[2569]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 06:01:01 vkim11-web run-parts[2569]: (/etc/cron.hourly) starting 0anacron
+Nov  9 06:01:01 vkim11-web run-parts[2569]: (/etc/cron.hourly) finished 0anacron
+Nov  9 07:01:01 vkim11-web CROND[2594]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 07:01:01 vkim11-web run-parts[2594]: (/etc/cron.hourly) starting 0anacron
+Nov  9 07:01:01 vkim11-web run-parts[2594]: (/etc/cron.hourly) finished 0anacron
+Nov  9 08:01:01 vkim11-web CROND[2619]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 08:01:01 vkim11-web run-parts[2619]: (/etc/cron.hourly) starting 0anacron
+Nov  9 08:01:01 vkim11-web run-parts[2619]: (/etc/cron.hourly) finished 0anacron
+Nov  9 09:01:01 vkim11-web CROND[2650]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 09:01:01 vkim11-web run-parts[2650]: (/etc/cron.hourly) starting 0anacron
+Nov  9 09:01:01 vkim11-web run-parts[2650]: (/etc/cron.hourly) finished 0anacron
+Nov  9 10:01:01 vkim11-web CROND[2676]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 10:01:01 vkim11-web run-parts[2676]: (/etc/cron.hourly) starting 0anacron
+Nov  9 10:01:01 vkim11-web run-parts[2676]: (/etc/cron.hourly) finished 0anacron
+Nov  9 11:01:01 vkim11-web CROND[2701]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 11:01:01 vkim11-web run-parts[2701]: (/etc/cron.hourly) starting 0anacron
+Nov  9 11:01:01 vkim11-web run-parts[2701]: (/etc/cron.hourly) finished 0anacron
+Nov  9 12:01:01 vkim11-web CROND[2733]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 12:01:01 vkim11-web run-parts[2733]: (/etc/cron.hourly) starting 0anacron
+Nov  9 12:01:01 vkim11-web run-parts[2733]: (/etc/cron.hourly) finished 0anacron
+Nov  9 13:01:01 vkim11-web CROND[2757]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 13:01:01 vkim11-web run-parts[2757]: (/etc/cron.hourly) starting 0anacron
+Nov  9 13:01:01 vkim11-web run-parts[2757]: (/etc/cron.hourly) finished 0anacron
+Nov  9 14:01:01 vkim11-web CROND[2783]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 14:01:01 vkim11-web run-parts[2783]: (/etc/cron.hourly) starting 0anacron
+Nov  9 14:01:01 vkim11-web run-parts[2783]: (/etc/cron.hourly) finished 0anacron
+Nov  9 15:01:01 vkim11-web CROND[2814]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 15:01:01 vkim11-web run-parts[2814]: (/etc/cron.hourly) starting 0anacron
+Nov  9 15:01:01 vkim11-web run-parts[2814]: (/etc/cron.hourly) finished 0anacron
+Nov  9 16:01:01 vkim11-web CROND[2840]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 16:01:01 vkim11-web run-parts[2840]: (/etc/cron.hourly) starting 0anacron
+Nov  9 16:01:01 vkim11-web run-parts[2840]: (/etc/cron.hourly) finished 0anacron
+Nov  9 17:01:01 vkim11-web CROND[2865]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 17:01:01 vkim11-web run-parts[2865]: (/etc/cron.hourly) starting 0anacron
+Nov  9 17:01:01 vkim11-web run-parts[2865]: (/etc/cron.hourly) finished 0anacron
+Nov  9 18:01:01 vkim11-web CROND[2903]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 18:01:01 vkim11-web run-parts[2903]: (/etc/cron.hourly) starting 0anacron
+Nov  9 18:01:01 vkim11-web run-parts[2903]: (/etc/cron.hourly) finished 0anacron
+Nov  9 19:01:01 vkim11-web CROND[2929]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 19:01:01 vkim11-web run-parts[2929]: (/etc/cron.hourly) starting 0anacron
+Nov  9 19:01:01 vkim11-web run-parts[2929]: (/etc/cron.hourly) finished 0anacron
+Nov  9 20:01:01 vkim11-web CROND[2954]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 20:01:01 vkim11-web run-parts[2954]: (/etc/cron.hourly) starting 0anacron
+Nov  9 20:01:01 vkim11-web run-parts[2954]: (/etc/cron.hourly) finished 0anacron
+Nov  9 21:01:01 vkim11-web CROND[2985]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 21:01:01 vkim11-web run-parts[2985]: (/etc/cron.hourly) starting 0anacron
+Nov  9 21:01:01 vkim11-web run-parts[2985]: (/etc/cron.hourly) finished 0anacron
+Nov  9 22:01:01 vkim11-web CROND[3011]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 22:01:01 vkim11-web run-parts[3011]: (/etc/cron.hourly) starting 0anacron
+Nov  9 22:01:01 vkim11-web run-parts[3011]: (/etc/cron.hourly) finished 0anacron
+Nov  9 23:01:01 vkim11-web CROND[3036]: (root) CMD (run-parts /etc/cron.hourly)
+Nov  9 23:01:01 vkim11-web run-parts[3036]: (/etc/cron.hourly) starting 0anacron
+Nov  9 23:01:01 vkim11-web run-parts[3036]: (/etc/cron.hourly) finished 0anacron
+Nov 10 00:01:01 vkim11-web CROND[3069]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 00:01:01 vkim11-web run-parts[3069]: (/etc/cron.hourly) starting 0anacron
+Nov 10 00:01:01 vkim11-web anacron[3078]: Anacron started on 2020-11-10
+Nov 10 00:01:01 vkim11-web anacron[3078]: Normal exit (0 jobs run)
+Nov 10 00:01:01 vkim11-web run-parts[3069]: (/etc/cron.hourly) finished 0anacron
+Nov 10 01:01:01 vkim11-web CROND[3096]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 01:01:01 vkim11-web run-parts[3096]: (/etc/cron.hourly) starting 0anacron
+Nov 10 01:01:01 vkim11-web anacron[3105]: Anacron started on 2020-11-10
+Nov 10 01:01:01 vkim11-web anacron[3105]: Normal exit (0 jobs run)
+Nov 10 01:01:01 vkim11-web run-parts[3096]: (/etc/cron.hourly) finished 0anacron
+Nov 10 02:01:01 vkim11-web CROND[3124]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 02:01:01 vkim11-web run-parts[3124]: (/etc/cron.hourly) starting 0anacron
+Nov 10 02:01:01 vkim11-web anacron[3133]: Anacron started on 2020-11-10
+Nov 10 02:01:01 vkim11-web anacron[3133]: Normal exit (0 jobs run)
+Nov 10 02:01:01 vkim11-web run-parts[3124]: (/etc/cron.hourly) finished 0anacron
+Nov 10 03:01:01 vkim11-web CROND[3157]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 03:01:01 vkim11-web run-parts[3157]: (/etc/cron.hourly) starting 0anacron
+Nov 10 03:01:01 vkim11-web anacron[3166]: Anacron started on 2020-11-10
+Nov 10 03:01:01 vkim11-web anacron[3166]: Will run job `cron.daily' in 25 min.
+Nov 10 03:01:01 vkim11-web anacron[3166]: Jobs will be executed sequentially
+Nov 10 03:01:01 vkim11-web run-parts[3157]: (/etc/cron.hourly) finished 0anacron
+Nov 10 03:26:01 vkim11-web anacron[3166]: Job `cron.daily' started
+Nov 10 03:26:01 vkim11-web run-parts[3177]: (/etc/cron.daily) starting logrotate
+Nov 10 03:26:01 vkim11-web run-parts[3177]: (/etc/cron.daily) finished logrotate
+Nov 10 03:26:01 vkim11-web anacron[3166]: Job `cron.daily' terminated
+Nov 10 03:26:01 vkim11-web anacron[3166]: Normal exit (1 job run)
+Nov 10 04:01:01 vkim11-web CROND[3193]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 04:01:01 vkim11-web run-parts[3193]: (/etc/cron.hourly) starting 0anacron
+Nov 10 04:01:01 vkim11-web run-parts[3193]: (/etc/cron.hourly) finished 0anacron
+Nov 10 05:01:01 vkim11-web CROND[3219]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 05:01:01 vkim11-web run-parts[3219]: (/etc/cron.hourly) starting 0anacron
+Nov 10 05:01:01 vkim11-web run-parts[3219]: (/etc/cron.hourly) finished 0anacron
+Nov 10 06:01:01 vkim11-web CROND[3255]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 06:01:01 vkim11-web run-parts[3255]: (/etc/cron.hourly) starting 0anacron
+Nov 10 06:01:01 vkim11-web run-parts[3255]: (/etc/cron.hourly) finished 0anacron
+Nov 10 07:01:01 vkim11-web CROND[3280]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 07:01:01 vkim11-web run-parts[3280]: (/etc/cron.hourly) starting 0anacron
+Nov 10 07:01:01 vkim11-web run-parts[3280]: (/etc/cron.hourly) finished 0anacron
+Nov 10 08:01:01 vkim11-web CROND[3305]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 08:01:01 vkim11-web run-parts[3305]: (/etc/cron.hourly) starting 0anacron
+Nov 10 08:01:01 vkim11-web run-parts[3305]: (/etc/cron.hourly) finished 0anacron
+Nov 10 09:01:01 vkim11-web CROND[3337]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 09:01:01 vkim11-web run-parts[3337]: (/etc/cron.hourly) starting 0anacron
+Nov 10 09:01:01 vkim11-web run-parts[3337]: (/etc/cron.hourly) finished 0anacron
+Nov 10 10:01:01 vkim11-web CROND[3362]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 10:01:01 vkim11-web run-parts[3362]: (/etc/cron.hourly) starting 0anacron
+Nov 10 10:01:01 vkim11-web run-parts[3362]: (/etc/cron.hourly) finished 0anacron
+Nov 10 11:01:01 vkim11-web CROND[3388]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 11:01:01 vkim11-web run-parts[3388]: (/etc/cron.hourly) starting 0anacron
+Nov 10 11:01:01 vkim11-web run-parts[3388]: (/etc/cron.hourly) finished 0anacron
+Nov 10 12:01:01 vkim11-web CROND[3419]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 12:01:01 vkim11-web run-parts[3419]: (/etc/cron.hourly) starting 0anacron
+Nov 10 12:01:01 vkim11-web run-parts[3419]: (/etc/cron.hourly) finished 0anacron
+Nov 10 13:01:01 vkim11-web CROND[3444]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 13:01:01 vkim11-web run-parts[3444]: (/etc/cron.hourly) starting 0anacron
+Nov 10 13:01:01 vkim11-web run-parts[3444]: (/etc/cron.hourly) finished 0anacron
+Nov 10 14:01:01 vkim11-web CROND[3469]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 14:01:01 vkim11-web run-parts[3469]: (/etc/cron.hourly) starting 0anacron
+Nov 10 14:01:01 vkim11-web run-parts[3469]: (/etc/cron.hourly) finished 0anacron
+Nov 10 15:01:01 vkim11-web CROND[3501]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 15:01:01 vkim11-web run-parts[3501]: (/etc/cron.hourly) starting 0anacron
+Nov 10 15:01:01 vkim11-web run-parts[3501]: (/etc/cron.hourly) finished 0anacron
+Nov 10 16:01:01 vkim11-web CROND[3563]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 16:01:01 vkim11-web run-parts[3563]: (/etc/cron.hourly) starting 0anacron
+Nov 10 16:01:01 vkim11-web run-parts[3563]: (/etc/cron.hourly) finished 0anacron
+Nov 10 17:01:02 vkim11-web CROND[3588]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 17:01:02 vkim11-web run-parts[3588]: (/etc/cron.hourly) starting 0anacron
+Nov 10 17:01:02 vkim11-web run-parts[3588]: (/etc/cron.hourly) finished 0anacron
+Nov 10 18:01:01 vkim11-web CROND[3627]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 18:01:01 vkim11-web run-parts[3627]: (/etc/cron.hourly) starting 0anacron
+Nov 10 18:01:01 vkim11-web run-parts[3627]: (/etc/cron.hourly) finished 0anacron
+Nov 10 19:01:01 vkim11-web CROND[3652]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 19:01:01 vkim11-web run-parts[3652]: (/etc/cron.hourly) starting 0anacron
+Nov 10 19:01:01 vkim11-web run-parts[3652]: (/etc/cron.hourly) finished 0anacron
+Nov 10 20:01:01 vkim11-web CROND[3677]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 20:01:01 vkim11-web run-parts[3677]: (/etc/cron.hourly) starting 0anacron
+Nov 10 20:01:01 vkim11-web run-parts[3677]: (/etc/cron.hourly) finished 0anacron
+Nov 10 21:01:01 vkim11-web CROND[3709]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 21:01:01 vkim11-web run-parts[3709]: (/etc/cron.hourly) starting 0anacron
+Nov 10 21:01:01 vkim11-web run-parts[3709]: (/etc/cron.hourly) finished 0anacron
+Nov 10 22:01:01 vkim11-web CROND[3734]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 22:01:01 vkim11-web run-parts[3734]: (/etc/cron.hourly) starting 0anacron
+Nov 10 22:01:01 vkim11-web run-parts[3734]: (/etc/cron.hourly) finished 0anacron
+Nov 10 23:01:01 vkim11-web CROND[3759]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 10 23:01:01 vkim11-web run-parts[3759]: (/etc/cron.hourly) starting 0anacron
+Nov 10 23:01:01 vkim11-web run-parts[3759]: (/etc/cron.hourly) finished 0anacron
+Nov 11 00:01:01 vkim11-web CROND[3793]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 00:01:01 vkim11-web run-parts[3793]: (/etc/cron.hourly) starting 0anacron
+Nov 11 00:01:01 vkim11-web anacron[3802]: Anacron started on 2020-11-11
+Nov 11 00:01:01 vkim11-web anacron[3802]: Normal exit (0 jobs run)
+Nov 11 00:01:01 vkim11-web run-parts[3793]: (/etc/cron.hourly) finished 0anacron
+Nov 11 01:01:01 vkim11-web CROND[3820]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 01:01:01 vkim11-web run-parts[3820]: (/etc/cron.hourly) starting 0anacron
+Nov 11 01:01:01 vkim11-web anacron[3829]: Anacron started on 2020-11-11
+Nov 11 01:01:01 vkim11-web anacron[3829]: Normal exit (0 jobs run)
+Nov 11 01:01:01 vkim11-web run-parts[3820]: (/etc/cron.hourly) finished 0anacron
+Nov 11 02:01:01 vkim11-web CROND[3847]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 02:01:01 vkim11-web run-parts[3847]: (/etc/cron.hourly) starting 0anacron
+Nov 11 02:01:01 vkim11-web anacron[3856]: Anacron started on 2020-11-11
+Nov 11 02:01:01 vkim11-web anacron[3856]: Normal exit (0 jobs run)
+Nov 11 02:01:01 vkim11-web run-parts[3847]: (/etc/cron.hourly) finished 0anacron
+Nov 11 03:01:01 vkim11-web CROND[3881]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 03:01:01 vkim11-web run-parts[3881]: (/etc/cron.hourly) starting 0anacron
+Nov 11 03:01:01 vkim11-web anacron[3890]: Anacron started on 2020-11-11
+Nov 11 03:01:01 vkim11-web anacron[3890]: Will run job `cron.daily' in 43 min.
+Nov 11 03:01:01 vkim11-web anacron[3890]: Will run job `cron.weekly' in 63 min.
+Nov 11 03:01:01 vkim11-web anacron[3890]: Jobs will be executed sequentially
+Nov 11 03:01:01 vkim11-web run-parts[3881]: (/etc/cron.hourly) finished 0anacron
+Nov 11 03:44:01 vkim11-web anacron[3890]: Job `cron.daily' started
+Nov 11 03:44:01 vkim11-web run-parts[3904]: (/etc/cron.daily) starting logrotate
+Nov 11 03:44:01 vkim11-web run-parts[3904]: (/etc/cron.daily) finished logrotate
+Nov 11 03:44:01 vkim11-web anacron[3890]: Job `cron.daily' terminated
+Nov 11 04:01:01 vkim11-web CROND[3917]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 04:01:01 vkim11-web run-parts[3917]: (/etc/cron.hourly) starting 0anacron
+Nov 11 04:01:01 vkim11-web run-parts[3917]: (/etc/cron.hourly) finished 0anacron
+Nov 11 04:04:01 vkim11-web anacron[3890]: Job `cron.weekly' started
+Nov 11 04:04:01 vkim11-web anacron[3890]: Job `cron.weekly' terminated
+Nov 11 04:04:01 vkim11-web anacron[3890]: Normal exit (2 jobs run)
+Nov 11 05:01:01 vkim11-web CROND[3944]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 05:01:01 vkim11-web run-parts[3944]: (/etc/cron.hourly) starting 0anacron
+Nov 11 05:01:01 vkim11-web run-parts[3944]: (/etc/cron.hourly) finished 0anacron
+Nov 11 06:01:01 vkim11-web CROND[3981]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 06:01:01 vkim11-web run-parts[3981]: (/etc/cron.hourly) starting 0anacron
+Nov 11 06:01:01 vkim11-web run-parts[3981]: (/etc/cron.hourly) finished 0anacron
+Nov 11 07:01:01 vkim11-web CROND[4006]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 07:01:01 vkim11-web run-parts[4006]: (/etc/cron.hourly) starting 0anacron
+Nov 11 07:01:01 vkim11-web run-parts[4006]: (/etc/cron.hourly) finished 0anacron
+Nov 11 08:01:01 vkim11-web CROND[4031]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 08:01:01 vkim11-web run-parts[4031]: (/etc/cron.hourly) starting 0anacron
+Nov 11 08:01:01 vkim11-web run-parts[4031]: (/etc/cron.hourly) finished 0anacron
+Nov 11 09:01:01 vkim11-web CROND[4062]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 09:01:01 vkim11-web run-parts[4062]: (/etc/cron.hourly) starting 0anacron
+Nov 11 09:01:01 vkim11-web run-parts[4062]: (/etc/cron.hourly) finished 0anacron
+Nov 11 10:01:01 vkim11-web CROND[4088]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 10:01:01 vkim11-web run-parts[4088]: (/etc/cron.hourly) starting 0anacron
+Nov 11 10:01:01 vkim11-web run-parts[4088]: (/etc/cron.hourly) finished 0anacron
+Nov 11 11:01:01 vkim11-web CROND[4113]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 11:01:01 vkim11-web run-parts[4113]: (/etc/cron.hourly) starting 0anacron
+Nov 11 11:01:01 vkim11-web run-parts[4113]: (/etc/cron.hourly) finished 0anacron
+Nov 11 12:01:01 vkim11-web CROND[4145]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 12:01:01 vkim11-web run-parts[4145]: (/etc/cron.hourly) starting 0anacron
+Nov 11 12:01:01 vkim11-web run-parts[4145]: (/etc/cron.hourly) finished 0anacron
+Nov 11 13:01:01 vkim11-web CROND[4170]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 13:01:01 vkim11-web run-parts[4170]: (/etc/cron.hourly) starting 0anacron
+Nov 11 13:01:01 vkim11-web run-parts[4170]: (/etc/cron.hourly) finished 0anacron
+Nov 11 14:01:01 vkim11-web CROND[4195]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 14:01:01 vkim11-web run-parts[4195]: (/etc/cron.hourly) starting 0anacron
+Nov 11 14:01:01 vkim11-web run-parts[4195]: (/etc/cron.hourly) finished 0anacron
+Nov 11 15:01:01 vkim11-web CROND[4226]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 15:01:01 vkim11-web run-parts[4226]: (/etc/cron.hourly) starting 0anacron
+Nov 11 15:01:01 vkim11-web run-parts[4226]: (/etc/cron.hourly) finished 0anacron
+Nov 11 16:01:01 vkim11-web CROND[4252]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 16:01:01 vkim11-web run-parts[4252]: (/etc/cron.hourly) starting 0anacron
+Nov 11 16:01:01 vkim11-web run-parts[4252]: (/etc/cron.hourly) finished 0anacron
+Nov 11 17:01:01 vkim11-web CROND[4277]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 17:01:01 vkim11-web run-parts[4277]: (/etc/cron.hourly) starting 0anacron
+Nov 11 17:01:01 vkim11-web run-parts[4277]: (/etc/cron.hourly) finished 0anacron
+Nov 11 18:01:01 vkim11-web CROND[4315]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 18:01:01 vkim11-web run-parts[4315]: (/etc/cron.hourly) starting 0anacron
+Nov 11 18:01:01 vkim11-web run-parts[4315]: (/etc/cron.hourly) finished 0anacron
+Nov 11 19:01:01 vkim11-web CROND[4340]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 19:01:01 vkim11-web run-parts[4340]: (/etc/cron.hourly) starting 0anacron
+Nov 11 19:01:01 vkim11-web run-parts[4340]: (/etc/cron.hourly) finished 0anacron
+Nov 11 20:01:02 vkim11-web CROND[4366]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 20:01:02 vkim11-web run-parts[4366]: (/etc/cron.hourly) starting 0anacron
+Nov 11 20:01:02 vkim11-web run-parts[4366]: (/etc/cron.hourly) finished 0anacron
+Nov 11 21:01:01 vkim11-web CROND[4435]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 21:01:01 vkim11-web run-parts[4435]: (/etc/cron.hourly) starting 0anacron
+Nov 11 21:01:01 vkim11-web run-parts[4435]: (/etc/cron.hourly) finished 0anacron
+Nov 11 22:01:01 vkim11-web CROND[4461]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 22:01:01 vkim11-web run-parts[4461]: (/etc/cron.hourly) starting 0anacron
+Nov 11 22:01:01 vkim11-web run-parts[4461]: (/etc/cron.hourly) finished 0anacron
+Nov 11 23:01:01 vkim11-web CROND[4486]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 11 23:01:01 vkim11-web run-parts[4486]: (/etc/cron.hourly) starting 0anacron
+Nov 11 23:01:01 vkim11-web run-parts[4486]: (/etc/cron.hourly) finished 0anacron
+Nov 12 00:01:01 vkim11-web CROND[4519]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 00:01:01 vkim11-web run-parts[4519]: (/etc/cron.hourly) starting 0anacron
+Nov 12 00:01:01 vkim11-web anacron[4528]: Anacron started on 2020-11-12
+Nov 12 00:01:01 vkim11-web anacron[4528]: Normal exit (0 jobs run)
+Nov 12 00:01:01 vkim11-web run-parts[4519]: (/etc/cron.hourly) finished 0anacron
+Nov 12 01:01:01 vkim11-web CROND[4546]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 01:01:01 vkim11-web run-parts[4546]: (/etc/cron.hourly) starting 0anacron
+Nov 12 01:01:01 vkim11-web anacron[4555]: Anacron started on 2020-11-12
+Nov 12 01:01:01 vkim11-web anacron[4555]: Normal exit (0 jobs run)
+Nov 12 01:01:01 vkim11-web run-parts[4546]: (/etc/cron.hourly) finished 0anacron
+Nov 12 02:01:01 vkim11-web CROND[4574]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 02:01:01 vkim11-web run-parts[4574]: (/etc/cron.hourly) starting 0anacron
+Nov 12 02:01:01 vkim11-web anacron[4583]: Anacron started on 2020-11-12
+Nov 12 02:01:01 vkim11-web anacron[4583]: Normal exit (0 jobs run)
+Nov 12 02:01:01 vkim11-web run-parts[4574]: (/etc/cron.hourly) finished 0anacron
+Nov 12 03:01:01 vkim11-web CROND[4607]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 03:01:01 vkim11-web run-parts[4607]: (/etc/cron.hourly) starting 0anacron
+Nov 12 03:01:01 vkim11-web anacron[4616]: Anacron started on 2020-11-12
+Nov 12 03:01:01 vkim11-web anacron[4616]: Will run job `cron.daily' in 27 min.
+Nov 12 03:01:01 vkim11-web anacron[4616]: Jobs will be executed sequentially
+Nov 12 03:01:01 vkim11-web run-parts[4607]: (/etc/cron.hourly) finished 0anacron
+Nov 12 03:28:01 vkim11-web anacron[4616]: Job `cron.daily' started
+Nov 12 03:28:01 vkim11-web run-parts[4627]: (/etc/cron.daily) starting logrotate
+Nov 12 03:28:01 vkim11-web run-parts[4627]: (/etc/cron.daily) finished logrotate
+Nov 12 03:28:01 vkim11-web anacron[4616]: Job `cron.daily' terminated
+Nov 12 03:28:01 vkim11-web anacron[4616]: Normal exit (1 job run)
+Nov 12 04:01:01 vkim11-web CROND[4643]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 04:01:01 vkim11-web run-parts[4643]: (/etc/cron.hourly) starting 0anacron
+Nov 12 04:01:01 vkim11-web run-parts[4643]: (/etc/cron.hourly) finished 0anacron
+Nov 12 05:01:01 vkim11-web CROND[4668]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 05:01:01 vkim11-web run-parts[4668]: (/etc/cron.hourly) starting 0anacron
+Nov 12 05:01:01 vkim11-web run-parts[4668]: (/etc/cron.hourly) finished 0anacron
+Nov 12 06:01:01 vkim11-web CROND[4705]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 06:01:01 vkim11-web run-parts[4705]: (/etc/cron.hourly) starting 0anacron
+Nov 12 06:01:01 vkim11-web run-parts[4705]: (/etc/cron.hourly) finished 0anacron
+Nov 12 07:01:01 vkim11-web CROND[4730]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 07:01:01 vkim11-web run-parts[4730]: (/etc/cron.hourly) starting 0anacron
+Nov 12 07:01:01 vkim11-web run-parts[4730]: (/etc/cron.hourly) finished 0anacron
+Nov 12 08:01:01 vkim11-web CROND[4755]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 08:01:01 vkim11-web run-parts[4755]: (/etc/cron.hourly) starting 0anacron
+Nov 12 08:01:01 vkim11-web run-parts[4755]: (/etc/cron.hourly) finished 0anacron
+Nov 12 09:01:01 vkim11-web CROND[4787]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 09:01:01 vkim11-web run-parts[4787]: (/etc/cron.hourly) starting 0anacron
+Nov 12 09:01:01 vkim11-web run-parts[4787]: (/etc/cron.hourly) finished 0anacron
+Nov 12 10:01:01 vkim11-web CROND[4812]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 10:01:01 vkim11-web run-parts[4812]: (/etc/cron.hourly) starting 0anacron
+Nov 12 10:01:01 vkim11-web run-parts[4812]: (/etc/cron.hourly) finished 0anacron
+Nov 12 11:01:01 vkim11-web CROND[4837]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 11:01:01 vkim11-web run-parts[4837]: (/etc/cron.hourly) starting 0anacron
+Nov 12 11:01:01 vkim11-web run-parts[4837]: (/etc/cron.hourly) finished 0anacron
+Nov 12 12:01:01 vkim11-web CROND[4869]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 12:01:01 vkim11-web run-parts[4869]: (/etc/cron.hourly) starting 0anacron
+Nov 12 12:01:01 vkim11-web run-parts[4869]: (/etc/cron.hourly) finished 0anacron
+Nov 12 13:01:01 vkim11-web CROND[4894]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 13:01:01 vkim11-web run-parts[4894]: (/etc/cron.hourly) starting 0anacron
+Nov 12 13:01:01 vkim11-web run-parts[4894]: (/etc/cron.hourly) finished 0anacron
+Nov 12 14:01:01 vkim11-web CROND[4919]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 14:01:01 vkim11-web run-parts[4919]: (/etc/cron.hourly) starting 0anacron
+Nov 12 14:01:01 vkim11-web run-parts[4919]: (/etc/cron.hourly) finished 0anacron
+Nov 12 15:01:01 vkim11-web CROND[4955]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 15:01:01 vkim11-web run-parts[4955]: (/etc/cron.hourly) starting 0anacron
+Nov 12 15:01:01 vkim11-web run-parts[4955]: (/etc/cron.hourly) finished 0anacron
+Nov 12 16:01:01 vkim11-web CROND[4980]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 16:01:01 vkim11-web run-parts[4980]: (/etc/cron.hourly) starting 0anacron
+Nov 12 16:01:01 vkim11-web run-parts[4980]: (/etc/cron.hourly) finished 0anacron
+Nov 12 17:01:01 vkim11-web CROND[5005]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 17:01:01 vkim11-web run-parts[5005]: (/etc/cron.hourly) starting 0anacron
+Nov 12 17:01:01 vkim11-web run-parts[5005]: (/etc/cron.hourly) finished 0anacron
+Nov 12 18:01:01 vkim11-web CROND[5044]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 18:01:01 vkim11-web run-parts[5044]: (/etc/cron.hourly) starting 0anacron
+Nov 12 18:01:01 vkim11-web run-parts[5044]: (/etc/cron.hourly) finished 0anacron
+Nov 12 19:01:01 vkim11-web CROND[5069]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 19:01:01 vkim11-web run-parts[5069]: (/etc/cron.hourly) starting 0anacron
+Nov 12 19:01:01 vkim11-web run-parts[5069]: (/etc/cron.hourly) finished 0anacron
+Nov 12 20:01:01 vkim11-web CROND[5094]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 20:01:01 vkim11-web run-parts[5094]: (/etc/cron.hourly) starting 0anacron
+Nov 12 20:01:01 vkim11-web run-parts[5094]: (/etc/cron.hourly) finished 0anacron
+Nov 12 21:01:01 vkim11-web CROND[5125]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 21:01:01 vkim11-web run-parts[5125]: (/etc/cron.hourly) starting 0anacron
+Nov 12 21:01:01 vkim11-web run-parts[5125]: (/etc/cron.hourly) finished 0anacron
+Nov 12 22:01:01 vkim11-web CROND[5151]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 22:01:01 vkim11-web run-parts[5151]: (/etc/cron.hourly) starting 0anacron
+Nov 12 22:01:01 vkim11-web run-parts[5151]: (/etc/cron.hourly) finished 0anacron
+Nov 12 23:01:02 vkim11-web CROND[5176]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 12 23:01:02 vkim11-web run-parts[5176]: (/etc/cron.hourly) starting 0anacron
+Nov 12 23:01:02 vkim11-web run-parts[5176]: (/etc/cron.hourly) finished 0anacron
+Nov 13 00:01:01 vkim11-web CROND[5209]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 00:01:01 vkim11-web run-parts[5209]: (/etc/cron.hourly) starting 0anacron
+Nov 13 00:01:01 vkim11-web anacron[5218]: Anacron started on 2020-11-13
+Nov 13 00:01:01 vkim11-web anacron[5218]: Normal exit (0 jobs run)
+Nov 13 00:01:01 vkim11-web run-parts[5209]: (/etc/cron.hourly) finished 0anacron
+Nov 13 01:01:01 vkim11-web CROND[5237]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 01:01:01 vkim11-web run-parts[5237]: (/etc/cron.hourly) starting 0anacron
+Nov 13 01:01:01 vkim11-web anacron[5246]: Anacron started on 2020-11-13
+Nov 13 01:01:01 vkim11-web anacron[5246]: Normal exit (0 jobs run)
+Nov 13 01:01:01 vkim11-web run-parts[5237]: (/etc/cron.hourly) finished 0anacron
+Nov 13 02:01:01 vkim11-web CROND[5335]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 02:01:01 vkim11-web run-parts[5335]: (/etc/cron.hourly) starting 0anacron
+Nov 13 02:01:01 vkim11-web anacron[5344]: Anacron started on 2020-11-13
+Nov 13 02:01:01 vkim11-web anacron[5344]: Normal exit (0 jobs run)
+Nov 13 02:01:01 vkim11-web run-parts[5335]: (/etc/cron.hourly) finished 0anacron
+Nov 13 03:01:01 vkim11-web CROND[5369]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 03:01:01 vkim11-web run-parts[5369]: (/etc/cron.hourly) starting 0anacron
+Nov 13 03:01:01 vkim11-web anacron[5378]: Anacron started on 2020-11-13
+Nov 13 03:01:01 vkim11-web anacron[5378]: Will run job `cron.daily' in 6 min.
+Nov 13 03:01:01 vkim11-web anacron[5378]: Jobs will be executed sequentially
+Nov 13 03:01:01 vkim11-web run-parts[5369]: (/etc/cron.hourly) finished 0anacron
+Nov 13 03:07:01 vkim11-web anacron[5378]: Job `cron.daily' started
+Nov 13 03:07:01 vkim11-web run-parts[5382]: (/etc/cron.daily) starting logrotate
+Nov 13 03:07:01 vkim11-web run-parts[5382]: (/etc/cron.daily) finished logrotate
+Nov 13 03:07:01 vkim11-web anacron[5378]: Job `cron.daily' terminated
+Nov 13 03:07:01 vkim11-web anacron[5378]: Normal exit (1 job run)
+Nov 13 04:01:01 vkim11-web CROND[5405]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 04:01:01 vkim11-web run-parts[5405]: (/etc/cron.hourly) starting 0anacron
+Nov 13 04:01:01 vkim11-web run-parts[5405]: (/etc/cron.hourly) finished 0anacron
+Nov 13 05:01:01 vkim11-web CROND[5430]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 05:01:01 vkim11-web run-parts[5430]: (/etc/cron.hourly) starting 0anacron
+Nov 13 05:01:01 vkim11-web run-parts[5430]: (/etc/cron.hourly) finished 0anacron
+Nov 13 06:01:01 vkim11-web CROND[5466]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 06:01:01 vkim11-web run-parts[5466]: (/etc/cron.hourly) starting 0anacron
+Nov 13 06:01:01 vkim11-web run-parts[5466]: (/etc/cron.hourly) finished 0anacron
+Nov 13 07:01:01 vkim11-web CROND[5492]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 07:01:01 vkim11-web run-parts[5492]: (/etc/cron.hourly) starting 0anacron
+Nov 13 07:01:01 vkim11-web run-parts[5492]: (/etc/cron.hourly) finished 0anacron
+Nov 13 08:01:01 vkim11-web CROND[5517]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 08:01:01 vkim11-web run-parts[5517]: (/etc/cron.hourly) starting 0anacron
+Nov 13 08:01:01 vkim11-web run-parts[5517]: (/etc/cron.hourly) finished 0anacron
+Nov 13 09:01:01 vkim11-web CROND[5548]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 09:01:01 vkim11-web run-parts[5548]: (/etc/cron.hourly) starting 0anacron
+Nov 13 09:01:01 vkim11-web run-parts[5548]: (/etc/cron.hourly) finished 0anacron
+Nov 13 10:01:01 vkim11-web CROND[5573]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 10:01:01 vkim11-web run-parts[5573]: (/etc/cron.hourly) starting 0anacron
+Nov 13 10:01:01 vkim11-web run-parts[5573]: (/etc/cron.hourly) finished 0anacron
+Nov 13 11:01:01 vkim11-web CROND[5599]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 11:01:01 vkim11-web run-parts[5599]: (/etc/cron.hourly) starting 0anacron
+Nov 13 11:01:01 vkim11-web run-parts[5599]: (/etc/cron.hourly) finished 0anacron
+Nov 13 12:01:01 vkim11-web CROND[5630]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 12:01:01 vkim11-web run-parts[5630]: (/etc/cron.hourly) starting 0anacron
+Nov 13 12:01:01 vkim11-web run-parts[5630]: (/etc/cron.hourly) finished 0anacron
+Nov 13 13:01:01 vkim11-web CROND[5655]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 13:01:01 vkim11-web run-parts[5655]: (/etc/cron.hourly) starting 0anacron
+Nov 13 13:01:01 vkim11-web run-parts[5655]: (/etc/cron.hourly) finished 0anacron
+Nov 13 14:01:01 vkim11-web CROND[5681]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 14:01:01 vkim11-web run-parts[5681]: (/etc/cron.hourly) starting 0anacron
+Nov 13 14:01:01 vkim11-web run-parts[5681]: (/etc/cron.hourly) finished 0anacron
+Nov 13 15:01:01 vkim11-web CROND[5712]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 15:01:01 vkim11-web run-parts[5712]: (/etc/cron.hourly) starting 0anacron
+Nov 13 15:01:01 vkim11-web run-parts[5712]: (/etc/cron.hourly) finished 0anacron
+Nov 13 16:01:01 vkim11-web CROND[5737]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 16:01:01 vkim11-web run-parts[5737]: (/etc/cron.hourly) starting 0anacron
+Nov 13 16:01:01 vkim11-web run-parts[5737]: (/etc/cron.hourly) finished 0anacron
+Nov 13 17:01:01 vkim11-web CROND[5763]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 17:01:01 vkim11-web run-parts[5763]: (/etc/cron.hourly) starting 0anacron
+Nov 13 17:01:01 vkim11-web run-parts[5763]: (/etc/cron.hourly) finished 0anacron
+Nov 13 18:01:01 vkim11-web CROND[5801]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 18:01:01 vkim11-web run-parts[5801]: (/etc/cron.hourly) starting 0anacron
+Nov 13 18:01:01 vkim11-web run-parts[5801]: (/etc/cron.hourly) finished 0anacron
+Nov 13 19:01:01 vkim11-web CROND[5826]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 19:01:01 vkim11-web run-parts[5826]: (/etc/cron.hourly) starting 0anacron
+Nov 13 19:01:01 vkim11-web run-parts[5826]: (/etc/cron.hourly) finished 0anacron
+Nov 13 20:01:01 vkim11-web CROND[5852]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 20:01:01 vkim11-web run-parts[5852]: (/etc/cron.hourly) starting 0anacron
+Nov 13 20:01:01 vkim11-web run-parts[5852]: (/etc/cron.hourly) finished 0anacron
+Nov 13 21:01:01 vkim11-web CROND[5883]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 21:01:01 vkim11-web run-parts[5883]: (/etc/cron.hourly) starting 0anacron
+Nov 13 21:01:01 vkim11-web run-parts[5883]: (/etc/cron.hourly) finished 0anacron
+Nov 13 22:01:01 vkim11-web CROND[5908]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 22:01:01 vkim11-web run-parts[5908]: (/etc/cron.hourly) starting 0anacron
+Nov 13 22:01:01 vkim11-web run-parts[5908]: (/etc/cron.hourly) finished 0anacron
+Nov 13 23:01:01 vkim11-web CROND[5934]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 13 23:01:01 vkim11-web run-parts[5934]: (/etc/cron.hourly) starting 0anacron
+Nov 13 23:01:01 vkim11-web run-parts[5934]: (/etc/cron.hourly) finished 0anacron
+Nov 14 00:01:01 vkim11-web CROND[5967]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 00:01:01 vkim11-web run-parts[5967]: (/etc/cron.hourly) starting 0anacron
+Nov 14 00:01:01 vkim11-web anacron[5976]: Anacron started on 2020-11-14
+Nov 14 00:01:01 vkim11-web anacron[5976]: Normal exit (0 jobs run)
+Nov 14 00:01:01 vkim11-web run-parts[5967]: (/etc/cron.hourly) finished 0anacron
+Nov 14 01:01:01 vkim11-web CROND[5994]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 01:01:01 vkim11-web run-parts[5994]: (/etc/cron.hourly) starting 0anacron
+Nov 14 01:01:02 vkim11-web anacron[6003]: Anacron started on 2020-11-14
+Nov 14 01:01:02 vkim11-web anacron[6003]: Normal exit (0 jobs run)
+Nov 14 01:01:02 vkim11-web run-parts[5994]: (/etc/cron.hourly) finished 0anacron
+Nov 14 02:01:01 vkim11-web CROND[6021]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 02:01:01 vkim11-web run-parts[6021]: (/etc/cron.hourly) starting 0anacron
+Nov 14 02:01:01 vkim11-web anacron[6030]: Anacron started on 2020-11-14
+Nov 14 02:01:01 vkim11-web anacron[6030]: Normal exit (0 jobs run)
+Nov 14 02:01:01 vkim11-web run-parts[6021]: (/etc/cron.hourly) finished 0anacron
+Nov 14 03:01:01 vkim11-web CROND[6055]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 03:01:01 vkim11-web run-parts[6055]: (/etc/cron.hourly) starting 0anacron
+Nov 14 03:01:01 vkim11-web anacron[6064]: Anacron started on 2020-11-14
+Nov 14 03:01:01 vkim11-web anacron[6064]: Will run job `cron.daily' in 31 min.
+Nov 14 03:01:01 vkim11-web anacron[6064]: Jobs will be executed sequentially
+Nov 14 03:01:01 vkim11-web run-parts[6055]: (/etc/cron.hourly) finished 0anacron
+Nov 14 03:32:01 vkim11-web anacron[6064]: Job `cron.daily' started
+Nov 14 03:32:01 vkim11-web run-parts[6075]: (/etc/cron.daily) starting logrotate
+Nov 14 03:32:01 vkim11-web run-parts[6075]: (/etc/cron.daily) finished logrotate
+Nov 14 03:32:01 vkim11-web anacron[6064]: Job `cron.daily' terminated
+Nov 14 03:32:01 vkim11-web anacron[6064]: Normal exit (1 job run)
+Nov 14 04:01:01 vkim11-web CROND[6091]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 04:01:01 vkim11-web run-parts[6091]: (/etc/cron.hourly) starting 0anacron
+Nov 14 04:01:01 vkim11-web run-parts[6091]: (/etc/cron.hourly) finished 0anacron
+Nov 14 05:01:01 vkim11-web CROND[6116]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 05:01:01 vkim11-web run-parts[6116]: (/etc/cron.hourly) starting 0anacron
+Nov 14 05:01:01 vkim11-web run-parts[6116]: (/etc/cron.hourly) finished 0anacron
+Nov 14 06:01:01 vkim11-web CROND[6153]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 06:01:01 vkim11-web run-parts[6153]: (/etc/cron.hourly) starting 0anacron
+Nov 14 06:01:01 vkim11-web run-parts[6153]: (/etc/cron.hourly) finished 0anacron
+Nov 14 07:01:01 vkim11-web CROND[6178]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 07:01:01 vkim11-web run-parts[6178]: (/etc/cron.hourly) starting 0anacron
+Nov 14 07:01:01 vkim11-web run-parts[6178]: (/etc/cron.hourly) finished 0anacron
+Nov 14 08:01:01 vkim11-web CROND[6203]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 08:01:01 vkim11-web run-parts[6203]: (/etc/cron.hourly) starting 0anacron
+Nov 14 08:01:01 vkim11-web run-parts[6203]: (/etc/cron.hourly) finished 0anacron
+Nov 14 09:01:01 vkim11-web CROND[6235]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 09:01:01 vkim11-web run-parts[6235]: (/etc/cron.hourly) starting 0anacron
+Nov 14 09:01:01 vkim11-web run-parts[6235]: (/etc/cron.hourly) finished 0anacron
+Nov 14 10:01:01 vkim11-web CROND[6260]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 10:01:01 vkim11-web run-parts[6260]: (/etc/cron.hourly) starting 0anacron
+Nov 14 10:01:01 vkim11-web run-parts[6260]: (/etc/cron.hourly) finished 0anacron
+Nov 14 11:01:01 vkim11-web CROND[6285]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 11:01:01 vkim11-web run-parts[6285]: (/etc/cron.hourly) starting 0anacron
+Nov 14 11:01:01 vkim11-web run-parts[6285]: (/etc/cron.hourly) finished 0anacron
+Nov 14 12:01:01 vkim11-web CROND[6317]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 12:01:01 vkim11-web run-parts[6317]: (/etc/cron.hourly) starting 0anacron
+Nov 14 12:01:01 vkim11-web run-parts[6317]: (/etc/cron.hourly) finished 0anacron
+Nov 14 13:01:01 vkim11-web CROND[6342]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 13:01:01 vkim11-web run-parts[6342]: (/etc/cron.hourly) starting 0anacron
+Nov 14 13:01:01 vkim11-web run-parts[6342]: (/etc/cron.hourly) finished 0anacron
+Nov 14 14:01:01 vkim11-web CROND[6367]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 14:01:01 vkim11-web run-parts[6367]: (/etc/cron.hourly) starting 0anacron
+Nov 14 14:01:01 vkim11-web run-parts[6367]: (/etc/cron.hourly) finished 0anacron
+Nov 14 15:01:01 vkim11-web CROND[6398]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 15:01:01 vkim11-web run-parts[6398]: (/etc/cron.hourly) starting 0anacron
+Nov 14 15:01:01 vkim11-web run-parts[6398]: (/etc/cron.hourly) finished 0anacron
+Nov 14 16:01:01 vkim11-web CROND[6424]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 16:01:01 vkim11-web run-parts[6424]: (/etc/cron.hourly) starting 0anacron
+Nov 14 16:01:01 vkim11-web run-parts[6424]: (/etc/cron.hourly) finished 0anacron
+Nov 14 17:01:01 vkim11-web CROND[6449]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 17:01:01 vkim11-web run-parts[6449]: (/etc/cron.hourly) starting 0anacron
+Nov 14 17:01:01 vkim11-web run-parts[6449]: (/etc/cron.hourly) finished 0anacron
+Nov 14 18:01:01 vkim11-web CROND[17707]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 18:01:01 vkim11-web run-parts[17707]: (/etc/cron.hourly) starting 0anacron
+Nov 14 18:01:01 vkim11-web run-parts[17707]: (/etc/cron.hourly) finished 0anacron
+Nov 14 19:01:01 vkim11-web CROND[17743]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 19:01:01 vkim11-web run-parts[17743]: (/etc/cron.hourly) starting 0anacron
+Nov 14 19:01:01 vkim11-web run-parts[17743]: (/etc/cron.hourly) finished 0anacron
+Nov 14 20:01:01 vkim11-web CROND[17768]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 20:01:01 vkim11-web run-parts[17768]: (/etc/cron.hourly) starting 0anacron
+Nov 14 20:01:01 vkim11-web run-parts[17768]: (/etc/cron.hourly) finished 0anacron
+Nov 14 21:01:01 vkim11-web CROND[17847]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 21:01:01 vkim11-web run-parts[17847]: (/etc/cron.hourly) starting 0anacron
+Nov 14 21:01:01 vkim11-web run-parts[17847]: (/etc/cron.hourly) finished 0anacron
+Nov 14 22:01:01 vkim11-web CROND[17932]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 22:01:01 vkim11-web run-parts[17932]: (/etc/cron.hourly) starting 0anacron
+Nov 14 22:01:01 vkim11-web run-parts[17932]: (/etc/cron.hourly) finished 0anacron
+Nov 14 22:02:29 vkim11-web crontab[17942]: (vkim11) BEGIN EDIT (vkim11)
+Nov 14 22:03:42 vkim11-web crontab[17942]: (vkim11) REPLACE (vkim11)
+Nov 14 22:03:42 vkim11-web crontab[17942]: (vkim11) END EDIT (vkim11)
+Nov 14 22:03:52 vkim11-web crontab[17945]: (vkim11) BEGIN EDIT (vkim11)
+Nov 14 22:04:15 vkim11-web crontab[17945]: (vkim11) END EDIT (vkim11)
+Nov 14 22:04:45 vkim11-web crontab[17948]: (vkim11) BEGIN EDIT (vkim11)
+Nov 14 22:05:29 vkim11-web crontab[17948]: (vkim11) END EDIT (vkim11)
+Nov 14 22:05:31 vkim11-web crontab[17953]: (vkim11) BEGIN EDIT (vkim11)
+Nov 14 22:07:51 vkim11-web crontab[17953]: (vkim11) REPLACE (vkim11)
+Nov 14 22:07:51 vkim11-web crontab[17953]: (vkim11) END EDIT (vkim11)
+Nov 14 22:07:55 vkim11-web crontab[17957]: (vkim11) BEGIN EDIT (vkim11)
+Nov 14 22:08:01 vkim11-web crond[1281]: (vkim11) RELOAD (/var/spool/cron/vkim11)
+Nov 14 22:08:02 vkim11-web crontab[17957]: (vkim11) END EDIT (vkim11)
+Nov 14 22:09:11 vkim11-web crontab[17963]: (vkim11) BEGIN EDIT (vkim11)
+Nov 14 22:09:21 vkim11-web crontab[17963]: (vkim11) END EDIT (vkim11)
+Nov 14 22:14:03 vkim11-web crontab[17979]: (vkim11) BEGIN EDIT (vkim11)
+Nov 14 22:15:02 vkim11-web crontab[17979]: (vkim11) END EDIT (vkim11)
+Nov 14 22:15:04 vkim11-web crontab[17983]: (vkim11) BEGIN EDIT (vkim11)
+Nov 14 22:15:20 vkim11-web crontab[17983]: (vkim11) END EDIT (vkim11)
+Nov 14 22:15:22 vkim11-web crontab[17988]: (root) BEGIN EDIT (root)
+Nov 14 22:16:54 vkim11-web crontab[17988]: (root) REPLACE (root)
+Nov 14 22:16:54 vkim11-web crontab[17988]: (root) END EDIT (root)
+Nov 14 22:19:32 vkim11-web crontab[17998]: (root) BEGIN EDIT (root)
+Nov 14 22:20:22 vkim11-web crontab[17998]: (root) REPLACE (root)
+Nov 14 22:20:22 vkim11-web crontab[17998]: (root) END EDIT (root)
+Nov 14 22:21:01 vkim11-web crond[1281]: (root) RELOAD (/var/spool/cron/root)
+Nov 14 22:30:36 vkim11-web crontab[18030]: (root) BEGIN EDIT (root)
+Nov 14 22:31:03 vkim11-web crontab[18030]: (root) END EDIT (root)
+Nov 14 22:31:47 vkim11-web crontab[18043]: (root) BEGIN EDIT (root)
+Nov 14 22:31:49 vkim11-web crontab[18043]: (root) END EDIT (root)
+Nov 14 22:32:22 vkim11-web crontab[18073]: (root) BEGIN EDIT (root)
+Nov 14 22:34:20 vkim11-web crontab[18073]: (root) END EDIT (root)
+Nov 14 22:36:57 vkim11-web crontab[18131]: (root) BEGIN EDIT (root)
+Nov 14 22:36:59 vkim11-web crontab[18131]: (root) END EDIT (root)
+Nov 14 22:37:23 vkim11-web crontab[18137]: (root) BEGIN EDIT (root)
+Nov 14 22:37:25 vkim11-web crontab[18137]: (root) END EDIT (root)
+Nov 14 22:39:24 vkim11-web crontab[18148]: (root) BEGIN EDIT (root)
+Nov 14 22:39:33 vkim11-web crontab[18148]: (root) END EDIT (root)
+Nov 14 22:41:15 vkim11-web crontab[18155]: (root) LIST (root)
+Nov 14 22:46:55 vkim11-web crontab[18163]: (root) BEGIN EDIT (root)
+Nov 14 22:47:51 vkim11-web crontab[18163]: (root) REPLACE (root)
+Nov 14 22:47:51 vkim11-web crontab[18163]: (root) END EDIT (root)
+Nov 14 22:47:55 vkim11-web crontab[18166]: (root) BEGIN EDIT (root)
+Nov 14 22:48:01 vkim11-web crontab[18166]: (root) END EDIT (root)
+Nov 14 22:48:01 vkim11-web crond[1281]: (root) RELOAD (/var/spool/cron/root)
+Nov 14 22:48:02 vkim11-web CROND[18180]: (root) CMD (rsync -avz -e ssh /var/log vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 22:49:01 vkim11-web CROND[18212]: (root) CMD (rsync -avz -e ssh /var/log vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 22:50:01 vkim11-web CROND[18237]: (root) CMD (rsync -avz -e ssh /var/log vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 22:50:33 vkim11-web crontab[18249]: (root) BEGIN EDIT (root)
+Nov 14 22:50:51 vkim11-web crontab[18249]: (root) REPLACE (root)
+Nov 14 22:50:51 vkim11-web crontab[18249]: (root) END EDIT (root)
+Nov 14 22:50:57 vkim11-web crontab[18251]: (root) BEGIN EDIT (root)
+Nov 14 22:51:01 vkim11-web crond[1281]: (root) RELOAD (/var/spool/cron/root)
+Nov 14 22:52:34 vkim11-web crontab[18251]: (root) REPLACE (root)
+Nov 14 22:52:34 vkim11-web crontab[18251]: (root) END EDIT (root)
+Nov 14 22:52:38 vkim11-web crontab[18254]: (root) BEGIN EDIT (root)
+Nov 14 22:52:53 vkim11-web crontab[18254]: (root) REPLACE (root)
+Nov 14 22:52:53 vkim11-web crontab[18254]: (root) END EDIT (root)
+Nov 14 22:53:01 vkim11-web crond[1281]: (root) RELOAD (/var/spool/cron/root)
+Nov 14 22:53:01 vkim11-web CROND[18269]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 22:54:01 vkim11-web CROND[18293]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 22:54:23 vkim11-web crontab[18304]: (root) BEGIN EDIT (root)
+Nov 14 22:55:01 vkim11-web CROND[18318]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 22:56:02 vkim11-web CROND[18341]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 22:57:01 vkim11-web CROND[18365]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 22:58:01 vkim11-web CROND[18388]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 22:59:02 vkim11-web CROND[18411]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:00:01 vkim11-web CROND[18434]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:01:01 vkim11-web CROND[18449]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 14 23:01:01 vkim11-web CROND[18451]: (vkim11) CMD (rsync -avz -e ssh /var/log vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:01:01 vkim11-web run-parts[18449]: (/etc/cron.hourly) starting 0anacron
+Nov 14 23:01:01 vkim11-web run-parts[18449]: (/etc/cron.hourly) finished 0anacron
+Nov 14 23:01:01 vkim11-web CROND[18473]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:02:01 vkim11-web CROND[18497]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:03:01 vkim11-web CROND[18521]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:04:01 vkim11-web CROND[18544]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:05:01 vkim11-web CROND[18567]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:06:01 vkim11-web CROND[18590]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:07:01 vkim11-web CROND[18613]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:07:04 vkim11-web crontab[18304]: (root) REPLACE (root)
+Nov 14 23:07:04 vkim11-web crontab[18304]: (root) END EDIT (root)
+Nov 14 23:08:01 vkim11-web crond[1281]: (root) RELOAD (/var/spool/cron/root)
+Nov 14 23:08:01 vkim11-web CROND[18645]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:08:01 vkim11-web CROND[18644]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:08:01 vkim11-web CROND[18646]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:08:01 vkim11-web CROND[18647]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:08:01 vkim11-web CROND[18627]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:08:01 vkim11-web CROND[18626]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:08:01 vkim11-web CROND[18628]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:09:01 vkim11-web CROND[18684]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:09:01 vkim11-web CROND[18686]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:09:01 vkim11-web CROND[18687]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:09:01 vkim11-web CROND[18685]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:09:01 vkim11-web CROND[18666]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:09:01 vkim11-web CROND[18667]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:09:01 vkim11-web CROND[18668]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:09:34 vkim11-web crontab[18705]: (root) BEGIN EDIT (root)
+Nov 14 23:10:01 vkim11-web CROND[18725]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:10:01 vkim11-web CROND[18727]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:10:01 vkim11-web CROND[18728]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:10:01 vkim11-web CROND[18726]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:10:01 vkim11-web CROND[18707]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:10:01 vkim11-web CROND[18709]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:10:01 vkim11-web CROND[18708]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:11:01 vkim11-web CROND[18763]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:11:01 vkim11-web CROND[18765]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:11:01 vkim11-web CROND[18766]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:11:01 vkim11-web CROND[18764]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:11:01 vkim11-web CROND[18745]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:11:01 vkim11-web CROND[18746]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:11:01 vkim11-web CROND[18747]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:11:45 vkim11-web crontab[18705]: (root) REPLACE (root)
+Nov 14 23:11:45 vkim11-web crontab[18705]: (root) END EDIT (root)
+Nov 14 23:12:01 vkim11-web crond[1281]: (root) RELOAD (/var/spool/cron/root)
+Nov 14 23:12:01 vkim11-web CROND[18806]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:12:01 vkim11-web CROND[18805]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:12:01 vkim11-web CROND[18804]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:12:01 vkim11-web CROND[18807]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:12:01 vkim11-web CROND[18808]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:12:01 vkim11-web CROND[18784]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:12:01 vkim11-web CROND[18786]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:12:01 vkim11-web CROND[18785]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:13:01 vkim11-web CROND[18852]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:13:01 vkim11-web CROND[18850]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:13:01 vkim11-web CROND[18851]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:13:01 vkim11-web CROND[18853]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:13:01 vkim11-web CROND[18854]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:13:01 vkim11-web CROND[18831]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:13:01 vkim11-web CROND[18832]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:13:01 vkim11-web CROND[18830]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:14:01 vkim11-web CROND[18896]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:14:01 vkim11-web CROND[18894]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:14:01 vkim11-web CROND[18895]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:14:01 vkim11-web CROND[18897]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:14:01 vkim11-web CROND[18898]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:14:01 vkim11-web CROND[18874]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:14:01 vkim11-web CROND[18875]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:14:01 vkim11-web CROND[18876]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:15:02 vkim11-web CROND[18941]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:15:02 vkim11-web CROND[18940]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:15:02 vkim11-web CROND[18939]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:15:02 vkim11-web CROND[18942]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:15:02 vkim11-web CROND[18943]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:15:02 vkim11-web CROND[18920]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:15:02 vkim11-web CROND[18921]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:15:02 vkim11-web CROND[18919]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:15:22 vkim11-web crontab[18965]: (root) BEGIN EDIT (root)
+Nov 14 23:16:01 vkim11-web CROND[18989]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:16:01 vkim11-web CROND[18988]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:16:01 vkim11-web CROND[18987]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:16:01 vkim11-web CROND[18990]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:16:01 vkim11-web CROND[18991]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:16:01 vkim11-web CROND[18967]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:16:01 vkim11-web CROND[18969]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:16:01 vkim11-web CROND[18968]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:16:50 vkim11-web crontab[18965]: (root) END EDIT (root)
+Nov 14 23:16:58 vkim11-web crontab[19016]: (root) BEGIN EDIT (root)
+Nov 14 23:17:01 vkim11-web CROND[19038]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:17:01 vkim11-web CROND[19039]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:17:01 vkim11-web CROND[19040]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:17:01 vkim11-web CROND[19041]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:17:01 vkim11-web CROND[19042]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:17:01 vkim11-web CROND[19019]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:17:01 vkim11-web CROND[19020]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:17:01 vkim11-web CROND[19018]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:18:02 vkim11-web CROND[19083]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:18:02 vkim11-web CROND[19082]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:18:02 vkim11-web CROND[19084]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:18:02 vkim11-web CROND[19085]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:18:02 vkim11-web CROND[19086]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:18:02 vkim11-web CROND[19064]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:18:02 vkim11-web CROND[19062]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:18:02 vkim11-web CROND[19063]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:19:01 vkim11-web CROND[19128]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:19:01 vkim11-web CROND[19126]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:19:01 vkim11-web CROND[19127]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:19:01 vkim11-web CROND[19129]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:19:01 vkim11-web CROND[19130]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:19:01 vkim11-web CROND[19106]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:19:01 vkim11-web CROND[19107]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:19:01 vkim11-web CROND[19108]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:19:42 vkim11-web crontab[19016]: (root) END EDIT (root)
+Nov 14 23:19:59 vkim11-web crontab[19151]: (root) BEGIN EDIT (root)
+Nov 14 23:20:01 vkim11-web CROND[19175]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:20:01 vkim11-web CROND[19174]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:20:01 vkim11-web CROND[19173]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:20:01 vkim11-web CROND[19176]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:20:01 vkim11-web CROND[19177]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:20:01 vkim11-web CROND[19154]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:20:01 vkim11-web CROND[19155]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:20:01 vkim11-web CROND[19153]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:21:01 vkim11-web CROND[19220]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:21:01 vkim11-web CROND[19218]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:21:01 vkim11-web CROND[19219]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:21:01 vkim11-web CROND[19221]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:21:01 vkim11-web CROND[19222]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:21:01 vkim11-web CROND[19199]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:21:01 vkim11-web CROND[19200]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:21:01 vkim11-web CROND[19198]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:21:17 vkim11-web crontab[19151]: (root) REPLACE (root)
+Nov 14 23:21:17 vkim11-web crontab[19151]: (root) END EDIT (root)
+Nov 14 23:22:01 vkim11-web crond[1281]: (root) RELOAD (/var/spool/cron/root)
+Nov 14 23:22:02 vkim11-web CROND[19265]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:22:02 vkim11-web CROND[19264]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:22:02 vkim11-web CROND[19263]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:22:02 vkim11-web CROND[19266]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:22:02 vkim11-web CROND[19267]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:22:02 vkim11-web CROND[19243]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:22:02 vkim11-web CROND[19244]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:22:02 vkim11-web CROND[19245]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:22:19 vkim11-web crontab[19287]: (root) BEGIN EDIT (root)
+Nov 14 23:23:01 vkim11-web CROND[19311]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:23:01 vkim11-web CROND[19309]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:23:01 vkim11-web CROND[19310]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:23:01 vkim11-web CROND[19312]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:23:01 vkim11-web CROND[19313]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:23:01 vkim11-web CROND[19289]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:23:01 vkim11-web CROND[19291]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:23:01 vkim11-web CROND[19290]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:24:01 vkim11-web CROND[19355]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:24:01 vkim11-web CROND[19354]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:24:01 vkim11-web CROND[19353]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:24:01 vkim11-web CROND[19356]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:24:01 vkim11-web CROND[19357]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:24:01 vkim11-web CROND[19333]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:24:01 vkim11-web CROND[19334]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:24:01 vkim11-web CROND[19335]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:25:01 vkim11-web CROND[19397]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:25:01 vkim11-web CROND[19398]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:25:01 vkim11-web CROND[19399]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:25:01 vkim11-web CROND[19400]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:25:01 vkim11-web CROND[19401]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:25:01 vkim11-web CROND[19379]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:25:01 vkim11-web CROND[19378]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:25:01 vkim11-web CROND[19377]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:26:01 vkim11-web crontab[19287]: (root) END EDIT (root)
+Nov 14 23:26:01 vkim11-web CROND[19443]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:26:01 vkim11-web CROND[19441]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:26:01 vkim11-web CROND[19442]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:26:01 vkim11-web CROND[19444]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:26:01 vkim11-web CROND[19445]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:26:01 vkim11-web CROND[19421]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:26:01 vkim11-web CROND[19423]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:26:01 vkim11-web CROND[19422]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:27:01 vkim11-web CROND[19493]: (root) CMD (rsync -avz -e ssh /etc/httpd/logs/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >dev/null 2>&1)
+Nov 14 23:27:01 vkim11-web CROND[19491]: (root) CMD (rsync -avz -e ssh /etc/sysconfig/iptables vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:27:01 vkim11-web CROND[19492]: (root) CMD (rsync -avz -e ssh /etc/httpd/conf/httpd.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >dev/null 2>&1)
+Nov 14 23:27:01 vkim11-web CROND[19494]: (root) CMD (rsync -avz -e ssh /var/log/* vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log >/dev/null 2>&1)
+Nov 14 23:27:01 vkim11-web CROND[19495]: (root) CMD (rsync -avz -e ssh /etc/named.conf vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/config >/dev/null 2>&1)
+Nov 14 23:27:01 vkim11-web CROND[19472]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:27:01 vkim11-web CROND[19471]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:27:01 vkim11-web CROND[19473]: (root) CMDOUT (/bin/sh: dev/null: No such file or directory)
+Nov 14 23:27:15 vkim11-web crontab[19518]: (root) BEGIN EDIT (root)
+Nov 14 23:27:20 vkim11-web crontab[19518]: (root) REPLACE (root)
+Nov 14 23:27:20 vkim11-web crontab[19518]: (root) END EDIT (root)
+Nov 14 23:28:01 vkim11-web crond[1281]: (root) RELOAD (/var/spool/cron/root)
+Nov 14 23:31:39 vkim11-web crontab[19568]: (root) BEGIN EDIT (root)
+Nov 14 23:32:41 vkim11-web crontab[19568]: (root) END EDIT (root)
+Nov 14 23:33:21 vkim11-web crontab[19585]: (root) BEGIN EDIT (root)
+Nov 14 23:34:40 vkim11-web crontab[19585]: (root) REPLACE (root)
+Nov 14 23:34:40 vkim11-web crontab[19585]: (root) END EDIT (root)
+Nov 14 23:34:46 vkim11-web crontab[19589]: (root) BEGIN EDIT (root)
+Nov 14 23:34:47 vkim11-web crontab[19589]: (root) END EDIT (root)
+Nov 14 23:35:01 vkim11-web crond[1281]: (root) RELOAD (/var/spool/cron/root)
+Nov 14 23:35:02 vkim11-web CROND[19608]: (root) CMD (/root/backup.sh)
+Nov 14 23:35:02 vkim11-web CROND[19596]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:35:02 vkim11-web CROND[19596]: (root) CMDOUT (named.conf)
+Nov 14 23:35:02 vkim11-web CROND[19596]: (root) CMDOUT ()
+Nov 14 23:35:02 vkim11-web CROND[19596]: (root) CMDOUT (sent 396 bytes  received 35 bytes  862.00 bytes/sec)
+Nov 14 23:35:02 vkim11-web CROND[19596]: (root) CMDOUT (total size is 661  speedup is 1.53)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (boot.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (boot.log-20201001)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (boot.log-20201003)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (boot.log-20201005)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (boot.log-20201008)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (boot.log-20201010)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (boot.log-20201024)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (boot.log-20201109)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (btmp)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (btmp-20201101)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (cron)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (cron-20201018)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (cron-20201025)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (cron-20201101)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (cron-20201108)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (dnf.librepo.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (dnf.librepo.log-20201018)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (dnf.librepo.log-20201025)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (dnf.librepo.log-20201101)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (dnf.librepo.log-20201108)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (dnf.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (dnf.log.1)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (dnf.log.2)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (dnf.rpm.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (firewalld)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (hawkey.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (hawkey.log-20201018)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (hawkey.log-20201025)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (hawkey.log-20201101)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (hawkey.log-20201108)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (lastlog)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (maillog)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (maillog-20201018)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (maillog-20201025)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (maillog-20201101)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (maillog-20201108)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (messages)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (messages-20201018)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (messages-20201025)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (messages-20201101)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (messages-20201108)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (secure)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (secure-20201018)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (secure-20201025)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (secure-20201101)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (secure-20201108)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (spooler)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (spooler-20201018)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (spooler-20201025)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (spooler-20201101)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (spooler-20201108)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (vmware-network.1.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (vmware-network.2.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (vmware-network.3.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (vmware-network.4.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (vmware-network.5.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (vmware-network.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (vmware-vgauthsvc.log.0)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (vmware-vmsvc-root.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (vmware-vmtoolsd-root.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (wtmp)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/X.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/anaconda.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/dbus.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/dnf.librepo.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/hawkey.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/ifcfg.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/journal.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/ks-script-3svhg2ke.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/ks-script-jbywajbq.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/lvm.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/packaging.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/program.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/storage.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (anaconda/syslog)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (audit/)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (audit/audit.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (httpd/)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (httpd/access_log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (httpd/access_log-20201011)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (httpd/access_log-20201023)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (httpd/error_log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (httpd/error_log-20201018)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (httpd/error_log-20201025)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (httpd/error_log-20201101)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (httpd/error_log-20201108)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (private/)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd.log-20201101.gz)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd.log-20201108)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd_implicit_files.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd_implicit_files.log-20201024.gz)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd_implicit_files.log-20201109)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd_kcm.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd_kcm.log-20201023.gz)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd_kcm.log-20201109)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd_nss.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd_nss.log-20201024.gz)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sssd/sssd_nss.log-20201109)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (tuned/)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (tuned/tuned.log)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT ()
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sent 1,024,198 bytes  received 1,895 bytes  684,062.00 bytes/sec)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (total size is 14,966,902  speedup is 14.59)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (httpd.conf)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT ()
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (sent 4,663 bytes  received 35 bytes  9,396.00 bytes/sec)
+Nov 14 23:35:03 vkim11-web CROND[19596]: (root) CMDOUT (total size is 11,899  speedup is 2.53)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (access_log)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (access_log-20201011)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (access_log-20201023)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (error_log)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (error_log-20201018)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (error_log-20201025)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (error_log-20201101)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (error_log-20201108)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT ()
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (sent 3,513 bytes  received 168 bytes  2,454.00 bytes/sec)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (total size is 9,988  speedup is 2.71)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (iptables)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT ()
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (sent 416 bytes  received 35 bytes  902.00 bytes/sec)
+Nov 14 23:35:04 vkim11-web CROND[19596]: (root) CMDOUT (total size is 693  speedup is 1.54)
+Nov 14 23:36:01 vkim11-web CROND[19648]: (root) CMD (/root/backup.sh)
+Nov 14 23:36:01 vkim11-web CROND[19636]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:36:01 vkim11-web CROND[19636]: (root) CMDOUT ()
+Nov 14 23:36:01 vkim11-web CROND[19636]: (root) CMDOUT (sent 54 bytes  received 12 bytes  132.00 bytes/sec)
+Nov 14 23:36:01 vkim11-web CROND[19636]: (root) CMDOUT (total size is 661  speedup is 10.02)
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT (cron)
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT (messages)
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT (secure)
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT (audit/audit.log)
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT ()
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT (sent 4,029 bytes  received 18,214 bytes  14,828.67 bytes/sec)
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT (total size is 14,983,462  speedup is 673.63)
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT ()
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT (sent 43 bytes  received 12 bytes  110.00 bytes/sec)
+Nov 14 23:36:02 vkim11-web CROND[19636]: (root) CMDOUT (total size is 11,899  speedup is 216.35)
+Nov 14 23:36:03 vkim11-web CROND[19636]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:36:03 vkim11-web CROND[19636]: (root) CMDOUT ()
+Nov 14 23:36:03 vkim11-web CROND[19636]: (root) CMDOUT (sent 193 bytes  received 12 bytes  136.67 bytes/sec)
+Nov 14 23:36:03 vkim11-web CROND[19636]: (root) CMDOUT (total size is 9,988  speedup is 48.72)
+Nov 14 23:36:03 vkim11-web CROND[19636]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:36:03 vkim11-web CROND[19636]: (root) CMDOUT ()
+Nov 14 23:36:03 vkim11-web CROND[19636]: (root) CMDOUT (sent 47 bytes  received 12 bytes  118.00 bytes/sec)
+Nov 14 23:36:03 vkim11-web CROND[19636]: (root) CMDOUT (total size is 693  speedup is 11.75)
+Nov 14 23:37:02 vkim11-web CROND[19680]: (root) CMD (/root/backup.sh)
+Nov 14 23:37:02 vkim11-web CROND[19668]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:37:02 vkim11-web CROND[19668]: (root) CMDOUT ()
+Nov 14 23:37:02 vkim11-web CROND[19668]: (root) CMDOUT (sent 54 bytes  received 12 bytes  132.00 bytes/sec)
+Nov 14 23:37:02 vkim11-web CROND[19668]: (root) CMDOUT (total size is 661  speedup is 10.02)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (cron)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (messages)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (secure)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (audit/audit.log)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT ()
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (sent 3,437 bytes  received 18,324 bytes  14,507.33 bytes/sec)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (total size is 14,992,502  speedup is 688.96)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT ()
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (sent 43 bytes  received 12 bytes  110.00 bytes/sec)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (total size is 11,899  speedup is 216.35)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT ()
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (sent 193 bytes  received 12 bytes  410.00 bytes/sec)
+Nov 14 23:37:03 vkim11-web CROND[19668]: (root) CMDOUT (total size is 9,988  speedup is 48.72)
+Nov 14 23:37:04 vkim11-web CROND[19668]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:37:04 vkim11-web CROND[19668]: (root) CMDOUT ()
+Nov 14 23:37:04 vkim11-web CROND[19668]: (root) CMDOUT (sent 47 bytes  received 12 bytes  39.33 bytes/sec)
+Nov 14 23:37:04 vkim11-web CROND[19668]: (root) CMDOUT (total size is 693  speedup is 11.75)
+Nov 14 23:38:01 vkim11-web CROND[19711]: (root) CMD (/root/backup.sh)
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT ()
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT (sent 54 bytes  received 12 bytes  132.00 bytes/sec)
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT (total size is 661  speedup is 10.02)
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT (cron)
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT (messages)
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT (secure)
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT (audit/audit.log)
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT ()
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT (sent 3,277 bytes  received 18,388 bytes  43,330.00 bytes/sec)
+Nov 14 23:38:01 vkim11-web CROND[19699]: (root) CMDOUT (total size is 15,000,849  speedup is 692.40)
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT ()
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT (sent 43 bytes  received 12 bytes  36.67 bytes/sec)
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT (total size is 11,899  speedup is 216.35)
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT ()
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT (sent 193 bytes  received 12 bytes  410.00 bytes/sec)
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT (total size is 9,988  speedup is 48.72)
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT ()
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT (sent 47 bytes  received 12 bytes  118.00 bytes/sec)
+Nov 14 23:38:02 vkim11-web CROND[19699]: (root) CMDOUT (total size is 693  speedup is 11.75)
+Nov 14 23:39:01 vkim11-web CROND[19744]: (root) CMD (/root/backup.sh)
+Nov 14 23:39:01 vkim11-web CROND[19732]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:39:01 vkim11-web CROND[19732]: (root) CMDOUT ()
+Nov 14 23:39:01 vkim11-web CROND[19732]: (root) CMDOUT (sent 54 bytes  received 12 bytes  132.00 bytes/sec)
+Nov 14 23:39:01 vkim11-web CROND[19732]: (root) CMDOUT (total size is 661  speedup is 10.02)
+Nov 14 23:39:02 vkim11-web CROND[19732]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:39:02 vkim11-web CROND[19732]: (root) CMDOUT (cron)
+Nov 14 23:39:02 vkim11-web CROND[19732]: (root) CMDOUT (messages)
+Nov 14 23:39:02 vkim11-web CROND[19732]: (root) CMDOUT (secure)
+Nov 14 23:39:02 vkim11-web CROND[19732]: (root) CMDOUT (audit/audit.log)
+Nov 14 23:39:02 vkim11-web CROND[19732]: (root) CMDOUT ()
+Nov 14 23:39:02 vkim11-web CROND[19732]: (root) CMDOUT (sent 3,306 bytes  received 18,426 bytes  14,488.00 bytes/sec)
+Nov 14 23:39:02 vkim11-web CROND[19732]: (root) CMDOUT (total size is 15,009,629  speedup is 690.67)
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT ()
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT (sent 43 bytes  received 12 bytes  36.67 bytes/sec)
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT (total size is 11,899  speedup is 216.35)
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT ()
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT (sent 193 bytes  received 12 bytes  410.00 bytes/sec)
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT (total size is 9,988  speedup is 48.72)
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT ()
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT (sent 47 bytes  received 12 bytes  118.00 bytes/sec)
+Nov 14 23:39:03 vkim11-web CROND[19732]: (root) CMDOUT (total size is 693  speedup is 11.75)
+Nov 14 23:39:59 vkim11-web crontab[19763]: (root) BEGIN EDIT (root)
+Nov 14 23:40:02 vkim11-web CROND[19777]: (root) CMD (/root/backup.sh)
+Nov 14 23:40:02 vkim11-web CROND[19765]: (root) CMDOUT (sending incremental file list)
+Nov 14 23:40:02 vkim11-web CROND[19765]: (root) CMDOUT ()
+Nov 14 23:40:02 vkim11-web CROND[19765]: (root) CMDOUT (sent 54 bytes  received 12 bytes  132.00 bytes/sec)
+Nov 14 23:40:02 vkim11-web CROND[19765]: (root) CMDOUT (total size is 661  speedup is 10.02)

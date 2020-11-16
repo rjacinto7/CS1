@@ -1,0 +1,1655 @@
+Nov  1 03:40:01 vkim11-pri systemd[1]: Reloading Berkeley Internet Name Domain (DNS).
+Nov  1 03:40:01 vkim11-pri named[6831]: received control channel command 'reload'
+Nov  1 03:40:01 vkim11-pri named[6831]: loading configuration from '/etc/named.conf'
+Nov  1 03:40:01 vkim11-pri named[6831]: /etc/named.conf:21: both "recursion no;" and "allow-recursion" active
+Nov  1 03:40:01 vkim11-pri named[6831]: unable to open '/etc/bind.keys'; using built-in keys instead
+Nov  1 03:40:01 vkim11-pri named[6831]: looking for GeoIP2 databases in '/usr/share/GeoIP'
+Nov  1 03:40:01 vkim11-pri named[6831]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-Country.mmdb'
+Nov  1 03:40:01 vkim11-pri named[6831]: opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-City.mmdb'
+Nov  1 03:40:01 vkim11-pri named[6831]: using default UDP/IPv4 port range: [32768, 60999]
+Nov  1 03:40:01 vkim11-pri named[6831]: using default UDP/IPv6 port range: [32768, 60999]
+Nov  1 03:40:01 vkim11-pri named[6831]: sizing zone task pool based on 3 zones
+Nov  1 03:40:01 vkim11-pri named[6831]: none:104: 'max-cache-size 90%' - setting to 1644MB (out of 1826MB)
+Nov  1 03:40:01 vkim11-pri named[6831]: none:104: 'max-cache-size 90%' - setting to 1644MB (out of 1826MB)
+Nov  1 03:40:01 vkim11-pri named[6831]: configuring command channel from '/etc/rndc.key'
+Nov  1 03:40:01 vkim11-pri named[6831]: configuring command channel from '/etc/rndc.key'
+Nov  1 03:40:01 vkim11-pri named[6831]: reloading configuration succeeded
+Nov  1 03:40:01 vkim11-pri named[6831]: reloading zones succeeded
+Nov  1 03:40:01 vkim11-pri named[6831]: all zones loaded
+Nov  1 03:40:01 vkim11-pri named[6831]: running
+Nov  1 03:40:01 vkim11-pri sh[12374]: server reload successful
+Nov  1 03:40:01 vkim11-pri systemd[1]: Reloaded Berkeley Internet Name Domain (DNS).
+Nov  1 03:40:01 vkim11-pri rsyslogd[1080]: [origin software="rsyslogd" swVersion="8.1911.0-3.el8" x-pid="1080" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Nov  1 04:33:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 04:33:50 vkim11-pri dnf[12413]: Metadata cache refreshed recently.
+Nov  1 04:33:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 05:34:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 05:34:50 vkim11-pri dnf[12436]: Metadata cache refreshed recently.
+Nov  1 05:34:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 06:35:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 06:35:50 vkim11-pri dnf[12459]: CentOS-8 - AppStream                             20 kB/s | 4.3 kB     00:00
+Nov  1 06:35:51 vkim11-pri dnf[12459]: CentOS-8 - Base                                  16 kB/s | 3.9 kB     00:00
+Nov  1 06:35:51 vkim11-pri dnf[12459]: CentOS-8 - Extras                               7.8 kB/s | 1.5 kB     00:00
+Nov  1 06:35:51 vkim11-pri dnf[12459]: Metadata cache created.
+Nov  1 06:35:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 07:36:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 07:36:50 vkim11-pri dnf[12488]: Metadata cache refreshed recently.
+Nov  1 07:36:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 07:47:09 vkim11-pri NetworkManager[995]: <error> [1604234829.7555] dhcp4 (ens192): error -113 dispatching events
+Nov  1 07:47:09 vkim11-pri NetworkManager[995]: <info>  [1604234829.7562] dhcp4 (ens192): state changed bound -> fail
+Nov  1 07:47:09 vkim11-pri NetworkManager[995]: <info>  [1604234829.7563] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8092] device (ens192): DHCPv4: grace period expired
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8093] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <warn>  [1604234919.8110] device (ens192): Activation: failed for connection 'ens192'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8118] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8124] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8151] dhcp4 (ens192): canceled DHCP transaction
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8151] dhcp4 (ens192): state changed fail -> done
+Nov  1 07:48:39 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  1 07:48:39 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 07:48:39 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8414] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8424] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8425] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8428] manager: NetworkManager state is now CONNECTING
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8429] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8434] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8437] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 07:48:39 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 07:48:39 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8557] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8557] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8557] dhcp4 (ens192): option expiry               => '1604321319'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8557] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8557] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8557] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8557] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8557] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_routers    => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8558] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8559] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8559] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8559] dhcp4 (ens192): state changed unknown -> bound
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8569] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  1 07:48:39 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8666] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8668] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8672] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8680] manager: NetworkManager state is now CONNECTED_SITE
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8681] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8713] device (ens192): Activation: successful, device activated.
+Nov  1 07:48:39 vkim11-pri NetworkManager[995]: <info>  [1604234919.8717] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  1 08:37:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 08:37:50 vkim11-pri dnf[12520]: Metadata cache refreshed recently.
+Nov  1 08:37:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 09:38:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 09:38:50 vkim11-pri dnf[12544]: CentOS-8 - AppStream                             30 kB/s | 4.3 kB     00:00
+Nov  1 09:38:51 vkim11-pri dnf[12544]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  1 09:38:51 vkim11-pri dnf[12544]: CentOS-8 - Extras                               6.2 kB/s | 1.5 kB     00:00
+Nov  1 09:38:51 vkim11-pri dnf[12544]: Metadata cache created.
+Nov  1 09:38:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 10:39:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 10:39:50 vkim11-pri dnf[12573]: Metadata cache refreshed recently.
+Nov  1 10:39:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 11:40:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 11:40:50 vkim11-pri dnf[12597]: Metadata cache refreshed recently.
+Nov  1 11:40:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 12:41:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 12:41:51 vkim11-pri dnf[12620]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Nov  1 12:41:51 vkim11-pri dnf[12620]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  1 12:41:51 vkim11-pri dnf[12620]: CentOS-8 - Extras                               5.1 kB/s | 1.5 kB     00:00
+Nov  1 12:41:51 vkim11-pri dnf[12620]: Metadata cache created.
+Nov  1 12:41:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 13:42:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 13:42:50 vkim11-pri dnf[12650]: Metadata cache refreshed recently.
+Nov  1 13:42:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 14:43:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 14:43:50 vkim11-pri dnf[12673]: Metadata cache refreshed recently.
+Nov  1 14:43:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 15:44:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 15:44:51 vkim11-pri dnf[12697]: CentOS-8 - AppStream                             11 kB/s | 4.3 kB     00:00
+Nov  1 15:44:51 vkim11-pri dnf[12697]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Nov  1 15:44:51 vkim11-pri dnf[12697]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Nov  1 15:44:51 vkim11-pri dnf[12697]: Metadata cache created.
+Nov  1 15:44:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 16:45:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 16:45:50 vkim11-pri dnf[12726]: Metadata cache refreshed recently.
+Nov  1 16:45:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 17:46:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 17:46:50 vkim11-pri dnf[12749]: Metadata cache refreshed recently.
+Nov  1 17:46:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 18:47:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 18:47:50 vkim11-pri dnf[12773]: CentOS-8 - AppStream                             24 kB/s | 4.3 kB     00:00
+Nov  1 18:47:51 vkim11-pri dnf[12773]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  1 18:47:51 vkim11-pri dnf[12773]: CentOS-8 - Extras                                14 kB/s | 1.5 kB     00:00
+Nov  1 18:47:51 vkim11-pri dnf[12773]: Metadata cache created.
+Nov  1 18:47:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 19:41:50 vkim11-pri systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  1 19:41:50 vkim11-pri systemd[1]: Started Cleanup of Temporary Directories.
+Nov  1 19:48:39 vkim11-pri NetworkManager[995]: <error> [1604278119.8475] dhcp4 (ens192): error -113 dispatching events
+Nov  1 19:48:39 vkim11-pri NetworkManager[995]: <info>  [1604278119.8482] dhcp4 (ens192): state changed bound -> fail
+Nov  1 19:48:39 vkim11-pri NetworkManager[995]: <info>  [1604278119.8483] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  1 19:48:39 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 19:48:40 vkim11-pri dnf[12805]: Metadata cache refreshed recently.
+Nov  1 19:48:40 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8092] device (ens192): DHCPv4: grace period expired
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8093] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <warn>  [1604278209.8107] device (ens192): Activation: failed for connection 'ens192'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8114] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8118] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8131] dhcp4 (ens192): canceled DHCP transaction
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8131] dhcp4 (ens192): state changed fail -> done
+Nov  1 19:50:09 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  1 19:50:09 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 19:50:09 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8344] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8354] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8355] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8358] manager: NetworkManager state is now CONNECTING
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8359] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8364] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8366] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8442] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option expiry               => '1604364609'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8443] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option requested_routers    => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8444] dhcp4 (ens192): state changed unknown -> bound
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8454] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  1 19:50:09 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  1 19:50:09 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 19:50:09 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8554] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8556] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8560] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8568] manager: NetworkManager state is now CONNECTED_SITE
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8569] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8601] device (ens192): Activation: successful, device activated.
+Nov  1 19:50:09 vkim11-pri NetworkManager[995]: <info>  [1604278209.8606] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  1 20:48:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 20:48:50 vkim11-pri dnf[12836]: Metadata cache refreshed recently.
+Nov  1 20:48:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 21:49:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 21:49:50 vkim11-pri dnf[12859]: CentOS-8 - AppStream                             35 kB/s | 4.3 kB     00:00
+Nov  1 21:49:51 vkim11-pri dnf[12859]: CentOS-8 - Base                                  23 kB/s | 3.9 kB     00:00
+Nov  1 21:49:51 vkim11-pri dnf[12859]: CentOS-8 - Extras                               6.1 kB/s | 1.5 kB     00:00
+Nov  1 21:49:51 vkim11-pri dnf[12859]: Metadata cache created.
+Nov  1 21:49:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 22:50:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 22:50:50 vkim11-pri dnf[12889]: Metadata cache refreshed recently.
+Nov  1 22:50:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  1 23:51:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  1 23:51:50 vkim11-pri dnf[12912]: Metadata cache refreshed recently.
+Nov  1 23:51:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 00:00:50 vkim11-pri systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  2 00:00:50 vkim11-pri systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  2 00:52:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 00:52:50 vkim11-pri dnf[12940]: CentOS-8 - AppStream                             20 kB/s | 4.3 kB     00:00
+Nov  2 00:52:51 vkim11-pri dnf[12940]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  2 00:52:51 vkim11-pri dnf[12940]: CentOS-8 - Extras                                14 kB/s | 1.5 kB     00:00
+Nov  2 00:52:51 vkim11-pri dnf[12940]: Metadata cache created.
+Nov  2 00:52:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 01:53:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 01:53:50 vkim11-pri dnf[12971]: Metadata cache refreshed recently.
+Nov  2 01:53:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 02:54:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 02:54:50 vkim11-pri dnf[12997]: Metadata cache refreshed recently.
+Nov  2 02:54:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 03:55:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 03:55:50 vkim11-pri dnf[13031]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Nov  2 03:55:51 vkim11-pri dnf[13031]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  2 03:55:51 vkim11-pri dnf[13031]: CentOS-8 - Extras                               4.3 kB/s | 1.5 kB     00:00
+Nov  2 03:55:51 vkim11-pri dnf[13031]: Metadata cache created.
+Nov  2 03:55:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 04:56:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 04:56:50 vkim11-pri dnf[13060]: Metadata cache refreshed recently.
+Nov  2 04:56:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 05:57:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 05:57:50 vkim11-pri dnf[13084]: Metadata cache refreshed recently.
+Nov  2 05:57:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 06:58:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 06:58:50 vkim11-pri dnf[13108]: CentOS-8 - AppStream                             28 kB/s | 4.3 kB     00:00
+Nov  2 06:58:51 vkim11-pri dnf[13108]: CentOS-8 - Base                                  26 kB/s | 3.9 kB     00:00
+Nov  2 06:58:51 vkim11-pri dnf[13108]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Nov  2 06:58:51 vkim11-pri dnf[13108]: Metadata cache created.
+Nov  2 06:58:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 07:50:09 vkim11-pri NetworkManager[995]: <error> [1604321409.8404] dhcp4 (ens192): error -113 dispatching events
+Nov  2 07:50:09 vkim11-pri NetworkManager[995]: <info>  [1604321409.8410] dhcp4 (ens192): state changed bound -> fail
+Nov  2 07:50:09 vkim11-pri NetworkManager[995]: <info>  [1604321409.8412] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8092] device (ens192): DHCPv4: grace period expired
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8094] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <warn>  [1604321499.8112] device (ens192): Activation: failed for connection 'ens192'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8120] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8124] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8144] dhcp4 (ens192): canceled DHCP transaction
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8144] dhcp4 (ens192): state changed fail -> done
+Nov  2 07:51:39 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  2 07:51:39 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  2 07:51:39 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8427] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8437] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8438] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8441] manager: NetworkManager state is now CONNECTING
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8442] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8447] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8450] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  2 07:51:39 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8539] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  2 07:51:39 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8539] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8539] dhcp4 (ens192): option expiry               => '1604407899'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8539] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8539] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8539] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8539] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_routers    => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8540] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8541] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8541] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8541] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8541] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8541] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8541] dhcp4 (ens192): state changed unknown -> bound
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8551] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  2 07:51:39 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8676] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8678] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8683] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8691] manager: NetworkManager state is now CONNECTED_SITE
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8692] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8724] device (ens192): Activation: successful, device activated.
+Nov  2 07:51:39 vkim11-pri NetworkManager[995]: <info>  [1604321499.8729] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  2 07:59:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 07:59:50 vkim11-pri dnf[13145]: Metadata cache refreshed recently.
+Nov  2 07:59:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 09:00:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 09:00:50 vkim11-pri dnf[13168]: Metadata cache refreshed recently.
+Nov  2 09:00:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 10:01:01 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 10:01:09 vkim11-pri dnf[13192]: CentOS-8 - AppStream                            603  B/s | 4.3 kB     00:07
+Nov  2 10:01:10 vkim11-pri dnf[13192]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  2 10:01:10 vkim11-pri dnf[13192]: CentOS-8 - Extras                                18 kB/s | 1.5 kB     00:00
+Nov  2 10:01:10 vkim11-pri dnf[13192]: Metadata cache created.
+Nov  2 10:01:10 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 11:01:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 11:01:50 vkim11-pri dnf[13232]: Metadata cache refreshed recently.
+Nov  2 11:01:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 12:02:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 12:02:50 vkim11-pri dnf[13255]: Metadata cache refreshed recently.
+Nov  2 12:02:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 13:03:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 13:03:52 vkim11-pri dnf[13279]: CentOS-8 - AppStream                            3.0 kB/s | 4.3 kB     00:01
+Nov  2 13:03:52 vkim11-pri dnf[13279]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Nov  2 13:03:52 vkim11-pri dnf[13279]: CentOS-8 - Extras                               4.2 kB/s | 1.5 kB     00:00
+Nov  2 13:03:53 vkim11-pri dnf[13279]: Metadata cache created.
+Nov  2 13:03:53 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 14:04:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 14:04:50 vkim11-pri dnf[13309]: Metadata cache refreshed recently.
+Nov  2 14:04:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 15:05:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 15:05:50 vkim11-pri dnf[13332]: Metadata cache refreshed recently.
+Nov  2 15:05:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 16:06:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 16:06:50 vkim11-pri dnf[13355]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Nov  2 16:06:51 vkim11-pri dnf[13355]: CentOS-8 - Base                                  25 kB/s | 3.9 kB     00:00
+Nov  2 16:06:51 vkim11-pri dnf[13355]: CentOS-8 - Extras                               4.6 kB/s | 1.5 kB     00:00
+Nov  2 16:06:51 vkim11-pri dnf[13355]: Metadata cache created.
+Nov  2 16:06:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 17:07:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 17:07:50 vkim11-pri dnf[13385]: Metadata cache refreshed recently.
+Nov  2 17:07:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 18:08:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 18:08:50 vkim11-pri dnf[13408]: Metadata cache refreshed recently.
+Nov  2 18:08:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 19:09:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 19:09:51 vkim11-pri dnf[13432]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Nov  2 19:09:51 vkim11-pri dnf[13432]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  2 19:09:51 vkim11-pri dnf[13432]: CentOS-8 - Extras                               5.9 kB/s | 1.5 kB     00:00
+Nov  2 19:09:51 vkim11-pri dnf[13432]: Metadata cache created.
+Nov  2 19:09:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 19:42:50 vkim11-pri systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  2 19:42:50 vkim11-pri systemd[1]: Started Cleanup of Temporary Directories.
+Nov  2 19:51:39 vkim11-pri NetworkManager[995]: <error> [1604364699.8486] dhcp4 (ens192): error -113 dispatching events
+Nov  2 19:51:39 vkim11-pri NetworkManager[995]: <info>  [1604364699.8487] dhcp4 (ens192): state changed bound -> fail
+Nov  2 19:51:39 vkim11-pri NetworkManager[995]: <info>  [1604364699.8488] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7556] device (ens192): DHCPv4: grace period expired
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7557] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <warn>  [1604364789.7571] device (ens192): Activation: failed for connection 'ens192'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7578] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7582] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7593] dhcp4 (ens192): canceled DHCP transaction
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7593] dhcp4 (ens192): state changed fail -> done
+Nov  2 19:53:09 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  2 19:53:09 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  2 19:53:09 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7849] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7859] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7860] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7863] manager: NetworkManager state is now CONNECTING
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7864] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7869] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7872] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  2 19:53:09 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  2 19:53:09 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7967] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  2 19:53:09 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7967] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7967] dhcp4 (ens192): option expiry               => '1604451189'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7968] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7969] dhcp4 (ens192): option requested_routers    => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7969] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7969] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7969] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7969] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7969] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7969] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7969] dhcp4 (ens192): state changed unknown -> bound
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.7979] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.8057] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.8060] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.8064] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.8072] manager: NetworkManager state is now CONNECTED_SITE
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.8073] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.8103] device (ens192): Activation: successful, device activated.
+Nov  2 19:53:09 vkim11-pri NetworkManager[995]: <info>  [1604364789.8108] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  2 20:10:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 20:10:50 vkim11-pri dnf[13472]: Metadata cache refreshed recently.
+Nov  2 20:10:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 21:11:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 21:11:50 vkim11-pri dnf[13495]: Metadata cache refreshed recently.
+Nov  2 21:11:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 22:12:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 22:12:51 vkim11-pri dnf[13518]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Nov  2 22:12:51 vkim11-pri dnf[13518]: CentOS-8 - Base                                  21 kB/s | 3.9 kB     00:00
+Nov  2 22:12:51 vkim11-pri dnf[13518]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Nov  2 22:12:51 vkim11-pri dnf[13518]: Metadata cache created.
+Nov  2 22:12:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  2 23:13:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  2 23:13:50 vkim11-pri dnf[13548]: Metadata cache refreshed recently.
+Nov  2 23:13:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 00:00:50 vkim11-pri systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  3 00:00:50 vkim11-pri systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  3 00:14:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 00:14:50 vkim11-pri dnf[13575]: Metadata cache refreshed recently.
+Nov  3 00:14:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 01:15:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 01:15:50 vkim11-pri dnf[13601]: CentOS-8 - AppStream                             24 kB/s | 4.3 kB     00:00
+Nov  3 01:15:51 vkim11-pri dnf[13601]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  3 01:15:51 vkim11-pri dnf[13601]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Nov  3 01:15:51 vkim11-pri dnf[13601]: Metadata cache created.
+Nov  3 01:15:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 02:16:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 02:16:50 vkim11-pri dnf[13632]: Metadata cache refreshed recently.
+Nov  3 02:16:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 03:17:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 03:17:50 vkim11-pri dnf[13657]: Metadata cache refreshed recently.
+Nov  3 03:17:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 04:18:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 04:18:50 vkim11-pri dnf[13690]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Nov  3 04:18:51 vkim11-pri dnf[13690]: CentOS-8 - Base                                  26 kB/s | 3.9 kB     00:00
+Nov  3 04:18:51 vkim11-pri dnf[13690]: CentOS-8 - Extras                               5.5 kB/s | 1.5 kB     00:00
+Nov  3 04:18:51 vkim11-pri dnf[13690]: Metadata cache created.
+Nov  3 04:18:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 05:19:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 05:19:50 vkim11-pri dnf[13720]: Metadata cache refreshed recently.
+Nov  3 05:19:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 06:20:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 06:20:50 vkim11-pri dnf[13743]: Metadata cache refreshed recently.
+Nov  3 06:20:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 07:21:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 07:21:51 vkim11-pri dnf[13766]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  3 07:21:51 vkim11-pri dnf[13766]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Nov  3 07:21:51 vkim11-pri dnf[13766]: CentOS-8 - Extras                               5.9 kB/s | 1.5 kB     00:00
+Nov  3 07:21:51 vkim11-pri dnf[13766]: Metadata cache created.
+Nov  3 07:21:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 07:53:09 vkim11-pri NetworkManager[995]: <error> [1604407989.7903] dhcp4 (ens192): error -113 dispatching events
+Nov  3 07:53:09 vkim11-pri NetworkManager[995]: <info>  [1604407989.7914] dhcp4 (ens192): state changed bound -> fail
+Nov  3 07:53:09 vkim11-pri NetworkManager[995]: <info>  [1604407989.7915] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8091] device (ens192): DHCPv4: grace period expired
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8092] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <warn>  [1604408079.8107] device (ens192): Activation: failed for connection 'ens192'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8115] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8118] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8132] dhcp4 (ens192): canceled DHCP transaction
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8132] dhcp4 (ens192): state changed fail -> done
+Nov  3 07:54:39 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  3 07:54:39 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  3 07:54:39 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8406] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8415] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8416] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8419] manager: NetworkManager state is now CONNECTING
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8421] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8426] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8428] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  3 07:54:39 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  3 07:54:39 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8534] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8534] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8534] dhcp4 (ens192): option expiry               => '1604494479'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8534] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8535] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8536] dhcp4 (ens192): option requested_routers    => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8536] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8536] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8536] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8536] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8536] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8536] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8536] dhcp4 (ens192): state changed unknown -> bound
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8546] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  3 07:54:39 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8648] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8650] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8654] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8662] manager: NetworkManager state is now CONNECTED_SITE
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8663] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8693] device (ens192): Activation: successful, device activated.
+Nov  3 07:54:39 vkim11-pri NetworkManager[995]: <info>  [1604408079.8697] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  3 08:22:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 08:22:50 vkim11-pri dnf[13804]: Metadata cache refreshed recently.
+Nov  3 08:22:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 09:23:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 09:23:50 vkim11-pri dnf[13827]: Metadata cache refreshed recently.
+Nov  3 09:23:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 10:24:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 10:24:50 vkim11-pri dnf[13851]: CentOS-8 - AppStream                             29 kB/s | 4.3 kB     00:00
+Nov  3 10:24:51 vkim11-pri dnf[13851]: CentOS-8 - Base                                  22 kB/s | 3.9 kB     00:00
+Nov  3 10:24:51 vkim11-pri dnf[13851]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Nov  3 10:24:51 vkim11-pri dnf[13851]: Metadata cache created.
+Nov  3 10:24:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 11:25:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 11:25:50 vkim11-pri dnf[13880]: Metadata cache refreshed recently.
+Nov  3 11:25:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 12:26:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 12:26:50 vkim11-pri dnf[13903]: Metadata cache refreshed recently.
+Nov  3 12:26:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 13:27:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 13:27:51 vkim11-pri dnf[13927]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  3 13:27:51 vkim11-pri dnf[13927]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  3 13:27:51 vkim11-pri dnf[13927]: CentOS-8 - Extras                               9.2 kB/s | 1.5 kB     00:00
+Nov  3 13:27:51 vkim11-pri dnf[13927]: Metadata cache created.
+Nov  3 13:27:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 14:28:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 14:28:50 vkim11-pri dnf[13957]: Metadata cache refreshed recently.
+Nov  3 14:28:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 15:29:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 15:29:50 vkim11-pri dnf[13980]: Metadata cache refreshed recently.
+Nov  3 15:29:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 16:30:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 16:30:50 vkim11-pri dnf[14003]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  3 16:30:51 vkim11-pri dnf[14003]: CentOS-8 - Base                                  44 kB/s | 3.9 kB     00:00
+Nov  3 16:30:51 vkim11-pri dnf[14003]: CentOS-8 - Extras                               8.4 kB/s | 1.5 kB     00:00
+Nov  3 16:30:51 vkim11-pri dnf[14003]: Metadata cache created.
+Nov  3 16:30:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 17:31:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 17:31:50 vkim11-pri dnf[14032]: Metadata cache refreshed recently.
+Nov  3 17:31:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 18:32:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 18:32:50 vkim11-pri dnf[14056]: Metadata cache refreshed recently.
+Nov  3 18:32:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 19:33:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 19:33:51 vkim11-pri dnf[14079]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  3 19:33:51 vkim11-pri dnf[14079]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  3 19:33:51 vkim11-pri dnf[14079]: CentOS-8 - Extras                               8.6 kB/s | 1.5 kB     00:00
+Nov  3 19:33:51 vkim11-pri dnf[14079]: Metadata cache created.
+Nov  3 19:33:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 19:43:50 vkim11-pri systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  3 19:43:50 vkim11-pri systemd[1]: Started Cleanup of Temporary Directories.
+Nov  3 19:54:39 vkim11-pri NetworkManager[995]: <error> [1604451279.8470] dhcp4 (ens192): error -113 dispatching events
+Nov  3 19:54:39 vkim11-pri NetworkManager[995]: <info>  [1604451279.8476] dhcp4 (ens192): state changed bound -> fail
+Nov  3 19:54:39 vkim11-pri NetworkManager[995]: <info>  [1604451279.8477] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8092] device (ens192): DHCPv4: grace period expired
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8093] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <warn>  [1604451369.8108] device (ens192): Activation: failed for connection 'ens192'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8115] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8119] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8128] dhcp4 (ens192): canceled DHCP transaction
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8128] dhcp4 (ens192): state changed fail -> done
+Nov  3 19:56:09 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  3 19:56:09 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  3 19:56:09 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8389] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8398] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8399] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8402] manager: NetworkManager state is now CONNECTING
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8404] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8409] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8411] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  3 19:56:09 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  3 19:56:09 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8506] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8506] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8506] dhcp4 (ens192): option expiry               => '1604537769'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8507] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8508] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8508] dhcp4 (ens192): option requested_routers    => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8508] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8508] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8508] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8508] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8508] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8508] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8508] dhcp4 (ens192): state changed unknown -> bound
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8517] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  3 19:56:09 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8606] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8608] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8612] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8620] manager: NetworkManager state is now CONNECTED_SITE
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8621] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8652] device (ens192): Activation: successful, device activated.
+Nov  3 19:56:09 vkim11-pri NetworkManager[995]: <info>  [1604451369.8657] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  3 20:34:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 20:34:50 vkim11-pri dnf[14119]: Metadata cache refreshed recently.
+Nov  3 20:34:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 21:35:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 21:35:50 vkim11-pri dnf[14141]: Metadata cache refreshed recently.
+Nov  3 21:35:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 22:36:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 22:36:50 vkim11-pri dnf[14165]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Nov  3 22:36:51 vkim11-pri dnf[14165]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  3 22:36:51 vkim11-pri dnf[14165]: CentOS-8 - Extras                                10 kB/s | 1.5 kB     00:00
+Nov  3 22:36:51 vkim11-pri dnf[14165]: Metadata cache created.
+Nov  3 22:36:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  3 23:37:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  3 23:37:50 vkim11-pri dnf[14195]: Metadata cache refreshed recently.
+Nov  3 23:37:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 00:00:50 vkim11-pri systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  4 00:00:50 vkim11-pri systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  4 00:38:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 00:38:50 vkim11-pri dnf[14223]: Metadata cache refreshed recently.
+Nov  4 00:38:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 01:39:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 01:39:50 vkim11-pri dnf[14248]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Nov  4 01:39:51 vkim11-pri dnf[14248]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  4 01:39:51 vkim11-pri dnf[14248]: CentOS-8 - Extras                               7.2 kB/s | 1.5 kB     00:00
+Nov  4 01:39:51 vkim11-pri dnf[14248]: Metadata cache created.
+Nov  4 01:39:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 02:40:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 02:40:50 vkim11-pri dnf[14279]: Metadata cache refreshed recently.
+Nov  4 02:40:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 03:41:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 03:41:50 vkim11-pri dnf[14315]: Metadata cache refreshed recently.
+Nov  4 03:41:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 04:42:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 04:42:50 vkim11-pri dnf[14339]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  4 04:42:51 vkim11-pri dnf[14339]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  4 04:42:51 vkim11-pri dnf[14339]: CentOS-8 - Extras                               6.2 kB/s | 1.5 kB     00:00
+Nov  4 04:42:51 vkim11-pri dnf[14339]: Metadata cache created.
+Nov  4 04:42:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 05:43:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 05:43:50 vkim11-pri dnf[14369]: Metadata cache refreshed recently.
+Nov  4 05:43:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 06:44:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 06:44:50 vkim11-pri dnf[14392]: Metadata cache refreshed recently.
+Nov  4 06:44:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 07:45:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 07:45:50 vkim11-pri dnf[14415]: CentOS-8 - AppStream                             33 kB/s | 4.3 kB     00:00
+Nov  4 07:45:51 vkim11-pri dnf[14415]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Nov  4 07:45:51 vkim11-pri dnf[14415]: CentOS-8 - Extras                               4.4 kB/s | 1.5 kB     00:00
+Nov  4 07:45:51 vkim11-pri dnf[14415]: Metadata cache created.
+Nov  4 07:45:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 07:56:09 vkim11-pri NetworkManager[995]: <error> [1604494569.8450] dhcp4 (ens192): error -113 dispatching events
+Nov  4 07:56:09 vkim11-pri NetworkManager[995]: <info>  [1604494569.8457] dhcp4 (ens192): state changed bound -> fail
+Nov  4 07:56:09 vkim11-pri NetworkManager[995]: <info>  [1604494569.8458] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7332] device (ens192): DHCPv4: grace period expired
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7333] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <warn>  [1604494659.7349] device (ens192): Activation: failed for connection 'ens192'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7356] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7360] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7372] dhcp4 (ens192): canceled DHCP transaction
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7372] dhcp4 (ens192): state changed fail -> done
+Nov  4 07:57:39 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  4 07:57:39 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  4 07:57:39 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7628] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7638] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7639] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7642] manager: NetworkManager state is now CONNECTING
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7643] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7647] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7650] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7723] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7723] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7723] dhcp4 (ens192): option expiry               => '1604581059'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7723] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7723] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_routers    => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7724] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7725] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7725] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7725] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7725] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7725] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7725] dhcp4 (ens192): state changed unknown -> bound
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7735] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  4 07:57:39 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  4 07:57:39 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  4 07:57:39 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7847] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7849] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7853] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7861] manager: NetworkManager state is now CONNECTED_SITE
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7862] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7894] device (ens192): Activation: successful, device activated.
+Nov  4 07:57:39 vkim11-pri NetworkManager[995]: <info>  [1604494659.7899] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  4 08:46:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 08:46:50 vkim11-pri dnf[14452]: Metadata cache refreshed recently.
+Nov  4 08:46:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 09:47:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 09:47:50 vkim11-pri dnf[14475]: Metadata cache refreshed recently.
+Nov  4 09:47:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 10:48:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 10:48:51 vkim11-pri dnf[14499]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  4 10:48:51 vkim11-pri dnf[14499]: CentOS-8 - Base                                  24 kB/s | 3.9 kB     00:00
+Nov  4 10:48:51 vkim11-pri dnf[14499]: CentOS-8 - Extras                               6.2 kB/s | 1.5 kB     00:00
+Nov  4 10:48:51 vkim11-pri dnf[14499]: Metadata cache created.
+Nov  4 10:48:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 11:49:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 11:49:50 vkim11-pri dnf[14528]: Metadata cache refreshed recently.
+Nov  4 11:49:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 12:50:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 12:50:50 vkim11-pri dnf[14551]: Metadata cache refreshed recently.
+Nov  4 12:50:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 13:51:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 13:51:50 vkim11-pri dnf[14574]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  4 13:51:51 vkim11-pri dnf[14574]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  4 13:51:51 vkim11-pri dnf[14574]: CentOS-8 - Extras                               8.3 kB/s | 1.5 kB     00:00
+Nov  4 13:51:51 vkim11-pri dnf[14574]: Metadata cache created.
+Nov  4 13:51:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 14:52:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 14:52:50 vkim11-pri dnf[14604]: Metadata cache refreshed recently.
+Nov  4 14:52:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 15:53:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 15:53:50 vkim11-pri dnf[14627]: Metadata cache refreshed recently.
+Nov  4 15:53:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 16:54:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 16:54:50 vkim11-pri dnf[14651]: CentOS-8 - AppStream                             18 kB/s | 4.3 kB     00:00
+Nov  4 16:54:51 vkim11-pri dnf[14651]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  4 16:54:51 vkim11-pri dnf[14651]: CentOS-8 - Extras                               8.1 kB/s | 1.5 kB     00:00
+Nov  4 16:54:51 vkim11-pri dnf[14651]: Metadata cache created.
+Nov  4 16:54:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 17:55:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 17:55:50 vkim11-pri dnf[14680]: Metadata cache refreshed recently.
+Nov  4 17:55:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 18:56:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 18:56:50 vkim11-pri dnf[14703]: Metadata cache refreshed recently.
+Nov  4 18:56:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 19:44:50 vkim11-pri systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  4 19:44:50 vkim11-pri systemd[1]: Started Cleanup of Temporary Directories.
+Nov  4 19:57:39 vkim11-pri NetworkManager[995]: <error> [1604537859.7696] dhcp4 (ens192): error -113 dispatching events
+Nov  4 19:57:39 vkim11-pri NetworkManager[995]: <info>  [1604537859.7706] dhcp4 (ens192): state changed bound -> fail
+Nov  4 19:57:39 vkim11-pri NetworkManager[995]: <info>  [1604537859.7707] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  4 19:57:39 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 19:57:40 vkim11-pri dnf[14729]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Nov  4 19:57:40 vkim11-pri dnf[14729]: CentOS-8 - Base                                  21 kB/s | 3.9 kB     00:00
+Nov  4 19:57:40 vkim11-pri dnf[14729]: CentOS-8 - Extras                               4.9 kB/s | 1.5 kB     00:00
+Nov  4 19:57:41 vkim11-pri dnf[14729]: Metadata cache created.
+Nov  4 19:57:41 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.7852] device (ens192): DHCPv4: grace period expired
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.7854] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <warn>  [1604537949.7868] device (ens192): Activation: failed for connection 'ens192'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.7875] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.7879] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.7889] dhcp4 (ens192): canceled DHCP transaction
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.7890] dhcp4 (ens192): state changed fail -> done
+Nov  4 19:59:09 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  4 19:59:09 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  4 19:59:09 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8094] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8104] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8105] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8107] manager: NetworkManager state is now CONNECTING
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8109] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8113] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8116] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  4 19:59:09 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  4 19:59:09 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8210] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8210] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8211] dhcp4 (ens192): option expiry               => '1604624349'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8211] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8211] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8211] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8211] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8211] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8211] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8211] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8211] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8211] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option requested_routers    => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8212] dhcp4 (ens192): state changed unknown -> bound
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8221] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  4 19:59:09 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8313] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8315] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8319] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8327] manager: NetworkManager state is now CONNECTED_SITE
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8328] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8357] device (ens192): Activation: successful, device activated.
+Nov  4 19:59:09 vkim11-pri NetworkManager[995]: <info>  [1604537949.8362] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  4 20:57:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 20:57:50 vkim11-pri dnf[14766]: Metadata cache refreshed recently.
+Nov  4 20:57:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 21:58:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 21:58:50 vkim11-pri dnf[14790]: Metadata cache refreshed recently.
+Nov  4 21:58:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  4 22:59:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  4 22:59:50 vkim11-pri dnf[14813]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  4 22:59:51 vkim11-pri dnf[14813]: CentOS-8 - Base                                  33 kB/s | 3.9 kB     00:00
+Nov  4 22:59:51 vkim11-pri dnf[14813]: CentOS-8 - Extras                               6.3 kB/s | 1.5 kB     00:00
+Nov  4 22:59:51 vkim11-pri dnf[14813]: Metadata cache created.
+Nov  4 22:59:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 00:00:50 vkim11-pri systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  5 00:00:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 00:00:50 vkim11-pri systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  5 00:00:50 vkim11-pri dnf[14844]: Metadata cache refreshed recently.
+Nov  5 00:00:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 01:01:01 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 01:01:01 vkim11-pri dnf[14871]: Metadata cache refreshed recently.
+Nov  5 01:01:01 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 02:01:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 02:01:50 vkim11-pri dnf[14908]: CentOS-8 - AppStream                             19 kB/s | 4.3 kB     00:00
+Nov  5 02:01:51 vkim11-pri dnf[14908]: CentOS-8 - Base                                  15 kB/s | 3.9 kB     00:00
+Nov  5 02:01:51 vkim11-pri dnf[14908]: CentOS-8 - Extras                               5.1 kB/s | 1.5 kB     00:00
+Nov  5 02:01:51 vkim11-pri dnf[14908]: Metadata cache created.
+Nov  5 02:01:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 03:02:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 03:02:50 vkim11-pri dnf[14940]: Metadata cache refreshed recently.
+Nov  5 03:02:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 04:03:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 04:03:50 vkim11-pri dnf[14973]: Metadata cache refreshed recently.
+Nov  5 04:03:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 05:04:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 05:04:50 vkim11-pri dnf[14996]: CentOS-8 - AppStream                             25 kB/s | 4.3 kB     00:00
+Nov  5 05:04:51 vkim11-pri dnf[14996]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Nov  5 05:04:51 vkim11-pri dnf[14996]: CentOS-8 - Extras                               5.6 kB/s | 1.5 kB     00:00
+Nov  5 05:04:51 vkim11-pri dnf[14996]: Metadata cache created.
+Nov  5 05:04:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 06:05:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 06:05:50 vkim11-pri dnf[15026]: Metadata cache refreshed recently.
+Nov  5 06:05:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 07:06:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 07:06:50 vkim11-pri dnf[15049]: Metadata cache refreshed recently.
+Nov  5 07:06:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 07:59:09 vkim11-pri NetworkManager[995]: <error> [1604581149.8158] dhcp4 (ens192): error -113 dispatching events
+Nov  5 07:59:09 vkim11-pri NetworkManager[995]: <info>  [1604581149.8164] dhcp4 (ens192): state changed bound -> fail
+Nov  5 07:59:09 vkim11-pri NetworkManager[995]: <info>  [1604581149.8165] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8091] device (ens192): DHCPv4: grace period expired
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8093] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <warn>  [1604581239.8108] device (ens192): Activation: failed for connection 'ens192'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8115] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8119] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8134] dhcp4 (ens192): canceled DHCP transaction
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8134] dhcp4 (ens192): state changed fail -> done
+Nov  5 08:00:39 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  5 08:00:39 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  5 08:00:39 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8375] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8384] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8386] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8389] manager: NetworkManager state is now CONNECTING
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8390] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8395] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8397] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  5 08:00:39 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  5 08:00:39 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  5 08:00:39 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8494] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8494] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8494] dhcp4 (ens192): option expiry               => '1604667639'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8494] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8494] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8494] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8494] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8494] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8494] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_routers    => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8495] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8496] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8496] dhcp4 (ens192): state changed unknown -> bound
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8505] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8616] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8618] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8623] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8631] manager: NetworkManager state is now CONNECTED_SITE
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8632] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8665] device (ens192): Activation: successful, device activated.
+Nov  5 08:00:39 vkim11-pri NetworkManager[995]: <info>  [1604581239.8670] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  5 08:07:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 08:07:50 vkim11-pri dnf[15080]: CentOS-8 - AppStream                             23 kB/s | 4.3 kB     00:00
+Nov  5 08:07:51 vkim11-pri dnf[15080]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  5 08:07:51 vkim11-pri dnf[15080]: CentOS-8 - Extras                               6.9 kB/s | 1.5 kB     00:00
+Nov  5 08:07:51 vkim11-pri dnf[15080]: Metadata cache created.
+Nov  5 08:07:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 09:08:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 09:08:50 vkim11-pri dnf[15110]: Metadata cache refreshed recently.
+Nov  5 09:08:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 10:09:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 10:09:50 vkim11-pri dnf[15133]: Metadata cache refreshed recently.
+Nov  5 10:09:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 11:10:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 11:10:51 vkim11-pri dnf[15157]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Nov  5 11:10:51 vkim11-pri dnf[15157]: CentOS-8 - Base                                  18 kB/s | 3.9 kB     00:00
+Nov  5 11:10:51 vkim11-pri dnf[15157]: CentOS-8 - Extras                                11 kB/s | 1.5 kB     00:00
+Nov  5 11:10:51 vkim11-pri dnf[15157]: Metadata cache created.
+Nov  5 11:10:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 12:11:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 12:11:50 vkim11-pri dnf[15186]: Metadata cache refreshed recently.
+Nov  5 12:11:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 13:12:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 13:12:50 vkim11-pri dnf[15210]: Metadata cache refreshed recently.
+Nov  5 13:12:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 14:13:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 14:13:50 vkim11-pri dnf[15233]: CentOS-8 - AppStream                             22 kB/s | 4.3 kB     00:00
+Nov  5 14:14:06 vkim11-pri dnf[15233]: CentOS-8 - Base                                 255  B/s | 3.9 kB     00:15
+Nov  5 14:14:06 vkim11-pri dnf[15233]: CentOS-8 - Extras                               9.1 kB/s | 1.5 kB     00:00
+Nov  5 14:14:06 vkim11-pri dnf[15233]: Metadata cache created.
+Nov  5 14:14:06 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 15:14:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 15:14:50 vkim11-pri dnf[15263]: Metadata cache refreshed recently.
+Nov  5 15:14:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 16:15:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 16:15:50 vkim11-pri dnf[15286]: Metadata cache refreshed recently.
+Nov  5 16:15:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 17:16:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 17:16:50 vkim11-pri dnf[15309]: CentOS-8 - AppStream                             21 kB/s | 4.3 kB     00:00
+Nov  5 17:16:51 vkim11-pri dnf[15309]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  5 17:16:51 vkim11-pri dnf[15309]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Nov  5 17:16:51 vkim11-pri dnf[15309]: Metadata cache created.
+Nov  5 17:16:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 18:17:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 18:17:50 vkim11-pri dnf[15339]: Metadata cache refreshed recently.
+Nov  5 18:17:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 19:18:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 19:18:50 vkim11-pri dnf[15363]: Metadata cache refreshed recently.
+Nov  5 19:18:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 19:45:50 vkim11-pri systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  5 19:45:50 vkim11-pri systemd[1]: Started Cleanup of Temporary Directories.
+Nov  5 20:00:39 vkim11-pri NetworkManager[995]: <error> [1604624439.8438] dhcp4 (ens192): error -113 dispatching events
+Nov  5 20:00:39 vkim11-pri NetworkManager[995]: <info>  [1604624439.8451] dhcp4 (ens192): state changed bound -> fail
+Nov  5 20:00:39 vkim11-pri NetworkManager[995]: <info>  [1604624439.8452] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7229] device (ens192): DHCPv4: grace period expired
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7230] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <warn>  [1604624529.7245] device (ens192): Activation: failed for connection 'ens192'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7252] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7256] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7272] dhcp4 (ens192): canceled DHCP transaction
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7273] dhcp4 (ens192): state changed fail -> done
+Nov  5 20:02:09 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  5 20:02:09 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  5 20:02:09 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7520] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7530] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7531] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7534] manager: NetworkManager state is now CONNECTING
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7535] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7541] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7544] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  5 20:02:09 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  5 20:02:09 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7638] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  5 20:02:09 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option expiry               => '1604710929'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7639] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option requested_routers    => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7640] dhcp4 (ens192): state changed unknown -> bound
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7651] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7752] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7754] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7758] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7767] manager: NetworkManager state is now CONNECTED_SITE
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7768] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7801] device (ens192): Activation: successful, device activated.
+Nov  5 20:02:09 vkim11-pri NetworkManager[995]: <info>  [1604624529.7806] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  5 20:19:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 20:19:50 vkim11-pri dnf[15396]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Nov  5 20:19:51 vkim11-pri dnf[15396]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Nov  5 20:19:51 vkim11-pri dnf[15396]: CentOS-8 - Extras                               9.4 kB/s | 1.5 kB     00:00
+Nov  5 20:19:51 vkim11-pri dnf[15396]: Metadata cache created.
+Nov  5 20:19:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 21:20:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 21:20:50 vkim11-pri dnf[15425]: Metadata cache refreshed recently.
+Nov  5 21:20:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 22:21:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 22:21:50 vkim11-pri dnf[15449]: Metadata cache refreshed recently.
+Nov  5 22:21:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  5 23:22:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  5 23:22:50 vkim11-pri dnf[15472]: CentOS-8 - AppStream                             31 kB/s | 4.3 kB     00:00
+Nov  5 23:22:51 vkim11-pri dnf[15472]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  5 23:22:51 vkim11-pri dnf[15472]: CentOS-8 - Extras                               5.3 kB/s | 1.5 kB     00:00
+Nov  5 23:22:51 vkim11-pri dnf[15472]: Metadata cache created.
+Nov  5 23:22:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 00:00:50 vkim11-pri systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  6 00:00:50 vkim11-pri systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  6 00:23:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 00:23:50 vkim11-pri dnf[15506]: Metadata cache refreshed recently.
+Nov  6 00:23:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 01:24:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 01:24:50 vkim11-pri dnf[15531]: Metadata cache refreshed recently.
+Nov  6 01:24:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 02:25:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 02:25:50 vkim11-pri dnf[15557]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Nov  6 02:25:51 vkim11-pri dnf[15557]: CentOS-8 - Base                                  28 kB/s | 3.9 kB     00:00
+Nov  6 02:25:51 vkim11-pri dnf[15557]: CentOS-8 - Extras                               7.3 kB/s | 1.5 kB     00:00
+Nov  6 02:25:51 vkim11-pri dnf[15557]: Metadata cache created.
+Nov  6 02:25:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 03:26:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 03:26:50 vkim11-pri dnf[15588]: Metadata cache refreshed recently.
+Nov  6 03:26:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 04:27:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 04:27:50 vkim11-pri dnf[15621]: Metadata cache refreshed recently.
+Nov  6 04:27:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 05:28:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 05:28:50 vkim11-pri dnf[15644]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  6 05:28:51 vkim11-pri dnf[15644]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  6 05:28:51 vkim11-pri dnf[15644]: CentOS-8 - Extras                               5.3 kB/s | 1.5 kB     00:00
+Nov  6 05:28:51 vkim11-pri dnf[15644]: Metadata cache created.
+Nov  6 05:28:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 06:29:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 06:29:50 vkim11-pri dnf[15674]: Metadata cache refreshed recently.
+Nov  6 06:29:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 07:30:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 07:30:50 vkim11-pri dnf[15697]: Metadata cache refreshed recently.
+Nov  6 07:30:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 08:02:09 vkim11-pri NetworkManager[995]: <error> [1604667729.7572] dhcp4 (ens192): error -113 dispatching events
+Nov  6 08:02:09 vkim11-pri NetworkManager[995]: <info>  [1604667729.7584] dhcp4 (ens192): state changed bound -> fail
+Nov  6 08:02:09 vkim11-pri NetworkManager[995]: <info>  [1604667729.7585] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8092] device (ens192): DHCPv4: grace period expired
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8093] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <warn>  [1604667819.8108] device (ens192): Activation: failed for connection 'ens192'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8115] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8119] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8132] dhcp4 (ens192): canceled DHCP transaction
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8132] dhcp4 (ens192): state changed fail -> done
+Nov  6 08:03:39 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  6 08:03:39 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  6 08:03:39 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8378] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8389] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8390] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8393] manager: NetworkManager state is now CONNECTING
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8394] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8399] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8401] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8487] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8487] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8487] dhcp4 (ens192): option expiry               => '1604754219'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8487] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8488] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8489] dhcp4 (ens192): option requested_routers    => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8489] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8489] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8489] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8489] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8489] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8489] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8489] dhcp4 (ens192): state changed unknown -> bound
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8499] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  6 08:03:39 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  6 08:03:39 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  6 08:03:39 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8625] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8628] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8632] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8640] manager: NetworkManager state is now CONNECTED_SITE
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8641] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8678] device (ens192): Activation: successful, device activated.
+Nov  6 08:03:39 vkim11-pri NetworkManager[995]: <info>  [1604667819.8683] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  6 08:31:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 08:31:51 vkim11-pri dnf[15729]: CentOS-8 - AppStream                             12 kB/s | 4.3 kB     00:00
+Nov  6 08:31:51 vkim11-pri dnf[15729]: CentOS-8 - Base                                  36 kB/s | 3.9 kB     00:00
+Nov  6 08:31:51 vkim11-pri dnf[15729]: CentOS-8 - Extras                               5.1 kB/s | 1.5 kB     00:00
+Nov  6 08:31:51 vkim11-pri dnf[15729]: Metadata cache created.
+Nov  6 08:31:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 09:32:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 09:32:50 vkim11-pri dnf[15758]: Metadata cache refreshed recently.
+Nov  6 09:32:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 10:33:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 10:33:50 vkim11-pri dnf[15782]: Metadata cache refreshed recently.
+Nov  6 10:33:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 11:34:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 11:34:50 vkim11-pri dnf[15805]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  6 11:34:51 vkim11-pri dnf[15805]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  6 11:34:51 vkim11-pri dnf[15805]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Nov  6 11:34:51 vkim11-pri dnf[15805]: Metadata cache created.
+Nov  6 11:34:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 12:35:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 12:35:50 vkim11-pri dnf[15834]: Metadata cache refreshed recently.
+Nov  6 12:35:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 13:36:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 13:36:50 vkim11-pri dnf[15871]: Metadata cache refreshed recently.
+Nov  6 13:36:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 14:37:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 14:37:51 vkim11-pri dnf[15894]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Nov  6 14:37:51 vkim11-pri dnf[15894]: CentOS-8 - Base                                  30 kB/s | 3.9 kB     00:00
+Nov  6 14:37:51 vkim11-pri dnf[15894]: CentOS-8 - Extras                               9.0 kB/s | 1.5 kB     00:00
+Nov  6 14:37:51 vkim11-pri dnf[15894]: Metadata cache created.
+Nov  6 14:37:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 15:38:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 15:38:50 vkim11-pri dnf[15924]: Metadata cache refreshed recently.
+Nov  6 15:38:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 16:39:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 16:39:50 vkim11-pri dnf[15947]: Metadata cache refreshed recently.
+Nov  6 16:39:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 17:40:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 17:40:51 vkim11-pri dnf[15971]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  6 17:40:51 vkim11-pri dnf[15971]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Nov  6 17:40:51 vkim11-pri dnf[15971]: CentOS-8 - Extras                                11 kB/s | 1.5 kB     00:00
+Nov  6 17:40:51 vkim11-pri dnf[15971]: Metadata cache created.
+Nov  6 17:40:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 18:41:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 18:41:50 vkim11-pri dnf[16000]: Metadata cache refreshed recently.
+Nov  6 18:41:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 19:42:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 19:42:50 vkim11-pri dnf[16024]: Metadata cache refreshed recently.
+Nov  6 19:42:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 19:46:50 vkim11-pri systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  6 19:46:50 vkim11-pri systemd[1]: Started Cleanup of Temporary Directories.
+Nov  6 20:03:39 vkim11-pri NetworkManager[995]: <error> [1604711019.8446] dhcp4 (ens192): error -113 dispatching events
+Nov  6 20:03:39 vkim11-pri NetworkManager[995]: <info>  [1604711019.8452] dhcp4 (ens192): state changed bound -> fail
+Nov  6 20:03:39 vkim11-pri NetworkManager[995]: <info>  [1604711019.8453] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8091] device (ens192): DHCPv4: grace period expired
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8092] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <warn>  [1604711109.8106] device (ens192): Activation: failed for connection 'ens192'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8113] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8117] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8131] dhcp4 (ens192): canceled DHCP transaction
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8131] dhcp4 (ens192): state changed fail -> done
+Nov  6 20:05:09 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  6 20:05:09 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  6 20:05:09 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8396] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8406] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8407] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8410] manager: NetworkManager state is now CONNECTING
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8411] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8415] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8418] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  6 20:05:09 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  6 20:05:09 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8522] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  6 20:05:09 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8522] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8522] dhcp4 (ens192): option expiry               => '1604797509'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8522] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8522] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8522] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_routers    => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8523] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8524] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8524] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8524] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8524] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8524] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8524] dhcp4 (ens192): state changed unknown -> bound
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8533] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8625] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8628] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8631] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8639] manager: NetworkManager state is now CONNECTED_SITE
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8640] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8673] device (ens192): Activation: successful, device activated.
+Nov  6 20:05:09 vkim11-pri NetworkManager[995]: <info>  [1604711109.8678] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  6 20:43:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 20:43:50 vkim11-pri dnf[16057]: CentOS-8 - AppStream                             16 kB/s | 4.3 kB     00:00
+Nov  6 20:43:51 vkim11-pri dnf[16057]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  6 20:43:51 vkim11-pri dnf[16057]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Nov  6 20:43:51 vkim11-pri dnf[16057]: Metadata cache created.
+Nov  6 20:43:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 21:44:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 21:44:50 vkim11-pri dnf[16087]: Metadata cache refreshed recently.
+Nov  6 21:44:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 22:45:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 22:45:50 vkim11-pri dnf[16110]: Metadata cache refreshed recently.
+Nov  6 22:45:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  6 23:31:37 vkim11-pri systemd[1]: Created slice User Slice of UID 1001.
+Nov  6 23:31:37 vkim11-pri systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  6 23:31:37 vkim11-pri systemd[1]: Starting User Manager for UID 1001...
+Nov  6 23:31:37 vkim11-pri systemd[1]: Started Session 22 of user instructor.
+Nov  6 23:31:37 vkim11-pri systemd-logind[1085]: New session 22 of user instructor.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Starting D-Bus User Message Bus Socket.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Reached target Paths.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Reached target Timers.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Listening on D-Bus User Message Bus Socket.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Reached target Sockets.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Reached target Basic System.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Reached target Default.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Startup finished in 38ms.
+Nov  6 23:31:37 vkim11-pri systemd[1]: Started User Manager for UID 1001.
+Nov  6 23:31:37 vkim11-pri systemd-logind[1085]: Session 22 logged out. Waiting for processes to exit.
+Nov  6 23:31:37 vkim11-pri systemd-logind[1085]: Removed session 22.
+Nov  6 23:31:37 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  6 23:31:37 vkim11-pri systemd[1]: Stopping User Manager for UID 1001...
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Stopped target Default.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Stopped target Basic System.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Stopped target Sockets.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Stopped target Paths.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Stopped target Timers.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Closed D-Bus User Message Bus Socket.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Reached target Shutdown.
+Nov  6 23:31:37 vkim11-pri systemd[16135]: Starting Exit the Session...
+Nov  6 23:31:37 vkim11-pri systemd[1]: user@1001.service: Killing process 16161 (systemctl) with signal SIGKILL.
+Nov  6 23:31:37 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  6 23:31:37 vkim11-pri systemd[1]: Stopped User Manager for UID 1001.
+Nov  6 23:31:37 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  6 23:31:37 vkim11-pri systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  6 23:31:37 vkim11-pri systemd[1]: Removed slice User Slice of UID 1001.
+Nov  6 23:31:37 vkim11-pri systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  6 23:46:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  6 23:46:50 vkim11-pri dnf[16173]: CentOS-8 - AppStream                             26 kB/s | 4.3 kB     00:00
+Nov  6 23:46:51 vkim11-pri dnf[16173]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  6 23:46:51 vkim11-pri dnf[16173]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Nov  6 23:46:51 vkim11-pri dnf[16173]: Metadata cache created.
+Nov  6 23:46:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 00:00:50 vkim11-pri systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  7 00:00:50 vkim11-pri systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  7 00:01:18 vkim11-pri systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 00:01:18 vkim11-pri systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 00:01:18 vkim11-pri systemd[1]: Starting User Manager for UID 1001...
+Nov  7 00:01:18 vkim11-pri systemd[1]: Started Session 24 of user instructor.
+Nov  7 00:01:18 vkim11-pri systemd-logind[1085]: New session 24 of user instructor.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Reached target Paths.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Starting D-Bus User Message Bus Socket.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Reached target Timers.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Listening on D-Bus User Message Bus Socket.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Reached target Sockets.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Reached target Basic System.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Reached target Default.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Startup finished in 37ms.
+Nov  7 00:01:19 vkim11-pri systemd[1]: Started User Manager for UID 1001.
+Nov  7 00:01:19 vkim11-pri systemd-logind[1085]: Session 24 logged out. Waiting for processes to exit.
+Nov  7 00:01:19 vkim11-pri systemd-logind[1085]: Removed session 24.
+Nov  7 00:01:19 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:01:19 vkim11-pri systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Stopped target Default.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Stopped target Basic System.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Stopped target Timers.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Stopped target Sockets.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Stopped target Paths.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Closed D-Bus User Message Bus Socket.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Reached target Shutdown.
+Nov  7 00:01:19 vkim11-pri systemd[16203]: Starting Exit the Session...
+Nov  7 00:01:19 vkim11-pri systemd[1]: user@1001.service: Killing process 16229 (systemctl) with signal SIGKILL.
+Nov  7 00:01:19 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:01:19 vkim11-pri systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 00:01:19 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:01:19 vkim11-pri systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 00:01:19 vkim11-pri systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 00:01:19 vkim11-pri systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 00:47:40 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 00:47:40 vkim11-pri systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 00:47:40 vkim11-pri systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 00:47:40 vkim11-pri systemd[1]: Starting User Manager for UID 1001...
+Nov  7 00:47:40 vkim11-pri systemd[1]: Started Session 26 of user instructor.
+Nov  7 00:47:40 vkim11-pri systemd-logind[1085]: New session 26 of user instructor.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Starting D-Bus User Message Bus Socket.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Reached target Paths.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Reached target Timers.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Listening on D-Bus User Message Bus Socket.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Reached target Sockets.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Reached target Basic System.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Reached target Default.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Startup finished in 41ms.
+Nov  7 00:47:40 vkim11-pri systemd[1]: Started User Manager for UID 1001.
+Nov  7 00:47:40 vkim11-pri systemd-logind[1085]: Session 26 logged out. Waiting for processes to exit.
+Nov  7 00:47:40 vkim11-pri systemd-logind[1085]: Removed session 26.
+Nov  7 00:47:40 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:47:40 vkim11-pri systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Stopped target Default.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Stopped target Basic System.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Stopped target Paths.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Stopped target Timers.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Stopped target Sockets.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Closed D-Bus User Message Bus Socket.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Reached target Shutdown.
+Nov  7 00:47:40 vkim11-pri systemd[16251]: Starting Exit the Session...
+Nov  7 00:47:40 vkim11-pri systemd[1]: user@1001.service: Killing process 16277 (systemctl) with signal SIGKILL.
+Nov  7 00:47:40 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:47:40 vkim11-pri systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 00:47:40 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:47:40 vkim11-pri systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 00:47:40 vkim11-pri systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 00:47:40 vkim11-pri systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 00:47:40 vkim11-pri dnf[16248]: Metadata cache refreshed recently.
+Nov  7 00:47:40 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 00:59:12 vkim11-pri systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 00:59:12 vkim11-pri systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 00:59:12 vkim11-pri systemd[1]: Starting User Manager for UID 1001...
+Nov  7 00:59:12 vkim11-pri systemd[1]: Started Session 28 of user instructor.
+Nov  7 00:59:12 vkim11-pri systemd-logind[1085]: New session 28 of user instructor.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Starting D-Bus User Message Bus Socket.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Reached target Paths.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Reached target Timers.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Listening on D-Bus User Message Bus Socket.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Reached target Sockets.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Reached target Basic System.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Reached target Default.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Startup finished in 38ms.
+Nov  7 00:59:12 vkim11-pri systemd[1]: Started User Manager for UID 1001.
+Nov  7 00:59:12 vkim11-pri systemd-logind[1085]: Session 28 logged out. Waiting for processes to exit.
+Nov  7 00:59:12 vkim11-pri systemd-logind[1085]: Removed session 28.
+Nov  7 00:59:12 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:59:12 vkim11-pri systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Stopped target Default.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Stopped target Basic System.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Stopped target Timers.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Stopped target Sockets.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Closed D-Bus User Message Bus Socket.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Stopped target Paths.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Reached target Shutdown.
+Nov  7 00:59:12 vkim11-pri systemd[16295]: Starting Exit the Session...
+Nov  7 00:59:12 vkim11-pri systemd[1]: user@1001.service: Killing process 16321 (systemctl) with signal SIGKILL.
+Nov  7 00:59:12 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:59:12 vkim11-pri systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 00:59:12 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 00:59:12 vkim11-pri systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 00:59:12 vkim11-pri systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 00:59:12 vkim11-pri systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 01:47:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 01:47:50 vkim11-pri dnf[16351]: Metadata cache refreshed recently.
+Nov  7 01:47:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 02:48:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 02:48:50 vkim11-pri dnf[16377]: CentOS-8 - AppStream                             15 kB/s | 4.3 kB     00:00
+Nov  7 02:48:51 vkim11-pri dnf[16377]: CentOS-8 - Base                                  27 kB/s | 3.9 kB     00:00
+Nov  7 02:48:51 vkim11-pri dnf[16377]: CentOS-8 - Extras                                16 kB/s | 1.5 kB     00:00
+Nov  7 02:48:51 vkim11-pri dnf[16377]: Metadata cache created.
+Nov  7 02:48:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 03:49:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 03:49:50 vkim11-pri dnf[16417]: Metadata cache refreshed recently.
+Nov  7 03:49:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 04:50:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 04:50:50 vkim11-pri dnf[16441]: Metadata cache refreshed recently.
+Nov  7 04:50:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 05:51:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 05:51:50 vkim11-pri dnf[16464]: CentOS-8 - AppStream                             24 kB/s | 4.3 kB     00:00
+Nov  7 05:51:51 vkim11-pri dnf[16464]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  7 05:51:51 vkim11-pri dnf[16464]: CentOS-8 - Extras                               6.0 kB/s | 1.5 kB     00:00
+Nov  7 05:51:51 vkim11-pri dnf[16464]: Metadata cache created.
+Nov  7 05:51:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 06:52:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 06:52:50 vkim11-pri dnf[16494]: Metadata cache refreshed recently.
+Nov  7 06:52:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 07:53:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 07:53:50 vkim11-pri dnf[16517]: Metadata cache refreshed recently.
+Nov  7 07:53:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 08:05:09 vkim11-pri NetworkManager[995]: <error> [1604754309.8465] dhcp4 (ens192): error -113 dispatching events
+Nov  7 08:05:09 vkim11-pri NetworkManager[995]: <info>  [1604754309.8472] dhcp4 (ens192): state changed bound -> fail
+Nov  7 08:05:09 vkim11-pri NetworkManager[995]: <info>  [1604754309.8474] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8091] device (ens192): DHCPv4: grace period expired
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8093] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <warn>  [1604754399.8109] device (ens192): Activation: failed for connection 'ens192'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8117] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8121] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8134] dhcp4 (ens192): canceled DHCP transaction
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8134] dhcp4 (ens192): state changed fail -> done
+Nov  7 08:06:39 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  7 08:06:39 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  7 08:06:39 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8409] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8419] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8420] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8423] manager: NetworkManager state is now CONNECTING
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8424] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8429] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8431] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  7 08:06:39 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  7 08:06:39 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8525] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  7 08:06:39 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8525] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option expiry               => '1604840799'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8526] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8527] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8527] dhcp4 (ens192): option requested_routers    => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8527] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8527] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8527] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8527] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8527] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8527] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8527] dhcp4 (ens192): state changed unknown -> bound
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8537] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8650] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8652] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8656] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8664] manager: NetworkManager state is now CONNECTED_SITE
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8665] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8701] device (ens192): Activation: successful, device activated.
+Nov  7 08:06:39 vkim11-pri NetworkManager[995]: <info>  [1604754399.8706] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  7 08:54:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 08:54:50 vkim11-pri dnf[16549]: CentOS-8 - AppStream                             26 kB/s | 4.3 kB     00:00
+Nov  7 08:54:51 vkim11-pri dnf[16549]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  7 08:54:51 vkim11-pri dnf[16549]: CentOS-8 - Extras                               5.2 kB/s | 1.5 kB     00:00
+Nov  7 08:54:51 vkim11-pri dnf[16549]: Metadata cache created.
+Nov  7 08:54:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 09:55:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 09:55:50 vkim11-pri dnf[16579]: Metadata cache refreshed recently.
+Nov  7 09:55:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 10:56:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 10:56:50 vkim11-pri dnf[16602]: Metadata cache refreshed recently.
+Nov  7 10:56:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 11:57:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 11:57:50 vkim11-pri dnf[16626]: CentOS-8 - AppStream                             27 kB/s | 4.3 kB     00:00
+Nov  7 11:57:51 vkim11-pri dnf[16626]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  7 11:57:51 vkim11-pri dnf[16626]: CentOS-8 - Extras                                12 kB/s | 1.5 kB     00:00
+Nov  7 11:57:51 vkim11-pri dnf[16626]: Metadata cache created.
+Nov  7 11:57:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 12:58:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 12:58:50 vkim11-pri dnf[16655]: Metadata cache refreshed recently.
+Nov  7 12:58:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 13:59:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 13:59:50 vkim11-pri dnf[16679]: Metadata cache refreshed recently.
+Nov  7 13:59:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 15:00:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 15:00:51 vkim11-pri dnf[16702]: CentOS-8 - AppStream                             13 kB/s | 4.3 kB     00:00
+Nov  7 15:00:51 vkim11-pri dnf[16702]: CentOS-8 - Base                                  14 kB/s | 3.9 kB     00:00
+Nov  7 15:00:51 vkim11-pri dnf[16702]: CentOS-8 - Extras                               3.7 kB/s | 1.5 kB     00:00
+Nov  7 15:00:52 vkim11-pri dnf[16702]: Metadata cache created.
+Nov  7 15:00:52 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 16:01:01 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 16:01:02 vkim11-pri dnf[16732]: Metadata cache refreshed recently.
+Nov  7 16:01:02 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 17:01:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 17:01:50 vkim11-pri dnf[16765]: Metadata cache refreshed recently.
+Nov  7 17:01:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 18:02:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 18:02:50 vkim11-pri dnf[16788]: CentOS-8 - AppStream                             14 kB/s | 4.3 kB     00:00
+Nov  7 18:02:51 vkim11-pri dnf[16788]: CentOS-8 - Base                                  13 kB/s | 3.9 kB     00:00
+Nov  7 18:02:51 vkim11-pri dnf[16788]: CentOS-8 - Extras                               8.1 kB/s | 1.5 kB     00:00
+Nov  7 18:02:51 vkim11-pri dnf[16788]: Metadata cache created.
+Nov  7 18:02:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 19:03:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 19:03:50 vkim11-pri dnf[16818]: Metadata cache refreshed recently.
+Nov  7 19:03:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 19:47:50 vkim11-pri systemd[1]: Starting Cleanup of Temporary Directories...
+Nov  7 19:47:50 vkim11-pri systemd[1]: Started Cleanup of Temporary Directories.
+Nov  7 20:04:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 20:04:50 vkim11-pri dnf[16844]: Metadata cache refreshed recently.
+Nov  7 20:04:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 20:06:39 vkim11-pri NetworkManager[995]: <error> [1604797599.8468] dhcp4 (ens192): error -113 dispatching events
+Nov  7 20:06:39 vkim11-pri NetworkManager[995]: <info>  [1604797599.8475] dhcp4 (ens192): state changed bound -> fail
+Nov  7 20:06:39 vkim11-pri NetworkManager[995]: <info>  [1604797599.8476] device (ens192): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7402] device (ens192): DHCPv4: grace period expired
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7404] device (ens192): state change: activated -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <warn>  [1604797689.7420] device (ens192): Activation: failed for connection 'ens192'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7428] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7432] device (ens192): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7450] dhcp4 (ens192): canceled DHCP transaction
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7450] dhcp4 (ens192): state changed fail -> done
+Nov  7 20:08:09 vkim11-pri dbus-daemon[992]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=995 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Nov  7 20:08:09 vkim11-pri systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  7 20:08:09 vkim11-pri named[6831]: no longer listening on 172.16.15.3#53
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7690] policy: auto-activating connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7699] device (ens192): Activation: starting connection 'ens192' (29b6e258-0ffd-4ee3-8f2d-2126105eee4f)
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7700] device (ens192): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7703] manager: NetworkManager state is now CONNECTING
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7704] device (ens192): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7709] device (ens192): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7712] dhcp4 (ens192): activation: beginning transaction (timeout in 45 seconds)
+Nov  7 20:08:09 vkim11-pri dbus-daemon[992]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  7 20:08:09 vkim11-pri systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7800] dhcp4 (ens192): option dhcp_lease_time      => '86400'
+Nov  7 20:08:09 vkim11-pri named[6831]: listening on IPv4 interface ens192, 172.16.15.3#53
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7800] dhcp4 (ens192): option domain_name_servers  => '10.102.100.22 10.101.100.42 10.101.100.41'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7801] dhcp4 (ens192): option expiry               => '1604884089'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7801] dhcp4 (ens192): option ip_address           => '172.16.15.3'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7801] dhcp4 (ens192): option requested_broadcast_address => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7801] dhcp4 (ens192): option requested_domain_name => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7801] dhcp4 (ens192): option requested_domain_name_servers => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7801] dhcp4 (ens192): option requested_domain_search => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7801] dhcp4 (ens192): option requested_host_name  => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7801] dhcp4 (ens192): option requested_interface_mtu => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7801] dhcp4 (ens192): option requested_ms_classless_static_routes => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option requested_nis_domain => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option requested_nis_servers => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option requested_ntp_servers => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option requested_rfc3442_classless_static_routes => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option requested_root_path  => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option requested_routers    => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option requested_static_routes => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option requested_subnet_mask => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option requested_time_offset => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option requested_wpad       => '1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option routers              => '172.16.255.1'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7802] dhcp4 (ens192): option subnet_mask          => '255.255.0.0'
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7803] dhcp4 (ens192): state changed unknown -> bound
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7812] device (ens192): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7915] device (ens192): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7917] device (ens192): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7922] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7929] manager: NetworkManager state is now CONNECTED_SITE
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7930] policy: set 'ens192' (ens192) as default for IPv4 routing and DNS
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7962] device (ens192): Activation: successful, device activated.
+Nov  7 20:08:09 vkim11-pri NetworkManager[995]: <info>  [1604797689.7967] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  7 21:05:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 21:05:50 vkim11-pri dnf[16875]: CentOS-8 - AppStream                             17 kB/s | 4.3 kB     00:00
+Nov  7 21:05:51 vkim11-pri dnf[16875]: CentOS-8 - Base                                  11 kB/s | 3.9 kB     00:00
+Nov  7 21:05:51 vkim11-pri dnf[16875]: CentOS-8 - Extras                                10 kB/s | 1.5 kB     00:00
+Nov  7 21:05:51 vkim11-pri dnf[16875]: Metadata cache created.
+Nov  7 21:05:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 22:06:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 22:06:50 vkim11-pri dnf[16904]: Metadata cache refreshed recently.
+Nov  7 22:06:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  7 22:32:56 vkim11-pri systemd[1]: Started /run/user/1001 mount wrapper.
+Nov  7 22:32:56 vkim11-pri systemd[1]: Created slice User Slice of UID 1001.
+Nov  7 22:32:56 vkim11-pri systemd[1]: Starting User Manager for UID 1001...
+Nov  7 22:32:56 vkim11-pri systemd[1]: Started Session 30 of user instructor.
+Nov  7 22:32:56 vkim11-pri systemd-logind[1085]: New session 30 of user instructor.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Started Mark boot as successful after the user session has run 2 minutes.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Starting D-Bus User Message Bus Socket.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Reached target Paths.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Reached target Timers.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Listening on D-Bus User Message Bus Socket.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Reached target Sockets.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Reached target Basic System.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Reached target Default.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Startup finished in 38ms.
+Nov  7 22:32:56 vkim11-pri systemd[1]: Started User Manager for UID 1001.
+Nov  7 22:32:56 vkim11-pri systemd-logind[1085]: Session 30 logged out. Waiting for processes to exit.
+Nov  7 22:32:56 vkim11-pri systemd-logind[1085]: Removed session 30.
+Nov  7 22:32:56 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 22:32:56 vkim11-pri systemd[1]: Stopping User Manager for UID 1001...
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Stopped target Default.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Stopped target Basic System.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Stopped target Sockets.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Closed D-Bus User Message Bus Socket.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Stopped target Timers.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Stopped target Paths.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Reached target Shutdown.
+Nov  7 22:32:56 vkim11-pri systemd[16916]: Starting Exit the Session...
+Nov  7 22:32:56 vkim11-pri systemd[1]: user@1001.service: Killing process 16942 (systemctl) with signal SIGKILL.
+Nov  7 22:32:56 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 22:32:56 vkim11-pri systemd[1]: Stopped User Manager for UID 1001.
+Nov  7 22:32:56 vkim11-pri systemd[1]: user-runtime-dir@1001.service: Unit not needed anymore. Stopping.
+Nov  7 22:32:56 vkim11-pri systemd[1]: Removed slice User Slice of UID 1001.
+Nov  7 22:32:56 vkim11-pri systemd[1]: Stopping /run/user/1001 mount wrapper...
+Nov  7 22:32:56 vkim11-pri systemd[1]: Stopped /run/user/1001 mount wrapper.
+Nov  7 23:07:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  7 23:07:50 vkim11-pri dnf[16968]: Metadata cache refreshed recently.
+Nov  7 23:07:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  8 00:00:50 vkim11-pri systemd[1]: Starting update of the root trust anchor for DNSSEC validation in unbound...
+Nov  8 00:00:50 vkim11-pri systemd[1]: Started update of the root trust anchor for DNSSEC validation in unbound.
+Nov  8 00:08:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  8 00:08:50 vkim11-pri dnf[16996]: CentOS-8 - AppStream                             40 kB/s | 4.3 kB     00:00
+Nov  8 00:08:51 vkim11-pri dnf[16996]: CentOS-8 - Base                                  17 kB/s | 3.9 kB     00:00
+Nov  8 00:08:51 vkim11-pri dnf[16996]: CentOS-8 - Extras                               5.8 kB/s | 1.5 kB     00:00
+Nov  8 00:08:51 vkim11-pri dnf[16996]: Metadata cache created.
+Nov  8 00:08:51 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  8 01:09:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  8 01:09:50 vkim11-pri dnf[17028]: Metadata cache refreshed recently.
+Nov  8 01:09:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  8 02:10:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  8 02:10:50 vkim11-pri dnf[17053]: Metadata cache refreshed recently.
+Nov  8 02:10:50 vkim11-pri systemd[1]: Started dnf makecache.
+Nov  8 03:11:50 vkim11-pri systemd[1]: Starting dnf makecache...
+Nov  8 03:11:50 vkim11-pri dnf[17079]: CentOS-8 - AppStream                             25 kB/s | 4.3 kB     00:00
+Nov  8 03:11:51 vkim11-pri dnf[17079]: CentOS-8 - Base                                  12 kB/s | 3.9 kB     00:00
+Nov  8 03:11:51 vkim11-pri dnf[17079]: CentOS-8 - Extras                                17 kB/s | 1.5 kB     00:00
+Nov  8 03:11:51 vkim11-pri dnf[17079]: Metadata cache created.
+Nov  8 03:11:51 vkim11-pri systemd[1]: Started dnf makecache.

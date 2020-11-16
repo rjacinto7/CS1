@@ -1,0 +1,5 @@
+[Sun Oct 11 03:16:01.368316 2020] [lbmethod_heartbeat:notice] [pid 34708:tid 139750295550272] AH02282: No slotmem from mod_heartmonitor
+[Sun Oct 11 03:16:01.368881 2020] [http2:warn] [pid 34708:tid 139750295550272] AH02951: mod_ssl does not seem to be enabled
+[Sun Oct 11 03:16:01.369261 2020] [mpm_event:notice] [pid 34708:tid 139750295550272] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Sun Oct 11 03:16:01.369279 2020] [core:notice] [pid 34708:tid 139750295550272] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Oct 18 03:23:01.418896 2020] [mpm_event:notice] [pid 34708:tid 139750295550272] AH00493: SIGUSR1 received.  Doing graceful restart

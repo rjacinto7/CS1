@@ -1,0 +1,11 @@
+[Fri Oct 09 03:38:09.842916 2020] [core:notice] [pid 34708:tid 139750295550272] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Fri Oct 09 03:38:09.844125 2020] [suexec:notice] [pid 34708:tid 139750295550272] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Oct 09 03:38:09.880417 2020] [lbmethod_heartbeat:notice] [pid 34708:tid 139750295550272] AH02282: No slotmem from mod_heartmonitor
+[Fri Oct 09 03:38:09.881210 2020] [http2:warn] [pid 34708:tid 139750295550272] AH02951: mod_ssl does not seem to be enabled
+[Fri Oct 09 03:38:09.883669 2020] [mpm_event:notice] [pid 34708:tid 139750295550272] AH00489: Apache/2.4.37 (centos) configured -- resuming normal operations
+[Fri Oct 09 03:38:09.883704 2020] [core:notice] [pid 34708:tid 139750295550272] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Oct 09 03:38:12.666337 2020] [autoindex:error] [pid 34712:tid 139749243156224] [client 192.168.13.3:50166] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Oct 09 03:40:02.185566 2020] [autoindex:error] [pid 34711:tid 139749536802560] [client 192.168.13.3:50168] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Oct 09 13:36:31.068853 2020] [core:error] [pid 34711:tid 139749528409856] (13)Permission denied: [client 192.168.13.1:33926] AH00035: access to /~rjacinto1/index.html denied (filesystem path '/home/rjacinto1/public_html') because search permissions are missing on a component of the path
+[Fri Oct 09 13:45:42.944153 2020] [core:error] [pid 34711:tid 139749666866944] (13)Permission denied: [client 172.16.13.1:44556] AH00035: access to /~rjacinto1/index.html denied (filesystem path '/home/rjacinto1/public_html') because search permissions are missing on a component of the path
+[Sun Oct 11 03:16:01.288543 2020] [mpm_event:notice] [pid 34708:tid 139750295550272] AH00493: SIGUSR1 received.  Doing graceful restart

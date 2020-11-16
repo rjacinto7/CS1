@@ -1,0 +1,538 @@
+Nov  8 17:03:12 vkim11-web sudo[16815]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /var/named/named.ca
+Nov  8 17:03:12 vkim11-web sudo[16815]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:03:12 vkim11-web sudo[16815]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:03:25 vkim11-web sudo[16815]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:08:33 vkim11-web polkitd[966]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  8 17:08:33 vkim11-web polkitd[966]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  8 17:08:33 vkim11-web polkitd[966]: Finished loading, compiling and executing 2 rules
+Nov  8 17:08:33 vkim11-web polkitd[966]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  8 17:08:37 vkim11-web sshd[999]: Server listening on 0.0.0.0 port 22.
+Nov  8 17:08:37 vkim11-web sshd[999]: Server listening on :: port 22.
+Nov  8 17:10:07 vkim11-web systemd[1713]: pam_unix(systemd-user:session): session opened for user vkim11 by (uid=0)
+Nov  8 17:10:07 vkim11-web login[1286]: pam_unix(login:session): session opened for user vkim11 by LOGIN(uid=0)
+Nov  8 17:10:07 vkim11-web login[1286]: LOGIN ON tty1 BY vkim11
+Nov  8 17:10:15 vkim11-web sudo[1751]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl status named
+Nov  8 17:10:15 vkim11-web sudo[1751]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:15 vkim11-web sudo[1751]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:15 vkim11-web sudo[1751]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:23 vkim11-web sudo[1757]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl enable named
+Nov  8 17:10:23 vkim11-web sudo[1757]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:23 vkim11-web sudo[1757]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:23 vkim11-web sudo[1757]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:27 vkim11-web sudo[1778]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl start named
+Nov  8 17:10:27 vkim11-web sudo[1778]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:27 vkim11-web sudo[1778]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:28 vkim11-web sudo[1778]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:32 vkim11-web sudo[1796]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/systemctl status named
+Nov  8 17:10:32 vkim11-web sudo[1796]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:32 vkim11-web sudo[1796]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:33 vkim11-web sudo[1796]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1803]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 172.16.0.1 --dport 53 -j ACCEPT
+Nov  8 17:10:39 vkim11-web sudo[1803]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1803]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1803]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1806]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 192.168.15.0/24 --dport 53 -j ACCEPT
+Nov  8 17:10:39 vkim11-web sudo[1806]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1806]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1806]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1809]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.0/24 --dport 53 -j ACCEPT
+Nov  8 17:10:39 vkim11-web sudo[1809]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1809]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1809]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1812]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUt -p tcp -s 172.16.0.1 --dport 53 -j ACCEPT
+Nov  8 17:10:39 vkim11-web sudo[1812]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1812]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1812]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1815]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 192.168.15.0/24 -j ACCEPT
+Nov  8 17:10:39 vkim11-web sudo[1815]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1815]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1815]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1818]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 172.16.0.1 -j ACCEPT
+Nov  8 17:10:39 vkim11-web sudo[1818]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1818]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1818]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1821]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.1 --dport 22 -j ACCEPT
+Nov  8 17:10:39 vkim11-web sudo[1821]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1821]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1821]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1824]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 172.16.0.1 --dport 22 -j ACCEPT
+Nov  8 17:10:39 vkim11-web sudo[1824]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1824]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1824]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1827]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -N LOGGING
+Nov  8 17:10:39 vkim11-web sudo[1827]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1827]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1827]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1830]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 22 -j LOGGING
+Nov  8 17:10:39 vkim11-web sudo[1830]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1830]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1830]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1833]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j LOG --log-level 6 --log-prefix DROPPED PACKETS
+Nov  8 17:10:39 vkim11-web sudo[1833]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1833]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1833]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:10:39 vkim11-web sudo[1836]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j DROP
+Nov  8 17:10:39 vkim11-web sudo[1836]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:10:39 vkim11-web sudo[1836]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:10:39 vkim11-web sudo[1836]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:09 vkim11-web sudo[1840]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:09 vkim11-web sudo[1840]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:09 vkim11-web sudo[1840]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:09 vkim11-web sudo[1840]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:09 vkim11-web sudo[1843]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.2.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:09 vkim11-web sudo[1843]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:09 vkim11-web sudo[1843]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:09 vkim11-web sudo[1843]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1846]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.3.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1846]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1846]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1846]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1849]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.4.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1849]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1849]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1849]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1852]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.5.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1852]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1852]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1852]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1855]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.6.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1855]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1855]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1855]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1858]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.7.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1858]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1858]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1858]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1861]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.8.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1861]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1861]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1861]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1864]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.9.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1864]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1864]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1864]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1867]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.10.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1867]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1867]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1867]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1870]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.11.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1870]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1870]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1870]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1873]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.12.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1873]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1873]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1873]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1876]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.13.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1876]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1876]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1876]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1879]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.14.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1879]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1879]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1879]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1882]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.16.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1882]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1882]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1882]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1885]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.17.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1885]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1885]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1885]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1888]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.18.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1888]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1888]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1888]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1891]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.19.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1891]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1891]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1891]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1894]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.20.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1894]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1894]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1894]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1897]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.21.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1897]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1897]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1897]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1900]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.22.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1900]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1900]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1900]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1903]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.23.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1903]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1903]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1903]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1906]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.24.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1906]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1906]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1906]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1909]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.25.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1909]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1909]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1909]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1912]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.26.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1912]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1912]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1912]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1915]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.27.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1915]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1915]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1915]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1918]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.28.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1918]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1918]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1918]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1921]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.29.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1921]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1921]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1921]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:11:10 vkim11-web sudo[1924]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/route add -net 192.168.30.0 netmask 255.255.255.0 gw 192.168.15.1
+Nov  8 17:11:10 vkim11-web sudo[1924]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:11:10 vkim11-web sudo[1924]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:11:10 vkim11-web sudo[1924]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:16:41 vkim11-web sudo[1933]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -F
+Nov  8 17:16:41 vkim11-web sudo[1933]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:16:41 vkim11-web sudo[1933]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:16:41 vkim11-web sudo[1933]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:29:07 vkim11-web sudo[1946]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -F
+Nov  8 17:29:07 vkim11-web sudo[1946]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:29:07 vkim11-web sudo[1946]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:29:07 vkim11-web sudo[1946]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:29:16 vkim11-web sudo[1952]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 17:29:16 vkim11-web sudo[1952]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:29:16 vkim11-web sudo[1952]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:29:16 vkim11-web sudo[1952]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:38:24 vkim11-web sudo[1961]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/nano /etc/resolv.conf
+Nov  8 17:38:24 vkim11-web sudo[1961]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:38:24 vkim11-web sudo[1961]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:38:28 vkim11-web sudo[1961]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[1973]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 172.16.0.1 --dport 53 -j ACCEPT
+Nov  8 17:39:06 vkim11-web sudo[1973]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[1973]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[1973]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[1976]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 192.168.15.0/24 --dport 53 -j ACCEPT
+Nov  8 17:39:06 vkim11-web sudo[1976]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[1976]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[1976]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[1979]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.0/24 --dport 53 -j ACCEPT
+Nov  8 17:39:06 vkim11-web sudo[1979]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[1979]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[1979]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[1982]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUt -p tcp -s 172.16.0.1 --dport 53 -j ACCEPT
+Nov  8 17:39:06 vkim11-web sudo[1982]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[1982]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[1982]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[1985]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 192.168.15.0/24 -j ACCEPT
+Nov  8 17:39:06 vkim11-web sudo[1985]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[1985]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[1985]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[1988]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 172.16.0.1 -j ACCEPT
+Nov  8 17:39:06 vkim11-web sudo[1988]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[1988]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[1988]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[1991]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.1 --dport 22 -j ACCEPT
+Nov  8 17:39:06 vkim11-web sudo[1991]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[1991]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[1991]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[1994]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 172.16.0.1 --dport 22 -j ACCEPT
+Nov  8 17:39:06 vkim11-web sudo[1994]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[1994]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[1994]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[1997]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -N LOGGING
+Nov  8 17:39:06 vkim11-web sudo[1997]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[1997]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[1997]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[2000]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 22 -j LOGGING
+Nov  8 17:39:06 vkim11-web sudo[2000]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[2000]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[2000]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[2003]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j LOG --log-level 6 --log-prefix DROPPED PACKETS
+Nov  8 17:39:06 vkim11-web sudo[2003]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[2003]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[2003]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:06 vkim11-web sudo[2006]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j DROP
+Nov  8 17:39:06 vkim11-web sudo[2006]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:06 vkim11-web sudo[2006]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:06 vkim11-web sudo[2006]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:39:30 vkim11-web sudo[2011]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 17:39:30 vkim11-web sudo[2011]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:39:30 vkim11-web sudo[2011]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:39:30 vkim11-web sudo[2011]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:55:27 vkim11-web sudo[2019]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 17:55:27 vkim11-web sudo[2019]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:55:27 vkim11-web sudo[2019]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:55:27 vkim11-web sudo[2019]: pam_unix(sudo:session): session closed for user root
+Nov  8 17:55:33 vkim11-web sudo[2025]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -F
+Nov  8 17:55:33 vkim11-web sudo[2025]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 17:55:33 vkim11-web sudo[2025]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 17:55:33 vkim11-web sudo[2025]: pam_unix(sudo:session): session closed for user root
+Nov  8 18:26:09 vkim11-web sudo[2050]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -nL
+Nov  8 18:26:09 vkim11-web sudo[2050]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 18:26:09 vkim11-web sudo[2050]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 18:26:09 vkim11-web sudo[2050]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:55 vkim11-web sudo[2203]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp --dport 25 -j ACCEPT
+Nov  8 22:53:56 vkim11-web sudo[2203]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2203]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2203]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2208]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 172.16.0.1 --dport 53 -j ACCEPT
+Nov  8 22:53:56 vkim11-web sudo[2208]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2208]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2208]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2211]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 192.168.15.0/24 --dport 53 -j ACCEPT
+Nov  8 22:53:56 vkim11-web sudo[2211]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2211]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2211]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2214]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.0/24 --dport 53 -j ACCEPT
+Nov  8 22:53:56 vkim11-web sudo[2214]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2214]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2214]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2217]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUt -p tcp -s 172.16.0.1 --dport 53 -j ACCEPT
+Nov  8 22:53:56 vkim11-web sudo[2217]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2217]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2217]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2220]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 192.168.15.0/24 -j ACCEPT
+Nov  8 22:53:56 vkim11-web sudo[2220]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2220]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2220]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2223]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 172.16.0.1 -j ACCEPT
+Nov  8 22:53:56 vkim11-web sudo[2223]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2223]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2223]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2226]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.1 --dport 22 -j ACCEPT
+Nov  8 22:53:56 vkim11-web sudo[2226]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2226]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2226]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2229]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 172.16.0.1 --dport 22 -j ACCEPT
+Nov  8 22:53:56 vkim11-web sudo[2229]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2229]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2229]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2232]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -N LOGGING
+Nov  8 22:53:56 vkim11-web sudo[2232]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2232]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2232]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2235]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 22 -j LOGGING
+Nov  8 22:53:56 vkim11-web sudo[2235]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2235]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2235]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2238]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j LOG --log-level 6 --log-prefix DROPPED PACKETS
+Nov  8 22:53:56 vkim11-web sudo[2238]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2238]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2238]: pam_unix(sudo:session): session closed for user root
+Nov  8 22:53:56 vkim11-web sudo[2241]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j DROP
+Nov  8 22:53:56 vkim11-web sudo[2241]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 22:53:56 vkim11-web sudo[2241]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 22:53:56 vkim11-web sudo[2241]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:08 vkim11-web sudo[2295]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -F
+Nov  8 23:08:08 vkim11-web sudo[2295]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:08 vkim11-web sudo[2295]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:08 vkim11-web sudo[2295]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2305]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp --dport 25 -j ACCEPT
+Nov  8 23:08:40 vkim11-web sudo[2305]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2305]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2305]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2308]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 172.16.0.1 --dport 53 -j ACCEPT
+Nov  8 23:08:40 vkim11-web sudo[2308]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2308]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2308]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2311]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p udp -s 192.168.15.0/24 --dport 53 -j ACCEPT
+Nov  8 23:08:40 vkim11-web sudo[2311]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2311]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2311]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2314]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.0/24 --dport 53 -j ACCEPT
+Nov  8 23:08:40 vkim11-web sudo[2314]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2314]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2314]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2317]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUt -p tcp -s 172.16.0.1 --dport 53 -j ACCEPT
+Nov  8 23:08:40 vkim11-web sudo[2317]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2317]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2317]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2320]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 192.168.15.0/24 -j ACCEPT
+Nov  8 23:08:40 vkim11-web sudo[2320]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2320]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2320]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2323]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p icmp -s 172.16.0.1 -j ACCEPT
+Nov  8 23:08:40 vkim11-web sudo[2323]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2323]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2323]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2326]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 192.168.15.1 --dport 22 -j ACCEPT
+Nov  8 23:08:40 vkim11-web sudo[2326]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2326]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2326]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2329]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -I INPUT -p tcp -s 172.16.0.1 --dport 22 -j ACCEPT
+Nov  8 23:08:40 vkim11-web sudo[2329]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2329]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2329]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2332]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -N LOGGING
+Nov  8 23:08:40 vkim11-web sudo[2332]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2332]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2332]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2335]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A INPUT -p tcp --dport 22 -j LOGGING
+Nov  8 23:08:40 vkim11-web sudo[2335]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2335]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2335]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:40 vkim11-web sudo[2338]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j LOG --log-level 6 --log-prefix DROPPED PACKETS
+Nov  8 23:08:40 vkim11-web sudo[2338]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:40 vkim11-web sudo[2338]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:40 vkim11-web sudo[2338]: pam_unix(sudo:session): session closed for user root
+Nov  8 23:08:41 vkim11-web sudo[2341]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/sbin/iptables -A LOGGING -j DROP
+Nov  8 23:08:41 vkim11-web sudo[2341]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov  8 23:08:41 vkim11-web sudo[2341]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov  8 23:08:41 vkim11-web sudo[2341]: pam_unix(sudo:session): session closed for user root
+Nov 10 15:06:04 vkim11-web sshd[3512]: Accepted publickey for instructor from 172.16.0.1 port 52456 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 10 15:06:04 vkim11-web systemd[3516]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:05 vkim11-web sshd[3512]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 10 15:06:05 vkim11-web sshd[3525]: Received disconnect from 172.16.0.1 port 52456:11: disconnected by user
+Nov 10 15:06:05 vkim11-web sshd[3525]: Disconnected from user instructor 172.16.0.1 port 52456
+Nov 10 15:06:05 vkim11-web sshd[3512]: pam_unix(sshd:session): session closed for user instructor
+Nov 10 15:06:05 vkim11-web systemd[3519]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 11 20:06:06 vkim11-web sshd[4377]: Accepted publickey for instructor from 172.16.0.1 port 52978 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 11 20:06:06 vkim11-web systemd[4381]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:06 vkim11-web sshd[4377]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 11 20:06:06 vkim11-web sshd[4390]: Received disconnect from 172.16.0.1 port 52978:11: disconnected by user
+Nov 11 20:06:06 vkim11-web sshd[4390]: Disconnected from user instructor 172.16.0.1 port 52978
+Nov 11 20:06:06 vkim11-web sshd[4377]: pam_unix(sshd:session): session closed for user instructor
+Nov 11 20:06:06 vkim11-web systemd[4384]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:05:17 vkim11-web sshd[5249]: Accepted publickey for instructor from 172.16.0.1 port 53426 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:05:17 vkim11-web systemd[5253]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:17 vkim11-web sshd[5249]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:05:17 vkim11-web sshd[5262]: Received disconnect from 172.16.0.1 port 53426:11: disconnected by user
+Nov 13 01:05:17 vkim11-web sshd[5262]: Disconnected from user instructor 172.16.0.1 port 53426
+Nov 13 01:05:17 vkim11-web sshd[5249]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:05:17 vkim11-web systemd[5256]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 13 01:10:05 vkim11-web sshd[5287]: Accepted publickey for instructor from 172.16.0.1 port 53676 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Nov 13 01:10:05 vkim11-web systemd[5291]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Nov 13 01:10:05 vkim11-web sshd[5287]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Nov 13 01:10:05 vkim11-web sshd[5300]: Received disconnect from 172.16.0.1 port 53676:11: disconnected by user
+Nov 13 01:10:05 vkim11-web sshd[5300]: Disconnected from user instructor 172.16.0.1 port 53676
+Nov 13 01:10:05 vkim11-web sshd[5287]: pam_unix(sshd:session): session closed for user instructor
+Nov 13 01:10:05 vkim11-web systemd[5294]: pam_unix(systemd-user:session): session closed for user instructor
+Nov 14 17:57:51 vkim11-web sudo[6490]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/yum install rsync
+Nov 14 17:57:51 vkim11-web sudo[6490]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 17:57:51 vkim11-web sudo[6490]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 17:57:54 vkim11-web sudo[6490]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:52:16 vkim11-web unix_chkpwd[17813]: password check failed for user (vkim11)
+Nov 14 20:52:16 vkim11-web sudo[17811]: pam_unix(sudo:auth): authentication failure; logname=vkim11 uid=1002 euid=0 tty=/dev/tty1 ruser=vkim11 rhost=  user=vkim11
+Nov 14 20:52:22 vkim11-web sudo[17811]:  vkim11 : TTY=tty1 ; PWD=/etc/httpd ; USER=root ; COMMAND=/bin/cd logs/
+Nov 14 20:52:22 vkim11-web sudo[17811]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:52:22 vkim11-web sudo[17811]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 20:52:22 vkim11-web sudo[17811]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:52:23 vkim11-web sudo[17818]:  vkim11 : TTY=tty1 ; PWD=/etc/httpd ; USER=root ; COMMAND=/bin/cd logs/
+Nov 14 20:52:23 vkim11-web sudo[17818]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:52:23 vkim11-web sudo[17818]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 20:52:23 vkim11-web sudo[17818]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:52:33 vkim11-web sudo[17823]:  vkim11 : TTY=tty1 ; PWD=/etc/httpd ; USER=root ; COMMAND=/bin/cat logs
+Nov 14 20:52:33 vkim11-web sudo[17823]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:52:33 vkim11-web sudo[17823]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 20:52:33 vkim11-web sudo[17823]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:52:36 vkim11-web sudo[17826]:  vkim11 : TTY=tty1 ; PWD=/etc/httpd ; USER=root ; COMMAND=/bin/ls logs
+Nov 14 20:52:36 vkim11-web sudo[17826]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:52:36 vkim11-web sudo[17826]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 20:52:36 vkim11-web sudo[17826]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:55:05 vkim11-web sudo[17836]:  vkim11 : TTY=tty1 ; PWD=/etc/sysconfig ; USER=root ; COMMAND=/bin/nano iptables
+Nov 14 20:55:05 vkim11-web sudo[17836]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:55:05 vkim11-web sudo[17836]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 20:55:08 vkim11-web sudo[17836]: pam_unix(sudo:session): session closed for user root
+Nov 14 20:55:22 vkim11-web sudo[17841]:  vkim11 : TTY=tty1 ; PWD=/etc/sysconfig ; USER=root ; COMMAND=/bin/nano rsyslog
+Nov 14 20:55:22 vkim11-web sudo[17841]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 20:55:22 vkim11-web sudo[17841]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 20:55:23 vkim11-web sudo[17841]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:12:25 vkim11-web sudo[17968]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11/.ssh ; USER=root ; COMMAND=/bin/nano /var/log/syslog
+Nov 14 22:12:25 vkim11-web sudo[17968]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:12:25 vkim11-web sudo[17968]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:12:27 vkim11-web sudo[17968]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:13:32 vkim11-web sudo[17973]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11/.ssh ; USER=root ; COMMAND=/bin/ls /var/log
+Nov 14 22:13:32 vkim11-web sudo[17973]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:13:32 vkim11-web sudo[17973]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:13:32 vkim11-web sudo[17973]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:13:46 vkim11-web sudo[17976]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11/.ssh ; USER=root ; COMMAND=/bin/cat /var/log/cron
+Nov 14 22:13:46 vkim11-web sudo[17976]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:13:46 vkim11-web sudo[17976]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:13:46 vkim11-web sudo[17976]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:15:22 vkim11-web sudo[17986]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11/.ssh ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:15:22 vkim11-web sudo[17986]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:15:22 vkim11-web sudo[17986]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:16:54 vkim11-web sudo[17986]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:19:32 vkim11-web sudo[17996]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11/.ssh ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:19:32 vkim11-web sudo[17996]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:19:32 vkim11-web sudo[17996]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:20:22 vkim11-web sudo[17996]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:20:28 vkim11-web sudo[18001]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11/.ssh ; USER=root ; COMMAND=/bin/yum install rsync
+Nov 14 22:20:28 vkim11-web sudo[18001]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:20:28 vkim11-web sudo[18001]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:20:29 vkim11-web sudo[18001]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:21:24 vkim11-web sudo[18012]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11/.ssh ; USER=root ; COMMAND=/bin/rsync -avz -e ssh /var/log vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log
+Nov 14 22:21:24 vkim11-web sudo[18012]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:21:24 vkim11-web sudo[18012]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:21:35 vkim11-web sudo[18012]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:30:36 vkim11-web sudo[18026]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:30:36 vkim11-web sudo[18026]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:30:36 vkim11-web sudo[18026]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:31:03 vkim11-web sudo[18026]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:31:10 vkim11-web sudo[18033]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/rsync -avz -e ssh /var/log vkim11@192.168.15.4:/home/vkim11/CS1/Vlad/vm2/log
+Nov 14 22:31:10 vkim11-web sudo[18033]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:31:10 vkim11-web sudo[18033]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:31:40 vkim11-web sudo[18033]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:31:47 vkim11-web sudo[18041]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:31:47 vkim11-web sudo[18041]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:31:47 vkim11-web sudo[18041]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:31:49 vkim11-web sudo[18041]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:32:08 vkim11-web unix_chkpwd[18047]: password check failed for user (root)
+Nov 14 22:32:08 vkim11-web su[18045]: pam_unix(su:auth): authentication failure; logname=vkim11 uid=1002 euid=0 tty=tty1 ruser=vkim11 rhost=  user=root
+Nov 14 22:32:15 vkim11-web sudo[18050]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/su root
+Nov 14 22:32:15 vkim11-web sudo[18050]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:32:15 vkim11-web sudo[18050]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:32:15 vkim11-web su[18052]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:32:15 vkim11-web su[18052]: pam_unix(su:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:32:22 vkim11-web sudo[18071]:  vkim11 : TTY=tty1 ; PWD=/home/vkim11 ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 22:32:22 vkim11-web sudo[18071]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 22:32:22 vkim11-web sudo[18071]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 22:34:20 vkim11-web sudo[18071]: pam_unix(sudo:session): session closed for user root
+Nov 14 22:48:02 vkim11-web systemd[18171]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:49:01 vkim11-web systemd[18203]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:50:01 vkim11-web systemd[18228]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:53:01 vkim11-web systemd[18260]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:54:01 vkim11-web systemd[18284]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:55:01 vkim11-web systemd[18309]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:56:01 vkim11-web systemd[18332]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:57:01 vkim11-web systemd[18356]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:58:01 vkim11-web systemd[18379]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 22:59:02 vkim11-web systemd[18402]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:00:01 vkim11-web systemd[18425]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:01:01 vkim11-web systemd[18454]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:02:01 vkim11-web systemd[18488]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:03:01 vkim11-web systemd[18512]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:04:01 vkim11-web systemd[18535]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:05:01 vkim11-web systemd[18558]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:06:01 vkim11-web systemd[18581]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:07:01 vkim11-web systemd[18604]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:08:01 vkim11-web systemd[18635]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:09:01 vkim11-web systemd[18675]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:10:01 vkim11-web systemd[18716]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:11:01 vkim11-web systemd[18754]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:12:01 vkim11-web systemd[18795]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:13:01 vkim11-web systemd[18841]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:14:01 vkim11-web systemd[18885]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:15:02 vkim11-web systemd[18930]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:16:01 vkim11-web systemd[18978]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:16:58 vkim11-web sudo[19014]:  vkim11 : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/bin/crontab -e
+Nov 14 23:16:58 vkim11-web sudo[19014]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 14 23:16:58 vkim11-web sudo[19014]: pam_unix(sudo:session): session opened for user root by vkim11(uid=0)
+Nov 14 23:17:01 vkim11-web systemd[19029]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:18:02 vkim11-web systemd[19073]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:19:01 vkim11-web systemd[19117]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:19:42 vkim11-web sudo[19014]: pam_unix(sudo:session): session closed for user root
+Nov 14 23:20:01 vkim11-web systemd[19164]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:21:01 vkim11-web systemd[19209]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:22:02 vkim11-web systemd[19254]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:23:01 vkim11-web systemd[19300]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:24:01 vkim11-web systemd[19344]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:25:01 vkim11-web systemd[19388]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:26:01 vkim11-web systemd[19432]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:27:01 vkim11-web systemd[19482]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:35:01 vkim11-web systemd[19599]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:36:01 vkim11-web systemd[19639]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:37:01 vkim11-web systemd[19671]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:38:01 vkim11-web systemd[19702]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:39:01 vkim11-web systemd[19735]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 14 23:40:02 vkim11-web systemd[19768]: pam_unix(systemd-user:session): session opened for user root by (uid=0)

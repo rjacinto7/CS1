@@ -1,0 +1,7 @@
+Oct 27 17:32:15 rjacinto1-rns sshd[6163]: Accepted publickey for instructor from 172.16.0.1 port 37664 ssh2: RSA SHA256:QMy96Bymjtqkyayz7Av77aE23PqWehCLYM9/0n74kPY
+Oct 27 17:32:15 rjacinto1-rns systemd[6167]: pam_unix(systemd-user:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:15 rjacinto1-rns sshd[6163]: pam_unix(sshd:session): session opened for user instructor by (uid=0)
+Oct 27 17:32:15 rjacinto1-rns sshd[6179]: Received disconnect from 172.16.0.1 port 37664:11: disconnected by user
+Oct 27 17:32:15 rjacinto1-rns sshd[6179]: Disconnected from user instructor 172.16.0.1 port 37664
+Oct 27 17:32:15 rjacinto1-rns sshd[6163]: pam_unix(sshd:session): session closed for user instructor
+Oct 27 17:32:15 rjacinto1-rns systemd[6173]: pam_unix(systemd-user:session): session closed for user instructor

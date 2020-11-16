@@ -1,0 +1,767 @@
+Nov  8 19:25:24 rjacinto1-pri postfix/postdrop[14641]: warning: unable to look up public/pickup: No such file or directory
+Nov  8 19:25:44 rjacinto1-pri postfix/postdrop[14649]: warning: unable to look up public/pickup: No such file or directory
+Nov  8 19:26:23 rjacinto1-pri postfix/postdrop[14726]: warning: unable to look up public/pickup: No such file or directory
+Nov  8 19:27:52 rjacinto1-pri postfix/postdrop[14730]: warning: unable to look up public/pickup: No such file or directory
+Nov  8 19:28:15 rjacinto1-pri postfix/postdrop[14734]: warning: unable to look up public/pickup: No such file or directory
+Nov  8 19:29:42 rjacinto1-pri postfix/postfix-script[14840]: starting the Postfix mail system
+Nov  8 19:29:42 rjacinto1-pri postfix/master[14842]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  8 19:29:42 rjacinto1-pri postfix/pickup[14843]: 6355B20A5B0D: uid=1002 from=<rjacinto1>
+Nov  8 19:29:42 rjacinto1-pri postfix/cleanup[14845]: 6355B20A5B0D: message-id=<20201109002942.6355B20A5B0D@mail.rjacinto1.com>
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 6355B20A5B0D: from=<rjacinto1@rjacinto1.com>, size=492, nrcpt=1 (queue active)
+Nov  8 19:29:42 rjacinto1-pri postfix/pickup[14843]: 66CD620A5B0E: uid=1002 from=<rjacinto1>
+Nov  8 19:29:42 rjacinto1-pri postfix/cleanup[14845]: 66CD620A5B0E: message-id=<20201109002942.66CD620A5B0E@mail.rjacinto1.com>
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 66CD620A5B0E: from=<rjacinto1@rjacinto1.com>, size=504, nrcpt=1 (queue active)
+Nov  8 19:29:42 rjacinto1-pri postfix/pickup[14843]: 6C0E520A5B0F: uid=1002 from=<rjacinto1>
+Nov  8 19:29:42 rjacinto1-pri postfix/cleanup[14845]: 6C0E520A5B0F: message-id=<20201109002942.6C0E520A5B0F@mail.rjacinto1.com>
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 6C0E520A5B0F: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 19:29:42 rjacinto1-pri postfix/pickup[14843]: 6CE6520A5B10: uid=1002 from=<rjacinto1>
+Nov  8 19:29:42 rjacinto1-pri postfix/cleanup[14845]: 6CE6520A5B10: message-id=<20201109002942.6CE6520A5B10@mail.rjacinto1.com>
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 6CE6520A5B10: from=<rjacinto1@rjacinto1.com>, size=501, nrcpt=1 (queue active)
+Nov  8 19:29:42 rjacinto1-pri postfix/pickup[14843]: 6FC9820A5B11: uid=1002 from=<rjacinto1>
+Nov  8 19:29:42 rjacinto1-pri postfix/cleanup[14845]: 6FC9820A5B11: message-id=<20201109002942.6FC9820A5B11@mail.rjacinto1.com>
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 6FC9820A5B11: from=<rjacinto1@rjacinto1.com>, size=501, nrcpt=1 (queue active)
+Nov  8 19:29:42 rjacinto1-pri postfix/local[14849]: 66CD620A5B0E: to=<root@rjacinto1.com>, orig_to=<root>, relay=local, delay=238, delays=238/0.02/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 66CD620A5B0E: removed
+Nov  8 19:29:42 rjacinto1-pri postfix/smtp[14851]: 6CE6520A5B10: to=<vkim11@vkmail.vkim11.com>, relay=none, delay=110, delays=110/0.06/0.02/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=vkmail.vkim11.com type=AAAA: Host not found)
+Nov  8 19:29:42 rjacinto1-pri postfix/cleanup[14845]: 8B22420A5B0E: message-id=<20201109002942.8B22420A5B0E@mail.rjacinto1.com>
+Nov  8 19:29:42 rjacinto1-pri postfix/smtp[14852]: 6FC9820A5B11: to=<vkim11@vkmail.vkim11.com>, relay=none, delay=87, delays=87/0.09/0/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=vkmail.vkim11.com type=AAAA: Host not found)
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 8B22420A5B0E: from=<>, size=2597, nrcpt=1 (queue active)
+Nov  8 19:29:42 rjacinto1-pri postfix/bounce[14854]: 6CE6520A5B10: sender non-delivery notification: 8B22420A5B0E
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 6CE6520A5B10: removed
+Nov  8 19:29:42 rjacinto1-pri postfix/cleanup[14845]: 8DFF920A5B12: message-id=<20201109002942.8DFF920A5B12@mail.rjacinto1.com>
+Nov  8 19:29:42 rjacinto1-pri postfix/local[14849]: 8B22420A5B0E: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.02, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 8B22420A5B0E: removed
+Nov  8 19:29:42 rjacinto1-pri postfix/bounce[14853]: 6FC9820A5B11: sender non-delivery notification: 8DFF920A5B12
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 6FC9820A5B11: removed
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 8DFF920A5B12: from=<>, size=2597, nrcpt=1 (queue active)
+Nov  8 19:29:42 rjacinto1-pri postfix/local[14849]: 8DFF920A5B12: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.02, delays=0.02/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 8DFF920A5B12: removed
+Nov  8 19:29:42 rjacinto1-pri postfix/smtp[14850]: 6C0E520A5B0F: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=199, delays=199/0.05/0.14/0.02, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 29DF01197E0)
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 6C0E520A5B0F: removed
+Nov  8 19:29:42 rjacinto1-pri postfix/smtp[14847]: 6355B20A5B0D: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=258, delays=258/0.05/0.16/0.07, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 2CE0A1197E1)
+Nov  8 19:29:42 rjacinto1-pri postfix/qmgr[14844]: 6355B20A5B0D: removed
+Nov  8 19:29:54 rjacinto1-pri postfix/pickup[14843]: 4504820A5B0D: uid=1002 from=<rjacinto1>
+Nov  8 19:29:54 rjacinto1-pri postfix/cleanup[14855]: 4504820A5B0D: message-id=<20201109002954.4504820A5B0D@mail.rjacinto1.com>
+Nov  8 19:29:54 rjacinto1-pri postfix/qmgr[14844]: 4504820A5B0D: from=<rjacinto1@rjacinto1.com>, size=501, nrcpt=1 (queue active)
+Nov  8 19:29:54 rjacinto1-pri postfix/smtp[14851]: 4504820A5B0D: to=<vkim11@vkmail.vkim11.com>, relay=none, delay=0.01, delays=0.01/0/0/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=vkmail.vkim11.com type=AAAA: Host not found)
+Nov  8 19:29:54 rjacinto1-pri postfix/cleanup[14845]: 46B1520A5B0E: message-id=<20201109002954.46B1520A5B0E@mail.rjacinto1.com>
+Nov  8 19:29:54 rjacinto1-pri postfix/bounce[14853]: 4504820A5B0D: sender non-delivery notification: 46B1520A5B0E
+Nov  8 19:29:54 rjacinto1-pri postfix/qmgr[14844]: 4504820A5B0D: removed
+Nov  8 19:29:54 rjacinto1-pri postfix/qmgr[14844]: 46B1520A5B0E: from=<>, size=2597, nrcpt=1 (queue active)
+Nov  8 19:29:54 rjacinto1-pri postfix/local[14849]: 46B1520A5B0E: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:29:54 rjacinto1-pri postfix/qmgr[14844]: 46B1520A5B0E: removed
+Nov  8 19:35:29 rjacinto1-pri postfix/pickup[14843]: 1FBFC20A5B10: uid=1002 from=<rjacinto1>
+Nov  8 19:35:29 rjacinto1-pri postfix/cleanup[14980]: 1FBFC20A5B10: message-id=<20201109003529.1FBFC20A5B10@mail.rjacinto1.com>
+Nov  8 19:35:29 rjacinto1-pri postfix/qmgr[14844]: 1FBFC20A5B10: from=<rjacinto1@rjacinto1.com>, size=506, nrcpt=1 (queue active)
+Nov  8 19:35:29 rjacinto1-pri postfix/local[14982]: 1FBFC20A5B10: to=<root@rjacinto1.com>, orig_to=<root>, relay=local, delay=0.04, delays=0.03/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:35:29 rjacinto1-pri postfix/qmgr[14844]: 1FBFC20A5B10: removed
+Nov  8 19:35:32 rjacinto1-pri postfix/pickup[14843]: 427B820A5B10: uid=1002 from=<rjacinto1>
+Nov  8 19:35:32 rjacinto1-pri postfix/cleanup[14980]: 427B820A5B10: message-id=<20201109003532.427B820A5B10@mail.rjacinto1.com>
+Nov  8 19:35:32 rjacinto1-pri postfix/qmgr[14844]: 427B820A5B10: from=<rjacinto1@rjacinto1.com>, size=506, nrcpt=1 (queue active)
+Nov  8 19:35:32 rjacinto1-pri postfix/local[14982]: 427B820A5B10: to=<root@rjacinto1.com>, orig_to=<root>, relay=local, delay=0.01, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:35:32 rjacinto1-pri postfix/qmgr[14844]: 427B820A5B10: removed
+Nov  8 19:36:31 rjacinto1-pri postfix/pickup[14843]: 955EF20A5B10: uid=1002 from=<rjacinto1>
+Nov  8 19:36:31 rjacinto1-pri postfix/cleanup[14980]: 955EF20A5B10: message-id=<20201109003631.955EF20A5B10@mail.rjacinto1.com>
+Nov  8 19:36:31 rjacinto1-pri postfix/qmgr[14844]: 955EF20A5B10: from=<rjacinto1@rjacinto1.com>, size=506, nrcpt=1 (queue active)
+Nov  8 19:36:31 rjacinto1-pri postfix/local[14982]: 955EF20A5B10: to=<root@rjacinto1.com>, orig_to=<root>, relay=local, delay=0.01, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:36:31 rjacinto1-pri postfix/qmgr[14844]: 955EF20A5B10: removed
+Nov  8 19:36:34 rjacinto1-pri postfix/pickup[14843]: EB13B20A5B10: uid=1002 from=<rjacinto1>
+Nov  8 19:36:34 rjacinto1-pri postfix/cleanup[14980]: EB13B20A5B10: message-id=<20201109003634.EB13B20A5B10@mail.rjacinto1.com>
+Nov  8 19:36:34 rjacinto1-pri postfix/qmgr[14844]: EB13B20A5B10: from=<rjacinto1@rjacinto1.com>, size=504, nrcpt=1 (queue active)
+Nov  8 19:36:34 rjacinto1-pri postfix/local[14982]: EB13B20A5B10: to=<root@rjacinto1.com>, orig_to=<root>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:36:34 rjacinto1-pri postfix/qmgr[14844]: EB13B20A5B10: removed
+Nov  8 19:43:45 rjacinto1-pri postfix/smtpd[15026]: connect from unknown[192.168.15.3]
+Nov  8 19:43:45 rjacinto1-pri postfix/smtpd[15026]: B104D20A5B10: client=unknown[192.168.15.3]
+Nov  8 19:43:45 rjacinto1-pri postfix/cleanup[15030]: B104D20A5B10: message-id=<20201109004346.177AD1197E0@mail.vkim11.com>
+Nov  8 19:43:45 rjacinto1-pri postfix/qmgr[14844]: B104D20A5B10: from=<vkim11@vkim11.com>, size=660, nrcpt=1 (queue active)
+Nov  8 19:43:45 rjacinto1-pri postfix/smtpd[15026]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 19:43:45 rjacinto1-pri postfix/local[15031]: B104D20A5B10: to=<rjacinto1@mail.rjacinto1.com>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:43:45 rjacinto1-pri postfix/qmgr[14844]: B104D20A5B10: removed
+Nov  8 19:47:05 rjacinto1-pri postfix/anvil[15028]: statistics: max connection rate 1/60s for (smtp:192.168.15.3) at Nov  8 19:43:45
+Nov  8 19:47:05 rjacinto1-pri postfix/anvil[15028]: statistics: max connection count 1 for (smtp:192.168.15.3) at Nov  8 19:43:45
+Nov  8 19:47:05 rjacinto1-pri postfix/anvil[15028]: statistics: max cache size 1 at Nov  8 19:43:45
+Nov  8 19:47:07 rjacinto1-pri postfix/smtpd[15064]: connect from unknown[192.168.15.3]
+Nov  8 19:47:07 rjacinto1-pri postfix/smtpd[15064]: ABC73208959D: client=unknown[192.168.15.3]
+Nov  8 19:47:07 rjacinto1-pri postfix/cleanup[15068]: ABC73208959D: message-id=<20201109004708.130441197E0@mail.vkim11.com>
+Nov  8 19:47:07 rjacinto1-pri postfix/qmgr[14844]: ABC73208959D: from=<vkim11@vkim11.com>, size=650, nrcpt=1 (queue active)
+Nov  8 19:47:07 rjacinto1-pri postfix/smtpd[15064]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 19:47:07 rjacinto1-pri postfix/local[15069]: ABC73208959D: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:47:07 rjacinto1-pri postfix/qmgr[14844]: ABC73208959D: removed
+Nov  8 19:47:16 rjacinto1-pri postfix/smtpd[15064]: connect from unknown[192.168.15.3]
+Nov  8 19:47:16 rjacinto1-pri postfix/smtpd[15064]: C3950208959D: client=unknown[192.168.15.3]
+Nov  8 19:47:16 rjacinto1-pri postfix/cleanup[15068]: C3950208959D: message-id=<20201109004717.42DDA1197E0@mail.vkim11.com>
+Nov  8 19:47:16 rjacinto1-pri postfix/qmgr[14844]: C3950208959D: from=<vkim11@vkim11.com>, size=634, nrcpt=1 (queue active)
+Nov  8 19:47:16 rjacinto1-pri postfix/smtpd[15064]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 19:47:16 rjacinto1-pri postfix/local[15069]: C3950208959D: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 19:47:16 rjacinto1-pri postfix/qmgr[14844]: C3950208959D: removed
+Nov  8 19:50:36 rjacinto1-pri postfix/anvil[15066]: statistics: max connection rate 2/60s for (smtp:192.168.15.3) at Nov  8 19:47:16
+Nov  8 19:50:36 rjacinto1-pri postfix/anvil[15066]: statistics: max connection count 1 for (smtp:192.168.15.3) at Nov  8 19:47:07
+Nov  8 19:50:36 rjacinto1-pri postfix/anvil[15066]: statistics: max cache size 1 at Nov  8 19:47:07
+Nov  8 20:38:43 rjacinto1-pri postfix/smtpd[15201]: connect from unknown[192.168.21.3]
+Nov  8 20:38:43 rjacinto1-pri postfix/smtpd[15201]: 52C5B208959D: client=unknown[192.168.21.3]
+Nov  8 20:38:43 rjacinto1-pri postfix/cleanup[15205]: 52C5B208959D: message-id=<20201109013859.30CA510B5FB@mail.sp.com>
+Nov  8 20:38:43 rjacinto1-pri postfix/qmgr[14844]: 52C5B208959D: from=<sknasser1@sp.com>, size=642, nrcpt=1 (queue active)
+Nov  8 20:38:43 rjacinto1-pri postfix/smtpd[15201]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:38:43 rjacinto1-pri postfix/local[15206]: 52C5B208959D: to=<Rjacinto1@rjacinto1.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:38:43 rjacinto1-pri postfix/qmgr[14844]: 52C5B208959D: removed
+Nov  8 20:42:03 rjacinto1-pri postfix/anvil[15203]: statistics: max connection rate 1/60s for (smtp:192.168.21.3) at Nov  8 20:38:43
+Nov  8 20:42:03 rjacinto1-pri postfix/anvil[15203]: statistics: max connection count 1 for (smtp:192.168.21.3) at Nov  8 20:38:43
+Nov  8 20:42:03 rjacinto1-pri postfix/anvil[15203]: statistics: max cache size 1 at Nov  8 20:38:43
+Nov  8 20:42:18 rjacinto1-pri postfix/smtpd[15209]: connect from unknown[192.168.21.3]
+Nov  8 20:42:18 rjacinto1-pri postfix/smtpd[15209]: BEC19208959D: client=unknown[192.168.21.3]
+Nov  8 20:42:18 rjacinto1-pri postfix/cleanup[15213]: BEC19208959D: message-id=<20201109014234.A0D7310B5D6@mail.sp.com>
+Nov  8 20:42:18 rjacinto1-pri postfix/qmgr[14844]: BEC19208959D: from=<sknasser1@sp.com>, size=626, nrcpt=1 (queue active)
+Nov  8 20:42:18 rjacinto1-pri postfix/smtpd[15209]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:42:18 rjacinto1-pri postfix/local[15214]: BEC19208959D: to=<Rjacinto1@rjacinto1.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:42:18 rjacinto1-pri postfix/qmgr[14844]: BEC19208959D: removed
+Nov  8 20:44:04 rjacinto1-pri postfix/pickup[14843]: 6C90F208959D: uid=1002 from=<rjacinto1>
+Nov  8 20:44:04 rjacinto1-pri postfix/cleanup[15219]: 6C90F208959D: message-id=<20201109014404.6C90F208959D@mail.rjacinto1.com>
+Nov  8 20:44:04 rjacinto1-pri postfix/qmgr[14844]: 6C90F208959D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 20:44:04 rjacinto1-pri postfix/smtp[15221]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 20:44:04 rjacinto1-pri postfix/smtp[15221]: 6C90F208959D: to=<sknasser1@sknasser1.com>, relay=none, delay=0.05, delays=0.03/0.02/0/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 20:44:25 rjacinto1-pri postfix/smtpd[15223]: connect from unknown[192.168.15.3]
+Nov  8 20:44:25 rjacinto1-pri postfix/smtpd[15223]: AC2C620A5B12: client=unknown[192.168.15.3]
+Nov  8 20:44:25 rjacinto1-pri postfix/cleanup[15219]: AC2C620A5B12: message-id=<20201109014426.1BDAF1197E0@mail.vkim11.com>
+Nov  8 20:44:25 rjacinto1-pri postfix/qmgr[14844]: AC2C620A5B12: from=<vkim11@vkim11.com>, size=636, nrcpt=1 (queue active)
+Nov  8 20:44:25 rjacinto1-pri postfix/smtpd[15223]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:44:25 rjacinto1-pri postfix/local[15225]: AC2C620A5B12: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.02, delays=0/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:44:25 rjacinto1-pri postfix/qmgr[14844]: AC2C620A5B12: removed
+Nov  8 20:44:26 rjacinto1-pri postfix/smtpd[15223]: connect from unknown[192.168.15.3]
+Nov  8 20:44:26 rjacinto1-pri postfix/smtpd[15223]: 9C69F20A5B12: client=unknown[192.168.15.3]
+Nov  8 20:44:26 rjacinto1-pri postfix/cleanup[15219]: 9C69F20A5B12: message-id=<20201109014427.1D4901197E0@mail.vkim11.com>
+Nov  8 20:44:26 rjacinto1-pri postfix/qmgr[14844]: 9C69F20A5B12: from=<vkim11@vkim11.com>, size=636, nrcpt=1 (queue active)
+Nov  8 20:44:26 rjacinto1-pri postfix/smtpd[15223]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:44:26 rjacinto1-pri postfix/local[15225]: 9C69F20A5B12: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:44:26 rjacinto1-pri postfix/qmgr[14844]: 9C69F20A5B12: removed
+Nov  8 20:44:26 rjacinto1-pri postfix/smtpd[15223]: connect from unknown[192.168.15.3]
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: 029B720A5B12: client=unknown[192.168.15.3]
+Nov  8 20:44:27 rjacinto1-pri postfix/cleanup[15219]: 029B720A5B12: message-id=<20201109014427.772E51197E0@mail.vkim11.com>
+Nov  8 20:44:27 rjacinto1-pri postfix/qmgr[14844]: 029B720A5B12: from=<vkim11@vkim11.com>, size=636, nrcpt=1 (queue active)
+Nov  8 20:44:27 rjacinto1-pri postfix/local[15225]: 029B720A5B12: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:44:27 rjacinto1-pri postfix/qmgr[14844]: 029B720A5B12: removed
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: connect from unknown[192.168.15.3]
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: 37D7320A5B12: client=unknown[192.168.15.3]
+Nov  8 20:44:27 rjacinto1-pri postfix/cleanup[15219]: 37D7320A5B12: message-id=<20201109014427.ACE561197E0@mail.vkim11.com>
+Nov  8 20:44:27 rjacinto1-pri postfix/qmgr[14844]: 37D7320A5B12: from=<vkim11@vkim11.com>, size=636, nrcpt=1 (queue active)
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:44:27 rjacinto1-pri postfix/local[15225]: 37D7320A5B12: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:44:27 rjacinto1-pri postfix/qmgr[14844]: 37D7320A5B12: removed
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: connect from unknown[192.168.15.3]
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: 732B420A5B12: client=unknown[192.168.15.3]
+Nov  8 20:44:27 rjacinto1-pri postfix/cleanup[15219]: 732B420A5B12: message-id=<20201109014427.E83A91197E0@mail.vkim11.com>
+Nov  8 20:44:27 rjacinto1-pri postfix/qmgr[14844]: 732B420A5B12: from=<vkim11@vkim11.com>, size=636, nrcpt=1 (queue active)
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:44:27 rjacinto1-pri postfix/local[15225]: 732B420A5B12: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:44:27 rjacinto1-pri postfix/qmgr[14844]: 732B420A5B12: removed
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: connect from unknown[192.168.15.3]
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: A4BE720A5B12: client=unknown[192.168.15.3]
+Nov  8 20:44:27 rjacinto1-pri postfix/cleanup[15219]: A4BE720A5B12: message-id=<20201109014428.255C51197E0@mail.vkim11.com>
+Nov  8 20:44:27 rjacinto1-pri postfix/qmgr[14844]: A4BE720A5B12: from=<vkim11@vkim11.com>, size=636, nrcpt=1 (queue active)
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:44:27 rjacinto1-pri postfix/local[15225]: A4BE720A5B12: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:44:27 rjacinto1-pri postfix/qmgr[14844]: A4BE720A5B12: removed
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: connect from unknown[192.168.15.3]
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: EEB8C20A5B12: client=unknown[192.168.15.3]
+Nov  8 20:44:27 rjacinto1-pri postfix/cleanup[15219]: EEB8C20A5B12: message-id=<20201109014428.6F40D1197E0@mail.vkim11.com>
+Nov  8 20:44:27 rjacinto1-pri postfix/qmgr[14844]: EEB8C20A5B12: from=<vkim11@vkim11.com>, size=636, nrcpt=1 (queue active)
+Nov  8 20:44:27 rjacinto1-pri postfix/smtpd[15223]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:44:27 rjacinto1-pri postfix/local[15225]: EEB8C20A5B12: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:44:27 rjacinto1-pri postfix/qmgr[14844]: EEB8C20A5B12: removed
+Nov  8 20:44:51 rjacinto1-pri postfix/pickup[14843]: 8C43220A5B12: uid=1002 from=<rjacinto1>
+Nov  8 20:44:51 rjacinto1-pri postfix/cleanup[15219]: 8C43220A5B12: message-id=<20201109014451.8C43220A5B12@mail.rjacinto1.com>
+Nov  8 20:44:51 rjacinto1-pri postfix/qmgr[14844]: 8C43220A5B12: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 20:44:51 rjacinto1-pri postfix/smtp[15221]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 20:44:51 rjacinto1-pri postfix/smtp[15221]: 8C43220A5B12: to=<sknasser1@sknasser1.com>, relay=none, delay=0.01, delays=0.01/0/0/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 20:46:04 rjacinto1-pri postfix/smtpd[15223]: connect from unknown[192.168.21.3]
+Nov  8 20:46:04 rjacinto1-pri postfix/smtpd[15223]: B7A6220A5B13: client=unknown[192.168.21.3]
+Nov  8 20:46:04 rjacinto1-pri postfix/cleanup[15219]: B7A6220A5B13: message-id=<20201109014620.ABDC310B5D6@mail.sp.com>
+Nov  8 20:46:04 rjacinto1-pri postfix/qmgr[14844]: B7A6220A5B13: from=<sknasser1@sp.com>, size=626, nrcpt=1 (queue active)
+Nov  8 20:46:04 rjacinto1-pri postfix/smtpd[15223]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:46:04 rjacinto1-pri postfix/local[15225]: B7A6220A5B13: to=<Rjacinto1@rjacinto1.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:46:04 rjacinto1-pri postfix/qmgr[14844]: B7A6220A5B13: removed
+Nov  8 20:46:11 rjacinto1-pri postfix/pickup[14843]: CECA520A5B13: uid=1002 from=<rjacinto1>
+Nov  8 20:46:11 rjacinto1-pri postfix/cleanup[15219]: CECA520A5B13: message-id=<20201109014611.CECA520A5B13@mail.rjacinto1.com>
+Nov  8 20:46:11 rjacinto1-pri postfix/qmgr[14844]: CECA520A5B13: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 20:46:11 rjacinto1-pri postfix/smtp[15221]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 20:46:11 rjacinto1-pri postfix/smtp[15221]: CECA520A5B13: to=<sknasser1@sknasser1.com>, relay=none, delay=0.01, delays=0.01/0/0/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 20:47:11 rjacinto1-pri postfix/pickup[14843]: 6C77920A5B15: uid=1002 from=<rjacinto1>
+Nov  8 20:47:11 rjacinto1-pri postfix/cleanup[15219]: 6C77920A5B15: message-id=<20201109014711.6C77920A5B15@mail.rjacinto1.com>
+Nov  8 20:47:11 rjacinto1-pri postfix/qmgr[14844]: 6C77920A5B15: from=<rjacinto1@rjacinto1.com>, size=498, nrcpt=1 (queue active)
+Nov  8 20:47:31 rjacinto1-pri postfix/smtp[15221]: warning: no MX host for tbrecher.com has a valid address record
+Nov  8 20:47:31 rjacinto1-pri postfix/smtp[15221]: 6C77920A5B15: to=<tbrecher@tbrecher.com>, relay=none, delay=20, delays=0.01/0/20/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=mail.tbrecher.com type=AAAA: Host not found, try again)
+Nov  8 20:49:22 rjacinto1-pri postfix/pickup[14843]: D7E3D20A5B16: uid=1002 from=<rjacinto1>
+Nov  8 20:49:22 rjacinto1-pri postfix/cleanup[15249]: D7E3D20A5B16: message-id=<20201109014922.D7E3D20A5B16@mail.rjacinto1.com>
+Nov  8 20:49:22 rjacinto1-pri postfix/qmgr[14844]: D7E3D20A5B16: from=<rjacinto1@rjacinto1.com>, size=498, nrcpt=1 (queue active)
+Nov  8 20:49:24 rjacinto1-pri postfix/anvil[15211]: statistics: max connection rate 7/60s for (smtp:192.168.15.3) at Nov  8 20:44:27
+Nov  8 20:49:24 rjacinto1-pri postfix/anvil[15211]: statistics: max connection count 1 for (smtp:192.168.21.3) at Nov  8 20:42:18
+Nov  8 20:49:24 rjacinto1-pri postfix/anvil[15211]: statistics: max cache size 1 at Nov  8 20:42:18
+Nov  8 20:49:33 rjacinto1-pri postfix/smtp[15251]: D7E3D20A5B16: to=<tbrecher@tbrecher.com>, relay=mail.tbrecher.com[192.168.4.25]:25, delay=10, delays=0.03/0.02/10/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 3A929306B76D)
+Nov  8 20:49:33 rjacinto1-pri postfix/qmgr[14844]: D7E3D20A5B16: removed
+Nov  8 20:49:42 rjacinto1-pri postfix/qmgr[14844]: 6C90F208959D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 20:49:42 rjacinto1-pri postfix/smtp[15251]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 20:49:42 rjacinto1-pri postfix/smtp[15251]: 6C90F208959D: to=<sknasser1@sknasser1.com>, relay=none, delay=338, delays=338/0/0/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 20:51:46 rjacinto1-pri postfix/pickup[14843]: 1790720A5B16: uid=1002 from=<rjacinto1>
+Nov  8 20:51:46 rjacinto1-pri postfix/cleanup[15256]: 1790720A5B16: message-id=<20201109015146.1790720A5B16@mail.rjacinto1.com>
+Nov  8 20:51:46 rjacinto1-pri postfix/qmgr[14844]: 1790720A5B16: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 20:51:46 rjacinto1-pri postfix/smtp[15258]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 20:51:46 rjacinto1-pri postfix/smtp[15258]: 1790720A5B16: to=<sknasser1@sknasser1.com>, relay=none, delay=0.05, delays=0.03/0.02/0/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 20:52:17 rjacinto1-pri postfix/pickup[14843]: 5F1DA20A5B17: uid=1002 from=<rjacinto1>
+Nov  8 20:52:17 rjacinto1-pri postfix/cleanup[15256]: 5F1DA20A5B17: message-id=<20201109015217.5F1DA20A5B17@mail.rjacinto1.com>
+Nov  8 20:52:17 rjacinto1-pri postfix/qmgr[14844]: 5F1DA20A5B17: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 20:52:17 rjacinto1-pri postfix/smtp[15258]: 5F1DA20A5B17: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.14, delays=0.01/0/0.11/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 0FC401197E5)
+Nov  8 20:52:17 rjacinto1-pri postfix/qmgr[14844]: 5F1DA20A5B17: removed
+Nov  8 20:54:42 rjacinto1-pri postfix/qmgr[14844]: 6C77920A5B15: from=<rjacinto1@rjacinto1.com>, size=498, nrcpt=1 (queue active)
+Nov  8 20:54:42 rjacinto1-pri postfix/qmgr[14844]: 8C43220A5B12: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 20:54:42 rjacinto1-pri postfix/qmgr[14844]: CECA520A5B13: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 20:54:42 rjacinto1-pri postfix/smtp[15266]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 20:54:42 rjacinto1-pri postfix/smtp[15267]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 20:54:42 rjacinto1-pri postfix/smtp[15266]: 8C43220A5B12: to=<sknasser1@sknasser1.com>, relay=none, delay=591, delays=591/0.05/0.02/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 20:54:42 rjacinto1-pri postfix/smtp[15267]: CECA520A5B13: to=<sknasser1@sknasser1.com>, relay=none, delay=511, delays=511/0.07/0.01/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 20:54:52 rjacinto1-pri postfix/smtp[15265]: 6C77920A5B15: to=<tbrecher@tbrecher.com>, relay=mail.tbrecher.com[192.168.4.25]:25, delay=461, delays=451/0.04/10/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as E1CC1306B76D)
+Nov  8 20:54:52 rjacinto1-pri postfix/qmgr[14844]: 6C77920A5B15: removed
+Nov  8 20:56:44 rjacinto1-pri postfix/pickup[15273]: E303120A5B15: uid=1002 from=<rjacinto1>
+Nov  8 20:56:44 rjacinto1-pri postfix/cleanup[15274]: E303120A5B15: message-id=<20201109015644.E303120A5B15@mail.rjacinto1.com>
+Nov  8 20:56:44 rjacinto1-pri postfix/qmgr[14844]: E303120A5B15: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 20:56:44 rjacinto1-pri postfix/smtp[15276]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 20:56:44 rjacinto1-pri postfix/smtp[15276]: E303120A5B15: to=<sknasser1@sknasser1.com>, relay=none, delay=0.06, delays=0.03/0.02/0/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 20:57:58 rjacinto1-pri postfix/smtpd[15283]: connect from unknown[192.168.21.3]
+Nov  8 20:57:58 rjacinto1-pri postfix/smtpd[15283]: 5E64120A5B18: client=unknown[192.168.21.3]
+Nov  8 20:57:58 rjacinto1-pri postfix/cleanup[15274]: 5E64120A5B18: message-id=<20201109015814.45FE010B5D6@mail.sknasser1.com>
+Nov  8 20:57:58 rjacinto1-pri postfix/qmgr[14844]: 5E64120A5B18: from=<sknasser1@sknasser1.com>, size=654, nrcpt=1 (queue active)
+Nov  8 20:57:58 rjacinto1-pri postfix/smtpd[15283]: disconnect from unknown[192.168.21.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 20:57:58 rjacinto1-pri postfix/local[15286]: 5E64120A5B18: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.02, delays=0/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 20:57:58 rjacinto1-pri postfix/qmgr[14844]: 5E64120A5B18: removed
+Nov  8 20:59:42 rjacinto1-pri postfix/qmgr[14844]: 6C90F208959D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 20:59:42 rjacinto1-pri postfix/qmgr[14844]: 1790720A5B16: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 20:59:42 rjacinto1-pri postfix/smtp[15294]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 20:59:42 rjacinto1-pri postfix/smtp[15295]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 20:59:42 rjacinto1-pri postfix/smtp[15294]: 6C90F208959D: to=<sknasser1@sknasser1.com>, relay=none, delay=938, delays=938/0.03/0.02/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 20:59:42 rjacinto1-pri postfix/smtp[15295]: 1790720A5B16: to=<sknasser1@sknasser1.com>, relay=none, delay=476, delays=476/0.05/0.01/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:01:18 rjacinto1-pri postfix/anvil[15285]: statistics: max connection rate 1/60s for (smtp:192.168.21.3) at Nov  8 20:57:58
+Nov  8 21:01:18 rjacinto1-pri postfix/anvil[15285]: statistics: max connection count 1 for (smtp:192.168.21.3) at Nov  8 20:57:58
+Nov  8 21:01:18 rjacinto1-pri postfix/anvil[15285]: statistics: max cache size 1 at Nov  8 20:57:58
+Nov  8 21:02:58 rjacinto1-pri postfix/pickup[15273]: 904A420A5B18: uid=1002 from=<rjacinto1>
+Nov  8 21:02:58 rjacinto1-pri postfix/cleanup[15325]: 904A420A5B18: message-id=<20201109020258.904A420A5B18@mail.rjacinto1.com>
+Nov  8 21:02:58 rjacinto1-pri postfix/qmgr[14844]: 904A420A5B18: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:02:58 rjacinto1-pri postfix/smtp[15327]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:02:58 rjacinto1-pri postfix/smtp[15327]: 904A420A5B18: to=<sknasser1@sknasser1.com>, relay=none, delay=0.05, delays=0.03/0.02/0/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:04:42 rjacinto1-pri postfix/qmgr[14844]: 8C43220A5B12: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:04:42 rjacinto1-pri postfix/qmgr[14844]: CECA520A5B13: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:04:42 rjacinto1-pri postfix/qmgr[14844]: E303120A5B15: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:04:42 rjacinto1-pri postfix/smtp[15334]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:04:42 rjacinto1-pri postfix/smtp[15335]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:04:42 rjacinto1-pri postfix/smtp[15334]: 8C43220A5B12: to=<sknasser1@sknasser1.com>, relay=none, delay=1191, delays=1191/0.03/0.02/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:04:42 rjacinto1-pri postfix/smtp[15335]: CECA520A5B13: to=<sknasser1@sknasser1.com>, relay=none, delay=1111, delays=1111/0.05/0.03/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:04:42 rjacinto1-pri postfix/smtp[15334]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:04:42 rjacinto1-pri postfix/smtp[15334]: E303120A5B15: to=<sknasser1@sknasser1.com>, relay=none, delay=478, delays=478/0.08/0.02/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:05:10 rjacinto1-pri postfix/pickup[15273]: 72BD720A5B19: uid=1002 from=<rjacinto1>
+Nov  8 21:05:10 rjacinto1-pri postfix/cleanup[15347]: 72BD720A5B19: message-id=<20201109020510.72BD720A5B19@mail.rjacinto1.com>
+Nov  8 21:05:10 rjacinto1-pri postfix/qmgr[14844]: 72BD720A5B19: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:05:10 rjacinto1-pri postfix/error[15348]: 72BD720A5B19: to=<sknasser1@sknasser1.com>, relay=none, delay=0.03, delays=0.02/0.01/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:08:02 rjacinto1-pri postfix/scache[15339]: statistics: start interval Nov  8 21:04:42
+Nov  8 21:08:02 rjacinto1-pri postfix/scache[15339]: statistics: domain lookup hits=0 miss=1 success=0%
+Nov  8 21:08:51 rjacinto1-pri postfix/pickup[15273]: 1F0F020A5B1B: uid=1002 from=<rjacinto1>
+Nov  8 21:08:51 rjacinto1-pri postfix/cleanup[15381]: 1F0F020A5B1B: message-id=<20201109020851.1F0F020A5B1B@mail.rjacinto1.com>
+Nov  8 21:08:51 rjacinto1-pri postfix/qmgr[14844]: 1F0F020A5B1B: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:08:51 rjacinto1-pri postfix/error[15383]: 1F0F020A5B1B: to=<sknasser1@sknasser1.com>, relay=none, delay=0.05, delays=0.03/0.01/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:09:42 rjacinto1-pri postfix/qmgr[14844]: 1790720A5B16: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:09:42 rjacinto1-pri postfix/qmgr[14844]: 904A420A5B18: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:09:42 rjacinto1-pri postfix/smtp[15387]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:09:42 rjacinto1-pri postfix/smtp[15387]: 1790720A5B16: to=<sknasser1@sknasser1.com>, relay=none, delay=1076, delays=1076/0.03/0.02/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:09:42 rjacinto1-pri postfix/smtp[15388]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:09:42 rjacinto1-pri postfix/smtp[15388]: 904A420A5B18: to=<sknasser1@sknasser1.com>, relay=none, delay=404, delays=404/0.05/0/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:11:04 rjacinto1-pri postfix/pickup[15273]: 2585720A5B1C: uid=1002 from=<rjacinto1>
+Nov  8 21:11:04 rjacinto1-pri postfix/cleanup[15392]: 2585720A5B1C: message-id=<20201109021104.2585720A5B1C@mail.rjacinto1.com>
+Nov  8 21:11:04 rjacinto1-pri postfix/qmgr[14844]: 2585720A5B1C: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:11:04 rjacinto1-pri postfix/smtp[15387]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:11:04 rjacinto1-pri postfix/smtp[15387]: 2585720A5B1C: to=<sknasser1@sknasser1.com>, relay=none, delay=0.02, delays=0.02/0/0/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:14:42 rjacinto1-pri postfix/qmgr[14844]: 1F0F020A5B1B: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:14:42 rjacinto1-pri postfix/qmgr[14844]: E303120A5B15: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:14:42 rjacinto1-pri postfix/qmgr[14844]: 72BD720A5B19: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:14:42 rjacinto1-pri postfix/smtp[15421]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:14:42 rjacinto1-pri postfix/smtp[15422]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:14:42 rjacinto1-pri postfix/smtp[15421]: 1F0F020A5B1B: to=<sknasser1@sknasser1.com>, relay=none, delay=351, delays=351/0.04/0.02/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:14:42 rjacinto1-pri postfix/smtp[15422]: E303120A5B15: to=<sknasser1@sknasser1.com>, relay=none, delay=1077, delays=1077/0.05/0.02/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:14:42 rjacinto1-pri postfix/smtp[15421]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:14:42 rjacinto1-pri postfix/smtp[15421]: 72BD720A5B19: to=<sknasser1@sknasser1.com>, relay=none, delay=572, delays=572/0.09/0.01/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:18:02 rjacinto1-pri postfix/scache[15426]: statistics: start interval Nov  8 21:14:42
+Nov  8 21:18:02 rjacinto1-pri postfix/scache[15426]: statistics: domain lookup hits=0 miss=1 success=0%
+Nov  8 21:18:45 rjacinto1-pri postfix/pickup[15273]: 92C8320A5B1D: uid=1002 from=<rjacinto1>
+Nov  8 21:18:45 rjacinto1-pri postfix/cleanup[15431]: 92C8320A5B1D: message-id=<20201109021845.92C8320A5B1D@mail.rjacinto1.com>
+Nov  8 21:18:45 rjacinto1-pri postfix/qmgr[14844]: 92C8320A5B1D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:18:45 rjacinto1-pri postfix/error[15433]: 92C8320A5B1D: to=<sknasser1@sknasser1.com>, relay=none, delay=0.05, delays=0.03/0.01/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:19:42 rjacinto1-pri postfix/qmgr[14844]: 6C90F208959D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:19:42 rjacinto1-pri postfix/qmgr[14844]: 904A420A5B18: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:19:42 rjacinto1-pri postfix/qmgr[14844]: 2585720A5B1C: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:19:42 rjacinto1-pri postfix/smtp[15441]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:19:42 rjacinto1-pri postfix/smtp[15441]: 6C90F208959D: to=<sknasser1@sknasser1.com>, relay=none, delay=2138, delays=2138/0.03/0.02/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:19:42 rjacinto1-pri postfix/smtp[15442]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:19:42 rjacinto1-pri postfix/smtp[15442]: 904A420A5B18: to=<sknasser1@sknasser1.com>, relay=none, delay=1004, delays=1004/0.05/0.03/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:19:42 rjacinto1-pri postfix/smtp[15441]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:19:42 rjacinto1-pri postfix/smtp[15441]: 2585720A5B1C: to=<sknasser1@sknasser1.com>, relay=none, delay=519, delays=519/0.05/0.03/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:22:32 rjacinto1-pri postfix/pickup[15273]: 2FAA120A5B1E: uid=1002 from=<rjacinto1>
+Nov  8 21:22:32 rjacinto1-pri postfix/cleanup[15449]: 2FAA120A5B1E: message-id=<20201109022232.2FAA120A5B1E@mail.rjacinto1.com>
+Nov  8 21:22:32 rjacinto1-pri postfix/qmgr[14844]: 2FAA120A5B1E: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:22:32 rjacinto1-pri postfix/error[15451]: 2FAA120A5B1E: to=<sknasser1@sknasser1.com>, relay=none, delay=0.05, delays=0.03/0.01/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:23:02 rjacinto1-pri postfix/scache[15444]: statistics: start interval Nov  8 21:19:42
+Nov  8 21:23:02 rjacinto1-pri postfix/scache[15444]: statistics: domain lookup hits=0 miss=1 success=0%
+Nov  8 21:23:48 rjacinto1-pri postfix/pickup[15273]: DE6A320A5B1F: uid=1002 from=<rjacinto1>
+Nov  8 21:23:48 rjacinto1-pri postfix/cleanup[15449]: DE6A320A5B1F: message-id=<20201109022348.DE6A320A5B1F@mail.rjacinto1.com>
+Nov  8 21:23:48 rjacinto1-pri postfix/qmgr[14844]: DE6A320A5B1F: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:23:48 rjacinto1-pri postfix/error[15451]: DE6A320A5B1F: to=<sknasser1@sknasser1.com>, relay=none, delay=0.01, delays=0.01/0/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:24:42 rjacinto1-pri postfix/qmgr[14844]: 8C43220A5B12: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:24:42 rjacinto1-pri postfix/qmgr[14844]: CECA520A5B13: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:24:42 rjacinto1-pri postfix/qmgr[14844]: 1F0F020A5B1B: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:24:42 rjacinto1-pri postfix/qmgr[14844]: 92C8320A5B1D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:24:42 rjacinto1-pri postfix/qmgr[14844]: 72BD720A5B19: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:24:43 rjacinto1-pri postfix/smtp[15479]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:24:43 rjacinto1-pri postfix/smtp[15479]: 8C43220A5B12: to=<sknasser1@sknasser1.com>, relay=none, delay=2391, delays=2391/0.03/0.02/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:24:43 rjacinto1-pri postfix/smtp[15480]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:24:43 rjacinto1-pri postfix/smtp[15479]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:24:43 rjacinto1-pri postfix/smtp[15480]: 1F0F020A5B1B: to=<sknasser1@sknasser1.com>, relay=none, delay=952, delays=952/0.05/0.03/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:24:43 rjacinto1-pri postfix/smtp[15479]: CECA520A5B13: to=<sknasser1@sknasser1.com>, relay=none, delay=2311, delays=2311/0.05/0.03/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:24:43 rjacinto1-pri postfix/error[15451]: 72BD720A5B19: to=<sknasser1@sknasser1.com>, relay=none, delay=1173, delays=1173/0.1/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:24:43 rjacinto1-pri postfix/smtp[15480]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused
+Nov  8 21:24:43 rjacinto1-pri postfix/smtp[15480]: 92C8320A5B1D: to=<sknasser1@sknasser1.com>, relay=none, delay=357, delays=357/0.09/0.01/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:28:03 rjacinto1-pri postfix/scache[15482]: statistics: start interval Nov  8 21:24:43
+Nov  8 21:28:03 rjacinto1-pri postfix/scache[15482]: statistics: domain lookup hits=0 miss=3 success=0%
+Nov  8 21:29:27 rjacinto1-pri postfix/pickup[15273]: 9628420A5B22: uid=1002 from=<rjacinto1>
+Nov  8 21:29:27 rjacinto1-pri postfix/cleanup[15499]: 9628420A5B22: message-id=<20201109022927.9628420A5B22@mail.rjacinto1.com>
+Nov  8 21:29:27 rjacinto1-pri postfix/qmgr[14844]: 9628420A5B22: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:29:27 rjacinto1-pri postfix/error[15501]: 9628420A5B22: to=<sknasser1@sknasser1.com>, relay=none, delay=0.05, delays=0.03/0.01/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:29:42 rjacinto1-pri postfix/qmgr[14844]: 1790720A5B16: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:29:42 rjacinto1-pri postfix/qmgr[14844]: 2585720A5B1C: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:29:42 rjacinto1-pri postfix/qmgr[14844]: 2FAA120A5B1E: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:29:42 rjacinto1-pri postfix/qmgr[14844]: DE6A320A5B1F: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:29:42 rjacinto1-pri postfix/error[15501]: 1790720A5B16: to=<sknasser1@sknasser1.com>, relay=none, delay=2277, delays=2277/0/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:29:42 rjacinto1-pri postfix/error[15501]: 2585720A5B1C: to=<sknasser1@sknasser1.com>, relay=none, delay=1119, delays=1119/0.01/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:29:42 rjacinto1-pri postfix/error[15504]: 2FAA120A5B1E: to=<sknasser1@sknasser1.com>, relay=none, delay=431, delays=430/0.01/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:29:42 rjacinto1-pri postfix/error[15501]: DE6A320A5B1F: to=<sknasser1@sknasser1.com>, relay=none, delay=354, delays=354/0.02/0/0.02, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection refused)
+Nov  8 21:30:36 rjacinto1-pri postfix/pickup[15273]: 7056920A5B23: uid=1002 from=<rjacinto1>
+Nov  8 21:30:36 rjacinto1-pri postfix/cleanup[15499]: 7056920A5B23: message-id=<20201109023036.7056920A5B23@mail.rjacinto1.com>
+Nov  8 21:30:36 rjacinto1-pri postfix/qmgr[14844]: 7056920A5B23: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:31:06 rjacinto1-pri postfix/smtp[15510]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:31:06 rjacinto1-pri postfix/smtp[15510]: 7056920A5B23: to=<sknasser1@sknasser1.com>, relay=none, delay=30, delays=0.01/0.02/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:34:42 rjacinto1-pri postfix/qmgr[14844]: E303120A5B15: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:34:42 rjacinto1-pri postfix/qmgr[14844]: 92C8320A5B1D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:34:42 rjacinto1-pri postfix/qmgr[14844]: 9628420A5B22: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:35:12 rjacinto1-pri postfix/smtp[15515]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:35:12 rjacinto1-pri postfix/smtp[15515]: E303120A5B15: to=<sknasser1@sknasser1.com>, relay=none, delay=2308, delays=2278/0.04/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:35:12 rjacinto1-pri postfix/smtp[15516]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:35:12 rjacinto1-pri postfix/smtp[15516]: 92C8320A5B1D: to=<sknasser1@sknasser1.com>, relay=none, delay=987, delays=957/0.04/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:35:12 rjacinto1-pri postfix/smtp[15517]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:35:12 rjacinto1-pri postfix/smtp[15517]: 9628420A5B22: to=<sknasser1@sknasser1.com>, relay=none, delay=345, delays=315/0.07/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:37:45 rjacinto1-pri postfix/pickup[15273]: BDDD220A5B24: uid=1002 from=<rjacinto1>
+Nov  8 21:37:45 rjacinto1-pri postfix/cleanup[15535]: BDDD220A5B24: message-id=<20201109023745.BDDD220A5B24@mail.rjacinto1.com>
+Nov  8 21:37:45 rjacinto1-pri postfix/qmgr[14844]: BDDD220A5B24: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:37:45 rjacinto1-pri postfix/error[15537]: BDDD220A5B24: to=<sknasser1@sknasser1.com>, relay=none, delay=0.04, delays=0.02/0.01/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:39:42 rjacinto1-pri postfix/qmgr[14844]: 904A420A5B18: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:39:42 rjacinto1-pri postfix/qmgr[14844]: 7056920A5B23: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:39:42 rjacinto1-pri postfix/qmgr[14844]: 2FAA120A5B1E: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:39:42 rjacinto1-pri postfix/qmgr[14844]: DE6A320A5B1F: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:39:42 rjacinto1-pri postfix/error[15549]: 904A420A5B18: to=<sknasser1@sknasser1.com>, relay=none, delay=2204, delays=2204/0.02/0/0.03, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:39:42 rjacinto1-pri postfix/error[15550]: 7056920A5B23: to=<sknasser1@sknasser1.com>, relay=none, delay=547, delays=546/0.03/0/0.02, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:39:42 rjacinto1-pri postfix/error[15549]: 2FAA120A5B1E: to=<sknasser1@sknasser1.com>, relay=none, delay=1031, delays=1031/0.04/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:39:42 rjacinto1-pri postfix/error[15550]: DE6A320A5B1F: to=<sknasser1@sknasser1.com>, relay=none, delay=954, delays=954/0.05/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:40:01 rjacinto1-pri postfix/pickup[15273]: 1676020A5B25: uid=1002 from=<rjacinto1>
+Nov  8 21:40:01 rjacinto1-pri postfix/cleanup[15557]: 1676020A5B25: message-id=<20201109024001.1676020A5B25@mail.rjacinto1.com>
+Nov  8 21:40:01 rjacinto1-pri postfix/qmgr[14844]: 1676020A5B25: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:40:01 rjacinto1-pri postfix/error[15549]: 1676020A5B25: to=<sknasser1@sknasser1.com>, relay=none, delay=0.02, delays=0.02/0/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:44:42 rjacinto1-pri postfix/qmgr[14844]: 1F0F020A5B1B: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:44:42 rjacinto1-pri postfix/qmgr[14844]: 9628420A5B22: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:44:42 rjacinto1-pri postfix/qmgr[14844]: 72BD720A5B19: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:44:42 rjacinto1-pri postfix/qmgr[14844]: BDDD220A5B24: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:45:12 rjacinto1-pri postfix/smtp[15570]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:45:12 rjacinto1-pri postfix/smtp[15570]: 1F0F020A5B1B: to=<sknasser1@sknasser1.com>, relay=none, delay=2181, delays=2151/0.04/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:45:12 rjacinto1-pri postfix/smtp[15571]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:45:12 rjacinto1-pri postfix/smtp[15572]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:45:12 rjacinto1-pri postfix/smtp[15571]: 9628420A5B22: to=<sknasser1@sknasser1.com>, relay=none, delay=945, delays=915/0.05/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:45:12 rjacinto1-pri postfix/smtp[15572]: 72BD720A5B19: to=<sknasser1@sknasser1.com>, relay=none, delay=2402, delays=2372/0.07/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:45:12 rjacinto1-pri postfix/smtp[15573]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:45:12 rjacinto1-pri postfix/smtp[15573]: BDDD220A5B24: to=<sknasser1@sknasser1.com>, relay=none, delay=447, delays=416/0.09/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:49:02 rjacinto1-pri postfix/pickup[15273]: 0E2CD20A5B26: uid=1002 from=<rjacinto1>
+Nov  8 21:49:02 rjacinto1-pri postfix/cleanup[15598]: 0E2CD20A5B26: message-id=<20201109024902.0E2CD20A5B26@mail.rjacinto1.com>
+Nov  8 21:49:02 rjacinto1-pri postfix/qmgr[14844]: 0E2CD20A5B26: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:49:02 rjacinto1-pri postfix/error[15600]: 0E2CD20A5B26: to=<sknasser1@sknasser1.com>, relay=none, delay=0.05, delays=0.03/0.01/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:49:42 rjacinto1-pri postfix/qmgr[14844]: 1676020A5B25: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:49:42 rjacinto1-pri postfix/qmgr[14844]: 7056920A5B23: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:49:42 rjacinto1-pri postfix/qmgr[14844]: 2585720A5B1C: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:49:42 rjacinto1-pri postfix/error[15600]: 1676020A5B25: to=<sknasser1@sknasser1.com>, relay=none, delay=581, delays=581/0/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:49:42 rjacinto1-pri postfix/error[15600]: 7056920A5B23: to=<sknasser1@sknasser1.com>, relay=none, delay=1146, delays=1146/0.01/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:49:42 rjacinto1-pri postfix/error[15603]: 2585720A5B1C: to=<sknasser1@sknasser1.com>, relay=none, delay=2318, delays=2318/0.01/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:54:42 rjacinto1-pri postfix/qmgr[14844]: 92C8320A5B1D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:54:42 rjacinto1-pri postfix/qmgr[14844]: BDDD220A5B24: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:54:42 rjacinto1-pri postfix/qmgr[14844]: 0E2CD20A5B26: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:55:12 rjacinto1-pri postfix/smtp[15620]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:55:12 rjacinto1-pri postfix/smtp[15620]: 92C8320A5B1D: to=<sknasser1@sknasser1.com>, relay=none, delay=2187, delays=2157/0.04/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:55:12 rjacinto1-pri postfix/smtp[15621]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:55:12 rjacinto1-pri postfix/smtp[15622]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 21:55:12 rjacinto1-pri postfix/smtp[15621]: BDDD220A5B24: to=<sknasser1@sknasser1.com>, relay=none, delay=1047, delays=1017/0.05/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:55:12 rjacinto1-pri postfix/smtp[15622]: 0E2CD20A5B26: to=<sknasser1@sknasser1.com>, relay=none, delay=370, delays=340/0.07/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:59:42 rjacinto1-pri postfix/qmgr[14844]: 6C90F208959D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:59:42 rjacinto1-pri postfix/qmgr[14844]: 1676020A5B25: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:59:42 rjacinto1-pri postfix/qmgr[14844]: 2FAA120A5B1E: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:59:42 rjacinto1-pri postfix/qmgr[14844]: DE6A320A5B1F: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 21:59:42 rjacinto1-pri postfix/error[15635]: 6C90F208959D: to=<sknasser1@sknasser1.com>, relay=none, delay=4538, delays=4538/0.03/0/0.03, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:59:42 rjacinto1-pri postfix/error[15636]: 1676020A5B25: to=<sknasser1@sknasser1.com>, relay=none, delay=1181, delays=1181/0.03/0/0.02, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:59:42 rjacinto1-pri postfix/error[15635]: 2FAA120A5B1E: to=<sknasser1@sknasser1.com>, relay=none, delay=2230, delays=2230/0.04/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 21:59:42 rjacinto1-pri postfix/error[15636]: DE6A320A5B1F: to=<sknasser1@sknasser1.com>, relay=none, delay=2154, delays=2154/0.05/0/0, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 22:02:43 rjacinto1-pri postfix/smtpd[15662]: connect from unknown[192.168.15.3]
+Nov  8 22:02:43 rjacinto1-pri postfix/smtpd[15662]: B75ED20A5B29: client=unknown[192.168.15.3]
+Nov  8 22:02:43 rjacinto1-pri postfix/cleanup[15666]: B75ED20A5B29: message-id=<20201109030244.2162F1197F3@mail.vkim11.com>
+Nov  8 22:02:43 rjacinto1-pri postfix/qmgr[14844]: B75ED20A5B29: from=<vkim11@vkim11.com>, size=635, nrcpt=1 (queue active)
+Nov  8 22:02:43 rjacinto1-pri postfix/smtpd[15662]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:02:43 rjacinto1-pri postfix/local[15667]: B75ED20A5B29: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:02:43 rjacinto1-pri postfix/qmgr[14844]: B75ED20A5B29: removed
+Nov  8 22:03:34 rjacinto1-pri postfix/pickup[15273]: 0D73520A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:03:34 rjacinto1-pri postfix/cleanup[15666]: 0D73520A5B29: message-id=<20201109030334.0D73520A5B29@mail.rjacinto1.com>
+Nov  8 22:03:34 rjacinto1-pri postfix/qmgr[14844]: 0D73520A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:03:34 rjacinto1-pri postfix/smtp[15672]: 0D73520A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.14, delays=0.01/0.02/0.1/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as B30231197F2)
+Nov  8 22:03:34 rjacinto1-pri postfix/qmgr[14844]: 0D73520A5B29: removed
+Nov  8 22:04:22 rjacinto1-pri postfix/pickup[15273]: 4F4CC20A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:22 rjacinto1-pri postfix/cleanup[15666]: 4F4CC20A5B29: message-id=<20201109030422.4F4CC20A5B29@mail.rjacinto1.com>
+Nov  8 22:04:22 rjacinto1-pri postfix/qmgr[14844]: 4F4CC20A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:22 rjacinto1-pri postfix/smtp[15672]: 4F4CC20A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0.01/0/0.06/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as E446E1197F3)
+Nov  8 22:04:22 rjacinto1-pri postfix/qmgr[14844]: 4F4CC20A5B29: removed
+Nov  8 22:04:22 rjacinto1-pri postfix/pickup[15273]: 8D16020A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:22 rjacinto1-pri postfix/cleanup[15666]: 8D16020A5B29: message-id=<20201109030422.8D16020A5B29@mail.rjacinto1.com>
+Nov  8 22:04:22 rjacinto1-pri postfix/qmgr[14844]: 8D16020A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:22 rjacinto1-pri postfix/smtp[15672]: 8D16020A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 2DA711197F3)
+Nov  8 22:04:22 rjacinto1-pri postfix/qmgr[14844]: 8D16020A5B29: removed
+Nov  8 22:04:22 rjacinto1-pri postfix/pickup[15273]: BB14820A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:22 rjacinto1-pri postfix/cleanup[15666]: BB14820A5B29: message-id=<20201109030422.BB14820A5B29@mail.rjacinto1.com>
+Nov  8 22:04:22 rjacinto1-pri postfix/qmgr[14844]: BB14820A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:22 rjacinto1-pri postfix/smtp[15672]: BB14820A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 5B3C01197F3)
+Nov  8 22:04:22 rjacinto1-pri postfix/qmgr[14844]: BB14820A5B29: removed
+Nov  8 22:04:22 rjacinto1-pri postfix/pickup[15273]: EDCD520A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:22 rjacinto1-pri postfix/cleanup[15666]: EDCD520A5B29: message-id=<20201109030422.EDCD520A5B29@mail.rjacinto1.com>
+Nov  8 22:04:22 rjacinto1-pri postfix/qmgr[14844]: EDCD520A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:23 rjacinto1-pri postfix/smtp[15672]: EDCD520A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 8E46A1197F3)
+Nov  8 22:04:23 rjacinto1-pri postfix/qmgr[14844]: EDCD520A5B29: removed
+Nov  8 22:04:23 rjacinto1-pri postfix/pickup[15273]: 2B81320A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:23 rjacinto1-pri postfix/cleanup[15666]: 2B81320A5B29: message-id=<20201109030423.2B81320A5B29@mail.rjacinto1.com>
+Nov  8 22:04:23 rjacinto1-pri postfix/qmgr[14844]: 2B81320A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:23 rjacinto1-pri postfix/smtp[15672]: 2B81320A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as BFD1E1197F3)
+Nov  8 22:04:23 rjacinto1-pri postfix/qmgr[14844]: 2B81320A5B29: removed
+Nov  8 22:04:23 rjacinto1-pri postfix/pickup[15273]: 5CB4020A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:23 rjacinto1-pri postfix/cleanup[15666]: 5CB4020A5B29: message-id=<20201109030423.5CB4020A5B29@mail.rjacinto1.com>
+Nov  8 22:04:23 rjacinto1-pri postfix/qmgr[14844]: 5CB4020A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:23 rjacinto1-pri postfix/smtp[15672]: 5CB4020A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as F127B1197F3)
+Nov  8 22:04:23 rjacinto1-pri postfix/qmgr[14844]: 5CB4020A5B29: removed
+Nov  8 22:04:23 rjacinto1-pri postfix/pickup[15273]: 9169B20A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:23 rjacinto1-pri postfix/cleanup[15666]: 9169B20A5B29: message-id=<20201109030423.9169B20A5B29@mail.rjacinto1.com>
+Nov  8 22:04:23 rjacinto1-pri postfix/qmgr[14844]: 9169B20A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:23 rjacinto1-pri postfix/smtp[15672]: 9169B20A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 318321197F3)
+Nov  8 22:04:23 rjacinto1-pri postfix/qmgr[14844]: 9169B20A5B29: removed
+Nov  8 22:04:23 rjacinto1-pri postfix/pickup[15273]: C220E20A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:23 rjacinto1-pri postfix/cleanup[15666]: C220E20A5B29: message-id=<20201109030423.C220E20A5B29@mail.rjacinto1.com>
+Nov  8 22:04:23 rjacinto1-pri postfix/qmgr[14844]: C220E20A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:23 rjacinto1-pri postfix/smtp[15672]: C220E20A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 62FAD1197F3)
+Nov  8 22:04:23 rjacinto1-pri postfix/qmgr[14844]: C220E20A5B29: removed
+Nov  8 22:04:23 rjacinto1-pri postfix/pickup[15273]: F018920A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:23 rjacinto1-pri postfix/cleanup[15666]: F018920A5B29: message-id=<20201109030423.F018920A5B29@mail.rjacinto1.com>
+Nov  8 22:04:23 rjacinto1-pri postfix/qmgr[14844]: F018920A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:24 rjacinto1-pri postfix/smtp[15672]: F018920A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 903EF1197F3)
+Nov  8 22:04:24 rjacinto1-pri postfix/qmgr[14844]: F018920A5B29: removed
+Nov  8 22:04:24 rjacinto1-pri postfix/pickup[15273]: 3383220A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:24 rjacinto1-pri postfix/cleanup[15666]: 3383220A5B29: message-id=<20201109030424.3383220A5B29@mail.rjacinto1.com>
+Nov  8 22:04:24 rjacinto1-pri postfix/qmgr[14844]: 3383220A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:24 rjacinto1-pri postfix/smtp[15672]: 3383220A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as C7E311197F3)
+Nov  8 22:04:24 rjacinto1-pri postfix/qmgr[14844]: 3383220A5B29: removed
+Nov  8 22:04:24 rjacinto1-pri postfix/pickup[15273]: 6935D20A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:24 rjacinto1-pri postfix/cleanup[15666]: 6935D20A5B29: message-id=<20201109030424.6935D20A5B29@mail.rjacinto1.com>
+Nov  8 22:04:24 rjacinto1-pri postfix/qmgr[14844]: 6935D20A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:24 rjacinto1-pri postfix/smtp[15672]: 6935D20A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0.01/0/0.06/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 097841197F3)
+Nov  8 22:04:24 rjacinto1-pri postfix/qmgr[14844]: 6935D20A5B29: removed
+Nov  8 22:04:24 rjacinto1-pri postfix/pickup[15273]: 98E6220A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:24 rjacinto1-pri postfix/cleanup[15666]: 98E6220A5B29: message-id=<20201109030424.98E6220A5B29@mail.rjacinto1.com>
+Nov  8 22:04:24 rjacinto1-pri postfix/qmgr[14844]: 98E6220A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:24 rjacinto1-pri postfix/smtp[15672]: 98E6220A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 3910F1197F3)
+Nov  8 22:04:24 rjacinto1-pri postfix/qmgr[14844]: 98E6220A5B29: removed
+Nov  8 22:04:24 rjacinto1-pri postfix/pickup[15273]: CA91720A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:24 rjacinto1-pri postfix/cleanup[15666]: CA91720A5B29: message-id=<20201109030424.CA91720A5B29@mail.rjacinto1.com>
+Nov  8 22:04:24 rjacinto1-pri postfix/qmgr[14844]: CA91720A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:24 rjacinto1-pri postfix/smtp[15672]: CA91720A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 6AEC71197F3)
+Nov  8 22:04:24 rjacinto1-pri postfix/qmgr[14844]: CA91720A5B29: removed
+Nov  8 22:04:25 rjacinto1-pri postfix/pickup[15273]: 04FCB20A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:25 rjacinto1-pri postfix/cleanup[15666]: 04FCB20A5B29: message-id=<20201109030425.04FCB20A5B29@mail.rjacinto1.com>
+Nov  8 22:04:25 rjacinto1-pri postfix/qmgr[14844]: 04FCB20A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:25 rjacinto1-pri postfix/smtp[15672]: 04FCB20A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 9981F1197F3)
+Nov  8 22:04:25 rjacinto1-pri postfix/qmgr[14844]: 04FCB20A5B29: removed
+Nov  8 22:04:25 rjacinto1-pri postfix/pickup[15273]: 38AF520A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:25 rjacinto1-pri postfix/cleanup[15666]: 38AF520A5B29: message-id=<20201109030425.38AF520A5B29@mail.rjacinto1.com>
+Nov  8 22:04:25 rjacinto1-pri postfix/qmgr[14844]: 38AF520A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:25 rjacinto1-pri postfix/smtp[15672]: 38AF520A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as CD06A1197F3)
+Nov  8 22:04:25 rjacinto1-pri postfix/qmgr[14844]: 38AF520A5B29: removed
+Nov  8 22:04:25 rjacinto1-pri postfix/pickup[15273]: 692E520A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:04:25 rjacinto1-pri postfix/cleanup[15666]: 692E520A5B29: message-id=<20201109030425.692E520A5B29@mail.rjacinto1.com>
+Nov  8 22:04:25 rjacinto1-pri postfix/qmgr[14844]: 692E520A5B29: from=<rjacinto1@rjacinto1.com>, size=494, nrcpt=1 (queue active)
+Nov  8 22:04:25 rjacinto1-pri postfix/smtp[15672]: 692E520A5B29: to=<vkim11@vkim11.com>, relay=mail.vkim11.com[192.168.15.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 09C201197F3)
+Nov  8 22:04:25 rjacinto1-pri postfix/qmgr[14844]: 692E520A5B29: removed
+Nov  8 22:04:39 rjacinto1-pri postfix/smtpd[15722]: connect from unknown[192.168.27.3]
+Nov  8 22:04:39 rjacinto1-pri postfix/smtpd[15722]: 39BD020A5B29: client=unknown[192.168.27.3]
+Nov  8 22:04:39 rjacinto1-pri postfix/cleanup[15666]: 39BD020A5B29: message-id=<20201109030439.1BDC020973F1@mail.drulyov.com>
+Nov  8 22:04:39 rjacinto1-pri postfix/qmgr[14844]: 39BD020A5B29: from=<student@drulyov.com>, size=660, nrcpt=1 (queue active)
+Nov  8 22:04:39 rjacinto1-pri postfix/smtpd[15722]: disconnect from unknown[192.168.27.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:04:39 rjacinto1-pri postfix/local[15724]: 39BD020A5B29: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.02, delays=0/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:04:39 rjacinto1-pri postfix/qmgr[14844]: 39BD020A5B29: removed
+Nov  8 22:04:42 rjacinto1-pri postfix/qmgr[14844]: 8C43220A5B12: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:04:42 rjacinto1-pri postfix/qmgr[14844]: CECA520A5B13: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:04:42 rjacinto1-pri postfix/qmgr[14844]: 9628420A5B22: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:04:42 rjacinto1-pri postfix/qmgr[14844]: 0E2CD20A5B26: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:05:12 rjacinto1-pri postfix/smtp[15672]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 22:05:12 rjacinto1-pri postfix/smtp[15672]: 8C43220A5B12: to=<sknasser1@sknasser1.com>, relay=none, delay=4821, delays=4791/0/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 22:05:12 rjacinto1-pri postfix/smtp[15725]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 22:05:12 rjacinto1-pri postfix/smtp[15726]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 22:05:12 rjacinto1-pri postfix/smtp[15725]: CECA520A5B13: to=<sknasser1@sknasser1.com>, relay=none, delay=4740, delays=4710/0.02/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 22:05:12 rjacinto1-pri postfix/smtp[15726]: 9628420A5B22: to=<sknasser1@sknasser1.com>, relay=none, delay=2145, delays=2115/0.05/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 22:05:12 rjacinto1-pri postfix/smtp[15727]: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out
+Nov  8 22:05:12 rjacinto1-pri postfix/smtp[15727]: 0E2CD20A5B26: to=<sknasser1@sknasser1.com>, relay=none, delay=970, delays=940/0.07/30/0, dsn=4.4.1, status=deferred (connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 22:05:41 rjacinto1-pri postfix/pickup[15273]: 8C5A120A5B29: uid=1002 from=<rjacinto1>
+Nov  8 22:05:41 rjacinto1-pri postfix/cleanup[15666]: 8C5A120A5B29: message-id=<20201109030541.8C5A120A5B29@mail.rjacinto1.com>
+Nov  8 22:05:41 rjacinto1-pri postfix/qmgr[14844]: 8C5A120A5B29: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:05:41 rjacinto1-pri postfix/smtp[15672]: 8C5A120A5B29: to=<student@drulyov.com>, relay=mail.drulyov.com[192.168.27.25]:25, delay=0.12, delays=0.01/0/0.11/0, dsn=4.3.0, status=deferred (host mail.drulyov.com[192.168.27.25] said: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure (in reply to RCPT TO command))
+Nov  8 22:07:07 rjacinto1-pri postfix/pickup[15735]: 1EE2C20A5B2A: uid=1002 from=<rjacinto1>
+Nov  8 22:07:07 rjacinto1-pri postfix/cleanup[15666]: 1EE2C20A5B2A: message-id=<20201109030707.1EE2C20A5B2A@mail.rjacinto1.com>
+Nov  8 22:07:07 rjacinto1-pri postfix/qmgr[14844]: 1EE2C20A5B2A: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:07:07 rjacinto1-pri postfix/smtp[15672]: 1EE2C20A5B2A: to=<student@drulyov.com>, relay=mail.drulyov.com[192.168.27.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=4.3.0, status=deferred (host mail.drulyov.com[192.168.27.25] said: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure (in reply to RCPT TO command))
+Nov  8 22:07:40 rjacinto1-pri postfix/pickup[15735]: BDE7620A5B2B: uid=1002 from=<rjacinto1>
+Nov  8 22:07:40 rjacinto1-pri postfix/cleanup[15666]: BDE7620A5B2B: message-id=<20201109030740.BDE7620A5B2B@mail.rjacinto1.com>
+Nov  8 22:07:40 rjacinto1-pri postfix/qmgr[14844]: BDE7620A5B2B: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:07:40 rjacinto1-pri postfix/smtp[15672]: BDE7620A5B2B: to=<student@drulyov.com>, relay=mail.drulyov.com[192.168.27.25]:25, delay=0.07, delays=0/0/0.06/0, dsn=4.3.0, status=deferred (host mail.drulyov.com[192.168.27.25] said: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure (in reply to RCPT TO command))
+Nov  8 22:07:59 rjacinto1-pri postfix/anvil[15664]: statistics: max connection rate 1/60s for (smtp:192.168.15.3) at Nov  8 22:02:43
+Nov  8 22:07:59 rjacinto1-pri postfix/anvil[15664]: statistics: max connection count 1 for (smtp:192.168.15.3) at Nov  8 22:02:43
+Nov  8 22:07:59 rjacinto1-pri postfix/anvil[15664]: statistics: max cache size 1 at Nov  8 22:02:43
+Nov  8 22:09:11 rjacinto1-pri postfix/smtpd[15751]: connect from unknown[192.168.27.3]
+Nov  8 22:09:11 rjacinto1-pri postfix/smtpd[15751]: 7153D20A5B2C: client=unknown[192.168.27.3]
+Nov  8 22:09:11 rjacinto1-pri postfix/cleanup[15666]: 7153D20A5B2C: message-id=<20201109025926.914C7208969B@mail.drulyov.com>
+Nov  8 22:09:11 rjacinto1-pri postfix/qmgr[14844]: 7153D20A5B2C: from=<drulyov@drulyov.com>, size=650, nrcpt=1 (queue active)
+Nov  8 22:09:11 rjacinto1-pri postfix/smtpd[15751]: disconnect from unknown[192.168.27.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:09:11 rjacinto1-pri postfix/local[15754]: 7153D20A5B2C: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.02, delays=0/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:09:11 rjacinto1-pri postfix/qmgr[14844]: 7153D20A5B2C: removed
+Nov  8 22:09:42 rjacinto1-pri postfix/qmgr[14844]: 1790720A5B16: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:09:42 rjacinto1-pri postfix/qmgr[14844]: 7056920A5B23: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:09:42 rjacinto1-pri postfix/error[15755]: 1790720A5B16: to=<sknasser1@sknasser1.com>, relay=none, delay=4676, delays=4676/0.01/0/0.03, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 22:09:42 rjacinto1-pri postfix/error[15756]: 7056920A5B23: to=<sknasser1@sknasser1.com>, relay=none, delay=2346, delays=2346/0.03/0/0.01, dsn=4.4.1, status=deferred (delivery temporarily suspended: connect to mail.sknasser1.com[192.168.21.25]:25: Connection timed out)
+Nov  8 22:12:31 rjacinto1-pri postfix/anvil[15753]: statistics: max connection rate 1/60s for (smtp:192.168.27.3) at Nov  8 22:09:11
+Nov  8 22:12:31 rjacinto1-pri postfix/anvil[15753]: statistics: max connection count 1 for (smtp:192.168.27.3) at Nov  8 22:09:11
+Nov  8 22:12:31 rjacinto1-pri postfix/anvil[15753]: statistics: max cache size 1 at Nov  8 22:09:11
+Nov  8 22:13:55 rjacinto1-pri postfix/pickup[15735]: 6328720A5B2C: uid=1002 from=<rjacinto1>
+Nov  8 22:13:55 rjacinto1-pri postfix/cleanup[15763]: 6328720A5B2C: message-id=<20201109031355.6328720A5B2C@mail.rjacinto1.com>
+Nov  8 22:13:55 rjacinto1-pri postfix/qmgr[14844]: 6328720A5B2C: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:13:55 rjacinto1-pri postfix/smtp[15765]: 6328720A5B2C: to=<student@drulyov.com>, relay=none, delay=0.05, delays=0.03/0.03/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=drulyov.com type=MX: Host not found, try again)
+Nov  8 22:14:42 rjacinto1-pri postfix/qmgr[14844]: 8C5A120A5B29: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:14:42 rjacinto1-pri postfix/qmgr[14844]: 1EE2C20A5B2A: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:14:42 rjacinto1-pri postfix/qmgr[14844]: E303120A5B15: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:14:42 rjacinto1-pri postfix/qmgr[14844]: BDDD220A5B24: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:14:42 rjacinto1-pri postfix/qmgr[14844]: BDE7620A5B2B: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:14:42 rjacinto1-pri postfix/smtp[15765]: 8C5A120A5B29: to=<student@drulyov.com>, relay=none, delay=541, delays=541/0/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=drulyov.com type=MX: Host not found, try again)
+Nov  8 22:14:42 rjacinto1-pri postfix/smtp[15765]: 1EE2C20A5B2A: to=<student@drulyov.com>, relay=none, delay=455, delays=455/0.01/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=drulyov.com type=MX: Host not found, try again)
+Nov  8 22:14:42 rjacinto1-pri postfix/smtp[15765]: E303120A5B15: to=<sknasser1@sknasser1.com>, relay=none, delay=4678, delays=4678/0.01/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=sknasser1.com type=MX: Host not found, try again)
+Nov  8 22:14:47 rjacinto1-pri postfix/smtp[15772]: BDE7620A5B2B: to=<student@drulyov.com>, relay=none, delay=427, delays=422/0.03/5/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=drulyov.com type=MX: Host not found, try again)
+Nov  8 22:14:47 rjacinto1-pri postfix/smtp[15765]: BDDD220A5B24: to=<sknasser1@sknasser1.com>, relay=none, delay=2222, delays=2217/0.03/5/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=sknasser1.com type=MX: Host not found, try again)
+Nov  8 22:16:03 rjacinto1-pri postfix/pickup[15735]: BCA4720A5B2D: uid=1002 from=<rjacinto1>
+Nov  8 22:16:03 rjacinto1-pri postfix/cleanup[15783]: BCA4720A5B2D: message-id=<20201109031603.BCA4720A5B2D@mail.rjacinto1.com>
+Nov  8 22:16:03 rjacinto1-pri postfix/qmgr[14844]: BCA4720A5B2D: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:16:03 rjacinto1-pri postfix/error[15784]: BCA4720A5B2D: to=<student@drulyov.com>, relay=none, delay=0.03, delays=0.02/0.01/0/0, dsn=4.4.3, status=deferred (delivery temporarily suspended: Host or domain name not found. Name service error for name=drulyov.com type=MX: Host not found, try again)
+Nov  8 22:19:42 rjacinto1-pri postfix/qmgr[14844]: 6328720A5B2C: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:19:42 rjacinto1-pri postfix/qmgr[14844]: 1676020A5B25: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:19:42 rjacinto1-pri postfix/qmgr[14844]: 904A420A5B18: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:19:42 rjacinto1-pri postfix/error[15821]: 6328720A5B2C: to=<student@drulyov.com>, relay=none, delay=348, delays=347/0.05/0/0.03, dsn=4.4.3, status=deferred (delivery temporarily suspended: Host or domain name not found. Name service error for name=drulyov.com type=MX: Host not found, try again)
+Nov  8 22:19:42 rjacinto1-pri postfix/smtp[15822]: 1676020A5B25: to=<sknasser1@sknasser1.com>, relay=none, delay=2382, delays=2382/0.05/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=sknasser1.com type=MX: Host not found, try again)
+Nov  8 22:19:42 rjacinto1-pri postfix/smtp[15822]: 904A420A5B18: to=<sknasser1@sknasser1.com>, relay=none, delay=4604, delays=4604/0.08/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=sknasser1.com type=MX: Host not found, try again)
+Nov  8 22:24:51 rjacinto1-pri postfix/postfix-script[1209]: starting the Postfix mail system
+Nov  8 22:24:51 rjacinto1-pri postfix/master[1229]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  8 22:24:51 rjacinto1-pri postfix/qmgr[1248]: 8C5A120A5B29: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:24:51 rjacinto1-pri postfix/qmgr[1248]: 1F0F020A5B1B: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:24:51 rjacinto1-pri postfix/qmgr[1248]: 1EE2C20A5B2A: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:24:51 rjacinto1-pri postfix/qmgr[1248]: BDE7620A5B2B: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:24:51 rjacinto1-pri postfix/qmgr[1248]: BCA4720A5B2D: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:24:51 rjacinto1-pri postfix/qmgr[1248]: 0E2CD20A5B26: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:24:51 rjacinto1-pri postfix/smtp[1282]: 8C5A120A5B29: to=<student@drulyov.com>, relay=none, delay=1150, delays=1150/0.23/0.05/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=drulyov.com type=AAAA: Host not found)
+Nov  8 22:24:52 rjacinto1-pri postfix/smtp[1321]: 1EE2C20A5B2A: to=<student@drulyov.com>, relay=none, delay=1065, delays=1065/0.29/0.01/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=drulyov.com type=AAAA: Host not found)
+Nov  8 22:24:52 rjacinto1-pri postfix/smtp[1282]: 1F0F020A5B1B: to=<sknasser1@sknasser1.com>, relay=none, delay=4561, delays=4561/0.29/0.03/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=sknasser1.com type=AAAA: Host not found)
+Nov  8 22:24:52 rjacinto1-pri postfix/cleanup[1358]: 0535B20895AD: message-id=<20201109032452.0535B20895AD@mail.rjacinto1.com>
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0535B20895AD: from=<>, size=2565, nrcpt=1 (queue active)
+Nov  8 22:24:52 rjacinto1-pri postfix/bounce[1336]: 8C5A120A5B29: sender non-delivery notification: 0535B20895AD
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 8C5A120A5B29: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/cleanup[1358]: 0999520895AF: message-id=<20201109032452.0999520895AF@mail.rjacinto1.com>
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0999520895AF: from=<>, size=2565, nrcpt=1 (queue active)
+Nov  8 22:24:52 rjacinto1-pri postfix/bounce[1357]: 1EE2C20A5B2A: sender non-delivery notification: 0999520895AF
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 1EE2C20A5B2A: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/cleanup[1358]: 0AB0220973EB: message-id=<20201109032452.0AB0220973EB@mail.rjacinto1.com>
+Nov  8 22:24:52 rjacinto1-pri postfix/smtp[1321]: BDE7620A5B2B: to=<student@drulyov.com>, relay=none, delay=1031, delays=1031/0.36/0.01/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=drulyov.com type=AAAA: Host not found)
+Nov  8 22:24:52 rjacinto1-pri postfix/smtp[1282]: BCA4720A5B2D: to=<student@drulyov.com>, relay=none, delay=528, delays=528/0.36/0.01/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=drulyov.com type=AAAA: Host not found)
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0AB0220973EB: from=<>, size=2585, nrcpt=1 (queue active)
+Nov  8 22:24:52 rjacinto1-pri postfix/bounce[1336]: 1F0F020A5B1B: sender non-delivery notification: 0AB0220973EB
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 1F0F020A5B1B: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/cleanup[1358]: 0BF0F20A5B08: message-id=<20201109032452.0BF0F20A5B08@mail.rjacinto1.com>
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0BF0F20A5B08: from=<>, size=2565, nrcpt=1 (queue active)
+Nov  8 22:24:52 rjacinto1-pri postfix/bounce[1357]: BDE7620A5B2B: sender non-delivery notification: 0BF0F20A5B08
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: BDE7620A5B2B: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/cleanup[1358]: 0CA2220A5B09: message-id=<20201109032452.0CA2220A5B09@mail.rjacinto1.com>
+Nov  8 22:24:52 rjacinto1-pri postfix/smtp[1321]: 0E2CD20A5B26: to=<sknasser1@sknasser1.com>, relay=none, delay=2150, delays=2150/0.37/0.01/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=sknasser1.com type=AAAA: Host not found)
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0CA2220A5B09: from=<>, size=2565, nrcpt=1 (queue active)
+Nov  8 22:24:52 rjacinto1-pri postfix/bounce[1336]: BCA4720A5B2D: sender non-delivery notification: 0CA2220A5B09
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: BCA4720A5B2D: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/cleanup[1358]: 0DFB320A5B0A: message-id=<20201109032452.0DFB320A5B0A@mail.rjacinto1.com>
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0DFB320A5B0A: from=<>, size=2585, nrcpt=1 (queue active)
+Nov  8 22:24:52 rjacinto1-pri postfix/bounce[1357]: 0E2CD20A5B26: sender non-delivery notification: 0DFB320A5B0A
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0E2CD20A5B26: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/local[1369]: 0535B20895AD: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.19, delays=0.08/0.11/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0535B20895AD: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/local[1369]: 0999520895AF: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.12, delays=0.01/0.11/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0999520895AF: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/local[1369]: 0AB0220973EB: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.12, delays=0.01/0.1/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0AB0220973EB: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/local[1369]: 0BF0F20A5B08: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.11, delays=0/0.1/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0BF0F20A5B08: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/local[1369]: 0CA2220A5B09: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.11, delays=0.01/0.1/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0CA2220A5B09: removed
+Nov  8 22:24:52 rjacinto1-pri postfix/local[1369]: 0DFB320A5B0A: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.1, delays=0.01/0.1/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:24:52 rjacinto1-pri postfix/qmgr[1248]: 0DFB320A5B0A: removed
+Nov  8 22:27:42 rjacinto1-pri postfix/smtpd[1802]: connect from unknown[192.168.27.3]
+Nov  8 22:27:42 rjacinto1-pri postfix/smtpd[1802]: 71B4620895AD: client=unknown[192.168.27.3]
+Nov  8 22:27:42 rjacinto1-pri postfix/cleanup[1806]: 71B4620895AD: message-id=<20201109032741.BA3D520973F1@mail.drulyov.com>
+Nov  8 22:27:42 rjacinto1-pri postfix/qmgr[1248]: 71B4620895AD: from=<student@drulyov.com>, size=660, nrcpt=1 (queue active)
+Nov  8 22:27:42 rjacinto1-pri postfix/smtpd[1802]: disconnect from unknown[192.168.27.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 22:27:42 rjacinto1-pri postfix/local[1807]: 71B4620895AD: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:27:42 rjacinto1-pri postfix/qmgr[1248]: 71B4620895AD: removed
+Nov  8 22:28:40 rjacinto1-pri postfix/pickup[1247]: A566920895AD: uid=1002 from=<rjacinto1>
+Nov  8 22:28:40 rjacinto1-pri postfix/cleanup[1806]: A566920895AD: message-id=<20201109032840.A566920895AD@mail.rjacinto1.com>
+Nov  8 22:28:40 rjacinto1-pri postfix/qmgr[1248]: A566920895AD: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:28:40 rjacinto1-pri postfix/smtp[1856]: A566920895AD: to=<student@drulyov.com>, relay=mail.drulyov.com[192.168.27.25]:25, delay=0.15, delays=0.01/0.02/0.1/0.01, dsn=4.3.0, status=deferred (host mail.drulyov.com[192.168.27.25] said: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure (in reply to RCPT TO command))
+Nov  8 22:29:14 rjacinto1-pri postfix/pickup[1247]: C291E20895AF: uid=1002 from=<rjacinto1>
+Nov  8 22:29:14 rjacinto1-pri postfix/cleanup[1806]: C291E20895AF: message-id=<20201109032914.C291E20895AF@mail.rjacinto1.com>
+Nov  8 22:29:14 rjacinto1-pri postfix/qmgr[1248]: C291E20895AF: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:29:14 rjacinto1-pri postfix/smtp[1856]: C291E20895AF: to=<student@drulyov.com>, relay=mail.drulyov.com[192.168.27.25]:25, delay=0.07, delays=0.01/0/0.06/0, dsn=4.3.0, status=deferred (host mail.drulyov.com[192.168.27.25] said: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure (in reply to RCPT TO command))
+Nov  8 22:29:51 rjacinto1-pri postfix/qmgr[1248]: 6328720A5B2C: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:29:51 rjacinto1-pri postfix/qmgr[1248]: 72BD720A5B19: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:29:51 rjacinto1-pri postfix/qmgr[1248]: 2585720A5B1C: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:29:51 rjacinto1-pri postfix/smtp[1856]: 6328720A5B2C: to=<student@drulyov.com>, relay=mail.drulyov.com[192.168.27.25]:25, delay=956, delays=956/0/0.08/0, dsn=4.3.0, status=deferred (host mail.drulyov.com[192.168.27.25] said: 451 4.3.0 <student@drulyov.com>: Temporary lookup failure (in reply to RCPT TO command))
+Nov  8 22:29:51 rjacinto1-pri postfix/smtp[1867]: 72BD720A5B19: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=5081, delays=5081/0.03/0.08/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 0002A107054)
+Nov  8 22:29:51 rjacinto1-pri postfix/qmgr[1248]: 72BD720A5B19: removed
+Nov  8 22:29:51 rjacinto1-pri postfix/smtp[1868]: 2585720A5B1C: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=4727, delays=4727/0.05/0.07/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 02D6E107054)
+Nov  8 22:29:51 rjacinto1-pri postfix/qmgr[1248]: 2585720A5B1C: removed
+Nov  8 22:30:07 rjacinto1-pri postfix/pickup[1247]: 9FEE620973EB: uid=1002 from=<rjacinto1>
+Nov  8 22:30:07 rjacinto1-pri postfix/cleanup[1806]: 9FEE620973EB: message-id=<20201109033007.9FEE620973EB@mail.rjacinto1.com>
+Nov  8 22:30:07 rjacinto1-pri postfix/qmgr[1248]: 9FEE620973EB: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:30:07 rjacinto1-pri postfix/smtp[1856]: 9FEE620973EB: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=0.07, delays=0.01/0/0.06/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 16BEE107054)
+Nov  8 22:30:07 rjacinto1-pri postfix/qmgr[1248]: 9FEE620973EB: removed
+Nov  8 22:31:02 rjacinto1-pri postfix/anvil[1804]: statistics: max connection rate 1/60s for (smtp:192.168.27.3) at Nov  8 22:27:42
+Nov  8 22:31:02 rjacinto1-pri postfix/anvil[1804]: statistics: max connection count 1 for (smtp:192.168.27.3) at Nov  8 22:27:42
+Nov  8 22:31:02 rjacinto1-pri postfix/anvil[1804]: statistics: max cache size 1 at Nov  8 22:27:42
+Nov  8 22:31:19 rjacinto1-pri postfix/smtpd[1875]: connect from unknown[192.168.4.3]
+Nov  8 22:31:19 rjacinto1-pri postfix/smtpd[1875]: NOQUEUE: reject: RCPT from unknown[192.168.4.3]: 454 4.7.1 <aluk10@aluk10.com>: Relay access denied; from=<tbrecher@tbrecher.com> to=<aluk10@aluk10.com> proto=ESMTP helo=<mail.tbrecher.com>
+Nov  8 22:31:19 rjacinto1-pri postfix/smtpd[1875]: disconnect from unknown[192.168.4.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 22:34:10 rjacinto1-pri postfix/pickup[1247]: 4E32820973EB: uid=1002 from=<rjacinto1>
+Nov  8 22:34:10 rjacinto1-pri postfix/cleanup[1881]: 4E32820973EB: message-id=<20201109033410.4E32820973EB@mail.rjacinto1.com>
+Nov  8 22:34:10 rjacinto1-pri postfix/qmgr[1248]: 4E32820973EB: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:34:10 rjacinto1-pri postfix/smtp[1883]: 4E32820973EB: to=<student@drulyov.com>, relay=none, delay=0.05, delays=0.03/0.02/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=drulyov.com type=MX: Host not found, try again)
+Nov  8 22:34:39 rjacinto1-pri postfix/anvil[1877]: statistics: max connection rate 1/60s for (smtp:192.168.4.3) at Nov  8 22:31:19
+Nov  8 22:34:39 rjacinto1-pri postfix/anvil[1877]: statistics: max connection count 1 for (smtp:192.168.4.3) at Nov  8 22:31:19
+Nov  8 22:34:39 rjacinto1-pri postfix/anvil[1877]: statistics: max cache size 1 at Nov  8 22:31:19
+Nov  8 22:34:51 rjacinto1-pri postfix/qmgr[1248]: C291E20895AF: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:34:51 rjacinto1-pri postfix/qmgr[1248]: 92C8320A5B1D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:34:51 rjacinto1-pri postfix/qmgr[1248]: A566920895AD: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:34:51 rjacinto1-pri postfix/smtp[1883]: C291E20895AF: to=<student@drulyov.com>, relay=none, delay=337, delays=337/0/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=drulyov.com type=MX: Host not found, try again)
+Nov  8 22:34:51 rjacinto1-pri postfix/smtp[1883]: 92C8320A5B1D: to=<sknasser1@sknasser1.com>, relay=none, delay=4566, delays=4566/0.02/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=sknasser1.com type=MX: Host not found, try again)
+Nov  8 22:34:51 rjacinto1-pri postfix/smtp[1883]: A566920895AD: to=<student@drulyov.com>, relay=none, delay=371, delays=371/0.03/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=drulyov.com type=MX: Host not found, try again)
+Nov  8 22:39:51 rjacinto1-pri postfix/qmgr[1248]: 2FAA120A5B1E: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:39:51 rjacinto1-pri postfix/qmgr[1248]: DE6A320A5B1F: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:39:51 rjacinto1-pri postfix/qmgr[1248]: 4E32820973EB: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:39:51 rjacinto1-pri postfix/smtp[1912]: 2FAA120A5B1E: to=<sknasser1@sknasser1.com>, relay=none, delay=4639, delays=4639/0.04/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=sknasser1.com type=MX: Host not found, try again)
+Nov  8 22:39:51 rjacinto1-pri postfix/smtp[1913]: DE6A320A5B1F: to=<sknasser1@sknasser1.com>, relay=none, delay=4563, delays=4563/0.06/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=sknasser1.com type=MX: Host not found, try again)
+Nov  8 22:39:51 rjacinto1-pri postfix/smtp[1912]: 4E32820973EB: to=<student@drulyov.com>, relay=none, delay=341, delays=341/0.06/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=drulyov.com type=MX: Host not found, try again)
+Nov  8 22:42:38 rjacinto1-pri postfix/smtpd[1917]: connect from unknown[192.168.4.3]
+Nov  8 22:42:38 rjacinto1-pri postfix/smtpd[1917]: NOQUEUE: reject: RCPT from unknown[192.168.4.3]: 454 4.7.1 <aluk10@aluk10.com>: Relay access denied; from=<root@tbrecher.com> to=<aluk10@aluk10.com> proto=ESMTP helo=<mail.tbrecher.com>
+Nov  8 22:42:38 rjacinto1-pri postfix/smtpd[1917]: disconnect from unknown[192.168.4.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 22:44:51 rjacinto1-pri postfix/qmgr[1248]: C291E20895AF: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:44:51 rjacinto1-pri postfix/qmgr[1248]: 9628420A5B22: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:44:51 rjacinto1-pri postfix/qmgr[1248]: A566920895AD: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:44:51 rjacinto1-pri postfix/smtp[1927]: 9628420A5B22: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=4524, delays=4524/0.05/0.08/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as E392110B5D5)
+Nov  8 22:44:51 rjacinto1-pri postfix/qmgr[1248]: 9628420A5B22: removed
+Nov  8 22:44:51 rjacinto1-pri postfix/smtp[1926]: C291E20895AF: to=<student@drulyov.com>, relay=mail.drulyov.com[192.168.27.25]:25, delay=937, delays=937/0.04/0.12/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 0B4B920973F1)
+Nov  8 22:44:51 rjacinto1-pri postfix/qmgr[1248]: C291E20895AF: removed
+Nov  8 22:44:51 rjacinto1-pri postfix/smtp[1928]: A566920895AD: to=<student@drulyov.com>, relay=mail.drulyov.com[192.168.27.25]:25, delay=971, delays=971/0.06/0.09/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 0E0C92092133)
+Nov  8 22:44:51 rjacinto1-pri postfix/qmgr[1248]: A566920895AD: removed
+Nov  8 22:45:58 rjacinto1-pri postfix/anvil[1919]: statistics: max connection rate 1/60s for (smtp:192.168.4.3) at Nov  8 22:42:38
+Nov  8 22:45:58 rjacinto1-pri postfix/anvil[1919]: statistics: max connection count 1 for (smtp:192.168.4.3) at Nov  8 22:42:38
+Nov  8 22:45:58 rjacinto1-pri postfix/anvil[1919]: statistics: max cache size 1 at Nov  8 22:42:38
+Nov  8 22:49:51 rjacinto1-pri postfix/qmgr[1248]: 6328720A5B2C: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:49:51 rjacinto1-pri postfix/qmgr[1248]: 7056920A5B23: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:49:51 rjacinto1-pri postfix/qmgr[1248]: 4E32820973EB: from=<rjacinto1@rjacinto1.com>, size=496, nrcpt=1 (queue active)
+Nov  8 22:49:51 rjacinto1-pri postfix/smtp[2027]: 7056920A5B23: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=4755, delays=4755/0.05/0.12/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 41E5A10B5D5)
+Nov  8 22:49:51 rjacinto1-pri postfix/qmgr[1248]: 7056920A5B23: removed
+Nov  8 22:49:51 rjacinto1-pri postfix/smtp[2026]: 6328720A5B2C: to=<student@drulyov.com>, relay=mail.drulyov.com[192.168.27.25]:25, delay=2157, delays=2156/0.04/0.15/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 5B78320973F1)
+Nov  8 22:49:51 rjacinto1-pri postfix/qmgr[1248]: 6328720A5B2C: removed
+Nov  8 22:49:51 rjacinto1-pri postfix/smtp[2028]: 4E32820973EB: to=<student@drulyov.com>, relay=mail.drulyov.com[192.168.27.25]:25, delay=942, delays=941/0.06/0.1/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 5E2792092133)
+Nov  8 22:49:51 rjacinto1-pri postfix/qmgr[1248]: 4E32820973EB: removed
+Nov  8 22:54:51 rjacinto1-pri postfix/qmgr[1248]: BDDD220A5B24: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:54:51 rjacinto1-pri postfix/smtp[2060]: BDDD220A5B24: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=4626, delays=4625/0.03/0.1/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 9FDC910B5D5)
+Nov  8 22:54:51 rjacinto1-pri postfix/qmgr[1248]: BDDD220A5B24: removed
+Nov  8 22:59:51 rjacinto1-pri postfix/qmgr[1248]: 1676020A5B25: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 22:59:51 rjacinto1-pri postfix/smtp[2177]: 1676020A5B25: to=<sknasser1@sknasser1.com>, relay=none, delay=4790, delays=4790/0.04/0.05/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=sknasser1.com type=AAAA: Host not found)
+Nov  8 22:59:51 rjacinto1-pri postfix/cleanup[2179]: 70F5220A5B33: message-id=<20201109035951.70F5220A5B33@mail.rjacinto1.com>
+Nov  8 22:59:51 rjacinto1-pri postfix/qmgr[1248]: 70F5220A5B33: from=<>, size=2585, nrcpt=1 (queue active)
+Nov  8 22:59:51 rjacinto1-pri postfix/bounce[2178]: 1676020A5B25: sender non-delivery notification: 70F5220A5B33
+Nov  8 22:59:51 rjacinto1-pri postfix/qmgr[1248]: 1676020A5B25: removed
+Nov  8 22:59:51 rjacinto1-pri postfix/local[2180]: 70F5220A5B33: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.03, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 22:59:51 rjacinto1-pri postfix/qmgr[1248]: 70F5220A5B33: removed
+Nov  8 23:01:19 rjacinto1-pri postfix/smtpd[2192]: connect from unknown[192.168.4.3]
+Nov  8 23:01:19 rjacinto1-pri postfix/smtpd[2194]: connect from unknown[192.168.4.3]
+Nov  8 23:01:19 rjacinto1-pri postfix/smtpd[2196]: connect from unknown[192.168.4.3]
+Nov  8 23:01:19 rjacinto1-pri postfix/smtpd[2192]: NOQUEUE: reject: RCPT from unknown[192.168.4.3]: 454 4.7.1 <aluk10@aluk10.com>: Relay access denied; from=<tbrecher@tbrecher.com> to=<aluk10@aluk10.com> proto=ESMTP helo=<mail.tbrecher.com>
+Nov  8 23:01:19 rjacinto1-pri postfix/smtpd[2194]: NOQUEUE: reject: RCPT from unknown[192.168.4.3]: 454 4.7.1 <aluk10@aluk10.com>: Relay access denied; from=<root@tbrecher.com> to=<aluk10@aluk10.com> proto=ESMTP helo=<mail.tbrecher.com>
+Nov  8 23:01:19 rjacinto1-pri postfix/smtpd[2196]: NOQUEUE: reject: RCPT from unknown[192.168.4.3]: 454 4.7.1 <aluk10@aluk10.com>: Relay access denied; from=<root@tbrecher.com> to=<aluk10@aluk10.com> proto=ESMTP helo=<mail.tbrecher.com>
+Nov  8 23:01:19 rjacinto1-pri postfix/smtpd[2192]: disconnect from unknown[192.168.4.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 23:01:19 rjacinto1-pri postfix/smtpd[2194]: disconnect from unknown[192.168.4.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 23:01:19 rjacinto1-pri postfix/smtpd[2196]: disconnect from unknown[192.168.4.3] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Nov  8 23:02:04 rjacinto1-pri postfix/smtpd[2192]: connect from unknown[192.168.15.3]
+Nov  8 23:02:04 rjacinto1-pri postfix/smtpd[2192]: D217920A5B25: client=unknown[192.168.15.3]
+Nov  8 23:02:04 rjacinto1-pri postfix/cleanup[2198]: D217920A5B25: message-id=<20201109040204.C9E1F1197E5@mail.vkim11.com>
+Nov  8 23:02:04 rjacinto1-pri postfix/qmgr[1248]: D217920A5B25: from=<vkim11@vkim11.com>, size=635, nrcpt=1 (queue active)
+Nov  8 23:02:04 rjacinto1-pri postfix/smtpd[2192]: disconnect from unknown[192.168.15.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 23:02:04 rjacinto1-pri postfix/local[2199]: D217920A5B25: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.08, delays=0.02/0.01/0/0.05, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 23:02:04 rjacinto1-pri postfix/qmgr[1248]: D217920A5B25: removed
+Nov  8 23:05:24 rjacinto1-pri postfix/anvil[2195]: statistics: max connection rate 3/60s for (smtp:192.168.4.3) at Nov  8 23:01:19
+Nov  8 23:05:24 rjacinto1-pri postfix/anvil[2195]: statistics: max connection count 3 for (smtp:192.168.4.3) at Nov  8 23:01:19
+Nov  8 23:05:24 rjacinto1-pri postfix/anvil[2195]: statistics: max cache size 2 at Nov  8 23:02:04
+Nov  8 23:09:51 rjacinto1-pri postfix/qmgr[1248]: 6C90F208959D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 23:09:52 rjacinto1-pri postfix/smtp[2395]: 6C90F208959D: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=8748, delays=8748/0.04/0.1/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 8389E107054)
+Nov  8 23:09:52 rjacinto1-pri postfix/qmgr[1248]: 6C90F208959D: removed
+Nov  8 23:14:51 rjacinto1-pri postfix/qmgr[1248]: 8C43220A5B12: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 23:14:51 rjacinto1-pri postfix/qmgr[1248]: CECA520A5B13: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 23:14:51 rjacinto1-pri postfix/smtp[2414]: 8C43220A5B12: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=9000, delays=9000/0.04/0.09/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as B1F5B107043)
+Nov  8 23:14:51 rjacinto1-pri postfix/qmgr[1248]: 8C43220A5B12: removed
+Nov  8 23:14:51 rjacinto1-pri postfix/smtp[2415]: CECA520A5B13: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=8920, delays=8919/0.04/0.08/0, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as B6C87107043)
+Nov  8 23:14:51 rjacinto1-pri postfix/qmgr[1248]: CECA520A5B13: removed
+Nov  8 23:19:51 rjacinto1-pri postfix/qmgr[1248]: 1790720A5B16: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 23:19:51 rjacinto1-pri postfix/smtp[2474]: 1790720A5B16: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=8886, delays=8885/0.04/0.1/0.02, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 01C1F107054)
+Nov  8 23:19:51 rjacinto1-pri postfix/qmgr[1248]: 1790720A5B16: removed
+Nov  8 23:24:51 rjacinto1-pri postfix/qmgr[1248]: E303120A5B15: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 23:24:51 rjacinto1-pri postfix/smtp[2478]: E303120A5B15: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=8887, delays=8887/0.04/0.16/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 44F05107043)
+Nov  8 23:24:51 rjacinto1-pri postfix/qmgr[1248]: E303120A5B15: removed
+Nov  8 23:29:51 rjacinto1-pri postfix/qmgr[1248]: 904A420A5B18: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 23:29:51 rjacinto1-pri postfix/smtp[2511]: 904A420A5B18: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=8813, delays=8813/0.04/0.12/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as A70DB107055)
+Nov  8 23:29:51 rjacinto1-pri postfix/qmgr[1248]: 904A420A5B18: removed
+Nov  8 23:44:51 rjacinto1-pri postfix/qmgr[1248]: 92C8320A5B1D: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 23:44:51 rjacinto1-pri postfix/smtp[2603]: 92C8320A5B1D: to=<sknasser1@sknasser1.com>, relay=mail.sknasser1.com[192.168.21.25]:25, delay=8766, delays=8766/0.04/0.13/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 4301D107054)
+Nov  8 23:44:51 rjacinto1-pri postfix/qmgr[1248]: 92C8320A5B1D: removed
+Nov  8 23:49:51 rjacinto1-pri postfix/qmgr[1248]: 2FAA120A5B1E: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 23:49:51 rjacinto1-pri postfix/qmgr[1248]: DE6A320A5B1F: from=<rjacinto1@rjacinto1.com>, size=500, nrcpt=1 (queue active)
+Nov  8 23:49:51 rjacinto1-pri postfix/smtp[2647]: 2FAA120A5B1E: to=<sknasser1@sknasser1.com>, relay=none, delay=8839, delays=8839/0.04/0.03/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=sknasser1.com type=AAAA: Host not found)
+Nov  8 23:49:51 rjacinto1-pri postfix/cleanup[2650]: 347D820A5B09: message-id=<20201109044951.347D820A5B09@mail.rjacinto1.com>
+Nov  8 23:49:51 rjacinto1-pri postfix/qmgr[1248]: 347D820A5B09: from=<>, size=2585, nrcpt=1 (queue active)
+Nov  8 23:49:51 rjacinto1-pri postfix/bounce[2649]: 2FAA120A5B1E: sender non-delivery notification: 347D820A5B09
+Nov  8 23:49:51 rjacinto1-pri postfix/qmgr[1248]: 2FAA120A5B1E: removed
+Nov  8 23:49:51 rjacinto1-pri postfix/smtp[2648]: DE6A320A5B1F: to=<sknasser1@sknasser1.com>, relay=none, delay=8762, delays=8762/0.05/0.03/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=sknasser1.com type=AAAA: Host not found)
+Nov  8 23:49:51 rjacinto1-pri postfix/cleanup[2650]: 3A0F220A5B18: message-id=<20201109044951.3A0F220A5B18@mail.rjacinto1.com>
+Nov  8 23:49:51 rjacinto1-pri postfix/qmgr[1248]: 3A0F220A5B18: from=<>, size=2585, nrcpt=1 (queue active)
+Nov  8 23:49:51 rjacinto1-pri postfix/bounce[2649]: DE6A320A5B1F: sender non-delivery notification: 3A0F220A5B18
+Nov  8 23:49:51 rjacinto1-pri postfix/qmgr[1248]: DE6A320A5B1F: removed
+Nov  8 23:49:51 rjacinto1-pri postfix/local[2652]: 347D820A5B09: to=<rjacinto1@rjacinto1.com>, relay=local, delay=0.05, delays=0.02/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 23:49:51 rjacinto1-pri postfix/qmgr[1248]: 347D820A5B09: removed
+Nov  8 23:49:52 rjacinto1-pri postfix/local[2653]: 3A0F220A5B18: to=<rjacinto1@rjacinto1.com>, relay=local, delay=1.1, delays=0/0.01/0/1.1, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 23:49:52 rjacinto1-pri postfix/qmgr[1248]: 3A0F220A5B18: removed

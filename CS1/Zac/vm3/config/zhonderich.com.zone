@@ -1,0 +1,17 @@
+$ORIGIN zhonderich.com.
+$TTL 1D
+; SOA records
+@	IN	SOA zhonderich-pri.zhonderich.com. root.zhonderich.com. (
+	0	; serial
+	3H	; refresh
+	30m	; retry
+	3w	; expire
+	1h	; minimum
+)
+@	NS	zhonderich-pri.zhonderich.com.
+
+; A records
+zhonderich-pri	IN	A	192.168.12.53
+zhonderich-rns	IN	A	192.168.12.253
+www	IN	A	192.168.12.80
+mail	IN	A	192.168.12.24

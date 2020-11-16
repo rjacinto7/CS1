@@ -1,0 +1,59 @@
+Oct 21 18:10:35 Robert-vm2 unix_chkpwd[45002]: password check failed for user (student)
+Oct 21 18:10:35 Robert-vm2 sshd[45000]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.13.3  user=student
+Oct 21 18:10:37 Robert-vm2 sshd[45000]: Failed password for student from 192.168.13.3 port 53742 ssh2
+Oct 21 18:10:40 Robert-vm2 unix_chkpwd[45003]: password check failed for user (student)
+Oct 21 18:10:42 Robert-vm2 sshd[45000]: Failed password for student from 192.168.13.3 port 53742 ssh2
+Oct 21 18:10:51 Robert-vm2 unix_chkpwd[45004]: password check failed for user (student)
+Oct 21 18:10:54 Robert-vm2 sshd[45000]: Failed password for student from 192.168.13.3 port 53742 ssh2
+Oct 21 18:10:55 Robert-vm2 sshd[45000]: Connection closed by authenticating user student 192.168.13.3 port 53742 [preauth]
+Oct 21 18:10:55 Robert-vm2 sshd[45000]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.13.3  user=student
+Oct 21 18:11:19 Robert-vm2 unix_chkpwd[45007]: password check failed for user (student)
+Oct 21 18:11:19 Robert-vm2 sshd[45005]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.13.3  user=student
+Oct 21 18:11:21 Robert-vm2 sshd[45005]: Failed password for student from 192.168.13.3 port 53744 ssh2
+Oct 21 18:11:26 Robert-vm2 sshd[45005]: Connection closed by authenticating user student 192.168.13.3 port 53744 [preauth]
+Oct 21 18:37:42 Robert-vm2 unix_chkpwd[45021]: password check failed for user (rjacinto1)
+Oct 21 18:37:42 Robert-vm2 sudo[45019]: pam_unix(sudo:auth): authentication failure; logname=student uid=1002 euid=0 tty=/dev/tty6 ruser=rjacinto1 rhost=  user=rjacinto1
+Oct 21 18:37:53 Robert-vm2 sudo[45019]: pam_unix(sudo:auth): conversation failed
+Oct 21 18:37:53 Robert-vm2 sudo[45019]: pam_unix(sudo:auth): auth could not identify password for [rjacinto1]
+Oct 21 18:37:53 Robert-vm2 sudo[45019]: rjacinto1 : user NOT in sudoers ; TTY=tty6 ; PWD=/home/rjacinto1/lab3/log-backup ; USER=root ; COMMAND=/bin/su
+Oct 21 18:37:58 Robert-vm2 unix_chkpwd[45026]: password check failed for user (student)
+Oct 21 18:37:58 Robert-vm2 su[45024]: pam_unix(su:auth): authentication failure; logname=student uid=1002 euid=0 tty=tty6 ruser=student rhost=  user=student
+Oct 21 18:38:03 Robert-vm2 unix_chkpwd[45029]: password check failed for user (student)
+Oct 21 18:38:03 Robert-vm2 su[45027]: pam_unix(su:auth): authentication failure; logname=student uid=1002 euid=0 tty=tty6 ruser=student rhost=  user=student
+Oct 21 18:43:52 Robert-vm2 unix_chkpwd[45036]: password check failed for user (student)
+Oct 21 18:43:52 Robert-vm2 su[45034]: pam_unix(su:auth): authentication failure; logname=student uid=1002 euid=0 tty=tty6 ruser=student rhost=  user=student
+Oct 21 18:45:18 Robert-vm2 su[45037]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:45:18 Robert-vm2 su[45037]: pam_unix(su:session): session opened for user student by student(uid=1002)
+Oct 21 18:45:22 Robert-vm2 sudo[45063]: student : TTY=tty6 ; PWD=/home/rjacinto1/lab3/log-backup ; USER=root ; COMMAND=/bin/su
+Oct 21 18:45:22 Robert-vm2 sudo[45063]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:45:22 Robert-vm2 sudo[45063]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 18:45:22 Robert-vm2 su[45067]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 18:45:22 Robert-vm2 su[45067]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 21 18:45:40 Robert-vm2 groupadd[45093]: group added to /etc/group: name=named, GID=25
+Oct 21 18:45:40 Robert-vm2 groupadd[45093]: group added to /etc/gshadow: name=named
+Oct 21 18:45:40 Robert-vm2 groupadd[45093]: new group: name=named, GID=25
+Oct 21 18:45:40 Robert-vm2 useradd[45099]: new user: name=named, UID=25, GID=25, home=/var/named, shell=/bin/false
+Oct 21 21:51:16 rjacinto1-web polkitd[950]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 21 21:51:16 rjacinto1-web polkitd[950]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 21 21:51:16 rjacinto1-web polkitd[950]: Finished loading, compiling and executing 2 rules
+Oct 21 21:51:16 rjacinto1-web polkitd[950]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 21 21:51:20 rjacinto1-web sshd[994]: Server listening on 0.0.0.0 port 22.
+Oct 21 21:51:20 rjacinto1-web sshd[994]: Server listening on :: port 22.
+Oct 21 22:37:48 rjacinto1-web systemd[5154]: pam_unix(systemd-user:session): session opened for user student by (uid=0)
+Oct 21 22:37:48 rjacinto1-web login[1076]: pam_unix(login:session): session opened for user student by LOGIN(uid=0)
+Oct 21 22:37:48 rjacinto1-web login[1076]: LOGIN ON tty1 BY student
+Oct 21 22:37:58 rjacinto1-web sudo[5192]: student : TTY=tty1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/su
+Oct 21 22:37:58 rjacinto1-web sudo[5192]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:37:58 rjacinto1-web sudo[5192]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 21 22:37:58 rjacinto1-web su[5196]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 21 22:37:58 rjacinto1-web su[5196]: pam_unix(su:session): session opened for user root by student(uid=0)
+Oct 23 20:33:47 rjacinto1-web su[7344]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Oct 23 20:33:47 rjacinto1-web su[7344]: pam_unix(su:session): session opened for user student by student(uid=0)
+Oct 23 20:33:52 rjacinto1-web sudo[7367]: student : TTY=tty1 ; PWD=/home/student/rjacinto1/lab4 ; USER=root ; COMMAND=/sbin/iptables -nL
+Oct 23 20:33:52 rjacinto1-web sudo[7367]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 20:33:52 rjacinto1-web sudo[7367]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 23 20:33:52 rjacinto1-web sudo[7367]: pam_unix(sudo:session): session closed for user root
+Oct 23 20:36:06 rjacinto1-web sudo[7373]: student : TTY=tty1 ; PWD=/home/student/rjacinto1/lab4 ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Oct 23 20:36:06 rjacinto1-web sudo[7373]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Oct 23 20:36:06 rjacinto1-web sudo[7373]: pam_unix(sudo:session): session opened for user root by student(uid=0)
+Oct 23 20:36:10 rjacinto1-web sudo[7373]: pam_unix(sudo:session): session closed for user root
